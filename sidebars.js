@@ -104,6 +104,10 @@
     },
     {
       type: 'doc',
+      id: 'beaver-builder/test', // Index
+    },
+    {
+      type: 'doc',
       id: 'beaver-builder/about-this-release',
     },
     {
