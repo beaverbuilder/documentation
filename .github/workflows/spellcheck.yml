@@ -1,0 +1,13 @@
+name: SpellCheck
+
+on: push
+jobs:
+  run_action:
+    name: Run Spell Check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: codespell-project/actions-codespell@master
+      with:
+        path: docs
+        skip: beaver-themer-conditional-logic.md,conditional-logic-apis.md
