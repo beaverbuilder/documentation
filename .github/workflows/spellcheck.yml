@@ -11,3 +11,4 @@ jobs:
       with:
         path: docs
         skip: beaver-themer-conditional-logic.md,conditional-logic-apis.md
+        only_warn: 1
