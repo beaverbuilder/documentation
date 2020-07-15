@@ -1,0 +1,98 @@
+---
+id: launch-builder
+title: Launch the Beaver Builder editor
+sidebar_label: Launch the Beaver Builder editor
+---
+
+WordPress 5 uses the new block editor (also called the Standard
+Editor or Gutenberg editor) by default. You can still use the Classic Editor, which is what used
+to just be called _the_ WordPress editor. As of WordPress 5, if you wish to
+continue to use the Classic Editor, you must install it as a
+[plugin](https://wordpress.org/plugins/classic-editor/). This article contains
+the instructions for accessing the Beaver Builder editor from both the
+WordPress block editor and the classic editor UI, and from other locations in
+the WordPress admin panel or admin bar.
+
+:::note **Note**
+There is an increasing number of third-party (not from Automattic)
+classic editor plugins. If you want to disable Gutenberg entirely, we've found
+that both of the Disable Gutenberg plugins work with Beaver Builder. Most of
+the other plugins have been untested with Beaver Builder. If you are using a
+third-party plugin to restore the classic editor and have a problem not
+described here, please file a Beaver Builder Support ticket so that we can
+document the problem and any possible workarounds, or list it as incompatible.
+:::
+
+:::note **Note**
+If you want to edit a Post layout in Beaver Builder, you need to
+[enable Posts as a post type in the Beaver Builder settings](/beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder.md). 
+:::
+
+## 1\. From the WordPress editing page (block or classic)
+
+### 1.1 In the Block Editor (Gutenberg) UI
+
+When you create a page or open an existing page in the WordPress block editor,
+you'll see a choice to either launch Beaver Builder or use the Standard
+(Gutenberg) editor, as shown in the following screenshot.
+
+![](/img/the-basics-open-builder-editor-1.png)
+
+:::note **Note**
+Due to a longstanding bug in WordPress, if you have used an
+ampersand character (`&`) in your Beaver Builder content instead of the
+character entity (`&amp;`), when you click **Edit** for an existing Beaver
+Builder page, it will open directly in Gutenberg with a warning that there is
+invalid content. For example, if you have a heading such as "M&Ms" in a
+Heading module, changing it to "M&amp;Ms" will resolve the issue.
+:::
+
+### 1.2 In the Classic Editor UI
+
+Create a new page or open an existing page for editing in WordPress and click
+the **Beaver Builder** tab, as in the following screenshot.
+
+![](/img/the-basics-open-builder-editor-2.png)
+
+:::note **Note**
+If you don't see the **Beaver Builder** tab, one way to make it
+appear is to force the use of Classic editor rather than the Gutenberg editor.
+On the WordPress admin panel, go to **Settings > Writing** and select **No**
+for **Allow users to switch editors**. If you want users to continue to have a
+choice of WordPress editor for each page or post they create, use any of the
+other methods described here to open the Beaver Builder editor.
+:::
+
+## 2 From the **All Pages** list
+
+Mouse over a page in the **Pages > All Pages** list, then click the **Beaver
+Builder** link.
+
+![](/img/the-basics-open-builder-editor-3.png)
+
+:::tip **Tip**
+When a Beaver Builder layout already exists for a page, the Beaver
+Builder link is followed by a green button, as you can see in the screenshot.
+When a Beaver Builder layout hasn't been created yet, it's followed by a pale
+gray or white button.
+:::
+
+## 3 From the WordPress admin bar
+
+If you're viewing a page and you're logged in, the WordPress admin bar appears
+on a large screen, and you can click the **Beaver Builder** link to edit the
+page.
+
+![](/img/the-basics-open-builder-editor-4.png)
+
+When a Beaver Builder layout already exists for the page, the Beaver Builder
+link is followed by a green button, as you can see in the screenshot. When a
+Beaver Builder layout hasn't been created yet, it's followed by a pale gray
+button.
+
+:::tip **Tip**
+After the page is open for editing in Beaver Builder, you can watch a
+video with tips on how to create a layout. Click the down arrow in the title
+bar in the upper left corner of the editing page to expose the **Tools** menu.
+Choose **Help** and then start the video that's displayed.
+:::

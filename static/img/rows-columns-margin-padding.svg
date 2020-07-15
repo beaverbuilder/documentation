@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1402px" height="802px" viewBox="0 0 1402 802" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Box model</title>
+    <desc>The width and height of a border box apply to the content area. The padding, border width, and margin are added to that. Padding is inside the border; margins are outside the border.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rows-columns-margin-padding" transform="translate(1.000000, 1.000000)">
+            <path d="M0,0 L1400,0 L1400,800 L0,800 L0,0 Z" id="Rectangle" stroke="#B1B1B1" stroke-width="2" fill="#F1F1F1" fill-rule="nonzero" stroke-dasharray="16,6"></path>
+            <path d="M1300,100 L1300,700 L100,700 L100,100 L1300,100 Z M1250,150 L150,150 L150,650 L1250,650 L1250,150 Z" id="Combined-Shape" fill="#7CCA7F" fill-rule="nonzero"></path>
+            <g id="Margin" transform="translate(650.000000, 32.000000)" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="28" font-weight="bold">
+                <text>
+                    <tspan x="0" y="27">Margin</tspan>
+                </text>
+            </g>
+            <g id="Border" transform="translate(651.000000, 109.000000)" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="28" font-weight="bold">
+                <text>
+                    <tspan x="0" y="27">Border</tspan>
+                </text>
+            </g>
+            <path d="M250,250 L1150,250 L1150,550 L250,550 L250,250 Z" id="Rectangle" stroke="#B1B1B1" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-dasharray="16,6"></path>
+            <g id="Padding" transform="translate(642.000000, 177.000000)" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="28" font-weight="bold">
+                <text>
+                    <tspan x="0" y="27">Padding</tspan>
+                </text>
+            </g>
+            <g id="Content" transform="translate(643.000000, 274.000000)" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="28" font-weight="bold">
+                <text>
+                    <tspan x="7.10542736e-15" y="27">Content</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(250.000000, 485.000000)" fill="#979797" fill-rule="nonzero">
+                <polygon id="Line" points="19 0.75 19 8.75 882 8.75 882 11.75 19 11.75 19 19.75 0 10.25"></polygon>
+                <polygon id="Line" points="881.723462 0.05185779 900.749998 9.49859944 881.776683 19.0517833 881.754 11.051 721.754202 11.4999941 720.254208 11.5041958 720.245804 8.50420755 721.745798 8.50000589 881.745 8.052"></polygon>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="639" y="472" width="126" height="45"></rect>
+            <g id="Group-2" transform="translate(1065.000000, 248.000000)" fill="#979797" fill-rule="nonzero">
+                <polygon id="Line" points="9.5 0.5 19 19.5 11 19.5 11 297.5 8 297.5 8 19.5 0 19.5"></polygon>
+                <polygon id="Line" points="11.2374484 241.487553 11.2499479 242.9875 11.595 284.488 19.5955088 284.421478 10.2541665 303.499983 0.59616853 284.579806 8.596 284.512 8.25005208 243.0125 8.23755252 241.512552"></polygon>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" transform="translate(1076.000000, 397.000000) rotate(90.000000) translate(-1076.000000, -397.000000) " x="1017.5" y="374.5" width="117" height="45"></rect>
+            <g id="Width" transform="translate(670.000000, 482.000000)" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="22" font-weight="bold">
+                <text>
+                    <tspan x="0" y="21">Width</tspan>
+                </text>
+            </g>
+            <g id="Height" transform="translate(1076.500000, 400.000000) rotate(90.000000) translate(-1076.500000, -400.000000) translate(1042.000000, 387.000000)" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="22" font-weight="bold">
+                <text>
+                    <tspan x="0" y="21">Height</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

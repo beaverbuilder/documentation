@@ -1,0 +1,200 @@
+---
+id: custom-modules
+title: Custom module guide
+sidebar_label: Custom module guide
+---
+
+Creating custom modules for [Beaver Builder](https://wpbeaverbuilder.com) can
+open up a world of possibilities for you and your clients. You can extend and
+modify our existing modules to fit a specific use case, or create brand new
+modules.
+
+To get started, you can download our example plugin below and explore the code
+or read through the step-by-step guide provided here. Each chapter appears in
+a separate article that starts with _CMDG_.
+
+:::important Download
+[Download the Example Plugin](https://www.wpbeaverbuilder.com/downloads/bb-custom-module-examples-2.0.zip)
+:::
+
+In this step-by-step guide, we'll go over how to code custom modules with
+their own settings panel just like the modules included with the builder.
+
+A module reference and setting field reference is available at the end of this
+guide to further assist in your custom module coding.
+
+Additionally, you can override any of the built-in modules by following the
+steps in [CMDG 18: Override Built-In Modules](/beaver-builder/developer/custom-modules/cmdg-18-override-built-in-modules).
+
+<h3>Table of Contents</h3>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-01-create-a-plugin" aria-label="Create a plugin">
+  <div className="jump-to--main">
+    01: Create a plugin
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-02-add-a-module-to-your-plugin" aria-label="Add a module to your plugin">
+  <div className="jump-to--main">
+    02: Add a module to your plugin
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-03-define-module-settings" aria-label="Define module settings">
+  <div className="jump-to--main">
+    03: Define module settings
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-04-module-settings-css-and-javascript" aria-label="Module settings CSS and JavaScript">
+  <div className="jump-to--main">
+    04: Module settings CSS and JavaScript
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-05-module-html" aria-label="Module HTML">
+  <div className="jump-to--main">
+    05: Module HTML
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-06-module-css" aria-label="Module CSS">
+  <div className="jump-to--main">
+    06: Module CSS
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-07-module-javascript" aria-label="Module JavaScript">
+  <div className="jump-to--main">
+    07: Module JavaScript
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-08-module-property-reference" aria-label="Module property reference">
+  <div className="jump-to--main">
+    08: Module property reference
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-09-module-method-reference" aria-label="Module method reference">
+  <div className="jump-to--main">
+    09: Module method reference
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference" aria-label="Setting fields reference">
+  <div className="jump-to--main">
+    10: Setting fields reference
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-11-responsive-fields-reference" aria-label="Responsive fields reference">
+  <div className="jump-to--main">
+    11: Responsive fields reference
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-12-repeater-fields-reference" aria-label="Repeater fields reference">
+  <div className="jump-to--main">
+    12: Repeater fields reference
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-13-sanitize-field-values" aria-label="Sanitize field values">
+  <div className="jump-to--main">
+    13: Sanitize field values
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-14-create-custom-fields" aria-label="Create custom fields">
+  <div className="jump-to--main">
+    14: Create custom fields
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-15-helpers" aria-label="Helpers">
+  <div className="jump-to--main">
+    15: Helpers
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-16-live-preview-reference" aria-label="Live preview reference">
+  <div className="jump-to--main">
+    16: Live preview reference
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-17-partial-refresh-reference" aria-label="Partial refresh reference">
+  <div className="jump-to--main">
+    17: Partial refresh reference
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-18-override-built-in-modules" aria-label="Override built-in modules">
+  <div className="jump-to--main">
+    18: Override built-in modules
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
+
+<a className="jump-to" href="/beaver-builder/developer/custom-modules/cmdg-19-localization" aria-label="Localization">
+  <div className="jump-to--main">
+    19: Localization
+  </div>
+  <div className="jump-to--icon">
+    <i className="fas fa-chevron-right" />
+  </div>
+</a>
