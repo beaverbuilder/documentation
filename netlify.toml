@@ -1,0 +1,5 @@
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/how-to-tips/use-smtp-to-send-form-notifications"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/use-smtp-to-send-form-notifications"
+status = 301
+force = false
