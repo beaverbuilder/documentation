@@ -3,6 +3,25 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/how-to-tips/use-smtp-to-
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/use-smtp-to-send-form-notifications"
 status = 301
 force = false
+
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/316-what-modules-are-included-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/faq/what-modules-are-included-in-beaver-builder/"
+status = 301
+force = false
+
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/326-what-s-the-difference-between-multisite-support-and-network-wide-settings"
+to = "https://docs.wpbeaverbuilder.com/general/faq/difference-between-multisite-support-and-network-wide-settings/"
+status = 301
+force = false
+
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/327-how-many-sites-can-i-use-beaver-builder-on"
+to = "https://docs.wpbeaverbuilder.com/general/faq/how-many-sites-can-i-use-beaver-builder-on/"
+status = 301
+force = false
+
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com"
 to = "https://docs.wpbeaverbuilder.com"
