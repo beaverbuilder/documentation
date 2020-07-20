@@ -4,7 +4,7 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-iss
 status = 301
 force = false
 [[redirects]]
-from = "https://kb.wpbeaverbuilder.com/?$"
-to = "https://docs.wpbeaverbuilder.com/"
+from = "https://kb.wpbeaverbuilder.com"
+to = "https://docs.wpbeaverbuilder.com"
 status = 301
-force = false
+force = true
