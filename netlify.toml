@@ -1,26 +1,357 @@
+# Redirect Contact Form module doc link
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/how-to-tips/use-smtp-to-send-form-notifications"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/use-smtp-to-send-form-notifications"
 status = 301
 force = false
 
+# Redirects from old KB to new KB
+
+# General
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/collection/10-general"
+to = "https://docs.wpbeaverbuilder.com/general"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/593-glossary-of-beaver-builder-and-wordpress-terms"
+to = "https://docs.wpbeaverbuilder.com/general/glossary"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/508-software-releases-and-versioning"
+to = "https://docs.wpbeaverbuilder.com/general/software-releases-and-versioning"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/22-alpha-and-beta-releases"
+to = "https://docs.wpbeaverbuilder.com/general/alpha-and-beta-releases"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/362-beaver-builder-and-accessibility"
+to = "https://docs.wpbeaverbuilder.com/general/accessibility"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/589-support-policy"
+to = "https://docs.wpbeaverbuilder.com/general/support-policy"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/606-translations"
+to = "https://docs.wpbeaverbuilder.com/general/translations"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/649-gdpr"
+to = "https://docs.wpbeaverbuilder.com/general/gdpr"
+status = 301
+force = false
+
+# Pre-Sales
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/708-pre-sales"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/709-difference-between-free-and-premium-versions"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/difference-between-free-and-premium-versions"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/712-can-i-use-beaver-builder-with-any-theme"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-use-beaver-builder-with-any-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/711-does-beaver-builder-work-with-other-cmss"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/does-beaver-builder-work-with-other-cmss"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/713-is-our-pricing-monthly-annually-or-a-one-time-payment"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/is-our-pricing-monthly-annually-or-one-time"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/710-which-beaver-builder-packages-include-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/which-beaver-builder-packages-include-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/717-what-payment-methods-do-you-accept"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/what-payment-methods-do-you-accept"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/719-is-there-a-renewal-discount"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/is-there-a-renewal-discount"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/721-can-i-upgrade-a-license-after-i-have-already-purchased-one"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-upgrade-a-license-after-i-have-already-purchased-one"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/722-what-happens-if-i-dont-renew-my-license-will-beaver-builder-still-work"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/what-happens-if-i-dont-renew-my-license-will-beaver-builder-still-work"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/724-can-i-use-beaver-builder-to-create-websites-for-clients"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-use-beaver-builder-to-create-websites-for-clients"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/725-do-you-provide-hosting"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/do-you-provide-hosting"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/726-do-you-provide-a-design-service"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/do-you-provide-a-design-service"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/727-can-i-include-beaver-builder-with-my-theme"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-include-beaver-builder-with-my-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/723-do-you-offer-a-trial-version"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/do-you-offer-a-trial-version"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/728-can-i-edit-my-blog-page-with-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-edit-my-blog-page-with-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/122-upgrade-from-free-to-premium-version-of-beaver-buidler"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/upgrade-from-free-to-premium-version-of-beaver-buidler"
+status = 301
+force = false
+
+# Account & Billing
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/13-account-information"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/14-my-account-page-overview"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/my-account-page-overview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/16-view-your-license"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/view-your-license"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/17-manage-plugin-activations-centrally"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/manage-plugin-activations-centrally"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/19-upgrade-your-premium-license"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/upgrade-your-premium-license"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/20-renew-your-beaver-builder-subscription"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/renew-your-beaver-builder-subscription"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/23-my-beaver-builder-license-was-deactivated"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/my-beaver-builder-license-was-deactivated"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/24-suggest-new-features"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/suggest-new-features"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/25-manage-your-credit-card-information"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/manage-your-credit-card-information"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/26-change-email-address-or-password-for-your-beaver-builder-account"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/change-email-address-or-password-for-your-beaver-builder-account"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/385-request-an-invoice"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/request-an-invoice"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/420-restore-a-removed-domain-in-domain-manager"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/restore-a-removed-domain-in-domain-manager"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/470-cancel-your-automatic-renewal"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/cancel-your-automatic-renewal"
+status = 301
+force = false
+
+# FAQ
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/345-faqs"
+to = "https://docs.wpbeaverbuilder.com/general/faq/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/321-can-i-modify-my-themes-header-and-footer-with-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-modify-my-themes-header-and-footer-with-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/438-whats-the-difference-between-beaver-builder-theme-and-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/general/faq/whats-the-difference-between-beaver-builder-theme-and-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/635-is-beaver-builder-compatible-with-gutenberg"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-beaver-builder-compatible-with-gutenberg"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/325-do-i-lose-my-work-if-i-dont-renew-my-subscription"
+to = "https://docs.wpbeaverbuilder.com/general/faq/do-i-lose-my-work-if-i-dont-renew-my-subscription"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/368-is-there-an-easy-way-to-convert-my-website-to-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-there-an-easy-way-to-convert-my-website-to-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/312-is-beaver-builder-a-plugin-or-a-theme"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-beaver-builder-a-plugin-or-a-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/317-does-beaver-builder-work-with-posts-and-custom-post-types"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-work-with-posts-and-custom-post-types"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/322-can-i-create-my-own-modules-for-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-create-my-own-modules-for-beaver-builder/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/314-do-i-need-to-use-the-beaver-builder-theme-with-beaver-builder-plugin"
+to = "https://docs.wpbeaverbuilder.com/general/faq/do-i-need-to-use-the-beaver-builder-theme-with-beaver-builder-plugin/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/323-how-does-beaver-builder-s-white-labeling-feature-work"
+to = "https://docs.wpbeaverbuilder.com/general/faq/how-does-beaver-builders-white-labeling-feature-work/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/324-is-there-a-discount-on-annual-renewals"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-there-a-discount-on-annual-renewals/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/332-can-i-include-beaver-builder-as-part-of-a-premium-or-free-wordpress-theme"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-include-beaver-builder-as-part-of-a-premium-or-free-wordpress-theme/"
+status = 301
+force = false
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com/article/316-what-modules-are-included-in-beaver-builder"
 to = "https://docs.wpbeaverbuilder.com/general/faq/what-modules-are-included-in-beaver-builder/"
 status = 301
 force = false
-
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/313-does-beaver-builder-work-with-e-commerce-plugins"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-work-with-e-commerce-plugins/"
+status = 301
+force = false
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com/article/326-what-s-the-difference-between-multisite-support-and-network-wide-settings"
 to = "https://docs.wpbeaverbuilder.com/general/faq/difference-between-multisite-support-and-network-wide-settings/"
 status = 301
 force = false
-
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com/article/327-how-many-sites-can-i-use-beaver-builder-on"
 to = "https://docs.wpbeaverbuilder.com/general/faq/how-many-sites-can-i-use-beaver-builder-on/"
 status = 301
 force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/330-whats-your-refund-policy"
+to = "https://docs.wpbeaverbuilder.com/general/faq/whats-your-refund-policy/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/318-is-beaver-builder-compatible-with-x-theme-or-y-plugin"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-beaver-builder-compatible-with-x-theme-or-y-plugin/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/319-does-beaver-builder-support-shortcodes"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-support-shortcodes/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/331-can-i-include-beaver-builder-as-part-of-my-hosted-website-builder-platform"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-include-beaver-builder-as-part-of-my-hosted-website-builder-platform/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/333-can-you-build-my-website-for-me"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-you-build-my-website-for-me/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/320-does-beaver-builder-support-third-party-widgets"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-support-third-party-widgets/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/340-will-my-license-renew-automatically"
+to = "https://docs.wpbeaverbuilder.com/general/faq/will-my-license-renew-automatically/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/315-is-there-a-marketplace-for-selling-our-custom-modules-or-extensions"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-there-a-marketplace-for-selling-our-custom-modules-or-extensions/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/339-can-i-try-beaver-builder-before-i-buy-it"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-try-beaver-builder-before-i-buy-it/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/430-i-tried-the-demo-but-what-other-settings-are-there"
+to = "https://docs.wpbeaverbuilder.com/general/faq/i-tried-the-demo-but-what-other-settings-are-there/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/329-can-i-upgrade-my-subscription-after-signing-up"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-upgrade-my-subscription-after-signing-up/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/705-how-do-i-find-out-whats-changed-in-each-release"
+to = "https://docs.wpbeaverbuilder.com/general/faq/how-do-i-find-out-whats-changed-in-each-release/"
+status = 301
+force = false
+
+
+
 
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com"
