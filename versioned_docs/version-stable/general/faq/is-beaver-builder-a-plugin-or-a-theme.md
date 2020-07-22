@@ -4,7 +4,7 @@ title: Is Beaver Builder a plugin or a theme?
 sidebar_label: Is Beaver Builder a plugin or a theme?
 ---
 
-The Beaver Builder page builder is a plugin, but some of our premium packages include a framework Beaver Builder Theme, as described ehre.
+The Beaver Builder page builder is a plugin, but some of our premium packages include a framework Beaver Builder Theme, as described here.
 
 Our standard premium package includes just the Beaver Builder page builder plugin. The page builder
 is a visual layout tool to help you build layouts and add
