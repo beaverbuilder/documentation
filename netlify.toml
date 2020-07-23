@@ -1498,7 +1498,481 @@ status = 301
 force = false
 
 # Beaver Themer
-
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/collection/397-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/771-beaver-themer-1-3-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/new-release-info/beaver-themer-1-3-overview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/700-what-can-i-do-with-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/what-can-i-do-with-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/403-install-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/install-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/393-i-installed-beaver-themer-now-what"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/i-installed-beaver-themer-now-what"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/466-primer-on-wordpress-content-and-theme-areas-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/437-themer-header-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/394-tutorial-create-a-header-layout-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/header-layout-type/tutorial-create-a-header-layout-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/465-themer-footer-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/footer-layout-type/themer-footer-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/450-themer-archive-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/456-themer-archive-layout-archive-title-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-title-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/452-themer-archive-layout-archive-description-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-description-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/457-themer-archive-layout-post-columns-gallery-list-masonry-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-post-columns-gallery-list-masonry-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/458-example-themer-archive-layout-for-custom-post-type-categories"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/example-themer-archive-layout-for-custom-post-type-categories"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/459-tutorial-create-an-author-archive-themer-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/tutorial-create-an-author-archive-themer-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/577-create-a-card-layout-for-posts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/create-a-card-layout-for-posts-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/436-themer-singular-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/442-themer-singular-layout-attached-images-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-attached-images-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/443-themer-singular-layout-author-bio-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-author-bio-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/444-themer-singular-layout-comments-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-comments-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/445-themer-singular-layout-featured-image-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-featured-image-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/446-themer-singular-layout-post-content-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-content-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/447-themer-singular-layout-post-info-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-info-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/448-themer-singular-layout-post-navigation-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-navigation-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/449-themer-singular-layout-post-title-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-title-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/610-use-the-posts-module-to-create-related-posts"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/use-the-posts-module-to-create-related-posts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/422-add-a-singular-themer-layout-to-the-wordpress-page-template-field"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/add-a-singular-themer-layout-to-the-wordpress-page-template-field"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/464-themer-404-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/404-layout-type/themer-404-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/468-themer-part-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/part-layout-type/themer-part-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/605-add-yoast-breadcrumbs-with-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/535-woocommerce-integration"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/486-create-an-archive-themer-layout-for-woocommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/485-create-a-singular-themer-layout-for-woocommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/create-a-singular-themer-layout-for-woocommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/473-breadcrumb-module-for-woocommerce-singular-and-archive-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/breadcrumb-module-for-woocommerce-singular-and-archive-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/483-products-module-for-woocommerce-archive-themer-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/products-module-for-woocommerce-archive-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/472-add-to-cart-button-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/add-to-cart-button-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/474-product-description-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-description-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/475-product-images-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-images-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/476-product-meta-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-meta-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/477-product-price-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-price-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/478-product-rating-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-rating-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/479-product-tabs-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-tabs-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/480-product-title-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-title-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/480-product-title-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-upsells-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/482-related-products-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/related-products-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/774-woocommerce-field-connection-shortcode-index"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/756-bigcommerce-integration-alpha"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/742-beaver-themer-layouts-for-bigcommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/beaver-themer-layouts-for-bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/744-create-an-archive-themer-layout-for-bigcommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/create-an-archive-themer-layout-for-bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/743-create-a-themer-layout-to-display-a-single-bigcommerce-product"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/create-a-themer-layout-to-display-a-single-bigcommerce-product"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/754-products-posts-module-for-bigcommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/products-posts-module-for-bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/536-beaver-themer-and-the-edd-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/easy-digital-downloads/beaver-themer-and-the-edd-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/539-create-an-archive-themer-layout-for-edd-download-sets"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/538-create-a-singular-themer-layout-for-edd-download-items-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/easy-digital-downloads/create-a-singular-themer-layout-for-edd-download-items-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/533-the-events-calendar-integration"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/531-beaver-thmer-and-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/beaver-themer-and-the-events-calendar-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/529-create-an-archive-themer-layout-for-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-an-archive-themer-layout-for-the-events-calendar-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/530-archive-themer-layout-event-calendar-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-calendar-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/532-archive-themer-layout-event-posts-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-posts-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/534-create-a-singular-themer-layout-for-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-a-singular-themer-layout-for-the-events-calendar-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/388-field-connection-basics-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-basics-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/390-field-connection-shortcodes-overview-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcodes-overview-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/516-add-edit-or-delete-a-field-connection-or-shortcode-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/460-connect-custom-fields-wordpress-toolset-pods-acf-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/517-conditional-shortcodes-for-field-connections-overview-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/775-use-conditional-shortcode-to-test-for-presence-of-content-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/543-find-the-full-list-of-field-connection-and-parameters-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/572-field-connection-shortcode-index-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcode-index-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/570-troubleshoot-field-connection-shortcodes-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/404-connect-to-acf-fields-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/694-acf-radio-button-field-connection-examples"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/acf-radio-button-field-connection-examples"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/653-use-acf-flexible-content-field-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-flexible-content-field-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/461-use-acf-repeater-fields-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-fields-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/659-use-acf-repeater-and-flexible-content-fields-together"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-and-flexible-content-fields-together"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/581-test-for-values-in-shortcodes-for-advanced-custom-fields"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/test-for-values-in-shortcodes-for-advanced-custom-fields"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/629-list-related-posts-using-acf-relationship-field-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/list-related-posts-using-acf-relationship-field-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/395-display-a-wordpress-custom-field-in-a-singular-themer-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/580-test-for-values-in-wordpress-custom-field-shortcode"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/test-for-values-in-wordpress-custom-field-shortcode"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/571-build-this-display-a-pods-custom-field-and-separator-only-when-theres-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/676-themer-locations-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/locations/themer-locations-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/674-beaver-themer-conditional-logic"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/conditional-logic/beaver-themer-conditional-logic"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/428-beaver-themer-supported-themes"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/beaver-themer-supported-themes"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/469-full-width-layouts-on-third-party-themes-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/full-width-layouts-on-third-party-themes-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/440-export-beaver-themer-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/export-beaver-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/750-why-does-my-themer-layout-say-unsupported"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/451-message-this-post-has-a-themer-layout-assigned"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/message-this-post-has-a-themer-layout-assigned"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/396-troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/402-developer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/389-add-header-footer-and-parts-support-to-your-theme-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/673-conditional-logic-apis"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/conditional-logic-apis"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/391-customize-field-connections-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/customize-field-connections-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/640-customize-themer-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/customize-themer-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/462-hide-row-or-module-when-field-connection-is-empty-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/434-hooks-reference-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/hooks-reference-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/736-wp-cli-for-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/wp-cli-for-beaver-themer"
+status = 301
+force = false
 
 
 
