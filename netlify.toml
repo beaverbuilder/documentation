@@ -1974,9 +1974,509 @@ to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/wp-cli-for-beaver
 status = 301
 force = false
 
+# BB Theme
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/collection/7-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/31-install-the-beaver-builder-theme-and-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/install-the-bb-theme-and-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/455-do-i-need-to-install-the-beaver-builder-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/348-manually-reinstall-beaver-builder-plugin-and-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/manually-reinstall-bb-theme-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/305-built-in-theme-templates-for-single-pages-and-posts"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/151-open-the-wordpress-customizer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/open-the-wordpress-customizer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/207-create-a-site-title-and-tagline"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/site-settings/create-a-site-title-and-tagline"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/206-add-a-site-icon-favicon"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/site-settings/add-a-site-icon-favicon"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/208-set-whether-the-home-page-is-a-page-or-post"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/site-settings/set-whether-the-home-page-is-a-page-or-post"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/286-peset-tips"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/presets/preset-tips"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/285-convert-the-premier-or-deluxe-preset-to-entirely-full-width"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/presets/convert-the-premier-or-deluxe-preset-to-entirely-full-width"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/135-overview-of-full-width-and-boxed-pages-and-rows"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/full-width-boxed/overview-of-full-width-and-boxed-pages-and-rows"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/189-set-a-full-width-or-boxed-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-or-boxed-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/148-set-a-full-width-header-with-boxed-content"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-header-with-boxed-content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/197-set-header-layout-and-style"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/set-header-layout-and-style"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/739-fixed-header-types"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/fixed-header-types"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/171-align-the-top-bar-columns-with-content-margins"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/align-the-top-bar-columns-with-content-margins"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/672-change-size-of-fade-in-fixed-header-logo-text"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/change-size-of-fade-in-fixed-header-logo-text"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/237-merge-page-content-into-the-header"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/merge-page-content-into-the-header"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/172-add-the-site-tagline-to-the-header"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-the-site-tagline-to-the-header"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/164-change-header-logo-size-in-nav-bottom-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/change-header-logo-size-in-nav-bottom-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/137-remove-the-header-and-footer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/remove-the-header-and-footer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/245-hide-the-header-nav-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/hide-the-header-nav-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/209-create-menus-and-set-menu-locations"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/create-menus-and-set-menu-locations"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/655-choose-how-menus-open-responsively"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/139-set-up-a-mega-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/set-up-a-mega-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/166-add-buttons-to-your-navigation-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-buttons-to-your-navigation-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/421-add-css-classes-to-individual-menu-items"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-css-classes-to-individual-menu-items"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/261-add-shortcodes-or-html-to-your-nav-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-shortcodes-or-html-to-your-nav-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/291-center-the-nav-menu-with-nav-bottom-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/center-the-nav-menu-with-nav-bottom-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/204-set-footer-layout-and-style-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/footers/set-footer-layout-and-style-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/265-customize-the-default-theme-footer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/footers/customize-the-default-theme-footer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/165-force-footer-to-bottom-on-short-pages"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/footers/force-footer-to-bottom-on-short-pages"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/175-configure-how-wordpress-handles-your-blog"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/blog-settings/configure-how-wordpress-handles-your-blog"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/752-remove-website-field-url-from-post-comments"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/blog-settings/remove-website-field-url-from-post-comments"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/239-use-the-beaver-builder-themes-sidebar-in-posts-and-pages"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/sidebars/use-the-beaver-builder-themes-sidebar-in-posts-and-pages"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/235-position-left-sidebar-below-content-in-mobile"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/sidebars/position-left-sidebar-below-content-in-mobile"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/205-configure-the-widgets-in-the-primary-sidebar"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/configure-the-widgets-in-the-primary-sidebar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/202-set-options-for-footer-widgets"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/set-options-for-footer-widgets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/169-change-the-width-of-footer-widgets"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/change-the-width-of-footer-widgets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/615-add-a-widget-area-after-the-beaver-builder-theme-top-bar"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/add-a-widget-area-after-the-beaver-builder-theme-top-bar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/211-where-can-i-add-social-icons"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/icons/where-can-i-add-social-icons"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/684-choose-how-font-awesome-icons-load-in-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/150-adjust-the-size-of-the-social-icons"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/icons/adjust-the-size-of-the-social-icons"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/639-beaver-builder-theme-shortcode-for-current-date"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/shortcode-for-current-date"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/200-set-woocommerce-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/set-woocommerce-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/609-add-yoast-breadcrumbs-to-the-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/add-yoast-breadcrumbs-to-the-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/582-integrate-sensei-with-the-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/integrate-sensei-with-the-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/193-set-a-background-color-or-image-for-the-browser-window"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-the-browser-window"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/198-set-a-background-color-or-image-for-content-area"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-content-area"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/244-where-do-menu-colors-come-from"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/243-change-menu-link-and-icon-colors-on-smalll-devices"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/change-menu-link-and-icon-colors-on-small-devices"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/553-add-color-presets-to-customizer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/194-change-the-default-color-for-buttons-and-links"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/links/change-the-default-color-for-buttons-and-links"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/643-set-global-default-button-styles"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/links/set-global-default-button-styles"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/255-add-underlines-to-link-text-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/links/add-underlines-to-link-text-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/196-set-sitewide-style-options-for-headings-and-text"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/set-sitewide-style-options-for-headings-and-text"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/738-set-responsive-default-text-styles-for-beaver-builder-layouts"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/set-responsive-default-text-styles-for-beaver-builder-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/682-customizer-font-family-setting-system-ui"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/195-use-a-google-font-in-headings-and-text"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/use-a-google-font-in-headings-and-text"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/234-add-web-fonts-to-your-theme-and-the-beaver-builder-plugin"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/add-web-fonts-to-your-theme-and-the-beaver-builder-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/560-add-web-fonts-complex-example"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/add-web-fonts-complex-example"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/145-load-and-use-adobe-fonts"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/load-and-use-adobe-fonts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/426-load-and-use-google-fonts-not-available-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/load-and-use-google-fonts-not-available-in-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/201-enable-or-disable-whether-images-appear-in-a-lightbox"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/images/enable-or-disable-whether-images-appear-in-a-lightbox"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/152-customizer-settings-the-presets-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/presets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/153-customizer-settings-the-general-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/general"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/155-customizer-settings-the-header-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/header"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/156-customizer-settings-the-content-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/157-customizer-settings-the-footer-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/footer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/158-customizer-settings-the-widgets-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/widgets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/159-customizer-settings-the-code-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/code"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/160-customizer-settings-the-settings-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/settings"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/161-customizer-settings-the-menus-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/menus"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/758-customizer-settings-the-bigcommerce-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/441-customizer-settings-additional-css"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/additional-css"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/163-customizer-settings-the-export-import-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/export-import"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/203-insert-site-wide-css-or-javascript-code"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/code/insert-site-wide-css-or-javascript-code"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/190-insert-google-analytics-code"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/code/insert-google-analytics-code"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/280-beaver-builder-theme-customizer-settings-mapped-to-css"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/code/beaver-builder-theme-customizer-settings-mapped-to-css"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/683-choose-bootstrap-3-or-4"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/management-migration/choose-bootstrap-3-or-4"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/210-export-or-import-customizer-settings"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/management-migration/export-or-import-customizer-settings"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/748-move-parent-theme-customizer-settings-to-a-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/management-migration/move-parent-theme-customizer-settings-to-a-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/168-fix-ubermenu-mobile-navigation-duplication"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/fix-ubermenu-mobile-navigation-duplication"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/288-preset-troubleshooting-resetting-color-to-default-doesnt-work"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/cannot-reset-color-to-default"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/287-preset-troubleshooting-the-background-color-in-customizer-doesnt-match-the-preview"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/background-color-in-customizer-doesnt-match-the-preview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/627-jquery-modal-incompatibility"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/jquery-modal-incompatibility"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/264-custom-brand-your-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/white-labeling/white-label-your-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/423-add-a-page-post-or-custom-post-type-template"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/add-a-page-post-or-custom-post-type-template"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/638-insert-beaver-builder-shortcode-into-a-theme-template-file"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/insert-beaver-builder-shortcode-into-a-theme-template-file"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/143-theme-action-reference"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/theme-action-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/144-theme-filter-reference"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/theme-filter-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/141-theme-css-reference"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/theme-css-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/357-remove-a-customizer-panel"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/remove-a-customizer-tab"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/147-add-a-custom-theme-preset"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-a-custom-theme-preset"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/283-add-theme-preset-general"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-general-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/284-add-theme-preset-header-tab-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-header-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/342-add-theme-preset-content-tab-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-content-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/343-add-theme-preset-footer-tab-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-footer-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/346-remove-an-existing-or-custom-preset"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/remove-an-existing-or-custom-preset"
+status = 301
+force = false
 
-
-
+# Home page
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com"
 to = "https://docs.wpbeaverbuilder.com"
