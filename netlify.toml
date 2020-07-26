@@ -1,27 +1,2482 @@
+# Redirect Contact Form module doc link
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/how-to-tips/use-smtp-to-send-form-notifications"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/use-smtp-to-send-form-notifications"
 status = 301
 force = false
 
+# Redirects from old KB to new KB
+
+# General
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/collection/10-general"
+to = "https://docs.wpbeaverbuilder.com/general"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/593-glossary-of-beaver-builder-and-wordpress-terms"
+to = "https://docs.wpbeaverbuilder.com/general/glossary"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/508-software-releases-and-versioning"
+to = "https://docs.wpbeaverbuilder.com/general/software-releases-and-versioning"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/22-alpha-and-beta-releases"
+to = "https://docs.wpbeaverbuilder.com/general/alpha-and-beta-releases"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/362-beaver-builder-and-accessibility"
+to = "https://docs.wpbeaverbuilder.com/general/accessibility"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/589-support-policy"
+to = "https://docs.wpbeaverbuilder.com/general/support-policy"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/606-translations"
+to = "https://docs.wpbeaverbuilder.com/general/translations"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/649-gdpr"
+to = "https://docs.wpbeaverbuilder.com/general/gdpr"
+status = 301
+force = false
+
+# Pre-Sales
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/708-pre-sales"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/709-difference-between-free-and-premium-versions"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/difference-between-free-and-premium-versions"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/712-can-i-use-beaver-builder-with-any-theme"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-use-beaver-builder-with-any-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/711-does-beaver-builder-work-with-other-cmss"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/does-beaver-builder-work-with-other-cmss"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/713-is-our-pricing-monthly-annually-or-a-one-time-payment"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/is-our-pricing-monthly-annually-or-one-time"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/710-which-beaver-builder-packages-include-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/which-beaver-builder-packages-include-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/717-what-payment-methods-do-you-accept"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/what-payment-methods-do-you-accept"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/719-is-there-a-renewal-discount"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/is-there-a-renewal-discount"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/721-can-i-upgrade-a-license-after-i-have-already-purchased-one"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-upgrade-a-license-after-i-have-already-purchased-one"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/722-what-happens-if-i-dont-renew-my-license-will-beaver-builder-still-work"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/what-happens-if-i-dont-renew-my-license-will-beaver-builder-still-work"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/724-can-i-use-beaver-builder-to-create-websites-for-clients"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-use-beaver-builder-to-create-websites-for-clients"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/725-do-you-provide-hosting"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/do-you-provide-hosting"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/726-do-you-provide-a-design-service"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/do-you-provide-a-design-service"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/727-can-i-include-beaver-builder-with-my-theme"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-include-beaver-builder-with-my-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/723-do-you-offer-a-trial-version"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/do-you-offer-a-trial-version"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/728-can-i-edit-my-blog-page-with-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-edit-my-blog-page-with-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/122-upgrade-from-free-to-premium-version-of-beaver-buidler"
+to = "https://docs.wpbeaverbuilder.com/general/pre-sales/upgrade-from-free-to-premium-version-of-beaver-buidler"
+status = 301
+force = false
+
+# Account & Billing
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/13-account-information"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/14-my-account-page-overview"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/my-account-page-overview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/16-view-your-license"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/view-your-license"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/17-manage-plugin-activations-centrally"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/manage-plugin-activations-centrally"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/19-upgrade-your-premium-license"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/upgrade-your-premium-license"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/20-renew-your-beaver-builder-subscription"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/renew-your-beaver-builder-subscription"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/23-my-beaver-builder-license-was-deactivated"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/my-beaver-builder-license-was-deactivated"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/24-suggest-new-features"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/suggest-new-features"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/25-manage-your-credit-card-information"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/manage-your-credit-card-information"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/26-change-email-address-or-password-for-your-beaver-builder-account"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/change-email-address-or-password-for-your-beaver-builder-account"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/385-request-an-invoice"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/request-an-invoice"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/420-restore-a-removed-domain-in-domain-manager"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/restore-a-removed-domain-in-domain-manager"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/470-cancel-your-automatic-renewal"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/cancel-your-automatic-renewal"
+status = 301
+force = false
+
+# FAQ
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/345-faqs"
+to = "https://docs.wpbeaverbuilder.com/general/faq/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/321-can-i-modify-my-themes-header-and-footer-with-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-modify-my-themes-header-and-footer-with-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/438-whats-the-difference-between-beaver-builder-theme-and-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/general/faq/whats-the-difference-between-beaver-builder-theme-and-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/635-is-beaver-builder-compatible-with-gutenberg"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-beaver-builder-compatible-with-gutenberg"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/325-do-i-lose-my-work-if-i-dont-renew-my-subscription"
+to = "https://docs.wpbeaverbuilder.com/general/faq/do-i-lose-my-work-if-i-dont-renew-my-subscription"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/368-is-there-an-easy-way-to-convert-my-website-to-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-there-an-easy-way-to-convert-my-website-to-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/312-is-beaver-builder-a-plugin-or-a-theme"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-beaver-builder-a-plugin-or-a-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/317-does-beaver-builder-work-with-posts-and-custom-post-types"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-work-with-posts-and-custom-post-types"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/322-can-i-create-my-own-modules-for-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-create-my-own-modules-for-beaver-builder/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/314-do-i-need-to-use-the-beaver-builder-theme-with-beaver-builder-plugin"
+to = "https://docs.wpbeaverbuilder.com/general/faq/do-i-need-to-use-the-beaver-builder-theme-with-beaver-builder-plugin/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/323-how-does-beaver-builder-s-white-labeling-feature-work"
+to = "https://docs.wpbeaverbuilder.com/general/faq/how-does-beaver-builders-white-labeling-feature-work/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/324-is-there-a-discount-on-annual-renewals"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-there-a-discount-on-annual-renewals/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/332-can-i-include-beaver-builder-as-part-of-a-premium-or-free-wordpress-theme"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-include-beaver-builder-as-part-of-a-premium-or-free-wordpress-theme/"
+status = 301
+force = false
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com/article/316-what-modules-are-included-in-beaver-builder"
 to = "https://docs.wpbeaverbuilder.com/general/faq/what-modules-are-included-in-beaver-builder/"
 status = 301
 force = false
-
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/313-does-beaver-builder-work-with-e-commerce-plugins"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-work-with-e-commerce-plugins/"
+status = 301
+force = false
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com/article/326-what-s-the-difference-between-multisite-support-and-network-wide-settings"
 to = "https://docs.wpbeaverbuilder.com/general/faq/difference-between-multisite-support-and-network-wide-settings/"
 status = 301
 force = false
-
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com/article/327-how-many-sites-can-i-use-beaver-builder-on"
 to = "https://docs.wpbeaverbuilder.com/general/faq/how-many-sites-can-i-use-beaver-builder-on/"
 status = 301
 force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/330-whats-your-refund-policy"
+to = "https://docs.wpbeaverbuilder.com/general/faq/whats-your-refund-policy/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/318-is-beaver-builder-compatible-with-x-theme-or-y-plugin"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-beaver-builder-compatible-with-x-theme-or-y-plugin/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/319-does-beaver-builder-support-shortcodes"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-support-shortcodes/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/331-can-i-include-beaver-builder-as-part-of-my-hosted-website-builder-platform"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-include-beaver-builder-as-part-of-my-hosted-website-builder-platform/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/333-can-you-build-my-website-for-me"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-you-build-my-website-for-me/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/320-does-beaver-builder-support-third-party-widgets"
+to = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-support-third-party-widgets/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/340-will-my-license-renew-automatically"
+to = "https://docs.wpbeaverbuilder.com/general/faq/will-my-license-renew-automatically/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/315-is-there-a-marketplace-for-selling-our-custom-modules-or-extensions"
+to = "https://docs.wpbeaverbuilder.com/general/faq/is-there-a-marketplace-for-selling-our-custom-modules-or-extensions/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/339-can-i-try-beaver-builder-before-i-buy-it"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-try-beaver-builder-before-i-buy-it/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/430-i-tried-the-demo-but-what-other-settings-are-there"
+to = "https://docs.wpbeaverbuilder.com/general/faq/i-tried-the-demo-but-what-other-settings-are-there/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/329-can-i-upgrade-my-subscription-after-signing-up"
+to = "https://docs.wpbeaverbuilder.com/general/faq/can-i-upgrade-my-subscription-after-signing-up/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/705-how-do-i-find-out-whats-changed-in-each-release"
+to = "https://docs.wpbeaverbuilder.com/general/faq/how-do-i-find-out-whats-changed-in-each-release/"
+status = 301
+force = false
 
+# Beaver Builder
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/collection/2-beaver-builder-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/44-the-basics"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/241-what-can-i-do-with-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/what-can-i-do-with-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/714-system-requirements"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/system-requirements"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/253-system-requirements-for-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/system-requirements"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/29-install-the-beaver-builder-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/348-manually-reinstall-beaver-builder-plugin-and-theme"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/manually-reinstall-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/43-0pen-the-beaver-builder-editor-in-wordpress-5"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/launch-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/494-tour-the-beaver-builder-editing-page"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/user-interface"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/737-beaver-builder-tools-menu"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/tools-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/93-show-or-hide-the-wordpress-page-title"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/693-the-alignment-field-in-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/alignment"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/586-inline-editing"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/inline-editing"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/760-undo-redo-editing-changes-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/undo-redo"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/762-copy-and-paste-modules-or-module-styles"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/copy-and-paste-modules-or-module-styles"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/380-duplicate-your-beaver-builder-layout-to-another-page"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/301-delete-a-module-or-column"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/delete-a-module-or-column"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/375-instant-save-save-as-draft-publish-discard"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/save-publish-discard"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/99-layout-templates-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/layout-templates-overview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/87-add-a-layout-template-to-your-page"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/add-a-layout-template-to-your-page"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/88-create-and-save-a-custom-layout-template"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/656-manage-saved-layout-templates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/manage-saved-layout-templates"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/103-edit-or-delete-saved-layout-templates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/edit-or-delete-saved-layout-templates"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/545-rename-title-or-slug-saved-template-row-column-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/rename-title-or-slug-saved-template-row-column-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/100-categorize-and-add-thumbnails-to-saved-templates-list"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/categorize-and-add-thumbnails-to-saved-templates-list"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/90-save-a-row-column-or-module-for-reuse"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/373-insert-a-saved-row-column-module-into-your-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/insert-a-saved-row-column-module-into-your-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/377-manage-saved-rows-columns-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/manage-saved-rows-columns-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/374-edit-a-saved-row-column-or-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/edit-a-saved-row-column-or-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/371-convert-a-saved-row-column-module-to-global"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/convert-a-saved-row-column-module-to-global"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/370-convert-a-global-row-column-module-to-standard"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/convert-a-global-row-column-module-to-standard"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/664-add-an-image-to-an-item-on-the-saved-tab"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/add-an-image-to-an-item-on-the-saved-tab"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/378-delete-a-saved-row-column-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/delete-a-saved-row-column-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/89-export-and-import-saved-templates-rows-columns-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/706-add-prebuilt-rows-to-your-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/add-prebuilt-rows-to-your-content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/550-work-with-rows"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/work-with-rows"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/45-row-layouts-full-width-and-fixed-width"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/full-width-and-fixed-width"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/556-set-width-for-rows-and-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/set-width-for-rows-and-content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/134-set-global-site-wide-default-row-widths"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/set-global-site-wide-default-row-widths"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/120-full-width-rows-on-third-party-themes"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/full-width-rows-on-third-party-themes"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/290-customize-the-row-height"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/customize-the-row-height"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/678-row-shape-overlays"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/row-effects/row-shape-overlays"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/631-video-backgrounds-in-rows"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/row-effects/video-backgrounds-in-rows"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/630-ideas-for-using-background-colors-and-effects"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/row-effects/ideas-for-using-background-colors-and-effects"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/632-parallax-row-backgrounds"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/row-effects/parallax-row-backgrounds"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/564-create-a-ken-burns-effect-in-a-row-background"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/rows/row-effects/create-a-ken-burns-effect-in-a-row-background"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/46-column-layouts-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/column-layouts-overview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/306-tips-for-working-with-columns"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/tips-for-working-with-columns"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/296-insert-columns"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/insert-columns"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/302-edit-a-column"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/edit-a-column"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/300-resize-or-reset-column-width"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/resize-or-reset-column-width"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/295-move-a-column"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/move-a-column"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/513-duplicate-a-column"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/duplicate-a-column"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/419-prevent-column-stacking-with-custom-widths"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/281-reverse-column-stacking-order"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/reverse-column-stacking-order"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/185-where-can-i-display-image-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/where-can-i-display-image-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/187-where-can-i-add-videos"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/where-can-i-add-videos"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/188-where-can-i-display-menus"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/where-can-i-display-menus"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/56-callout-and-call-to-action-modules-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/callout-and-call-to-action"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/57-contact-form-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/contact-form/contact-form"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/363-add-a-google-recaptcha-checkbox-to-a-form"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/contact-form/add-a-google-recaptcha-checkbox-to-a-form"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/186-content-slider-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/content-slider"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/58-countdown-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/countdown"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/59-gallery-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/gallery/gallery"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/520-open-a-gallery-lightbox-on-button-click"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/gallery/open-a-gallery-lightbox-on-button-click"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/61-heading-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/heading"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/62-html-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/html"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/63-icon-and-icon-group-modules-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/icon-and-icon-group"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/64-map-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/map"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/65-menu-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/menu/menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/509-add-a-menu-item-that-links-to-a-page-section"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/menu/add-a-menu-item-that-links-to-a-page-section"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/258-number-counter-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/number-counter"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/66-photo-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/photo/photo"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/236-display-full-captions-under-photos"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/photo/display-full-captions-under-photos"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/608-add-hover-effects-to-the-photo-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/photo/add-hover-effects-to-the-photo-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/612-postsmodule"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/posts/posts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/614-posts-carousel-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/posts/posts-carousel"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/613-posts-slider-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/posts/posts-slider"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/67-posts-posts-carousel-and-posts-slider-modules-examples"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/386-increase-space-between-images-in-posts-module-gallery"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/posts/increase-space-between-images-in-posts-module-gallery"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/68-pricing-table-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/pricing-table"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/70-separator-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/separator"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/71-sidebar-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/sidebar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/72-slideshow-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/slideshow"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/73-social-buttons-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/social-buttons"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/74-subscribe-form-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/subscribe-form/subscribe-form"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/680-configure-subscribe-form-module-for-mailchimp-double-opt-in"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/subscribe-form/configure-subscribe-form-module-for-mailchimp-double-opt-in"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/363-add-a-google-recaptcha-checkbox-to-a-form"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/contact-form/add-a-google-recaptcha-checkbox-to-a-form"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/75-tabs-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/tabs/tabs"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/76-testimonials-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/testimonials"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/77-text-editor-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/text"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/233-change-fonts-and-colors-in-the-text-editor-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/change-fonts-and-colors-in-the-text-editor-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/78-video-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/video/video"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/293-open-a-video-in-a-lightbox"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/video/open-a-video-in-a-lightbox"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/79-woocommerce-module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/woocommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/80-wordpress-widgets-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/wordpress-widgets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/81-margins-and-padding"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/margin-padding"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/413-change-individual-margin-and-padding-settings"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/change-individual-margin-and-padding-settings"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/412-change-default-row-and-module-margins-and-padding"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/change-default-row-and-module-margins-and-padding"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/415-disable-auto-spacing-on-mobile-devices"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/disable-auto-spacing-on-mobile-devices"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/414-troubleshooting-margins-and-padding"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/303-responsive-behavior-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/702-example-responsive-editing-with-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/751-about-breakpoints-for-device-sizes"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/408-change-device-breakpoints-site-wide"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/change-device-breakpoints-site-wide"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/359-how-beaver-builder-works-with-blogs-and-custom-post-types-start-here"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/post-layouts/how-beaver-builder-works-with-blogs-and-custom-post-types-start-here"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/353-basics-how-wordpress-handles-blog-posts-and-archives"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/628-wordpress-archive-types"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/post-layouts/wordpress-archive-types"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/358-generated-wordpress-archives-versus-beaver-builder-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/post-layouts/generated-wordpress-archives-versus-beaver-builder-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/274-us-beaver-builder-to-lay-out-post-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/post-layouts/use-beaver-builder-to-lay-out-post-content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/384-add-rows-and-modules-to-index-archive-and-post-pages"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/post-layouts/add-rows-and-modules-to-index-archive-and-post-pages"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/677-color-picker-in-the-beaver-builder-editor"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/colors/color-picker"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/554-add-a-color-palette-to-the-beaver-builder-editor"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/colors/add-a-color-palette-to-the-beaver-builder-editor"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/689-typography-settings-in-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/typography/typography"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/637-add-latin-extended-capabilities-for-a-google-font"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/typography/add-latin-extended-capabilities-for-a-google-font"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/84-animate-a-row-column-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/animations"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/669-color-gradients-for-row-and-column-backgrounds-and-overlays"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/color-gradients-for-row-and-column-backgrounds-and-overlays"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/181-add-a-gradient-to-a-row-or-column-background"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/css-gradients"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/691-set-borders-and-border-effects-in-rows-columns-and-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/borders"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/180-rounded-corners-on-columns-and-photos"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/rounded-corners-on-columns-and-photos"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/110-enable-disable-or-delete-icon-sets"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/764-enable-font-awesome-pro-icon-sets"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/enable-font-awesome-pro-icon-sets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/765-set-colors-for-font-awesome-pro-duotone-icons"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/font-awesome-pro-duotone-icons"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/505-add-an-icon-to-a-menu-item"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/add-an-icon-to-a-menu-item"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/647-create-and-import-a-custom-icon-set"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/create-and-import-a-custom-icon-set"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/416-change-item-visibility-by-device-size"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/visibility/change-item-visibility-by-device-size"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/83-change-element-visibility-by-user-login-and-capability"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/visibility/change-element-visibility-by-user-login-and-capability"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/94-where-to-put-custom-css-code"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/code/custom-css"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/95-add-custom-javascript"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/code/custom-javascript"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/696-css-length-height-and-size-units"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/css-length-height-units"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/85-add-a-css-id-or-class-name-to-a-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/506-add-a-pdf-file-to-your-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/add-a-pdf-file-to-your-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/121-smooth-scrolling-links"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/smooth-scrolling-links"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/634-smooth-scrolling-tweaks-with-code"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/smooth-scrolling-tweaks-with-code"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/102-restore-a-previous-version"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/restore-a-previous-version"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/497-beaver-builder-keyboard-shortcuts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/keyboard-shortcuts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/105-display-only-custom-layout-templates-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/display-only-custom-layout-templates-in-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/658-disable-inline-editing"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/disable-inline-editing"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/298-disable-columns-in-columns"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/disable-columns-in-columns"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/192-use-shortcodes-in-your-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/125-shortcodes-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/191-get-the-slug-or-id-for-a-shortcode"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/763-use-shortcodes-in-tools-menu-css-or-js"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-tools-menu-css-or-js"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/227-performance-problems-with-overuse-of-beaver-builder-shortcodes"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-performance"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/734-troubleshooting-beaver-builder-shortcodes-dont-display-for-logged-out-users-bbpress"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/shortcodes-dont-display-for-logged-out-users-bbpress"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/541-put-thrive-leads-shortcode-into-a-button-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/put-thrive-leads-shortcode-into-a-button-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/431-overview-of-settings-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/settings-overview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/365-control-which-post-types-can-use-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/439-control-user-access-by-role"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/control-user-access-by-role"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/257-disable-wordpress-comments"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/disable-wordpress-comments"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/382-add-custom-image-sizes"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/add-custom-image-sizes"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/745-change-wordpress-screen-options"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/change-wordpress-screen-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/101-configure-the-beaver-builder-admin-panel-display-options"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/configure-the-beaver-builder-admin-panel-display-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/40-403-forbidden-or-blocked-error"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/403-forbidden-or-blocked-error"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/387-troubleshooting-404-error-when-trying-to-open-editor"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/404-error-when-trying-to-open-editor"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/41-im-getting-an-internal-server-500-error"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/internal-server-500-error"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/733-troubleshooting-cloudflare-and-403-errors-when-loading-background-images"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/cloudflare-and-403-errors-when-loading-background-images"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/746-troubleshooting-number-of-settings-being-saved-exceeds-php-max-input-vars"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/exceeds-php-max-input-vars"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/360-troubleshooting-http-error-when-uploading-images"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/http-error-when-uploading-images"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/37-increase-the-wordpress-allowed-memory-size"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/increase-the-wordpress-allowed-memory-size"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/240-i-cant-upload-the-installer-zip-file-because-it-is-unzipped-when-i-download"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/i-cant-upload-the-installer-zip-file-because-it-is-unzipped-when-i-download"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/260-troubleshooting-the-uploaded-file-exceeds-the-uploadmaxfilesize-directive-in-php-ini"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/the-uploaded-file-exceeds-the-uploadmaxfilesize-directive-in-php-ini"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/740-troubleshooting-error-when-trying-to-install-update"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/error-when-trying-to-install-update"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/212-i-migrated-a-site-but-my-image-urls-didnt-change"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/i-migrated-a-site-but-my-image-urls-didnt-change"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/39-im-getting-a-permission-denied-error"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/im-getting-a-permission-denied-error"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/36-i-am-getting-a-blank-screen"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-issues/i-am-getting-a-blank-screen"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/232-not-getting-beaver-builder-updates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/updates-license/not-getting-beaver-builder-updates"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/115-uninstall-or-deactivate-the-beaver-builder-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/562-beaver-builder-not-working-after-upgrading"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/updates-license/beaver-builder-not-working-after-upgrading"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/98-cant-find-the-beaver-builder-menu-in-the-admin-panel"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/32-troubleshooting-cant-open-page-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/cant-open-page-in-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/645-troubleshooting-font-awesome-icons"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/font-awesome-icons"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/299-troubleshooting-wordpress-admin-bar-is-hidden"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/wordpress-admin-bar-is-hidden"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/369-troubleshooting-classic-wordpress-and-beaver-builder-text-editor-toolbars-dont-match"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/classic-wordpress-and-beaver-builder-text-editor-toolbars-dont-match"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/352-troubleshooting-background-color-or-image-doesnt-appear"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/background-color-or-image-doesnt-appear"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/35-i-cant-drag-and-drop-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/i-cant-drag-and-drop-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/356-troubleshooting-mailchimp-subscriber-popup-form-breaks-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/mailchimp-subscriber-popup-form-breaks-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/262-troubleshooting-beaver-builder-does-not-open-for-editing-on-nginx-servers"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/beaver-builder-does-not-open-for-editing-on-nginx-servers"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/567-device-previews-beaver-builder-customizer-and-beyond"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/device-previews-beaver-builder-customizer-and-beyond"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/594-how-beaver-builder-renders-the-title-of-an-image"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/how-beaver-builder-renders-the-title-of-an-image"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/213-my-custom-column-width-keeps-changing"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/my-custom-column-width-keeps-changing"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/526-troubleshooting-new-slideshow-images-dont-appear-on-siteground-staging-sites"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/new-slideshow-images-dont-appear-on-siteground-staging-sites"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/367-troubleshooting-uploaded-icon-set-is-blank"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/uploaded-icon-set-is-blank"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/671-why-am-i-seeing-an-eye-icon-in-my-module-toolbar"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/why-am-i-seeing-an-eye-icon-in-my-module-toolbar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/755-limit-on-adding-rows"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/limit-on-adding-rows"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/112-white-labeling-the-beaver-builder-plugin-name"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/white-labeling/white-labeling-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/92-replace-built-in-layout-templates-with-your-own"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/white-labeling/replace-built-in-layout-templates-with-your-own"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/113-customize-the-help-button"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/white-labeling/customize-the-help-button"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/747-white-label-the-ajax-crash-message"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/white-labeling/white-label-the-ajax-crash-message"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/124-custom-module-developer-guide"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/596-cmdg-01-create-a-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-01-create-a-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/597-cmdg-02-add-a-module-to-your-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-02-add-a-module-to-your-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/598-cmdg-03-define-module-settings"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-03-define-module-settings"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/599-cmdg-04-module-settings-css-and-javascript"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-04-module-settings-css-and-javascript"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/600-cmdg-05-module-html"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-05-module-html"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/601-cmdg-06-module-css"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-06-module-css"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/602-cmdg-07-module-javascript"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-07-module-javascript"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/603-cmdg-08-module-property-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-08-module-property-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/604-cmdg-09-module-method-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-09-module-method-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/616-cmdg-10-setting-fields-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/617-cmdg-11-responsive-fields-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-11-responsive-fields-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/618-cmdg-12-repeater-fields-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-12-repeater-fields-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/619-cmdg-13-sanitize-field-values"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-13-sanitize-field-values"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/620-cmdg-14-create-custom-fields"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-14-create-custom-fields"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/701-cmdg-15-helpers"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-15-helpers"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/622-cmdg-15-live-preview-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-16-live-preview-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/623-cmdg-16-partial-refresh-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-17-partial-refresh-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/624-cmdg-17-override-built-in-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-18-override-built-in-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/625-cmdg-18-localization"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-19-localization"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/129-data-storage"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/data-storage"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/128-html-css-and-javascript-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/html-css-and-javascript-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/107-theme-author-templates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/theme-author-templates"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/699-fix-for-some-caching-issues-load-css-and-javascript-inline"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/load-css-and-javascript-inline"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/130-disable-minification-and-caching-with-wpdebug"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/disable-minification-and-caching-with-wpdebug"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/662-add-custom-attributes-to-rows-columns-or-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/add-custom-attributes-to-rows-columns-or-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/127-render-layouts-with-php"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/render-layouts-with-php"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/648-load-google-fonts-and-font-awesome-icons-locally-gdpr"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/load-google-fonts-and-font-awesome-icons-locally-gdpr"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/184-prevent-css-and-javascript-from-loading-on-archive-pages"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/prevent-css-and-javascript-from-loading-on-archive-pages"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/238-create-a-video-lightbox-for-an-amazon-s3-video"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/create-a-video-lightbox-for-an-amazon-s3-video"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/220-installl-beaver-builder-via-composer"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/install-beaver-builder-via-composer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/504-wp-cli-plugin-theme"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/463-customize-settings-forms"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/customize-settings-forms"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/514-add-icons-to-your-custom-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/add-icons-to-your-custom-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/555-customize-row-resizing-behavior"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/customize-row-resizing-behavior"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/563-customize-keyboard-shortcuts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/customize-keyboard-shortcuts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/698-change-how-css-and-javascript-are-loaded"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/change-how-css-and-javascript-are-loaded"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/578-create-a-custom-module-to-compare-images-with-a-slider"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/create-a-custom-module-to-compare-images-with-a-slider"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/591-create-a-filter-to-customize-the-display-of-post-data"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/create-a-filter-to-customize-the-display-of-post-data"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/688-tutorial-add-a-custom-shape-layer"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/add-a-custom-shape-layer"
+status = 301
+force = false
+
+# Beaver Themer
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/collection/397-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/771-beaver-themer-1-3-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/new-release-info/beaver-themer-1-3-overview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/700-what-can-i-do-with-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/what-can-i-do-with-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/403-install-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/install-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/393-i-installed-beaver-themer-now-what"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/i-installed-beaver-themer-now-what"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/466-primer-on-wordpress-content-and-theme-areas-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/437-themer-header-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/394-tutorial-create-a-header-layout-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/header-layout-type/tutorial-create-a-header-layout-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/465-themer-footer-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/footer-layout-type/themer-footer-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/450-themer-archive-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/456-themer-archive-layout-archive-title-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-title-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/452-themer-archive-layout-archive-description-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-description-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/457-themer-archive-layout-post-columns-gallery-list-masonry-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-post-columns-gallery-list-masonry-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/458-example-themer-archive-layout-for-custom-post-type-categories"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/example-themer-archive-layout-for-custom-post-type-categories"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/459-tutorial-create-an-author-archive-themer-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/tutorial-create-an-author-archive-themer-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/577-create-a-card-layout-for-posts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/archive-layout-type/create-a-card-layout-for-posts-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/436-themer-singular-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/442-themer-singular-layout-attached-images-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-attached-images-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/443-themer-singular-layout-author-bio-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-author-bio-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/444-themer-singular-layout-comments-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-comments-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/445-themer-singular-layout-featured-image-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-featured-image-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/446-themer-singular-layout-post-content-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-content-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/447-themer-singular-layout-post-info-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-info-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/448-themer-singular-layout-post-navigation-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-navigation-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/449-themer-singular-layout-post-title-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-title-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/610-use-the-posts-module-to-create-related-posts"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/use-the-posts-module-to-create-related-posts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/422-add-a-singular-themer-layout-to-the-wordpress-page-template-field"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/singular-layout-type/add-a-singular-themer-layout-to-the-wordpress-page-template-field"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/464-themer-404-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/404-layout-type/themer-404-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/468-themer-part-layout-type"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/part-layout-type/themer-part-layout-type"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/605-add-yoast-breadcrumbs-with-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/535-woocommerce-integration"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/486-create-an-archive-themer-layout-for-woocommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/485-create-a-singular-themer-layout-for-woocommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/create-a-singular-themer-layout-for-woocommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/473-breadcrumb-module-for-woocommerce-singular-and-archive-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/breadcrumb-module-for-woocommerce-singular-and-archive-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/483-products-module-for-woocommerce-archive-themer-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/products-module-for-woocommerce-archive-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/472-add-to-cart-button-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/add-to-cart-button-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/474-product-description-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-description-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/475-product-images-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-images-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/476-product-meta-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-meta-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/477-product-price-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-price-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/478-product-rating-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-rating-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/479-product-tabs-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-tabs-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/480-product-title-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-title-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/480-product-title-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/product-upsells-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/482-related-products-module-for-woocommerce-singular-theme-layouts-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/related-products-module-for-woocommerce-singular-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/774-woocommerce-field-connection-shortcode-index"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/756-bigcommerce-integration-alpha"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/742-beaver-themer-layouts-for-bigcommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/beaver-themer-layouts-for-bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/744-create-an-archive-themer-layout-for-bigcommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/create-an-archive-themer-layout-for-bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/743-create-a-themer-layout-to-display-a-single-bigcommerce-product"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/create-a-themer-layout-to-display-a-single-bigcommerce-product"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/754-products-posts-module-for-bigcommerce"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/bigcommerce/products-posts-module-for-bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/536-beaver-themer-and-the-edd-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/easy-digital-downloads/beaver-themer-and-the-edd-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/539-create-an-archive-themer-layout-for-edd-download-sets"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/538-create-a-singular-themer-layout-for-edd-download-items-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/easy-digital-downloads/create-a-singular-themer-layout-for-edd-download-items-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/533-the-events-calendar-integration"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/531-beaver-thmer-and-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/beaver-themer-and-the-events-calendar-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/529-create-an-archive-themer-layout-for-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-an-archive-themer-layout-for-the-events-calendar-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/530-archive-themer-layout-event-calendar-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-calendar-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/532-archive-themer-layout-event-posts-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-posts-module"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/534-create-a-singular-themer-layout-for-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-a-singular-themer-layout-for-the-events-calendar-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/388-field-connection-basics-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-basics-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/390-field-connection-shortcodes-overview-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcodes-overview-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/516-add-edit-or-delete-a-field-connection-or-shortcode-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/460-connect-custom-fields-wordpress-toolset-pods-acf-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/517-conditional-shortcodes-for-field-connections-overview-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/775-use-conditional-shortcode-to-test-for-presence-of-content-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/543-find-the-full-list-of-field-connection-and-parameters-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/572-field-connection-shortcode-index-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcode-index-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/570-troubleshoot-field-connection-shortcodes-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/404-connect-to-acf-fields-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/694-acf-radio-button-field-connection-examples"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/acf-radio-button-field-connection-examples"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/653-use-acf-flexible-content-field-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-flexible-content-field-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/461-use-acf-repeater-fields-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-fields-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/659-use-acf-repeater-and-flexible-content-fields-together"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-and-flexible-content-fields-together"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/581-test-for-values-in-shortcodes-for-advanced-custom-fields"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/test-for-values-in-shortcodes-for-advanced-custom-fields"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/629-list-related-posts-using-acf-relationship-field-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/list-related-posts-using-acf-relationship-field-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/395-display-a-wordpress-custom-field-in-a-singular-themer-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/580-test-for-values-in-wordpress-custom-field-shortcode"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/test-for-values-in-wordpress-custom-field-shortcode"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/571-build-this-display-a-pods-custom-field-and-separator-only-when-theres-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/676-themer-locations-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/locations/themer-locations-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/674-beaver-themer-conditional-logic"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/conditional-logic/beaver-themer-conditional-logic"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/428-beaver-themer-supported-themes"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/beaver-themer-supported-themes"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/469-full-width-layouts-on-third-party-themes-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/full-width-layouts-on-third-party-themes-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/440-export-beaver-themer-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/export-beaver-themer-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/750-why-does-my-themer-layout-say-unsupported"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/451-message-this-post-has-a-themer-layout-assigned"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/message-this-post-has-a-themer-layout-assigned"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/396-troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/category/402-developer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/389-add-header-footer-and-parts-support-to-your-theme-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/673-conditional-logic-apis"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/conditional-logic-apis"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/391-customize-field-connections-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/customize-field-connections-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/640-customize-themer-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/customize-themer-modules"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/462-hide-row-or-module-when-field-connection-is-empty-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/434-hooks-reference-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/hooks-reference-themer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/736-wp-cli-for-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/wp-cli-for-beaver-themer"
+status = 301
+force = false
+
+# BB Theme
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/collection/7-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/31-install-the-beaver-builder-theme-and-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/install-the-bb-theme-and-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/455-do-i-need-to-install-the-beaver-builder-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/348-manually-reinstall-beaver-builder-plugin-and-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/manually-reinstall-bb-theme-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/305-built-in-theme-templates-for-single-pages-and-posts"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/151-open-the-wordpress-customizer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/getting-started/open-the-wordpress-customizer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/207-create-a-site-title-and-tagline"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/site-settings/create-a-site-title-and-tagline"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/206-add-a-site-icon-favicon"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/site-settings/add-a-site-icon-favicon"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/208-set-whether-the-home-page-is-a-page-or-post"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/site-settings/set-whether-the-home-page-is-a-page-or-post"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/286-peset-tips"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/presets/preset-tips"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/285-convert-the-premier-or-deluxe-preset-to-entirely-full-width"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/presets/convert-the-premier-or-deluxe-preset-to-entirely-full-width"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/135-overview-of-full-width-and-boxed-pages-and-rows"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/full-width-boxed/overview-of-full-width-and-boxed-pages-and-rows"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/189-set-a-full-width-or-boxed-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-or-boxed-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/148-set-a-full-width-header-with-boxed-content"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-header-with-boxed-content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/197-set-header-layout-and-style"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/set-header-layout-and-style"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/739-fixed-header-types"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/fixed-header-types"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/171-align-the-top-bar-columns-with-content-margins"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/align-the-top-bar-columns-with-content-margins"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/672-change-size-of-fade-in-fixed-header-logo-text"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/change-size-of-fade-in-fixed-header-logo-text"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/237-merge-page-content-into-the-header"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/merge-page-content-into-the-header"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/172-add-the-site-tagline-to-the-header"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-the-site-tagline-to-the-header"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/164-change-header-logo-size-in-nav-bottom-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/change-header-logo-size-in-nav-bottom-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/137-remove-the-header-and-footer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/remove-the-header-and-footer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/245-hide-the-header-nav-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/hide-the-header-nav-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/209-create-menus-and-set-menu-locations"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/create-menus-and-set-menu-locations"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/655-choose-how-menus-open-responsively"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/139-set-up-a-mega-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/set-up-a-mega-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/166-add-buttons-to-your-navigation-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-buttons-to-your-navigation-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/421-add-css-classes-to-individual-menu-items"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-css-classes-to-individual-menu-items"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/261-add-shortcodes-or-html-to-your-nav-menu"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/add-shortcodes-or-html-to-your-nav-menu"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/291-center-the-nav-menu-with-nav-bottom-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/headers-nav-menus/center-the-nav-menu-with-nav-bottom-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/204-set-footer-layout-and-style-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/footers/set-footer-layout-and-style-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/265-customize-the-default-theme-footer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/footers/customize-the-default-theme-footer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/165-force-footer-to-bottom-on-short-pages"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/footers/force-footer-to-bottom-on-short-pages"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/175-configure-how-wordpress-handles-your-blog"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/blog-settings/configure-how-wordpress-handles-your-blog"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/752-remove-website-field-url-from-post-comments"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/blog-settings/remove-website-field-url-from-post-comments"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/239-use-the-beaver-builder-themes-sidebar-in-posts-and-pages"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/sidebars/use-the-beaver-builder-themes-sidebar-in-posts-and-pages"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/235-position-left-sidebar-below-content-in-mobile"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/sidebars/position-left-sidebar-below-content-in-mobile"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/205-configure-the-widgets-in-the-primary-sidebar"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/configure-the-widgets-in-the-primary-sidebar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/202-set-options-for-footer-widgets"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/set-options-for-footer-widgets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/169-change-the-width-of-footer-widgets"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/change-the-width-of-footer-widgets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/615-add-a-widget-area-after-the-beaver-builder-theme-top-bar"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/widgets/add-a-widget-area-after-the-beaver-builder-theme-top-bar"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/211-where-can-i-add-social-icons"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/icons/where-can-i-add-social-icons"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/684-choose-how-font-awesome-icons-load-in-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/150-adjust-the-size-of-the-social-icons"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/icons/adjust-the-size-of-the-social-icons"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/639-beaver-builder-theme-shortcode-for-current-date"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/shortcode-for-current-date"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/200-set-woocommerce-layout"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/set-woocommerce-layout"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/609-add-yoast-breadcrumbs-to-the-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/add-yoast-breadcrumbs-to-the-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/582-integrate-sensei-with-the-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-layouts-content/integrate-sensei-with-the-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/193-set-a-background-color-or-image-for-the-browser-window"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-the-browser-window"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/198-set-a-background-color-or-image-for-content-area"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-content-area"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/244-where-do-menu-colors-come-from"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/243-change-menu-link-and-icon-colors-on-smalll-devices"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/change-menu-link-and-icon-colors-on-small-devices"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/553-add-color-presets-to-customizer"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/194-change-the-default-color-for-buttons-and-links"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/links/change-the-default-color-for-buttons-and-links"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/643-set-global-default-button-styles"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/links/set-global-default-button-styles"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/255-add-underlines-to-link-text-beaver-builder-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/links/add-underlines-to-link-text-beaver-builder-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/196-set-sitewide-style-options-for-headings-and-text"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/set-sitewide-style-options-for-headings-and-text"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/738-set-responsive-default-text-styles-for-beaver-builder-layouts"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/set-responsive-default-text-styles-for-beaver-builder-layouts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/682-customizer-font-family-setting-system-ui"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/195-use-a-google-font-in-headings-and-text"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/use-a-google-font-in-headings-and-text"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/234-add-web-fonts-to-your-theme-and-the-beaver-builder-plugin"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/add-web-fonts-to-your-theme-and-the-beaver-builder-plugin"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/560-add-web-fonts-complex-example"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/add-web-fonts-complex-example"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/145-load-and-use-adobe-fonts"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/load-and-use-adobe-fonts"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/426-load-and-use-google-fonts-not-available-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/typography/load-and-use-google-fonts-not-available-in-beaver-builder"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/201-enable-or-disable-whether-images-appear-in-a-lightbox"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/defaults-for-styles/images/enable-or-disable-whether-images-appear-in-a-lightbox"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/152-customizer-settings-the-presets-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/presets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/153-customizer-settings-the-general-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/general"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/155-customizer-settings-the-header-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/header"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/156-customizer-settings-the-content-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/content"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/157-customizer-settings-the-footer-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/footer"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/158-customizer-settings-the-widgets-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/widgets"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/159-customizer-settings-the-code-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/code"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/160-customizer-settings-the-settings-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/settings"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/161-customizer-settings-the-menus-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/menus"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/758-customizer-settings-the-bigcommerce-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/bigcommerce"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/441-customizer-settings-additional-css"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/additional-css"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/163-customizer-settings-the-export-import-tab"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings/export-import"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/203-insert-site-wide-css-or-javascript-code"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/code/insert-site-wide-css-or-javascript-code"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/190-insert-google-analytics-code"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/code/insert-google-analytics-code"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/280-beaver-builder-theme-customizer-settings-mapped-to-css"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/code/beaver-builder-theme-customizer-settings-mapped-to-css"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/683-choose-bootstrap-3-or-4"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/management-migration/choose-bootstrap-3-or-4"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/210-export-or-import-customizer-settings"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/management-migration/export-or-import-customizer-settings"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/748-move-parent-theme-customizer-settings-to-a-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/management-migration/move-parent-theme-customizer-settings-to-a-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/168-fix-ubermenu-mobile-navigation-duplication"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/fix-ubermenu-mobile-navigation-duplication"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/288-preset-troubleshooting-resetting-color-to-default-doesnt-work"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/cannot-reset-color-to-default"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/287-preset-troubleshooting-the-background-color-in-customizer-doesnt-match-the-preview"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/background-color-in-customizer-doesnt-match-the-preview"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/627-jquery-modal-incompatibility"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/troubleshooting/jquery-modal-incompatibility"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/264-custom-brand-your-child-theme"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/white-labeling/white-label-your-child-theme"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/423-add-a-page-post-or-custom-post-type-template"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/add-a-page-post-or-custom-post-type-template"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/638-insert-beaver-builder-shortcode-into-a-theme-template-file"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/insert-beaver-builder-shortcode-into-a-theme-template-file"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/143-theme-action-reference"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/theme-action-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/144-theme-filter-reference"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/theme-filter-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/141-theme-css-reference"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/theme-css-reference"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/357-remove-a-customizer-panel"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/remove-a-customizer-tab"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/147-add-a-custom-theme-preset"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-a-custom-theme-preset"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/283-add-theme-preset-general"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-general-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/284-add-theme-preset-header-tab-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-header-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/342-add-theme-preset-content-tab-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-content-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/343-add-theme-preset-footer-tab-options"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/add-theme-preset-footer-tab-options"
+status = 301
+force = false
+[[redirects]]
+from = "https://kb.wpbeaverbuilder.com/article/346-remove-an-existing-or-custom-preset"
+to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/remove-an-existing-or-custom-preset"
+status = 301
+force = false
+
+# Home page
 [[redirects]]
 from = "https://kb.wpbeaverbuilder.com"
 to = "https://docs.wpbeaverbuilder.com"
