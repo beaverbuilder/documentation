@@ -14,10 +14,12 @@ module.exports = {
       defer: true,
     },
   ],
+  plugins: [require.resolve('@docusaurus/plugin-google-analytics')],
   themeConfig: {
     image: 'img/bb-logo.png',
-    gtag: {
+    googleAnalytics: {
       trackingID: 'UA-15399878-6',
+      anonymizeIP: true,
     },
     algolia: {
       apiKey: 'fa19c2d00714189b023a571e59f6e1c5',
