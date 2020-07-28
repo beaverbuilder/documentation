@@ -15,6 +15,10 @@ module.exports = {
     },
   ],
   themeConfig: {
+    image: 'img/bb-logo.png',
+    gtag: {
+      trackingID: 'UA-15399878-6',
+    },
     algolia: {
       apiKey: 'fa19c2d00714189b023a571e59f6e1c5',
       appId: '30TMM3CYV0',
