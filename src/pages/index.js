@@ -251,8 +251,7 @@ function Home() {
   const [isSearchBarExpanded, setIsSearchBarExpanded] = useState(false);
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Frequently asked questions and support documentation for Beaver Builder products.">
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
