@@ -127,13 +127,10 @@ icon or entering **Responsive Editing Mode**. See [this article](/beaver-builder
 
 Settings for the heading portion of the call to action:
 
-  * **Heading color**  
-Opacity is set with the right-hand slider in the Color Picker. See the Related
-Article below.
-
-  * Heading typography section (responsive)   
-Includes various font settings and a text shadow effect. See the Related
-Article below.
+* **Heading color**  
+Opacity is set with the right-hand slider in the [Color Picker](/beaver-builder/styles/colors/color-picker.md).
+* [**Heading Typography** section](/beaver-builder/styles/typography/typography.md) (responsive)  
+Includes various font settings and a text shadow effect.
 
 #### **3 Text** section
 

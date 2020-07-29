@@ -25,7 +25,7 @@ You'll see a green dot next to the **Layout CSS & JavaScript menu item** in
 the **Tools** menu on any page for which you have custom code.
 
 :::tip **Tip**
-See the Related Links for how to add a custom ID or class selectors
+See the See the [**Advanced** tab article](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md#html-element-section) for information about how to add a custom ID or class selectors
 to your Beaver Builder rows, columns, or modules.
 :::
 

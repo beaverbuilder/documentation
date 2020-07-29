@@ -53,9 +53,7 @@ worked, you could try adding this custom rule. See [this article](/beaver-builde
 
 The `.fas` class is used for FA5 Solid icons.
 
-If this rule doesn't work, try going through the routine of deactivating
-plugins or changing themes to see if your problem is resolved. See the Related
-Article below for that troubleshooting procedure.
+If this rule doesn't work, try going through the routine of [deactivating plugins](/beaver-builder/troubleshooting/debugging/plugin-conflicts.md) or [changing themes](/beaver-builder/troubleshooting/debugging/theme-conflict.md) to see if your problem is resolved.
 
 ## 3. Other FA5 troubleshooting tips
 

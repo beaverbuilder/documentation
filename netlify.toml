@@ -2478,7 +2478,7 @@ force = true
 
 # Home page
 [[redirects]]
-from = ""
+from = "https://kb.wpbeaverbuilder.com"
 to = "https://docs.wpbeaverbuilder.com"
 status = 301
 force = true
