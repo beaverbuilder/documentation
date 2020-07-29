@@ -9,7 +9,7 @@ The Beaver Builder Theme and plugin both have built-in system fonts and Google f
 These instructions should work with most themes, but instructions are also included on how to add the fonts to the font selection fields in Beaver Builder Theme's Customizer and the Beaver Builder plugin.
 
 :::note **Note**
-This article applies to web fonts other than [Google fonts](/bb-theme/theme-basics/use-a-google-font-in-headings-and-text.md) and [Adobe Typekit fonts](/bb-theme/defaults-for-styles/typography/load-and-use-adobe-fonts.md).
+This article applies to web fonts other than [Google fonts](/bb-theme/defaults-for-styles/typography/use-a-google-font-in-headings-and-text.md) and [Adobe Typekit fonts](/bb-theme/defaults-for-styles/typography/load-and-use-adobe-fonts.md).
 :::
 
 There are three steps to using web fonts:

@@ -4,7 +4,7 @@ title: The Advanced tab for rows, columns, and modules
 sidebar_label: The Advancecd tab
 ---
 
-The **Advanced** tab offers nearly identical settings on all Beaver Builder rows, columns, and modules. 
+The **Advanced** tab offers nearly identical settings on all Beaver Builder rows, columns, and modules.
 
 ## Spacing section
 

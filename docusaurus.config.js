@@ -1,5 +1,3 @@
-const [latestVersion] = require('./versions.json');
-
 module.exports = {
   title: 'Beaver Builder Knowledge Base',
   tagline: 'Frequently asked questions and support documentation for Beaver Builder products.',
@@ -8,7 +6,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'beaverbuilder',
   projectName: 'docs',
-  onBrokenLinks: 'ignore',
   scripts: [
     {
       src: 'https://kit.fontawesome.com/b1b1d7d7c6.js',
