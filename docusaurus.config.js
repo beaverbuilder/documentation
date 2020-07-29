@@ -14,7 +14,7 @@ module.exports = {
       defer: true,
     },
   ],
-  plugins: [require.resolve('@docusaurus/plugin-google-analytics')],
+  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     image: 'img/bb-logo.png',
     googleAnalytics: {
