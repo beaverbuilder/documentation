@@ -11,8 +11,7 @@ heading tag (H1, H2, etc.) in the HTML output.
 
 ## Uses of the heading module
 
-While you can create headings right in the text editor, here are some
-advantages to using a Heading module:
+While you can create headings right in the text editor, here are some advantages to using a Heading module:
 
 * You can more easily move the heading around in the layout by dissociating it from the following text.
 * You can easily customize typography, layout, and effects of individual headings (font family, weight, color, size, spacing, horizontal alignment, text shadow, animations, and margins).  
@@ -61,9 +60,7 @@ Default heading color is usually specified in the theme, but you can choose a
 custom color here.
 
 * **Typography** section  
-This is the standard Beaver Builder Typography section (see the Related
-Article below) with settings for the font family, weight, size, spacing, and
-so on.
+This is the [standard Beaver Builder **Typography** section](/beaver-builder/styles/typography/typography.md), with settings for the font family, weight, size, spacing, and so on.
 
 **Tip:** While you can choose a custom Google font in each Heading module, be
 careful about using too many different fonts if you're trying to pare down

@@ -44,7 +44,7 @@ Many third-party widgets will not work properly if you add them to your Beaver B
 
 Most third-party widgets are loaded to run in the WordPress admin back end, because they are usually used at **Appearance > Widgets**, whereas Beaver Builder runs in the front end. In more technical terms, these third-party widgets use the [`admin_enqueue_script()`](https://developer.wordpress.org/reference/hooks/admin_enqueue_scripts/) function to load the widget's scripts (JavaScript) and styles (CSS) into the WordPress Admin dashboard.
 
-You can get these widgets to work in Beaver Builder layouts by adding custom code to your [child theme's](https://docs.wpbeaverbuilder.com/bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme.md) functions.php file that enqueues the widgets to load on the front end as well. Below is an example snippet on how to enqueue scripts and styles whilst the builder is active on your page or posts.
+You can get these widgets to work in Beaver Builder layouts by adding custom code to your [child theme's](/bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme.md) _functions.php_ file that enqueues the widgets to load on the front end as well. Below is an example snippet on how to enqueue scripts and styles whilst the builder is active on your page or posts.
 
 ```php
 add_action( 'wp_enqueue_scripts', function() {
