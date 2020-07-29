@@ -24,11 +24,6 @@ post:**
 You'll see a green dot next to the **Layout CSS & JavaScript menu item** in
 the **Tools** menu on any page for which you have custom code.
 
-:::tip **Tip**
-See the Related Links for how to add a custom ID or class selectors
-to your Beaver Builder rows, columns, or modules.
-:::
-
 ## Add custom CSS to apply site-wide
 
 There are several ways to add custom CSS that applies site-wide, but there are
