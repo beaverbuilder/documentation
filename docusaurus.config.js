@@ -14,7 +14,6 @@ module.exports = {
       defer: true,
     },
   ],
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     image: 'img/bb-logo.png',
     googleAnalytics: {
