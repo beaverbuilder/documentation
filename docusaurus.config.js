@@ -8,6 +8,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'beaverbuilder',
   projectName: 'docs',
+  onBrokenLinks: 'ignore',
   scripts: [
     {
       src: 'https://kit.fontawesome.com/b1b1d7d7c6.js',
