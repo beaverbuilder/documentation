@@ -36,10 +36,7 @@ Templates are exported to .dat files, which must be transferred to source reposi
 
 ## 2. Create your layout templates
 
-Create your custom layout templates and saved rows or modules. (Saved columns
-are available for this use.) See the Related Links for information about how
-to manage saved layout templates and saved rows and modules from the Beaver
-Builder admin panel.
+Create your [custom layout templates](/beaver-builder/layouts/templates/layout-templates-overview.md) and [saved rows or modules](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) for users.
 
 ## 3. Categorize and add featured images to the layout templates
 
