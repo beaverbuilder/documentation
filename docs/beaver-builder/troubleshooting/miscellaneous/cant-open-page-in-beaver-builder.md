@@ -21,7 +21,7 @@ There are two possible solutions.
 
 2. Make sure Beaver Builder is enabled for the correct user roles.
 
-  * From the WordPress admin panel, go to  **Settings > Beaver Builder > User access**. In the **Builder access** field in the **Front end** section, make sure the user role is enabled for the user having the problem.
+  * From the WordPress admin panel, go to **Settings > Beaver Builder > User access**. In the **Builder access** field in the **Front end** section, make sure the user role is enabled for the user having the problem.
 
 ## Can't see the Beaver Builder UI
 
@@ -30,13 +30,13 @@ Beaver Builder admin bar across the top of the page, as in this screenshot.
 
 ![](/img/troubleshooting-cant-open-bb-2.png)
 
-First possibilities that you may want to check are:
+The first things to check are:
 
-  * URL settings not matching in the WordPress Admin under **Settings > General**
-    * One instance is when www is present in one URL but not the other  
-![](/img/troubleshooting-cant-open-bb-3.png)
+  * URL settings not matching in the WordPress Admin under **Settings > General**.
+    * One instance is when `www` is present in one URL but not the other:  
+    ![](/img/troubleshooting-cant-open-bb-3.png)
 
-    * This can also occur if you use SSL(https) for one URL and not the other
+    * This can also occur if you use SSL(`https`) for one URL and `http` for the other URL.
 
-The other likely cause is a conflict with another plugin installed on your
-site. Follow the Related Link to troubleshoot plugin conflicts.
+The other likely cause is a [conflict with another plugin](/beaver-builder/troubleshooting/debugging/plugin-conflicts.md) installed on your
+site.

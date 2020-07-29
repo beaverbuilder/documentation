@@ -61,9 +61,7 @@ Default heading color is usually specified in the theme, but you can choose a
 custom color here.
 
 * **Typography** section  
-This is the standard Beaver Builder Typography section (see the Related
-Article below) with settings for the font family, weight, size, spacing, and
-so on.
+This is the [standard Beaver Builder **Typography** section](/beaver-builder/styles/typography/typography.md), with settings for the font family, weight, size, spacing, and so on.
 
 **Tip:** While you can choose a custom Google font in each Heading module, be
 careful about using too many different fonts if you're trying to pare down
