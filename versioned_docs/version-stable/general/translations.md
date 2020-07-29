@@ -24,6 +24,7 @@ are.
 
   * [Beaver Builder Plugin](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-plugin/)
   * [Beaver Builder Theme](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-theme/)
+  * [Beaver Themer](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-theme-builder/)
 
 We’re always looking to increase the number of available translations, so let
 us know if you’re interested in helping and we’ll hook you up with a free year
@@ -38,7 +39,7 @@ There are various plugins that assist with translating your site, but there
 are two that have specific integrations with Beaver Builder:
 
   * [TranslatePress](https://translatepress.com)  
-See [this blog post](https://translatepress.com/how-to-translate/beaver-builder-sites-using-translatepress/) for information about how to translate a Beaver Builder site using TranslatePress.
+See [this blog post](https://www.wpbeaverbuilder.com/how-to-create-a-multilingual-wordpress-site/) for information about how to translate a Beaver Builder site using TranslatePress.
 
   * [WPML](https://wpml.org)  
 For more information, see WPML's post on [How to build multilingual sites with Beaver Builder and WPML](https://wpml.org/documentation/plugins-compatibility/beaver-builder/?aid=83065&affiliate_key=OKuuAGLjyHp3) or watch their [video tutorial](https://www.youtube.com/watch?v=f4RjUCdOtFk).
