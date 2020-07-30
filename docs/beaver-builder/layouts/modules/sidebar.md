@@ -15,5 +15,5 @@ Sidebar. If you want to create a different sidebar or which widgets appear
 there, you must use a plugin or write code.
 :::
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
 

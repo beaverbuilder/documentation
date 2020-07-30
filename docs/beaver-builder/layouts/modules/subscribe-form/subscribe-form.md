@@ -132,7 +132,7 @@ See [this article](/beaver-builder/layouts/modules/contact-form/add-a-google-rec
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Accessibility
 The Subscribe Form module's rendered HTML output contains a number of labels and classes to help screen readers understand the form. Here's an example.

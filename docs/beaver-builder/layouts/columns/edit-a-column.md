@@ -46,7 +46,8 @@ You can set individual top, bottom, left, and right borders, which you can use t
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins and padding, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins and padding, visibility, animations, and advanced HTML settings.
+
 
 ##  Open column settings for editing
 
