@@ -33,7 +33,7 @@ There's a **Beaver Builder** admin panel nested in the WordPress admin panel, an
 ![](/img/i-installed-beaver-themer-now-what-84e9b397.png)
 
 :::tip **Tip**
-Can't see **Beaver Builder** in your WordPress admin panel? See the article about [how to enable it](/beaver-builder/troubleshooting/cant-find-the-beaver-builder-menu-in-the-admin-panel.md).
+Can't see **Beaver Builder** in your WordPress admin panel? See the article about [how to enable it](/beaver-builder/troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel.md).
 :::
 
 ### 2. Identify and edit Themer layouts from the WordPress admin bar

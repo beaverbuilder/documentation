@@ -1,5 +1,3 @@
-const [latestVersion] = require('./versions.json');
-
 module.exports = {
   title: 'Beaver Builder Knowledge Base',
   tagline: 'Frequently asked questions and support documentation for Beaver Builder products.',
@@ -14,32 +12,27 @@ module.exports = {
       defer: true,
     },
   ],
-  plugins: [require.resolve('@docusaurus/plugin-google-analytics')],
   themeConfig: {
     image: 'img/bb-logo.png',
     googleAnalytics: {
-      trackingID: 'UA-15399878-6',
+      trackingID: 'UA-15399878-10',
       anonymizeIP: true,
     },
     algolia: {
       apiKey: 'fa19c2d00714189b023a571e59f6e1c5',
       appId: '30TMM3CYV0',
       indexName: 'bbdocs',
-      algoliaOptions: {
-        hitsPerPage: 10
-      }
     },
     prism: {
       additionalLanguages: ['php']
     },
-    disableDarkMode: false,
     navbar: {
         logo: {
         alt: 'Beaver Builder',
         src: 'img/bb-logo-light.png',
         srcDark: 'img/bb-logo-dark.png', // default to logo.src
       },
-      links: [
+      items: [
         {
           to: '/general',
           label: 'General',
@@ -137,14 +130,10 @@ module.exports = {
             {
               label: 'Privacy',
               href: 'https://www.wpbeaverbuilder.com/privacy-policy/',
-              target: '_blank',
-              rel: 'noreferrer noopener',
             },
             {
               label: 'Terms',
               href: 'https://www.wpbeaverbuilder.com/terms-and-conditions/',
-              target: '_blank',
-              rel: 'noreferrer noopener',
             },
           ],
         },

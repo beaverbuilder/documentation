@@ -25,6 +25,6 @@ people – you could set up something like a portfolio of your creations, in
 which each image has a description that's too long for a caption. Or, you
 could have a selection of your favorite quotations, displayed one by one.
 
-This module has the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+This module has the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
 
 

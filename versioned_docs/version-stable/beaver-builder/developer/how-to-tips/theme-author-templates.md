@@ -42,8 +42,7 @@ Create your [custom layout templates](/beaver-builder/layouts/templates/layout-t
 
 Use the **Beaver Builder** admin panel (on the WordPress admin panel menu)
 assign categories and add featured images to your saved layout templates. See
-[how to categorize and add thumbnails to saved layout
-templates](/beaver-builder/layouts/templates/categorize-and-add-thumbnails-to-saved-templates-list.mcd). (This won't work for saved rows and modules.)
+[how to categorize and add thumbnails to saved layout templates](/beaver-builder/layouts/templates/categorize-and-add-thumbnails-to-saved-templates-list.md). (This won't work for saved rows and modules.)
 
 ## 4. Export your template data file
 
@@ -135,7 +134,7 @@ be rendered.
 
 For this reason, we recommend third-party theme authors create custom modules
 for their themes and templates if they need something that isn’t available in
-the lite version. See [the custom module guide](/beaver-builder/developer/custom-modules/custom-module-guide.md).
+the lite version. See [the custom module guide](/beaver-builder/developer/custom-modules.mdx).
 
 ### Global rows and modules are exported as standard templates
 

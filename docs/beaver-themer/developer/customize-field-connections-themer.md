@@ -86,7 +86,7 @@ A reference to a function or class method that is used to retrieve the data for 
 
 ## Add a settings form
 
-Creating custom forms for field connections is very similar to [creating custom modules](/beaver-builder/developer/custom-modules/custom-module-guide.md). There are three main methods for adding settings, the choice of which depends on the type of connection:
+Creating custom forms for field connections is very similar to [creating custom modules](/beaver-builder/developer/custom-modules.mdx). There are three main methods for adding settings, the choice of which depends on the type of connection:
 
   * `FLPageData::add_post_property_settings_fields( $key, $config )`  
   Adds settings to a post connection.
@@ -116,7 +116,7 @@ FLPageData::add_post_property_settings_fields( 'my_connection', array(
 ) );
 ```
 
-The config array for adding settings should have field config as discussed in the [custom module documentation](/beaver-builder/developer/custom-modules/custom-module-guide.md). It can also have a `css` and `js` property for defining CSS and JavaScript files that should be loaded along with your settings.
+The config array for adding settings should have field config as discussed in the [custom module documentation](/beaver-builder/developer/custom-modules.mdx). It can also have a `css` and `js` property for defining CSS and JavaScript files that should be loaded along with your settings.
 
 See also the Beaver Builder Plugin article about [customizing settings forms](/beaver-builder/developer/tutorials-guides/customize-settings-forms.md).
 

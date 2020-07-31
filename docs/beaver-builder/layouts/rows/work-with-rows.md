@@ -92,7 +92,7 @@ opens a section with settings for that type of background.
   * Gradient
   * Photo
   * Video  
-See the article about [row background video settings and tips](/beaver-builder/layouts/rows/video-backgrounds-in-rows.md).
+See the article about [row background video settings and tips](/beaver-builder/layouts/rows/row-effects/video-backgrounds-in-rows.md).
   * Embedded code  
   Use html to embed content such as videos from other sources or sliders from other plugins using shortcodes.
   * Slideshow
@@ -120,7 +120,7 @@ Assign a shape overlay to the top or bottom edge of the row. See [the article on
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins and padding, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins and padding, visibility, animations, and advanced HTML settings.
 
 ## Choose between new rows or row layers
 

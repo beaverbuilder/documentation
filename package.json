@@ -9,9 +9,8 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.56",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.56",
+    "@docusaurus/core": "^2.0.0-alpha.60",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.60",
     "classnames": "^2.2.6",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"

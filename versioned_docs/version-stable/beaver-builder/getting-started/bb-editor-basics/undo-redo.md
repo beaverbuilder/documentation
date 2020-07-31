@@ -84,7 +84,7 @@ When you publish the page, the history is reset, so you'll no
 longer have access to the items that you chose not to keep. If the **Save as
 Draft** or **Discard** your layout, the history remains and you can undo and
 redo the next time you open the editor. For other implications of saving vs.
-discarding vs. publishing a page, see [this article](/beaver-builder/the-basics/instant-save-save-as-draft-publish-discard.md).
+discarding vs. publishing a page, see [this article](/beaver-builder/getting-started/bb-editor-basics/save-publish-discard.md).
 :::
 
 ### Use undo and redo keyboard shortcuts

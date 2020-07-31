@@ -21,6 +21,6 @@ You can style text within the text editor itself, but on the Style tab that are 
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
 
 
