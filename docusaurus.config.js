@@ -6,6 +6,16 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'beaverbuilder',
   projectName: 'docs',
+  plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
+    ],
+  ],
   scripts: [
     {
       src: 'https://kit.fontawesome.com/b1b1d7d7c6.js',
