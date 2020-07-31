@@ -2482,3 +2482,8 @@ from = "https://kb.wpbeaverbuilder.com"
 to = "https://docs.wpbeaverbuilder.com"
 status = 301
 force = true
+[[redirects]]
+from = "http://kb.wpbeaverbuilder.com"
+to = "https://docs.wpbeaverbuilder.com"
+status = 301
+force = true
