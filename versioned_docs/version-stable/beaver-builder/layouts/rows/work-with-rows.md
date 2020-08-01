@@ -92,7 +92,7 @@ opens a section with settings for that type of background.
   * Gradient
   * Photo
   * Video  
-See the article about [row background video settings and tips](/beaver-builder/layouts/rows/video-backgrounds-in-rows.md).
+See the article about [row background video settings and tips](/beaver-builder/layouts/rows/row-effects/video-backgrounds-in-rows.md).
   * Slideshow
   * Parallax  
 See the article about [parallax row backgrounds](/beaver-builder/layouts/rows/row-effects/parallax-row-backgrounds.md).

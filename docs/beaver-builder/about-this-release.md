@@ -51,5 +51,5 @@ The following accessibility changes and improvements have been made:
 * New **Embedded code** option in row backgrounds.  
   This features lets you embed HTML and shortcode. See [the article about working with rows](/beaver-builder/layouts/rows/work-with-rows.md#background-section).
 * Added `<main>` to the list of row/column/module container tag options on the **Advanced** tab.  
-The **Advanced** tab is documented [here](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md).
+The **Advanced** tab is documented [here](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md).
 * Added SpinupWP to the [cache clearing tool](/beaver-builder/troubleshooting/debugging/cache-clearing-tool.md).

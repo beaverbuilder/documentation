@@ -18,5 +18,5 @@ You can choose a **%**, **px**, or **vw** unit of measurement. See [the article 
 
 By default, the Separator line is 1 px high, 100% wide, and a light gray color. 
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
 

@@ -26,7 +26,7 @@ templates you provide, not use prebuilt templates or save their own.
 
 The following procedure assumes that you have already saved your custom layout
 templates, assigned them to categories, and set featured images for them. See
-the article on [categorizing and adding thumbnails to saved templates](/beaver-builder/layout-templates/categorize-and-add-thumbnails-to-saved-templates-list.md).
+the article on [categorizing and adding thumbnails to saved templates](/beaver-builder/layouts/templates/categorize-and-add-thumbnails-to-saved-templates-list.md).
 
 **To replace the display of built-in templates with your saved layout
 templates:**

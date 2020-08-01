@@ -32,7 +32,7 @@ Row and content width in the content area of the page is set in the Beaver Build
 If you want content width in your Beaver Builder layouts to match the theme's header and footer content width, use the same width in **Customize > General > Layout > Width** and the row **Max width** setting in the Beaver Builder editor's global settings.
 :::
 
-The [article about full-width and fixed-width row layouts](/beaver-builder/layouts/rowsfull-width-and-fixed-width.md) provides more information about these layout settings.
+The [article about full-width and fixed-width row layouts](/beaver-builder/layouts/rows/full-width-and-fixed-width.md) provides more information about these layout settings.
 
 :::note **Note**
 If you use Beaver Themer to design layouts for headers and footers, use the Beaver Builder editor to choose the row and content width. These settings will override the Customizer layout settings on the pages in which the Themer layout appears.

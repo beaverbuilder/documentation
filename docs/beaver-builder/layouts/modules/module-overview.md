@@ -33,8 +33,8 @@ One of the module groups consists of WordPress widgets, which give you the abili
 
 ## Actions
 
-* [Call to Action](/beaver-builder/layouts/modules/call-to-action.md)
-* [Callout](/beaver-builder/layouts/modules/callout.md)
+* [Call to Action](/beaver-builder/layouts/modules/callout-and-call-to-action#call-to-action-module-settings)
+* [Callout](/beaver-builder/layouts/modules/callout-and-call-to-action#callout-module-settings)
 * [Contact Form](/beaver-builder/layouts/modules/contact-form/contact-form.md)
 * [Login Form](/beaver-builder/layouts/modules/login-form.md)
 * [Menu](/beaver-builder/layouts/modules/menu/menu.md)
@@ -43,7 +43,7 @@ One of the module groups consists of WordPress widgets, which give you the abili
 
 ## Layout
 
-* [Accordion](/beaver-builder/layouts/modules/accordion.md)
+* [Accordion](/beaver-builder/layouts/modules/accordion/accordion.md)
 * [Pricing Table](/beaver-builder/layouts/modules/pricing-table.md)
 * [Sidebar](/beaver-builder/layouts/modules/sidebar.md)
 * [Tabs](/beaver-builder/layouts/modules/tabs/tabs.md)
@@ -56,8 +56,8 @@ One of the module groups consists of WordPress widgets, which give you the abili
 ## Posts
 
 * [Posts](/beaver-builder/layouts/modules/posts/posts.md)
-* [Posts Carousel](/beaver-builder/layouts/modules/posts/post-carousel.md)
-* [Posts Slider](/beaver-builder/layouts/modules/posts/post-slider.md)
+* [Posts Carousel](/beaver-builder/layouts/modules/posts/posts-carousel.md)
+* [Posts Slider](/beaver-builder/layouts/modules/posts/posts-slider.md)
 
 ## WordPress Widgets
 

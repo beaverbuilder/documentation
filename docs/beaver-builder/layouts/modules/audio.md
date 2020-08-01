@@ -89,12 +89,9 @@ The Audio module is a wrapper for WordPress’ core
 the links to the WordPress codex for more information. If you prefer, you can
 embed these shortcodes into HTML modules instead of using the Audio module.
 
-The Beaver Builder Custom Module Developer Guide describes a [Multiple Audios
-field](/http://localhost:3000/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference.md/#multiple-audios-field), which can display a WordPress media lightbox that lets users select
+The Beaver Builder Custom Module Developer Guide describes a [Multiple Audios field](/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference#multiple-audios-field), which can display a WordPress media lightbox that lets users select
 multiple audio files.
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
-
-
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.

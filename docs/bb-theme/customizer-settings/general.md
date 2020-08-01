@@ -101,11 +101,11 @@ The hover color sets the color of linked text and buttons when the cursor hovers
 
 ## Headings
 
-You can set heading styles that serve as the defaults in the Beaver Builder plugin (including Beaver Themer) and Gutenberg layouts. Heading size can be configured responsively, in other words you can have different font sizes for large, medium, and small devices. See [this article about responsive default heading styles](/bb-theme/theme-basics/set-responsive-default-text-styles-for-beaver-builder-layouts.md) and [this article about system fonts](/bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui.md).
+You can set heading styles that serve as the defaults in the Beaver Builder plugin (including Beaver Themer) and Gutenberg layouts. Heading size can be configured responsively, in other words you can have different font sizes for large, medium, and small devices. See [this article about responsive default heading styles](/bb-theme/defaults-for-styles/typography/set-responsive-default-text-styles-for-beaver-builder-layouts.md) and [this article about system fonts](/bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui.md).
 
 ## Text
 
-You can set custom font and other style defaults for non-heading text. See [this article about responsive default text styles](/bb-theme/theme-basics/set-responsive-default-text-styles-for-beaver-builder-layouts.md) and [this article about system fonts](/bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui.md).
+You can set custom font and other style defaults for non-heading text. See [this article about responsive default text styles](/bb-theme/defaults-for-styles/typography/set-responsive-default-text-styles-for-beaver-builder-layouts.md) and [this article about system fonts](/bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui.md).
 
 ## Buttons
 

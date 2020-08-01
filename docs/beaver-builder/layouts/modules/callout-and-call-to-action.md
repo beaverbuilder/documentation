@@ -139,7 +139,7 @@ Settings for the text portion of the call to action: **Text color** and the
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
 
 ---
 
@@ -276,8 +276,8 @@ The **Link text** section lets you assign link and link hover color, and the
 **This choice opens a **Text** field and a number of button sections, as shown
 in the following screenshot.  
 ![](/img/callout-13.png)  
-These button sections have most of the same options of the [Button module](button.md).
+These button sections have most of the same options of the [Button module](/beaver-builder/layouts/modules/button/button.md).
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.

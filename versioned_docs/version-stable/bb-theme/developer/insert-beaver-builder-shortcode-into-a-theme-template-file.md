@@ -4,7 +4,7 @@ title: Insert Beaver Builder shortcode into a theme template file
 sidebar_label: Insert Beaver Builder shortcode into a theme template file
 ---
 
-If you're modifying a theme template file such as *single.php*, you can [insert a shortcode](/beaver-builder/tutorials-guides/use-shortcodes-in-layout.md) for a Beaver Builder saved row, column, or module, but you also need to add the code to render it.
+If you're modifying a theme template file such as *single.php*, you can [insert a shortcode](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md) for a Beaver Builder saved row, column, or module, but you also need to add the code to render it.
 
 Add the following line of code to the theme template file that you're modifying:
 

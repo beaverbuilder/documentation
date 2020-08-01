@@ -30,7 +30,7 @@ See below for more information about the **Tools** menu.
 ### 3. Notifications icon  
 Click the bell icon to open notifications of news from Beaver Builder.
 
-:::note **Note** 
+:::note **Note**
 If you have and Agency license and have white-labeled Beaver Builder,
 this icon won't be displayed.
 :::
@@ -62,7 +62,7 @@ Click **Done** to open a choice of **Discard**, **Save draft**, **Publish**, or 
 Changes in Beaver Builder are preserved as you make them. When
 you click **Discard**, you lose all saved changes since the last time you
 published, and only publishing creates a revision you can go back to. For more
-information about discarding, saving, and publishing see [Instant save - Save as draft - Publish - Discard](/beaver-builder/the-basics/instant-save-save-as-draft-publish-discard/).
+information about discarding, saving, and publishing see [Instant save - Save as draft - Publish - Discard](/beaver-builder/getting-started/bb-editor-basics/save-publish-discard.md).
 :::
 
 ## #7-13 Content panel

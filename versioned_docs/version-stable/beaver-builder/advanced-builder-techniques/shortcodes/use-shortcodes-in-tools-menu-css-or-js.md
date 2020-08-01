@@ -5,7 +5,7 @@ sidebar_label: Use shortcodes in Tools menu CSS or JS
 ---
 
 You can use shortcodes in **Layout CSS & JavaScript settings**, accessed from
-the [Tools menu](/beaver-builder/getting-started/tools-menu). Use this
+the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md). Use this
 feature to replace a value in custom CSS or JS in a Beaver Builder layout.
 
 ## To enable this feature
