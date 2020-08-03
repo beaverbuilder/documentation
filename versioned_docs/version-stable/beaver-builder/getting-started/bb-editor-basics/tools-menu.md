@@ -6,6 +6,8 @@ sidebar_label: The Tools Menu
 
 Open the Tools menu by clicking the arrow in the page title bar in the upper left corner of your editing screen, as shown in this screenshot.
 
+![](/img/tools-menu-9421504e.png)
+
 To the right of each menu item is the shortcut symbol to access it. The symbols will are based on your desktop operating system.
 
 This menu has the following choices.
@@ -26,9 +28,13 @@ Copies the entire page and all metadata from the back end, including Yoast SEO d
 
 Opens a preview screen, where you can preview as a small, medium, or large device. Click Continue editing to return to the Beaver Builder editing screen.
 
+![](/img/tools-menu-10122305.png)
+
 ## Responsive editing
 
 Edit your layout directly in a medium or small device view, as shown in this screenshot. Click Exit to return to large screen editing.
+
+![](/img/tools-menu-f70bf0fa.png)
 
 ## Revisions
 
@@ -47,6 +53,7 @@ A green dot shows beside this menu item when custom CSS or JavaScript has alread
 ## Global settings
 
 Beaver Builder editor settings that apply as defaults. Most of these settings can be overridden on individual pages. There's also a CSS and JavaScript tab to enter CSS and JavaScript that will apply to content layout throughout your site.
+
 A green dot displays if any custom CSS or JavaScript has been added to this menu item. Since CSS and JavaScript added here applies to all Beaver Builder pages, after you add the custom code to one page, that code and this green dot will be visible on every page.
 
 :::note **Note** 
@@ -57,20 +64,24 @@ Use this CSS and JavaScript tab for page content layouts only. If the CSS or Jav
 
 This option is a toggle that changes the UI skin from light (default) to dark and back.
 
-## WordPress admin.
+## WordPress admin
 
-This option opens a new browser tab and serves as a shortcut to get to popular spots from the WordPress admin panel:
+Choosing this option opens a submenu with shortcuts to get to the following popular spots in the WordPress admin by opening a new browser tab:
 
-* The WordPress editing screen for the page you're currently editing in Beaver Builder
-* WordPress admin dashboard
-* Beaver Builder > Templates
-* Appearance > Customize
+![](/img/tools-menu-2e6303d7.png)
 
-Be careful to close this new tab to return to your original Beaver Builder layout to ensure that any editing changes don't get lost.
+* **Edit page**  
+  Opens the WordPress editing page for the page you're currently editing in Beaver Builder.  For example, you could change the title, add a featured image, or enter values for custom properties. 
+* **Dashboard**  
+  An easy way to get to your WordPress admin dashboard to do other things so you can easily return to your Beaver Builder layout. 
+* **Manage templates**  
+Opens the list of Beaver Builder layout templates you've saved at **Beaver Builder > Templates**. For example, you could make changes to a saved template, then go to your previous browser tab to apply it to your Beaver Builder layout.
+* **Customize theme**  
+  Opens the WordPress Customizer at **Appearance > Customize**.
 
 ## Help
 
-Play an introductory video or click links to the Beaver Builder knowledge base or to Beaver Builder Support.
+Play an introductory video or click links to the [Beaver Builder knowledge base](https://docs.wpbeaverbuilder.com) or to [Beaver Builder Support](https://www.wpbeaverbuilder.com/beaver-builder-support/).
 
 ## Keyboard shortcuts
 
