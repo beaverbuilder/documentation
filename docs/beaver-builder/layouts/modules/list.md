@@ -4,14 +4,14 @@ title: List module
 sidebar_label: List
 ---
 
-While it's easy to add bulleted and numbered lists in a text editor, the List module offers you an easy way to shape them into beautiful designs. 
+While it's easy to add bulleted and numbered lists in a text editor, the List module offers you an easy way to shape them into beautiful designs.
 
 The List module is based on the Bootstrap concept of a [List Group](https://getbootstrap.com/docs/4.0/components/list-group/#custom-content), with optional headings, content, and list marker icons. If you choose to display list markers, they can be to the right or the left of either the headings or the content.
 
 ## List group examples
 
 ### Unordered lists  
-This is the typical bulleted list, but you can choose your list marker and adjust its size. You can choose from the standard circle and square icons that are available as list item markers for standard unordered lists.  
+This is the typical bulleted list, but you can choose your list marker and adjust its size. You can choose from the standard circle and square icons that are available as list item markers for standard unordered lists.
 
 ![](/img/list-800a64f4.png)
 
