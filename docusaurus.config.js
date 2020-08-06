@@ -24,7 +24,9 @@ module.exports = {
       indexName: 'bbdocs',
     },
     prism: {
-      additionalLanguages: ['php']
+      additionalLanguages: ['php'],
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
         logo: {
