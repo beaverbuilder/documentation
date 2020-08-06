@@ -14,6 +14,11 @@ to = "https://docs.wpbeaverbuilder.com/general"
 status = 301
 force = true
 [[redirects]]
+from = "/article/42-known-beaver-builder-incompatibilities"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/debugging/known-beaver-builder-incompatibilities"
+status = 301
+force = true
+[[redirects]]
 from = "/article/593-glossary-of-beaver-builder-and-wordpress-terms"
 to = "https://docs.wpbeaverbuilder.com/general/glossary"
 status = 301
