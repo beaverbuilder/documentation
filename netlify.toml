@@ -1501,6 +1501,12 @@ from = "/article/688-tutorial-add-a-custom-shape-layer"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/add-a-custom-shape-layer"
 status = 301
 force = true
+[[redirects]]
+from = "/article/117-plugin-filter-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/common-beaver-builder-filter-examples"
+status = 301
+force = true
+
 
 # Beaver Themer
 [[redirects]]
