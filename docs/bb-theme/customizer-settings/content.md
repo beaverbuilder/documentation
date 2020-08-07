@@ -62,13 +62,13 @@ You can display or hide the categories to which the post belongs.
 
 You can display or hide the tags to which the post belongs.
 
-#### Previous/next links to other posts
+#### Previous links to other posts
 
 You can display or hide the navigation to previous and next posts.
 
 #### Author Box
 
-You can enable an author box, which appears under single posts between the category and the previous/next post navigation, as shown in this example.
+You can enable an author box, which appears under single posts between the category and the previous post navigation, as shown in this example.
 
 Information comes from WordPress user profiles.
 
