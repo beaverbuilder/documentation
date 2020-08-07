@@ -4,7 +4,7 @@ title: Known Issues
 sidebar_label: Known Issues
 ---
 
-This is a partial list of high-priority issues we’re chipping away at. If you encounter one of these issues and need help with a workaround, please contact the [Beaver Builder Support team](https://www.wpbeaverbuilder.com/beaver-builder-support/).
+This is a partial list of high-priority issues we’re chipping away at.
 
 
 <p><span class="badge badge--secondary">Status: Pending</span> = Issue has been reviewed but not fixed yet.</p>
