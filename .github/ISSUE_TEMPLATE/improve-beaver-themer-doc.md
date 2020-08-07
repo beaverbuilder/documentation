@@ -1,7 +1,7 @@
 ---
 name: Improve Beaver Themer doc
 about: Recommend improvements to a Beaver Themer doc
-title: "[Improve]"
+title: ''
 labels: 'category: beaver themer, doc: improve'
 assignees: Dannyholt
 

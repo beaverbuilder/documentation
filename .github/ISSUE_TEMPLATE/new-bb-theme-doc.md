@@ -1,8 +1,8 @@
 ---
 name: New BB Theme doc
 about: Recommend a new BB Theme doc
-title: "[New]"
-labels: 'category: bb theme, doc: not ready, doc: new'
+title: ''
+labels: 'category: bb theme, doc: new, doc: not ready'
 assignees: Dannyholt
 
 ---

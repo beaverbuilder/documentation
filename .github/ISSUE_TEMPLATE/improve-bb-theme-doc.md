@@ -1,7 +1,7 @@
 ---
 name: Improve BB Theme doc
 about: Recommend improvements to a Beaver Themer doc
-title: "[Improve]"
+title: ''
 labels: 'category: bb theme, doc: improve'
 assignees: Dannyholt
 
