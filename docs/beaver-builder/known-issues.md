@@ -6,10 +6,15 @@ sidebar_label: Known Issues
 
 This is a partial list of high-priority issues we’re chipping away at. If you encounter one of these issues and need help with a workaround, please contact the [Beaver Builder Support team](https://www.wpbeaverbuilder.com/beaver-builder-support/).
 
+
+<p><span class="badge badge--secondary">Status: Pending</span> = Issue has been reviewed but not fixed yet.</p>
+<p><span class="badge badge--primary">Status: Fixed</span> = Issue has been fixed internally, waiting for the next release.</p>
+<p><span class="badge badge--success">Status: Released</span> = Issue has been fixed and released.</p>
+
 ## Beaver Builder
 
 ### Button Group module
-<p><span class="badge badge--primary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** For a Button Group with Horizontal layout with several buttons, the space between the first and second button is missing on smaller screen size.
 
@@ -17,7 +22,7 @@ This is a partial list of high-priority issues we’re chipping away at. If you 
 
 ### Contact Form module
 
-<p><span class="badge badge--primary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** In some cases, labels display when set to placeholder only
 
@@ -25,7 +30,7 @@ This is a partial list of high-priority issues we’re chipping away at. If you 
 
 ### Image Cropping broken on Flywheel Hosting
 
-<p><span class="badge badge--primary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** On some configurations, Flywheel changes how `ABSPATH` works which interferes with cropping in image modules using that.
 
@@ -33,7 +38,7 @@ This is a partial list of high-priority issues we’re chipping away at. If you 
 
 ### Text Editor module
 
-<p><span class="badge badge--primary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** With HappyFox plugin active and connected to the API, the Add Media button in the Text Editor module does not function.
 
@@ -43,7 +48,7 @@ This is a partial list of high-priority issues we’re chipping away at. If you 
 
 ### BigCommerce
 
-<p><span class="badge badge--primary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** When Yoast and BigCommerce are active on a site and a post module is used on a page to display BC products, when you try to edit that page in the WP admin, a fatal error occurs
 
@@ -59,7 +64,7 @@ This is a partial list of high-priority issues we’re chipping away at. If you 
 
 ### Event notices module not working
 
-<p><span class="badge badge--primary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** Module displays empty even when there should be content
 
