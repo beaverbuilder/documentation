@@ -75,7 +75,7 @@ The issues reported below are ones we’ve identified as significant, high-prior
 
 ### Applying a Singular layout to Organizer results in a loading gif
 
-**Description:** Appling a singular themer layout shows a loading GIF above the content area
+**Description:** Applying a singular themer layout shows a loading GIF above the content area
 
 `IR: 152`
 
