@@ -47,7 +47,7 @@ Title in Customizer  |  Key  |  Value options
 Featured image  |  `fl-posts-show-thumbs`  |  (blank for hidden), above-title, above, beside
 Post categories  |  `fl-posts-show-cats`  |  visible, hidden
 Post tags  |  `fl-posts-show-tags`  |  visible, hidden
-Prev/next post links  |  `fl-posts-show-nav`  |  visible, hidden
+Prev post links  |  `fl-posts-show-nav`  |  visible, hidden
 
 ## Woocommerce Layout
 
