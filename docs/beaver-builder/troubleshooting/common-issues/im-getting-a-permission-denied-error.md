@@ -13,4 +13,4 @@ Beaver Builder to function correctly. The error may appear like this:
 
 To resolve this issue, contact your web host provider or server administrator
 and ask them to review your read/write permissions on all directories. For
-more information on WordPress file permissions, see the  [WordPress Codex on changing file permissions](https://codex.wordpress.org/Changing_File_Permissions).  
+more information on WordPress file permissions, see the  [WordPress Codex on changing file permissions](https://wordpress.org/support/article/changing-file-permissions/).  
