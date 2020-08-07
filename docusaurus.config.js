@@ -65,7 +65,6 @@ module.exports = {
           position: 'right',
           activeBasePath: 'next',
         },
-
       ],
     },
     footer: {
