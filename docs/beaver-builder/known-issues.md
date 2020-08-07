@@ -4,9 +4,7 @@ title: Known Issues
 sidebar_label: Known Issues
 ---
 
-An updated list of high-priority bugs we're actively trying to squash with keyboards.
-
-The issues reported below are ones we’ve identified as significant, high-priority issues that we are currently investigating. Please note that this is not a complete list of every single known issue.
+This is a partial list of high-priority issues we’re chipping away at. If you encounter one of these issues and need help with a workaround, please contact the [Beaver Builder Support team](https://www.wpbeaverbuilder.com/beaver-builder-support/).
 
 ## Beaver Builder
 
