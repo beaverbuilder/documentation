@@ -27,7 +27,6 @@ Google Webfonts Helper site, which we’ve included in the steps here.
 // module enqueued google fonts
 add_filter( 'fl_builder_google_fonts_pre_enqueue', function( $fonts ) {
     return array();
-    return $fonts;
 } );
 ```
 
@@ -125,4 +124,3 @@ add_action( 'wp_enqueue_scripts', function() {
 
 This code dequeues the CDN version that Beaver Builder loads by default and
 enqueues your new local version.
-
