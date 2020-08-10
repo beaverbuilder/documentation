@@ -535,6 +535,7 @@
             "beaver-builder/troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel",
             "beaver-builder/troubleshooting/miscellaneous/cant-open-page-in-beaver-builder",
             "beaver-builder/troubleshooting/miscellaneous/font-awesome-icons",
+            "beaver-builder/troubleshooting/miscellaneous/reduce-disable-undo-redo-manager",
             "beaver-builder/troubleshooting/miscellaneous/wordpress-admin-bar-is-hidden",
             "beaver-builder/troubleshooting/miscellaneous/classic-wordpress-and-beaver-builder-text-editor-toolbars-dont-match",
             "beaver-builder/troubleshooting/miscellaneous/background-color-or-image-doesnt-appear",
