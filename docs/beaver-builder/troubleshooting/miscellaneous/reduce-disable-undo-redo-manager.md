@@ -34,4 +34,4 @@ To disable the History Manager entirely, add the following line to your [wp-conf
 define( 'FL_BUILDER_HISTORY_STATES', 0 );
 ```
 
-With a value of `0`, the history actually remains intact until the page or post is opened in the Beaver Builder editor, at which point the history is erased.
+With a value of `0`, the history is erased when the Beaver Builder editor is opened and no new events are created for the page, so if there are any admin performance problems at that point, the problem lies somewhere else.
