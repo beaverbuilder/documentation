@@ -13,4 +13,4 @@ The row height adjusts to fit the content.
 The row height fills the height of the browser window.
 
 * Minimum height  
-The row height is at least as tall as the value entered using `px`, `vh` and `vw`.
+The row height is at least as tall as the value entered using `px`, `vh` and `vw`. See [this article comparing these CSS height and width units](/beaver-builder/advanced-builder-techniques/css-length-height-units.md) in more detail.
