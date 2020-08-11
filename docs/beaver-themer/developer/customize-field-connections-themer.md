@@ -162,7 +162,7 @@ See the type section above for the list of built-in field types.
 You can simply declare support for connections in your field config, and the rest is taken care of. In your module's _frontend.php_ file, you can access all of your settings on the `$settings` object, just as you normally would, whether they are connected or not. For example, if your setting key is `text`, you would still access it like this:
 
 ```php
-    <?php
+<?php
 
-    echo $settings->text;
+echo $settings->text;
 ```
