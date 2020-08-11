@@ -13,7 +13,7 @@ module.exports = {
     },
   ],
   themeConfig: {
-    image: 'img/bb-logo.png',
+    image: 'img/bb-soc-logo.png',
     googleAnalytics: {
       trackingID: 'UA-15399878-10',
       anonymizeIP: true,
