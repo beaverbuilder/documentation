@@ -290,7 +290,14 @@
               ]
             },
             "beaver-builder/layouts/modules/pricing-table",
-            "beaver-builder/layouts/modules/search",
+            {
+              type: 'category',
+              label: 'Search',
+              items: [
+                "beaver-builder/layouts/modules/search/search",
+                "beaver-builder/layouts/modules/search/limit-post-types-search-module",
+              ]
+            },
             "beaver-builder/layouts/modules/separator",
             "beaver-builder/layouts/modules/sidebar",
             "beaver-builder/layouts/modules/slideshow",
