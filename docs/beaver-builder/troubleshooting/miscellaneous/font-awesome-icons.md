@@ -51,7 +51,7 @@ worked, you could try adding this custom rule. See [this article](/beaver-builde
 .fas { font-weight:900 !important; }
 ```
 
-The `.fas` class is used for FA5 Solid icons. See [this article](https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements) for more details.
+The `.fas` class is used for FA5 Solid icons.
 
 If this rule doesn't work, try going through the routine of [deactivating plugins](/beaver-builder/troubleshooting/debugging/plugin-conflicts.md) or [changing themes](/beaver-builder/troubleshooting/debugging/theme-conflict.md) to see if your problem is resolved.
 
