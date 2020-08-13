@@ -8,9 +8,7 @@ The default memory limit for WordPress is 32 MB. It is very common to exceed
 this limit and get the error `Fatal error: Allowed memory size`. The fatal
 error message looks similar to this one:
 
-```text
-Fatal error: Allowed memory size of 23556632 bytes exhausted (tried to allocate 3349917 bytes) in /home/xxxxx/public_html/wp-includes/plugin.php on line xxx
-```
+> Fatal error: Allowed memory size of 23556632 bytes exhausted (tried to allocate 3349917 bytes) in /home/my_site/public_html/wp-includes/plugin.php on line x
 
 **To increase the WordPress allowed memory size for your website:**
 
