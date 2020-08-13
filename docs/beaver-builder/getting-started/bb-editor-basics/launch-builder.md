@@ -25,7 +25,7 @@ document the problem and any possible workarounds, or list it as incompatible.
 
 :::note **Note**
 If you want to edit a Post layout in Beaver Builder, you need to
-[enable Posts as a post type in the Beaver Builder settings](/beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder.md). 
+[enable Posts as a post type in the Beaver Builder settings](/beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder.md).
 :::
 
 ## 1\. From the WordPress editing page (block or classic)
@@ -37,15 +37,6 @@ you'll see a choice to either launch Beaver Builder or use the Standard
 (Gutenberg) editor, as shown in the following screenshot.
 
 ![](/img/the-basics-open-builder-editor-1.png)
-
-:::note **Note**
-Due to a longstanding bug in WordPress, if you have used an
-ampersand character (`&`) in your Beaver Builder content instead of the
-character entity (`&amp;`), when you click **Edit** for an existing Beaver
-Builder page, it will open directly in Gutenberg with a warning that there is
-invalid content. For example, if you have a heading such as "M&Ms" in a
-Heading module, changing it to "M&amp;Ms" will resolve the issue.
-:::
 
 ### 1.2 In the Classic Editor UI
 
