@@ -62,7 +62,9 @@ rules for FA4, you will probably need to update them. The free set of FA5
 Solid icons use the `.fas` class and require a font weight of 900. Here's
 [some basic information](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) about built-in classes in FA5 and examples of CSS rules for other modifications, and here's some basic FA5 [troubleshooting information](https://fontawesome.com/how-to-use/on-the-web/other-topics/troubleshooting).
 
-::note **Note**
+If you have written custom CSS that uses pseudo elements (`::before` or `::after`) and it’s not working, see [this Font Awesome article](https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements) about writing rules that include pseudo-elements. Be sure to use the correct font weight for your icon set, as listed in that article.
+
+:::note **Note**
 Some ad blocker browser extensions will block certain icon fonts from loading.
 If you're using an ad blocker, try whitelisting the site.
 :::

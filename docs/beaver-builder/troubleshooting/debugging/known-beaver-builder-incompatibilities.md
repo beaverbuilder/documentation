@@ -153,21 +153,21 @@ theme's *functions.php* , or incorporate it into a plugin if you know how to
 create one.
 
 ```php
-add_action( 'wp_enqueue_scripts', 'bb_custom_enqueue_scripts', 99 );
 function bb_custom_enqueue_scripts(){  
-    if ( class_exists( 'FLBuilderModel' ) && FLBuilderModel::is_builder_active() ) {
-        wp_deregister_script( 'app' );
-    }
+
+  if ( class_exists( 'FLBuilderModel' ) && FLBuilderModel::is_builder_active() ) {
+    wp_deregister_script( 'app' );
+  }
 }
+add_action( 'wp_enqueue_scripts', 'bb_custom_enqueue_scripts', 99 );
 ```
 
 ### Tesseract Theme
 
 Tesseract appears to have dropped support for Beaver Builder and taken away
 the templates they were originally offering. As an alternative we recommend
-either the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-
-framework-theme/) or any alternative theme known to integrate well with Beaver
-Builder, such as [GeneratePress](https://generatepress.com).
+either the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/)
+or any alternative theme known to integrate well with Beaver Builder, such as [GeneratePress](https://generatepress.com).
 
 ## Services
 

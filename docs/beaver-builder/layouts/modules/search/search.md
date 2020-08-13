@@ -4,7 +4,7 @@ title: Search module
 sidebar_label: Search
 ---
 
-The Search module lets you place a standard WordPress search form in your layout. It has a standard input form and a button to activate the search query. 
+The Search module lets you place a standard WordPress search form in your layout. It has a standard input form and a button to activate the search query.
 
 The search functionality and search results are the same as a standard WordPress search widget.
 
@@ -15,7 +15,7 @@ On the **Layout** tab you can choose from the layouts shown in this screenshot a
 
 ![](/img/search-fbe9a433.png)
 
-#### Input text only 
+#### Input text only
 
 Only the search input field appears, not the button. Search is activated by using the Return key on the keyboard. With this option, you can customize the text on the Search button.
 
@@ -25,26 +25,27 @@ The Search button appears to the right of the search field at all device sizes. 
 
 #### Button only  
 
-Only the Search button appears, and clicking the button expands to display the input field according to the option set in the *Action* field. When the action is **Expand on click**, the search input field appears to the left of the button. The user enters the search terms and presses Return on the keyboard. 
+Only the Search button appears, and clicking the button expands to display the input field according to the option set in the *Action* field. When the action is **Expand on click**, the search input field appears to the left of the button. The user enters the search terms and presses Return on the keyboard.
 
-:::note Note: Clicking the Search button when the input field is expanded serves to collapse the input field to show only the button again. In this configuration, you might consider changing the placeholder text to indicate that the user should enter text and hit Return.
+:::note **Note**
+Clicking the Search button when the input field is expanded serves to collapse the input field to show only the button again. In this configuration, you might consider changing the placeholder text to indicate that the user should enter text and hit Return.
 :::
 
-When the action is **Full screen**, clicking the Search button opens a fullscreen window with the search input field displayed there. The user enters the search terms and presses Return on the keyboard, which opens the standard WordPress Search Results archive page. 
+When the action is **Full screen**, clicking the Search button opens a fullscreen window with the search input field displayed there. The user enters the search terms and presses Return on the keyboard, which opens the standard WordPress Search Results archive page.
 
 In either configuration, you can also change the placeholder text, the button text, and add an icon to the left or right of the button text.
 
 #### Stacked  
 
-The Search button is centered under the search field at all device sizes. The user enters the search terms and clicks the Search button or presses Return on the keyboard. 
+The Search button is centered under the search field at all device sizes. The user enters the search terms and clicks the Search button or presses Return on the keyboard.
 
 ### Text and icons on the Layout tab
 
 You can customize the placeholder text message. For the button, you can change the button text and add an icon to the left or right. Other settings for the placeholder and button text and icons, such as color, are on the **Style** tab. See the next section.
 
 ## Style choices
-  
-:::note Note: 
+
+:::note Note:
 If you're using the Beaver Builder Theme, the buttons' initial style comes from the settings at **Customize > General > Buttons**. The button's default text color
 is white text for darker accent colors and black text for lighter colors. The
 default font family for the button text depends on the font family set for the
@@ -65,11 +66,11 @@ No width is set for the module.
 * **Full width**  
 The module width is set to 100%.
 **Custom**  
-A **Custom width** field appears so you can set a custom maximum width. 
+A **Custom width** field appears so you can set a custom maximum width.
 
-For **Button only** layouts with a **Fullscreen** input field, the **Width** setting applies to the module that displays the button, not to the input field in the fullscreen view. The Width setting doesn't change the button width but rather the module width, so the width setting is most apparent when you set a background color or border. 
+For **Button only** layouts with a **Fullscreen** input field, the **Width** setting applies to the module that displays the button, not to the input field in the fullscreen view. The Width setting doesn't change the button width but rather the module width, so the width setting is most apparent when you set a background color or border.
 
-:::tip Tip
+:::tip **Tip**
 The Button width itself can be set in the **Button** section. For the **Fullscreen** option, a **Fullscreen** section appears at the bottom of the **Style** tab where you can adjust the width of the input field in the window that opens to display it.
 :::
 
@@ -165,5 +166,3 @@ This choice displays the results immediately below the input field in a bordered
 ## Advanced tab
 
 There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
-
-

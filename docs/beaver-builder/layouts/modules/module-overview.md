@@ -38,7 +38,7 @@ One of the module groups consists of WordPress widgets, which give you the abili
 * [Contact Form](/beaver-builder/layouts/modules/contact-form/contact-form.md)
 * [Login Form](/beaver-builder/layouts/modules/login-form.md)
 * [Menu](/beaver-builder/layouts/modules/menu/menu.md)
-* [Search](/beaver-builder/layouts/modules/search.md)
+* [Search](/beaver-builder/layouts/modules/search/search.md)
 * [Subscribe Form](/beaver-builder/layouts/modules/subscribe-form/subscribe-form.md)
 
 ## Layout
