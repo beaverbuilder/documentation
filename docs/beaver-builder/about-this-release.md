@@ -13,7 +13,7 @@ Premium versions of Beaver Builder 2.4 have four new modules:
 * [Button Group module](/beaver-builder/layouts/modules/button-group.md)
 * [List module](/beaver-builder/layouts/modules/list.md)
 * [Login form](/beaver-builder/layouts/modules/login-form.md)
-* [Search](/beaver-builder/layouts/modules/search.md)
+* [Search](/beaver-builder/layouts/modules/search/search.md)
 
 ## Existing module improvements
 
