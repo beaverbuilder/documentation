@@ -8,9 +8,9 @@ If you have a Google font that includes Latin Extended characters, you can add
 that capability to your Beaver Builder layouts.
 
 Add the following filter to the *functions.php* file of your child theme and
-replace the font name in Line 5 with the name of your Google font family.
+replace the font name in Line 2 with the name of your Google font family.
 
-```php
+```php {2}
 function my_font_subset($subset, $name) {
   if ($name == "Acme") {
     $subset = "&subset=latin,latin-ext";
