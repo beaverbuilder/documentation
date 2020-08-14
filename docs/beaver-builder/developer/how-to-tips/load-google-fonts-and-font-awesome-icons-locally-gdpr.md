@@ -83,7 +83,7 @@ ones you’ve uploaded to your site and provided the CSS for will work.
 You can set up your site to load the Font Awesome 5 icons locally by uploading
 the icons to your site and adding one code snippet in your child theme.
 
-:::not **Note**
+:::note **Note**
 Font Awesome icons
 are included with the plugin and loaded locally. Use this procedure only if you believe that
 GDPR prevents you from using a CDN.
