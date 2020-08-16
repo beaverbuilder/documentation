@@ -513,6 +513,7 @@
             "beaver-builder/troubleshooting/common-issues/403-forbidden-or-blocked-error",
             "beaver-builder/troubleshooting/common-issues/404-error-when-trying-to-open-editor",
             "beaver-builder/troubleshooting/common-issues/internal-server-500-error",
+            "beaver-builder/troubleshooting/common-issues/destination-folder-already-exists",
             "beaver-builder/troubleshooting/common-issues/cloudflare-and-403-errors-when-loading-background-images",
             "beaver-builder/troubleshooting/common-issues/exceeds-php-max-input-vars",
             "beaver-builder/troubleshooting/common-issues/http-error-when-uploading-images",
