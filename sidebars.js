@@ -614,6 +614,7 @@
             "beaver-builder/developer/how-to-tips/html-css-and-javascript-reference",
             "beaver-builder/developer/how-to-tips/theme-author-templates",
             "beaver-builder/developer/how-to-tips/load-css-and-javascript-inline",
+            "beaver-builder/developer/how-to-tips/disable-schema-markup-beaver-builder",
             "beaver-builder/developer/how-to-tips/disable-minification-and-caching-with-wpdebug",
             "beaver-builder/developer/how-to-tips/add-custom-attributes-to-rows-columns-or-modules",
             "beaver-builder/developer/how-to-tips/render-layouts-with-php",
@@ -1139,6 +1140,7 @@
        "bb-theme/developer/theme-filter-reference",
        "bb-theme/developer/theme-css-reference",
        "bb-theme/developer/remove-a-customizer-tab",
+       "bb-theme/developer/disable-schema-markup-bb-theme",
        {
          type: 'category',
          label: 'Custom Theme Presets',
