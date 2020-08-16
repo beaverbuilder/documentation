@@ -10,7 +10,7 @@ The search functionality and search results are the same as a standard WordPress
 
 ## Layout choices and behavior
 
-### **Layout**
+### Layout
 On the **Layout** tab you can choose from the layouts shown in this screenshot and described below:
 
 ![](/img/search-fbe9a433.png)
@@ -54,11 +54,11 @@ default font family for the button text depends on the font family set for the
 
 The **Style** tab has settings for nearly every aspect of the search form. The settings are divided into the following categories: the main settings, an **Input text** section, a **Button** section, and a **Button icon colors** section.
 
-### Main settings on the **Style** tab
+### Main settings on the Style tab
 
 In this section, you can customize settings that apply to the module: width, minimum height, horizontal alignment, background color, border, and padding. Some of the same settings are available specifically for the input field and button in other sections of the **Style** tab, as described later in this article.
 
-#### **Width**  
+#### Width  
 
 The **Width** field applies to the width of the module, regardless of layout type. Choices are:
 * **Auto**  
@@ -74,35 +74,35 @@ For **Button only** layouts with a **Fullscreen** input field, the **Width** set
 The Button width itself can be set in the **Button** section. For the **Fullscreen** option, a **Fullscreen** section appears at the bottom of the **Style** tab where you can adjust the width of the input field in the window that opens to display it.
 :::
 
-#### **Height**  
+#### Height  
 
 Optionally set a minimum height for the form. Note that this setting does not change the height of the form or the Search button but rather the height of the module, with the search form vertically centered. You can change the input form and button height in other sections.
 
-#### **Alignment**  
+#### Alignment  
 
 If the **Width** setting is **Auto** or **Custom**, you can select a **Left**, **Right**, or **Center** horizontal alignment. No alignment setting (none of the alignment icons selected) means the alignment will follow the browser default.
 
-#### **Background color**  
+#### Background color
 
 Sets a background color for the module. The size of the background is affected by the **Width**, **Height**, and **Padding** settings.
 
-#### **Hover background color**  
+#### Hover background color
 
 Upon mouse hover over the module, the background color is replaced with the hover background color.
 
-#### **Border**  
+#### Border
 
 The **Border** section has the standard Beaver Builder border settings. The border appears outside the background color if one is set. If no background color is set, the placement of the border is affected by the **Width**, **Height**, and **Padding** settings.
 
-#### **Border hover**  
+#### Border hover
 
 These settings apply on mouse hover over the module.
 
-#### **Padding**  
+#### Padding
 
 Increases the space between the module border and the search controls (input field, button). Note that there are Padding settings in other sections of the **Style** tab that apply to the padding inside the input field or button.
 
-### **Input text** section on the **Style** tab
+### Input text section on the Style tab
 
 These settings affect the input field's text and styles.
 

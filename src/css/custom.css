@@ -17,10 +17,20 @@
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
+  background-color: var(--ifm-color-emphasis-300);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+blockquote {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.DocSearch-Modal .DocSearch-Hit-source {
+  font-size:1.2rem;
+  margin-bottom:.5rem;
+  margin-top:1rem;
 }
 
 .container--s {
