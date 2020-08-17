@@ -12,7 +12,7 @@ With the Agency version of Beaver Builder, you can replace the branding for
 the Beaver Builder plugin and Beaver Builder theme with your own.
 
 :::note **Note**
-Beaver Builder white labeling changes product labels, not technical identifiers that are used in the underlying code, such as file paths. The paths remain as `/wp-content/plugins/bb-plugin/` and `/wp-content/themes/bb-theme/`.
+Beaver Builder white labeling changes product labels, not technical identifiers that are used in the underlying code, such as file paths. The paths remain as */wp-content/plugins/bb-plugin/* and */wp-content/themes/bb-theme/*.
 :::
 
 ## Beaver Builder plugin

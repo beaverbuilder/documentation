@@ -13,5 +13,5 @@ This error occurs when you're installing a WordPress plugin or theme and the fol
 If WordPress shows that the old plugin or theme still exists, you can try deleting it. (You won't lose your data.) If that doesn't work, you can fix the issue with these steps.
 
 1. Connect to your WordPress site using an FTP client or your server's file manager.
-2. Navigate to  `/wp-content/plugins/` (for the plugin) or `/wp-content/themes/` (for the theme). and delete the `bb-plugin` or `bb-theme` folder. This won't remove your data.
+2. Navigate to  */wp-content/plugins/* (for the plugin) or */wp-content/themes/* (for the theme). and delete the **bb-plugin** or **bb-theme** folder. This won't remove your data.
 3. Go back to WordPress and install again in the normal fashion.
