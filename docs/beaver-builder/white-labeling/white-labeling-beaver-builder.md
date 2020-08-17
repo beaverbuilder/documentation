@@ -3,12 +3,17 @@ id: white-labeling-beaver-builder
 title: White label Beaver Builder and BB Theme
 sidebar_label: White label Beaver Builder and BB Theme
 ---
+
 <div class="embed-responsive">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OQP1ZO7PMYQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 With the Agency version of Beaver Builder, you can replace the branding for
 the Beaver Builder plugin and Beaver Builder theme with your own.
+
+:::note **Note**
+Beaver Builder white labeling changes product labels, not technical identifiers that are used in the underlying code, such as file paths. The paths remain as */wp-content/plugins/bb-plugin/* and */wp-content/themes/bb-theme/*.
+:::
 
 ## Beaver Builder plugin
 

@@ -31,9 +31,10 @@ add_filter( 'fl_remember_settings_tabs_enabled', '__return_false' );
 ```
 
 ## Prevent modules from loading site-wide
+
 By default, when you disable modules in **Settings > Beaver Builder > Modules**, they do not appear in the module list in the Beaver Builder editor, but any modules of that type already used in layouts are still displayed on web pages.
 
-You can set a filter that prevents modules from loading and rendering both in the editor and in the front end when you disable them in **Settings > Beaver Builder > Modules**. Use the following filter:
+You can change the behavior in **Settings > Beaver Builder > Modules** so that when you disable modules they don't load or render in either the front end or the editor, and before you disable them you'll be able to see how many modules of that type are already in use. This is done by setting the `is_module_disable_enabled` filter to `true`. Add the following line of code to the _functions.php_ file in your child them
 
 ```php
 add_filter( 'is_module_disable_enabled', '__return_true' );
@@ -48,7 +49,7 @@ It shows how many times each module is used in pages, posts, and "Templates." Th
 When you clear a checkbox to disable a module, it will not appear for selection in the Beaver Builder editor and any existing modules of that type will not load or render on the page.
 
 ## Disable inline editing
-You can completely disable inline editing by using the fl_inline_editing_enabled filter.
+You can completely disable inline editing by using the `fl_inline_editing_enabled` filter.
 
 ### Example:
 
@@ -58,7 +59,7 @@ add_filter(' fl_inline_editing_enabled', '__return_false' );
 
 ## Disable notifications from Beaver Builder in the UI
 
-There's a bell icon in the Beaver Builder editor UI that, when clicked, shows notifications that are issued by Beaver Builder. You can disable the notifications with the filter fl_disable_notifications
+There's a bell icon in the Beaver Builder editor UI that, when clicked, shows notifications that are issued by Beaver Builder. You can disable the notifications with the filter `fl_disable_notifications`
 
 ### Example:
 

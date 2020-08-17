@@ -513,6 +513,7 @@
             "beaver-builder/troubleshooting/common-issues/403-forbidden-or-blocked-error",
             "beaver-builder/troubleshooting/common-issues/404-error-when-trying-to-open-editor",
             "beaver-builder/troubleshooting/common-issues/internal-server-500-error",
+            "beaver-builder/troubleshooting/common-issues/destination-folder-already-exists",
             "beaver-builder/troubleshooting/common-issues/cloudflare-and-403-errors-when-loading-background-images",
             "beaver-builder/troubleshooting/common-issues/exceeds-php-max-input-vars",
             "beaver-builder/troubleshooting/common-issues/http-error-when-uploading-images",
@@ -613,6 +614,7 @@
             "beaver-builder/developer/how-to-tips/html-css-and-javascript-reference",
             "beaver-builder/developer/how-to-tips/theme-author-templates",
             "beaver-builder/developer/how-to-tips/load-css-and-javascript-inline",
+            "beaver-builder/developer/how-to-tips/disable-schema-markup-beaver-builder",
             "beaver-builder/developer/how-to-tips/disable-minification-and-caching-with-wpdebug",
             "beaver-builder/developer/how-to-tips/add-custom-attributes-to-rows-columns-or-modules",
             "beaver-builder/developer/how-to-tips/render-layouts-with-php",
@@ -1138,6 +1140,7 @@
        "bb-theme/developer/theme-filter-reference",
        "bb-theme/developer/theme-css-reference",
        "bb-theme/developer/remove-a-customizer-tab",
+       "bb-theme/developer/disable-schema-markup-bb-theme",
        {
          type: 'category',
          label: 'Custom Theme Presets',
