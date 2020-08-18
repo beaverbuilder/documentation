@@ -13,6 +13,7 @@ module.exports = {
     },
   ],
   themeConfig: {
+    facebookPixelId: '595542504318932',
     image: 'img/bb-soc-logo.png',
     googleAnalytics: {
       trackingID: 'UA-15399878-10',
