@@ -71,6 +71,5 @@ in the editor are [the ones contained in the Lite version](/general/pre-sales/di
 
 After you downgrade, what's left on the
 Beaver Beaver Lite editing page is the framework of rows and columns that were
-previously there and any modules that are still supported. If you open the page in the WordPress editor, you can see any text and image portions of the
-modules that could be converted. 
+previously there and any modules that are still supported. If you open the page in the WordPress editor, you can see any text and image portions of the modules that could be converted. 
 
