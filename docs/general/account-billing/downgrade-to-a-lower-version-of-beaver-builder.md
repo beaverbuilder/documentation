@@ -6,7 +6,7 @@ sidebar_label: Downgrade license
 
 This article has information about downgrading from one premium version to
 another or downgrading from a premium version to the free Beaver Builder Lite
-plugin. If you want to stop using Beaver Builder entirely, see [the article about  how to uninstall](/beaver-builder/troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin/#uninstall-beaver-builder-plugin-and-settings.md).
+plugin. If you want to stop using Beaver Builder entirely, see [the article about how to uninstall](/beaver-builder/troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin.md#uninstall-beaver-builder-plugin-and-settings).
 
 :::important **Important**
   * If your premium version is more than 30 days beyond purchase we cannot issue a refund if you choose to downgrade. See our refund policy in [Terms and Conditions](https://www.wpbeaverbuilder.com/terms-and-conditions/).
@@ -67,7 +67,7 @@ If you plan to continue using the Beaver Builder Theme, you don't need to do any
 
 If you downgrade from any premium version to the free Beaver Builder Lite
 plugin, the only modules that will continue to function on the live site and
-in the editor are [the ones contained in the Lite version](/general/pre-sales/difference-between-free-and-premium-versions.md). 
+in the editor are [the ones contained in the Lite version](/general/pre-sales/difference-between-free-and-premium-versions.mdx). 
 
 After you downgrade, what's left on the
 Beaver Beaver Lite editing page is the framework of rows and columns that were
