@@ -66,7 +66,7 @@ This template has the following modules:
     * **Terms**  
     By default the Taxonomy is **Categories**, but you can also choose **Tags**.
 * The [Post Content module](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-content-module.md) contains the post's content.  
-  **Note**: You can't use Beaver Builder to edit the content of individual posts when a Singular Themer layout will apply to that post, because it breaks the Themer layout. You'll use the native WordPress editor for post content (Standard or Classic editor), where you can add text, images, shortcodes, and some types of code.
+  **Note**: You can't use Beaver Builder to edit the content of individual posts when a Singular Themer layout will apply to that post, because it breaks the Themer layout. You'll use the native WordPress editor for post content (Gutenberg or Classic), where you can add text, images, shortcodes, and some types of code.
 * The [HTML module](/beaver-builder/layouts/modules/html.md) is a standard Beaver Builder module. In this template, it contains a field connection shortcode to display the Post terms list, which for standard posts are either categories or tags. The template contains the following string in the HTML module:  
   `Posted in [wpbb post:terms_list taxonomy="category" separator=", "]`  
   There is an additional **Layout** option for the Post Terms List shortcode, which can be used to display the post terms as an unordered or ordered list, rather than a list separated by commas. Note that hierarchical categories are displayed as a flat list. See the [Post Terms List entry in the Themer shortcode reference](/beaver-themer/field-connections/field-connection-shortcode-index-themer.md) for how to code this option.

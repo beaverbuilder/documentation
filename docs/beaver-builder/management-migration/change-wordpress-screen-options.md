@@ -6,13 +6,13 @@ sidebar_label: Change WordPress screen options
 
 WordPress has screen options for editing single pages and posts that may be
 turned off by default, such as excerpts for posts and custom fields. These
-options appear on the standard WordPress editing pages with the Standard (block) Editor or
+options appear on the standard WordPress editing pages with the Gutenberg or
 Classic editor.
 
 To check and modify your screen options, use the following instructions
-depending on whether you use the Standard or Classic WordPress editor.
+depending on whether you use Gutenberg or the classic WordPress editor.
 
-**To change screen options in the WordPress Standard Editor:**
+**To change screen options in the Gutenberg UI:**
 
 Follow the animation below or use this procedure.
 

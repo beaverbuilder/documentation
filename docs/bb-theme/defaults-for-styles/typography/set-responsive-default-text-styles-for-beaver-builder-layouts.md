@@ -9,7 +9,7 @@ In the Beaver Builder Theme, you can set responsive heading and text styles that
 :::tip **Tips**
   * The default settings that appear on this tab come from the theme preset, which is set in **Customize > Presets**.  
   Click the circular arrow icon to the right of a field to return to the default setting.
-  * These default settings also apply as defaults to headings and text in WordPress block editor layouts, though they will not display until you preview or view the page.
+  * These default settings also apply as defaults to headings and text in Gutenberg layouts, though they will not display until you preview or view the page.
 :::
 
 ## Set default heading styles

@@ -45,13 +45,13 @@ this example:
 
 ### Start with a layout template, prebuilt rows, or a blank page
 
-When you create a new WordPress Page, you'll see the Beaver Builder launch
-button on posts and pages for which the WordPress Standard (block) editor is enabled:
+When you create a new WordPress Page, you'll see theBeaver Builder launch
+button on posts and pages for which the WordPress Gutenberg editor is enabled:
 
 ![](/img/what-can-i-do-with-beaverbuilder-3.png)
 
 Or you'll see the **Beaver Builder** tab on posts and pages for which the
-WordPress Standard editor is disabled:
+WordPress Gutenberg editor is disabled:
 
 ![](/img/what-can-i-do-with-beaverbuilder-4.png)
 
