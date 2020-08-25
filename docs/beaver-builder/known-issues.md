@@ -13,6 +13,15 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ## Beaver Builder
 
+### ACF Conflict: Launch Beaver Builder button does not work
+
+<p><span class="badge badge--primary">Status: Pending</span></p>
+
+**Description:** With ACF active, the Launch Beaver Builder button does not function.  Page hangs after clicking.
+
+`IR: 647`
+
+
 ### Button Group module
 <p><span class="badge badge--primary">Status: Fixed</span></p>
 
