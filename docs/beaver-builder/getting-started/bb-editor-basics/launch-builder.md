@@ -12,7 +12,7 @@ the WordPress admin panel or admin bar.
 
 :::note **Note**
 We've found
-that both the [Classic Editor]((https://wordpress.org/plugins/classic-editor/)) and the [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/) plugins work with Beaver Builder. Most of the other plugins are untested but would be expected to work. If you are using a third-party plugin to restore the classic editor and have a problem, please file a Beaver Builder Support ticket so that we can document the problem and any possible workarounds, or list it as incompatible.
+that both the [Classic Editor](https://wordpress.org/plugins/classic-editor/) and the [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/) plugins work with Beaver Builder. Most of the other plugins are untested but would be expected to work. If you are using a third-party plugin to restore the classic editor and have a problem, please file a Beaver Builder Support ticket so that we can document the problem and any possible workarounds, or list it as incompatible.
 :::
 
 :::note **Note**
