@@ -13,6 +13,15 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ## Beaver Builder
 
+### ACF Conflict: Launch Beaver Builder button does not work
+
+<p><span class="badge badge--primary">Status: Pending</span></p>
+
+**Description:** With ACF active, the Launch Beaver Builder button does not function.  Page hangs after clicking.
+
+`IR: 647`
+
+
 ### Button Group module
 <p><span class="badge badge--primary">Status: Fixed</span></p>
 
@@ -52,7 +61,7 @@ This is a partial list of high-priority issues we're chipping away at.
 `IR: 445`
 
 ### Post Carousel module
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:**  Post carousel has loading issues with WordPress 5.5 and especially FireFox
 
@@ -66,7 +75,7 @@ This is a partial list of high-priority issues we're chipping away at.
 `IR: 602`
 
 ### Slideshow module
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:**  Slideshow module does not render alt tag for images
 
