@@ -857,6 +857,11 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/di
 status = 301
 force = true
 [[redirects]]
+from = "/article/518-troubleshooting-i-added-custom-code-and-now-i-cant-open-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/debugging/safe-mode/"
+status = 301
+force = true
+[[redirects]]
 from = "/article/414-troubleshooting-margins-and-padding"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding"
 status = 301
