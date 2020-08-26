@@ -43,7 +43,7 @@ choice of WordPress editor for each page or post they create, use any of the
 other methods described here to open the Beaver Builder editor.
 :::
 
-## 2 From the **All Pages** list
+## 2 From the All Pages list
 
 Mouse over a page in the **Pages > All Pages** list, then click the **Beaver Builder** link.
 
