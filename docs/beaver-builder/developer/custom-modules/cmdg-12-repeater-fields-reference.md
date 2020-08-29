@@ -24,6 +24,7 @@ repeater.
 'my_text_field' => array(
   'type'          => 'text',
   'label'         => __( 'My Text Field', 'fl-builder' ),
+  'limit'         => 5, // limit the number of repeaters
   'multiple'      => true,
 ),
 ```
