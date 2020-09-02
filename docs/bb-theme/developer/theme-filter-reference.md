@@ -12,10 +12,10 @@ Use this filter to add subsets to a Google font chosen in the Customizer.
 
 ```php
 function my_font_subset( $subset, $font ) {
-    if ( $font == 'Acme' ) {
-        $subset = '&subset=latin,latin-ext';
-    }
-    return $subset;
+  if ( $font == 'Acme' ) {
+      $subset = '&subset=latin,latin-ext';
+  }
+  return $subset;
 }
 add_filter( 'fl_font_subset', 'my_font_subset', 10, 2 );
 ```
@@ -26,7 +26,7 @@ Use this filter to override the display of the theme’s top bar. Return `false`
 
 ```php
 function my_theme_fl_topbar_enabled( $enabled ) {
-    return $enabled;
+  return $enabled;
 }
 add_filter( 'fl_topbar_enabled', 'my_theme_fl_topbar_enabled' );
 ```
@@ -37,7 +37,7 @@ Use this filter to override the display of the theme’s fixed header. Return `f
 
 ```php
 function my_theme_fl_fixed_header_enabled( $enabled ) {
-    return $enabled;
+  return $enabled;
 }
 add_filter( 'fl_fixed_header_enabled', 'my_theme_fl_fixed_header_enabled' );
 ```
@@ -48,7 +48,7 @@ Use this filter to override the display of the theme’s header. Return `false` 
 
 ```php
 function my_theme_fl_header_enabled( $enabled ) {
-    return $enabled;
+  return $enabled;
 }
 add_filter( 'fl_header_enabled', 'my_theme_fl_header_enabled' );
 ```
@@ -60,7 +60,7 @@ toggle button.
 
 ```php
 function my_nav_toggle_text( $text ) {
-    return 'Main Menu';
+  return 'Main Menu';
 }
 add_filter( 'fl_nav_toggle_text', 'my_nav_toggle_text' );
 ```
@@ -71,7 +71,7 @@ Use this filter to override the display of the theme’s footer. Return `false` 
 
 ```php
 function my_theme_fl_footer_enabled( $enabled ) {
-    return $enabled;
+  return $enabled;
 }
 add_filter( 'fl_footer_enabled', 'my_theme_fl_footer_enabled' );
 ```
@@ -82,28 +82,28 @@ Use this filter to change the order of the social icons. The `$icons` parameter 
 
 ```php
 function my_social_icons( $icons ) {
-    $icons = array(
-      'facebook',
-      'twitter',
-      'google',
-      'linkedin',
-      'yelp',
-      'xing',
-      'pinterest',
-      'tumblr',
-      'vimeo',
-      'youtube',
-      'flickr',
-      'instagram',
-      'skype',
-      'dribbble',
-      '500px',
-      'blogger',
-      'github',
-      'rss',
-      'email',
-    );
-    return $icons;
+  $icons = array(
+    'facebook',
+    'twitter',
+    'google',
+    'linkedin',
+    'yelp',
+    'xing',
+    'pinterest',
+    'tumblr',
+    'vimeo',
+    'youtube',
+    'flickr',
+    'instagram',
+    'skype',
+    'dribbble',
+    '500px',
+    'blogger',
+    'github',
+    'rss',
+    'email',
+  );
+  return $icons;
 }
 add_filter( 'fl_social_icons', 'my_social_icons' );
 ```

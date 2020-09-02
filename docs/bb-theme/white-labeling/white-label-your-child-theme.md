@@ -4,11 +4,11 @@ title: White label your child theme
 sidebar_label: White label your child theme
 ---
 
-When you use Beaver Builder settings to white label the theme in the Beaver Builder Agency version, it applies to the Beaver Builder parent theme only. 
+When you use Beaver Builder settings to white label the theme in the Beaver Builder Agency version, it applies to the Beaver Builder parent theme only.
 
 If you use a child theme for your site, it's not hard to add custom branding to it manually. You can use any or all of the following branding ideas.
 
-These instructions assume that you've downloaded the Beaver Builder child theme from the [My Account page](https://www.wpbeaverbuilder.com/my-account/) and already installed it and designed your site, although you can just as easily make these changes on your local system and then install the custom child. These instructions also assume you know how to FTP to your website to move files and modify them with a text editor, although there are other ways to do it. 
+These instructions assume that you've downloaded the Beaver Builder child theme from the [My Account page](https://www.wpbeaverbuilder.com/my-account/) and already installed it and designed your site, although you can just as easily make these changes on your local system and then install the custom child. These instructions also assume you know how to FTP to your website to move files and modify them with a text editor, although there are other ways to do it.
 
 :::tip **Tip**
 Make sure your child theme is activated in Appearances > Themes when you're done making the changes!
@@ -30,18 +30,19 @@ The child theme image shows up in **Appearance > Themes** as the thumbnail image
 You can change the theme's description in **Appearance > Themes** when you hover over the child theme and click **Theme details**. This is controlled by the introductory commented content in your child theme's _style.css_.
 
 1. Open _wp-content/themes/bb-theme-child/style.css_.  
-  EXCEPTION: Do not modify the template: line.
+  **EXCEPTION:** Do not modify the `template: bb-theme` line.
   For example:
-  ```
-/*
-Theme Name: Content Extraordinaire Child Theme
-Theme URI: http://www.example.com
-Version: 1.0
-Description: The extraordinary child theme we've developed just for you.
-Author: Content Extraordinaire Ltd.
-Author URI: http://www.example.com
-template: bb-theme /* DO NOT MODIFY THIS LINE */
-*/
+
+  ```css
+  /*
+  Theme Name: Content Extraordinaire Child Theme
+  Theme URI: http://www.example.com
+  Version: 1.0
+  Description: The extraordinary child theme we've developed just for you.
+  Author: Content Extraordinaire Ltd.
+  Author URI: http://www.example.com
+  template: bb-theme // DO NOT MODIFY THIS LINE
+  */
   ```
 
 These intro comments will result in the child theme details popup, as shown in the following screenshot.

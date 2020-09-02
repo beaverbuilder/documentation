@@ -12,13 +12,13 @@ First, some WordPress terminology. There are Customizer panels and Customizer se
 
 See the table in the next section to find out which tabs are panels and which are sections.
 
-Here's the code you can use as a template. It creates a function and ties it into the appropriate WordPress action hook. In this case it removes the Presets section from the Customizer. 
+Here's the code you can use as a template. It creates a function and ties it into the appropriate WordPress action hook. In this case it removes the Presets section from the Customizer.
 
 ```php
 function my_customize_register() {     
-global $wp_customize;
-$wp_customize->remove_section( 'fl-presets' );  //Modify this line as needed  
-} 
+  global $wp_customize;
+  $wp_customize->remove_section( 'fl-presets' );  //Modify this line as needed  
+}
 
 add_action( 'customize_register', 'my_customize_register', 11 );
 ```
@@ -41,17 +41,17 @@ General  |  panel  |  fl-general
 General > Layout  |  section  |  fl-layout
 General > Background  |  section  |  fl-body-bg
 General > Accent Color  |  section  |  fl-accent-color
-General > Headings  |  section  |  fl-heading-font 
+General > Headings  |  section  |  fl-heading-font
 General > Text  |  section  |  fl-body-font
 General > Buttons  |  section  |  fl-buttons
 General > Social Links  |  section  |  fl-social-links
 Header  |  panel  |  fl-header
 Header > Top Bar Layout  |  section  |  fl-topbar-layout
-Header > Top Bar Style  |  section  |  fl-topbar-style 
-Header > Header Layout  |  section  |  fl-header-layout 
-Header > Header Style  |  section  |  fl-header-style 
-Header > Header Logo  |  section  |  fl-header-logo 
-Header > Nav Layout  |  section  |  fl-nav-layout 
+Header > Top Bar Style  |  section  |  fl-topbar-style
+Header > Header Layout  |  section  |  fl-header-layout
+Header > Header Style  |  section  |  fl-header-style
+Header > Header Logo  |  section  |  fl-header-logo
+Header > Nav Layout  |  section  |  fl-nav-layout
 Header > Nav Style  |  section  |  fl-nav-style
 Content  |  panel  |  fl-content
 Content > Content Background  |  section  |  fl-content-bg
@@ -61,10 +61,10 @@ Content > Post Layout  |  section  |  fl-content-posts
 Content > WooCommerce Layout  |  section  |  fl-content-woo
 Content > Lightbox  |  section  |  fl-lightbox-layout
 Footer  |  panel  |  fl-footer
-Footer > Footer Widgets Layout  |  section  |  fl-footer-widgets-layout 
+Footer > Footer Widgets Layout  |  section  |  fl-footer-widgets-layout
 Footer > Footer Widgets Style  |  section  |  fl-footer-widgets-style
 Footer > Footer Layout  |  section  |  fl-footer-layout
-Footer > Footer Style  |  section  |  fl-footer-style 
+Footer > Footer Style  |  section  |  fl-footer-style
 Footer > Footer Parallax  |  section  |  fl-footer-effect
 Widgets (This is a WordPress default customizer panel)  |  panel  |  widgets
 Widgets > Footer Column 1  |  section  |  footer-col

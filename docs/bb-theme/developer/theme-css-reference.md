@@ -22,18 +22,18 @@ The Beaver Builder Theme is intended to be a shell for the Beaver Builder plugin
 
 Here are the elements that make up the shell of the website:
 
-**Page Wrapper**  `.fl-page`
-**Top Bar**  `.fl-page-bar`
-**Fixed Header**  `.fl-page-header.fl-page-header-fixed`
-**Header**` .fl-page-header.fl-page-header-primary`
-**Content Area**  `.fl-page-content`
-**Footer Widgets** `.fl-page-footer-widgets`
-**Footer**  `.fl-page-footer`
+**Page Wrapper**  `.fl-page`  
+**Top Bar**  `.fl-page-bar`  
+**Fixed Header**  `.fl-page-header.fl-page-header-fixed`  
+**Header**` .fl-page-header.fl-page-header-primary`  
+**Content Area**  `.fl-page-content`  
+**Footer Widgets** `.fl-page-footer-widgets`  
+**Footer**  `.fl-page-footer`  
 
 Here are the three navigation positions you can choose from in the theme settings:
 
-**Right Nav** `.fl-page-nav-right .fl-page-nav`
-**Bottom Nav** `.fl-page-nav-bottom .fl-page-nav`
-**Centered Nav** `.fl-page-nav-center .fl-page-nav`
+**Right Nav** `.fl-page-nav-right .fl-page-nav`  
+**Bottom Nav** `.fl-page-nav-bottom .fl-page-nav`  
+**Centered Nav** `.fl-page-nav-center .fl-page-nav`  
 
 See also the [diagram of areas on the page mapped to CSS classes](/bb-theme/code/beaver-builder-theme-customizer-settings-mapped-to-css.md).
