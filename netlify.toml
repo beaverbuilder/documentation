@@ -862,6 +862,11 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/debugging/
 status = 301
 force = true
 [[redirects]]
+from = "/article/528-enable-beaver-builder-debug-mode"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode/"
+status = 301
+force = true
+[[redirects]]
 from = "/article/414-troubleshooting-margins-and-padding"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding"
 status = 301
