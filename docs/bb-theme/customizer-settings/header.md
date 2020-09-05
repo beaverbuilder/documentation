@@ -104,7 +104,7 @@ Disabled by default, or you can choose a type of fixed header. See [the article 
 
 #### Nav layout and style
 
-The Nav area can be configured separately on the [**Nav Layout**]()#nav-layout and [**Nav style**](#nav-style) tabs.
+The Nav area can be configured separately on the [**Nav Layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
 
 #### Device view
 
@@ -133,7 +133,7 @@ And here's the default mobile layout with the same settings. Either the Menu but
 
 #### Nav layout and style
 
-The Nav area can be configured separately on the [**Nav Layout**]()#nav-layout and [**Nav style**](#nav-style) tabs.
+The Nav area can be configured separately on the [**Nav Layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
 
 #### Device view
 
@@ -166,7 +166,7 @@ And here's the default mobile layout with the same settings. Either the Menu but
 
 #### Nav layout and style
 
-The Nav area can be configured separately on the [**Nav Layout**]()#nav-layout and [**Nav style**](#nav-style) tabs.
+The Nav area can be configured separately on the [**Nav Layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
 
 #### Device view:
 
