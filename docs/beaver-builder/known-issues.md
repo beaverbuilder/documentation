@@ -15,7 +15,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ### ACF Conflict: Launch Beaver Builder button does not work
 
-<p><span class="badge badge--primary">Status: Pending</span></p>
+<p><span class="badge badge--success">Status: Released</span> in version 6.9.1 of ACF</p>
 
 **Description:** With ACF active, the Launch Beaver Builder button does not function.  Page hangs after clicking.
 
@@ -133,8 +133,13 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ## Beaver Builder Theme
 
+### Slider does not update text in Customizer
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:** The slider to change values does not update text when used.
+
 ### Full Width post template doesn't go full width when using a nav vertical layout
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** Full Width post template doesn't go full width when using a nav vertical layout.
 
@@ -148,7 +153,7 @@ This is a partial list of high-priority issues we're chipping away at.
 `IR: 107`
 
 ### WooCommerce: Column issue on My Account > Addresses Page with Bootstrap 4 enabled
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** When shipping is set to none in the WooCommerce settings and Bootstrap 4 is enabled, the column displays very small/squished.
 
