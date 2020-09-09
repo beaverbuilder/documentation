@@ -15,7 +15,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ### ACF Conflict: Launch Beaver Builder button does not work
 
-<p><span class="badge badge--success">Status: Released</span> in version 6.9.1 of ACF</p>
+<p><span class="badge badge--success">Status: Released</span> in version 5.9.1 of ACF</p>
 
 **Description:** With ACF active, the Launch Beaver Builder button does not function.  Page hangs after clicking.
 
