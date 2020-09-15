@@ -29,6 +29,21 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 570`
 
+### Callout Module: Icon links do not work
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:** Links on icons are not functional
+
+`IR: 683`
+
+### Compatibility with WordPress 5.1 and below and ClassicPress Broken
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:** BB UI is broken (does not open) with WordPress 5.1 and below or when using ClassicPress
+
+`IR: 688`
+
+
 ### Contact Form module
 
 <p><span class="badge badge--success">Status: Released</span></p>
@@ -60,6 +75,13 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 445`
 
+### Posts Module buttons broken with jQuery 3.5.1
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:**  Due to a markup issue, the buttons are out of place and not functional with jQuery 3.5.1
+
+`IR: 611`
+
 ### Post Carousel module
 <p><span class="badge badge--success">Status: Released</span></p>
 
@@ -74,7 +96,20 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 602`
 
-### Slideshow module
+### Responsive Preview issue in Chrome
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:**  Due to a Chrome bug, if you toggle through the sizes, the styling then breaks.  We've implemented a fix until Chrome can address it.
+
+`IR: 676`
+
+### Row Background Video JS error when using Vimeo and audio is enabled
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:**  This causes a JS error that doesn't affect the builder but affects the row background video and other things that use javascript on the pages (Examples include animations not firing, Accordion not opening)
+`IR: 680`
+
+### Slideshow module alt tag issue
 <p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:**  Slideshow module does not render alt tag for images
@@ -133,10 +168,15 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ## Beaver Builder Theme
 
-### Slider does not update text in Customizer
+### Customizer Slider does not update text
 <p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** The slider to change values does not update text when used.
+
+### Sub-Menu indicator does not display if Font Awesome Pro is enabled in the BB Plugin
+<p><span class="badge badge--primary">Status: Fixed</span></p>
+
+`IR: 146`
 
 ### Full Width post template doesn't go full width when using a nav vertical layout
 <p><span class="badge badge--success">Status: Released</span></p>
