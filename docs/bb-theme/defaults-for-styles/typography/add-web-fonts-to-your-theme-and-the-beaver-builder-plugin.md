@@ -49,15 +49,17 @@ The `@font-face` rule in CSS3 specifies the location of web fonts and loads them
   See this article about [where to add custom CSS rules](/beaver-builder/styles/code/custom-css.md).
   2. If your web fonts kit includes a CSS stylesheet, open that file an copy all the `@font-face` rules, and paste into the location where you're putting the CSS rules for your site.  
   Otherwise, start with the following example.  
+
   ```css
-/* Add your custom styles here */
-@font-face {
-  font-family: "forza-book";
-  src:  url("https://example.com/wp-themes/bb-theme-child/fonts/forza-book.woff2") format("woff2"),
-        url("https://example.com/wp-themes/bb-theme-child/fonts/forza-book.woff") format("woff");
-  font-weight: normal;
-}
+  /* Add your custom styles here */
+  @font-face {
+    font-family: "forza-book";
+    src:  url("https://example.com/wp-content/themes/bb-theme-child/fonts/forza-book.woff2") format("woff2"),
+          url("https://example.com/wp-content/themes/bb-theme-child/fonts/forza-book.woff") format("woff");
+    font-weight: normal;
+  }
   ```
+
   3. In the code you've inserted, modify the `url` lines in the `src` attribute to include the URLs for all and only the file types that you uploaded, with the correct file names.
   4. Change the value of `font-family` to what you want to appear in the font selection list in Customizer or the Beaver Builder plugin. It's also what you'll see listed as the font when you inspect the element in your browser.  
   In the example here you could change `'forza-book'` to `'Forza Book'`.
@@ -74,13 +76,13 @@ For other themes, or to have more control about exactly where the fontappears, y
 
 Here are the options. You can implement any or all at the same time.
 
-  * Option 1: Add code so the font appears In all of the font selection lists in Beaver Builder Theme's Customizer
-  * Option 2: Add code so the font appears in all of the module font selection lists in Beaver Builder
-  * Option 3: Add CSS rules to specify that the font is used for particular HTML elements, IDs, or classes
+* Option 1: Add code so the font appears In all of the font selection lists in Beaver Builder Theme's Customizer
+* Option 2: Add code so the font appears in all of the module font selection lists in Beaver Builder
+* Option 3: Add CSS rules to specify that the font is used for particular HTML elements, IDs, or classes
 
 :::tip **Tips**
-  * You may need to publish and clear your browser cache to see the web font as you complete these steps. Some browsers are particularly tenacious in holding onto fonts even when the cache is cleared. If you suspect that, try looking at the published page in another browser.
-  * The fonts will appear at the end of the system fonts list, not in alphabetical order.
+* You may need to publish and clear your browser cache to see the web font as you complete these steps. Some browsers are particularly tenacious in holding onto fonts even when the cache is cleared. If you suspect that, try looking at the published page in another browser.
+* The fonts will appear at the end of the system fonts list, not in alphabetical order.
 :::
 
 ### Options 1 and 2: Add code so the font appears in Customizer and Beaver Builder modules
@@ -90,38 +92,48 @@ Add a single function, then use filters to add the font to Beaver Builder Theme'
   1. Open the Beaver Builder child theme's _functions.php_ file in a text editor on in the WordPress admin panel at **Appearance > Editor**.  
   For Beaver Builder Theme, this file is located at _wp-content/themes/bb-theme-child/_
   2. Add the following code at the end of the file.  
+
   ```php
   function my_bb_custom_fonts ( $system_fonts ) {
+
     $system_fonts[ 'Forza Book' ] = array(
       'fallback' => 'Verdana, Arial, sans-serif',
       'weights' => array(
         '400',
       ),
-  );
+    );
+
   return $system_fonts;
+
   }
   //Add to Beaver Builder Theme Customizer
   add_filter( 'fl_theme_system_fonts', 'my_bb_custom_fonts' );
+
   //Add to Beaver Builder modules
   add_filter( 'fl_builder_font_families_system', 'my_bb_custom_fonts' );
   ```
+
   3. Change the `$system` parameter to match the `font-family` value you used in the CSS rule in the previous procedure.  
   If your CSS has more than one font family, see [the complex example of installing web fonts](/bb-theme/defaults-for-styles/typography/add-web-fonts-complex-example.md).
   4. Change the fallback font list if you want. For example, if you're adding a serif web font, you might want to change the fallback to the following:  
-  `"fallback" => "'Times New Roman',Times, serif",`
+
+  ```php
+  "fallback" => "'Times New Roman',Times, serif",
+  ```
+
   5. Change the font weight to match the weight of your web font. For example, the CSS for Forza Book in the previous procedure has only one weight: `font-weight: normal;`, which corresponds to a font weight of 400. Here's a list of the standard correspondence with font weight names and their numerical weight value from the [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight) site.
 
-Value  |  Common weight name
----|---
-100  |  Thin (Hairline)
-200  |  Extra Light (Ultra Light)
-300  |  Light
-400  |  Normal
-500  |  Medium
-600  |  Semi Bold (Demi Bold)
-700  |  Bold
-800  |  Extra Bold (Ultra Bold)
-900  |  Black (Heavy)
+  Value  |  Common weight name
+  ---|---
+  100  |  Thin (Hairline)
+  200  |  Extra Light (Ultra Light)
+  300  |  Light
+  400  |  Normal
+  500  |  Medium
+  600  |  Semi Bold (Demi Bold)
+  700  |  Bold
+  800  |  Extra Bold (Ultra Bold)
+  900  |  Black (Heavy)
 
 :::tip **Tips**
   * These font weight correspondences are not set in stone, and you may want to experiment with numerical values to get the font weight and fallback font weight looking the way you want. If you do a web search for font weight, you'll find some interesting articles on the subject.
@@ -132,21 +144,26 @@ Value  |  Common weight name
 
   1. Go to the location on your site where you can add CSS rules that apply site-wide, in our examples here it's the _style.css_ file for your child theme in **Appearance > Editor**.  
   See the article about [where to add custom CSS rules](/beaver-builder/styles/code/custom-css.md).
+  
   2. Add rules to show where you want the font to be used, as in this example. Substitute the name of your custom font family from the previous rule. You can use different fallback fonts besides Verdana, Arial, and sans-serif.  
+
   ```css
   /* Use this rule to make the custom font the default font */
   body {
     font-family: "Forza Book", Verdana, Arial, sans-serif !important;
   }
+
   /* Use this rule to apply the custom font to menu items */
   .fl-page-nav .navbar-nav,
   .fl-page-nav .navbar-nav a {
     font-family: "Forza Book", Verdana, Arial, sans-serif;
   }
+
   /* Use this rule to apply the custom font to headings */
   h1, h2, h3, h4, h5, h6 {
     font-family: "Forza Book", Verdana, Arial, sans-serif;
   }
+
   /* Use this rule to apply the custom font to paragraphs */
   p {
       font-family: "Forza Book", Verdana, Arial, sans-serif;

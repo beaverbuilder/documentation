@@ -31,28 +31,30 @@ See the [article on where to add CSS code](/beaver-builder/styles/code/custom-cs
 
   * Add the following CSS rules. Be sure to change the class in these lines to the custom class you used.  
   Change the other settings for the button layout and style as you like.  
+
   ```css
   /* Give the link some padding and some color */
   .fl-page-nav .navbar-nav > li.ss-nav-button {
-      padding: 10px;
+    padding: 10px;
   }
+
   .fl-page-nav .navbar-nav > li.ss-nav-button > a {
-      padding: 5px 18px !important;
-      color: #ffffff !important;
-      border-radius: 5px;
-      background-color: #0f637d;
+    padding: 5px 18px !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+    background-color: #0f637d;
   }
 
   /* Adjust the position for the fixed navigation menu */
   .fl-page-header-fixed .fl-page-nav .navbar-nav > li.ss-nav-button > a {
-      position: relative;
-      bottom: 6px;
+    position: relative;
+    bottom: 6px;
   }
 
   /* Give the button a hover & active state */
   .fl-page-nav .navbar-nav > li.ss-nav-button > a:active,
   .fl-page-nav .navbar-nav > li.ss-nav-button > a:hover {
-      color: #ffffff !important;
-      background-color: #196f8c;
+    color: #ffffff !important;
+    background-color: #196f8c;
   }
   ```

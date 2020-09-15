@@ -39,22 +39,25 @@ The following code will apply these CSS rules to every page. See the tweaks in t
 
   1. Copy and paste the CSS below.  
   Refer to the article on [where to put CSS code](/beaver-builder/styles/code/custom-css.md).  
+
   ```css
-.fl-page-bar {
-     position: absolute;
-     top: 0;
-     z-index: 11;
-     width: 100%;
-}
-.fl-page-header, .fl-page-header-wrap {
+  .fl-page-bar {
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+  }
+
+  .fl-page-header, .fl-page-header-wrap {
     background-color: transparent;
     border-bottom-style: none; /* Removes the 1px border below the menu */
     position: absolute;
     top: 80px; /* Height of top bar */
     width: 100%;
     z-index: 10;
-}
+  }
   ```
+
   2. In the `.fl-page-header` rule, change the `top` property to the number of pixels it takes to move the header down from the top of the page to the position you want.  
   Test and adjust.
   3. Remove the `.border-bottom-style` line if you want to keep the 1px border below the nav area.
@@ -67,19 +70,19 @@ To make the transparent header apply to the home page only, you can add the `.ho
 
 ```css
 .home .fl-page-bar {
-    position: absolute;
-    top: 0;
-    z-index: 11;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 11;
+  width: 100%;
 }
 
 .home .fl-page-header, .home .fl-page-header-wrap {
-    background-color: transparent;
-    border-bottom-style: none; /* Removes the 1px border below the menu */
-    position: absolute;
-    top: 80px; /* Height of top bar */
-  mmwidth: 100%;
-    z-index: 10;
+  background-color: transparent;
+  border-bottom-style: none; /* Removes the 1px border below the menu */
+  position: absolute;
+  top: 80px; /* Height of top bar */
+  width: 100%;
+  z-index: 10;
 }
 ```
 

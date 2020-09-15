@@ -36,15 +36,23 @@ You must be using a [child theme](/bb-theme/getting-started/do-i-need-to-install
 
 **To change the "Powered by" statement in the default Beaver Builder Theme footer:**
 
-  1. Using FTP, navigate to _< your-site>/wp-content/themes/bb-theme-child._
+  1. Using FTP, navigate to _your-site/wp-content/themes/bb-theme-child._
   2. Create a subfolder named _includes_.
-  3. Navigate to Beaver Builder parent theme at  _< your-site>/wp-content/themes/bb-theme/includes_ and copy the _copyright.php_ file, then paste it into the child theme's subfolder you created in the previous step.
+  3. Navigate to Beaver Builder parent theme at  _your-site/wp-content/themes/bb-theme/includes_ and copy the _copyright.php_ file, then paste it into the child theme's subfolder you created in the previous step.
   4. In the child theme _includes_ folder, open _copyright.php_ for editing.
   5. Locate the fourth line, which starts with:  
-  `<span id="fl-site-credits">`
+
+  ```html
+  <span id="fl-site-credits">
+  ```
+
   6. Starting with the text "Powered by,"  replace or remove the `Powered by` text, the `<a href>` link, and the link text.  
   In this example, the link was removed and the text changed to the following:  
-  `<span id="fl-site-credits">Website design by Example Designs Ltd.</a></span>`
+
+  ```html
+  <span id="fl-site-credits">Website design by Example Designs Ltd.</a></span>
+  ```
+
   7. Save your edits and if necessary copy _copyright.php_ back to the child theme location.
 
 The new information should now display in your footer.

@@ -14,6 +14,7 @@ See [this article](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-com
 
   1. Paste in the following CSS code.  
   See the article on [where to put CSS code](/beaver-builder/styles/code/custom-css.md).  
+
     ```css
     /* mobile menu color hamburger */
     @media (max-width: 767px) { /* Makes these changes only when screen sizes is 767 px or less */
@@ -25,9 +26,10 @@ See [this article](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-com
       }
       .fl-page-nav .navbar-toggle * {
         color: #c70919; /* Rule 3: Sets color for hamburger icon or MENU text */
-        }
       }
-  ```
+    }
+    ```
+
   2. Change the colors in each rule to your custom colors.  
   Remove the first two `.fl-page-nav-collapse` rules if you don't want to customize the color of the expanded menu links.
 
@@ -36,11 +38,13 @@ If these rules don't change the appropriate menu items, try one of these
 ideas:
 
   * Add `!important` between the color hex number and the semicolon, such as:  
+
   ```css
   .fl-page-nav .navbar-toggle * {
     color: #c70919 !important;
   }
   ```
+  
   * Make sure the screen size you're viewing the result on is less than the `max-width` in the `@media` wrapper in Line 2.  
   In the example above, the rules only apply when the screen size is less than 767px. Adjust the `max-width` in Line 2, or if you want the rules to apply at all screen sizes, remove the `@media` wrapper by removing Lines 2 and 12.
 :::

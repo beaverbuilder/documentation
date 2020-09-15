@@ -8,18 +8,19 @@ When you have limited content on a page, the footer may be forced up in the page
 
   * Add the following CSS code.  
   See the article on [where to add CSS code](/beaver-builder/styles/code/custom-css.md).  
+
   ```css
-/* Force footer to the bottom on pages with limited content */
-.fl-page {
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 60px; /* Should be equal to the height of your footer */
-}
-.fl-page-footer-wrap {
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-}
+  /* Force footer to the bottom on pages with limited content */
+  .fl-page {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px; /* Should be equal to the height of your footer */
+  }
+  .fl-page-footer-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
   ```
 
 :::tip **Tip**

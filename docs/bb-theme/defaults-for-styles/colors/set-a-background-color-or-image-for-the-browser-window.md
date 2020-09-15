@@ -38,6 +38,7 @@ To apply a background color or image to a single page instead of globally on you
   2. On the **Tools** menu, click **Layout CSS & JavaScript**.  
   **Tip:** The **Tools** menu is in the upper left corner of your screen. Access it by clicking the down arrow in the title bar.
   3. On the **CSS** tab, add the following code:  
+
   ```css
   body {
     background-image: none;
@@ -60,7 +61,7 @@ look like the following, substituting your own values:
 
 ```css
 body {
-  background-image: url("https://example.com/wp-content/uploads/2018/03/cutbackboat1.jpg");
+  background-image: url("URL to Image");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;

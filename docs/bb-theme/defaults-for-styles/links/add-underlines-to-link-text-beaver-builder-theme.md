@@ -12,28 +12,32 @@ See the article on [where to add custom CSS code](/beaver-builder/styles/code/cu
 
 The following CSS rule adds underlines to both content and the theme areas on your site whether controlled by Beaver Builder or not.
 
-  * Add the following CSS code.   
+  * Add the following CSS code.  
+
   ```css
-a {
-    text-decoration: underline;
-}
+  a {
+      text-decoration: underline;
+  }
   ```
 
-:::tip **Tip**
-If you don't see the changes you expect after adding the CSS and saving it, try adding `!important` to the declaration. For example:
-```
-`text- decoration: underline !important;`
-```
-:::
+  :::tip **Tip**
+  If you don't see the changes you expect after adding the CSS and saving it, try adding `!important` to the declaration. For example:
+
+  ```css
+  a {
+      text-decoration: underline !important;
+  }
+  ```
+  :::
 
 **To add underlines to Beaver Builder content and the Beaver Builder Theme areas:**
 
-    ```css
-    /* Add default underlines to Beaver Builder content and BB Theme link text */
-    .fl-builder a {
-      text-decoration: underline;
-    }
-    ```
+```css
+/* Add default underlines to Beaver Builder content and BB Theme link text */
+.fl-builder a {
+  text-decoration: underline;
+}
+```
 
 **To remove underlines from the Beaver Builder Theme's header:**
 
