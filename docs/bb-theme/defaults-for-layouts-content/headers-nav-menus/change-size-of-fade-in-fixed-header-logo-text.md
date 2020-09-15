@@ -19,6 +19,6 @@ Change the font size to the size you want and paste the following code into the 
 ```css
 .fl-page-nav-right.fl-page-header-fixed .fl-logo-text,
 .fl-page-header-fixed .fl-logo-text {
-font-size:20px;
+  font-size:20px;
 }
 ```

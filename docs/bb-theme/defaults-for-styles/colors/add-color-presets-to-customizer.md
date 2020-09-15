@@ -19,23 +19,24 @@ The procedure adds code to your child theme's functions.php file. Unless you hav
 **To add custom presets:**
 
   1. Add the following code to your child theme's _functions.php_ file.  
+
   ```php
   //Change the Customizer color palette presets
   add_action('customize_controls_print_footer_scripts', function () {
-      ?>
-        <script>
-          jQuery(document).ready(function($){
-            $('.wp-picker-container').iris({
-              mode: 'hsl',
-              controls: {
-              horiz: 'h', // square horizontal displays hue
-              vert: 's', // square vertical displays saturdation
-              strip: 'l' // slider displays lightness
-            },
-            palettes: ['#91472c', '#6d775f', '#f9fffb', '#546a76']
-          })
-        });
-      </script>
+    ?>
+    <script>
+      jQuery(document).ready(function($){
+        $('.wp-picker-container').iris({
+          mode: 'hsl',
+          controls: {
+          horiz: 'h', // square horizontal displays hue
+          vert: 's', // square vertical displays saturdation
+          strip: 'l' // slider displays lightness
+        },
+          palettes: ['#91472c', '#6d775f', '#f9fffb', '#546a76']
+        })
+      });
+    </script>
     <?php
   });
   ```

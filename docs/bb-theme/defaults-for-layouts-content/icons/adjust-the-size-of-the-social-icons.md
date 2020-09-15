@@ -27,11 +27,11 @@ Adjust the top, right, bottom, and left margins in Line 3 to add extra space bet
 ```css
 /* Resize and reposition the Font Awesome social icons in the top bar */
 .fl-page-bar .fl-social-icons {
-    margin: 10px 0 5px 0;
+  margin: 10px 0 5px 0;
 }
 .fl-page-bar .fl-social-icons i.fab {
-    font-size: 40px;
-    width: 60px !important;
+  font-size: 40px;
+  width: 60px !important;
 }
 ```
 
@@ -42,11 +42,11 @@ Change the font size in Line 3 to the size you want, and adjust the spacing betw
 ```css
 /* Resize and reposition the Font Awesome social icons in the Nav Bottom header */
 .fl-page-header-primary .fl-social-icons .fa-stack  {
-    font-size: 30px;
-    width: 80px;
+  font-size: 30px;
+  width: 80px;
 }
 .fl-page-header-content .fl-social-icons {
-    margin-right: 20px !important;
+  margin-right: 20px !important;
 }
 ```
 
@@ -57,8 +57,8 @@ Change the font size in Line 3 to the size you want, and adjust the spacing betw
 ```css
 /* Resize and reposition the Font Awesome social icons in the footer */
 .fl-page-footer .fl-social-icons .fa-stack {
-    font-size: 30px;
-    width: 80px;
+  font-size: 30px;
+  width: 80px;
 }
 ```
 
@@ -75,7 +75,7 @@ Change the font size in Line 3 to the size you want.
 ```css
 /* Resize and reposition the Blogger social icon in the top bar */
 .fl-page-bar .fl-social-icons .fl-icon {
-    font-size: 50px;
+  font-size: 50px;
 }
 ```
 
@@ -86,10 +86,10 @@ Change the font size in Line 3 to the size you want, and adjust the spacing betw
 ```css
 /* Resize and reposition the Blogger social icon in the Nav Bottom header */
 .fl-page-header-primary .fl-social-icons .fl-icon {
-    font-size: 60px;
-    width: 40px;
-    position: relative;
-    top: 7px;
+  font-size: 60px;
+  width: 40px;
+  position: relative;
+  top: 7px;
 }
 ```
 
@@ -100,9 +100,9 @@ Change the font size in Line 3 to the size you want, and adjust the spacing betw
 ```css
 /* Resize and reposition the Blogger social icon in the footer */
 .fl-page-footer .fl-social-icons .fl-icon {
-    font-size: 60px;
-    width: 50px;
-    position: relative;
-    top: 10px;
+  font-size: 60px;
+  width: 50px;
+  position: relative;
+  top: 10px;
 }
 ```

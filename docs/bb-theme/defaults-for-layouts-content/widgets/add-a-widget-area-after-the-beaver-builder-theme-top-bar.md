@@ -30,14 +30,14 @@ Add the following code to your child theme's functions.php file.
 -------------------------------------------------- ***/
 function bb_child_widgets_init() {
 
-    register_sidebar( array(
-        'name'          => 'After Top Bar',
-        'id'            => 'widgets_after_topbar',
-        'before_widget' => '<div id="my-top-bar-widget">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h2 class="my-top-bar-h2">',
-        'after_title'   => '</h2>',
-    ) );
+  register_sidebar( array(
+    'name'          => 'After Top Bar',
+    'id'            => 'widgets_after_topbar',
+    'before_widget' => '<div id="my-top-bar-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h2 class="my-top-bar-h2">',
+    'after_title'   => '</h2>',
+  ) );
 
 }
 add_action( 'widgets_init', 'bb_child_widgets_init' );
@@ -47,7 +47,7 @@ add_action( 'widgets_init', 'bb_child_widgets_init' );
 
 function bb_child_add_widget_top() {
 
-dynamic_sidebar( 'widgets_after_topbar' );
+  dynamic_sidebar( 'widgets_after_topbar' );
 }
 add_action('fl_after_top_bar', 'bb_child_add_widget_top');
 ```
@@ -63,21 +63,23 @@ The following CSS rules  make the background color of the widget area purple and
 
 /* Style the row background */
 #my-top-bar-widget {
-	background: #47318e;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  background: #47318e;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 /* Style the widget titles */
 .my-top-bar-h2 {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 /* Style the widget paragraph text */
 #my-top-bar-widget p {
-	color: #ffffff;
+  color: #ffffff;
 }
 ```
+
 :::tip **Tips**
 * To change the location of the custom widget area, see [the current list of Beaver Theme hooks on this page](https://hooks.wpbeaverbuilder.com/bb-theme/).  
   You can see a graphic displaying the location of Beaver Theme hooks at the [ProBeaver](https://probeaver.com/beaver-theme-hooks/) site.

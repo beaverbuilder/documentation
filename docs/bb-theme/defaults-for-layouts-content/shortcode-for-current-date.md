@@ -18,11 +18,13 @@ Here's a screenshot example of combining text with the `[fl_year]` shortcode in 
 
 Choose **Text** for the layout type, then enter the text plus shortcode into the text box. In this example, it's `testing 123 [fl-year]`. A typical example of a footer using this shortcode would be:
 
-`&copy;[fl_year] My Tiny Biz LLC`
+```html
+&copy;[fl_year] My Tiny Biz LLC
+```
 
 which would result in the following text, in which the year would always match the current year:
 
-(C)2020 My Tiny Biz LLC
+> &copy;2020 My Tiny Biz LLC
 
 ## Other date examples
 

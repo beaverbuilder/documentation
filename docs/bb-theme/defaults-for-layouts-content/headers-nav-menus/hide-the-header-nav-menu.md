@@ -8,9 +8,10 @@ All of the Beaver Builder Theme's header layouts include a nav layout and askyou
 
   * Copy and paste in the following CSS code.  
   See the article on [where to add custom CSS code](/beaver-builder/styles/code/custom-css.md).  
+
   ```css
-    .fl-page-nav {
-       display: none;
-       visibility: hidden;
-    }
+  .fl-page-nav {
+    display: none;
+    visibility: hidden;
+  }
   ```

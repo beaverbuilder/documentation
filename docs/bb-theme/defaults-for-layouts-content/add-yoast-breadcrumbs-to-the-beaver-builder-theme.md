@@ -13,23 +13,30 @@ See [this article about why you need the child theme](/bb-theme/getting-started/
 1. Enable Yoast breadcrumbs by clicking **SEO > Search Appearance > Breadcrumbs** on the WordPress admin panel, then on the **Breadcrumbs** tab click **Enabled** in the **Breadcrumbs settings** section.
 2. Add one of the following sets of code to your child theme’s _functions.php_ file.
     * To have the breadcrumb appear throughout your site, add the following code to your child theme’s _functions.php_ file.  
-    ```php
-    function bbtheme_yoast_breadcrumbs() {
-      if ( function_exists('yoast_breadcrumb') ) {
-        yoast_breadcrumb('<div class="container"><p id="breadcrumbs">','</p></div>');
+
+      ```php
+      function bbtheme_yoast_breadcrumbs() {
+
+        if ( function_exists('yoast_breadcrumb') ) {
+          yoast_breadcrumb('<div class="container"><p id="breadcrumbs">','</p></div>');
+        }
+
       }
-    }
-    add_action( 'fl_content_open', 'bbtheme_yoast_breadcrumbs' );
-    ```
+      add_action( 'fl_content_open', 'bbtheme_yoast_breadcrumbs' );
+      ```
+
     * To have the breadcrumbs appear on all pages and posts except your static home page, add the following code.  
-    ```php
-  function bbtheme_yoast_breadcrumbs() {
-      if ( function_exists('yoast_breadcrumb') && ! is_front_page() ) {
-        yoast_breadcrumb('<div class="container"><p id="breadcrumbs">','</p></div>');
+
+      ```php
+      function bbtheme_yoast_breadcrumbs() {
+
+        if ( function_exists('yoast_breadcrumb') && ! is_front_page() ) {
+          yoast_breadcrumb('<div class="container"><p id="breadcrumbs">','</p></div>');
+        }
+
       }
-    }
-    add_action( 'fl_content_open', 'bbtheme_yoast_breadcrumbs' );
-    ```
+      add_action( 'fl_content_open', 'bbtheme_yoast_breadcrumbs' );
+      ```
 
 :::tip **Tip**
 You can get [more control over where the breadcrumb appears on a page and in your site](/beaver-themer/layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer.md) by using Beaver Themer.

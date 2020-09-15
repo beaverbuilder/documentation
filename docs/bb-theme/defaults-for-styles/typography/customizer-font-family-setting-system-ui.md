@@ -19,14 +19,13 @@ Here's a [great article on the system font stack](https://woorkup.com/system-fon
 
 ```php
 'system-ui' => array(
-    'fallback' => "-apple-system, BlinkMacSystemFont,
-         'Segoe UI', Roboto, 'Helvetica Neue',
-        Ubuntu, Arial, sans-serif",
-    'weights' => array(
-        '300',
-        '400',
-        '700',
-    ),
+  'fallback' => "-apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif",
+  'weights' => array(
+    '300',
+    '400',
+    '700',
+  ),
 ),
 ```
 
