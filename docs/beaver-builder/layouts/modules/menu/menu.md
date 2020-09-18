@@ -9,7 +9,7 @@ than the menu available in your theme or widget area. It also gives you the
 ability to insert a menu anywhere in your layout. Here are some ideas:
 
   * Use special menus in your Beaver Builder page layouts. For example, if you have one groups of static pages on your site related to a particular topic, you could create a special menu for the pages in that particular group and display the links in a Menu module on the main page in that group.
-  * Save a Menu module and [use it in shortcode in a text widget](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts#add-beaver-builder-shortcode-to-a-wordpress-text-widget.md). There's a Custom Menu widget in WordPress, but the menu module gives you more control over styling without resorting to CSS.
+  * Save a Menu module and [use it in shortcode in a text widget](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md#add-beaver-builder-shortcode-to-a-wordpress-text-widget). There's a Custom Menu widget in WordPress, but the menu module gives you more control over styling without resorting to CSS.
   * If you have FAQs that contain fairly long answers, create a separate Post for each individual FAQ, then create a menu item for each Post, then use that menu in a Menu module embedded in your page content. That menu serves as a table of contents linking to the Post that contains the answer. The following screenshot shows an example of a menu used as an FAQ table of contents.
 
 ![](/img/menu-module-1.jpg)

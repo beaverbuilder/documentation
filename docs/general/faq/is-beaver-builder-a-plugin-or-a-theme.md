@@ -9,7 +9,7 @@ The Beaver Builder page builder is a plugin, but some of our premium packages in
 Our standard premium package includes just the Beaver Builder page builder plugin. The page builder
 is a visual layout tool to help you build layouts and add
 content to WordPress pages. The Beaver Builder plugin works with almost any
-theme, but see [the list of incompatible themes](/beaver-builder/troubleshooting/debugging/known-beaver-builder-incompatibilities#themes.md).
+theme, but see [the list of incompatible themes](/beaver-builder/troubleshooting/debugging/known-beaver-builder-incompatibilities.md#themes).
 
 Our Pro and Agency packages include both the Beaver Builder plugin and the
 Beaver Builder Theme. The Beaver Builder Theme has lean code, great
