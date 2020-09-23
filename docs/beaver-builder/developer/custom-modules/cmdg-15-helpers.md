@@ -12,7 +12,7 @@ The CSS helper makes it simple to render complex CSS rules with your settings,
 especially settings for multiple device sizes. Just use the methods described
 below in your `frontend.css.php` and we'll handle the rest for you.
 
-### Render a single rule for a single device size.
+### Render a single rule for a single device size
 
 ```php
 /**
@@ -44,7 +44,7 @@ FLBuilderCSS::responsive_rule( array(
 ) );
 ```
 
-### Renders the rule/properties for a dimension field
+### Render the rule/properties for a dimension field
 
 ```php
 /**
@@ -64,7 +64,7 @@ FLBuilderCSS::dimension_field_rule( array(
 ) );
 ```
 
-### Renders the rule/properties for a typography field
+### Render the rule/properties for a typography field
 
 ```php
 /**
@@ -77,7 +77,7 @@ FLBuilderCSS::typography_field_rule( array(
 ) );
 ```
 
-### Renders the rule/properties for a border field
+### Render the rule/properties for a border field
 
 ```php
 /**
