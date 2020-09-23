@@ -12,24 +12,29 @@ The CSS helper makes it simple to render complex CSS rules with your settings,
 especially settings for multiple device sizes. Just use the methods described
 below in your `frontend.css.php` and we'll handle the rest for you.
 
+### Render a single rule for a single device size.
+
 ```php
-<?php
 /**
  * Render a single rule for a single device size.
  */
 FLBuilderCSS::rule( array(
   'selector' => ".fl-node-$id .some-element",
-  'media' => 'max-width: 980px', // Optional. Can be `default`, `medium`, `responsive` or a custom statement.
+  'media' => 'max-width: 980px', // Optional. Can be 'default', 'medium', 'responsive' or a custom statement.
   'enabled' => 'bar' === $settings->foo, // Optional.
   'props' => array(
     'background-image' => $settings->bg_image_src,
     'background-repeat' => $settings->bg_repeat_responsive,
   ),
 ) );
+```
 
+### Render a single rule/property for all device sizes
+
+```php
 /**
  * Render a single rule/property for all device sizes (default, medium, responsive).
- * For this to work, your field must be defined as `responsive` => `true`.
+ * For this to work, your field must be defined as 'responsive' => `true`.
  */
 FLBuilderCSS::responsive_rule( array(
   'settings'	=> $settings,
@@ -37,7 +42,11 @@ FLBuilderCSS::responsive_rule( array(
   'selector'	=> ".fl-node-$id .some-element",
   'prop'		=> 'text-align',
 ) );
+```
 
+### Renders the rule/properties for a dimension field
+
+```php
 /**
  * Renders the rule/properties for a dimension field.
  */
@@ -53,7 +62,11 @@ FLBuilderCSS::dimension_field_rule( array(
     'padding-left' 	 => 'padding_left',
   ),
 ) );
+```
 
+### Renders the rule/properties for a typography field
+
+```php
 /**
  * Renders the rule/properties for a typography field.
  */
@@ -62,7 +75,11 @@ FLBuilderCSS::typography_field_rule( array(
   'setting_name' 	=> 'typography', // As in $settings->typography
   'selector' 	=> ".fl-node-$id .some-element",
 ) );
+```
 
+### Renders the rule/properties for a border field
+
+```php
 /**
  * Renders the rule/properties for a border field.
  */
@@ -81,7 +98,6 @@ using the settings compatibility helper. All module instances receive a
 before they are consumed by Beaver Builder, as in the following example.
 
 ```php
-<?php
 class FLExampleModule extends FLBuilderModule {
 
   public function __construct() {
