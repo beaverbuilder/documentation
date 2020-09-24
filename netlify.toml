@@ -1521,6 +1521,11 @@ from = "/article/110-enable-disable-or-import-new-icon-sets"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/create-and-import-a-custom-icon-set/"
 status = 301
 force = true
+[[redirects]]
+from = "/article/607-downgrade-to-a-lower-version-of-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/general/account-billing/downgrade-to-a-lower-version-of-beaver-builder/"
+status = 301
+force = true
 
 # Beaver Themer
 [[redirects]]
