@@ -97,7 +97,7 @@ this screenshot:
 ![](/img/what-can-i-do-with-beaverbuilder-9.png)
 
 What determines when you start a new row in your layout? See the article on
-[working with rows](/beaver-builder/layouts/rows/work-with-rows.md) for some considerations,.
+[working with rows](/beaver-builder/layouts/rows/work-with-rows.md) for some considerations.
 
 ### Think responsive
 

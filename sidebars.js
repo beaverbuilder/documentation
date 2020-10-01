@@ -356,7 +356,9 @@
           label: 'Responsive Design',
           items: [
             "beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder",
+            "beaver-builder/layouts/responsive-design/responsive-settings-icon",
             "beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder",
+            "beaver-builder/layouts/responsive-design/responsive-columns",
             "beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes",
             "beaver-builder/layouts/responsive-design/change-device-breakpoints-site-wide",
           ]

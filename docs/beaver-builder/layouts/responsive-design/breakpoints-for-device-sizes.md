@@ -4,89 +4,37 @@ title: Breakpoints for device sizes
 sidebar_label: Breakpoints for device sizes
 ---
 
-Both the Beaver Builder plugin and the Beaver Builder Theme have their own
-breakpoint values for small, medium and large devices, which you can
-customize. (/beaver Builder Theme has this capability since **Version 1.7.3**.)
-These values correspond to browser widths and determine the point at which the
-layout switches to that for medium and small devices.
+Breakpoints, define the browser screen width at which responsive behavior changes from large devices to medium to small. The widths are set in pixels. 
 
-## Behaviors for medium and small device sizes
+You can customize the global breakpoint values. [Breakpoint values set in the Beaver Builder plugin](/beaver-builder/layouts/responsive-design/change-device-breakpoints-site-wide.md) control content area layouts and [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/) layouts. [Breakpoint values set in the Beaver Builder Theme](/bb-theme/customizer-settings/general.md#theme-medium-breakpoint-and-mobile-breakpoint) control header and navigation responsive behavior. 
 
-Here's what changes in the parts of the page controlled by the plugin and
-theme when you change from one device size category to another. This is the
-default behavior. We'll give you ways to get different behavior in the last
-section.
+## Breakpoint values in the plugin and theme
 
-&nbsp;  |  Medium devices  |  Small devices  
----|---|---  
-Beaver Builder plugin  |  VISIBILITY: **Advanced tab > Visibility > Breakpoint sizes** must include **Medium devices** to appear on the published page (default is all sizes)  |  VISIBILITY: **Advanced tab > Visibility > Breakpoint sizes** must include **Small devices** to appear on the published page  COLUMN STACKING: Columns in layout stack vertically
-Beaver Builder Theme  |  HEADER LAYOUT: **Nav Right**, **Nav Left**, and **Nav Centered + Inline Logo** change to **Nav Centered** (menu below logo)  | NAV LAYOUT: Nav menu collapses to Hamburger icon or MENU link  
-
-:::note **Note**
-If you use a Beaver Themer header layout, the Beaver Builder plugin's breakpoints will control header behavior.
-:::
-
-## Customize device size behavior
-
-### Customize the breakpoint values
-
-The breakpoint values are found in the following locations:
-
-**To customize the breakpoint values in the Beaver Builder Plugin:**
-
-  * In the Beaver Builder editor, click the down arrow in the upper left corner to open the **Tools** menu, then click **Global settings** and go to the **Responsive layout** section.
-
-**To customize the breakpoint values in the Beaver Builder Theme:**
-
-  * From the WordPress admin panel, click **Appearance > Customize > General > Layout** and scroll to the two breakpoint settings.
-
-Because of differences in architecture between the plugin and theme, the
-defined breakpoint values are one pixel different from the plugin in
-determining device behavior, as shown in this table.
+Because of differences in architecture between the Beaver Builder plugin and Beaver Builder Theme, the defined breakpoint values are one pixel different in determining device behavior, as shown in this table.
 
 &nbsp;  |  Large devices  |  Medium devices  |  Small devices  
 ---|---|---|---  
 Default breakpoint value (plugin and theme): browser width  |  undefined  |  992px  |  768px  
-Browser width range for device size  |  Plugin: 993px and higher Theme: 992px and higher  |  Plugin: 769-992px  Theme: 768-991px  |  Plugin: 768px and lower Theme: 767px and lower  
+Browser width range  |  Plugin: 993px and higher <br/>Theme: 992px and higher  |  Plugin: 769-992px  <br/>Theme: 768-991px  |  Plugin: 768px and lower <br/>Theme: 767px and lower  
 
-###  Keep visibility the same in landscape and portrait tablet orientation
+## Examples of customizing breakpoints
 
-Here's an example of how a row, column, or module set not to be visible at
-small devices can mean that that content appears in landscape orientation and
-disappears in portrait orientation as you rotate the tablet, and how to fix
-that.
+### Make portrait orientation on iPad a medium-sized device
 
-The display size of some iPad models is 1024x768px for landscape orientation
-and 768x1024px for portrait orientation. The default small device size in the
-Beaver Builder plugin is 768px, so if you set visibility for a row, column, or
-module to not include small devices, then it will not appear on this iPad in
-portrait orientation, but it will appear at landscape orientation.
+The display width of many iPad models is 1024x768px for landscape orientation and 768x1024px for portrait orientation, making landscape orientation a large device and portrait orientation a small device for plugin layouts. Suppose you want to use the Visibility setting on the Advanced tab to display one row for tablets in both orientations but a different row for phones. 
 
-To avoid this behavior, change the plugin's default small device breakpoint
-from 768px to 767px. Check the display size of other tablets and tweak that
-setting if necessary.
+As you can see in this screenshot, the **Visibility > Breakpoint** setting on the **Advanced** tab has a choice of **Large & Medium devices only**, which would accomplish your goal if portrait orientation fell into the category of a medium-sized device, but it is one pixel short of that. 
 
-### Reverse or prevent column stacking
+![](/img/visibility-breakpoint-options.png)
 
-By default, in Beaver Builder layouts, columns stack vertically on small
-devices. See [this article](/beaver-builder/layouts/columns/column-layouts-overview.md) for a detailed description of how nested columns stack. This stacking behavior applies to both standard content area
-layouts and to Beaver Themer layouts, such as in a Header layout.
-
-You can reverse the column stacking order for any layer of columns in your
-layout by [following these instructions](/beaver-builder/layouts/columns/reverse-column-stacking-order.md).
-
-You can also [prevent columns from stacking](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md) by setting custom responsive widths.
+By changing the plugin's global breakpoint from 768px to 767px you'll make the iPad's portrait orientation a medium device. 
 
 ### Use the mobile nav for larger devices
 
 If you use a Beaver Builder Theme header, by default the responsive nav
-Hamburger icon or MENU link is used for small devices, but the following
-setting can be changed to include medium devices or all devices: **Appearance > Customize > Header > Nav layout > Responsive Nav Breakpoint**. You can change other responsive nav settings on that tab, including the text for the
-MENU link.
+Hamburger icon or MENU link is used for small devices, but you can [change that behavior](/bb-theme/customizer-settings/header.md#nav-layout) at **Appearance > Customize > Header > Nav layout > Responsive Nav Breakpoint**. 
 
-If you use a Beaver Themer header, the Menu module's **General** tab has a
-**Responsive** section with a **Responsive breakpoint** field where you can
-change the device sizes that use the responsive nav.
+For a Menu module in a Beaver Builder or Themer layout, there's a [**Responsive** section](/beaver-builder/layouts/modules/menu/menu.md#set-responsive-behavior) on the module's **General** tab where you can set the menu style and device size.
 
 ### Preserve the theme's header layout on medium devices
 

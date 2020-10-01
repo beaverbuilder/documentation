@@ -111,18 +111,5 @@ layer of that column has three child columns.
 
 ![](/img/row-columns-column-layout-overview-8.jpg)
 
-## Responsive behavior: column stacking
-
-As screen size decreases, column and module stacking occurs left to right, top
-to bottom first within each column then across columns. Let's go back to our
-real-world example and show the order in which the columns, child columns, and
-modules are stacked on small screens.
-
-![](/img/row-columns-column-layout-overview-9.jpg)
-
 :::tip **Tip**
-Beaver Builder has a setting to [reverse the stacking order](/beaver-builder/layouts/columns/reverse-column-stacking-order.md), but you can't choose an arbitrary
-stacking order. Knowing how columns will stack is an important factor in how
-you construct your page. As an alternative, you can [prevent column stacking by
-setting column widths for medium and small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md).
-:::
+Knowing how columns stack as screen size decreases will help you decide how to construct the columns on your page. For more information, see the [article on responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md).
