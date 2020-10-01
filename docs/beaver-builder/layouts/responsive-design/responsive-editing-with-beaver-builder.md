@@ -16,7 +16,7 @@ to optimize it for every device size.
 
 Enter Responsive Editing Mode in any of the following ways:
 
-  * Click one of the [small responsive icons next to specific settings](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) for a row, column, or module.  
+  * Click the [responsive settings icon next to settings that have it](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) for a row, column, or module.  
   Your page view will stay in responsive editing mode even if you close the
 **Settings** window. Use the **Exit** button to close responsive editing.
   * On the **Tools** menu, click **Responsive editing**.

@@ -89,8 +89,7 @@ See Examples 4 and 8 below.
 
 Auto spacing interacts with propagation and overrides, as described in the
 next section.
-
-You can disable auto spacing, but this is not generally advised, because it
+[You can](/beaver-builder/layouts/margins-padding/disable-auto-spacing-on-mobile-devices.md) disable auto spacing, but this is not generally advised, because it
 means that you will have to make many more individual settings on your site.
 
 ## Propagation
