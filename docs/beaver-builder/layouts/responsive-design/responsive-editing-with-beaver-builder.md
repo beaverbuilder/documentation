@@ -1,7 +1,7 @@
 ---
 id: responsive-editing-with-beaver-builder
-title: Responsive editing with Beaver Builder
-sidebar_label: Responsive editing with Beaver Builder
+title: Responsive Editing Mode
+sidebar_label: Responsive Editing Mode
 ---
 
 Responsive Editing Mode lets you preview pages as they appear on medium and
@@ -14,20 +14,17 @@ immediately and build a mobile layout, then adjust for larger screens. Either
 way, chances are that as you work you will want to tweak your original design
 to optimize it for every device size.
 
-:::note
 Enter Responsive Editing Mode in any of the following ways:
 
-  * Click one of the small responsive icons next to specific settings for a row, column, or module.  
-Your page view will stay in responsive editing mode even if you close the
+  * Click the [responsive settings icon next to settings that have it](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) for a row, column, or module.  
+  Your page view will stay in responsive editing mode even if you close the
 **Settings** window. Use the **Exit** button to close responsive editing.
-
   * On the **Tools** menu, click **Responsive editing**.
   * Type the keyboard shortcut <kbd>R</kbd>  
-This keyboard shortcut toggles responsive editing mode to open in medium
+  This keyboard shortcut toggles responsive editing mode to open in medium
 device view, change from medium to small device view, and close the responsive
 editing window.  
-Note that keyboard shortcuts are always lowercase letters.
-:::
+  Note that keyboard shortcuts are always lowercase letters.
 
 Here's an example in which we start with a large layout and tweak the medium
 and small versions.

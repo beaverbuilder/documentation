@@ -30,7 +30,7 @@ level, Keep the following points in mind:
 You can't change the defaults for columns, and modules have no padding.
 
   * The default value applies to all sides. In other words, you can't set different default values for top, bottom, left and right.
-  * You can set the defaults differently for each device size. If you set a value for desktop only, the tablet setting will inherit this value. The mobile value is controlled by autospacing. If autospacing is disabled, the mobile value is inherited from the desktop value. See [the article on troubleshooting margins and padding](/beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding.md) for more details about how mobile values are determined.
+  * You can set the defaults differently for each device size. If you set a value for desktop only, the tablet setting will inherit this value. The mobile value is controlled by auto spacing. If auto spacing is disabled, the mobile value is inherited from the desktop value. See [the article on troubleshooting margins and padding](/beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding.md) for more details about how mobile values are determined.
 
 ## To change default margins and padding site-wide
 

@@ -59,7 +59,7 @@ hamburger icon or MENU label appears: By default, it appears on small devices
 only, but you can change the behavior to medium and small devices, or all
 devices.
 
-There's a Responsive style section with the following three options for how
+The **Responsive style** setting has the following three options for how
 expand the menu when the hamburger icon is clicked:
 
   * Inline

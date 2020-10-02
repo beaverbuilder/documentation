@@ -6,8 +6,8 @@ sidebar_label: Reverse column stacking order
 
 By default, columns that stand side by side on a large device will change to
 stacked columns on a small device, where left to right becomes top to bottom.
-For more complex examples of how layers of columns in a row stack by default,
-see the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
+For a more complex example of how layers of columns in a row stack by default,
+see the [article about responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md).
 
 You can easily reverse the stacking order with a setting on the **Advanced**
 tab so the columns stack bottom to top. The reversed stacking order applies to

@@ -22,8 +22,7 @@ Using the icon circled in blue, you can add settings for each device size or let
 
 ## Visibility section
 
-In the **Breakpoint** field, you
-can set the row, columnm, or module to display or hide based on device size.
+In the **Breakpoint** field, you can limit the display of the row, columnm, or module to particular device sizes. See [this article](/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes.md) for more information about global and custom breakpoints.
 
 In the **Display** field, you can choose to display the row, column, or module always, never, or
 only to logged-in or logged-out users. If you have Beaver Themer installed,

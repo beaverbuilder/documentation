@@ -220,12 +220,12 @@ On the **Nav Layout** tab, you can control the following aspects of the nav menu
 * Menu button text  
   If you choose the MENU button for the **Responsive nav toggle**, you can enter a custom label instead of MENU.
 * **Responsive nav breakpoint**  
-  Choose the breakpoint at which to display the Hamburger icon or Menu button. The choices are:  
-    * Always (displayed on every device size)
-    * Medium & small devices only
-    * (Default): Small devices only
-  **Note**
-The default breakpoints are 992px for medium screens and 768px for small screens. You can [change these defaults in the Beaver Builder plugin's Global Settings](/beaver-builder/layouts/responsive-design/change-device-breakpoints-site-wide.md).
+Choose the breakpoint at which to display the Hamburger icon or Menu button. The choices are:
+  * Always (displayed on every device size)  
+  * Medium & small devices only  
+  * (Default): Small devices only  
+**Note**
+The default breakpoints are 992px for medium screens and 768px for small screens. You can [change these breakpoints on the **General** tab](/bb-theme/customizer-settings/general.md#theme-medium-breakpoint-and-mobile-breakpoint).
 * **Responsive nav layout**  
   You can choose one of the animated flyout settings or the standard menu dropdown to appear when you click the Hamburger icon or Menu button. For more information about each choice, see [the article about flyout animations](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md).
 * **Responsive nav layout position** (Appears only when **Responsive nav layout** is set to a flyout choice.)  
