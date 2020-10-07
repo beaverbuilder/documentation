@@ -4,7 +4,7 @@ title: Save, Publish, Discard
 sidebar_label: Save, Publish, Discard
 ---
 
-## Instant save while you work
+## Autosave while you work
 
 Changes in the Beaver Builder editor are saved even before you save or publish
 the entire page. If the editor hangs before your work is saved or published,

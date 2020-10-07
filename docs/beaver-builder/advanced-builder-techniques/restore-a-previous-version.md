@@ -11,7 +11,7 @@ Themer layouts if you have [Beaver Themer](https://www.wpbeaverbuilder.com/beave
 Restoring refers to several scenarios:
 
   * **Beaver Builder hangs while you're editing a page.**  
-Beaver Builder autosaves as you work, so if your page hangs as you're editing
+Beaver Builder [autosaves as you work](/beaver-builder/getting-started/bb-editor-basics/save-publish-discard.md), so if your page hangs as you're editing
 it, usually reloading the page in your browser will get back what you were
 working on.
 
@@ -27,9 +27,9 @@ section.
 
 ##  Restore a deleted page, post, or saved item from the trash
 
-  1. Do one of the following.
-    * For saved pages and posts: in the WordPress admin panel, click **Posts** or **Pages**.
-    * For saved templates, saved rows/columns/modules, and Themer layouts: In the WordPress admin panel, click **Beaver Builder**, then select the type of saved object.  
+1. Do one of the following.  
+  * For saved pages and posts: in the WordPress admin panel, click **Posts** or **Pages**.
+  * For saved templates, saved rows/columns/modules, and Themer layouts: In the WordPress admin panel, click **Beaver Builder**, then select the type of saved object.  
 If you don't see **Beaver Builder** in the admin panel, see [this article](/beaver-builder/troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel.md) on enabling it.
 
   2. Just below the title and above the list of items, click the **Trash** link.  
