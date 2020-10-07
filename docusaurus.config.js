@@ -106,7 +106,11 @@ module.exports = {
             {
               label: 'FAQs',
               to: '/general/faq',
-            }
+            },
+            {
+              label: 'Known Issues',
+              to: '/beaver-builder/known-issues',
+            },
           ],
         },
         {
