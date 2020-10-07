@@ -39,7 +39,7 @@ editor.
 :::note **Note** 
 Rename the class to reflect the name of your module and change out
 the module info in the construct method.
-:
+:::
 
 ```php
 class MyModuleClass extends FLBuilderModule {
