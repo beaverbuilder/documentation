@@ -36,36 +36,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 683`
 
-### Compatibility with WordPress 5.1 and below and ClassicPress Broken
-<p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:** BB UI is broken (does not open) with WordPress 5.1 and below or when using ClassicPress
-
-`IR: 688`
-
-
-### Contact Form module
-
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** In some cases, labels display when set to placeholder only
-
-`IR: 529`
-
-### Content Slider module
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** Content slider has loading issues with WordPress 5.5 and especially FireFox
-
-`IR: 602`
-
-### Image Cropping broken on Flywheel Hosting
-
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** On some configurations, Flywheel changes how `ABSPATH` works which interferes with cropping in image modules using that.
-
-`IR: 564`
 
 ### Text Editor module
 
@@ -156,6 +127,13 @@ This is a partial list of high-priority issues we're chipping away at.
 **Description:** Applying a singular Themer layout shows a loading GIF above the content area
 
 `IR: 152`
+
+### LearnDash
+
+LearnDash has indicated to us that they are working on a fix as it's not just an issue with Beaver Builder but all Page Builders that use/offer custom Templates.  
+
+**Description:** After updating LearnDash, much of the LearnDash content is missing.
+
 
 ### WooCommerce
 
