@@ -121,6 +121,10 @@ By default, you cannot add any WordPress shortcode to WordPress text widgets.
 You can add this ability by adding the following code to the _functions.php_
 file in your child theme.
 
+```php
+add_filter( 'widget_text', 'do_shortcode' );
+```
+
 You can then add your shortcode to a WordPress text widget.
 
 :::tip **Tip**
