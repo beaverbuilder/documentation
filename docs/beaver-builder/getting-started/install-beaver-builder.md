@@ -8,7 +8,7 @@ sidebar_label: Install Beaver Builder
   <iframe width="560" height="315" src="https://www.youtube.com/embed/x6FrwCHgaT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-These instructions are for new premium installations, reinstallations, and upgrades to or downloads from one premium version to another.
+These instructions are for new premium installations, reinstallations, and upgrades to or downgrades from one premium version to another.
 
 * If you're upgrading from the free (Lite) version to a premium version, [purchase a premium version](https://www.wpbeaverbuilder.com/pricing/) first.
 * If you're upgrading from one premium version to another, [see this upgrade information first](/general/account-billing/upgrade-your-premium-license.md).
