@@ -9,7 +9,7 @@ Builder Support team quickly get facts about your website's environment to
 help them troubleshoot. Debug mode can also help you find information to
 assist in your own troubleshooting efforts.
 
-For example, Debug Mode lets you access the any code you've added to the [Global CSS](../../styles/code/custom-css.md/#1-site-wide-rules-for-content-area-layouts) and [JavaScript](../../styles/code/custom-javascript.md) option on the Tools menu, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
+For example, Debug Mode lets you access any code you've added to the [Global CSS](../../styles/code/custom-css.md/#1-site-wide-rules-for-content-area-layouts) and [JavaScript](../../styles/code/custom-javascript.md) option on the Tools menu, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
 
 ![Debug Mode Global CSS/JS](/img/beaver-builder--enabled-debug-global-css-js.png)
 
