@@ -1,7 +1,7 @@
 ---
 id: theme-conflict
-title: Theme conflict
-sidebar_label: Theme conflict
+title: Theme conflicts
+sidebar_label: Theme conflicts
 ---
 
 Some themes can cause conflicts with Beaver Builder plugin, which often
