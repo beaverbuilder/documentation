@@ -12,7 +12,7 @@ These instructions are for new premium installations, reinstallations, and upgra
 
 * If you're upgrading from the free (Lite) version to a premium version, [purchase a premium version](https://www.wpbeaverbuilder.com/pricing/) first.
 * If you're upgrading from one premium version to another, [see this upgrade information first](/general/account-billing/upgrade-your-premium-license.md).
-* If you're downgrading or canceling your subscription, [see this downgrade information first](/general/account-billing/downgrade-to-a-lower-version-of-beaver-builder/#downgrade-to-another-premium-version).
+* If you're downgrading or canceling your subscription, [see this downgrade information first](/general/account-billing/downgrade-to-a-lower-version-of-beaver-builder.md/#downgrade-to-another-premium-version).
 
 ## Download the Beaver Builder plugin
 
