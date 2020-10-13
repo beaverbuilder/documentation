@@ -550,6 +550,7 @@
             "beaver-builder/troubleshooting/miscellaneous/classic-wordpress-and-beaver-builder-text-editor-toolbars-dont-match",
             "beaver-builder/troubleshooting/miscellaneous/background-color-or-image-doesnt-appear",
             "beaver-builder/troubleshooting/miscellaneous/i-cant-drag-and-drop-modules",
+            "beaver-builder/troubleshooting/miscellaneous/subscribe-form-mailchimp-merge-fields-invalid",
             "beaver-builder/troubleshooting/miscellaneous/mailchimp-subscriber-popup-form-breaks-beaver-builder",
             "beaver-builder/troubleshooting/miscellaneous/beaver-builder-does-not-open-for-editing-on-nginx-servers",
             "beaver-builder/troubleshooting/miscellaneous/device-previews-beaver-builder-customizer-and-beyond",
