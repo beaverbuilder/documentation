@@ -68,7 +68,6 @@ choosing. You must then handle it in that email account--for example, set up
 an autoresponse to the subscriber, set up an email filter to channel the
 subscribe emails into a special folder, add them to your contact list, and so
 on.
-
   * Enormail
   * GetResponse
   * Godaddy Email Marketing
@@ -93,7 +92,7 @@ on.
 
 ### General tab
 
-:::tip 
+:::tip **Tip**
 If you're mocking up a website but don't have a subscription service enabled yet, choose **Email address** in the **Service** field. That way you can keep the form in the layout and connect the service later.
 :::
 
