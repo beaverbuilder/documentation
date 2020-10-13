@@ -5,12 +5,10 @@ sidebar_label: Set global (site-wide) default row widths
 ---
 
 The global settings in the Beaver Builder editor determine the default width
-settings of all of the rows in your site. This means that when you add a row
-to a module, it will have that setting unless you modify it in that specific
-row.
+settings of all of the rows in your site. This means that when you add a new row
+to a layout, by default the row will have that setting. If you modify the row width or row content width in any row's settings, it will override the row width defaults.
 
-You can customize the following global settings for row width and row content
-width:
+You can customize the following global settings for row width and row content width:
 
   * Row width: **Full width** or **Fixed**
   * Row content width: **Full width** or **Fixed**  
