@@ -9,8 +9,8 @@ and deleted. For a live example of this, check out the Items tab of the
 Accordion module. There you will see that when you click the Add Item button,
 another item field is added. This works for any field type, including form
 fields (as in the Accordion module). The only field types it currently doesn't
-work with is Editor Fields, Loop Settings Fields, Photo Fields, and Service
-Fields.
+work with are Border Fields, Editor Fields, Loop Settings Fields, Photo Fields, Service
+Fields and Typography Fields.
 
 ## Return value  
 An array of values for each of the repeated fields.
