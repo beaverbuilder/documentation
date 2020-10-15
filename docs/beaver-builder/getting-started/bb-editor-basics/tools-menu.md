@@ -38,10 +38,10 @@ Edit your layout directly in a medium or small device view, as shown in this scr
 
 ## Revisions
 
-Display the previously published revisions available to revert to. The number of revisions available is displayed in brackets. This menu item uses the core WordPress revision feature but makes it more convenient to view and access revisions. See this article for more information.
+Display the previously published revisions available to revert to. The number of revisions available is displayed in brackets. This menu item uses the core WordPress revision feature but makes it more convenient to view and access revisions. See [this article](/beaver-builder/advanced-builder-techniques/restore-a-previous-version.md) for more information about restoring previous versions.
 
 :::note **Note** 
-Only published pages count as revisions. Saved drafts of pages are not available as revisions. See [this article](/beaver-builder/advanced-builder-techniques/restore-a-previous-version.md) for more details about how to revert to previous versions.
+Only published pages count as revisions. Saved drafts of pages are not available as revisions. 
 :::
 
 ## Layout CSS and JavaScript

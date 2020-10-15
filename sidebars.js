@@ -118,7 +118,6 @@
         "beaver-builder/getting-started/what-can-i-do-with-beaver-builder",
         "beaver-builder/getting-started/system-requirements",
         "beaver-builder/getting-started/install-beaver-builder",
-        "beaver-builder/getting-started/manually-reinstall-beaver-builder",
         {
           type: 'category',
           label: 'BB Editor Basics',
@@ -536,6 +535,7 @@
             "beaver-builder/troubleshooting/updates-license/not-getting-beaver-builder-updates",
             "beaver-builder/troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin",
             "beaver-builder/troubleshooting/updates-license/beaver-builder-not-working-after-upgrading",
+            "beaver-builder/troubleshooting/updates-license/manually-reinstall-beaver-builder",
           ]
         },
         {
@@ -550,6 +550,7 @@
             "beaver-builder/troubleshooting/miscellaneous/classic-wordpress-and-beaver-builder-text-editor-toolbars-dont-match",
             "beaver-builder/troubleshooting/miscellaneous/background-color-or-image-doesnt-appear",
             "beaver-builder/troubleshooting/miscellaneous/i-cant-drag-and-drop-modules",
+            "beaver-builder/troubleshooting/miscellaneous/subscribe-form-mailchimp-merge-fields-invalid",
             "beaver-builder/troubleshooting/miscellaneous/mailchimp-subscriber-popup-form-breaks-beaver-builder",
             "beaver-builder/troubleshooting/miscellaneous/beaver-builder-does-not-open-for-editing-on-nginx-servers",
             "beaver-builder/troubleshooting/miscellaneous/device-previews-beaver-builder-customizer-and-beyond",
