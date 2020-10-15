@@ -9,6 +9,10 @@ Builder Support team quickly get facts about your website's environment to
 help them troubleshoot. Debug mode can also help you find information to
 assist in your own troubleshooting efforts.
 
+For example, Debug Mode lets you access any code you've added to the [Global CSS](../../styles/code/custom-css.md/#1-site-wide-rules-for-content-area-layouts) and [JavaScript](../../styles/code/custom-javascript.md) option on the Tools menu, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
+
+![Debug Mode Global CSS/JS](/img/beaver-builder--enabled-debug-global-css-js.png)
+
 Entering Debug Mode produces a URL that contains a debug report. You can do
 any of the following things with the URL:
 
@@ -16,8 +20,7 @@ any of the following things with the URL:
   * Add the URL when you file a Support ticket
   * Send it to the Support team when they request it at *hello@wpbeaverbuilder.com*.
 
-**To enable Beaver Builder Debug Mode and obtain the URL for the debug
-report:**
+**To enable Beaver Builder Debug Mode and obtain the URL for the debug report:**
 
   1. On the WordPress admin panel, click **Settings > Beaver Builder**, then click the **Tools** tab.
   2. Click the **Enable debug mode** button.  

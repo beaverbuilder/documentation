@@ -70,6 +70,11 @@ With the **Embed** setting, the following settings are also available. See the p
 * **Poster**
 * **Sticky on scroll**
 
+**oEmbed**
+
+Instead of adding an iFrame you can add the URL for your video as long as the video service is supported by [WordPress oEmbed](https://wordpress.org/support/article/embeds/#okay-so-what-sites-can-i-embed-from).
+
+
 ### Structured data tab
 
 This tab lets you set information about the video that is provided in the

@@ -35,5 +35,5 @@ If you select **Logged in user**, you can also select a capability to fine-
 tune which users can see the row, column, or module.
 
 :::tip **Tip**
-If you have Beaver Themer installed, you can [fine-tune visibility using conditional logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md.
+If you have Beaver Themer installed, you can [fine-tune visibility using conditional logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md).
 :::
