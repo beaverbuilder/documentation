@@ -56,17 +56,23 @@ The config array accepts the following properties:
  The label for your connection that will show in the menu.
 
 **group (required)**  
-  The group you want your connection to appear in. Currently, the following groups are built in:
+  The group you want your connection to appear in. Currently, the following groups are built in (array key values in brackets):
+  
+* General (`general`)
+* Archives (`archives`)
+* Posts (`posts`)
+* Comments (`comments`)
+* Author (`author`)
+* User (`user`)
+* Site (`site`)
+* Advanced (`advanced`)
+* Advanced Custom Fields (`acf`)
+* BigCommerce (`bigcommerce`)
+* Easy Digital Downloads (`edd`)
+* The Events Calendar (`the-events-calendar`)
+* WooCommerce (`woocommerce`)
 
-  * general
-  * comments
-  * author
-  * user
-  * site
-  * advanced
-  * woocommerce
-
-See the section below to add custom groups.
+See the section below to [add custom groups](customize-field-connections-themer.md/#add-a-new-field-connection-group).
 
 **type (required)**
 The type of connection. Use this when you connect a field to indicate what type of connections are available. For example, when you add a text field to a settings form, you can indicate that all of the string and HTML-based connections are available.
