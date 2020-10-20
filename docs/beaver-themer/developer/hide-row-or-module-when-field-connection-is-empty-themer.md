@@ -86,7 +86,9 @@ add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
 
 Hide row on a specific page if row has class of `my-target-row` and [page id](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode.md) is `123`. You can refactor this code to work on other WordPress pages such as archives or the front page. To do this you will need to use [WordPress conditionals](https://developer.wordpress.org/themes/basics/conditional-tags/).
 
-You can also replace the row with a column or module by changing the `$node->type`: `if ( 'column' === $node->type )` for column and `if ( 'module' === $node->type )` for module.
+You can also replace the row with a column or module by changing the `$node->type`:
+* `if ( 'column' === $node->type )` for column
+* `if ( 'module' === $node->type )` for module.
 
 ```php
 add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
