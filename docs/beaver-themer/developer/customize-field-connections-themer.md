@@ -56,7 +56,7 @@ The config array accepts the following properties:
  The label for your connection that will show in the menu.
 
 **group (required)**  
-  The group you want your connection to appear in. Currently, the following groups are built in (array key values in brackets):
+  The group you want your connection to appear in. Currently, the following groups are built in (array key values in parentheses):
   
 * General (`general`)
 * Archives (`archives`)
