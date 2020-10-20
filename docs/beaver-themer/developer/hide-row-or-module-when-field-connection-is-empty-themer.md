@@ -13,7 +13,7 @@ If you don't need to hide entire rows or modules, you can use conditional shortc
 You can use the following code to hide rows or modules that have empty field connections. Add it to your child theme's _functions.php_ file.
 
 :::note **Note**
-This code is just a starting point and will not work in every situation. Use your knowledge of PHP to extend this code, using the `$node` variable to choose which rows or modules are hidden based on a number of circumstances such as `$node->type` or `$node->settings`.
+This code is just a starting point and will not work in every situation. Use your knowledge of PHP to extend this code, using the `$node` variable to choose which rows, columns or modules are hidden based on a number of circumstances such as `$node->type` or `$node->settings`.
 :::
 
 ```php
@@ -32,3 +32,70 @@ function check_field_connections( $is_visible, $node ) {
 
 add_filter( 'fl_builder_is_node_visible', 'check_field_connections', 10, 2 );
 ```
+
+## Examples
+
+The examples below are common use cases on how to hide rows, columns and modules.
+
+### Hide Row
+
+The example below removes a row if row has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md/#about-the-class-selector) of `my-target-row`.
+
+```php
+add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
+	if ( 'row' === $node->type ) {
+		if ( ! empty( $node->settings->class ) && false !== strpos( $node->settings->class, 'my-target-row' ) ) {
+			return false;
+		}
+	}
+	return $is_visible;
+}, 10, 2);
+```
+
+### Hide Column
+
+The example below removes a column if column has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md/#about-the-class-selector) of `my-target-column`.
+
+```php
+add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
+	if ( 'column' === $node->type ) {
+		if ( ! empty( $node->settings->class ) && false !== strpos( $node->settings->class, 'my-target-column' ) ) {
+			return false;
+		}
+	}
+	return $is_visible;
+}, 10, 2);
+```
+
+### Hide Module
+
+The example below removes a module if module has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md/#about-the-class-selector) of `my-target-module`.
+
+```php
+add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
+	if ( 'module' === $node->type ) {
+		if ( ! empty( $node->settings->class ) && false !== strpos( $node->settings->class, 'my-target-module' ) ) {
+			return false;
+		}
+	}
+	return $is_visible;
+}, 10, 2);
+```
+
+### Hide on specific pages
+
+Hide row on a specific page if row has class of `my-target-row` and [page id](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode.md) is `123`. You can refactor this code to work on other WordPress pages such as archives or the front page. To do this you will need to use [WordPress conditionals](https://developer.wordpress.org/themes/basics/conditional-tags/).
+
+You can also replace the row with a column or module by changing the `$node->type`: `if ( 'column' === $node->type )` for column and `if ( 'module' === $node->type )` for module.
+
+```php
+add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
+	if ( 'row' === $node->type ) {
+		if ( ! empty( $node->settings->class ) && false !== strpos( $node->settings->class, 'my-target-row' ) && is_page( 123 ) ) {
+			return false;
+		}
+	}
+	return $is_visible;
+}, 10, 2);
+```
+
