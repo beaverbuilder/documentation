@@ -14,4 +14,4 @@ This error usually occurs for the following reasons:
 * You've deleted one or more plugin files using an FTP/SFTP client or a hosting file browser 
 * A security plugin/scanner has renamed the file
 
-To resolve the issue, reinstall Beaver Builder from the **WordPress Admin Dashboard at Plugins > Add New > Upload Plugin**. Prior to WordPress 5.5, you must deactivate and delete the Beaver Builder plugin first.
+To resolve the issue, reinstall Beaver Builder from the WordPress Admin Dashboard at **Plugins > Add New > Upload Plugin**. Prior to WordPress 5.5, you must deactivate and delete the Beaver Builder plugin first.
