@@ -516,6 +516,7 @@
             "beaver-builder/troubleshooting/common-issues/internal-server-500-error",
             "beaver-builder/troubleshooting/common-issues/destination-folder-already-exists",
             "beaver-builder/troubleshooting/common-issues/require-once",
+            "beaver-builder/troubleshooting/common-issues/zlib-output-compression",
             "beaver-builder/troubleshooting/common-issues/cloudflare-and-403-errors-when-loading-background-images",
             "beaver-builder/troubleshooting/common-issues/exceeds-php-max-input-vars",
             "beaver-builder/troubleshooting/common-issues/http-error-when-uploading-images",
