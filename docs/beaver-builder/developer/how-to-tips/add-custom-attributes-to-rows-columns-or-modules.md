@@ -49,7 +49,7 @@ This example adds an attribute of `data-foo="bar"` to a module that has a
 custom ID of `my-module-id`.
 
 ```php
-add_filter('fl_builder_row_attributes', function ($attrs, $row) {
+add_filter('fl_builder_module_attributes', function ($attrs, $row) {
   if ('my-module-id' == $row->settings->id) {
     $attrs['data-foo'] = 'bar';
   }
