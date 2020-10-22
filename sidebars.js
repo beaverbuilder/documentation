@@ -896,6 +896,7 @@
        "beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer",
        "beaver-themer/developer/conditional-logic-apis",
        "beaver-themer/developer/customize-field-connections-themer",
+       "beaver-themer/developer/add-custom-attributes-to-themer-layouts",
        "beaver-themer/developer/customize-themer-modules",
        "beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer",
        "beaver-themer/developer/hooks-reference-themer",
