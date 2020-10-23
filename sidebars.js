@@ -634,6 +634,7 @@
           items: [
             "beaver-builder/developer/tutorials-guides", // Index
             "beaver-builder/developer/tutorials-guides/install-beaver-builder-via-composer",
+            "beaver-builder/developer/tutorials-guides/customize-the-tools-menu-panel",
             "beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme",
             "beaver-builder/developer/tutorials-guides/customize-settings-forms",
             "beaver-builder/developer/tutorials-guides/common-beaver-builder-filter-examples",
