@@ -1,29 +1,11 @@
 ---
-id: customize-the-tools-menu-panel
-title: Customize the Tools menu panel
-sidebar_label: Customize the Tools menu panel
+id: remove-rename-tools-menu-items
+title: Rename or remove Tools menu items
+sidebar_label: Rename or remove Tools menu items
 ---
 
-This tutorial gives you details of how to customize the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), such as adding, removing, or renaming menu items.
+This tutorial gives you details of how to customize the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), such as removing or renaming menu items.
 
-
-## Add menu items
-
-The code example below shows how to add a new menu item.
-
-```php
-add_filter( 'fl_builder_main_menu', function( $views ){
-	
-	$views['main']['items'][130] = array(
-		'label' => __( 'BB Test Menu Item', 'fl-builder' ),
-		'type' => 'event',
-		'eventName' => 'bbTestMenuItem',
-	);
-	
-	return $views;
-	
-}, 10, 1);
-```
 
 ## Remove menu items
 
