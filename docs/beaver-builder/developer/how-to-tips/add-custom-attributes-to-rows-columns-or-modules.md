@@ -57,7 +57,7 @@ add_filter('fl_builder_module_attributes', function ($attrs, $row) {
 }, 10, 2);
 ```
 
-## Add multiple attributes to a module
+## Add multiple attributes to a row
 
 This example demonstrates how to use the filter to add multiple attributes to
 a row that has an ID of `my-row-id`. Use this code for columns by changing the
