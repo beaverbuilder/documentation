@@ -8,7 +8,18 @@ You can see a list of all the WordPress installations in which your license is
 activated, and you can deactivate, remove, or reactivate the license for any
 of those installations.
 
-To see the list of sites, on the  [My Account](https://www.wpbeaverbuilder.com/my-account/) page, navigate to the Domain Manager section and click **Manage Domains**.  
+To see the list of sites, on the  [My Account](https://www.wpbeaverbuilder.com/my-account/) page, navigate to the Domain Manager section and click **Manage Domains**.
+
+:::tip **Tip**
+Switching from HTTP to HTTPS on your site by adding an SSL certificate will cause that site to appear twice in the Domain Manager because the two are considered separate domains. For example:
+
+```markup
+http://my-website.com/
+https://my-website.com/
+```
+
+You can safely remove the non-SSL domain from the domain manager.
+:::
 
 ## Deactivate a domain
 
