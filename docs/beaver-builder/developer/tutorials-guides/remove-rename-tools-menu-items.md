@@ -9,7 +9,7 @@ This tutorial gives you details of how to customize the [Tools menu](/beaver-bui
 
 ## Remove menu items
 
-The code example below shows how to remove menu items and includes some of the main Tools menu items. You can find all Tools menu `$views` item ID's by searching for `// Tools` in the */bb-plugin/classes/class-fl-builder.php* file. 
+The code example below shows how to remove menu items and includes some of the main **Tools** menu items. You can find all **Tools** menu `$views` item ID's by searching for `// Tools` in the */bb-plugin/classes/class-fl-builder.php* file. 
 
 ```php
 add_filter( 'fl_builder_main_menu', function( $views ) {
