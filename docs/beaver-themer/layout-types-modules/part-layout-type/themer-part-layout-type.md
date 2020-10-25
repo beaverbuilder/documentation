@@ -16,11 +16,17 @@ When the sale is over, simply turn off the Part layout at **Beaver Buider > Them
 
 The Part-type  layout has the same **Location** field as other Themer layouts, where you can specify which pages of your site on which you want the layout to appear.
 
-The Part layout has an additional field called **Position**, where you can specify which location within a page the layout should occur. The list of positions depends on the hooks in your theme. The following screenshot shows the list of positions available when the Beaver Builder Theme is installed:
+The Part layout has an additional field called **Position**, where you can specify which location within a page the layout should occur. The following screenshot shows the list of positions available when the Beaver Builder Theme is installed:
 
 ![](/img/themer-part-layout-type-68352acd.png)
 
-The order field requires an integer from 0 to any number. You only need to change this number if you have two part layouts in the same position. The lower number appears above the higher number. For example, if you have a warning with order 0 and a banner with order one, the warning will appear above the banner in the same position on the page.
+:::note **Note**
+The list of positions depends on hooks in the Beaver Builder Theme. You don’t need to use the Beaver Builder Theme to get support for Themer Parts, but you do need to use one of the [themes that support Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md). 
+:::
+
+If you’re not sure which position to choose, check the [Theme action reference](/bb-theme/developer/theme-action-reference.md) for more information about where in the rendered page's HTML each position fires. 
+
+The **Order** field requires an integer from 0 to any number. You only need to change this number if you have two part layouts in the same position. The lower number appears above the higher number. For example, if you have a warning with order 0 and a banner with order one, the warning will appear above the banner in the same position on the page.
 
 ## Initial layout
 
