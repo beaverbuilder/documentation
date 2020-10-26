@@ -49,7 +49,7 @@ This example adds an attribute of `data-foo="bar"` to a module that has a
 custom ID of `my-module-id`.
 
 ```php
-add_filter('fl_builder_row_attributes', function ($attrs, $row) {
+add_filter('fl_builder_module_attributes', function ($attrs, $row) {
   if ('my-module-id' == $row->settings->id) {
     $attrs['data-foo'] = 'bar';
   }
@@ -57,7 +57,7 @@ add_filter('fl_builder_row_attributes', function ($attrs, $row) {
 }, 10, 2);
 ```
 
-## Add multiple attributes to a module
+## Add multiple attributes to a row
 
 This example demonstrates how to use the filter to add multiple attributes to
 a row that has an ID of `my-row-id`. Use this code for columns by changing the

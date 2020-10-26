@@ -17,4 +17,18 @@ In **Customize > General > Layout**, there's a **Framework** field with settings
 * **Full Bootstrap 4**  
   Loads the full version of Bootstrap 4.
 
+:::tip **Tip**
+The Minimal Bootstrap is a lightweight build that only contains the CSS needed for the grid system and basic styling. This Includes:
+* Grid
+* Print Styles
+* Typography
+* Code
+* Tables
+* Forms
+* Navs
+* Navbar
+
+Full Bootstrap includes all CSS and JavaScript with the exception of [Popper.js](https://popper.js.org/). To use popper.js with the BB Theme you will need to [enqueue the script](https://developer.wordpress.org/reference/functions/wp_enqueue_script/).
+:::
+
 If you have a new site and want to use Bootstrap 4 features and don't mind the loss of support for older systems, you can try choosing Bootstrap 4. If you have existing customizations using Bootstrap 3 or Bootstrap 4 and need to ensure your layouts are not broken, choose the appropriate version.

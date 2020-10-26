@@ -30,7 +30,7 @@ even though you can customize the module's code, the module's folder name,
 main PHP file name, and main class name must remain unchanged to be recognized
 by Beaver Builder.
 
-:::warning **Tip:**
+:::tip **Tip:**
 If you’re not seeing your changes, try clearing the Beaver Builder
 cache.
 :::
