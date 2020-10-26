@@ -515,6 +515,8 @@
             "beaver-builder/troubleshooting/common-issues/404-error-when-trying-to-open-editor",
             "beaver-builder/troubleshooting/common-issues/internal-server-500-error",
             "beaver-builder/troubleshooting/common-issues/destination-folder-already-exists",
+            "beaver-builder/troubleshooting/common-issues/require-once",
+            "beaver-builder/troubleshooting/common-issues/zlib-output-compression",
             "beaver-builder/troubleshooting/common-issues/cloudflare-and-403-errors-when-loading-background-images",
             "beaver-builder/troubleshooting/common-issues/exceeds-php-max-input-vars",
             "beaver-builder/troubleshooting/common-issues/http-error-when-uploading-images",
@@ -633,6 +635,7 @@
             "beaver-builder/developer/tutorials-guides", // Index
             "beaver-builder/developer/tutorials-guides/install-beaver-builder-via-composer",
             "beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme",
+            "beaver-builder/developer/tutorials-guides/remove-rename-tools-menu-items",
             "beaver-builder/developer/tutorials-guides/customize-settings-forms",
             "beaver-builder/developer/tutorials-guides/common-beaver-builder-filter-examples",
             "beaver-builder/developer/tutorials-guides/add-icons-to-your-custom-modules",
@@ -881,6 +884,7 @@
      label: 'Troubleshooting',
      items: [
        "beaver-themer/troubleshooting", // Index
+       "beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu",
        "beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported",
        "beaver-themer/troubleshooting/message-this-post-has-a-themer-layout-assigned",
        "beaver-themer/troubleshooting/troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer",
@@ -894,6 +898,7 @@
        "beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer",
        "beaver-themer/developer/conditional-logic-apis",
        "beaver-themer/developer/customize-field-connections-themer",
+       "beaver-themer/developer/add-custom-attributes-to-themer-layouts",
        "beaver-themer/developer/customize-themer-modules",
        "beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer",
        "beaver-themer/developer/hooks-reference-themer",
