@@ -1,7 +1,7 @@
 ---
 id: field-connection-basics-themer
-title: Field connection basics
-sidebar_label: Field connection basics
+title: Field connections
+sidebar_label: Field connections
 ---
 
 Beaver Themer field connections work like variables. They let you connect certain row and module settings to external data on your site, such as the following:

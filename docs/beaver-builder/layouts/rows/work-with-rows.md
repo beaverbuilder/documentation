@@ -59,7 +59,7 @@ Set the row height to one of the following values:
   * **Default**   
 The row height automatically sizes according to the row content.
 
-  * Full height   
+  * **Full height**   
 The row fits the browser window. You can align the content to **Top**,
 **Center**, or **Bottom**.
 
@@ -73,7 +73,8 @@ the row: **Top**, **Center**, or **Bottom**.
 
 Override default color settings for text, link, and heading colors.
 
-**Tip:** Here's why it's handy to change text color in row settings rather
+:::tip **Tip** 
+Here's why it's handy to change text color in row settings rather
 than module settings. Suppose your default text color is black, but you want a
 dark background for your row, so you want all the text in the row to appear in
 white. By setting text color on the row, you don't have to set it for each
@@ -81,6 +82,7 @@ module. In addition, when you move modules around, any module moved into that
 row will automatically have the right color text. If you change text color in
 a row setting, you can still override that by setting another text color in a
 module.
+:::
 
 #### Background section
 
@@ -94,7 +96,7 @@ opens a section with settings for that type of background.
   * Video  
 See the article about [row background video settings and tips](/beaver-builder/layouts/rows/row-effects/video-backgrounds-in-rows.md).
   * Embedded code  
-  Use html to embed content such as videos from other sources or sliders from other plugins using shortcodes.
+  Use HTML to embed content such as videos from other sources or sliders from other plugins using shortcodes.
   * Slideshow
   * Parallax  
 See the article about [parallax row backgrounds](/beaver-builder/layouts/rows/row-effects/parallax-row-backgrounds.md).
