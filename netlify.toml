@@ -1949,6 +1949,11 @@ to = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/ex
 status = 301
 force = true
 [[redirects]]
+from = "/article/566-themer-layouts-option-doesnt-appear-in-builder-menu"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu"
+status = 301
+force = true
+[[redirects]]
 from = "/article/750-why-does-my-themer-layout-say-unsupported"
 to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported"
 status = 301

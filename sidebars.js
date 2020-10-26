@@ -884,6 +884,7 @@
      label: 'Troubleshooting',
      items: [
        "beaver-themer/troubleshooting", // Index
+       "beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu",
        "beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported",
        "beaver-themer/troubleshooting/message-this-post-has-a-themer-layout-assigned",
        "beaver-themer/troubleshooting/troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer",
