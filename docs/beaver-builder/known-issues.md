@@ -13,34 +13,41 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ## Beaver Builder
 
-### ACF Conflict: Launch Beaver Builder button does not work
+### Fixed Background Images on iPadOS
 
-<p><span class="badge badge--success">Status: Released</span> in version 5.9.1 of ACF</p>
+<p><span class="badge badge--success">Status: Released</span>
 
-**Description:** With ACF active, the Launch Beaver Builder button does not function.  Page hangs after clicking.
+**Description:** Fixed background images show up zoomed in on iPadOS.
 
-`IR: 647`
+`686`
 
+
+### Accordion Module
+<p><span class="badge badge--success">Status: Released</span>
+
+**Description:** Issues with labels when using RTL
+
+`IR: 414`
 
 ### Button Group module
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span>
 
 **Description:** For a Button Group with Horizontal layout with several buttons, the space between the first and second button is missing on smaller screen size.
 
-`IR: 570`
+Button Spacing not working on Safari
 
-### Callout Module: Icon links do not work
-<p><span class="badge badge--success">Status: Released</span></p>
+Responsive alignment not working
 
-**Description:** Links on icons are not functional
+### Content Slider module
+<p><span class="badge badge--success">Status: Released</span>
 
-`IR: 683`
+**Description:** Button padding is not working
 
-
+`625`
 
 ### Text Editor module
 
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span>
 
 **Description:** With HappyFox plugin active and connected to the API, the Add Media button in the Text Editor module does not function.
 
@@ -53,39 +60,32 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 611`
 
-### Post Carousel module
+### Compatibility Issues
+
+#### Happy Fox
 <p><span class="badge badge--success">Status: Released</span></p>
+**Description:**  BB UI does not work with HappyFox plugin active
 
-**Description:**  Post carousel has loading issues with WordPress 5.5 and especially FireFox
-
-`IR: 611`
-
-### Post Slider module
+#### Klaviyo
 <p><span class="badge badge--success">Status: Released</span></p>
+**Description:**  BB UI does not open when editing a Header layout with the Klaviyo plugin active
 
-**Description:**  Post slider has loading issues with WordPress 5.5 and especially FireFox
-
-`IR: 602`
-
-### Responsive Preview issue in Chrome
+#### Polylang
 <p><span class="badge badge--success">Status: Released</span></p>
+** Description:**  Fix pagination on a Polylang translated page when more than 1 Posts module appears on the layout
 
-**Description:**  Due to a Chrome bug, if you toggle through the sizes, the styling then breaks.  We've implemented a fix until Chrome can address it.
-
-`IR: 676`
-
-### Row Background Video JS error when using Vimeo and audio is enabled
+#### WooCommerce
 <p><span class="badge badge--success">Status: Released</span></p>
+** Description:**  Fix pagination on WooCommerce archives when more than 1 Posts module appears on the layou
 
-**Description:**  This causes a JS error that doesn't affect the builder but affects the row background video and other things that use javascript on the pages (Examples include animations not firing, Accordion not opening)
-`IR: 680`
-
-### Slideshow module alt tag issue
+#### WOOF WooCommerce Products Filter 
 <p><span class="badge badge--success">Status: Released</span></p>
+** Description:**  Markup broken underneath the Posts module when this plugin is active
 
-**Description:**  Slideshow module does not render alt tag for images
+#### Yoast SEO
+<p><span class="badge badge--success">Status: Released</span></p>
+** Description:**  Yoast is unable to read BB content
 
-`IR: 604`
 
 ## Beaver Themer
 
