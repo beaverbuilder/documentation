@@ -64,26 +64,32 @@ Responsive alignment not working
 
 #### Happy Fox
 <p><span class="badge badge--success">Status: Released</span></p>
+
 **Description:**  BB UI does not work with HappyFox plugin active
 
 #### Klaviyo
 <p><span class="badge badge--success">Status: Released</span></p>
+
 **Description:**  BB UI does not open when editing a Header layout with the Klaviyo plugin active
 
 #### Polylang
 <p><span class="badge badge--success">Status: Released</span></p>
+
 **Description:**  Fix pagination on a Polylang translated page when more than 1 Posts module appears on the layout
 
 #### WooCommerce
 <p><span class="badge badge--success">Status: Released</span></p>
+
 **Description:**  Fix pagination on WooCommerce archives when more than 1 Posts module appears on the layou
 
 #### WOOF WooCommerce Products Filter 
 <p><span class="badge badge--success">Status: Released</span></p>
+
 **Description:**  Markup broken underneath the Posts module when this plugin is active
 
 #### Yoast SEO
 <p><span class="badge badge--success">Status: Released</span></p>
+
 **Description:**  Yoast is unable to read BB content
 
 
