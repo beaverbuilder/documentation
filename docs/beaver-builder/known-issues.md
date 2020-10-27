@@ -15,7 +15,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ### Fixed Background Images on iPadOS
 
-<p><span class="badge badge--success">Status: Released</span>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** Fixed background images show up zoomed in on iPadOS.
 
@@ -23,14 +23,14 @@ This is a partial list of high-priority issues we're chipping away at.
 
 
 ### Accordion Module
-<p><span class="badge badge--success">Status: Released</span>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** Issues with labels when using RTL
 
 `IR: 414`
 
 ### Button Group module
-<p><span class="badge badge--success">Status: Released</span>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** For a Button Group with Horizontal layout with several buttons, the space between the first and second button is missing on smaller screen size.
 
@@ -39,7 +39,7 @@ Button Spacing not working on Safari
 Responsive alignment not working
 
 ### Content Slider module
-<p><span class="badge badge--success">Status: Released</span>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** Button padding is not working
 
@@ -47,7 +47,7 @@ Responsive alignment not working
 
 ### Text Editor module
 
-<p><span class="badge badge--success">Status: Released</span>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** With HappyFox plugin active and connected to the API, the Add Media button in the Text Editor module does not function.
 
