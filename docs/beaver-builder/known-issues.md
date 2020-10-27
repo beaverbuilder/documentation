@@ -72,19 +72,19 @@ Responsive alignment not working
 
 #### Polylang
 <p><span class="badge badge--success">Status: Released</span></p>
-** Description:**  Fix pagination on a Polylang translated page when more than 1 Posts module appears on the layout
+**Description:**  Fix pagination on a Polylang translated page when more than 1 Posts module appears on the layout
 
 #### WooCommerce
 <p><span class="badge badge--success">Status: Released</span></p>
-** Description:**  Fix pagination on WooCommerce archives when more than 1 Posts module appears on the layou
+**Description:**  Fix pagination on WooCommerce archives when more than 1 Posts module appears on the layou
 
 #### WOOF WooCommerce Products Filter 
 <p><span class="badge badge--success">Status: Released</span></p>
-** Description:**  Markup broken underneath the Posts module when this plugin is active
+**Description:**  Markup broken underneath the Posts module when this plugin is active
 
 #### Yoast SEO
 <p><span class="badge badge--success">Status: Released</span></p>
-** Description:**  Yoast is unable to read BB content
+**Description:**  Yoast is unable to read BB content
 
 
 ## Beaver Themer
