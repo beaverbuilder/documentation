@@ -19,7 +19,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 **Description:** Fixed background images show up zoomed in on iPadOS.
 
-`686`
+`IR: 686`
 
 
 ### Accordion Module
@@ -43,7 +43,7 @@ Responsive alignment not working
 
 **Description:** Button padding is not working
 
-`625`
+`IR: 625`
 
 ### Text Editor module
 
@@ -146,22 +146,11 @@ LearnDash has indicated to us that they are working on a fix as it's not just an
 
 ## Beaver Builder Theme
 
-### Customizer Slider does not update text
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** The slider to change values does not update text when used.
-
 ### Sub-Menu indicator does not display if Font Awesome Pro is enabled in the BB Plugin
 <p><span class="badge badge--primary">Status: Fixed</span></p>
 
 `IR: 146`
 
-### Full Width post template doesn't go full width when using a nav vertical layout
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** Full Width post template doesn't go full width when using a nav vertical layout.
-
-`IR: 40`
 
 ### Submenu can't be accessed on iPad Safari
 <p><span class="badge badge--secondary">Status: Pending</span></p>
@@ -169,10 +158,3 @@ LearnDash has indicated to us that they are working on a fix as it's not just an
 **Description:** In some cases, the submenu can't be accessed or can't be closed on iPad Safari.
 
 `IR: 107`
-
-### WooCommerce: Column issue on My Account > Addresses Page with Bootstrap 4 enabled
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** When shipping is set to none in the WooCommerce settings and Bootstrap 4 is enabled, the column displays very small/squished.
-
-`IR: 127`
