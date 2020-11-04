@@ -4,7 +4,7 @@ title: Test shortcode values for Advanced Custom Fields
 sidebar_label: Test shortcode values for ACF
 ---
 
-You can test the field connection shortcodes for the following Advanced Custom Fields (third-party plugin) with these operators:
+You can test for ACF field values using [conditional shortcode](/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer.md) for the following ACF custom field types (third-party plugin) with these operators:
 
   * **Text**, **Email**, or **Url**-type fields  
   Test if the value equals or doesn't equal a text string you specify.
@@ -13,13 +13,9 @@ You can test the field connection shortcodes for the following Advanced Custom F
   * **Radio Button** field  
   Test for the value of the radio button selected.
 
-:::important **Important**
-When you use a value test, make sure the fields you're evaluating have a value. If the field is empty, the value test will always return FALSE.
-
-For example, if you're testing whether the field equals the string "abc" and the field is empty, an `EQUALS` test returns `FALSE`, and a `NOTEQUALS` test also returns `FALSE`. The best way to ensure the field has a value is to make it a required field.
+:::tip **Tip**
+You can also use condiitional shortcode to test for the presence or absence of an ACF field value. See [this example](/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer.md/#example-1-label-for-custom-field).
 :::
-
-The syntax is the same as for the standard Themer *Boolean-If* and the *if-else* conditional shortcode statements with extra parameters `exp` and `value`.
 
 In the following example (and the other examples in the following section), the custom field is identified with the standard `post:acf` (to identify the field as an ACF), `type` (the ACF field type, such as `text`, `number`, `radio`), and `name` (your custom field name), then the `exp` option for the operator and the field `value` being tested.
 
@@ -48,9 +44,15 @@ The `value` parameter is the value that you want to test for.
 
 :::note **Notes**
 
-  * When the value of `exp` is `greater`, `greaterequals`, `less`, or `lessequals`, both the **Number** field value and the value you're testing for in the value parameter are converted to integers before they're compared, but `equals` and `notequals` compare the exact strings that are there. So, for example, if you're testing whether 377.78 is LESSEQUALS 377.77, the result is TRUE, because both values are converted to 377 before comparison occurs, so they are equal. On the other hand, if you test whether 377.77 EQUALS 377.78, the result is FALSE. because the two strings are being compared as is.
-  * The EQUALS test for URLs ignores the trailing slash if there is one, in both the field value and the comparison value. For example, <https://example.com> and <https://example.com/> will return TRUE to the EQUALS test.
+  * When the value of `exp` is `greater`, `greaterequals`, `less`, or `lessequals`, both the **Number** field value and the value you're testing for in the value parameter are converted to integers before they're compared, but `equals` and `notequals` compare the exact strings that are there. So, for example, if you're testing whether 377.78 is `LESSEQUALS 377.77`, the result is `TRUE`, because both values are converted to 377 before comparison occurs, so they are equal. On the other hand, if you test whether 377.77 `EQUALS 377.78`, the result is `FALSE`. because the two strings are being compared as is.
+  * The `EQUALS` test for URLs ignores the trailing slash if there is one, in both the field value and the comparison value. For example, <https://example.com> and <https://example.com/> will return `TRUE` to the `EQUALS` test.
   * The `value` parameter is case-sensitive.
+:::
+
+:::important **Important**
+When you use a value test, make sure the fields you're evaluating have a value. If the field is empty, the value test will always return `FALSE`.
+
+For example, if you're testing whether the field equals the string "abc" and the field is empty, an `EQUALS` test returns `FALSE`, and a `NOTEQUALS` test also returns `FALSE`. The best way to ensure the field has a value is to make it a required field.
 :::
 
 ## Examples of testing ACF

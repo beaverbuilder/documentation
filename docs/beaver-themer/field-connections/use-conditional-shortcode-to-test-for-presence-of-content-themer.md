@@ -1,70 +1,79 @@
 ---
 id: use-conditional-shortcode-to-test-for-presence-of-content-themer
-title: Use conditional shortcodes to test for presence of content
+title: Use conditional shortcodes to test for the presence of content
 sidebar_label: Use conditional shortcodes to test for content
 ---
 
-This is one of the ways you can use conditional shortcodes to test various aspects field connection shortcodes. See [the Overview article](/beaver-themer/field-connections/field-connection-shortcodes-overview-themer.md) for general information.
+This article describes one use of Themer's conditional shortcode: to test for the presence or absence of a value returned by a field connection shortcode, with the ability to specify custom text to be displayed based on the result. Follow these links for overview of [field connection shortcodes](/beaver-themer/field-connections/field-connection-shortcodes-overview-themer.md) and other uses of [conditional shortcodes](/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer.md).
 
-You can use field connection shortcode to do a boolean test for the presence or absence of content returned by a regular field connection shortcode. It works for any type of field connection as long as it can be used as a shortcode – in other words, any field connection that returns a text string. It works with built-in WordPress field connections, WordPress custom fields, Advanced Custom Fields (ACF), and Pods custom fields.
+The use of conditional shortcode to test for the presence of content works for [any Themer field connection shortcode](/beaver-themer/field-connections/field-connection-shortcode-index-themer.md), connecting to standard WordPress fields, third-party plugin custom fields (such as [WooCommerce](/beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index.md)), WordPress custom fields, Advanced Custom Fields (ACF), and Pods custom fields. 
 
-Here's the basic logic when the conditional shortcode is used this way:
+Here's the basic logic when the conditional shortcode is used to test for the presence of content:
 
-> If `<some field connection shortcode>` returns content, then `<display this text>` else `<display some other text>`
+> If `<some field connection shortcode>` returns a value, then `<display this custom text>` else `<display some other custom text>`
+
+The custom text that you display can itself contain field connection shortcodes, as the examples below show.
 
 ## Syntax
+
+First, we'll show you the conditional shortcode syntax to test for the presence of a value returned by a field connection shortcode, then we'll provide examples in the sections below.
 
 ### If
 
 ```markup
 [wpbb-if some-field-connection-shortcode]
-    My custom text because the field has content.
+    Display this custom content.
 [/wpbb-if]
 ```
 
-Notice `wpbb-if` has a beginning and end tag.
+Notice that `wpbb-if` has a beginning and end tag.
 
 ### If not
 
-To add the logical operator **NOT**, use the exclamation mark `!`, as shown in this code. The following syntax is paraphrased as "If some-field-connection-shortcode doesn't return any content, display the text 'Field connection content doesn't exist."
+The exclamation mark `!` functions as the logical operator **NOT**: 
 
 ```markup
 [wpbb-if !some-field-connection-shortcode]
-    Field connection content doesn't exist.
+    There are no data available.
 [/wpbb-if]
 ```
 
 ### If-else
 
-The *if-else* statement has this syntax:
-
 ```markup
 [wpbb-if some-field-connection-shortcode]
-    my-custom-text
-    [wpbb-else]
-    my-other-custom-text
+    Display my custom text.
+  [wpbb-else]
+    Display my other custom text
 [/wpbb-if]
 ```
 
-Notice `wpbb-else` doesn't have an end tag.
+:::note **Note**
+`[wpbb-else]` doesn't have an end tag.
+:::
 
-## Example 1: Label for custom field
+## Example 1: Display a label for custom field values only if the field has content
 
-You're using shortcode to display the value of an optional custom field, such as Hobbies, and you want to add a label before the value, such as:
+Suppose you want to display a contributor's hobbies on each post, like this:
 
 > Hobbies: chainsawing, weight lifting
 
-If the custom field has no content, you don't want the label "Hobbies:" to appear, so you can wrap your text with conditional shortcode so it displays only when a custom field has content. In this example code, you can see that the ACF field connection shortcode appears both in the conditional shortcode and in the custom text area, which also includes HTML markup and the label:
+To accomplish this, you've created an optional ACF custom field named `hobbies` and you're using a Themer field connection shortcode to display the value of this field so that you can display both the label "Hobbies: " plus the contents of the ACF field.
+
+However, if the field has no content, you don't want to display the label "Hobbies: " either. In this case, you can use conditional shortcode so it displays the label only when the custom field has content. 
+
+In this example code, you can see that the ACF field connection shortcode appears both in the conditional shortcode and in the custom text area, which also includes HTML markup and the "Hobbies: " label:
 
 ```markup
-[wpbb-if post:pods_display field='hobbies']
-    <p>Hobbies: [wpbb post:acf field='hobbies']</p>
+[wpbb-if post:acf type='text' field='hobbies']
+    <p>Hobbies: [wpbb post:acf type='text' field='hobbies']</p>
 [/wpbb-if]
 ```
+In natural language, this conditional means "if the ACF `hobbies` field has content, display the text 'Hobbies:' plus the value of the field." If the conditional shortcode evaluates to `false`, the custom text doesn't display.
 
 ## Example 2: Markup for an optional field
 
-If you include markup for a field, you probably only want that markup to appear when the field has something to display. The Posts module's layout code uses this conditional shortcode to display the featured image:
+If you include markup for a field, you probably only want that markup to be used when the field has something to display. The Posts module's layout code uses this conditional shortcode to display the featured image:
 
 ```markup
 [wpbb-if post:featured_image]
@@ -87,13 +96,25 @@ You could add an *else* clause to the featured image code to display the text "N
 [/wpbb-if]
 ```
 
-In this example, you'd have to write a CSS rule for the `.no-featured-image` class to position the text properly.
+In this example, you might need to write a CSS rule for the `no-featured-image` class to position the text properly.
 
-## Example 3: Display an icon if Pods custom field has content
+:::note **Note**
+The reason there is a field connection shortcode for an image is that the field  contains the image's URL as its value. The `[wpbb post:featured_image]` shortcode has a special status, in that the URL is automatically embedded in an HTML `<img>` tag. If you have a custom image field, the field's URL value must be embedded in the `<src>` attribute of an `<img>` tag, like the following example for an ACF Image field:
+
+```markup
+[wpbb-if archive:acf type='image' name='extra_image']
+<div>
+	<img src="[wpbb archive:acf type='image' name='extra_image' image_size='medium']">
+</div>
+[/wpbb-if]
+```
+:::
+
+## Example 3: Display an icon if a Pods custom field has content
 
 Suppose you have a Pods custom field to indicate that a location is accessible, and when it is accessible you want to display a Font Awesome icon of a wheelchair. Because you can only test whether the shortcode for a Pods custom field returns Text, you can't use a Yes-No field type to indicate accessibility. The Yes-No field doesn't return text.
 
-One workaround is to use a Text field and enter directions to type Yes when the location is accessible and leave the field blank when it isn't, such as the example in this screenshot:
+One workaround is to use a Text field and enter directions to type <kbd>Yes</kbd> when the location is accessible and leave the field blank when it isn't, such as the example in this screenshot:
 
 ![](/img/use-conditional-shortcode-to-test-for-presence-of-content-themer-0c6312a3.png)
 
@@ -108,11 +129,13 @@ You can then test for the presence or absence of content in that field and inser
 
 This code says if the shortcode for the `wheelchair_accessible` field has content, insert an `<i>` tag for the Font Awesome Solid wheel hair icon at size 2x. See the [Font Awesome documentation](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) for information about how to insert and style icons in HTML.
 
-For another Pods example, see [this tutorial for a Pods example](/beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content.md).
+For another Pods example, see [this tutorial](/beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content.md).
 
 ##  Example 4: Troubleshoot field connection problems
 
-The Boolean *if-else* statement is useful for troubleshooting field connection problems. See these articles for concrete examples with code:
+Here are a couple of related articles that use the Boolean *if-else* conditional shortcode.
 
-  * [Hide a row or module when a field connection is empty](/beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer.md)
-  * [Build this: Display a Pods custom field and separator only when there's content](/beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content.md)
+  * [Hide a row or module when a field connection is empty](/beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer.md)  
+  Simply not displaying text can leave a hole in your layout, so this article has some developer code to remove the entire row or module when there's no content.
+  * [Troubleshoot field connection shortcodes](/beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer.md)  
+  You can troubleshoot field connection shortcodes when the site is under development by using an HTML module to check for the presence of content in a field connection shortcode and display the value.
