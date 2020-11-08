@@ -13,34 +13,41 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ## Beaver Builder
 
-### ACF Conflict: Launch Beaver Builder button does not work
+### Fixed Background Images on iPadOS
 
-<p><span class="badge badge--success">Status: Released</span> in version 5.9.1 of ACF</p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:** With ACF active, the Launch Beaver Builder button does not function.  Page hangs after clicking.
+**Description:** Fixed background images show up zoomed in on iPadOS.
 
-`IR: 647`
+`IR: 686`
 
+
+### Accordion Module
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:** Issues with labels when using RTL
+
+`IR: 414`
 
 ### Button Group module
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** For a Button Group with Horizontal layout with several buttons, the space between the first and second button is missing on smaller screen size.
 
-`IR: 570`
+Button Spacing not working on Safari
 
-### Callout Module: Icon links do not work
+Responsive alignment not working
+
+### Content Slider module
 <p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:** Links on icons are not functional
+**Description:** Button padding is not working
 
-`IR: 683`
-
-
+`IR: 625`
 
 ### Text Editor module
 
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** With HappyFox plugin active and connected to the API, the Add Media button in the Text Editor module does not function.
 
@@ -53,39 +60,38 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 611`
 
-### Post Carousel module
+### Compatibility Issues
+
+#### Happy Fox
 <p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:**  Post carousel has loading issues with WordPress 5.5 and especially FireFox
+**Description:**  BB UI does not work with HappyFox plugin active
 
-`IR: 611`
-
-### Post Slider module
+#### Klaviyo
 <p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:**  Post slider has loading issues with WordPress 5.5 and especially FireFox
+**Description:**  BB UI does not open when editing a Header layout with the Klaviyo plugin active
 
-`IR: 602`
-
-### Responsive Preview issue in Chrome
+#### Polylang
 <p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:**  Due to a Chrome bug, if you toggle through the sizes, the styling then breaks.  We've implemented a fix until Chrome can address it.
+**Description:**  Fix pagination on a Polylang translated page when more than 1 Posts module appears on the layout
 
-`IR: 676`
-
-### Row Background Video JS error when using Vimeo and audio is enabled
+#### WooCommerce
 <p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:**  This causes a JS error that doesn't affect the builder but affects the row background video and other things that use javascript on the pages (Examples include animations not firing, Accordion not opening)
-`IR: 680`
+**Description:**  Fix pagination on WooCommerce archives when more than 1 Posts module appears on the layou
 
-### Slideshow module alt tag issue
+#### WOOF WooCommerce Products Filter 
 <p><span class="badge badge--success">Status: Released</span></p>
 
-**Description:**  Slideshow module does not render alt tag for images
+**Description:**  Markup broken underneath the Posts module when this plugin is active
 
-`IR: 604`
+#### Yoast SEO
+<p><span class="badge badge--success">Status: Released</span></p>
+
+**Description:**  Yoast is unable to read BB content
+
 
 ## Beaver Themer
 
@@ -146,22 +152,11 @@ LearnDash has indicated to us that they are working on a fix as it's not just an
 
 ## Beaver Builder Theme
 
-### Customizer Slider does not update text
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** The slider to change values does not update text when used.
-
 ### Sub-Menu indicator does not display if Font Awesome Pro is enabled in the BB Plugin
 <p><span class="badge badge--primary">Status: Fixed</span></p>
 
 `IR: 146`
 
-### Full Width post template doesn't go full width when using a nav vertical layout
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** Full Width post template doesn't go full width when using a nav vertical layout.
-
-`IR: 40`
 
 ### Submenu can't be accessed on iPad Safari
 <p><span class="badge badge--secondary">Status: Pending</span></p>
@@ -169,10 +164,3 @@ LearnDash has indicated to us that they are working on a fix as it's not just an
 **Description:** In some cases, the submenu can't be accessed or can't be closed on iPad Safari.
 
 `IR: 107`
-
-### WooCommerce: Column issue on My Account > Addresses Page with Bootstrap 4 enabled
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** When shipping is set to none in the WooCommerce settings and Bootstrap 4 is enabled, the column displays very small/squished.
-
-`IR: 127`
