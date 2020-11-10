@@ -4,14 +4,14 @@ title: Troubleshoot field connection shortcodes
 sidebar_label: Troubleshoot field connection shortcodes
 ---
 
-If your field connection shortcode isn't displaying the content the way you think it should in a Themer layout, the first question to ask is whether the field connection shortcode is returning a value and what value it's returning for a particular post or page.
+If your [field connection shortcode](/beaver-themer/field-connections/field-connection-shortcodes-overview-themer.md) isn't displaying the content the way you think it should in a Themer layout, the first question to ask is whether the field connection shortcode is returning a value and what value it's returning for a particular post or page.
 
-To test this, use an HTML module with a conditional shortcode to the field connection while previewing a particular page or post in your Themer layout. It's helpful to add a status message to clarify what you tested for.
+To test this, use an HTML module with a [Themer conditional shortcode](/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer.md) while previewing a particular page or post in your Themer layout. It's helpful to add a status message to clarify what you tested for.
 
-Here are a couple examples.
+The following section has a couple examples. See this article for the syntax of [conditional shortcode to test for the presence of a value](/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer.md).
 
 :::tip **Tip**
-We're providing the shortcode with parameters in these examples, but here's a tip for [finding the field connection parameters](/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer.md) for any shortcode you want to test.
+Here's a tip for [finding the field connection parameters](/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer.md) for any shortcode you want to test, or you can look them up in the [field connection shortcodes reference](/beaver-themer/field-connections/field-connection-shortcode-index-themer.md).
 :::
 
 ## 1. Test featured image shortcode
@@ -59,9 +59,11 @@ If there is no featured image, the results will display only the initial questio
 
 ## 2. Test ACF image field shortcode
 
-Suppose you have an Advanced Custom Field (using the Advanced Custom Fields plugin) called `corp-photo`.
+Suppose you have an ACF image field (using the Advanced Custom Fields plugin) called `corp-photo`, but the image isn't being displayed properly when you use the [field connection shortcode](/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer.md).
 
-You can test for whether this field contains an image for a particular post or page by adding this code to an HTML module in a Singular Themer layout.
+You can test for whether this field contains an image URL for a particular post or page and what URL  by adding this code to an HTML module in a Singular Themer layout.
+
+**To get the URL for an ACF image field:**
 
 ```markup
 Does this post have a corporate photo?
@@ -73,7 +75,7 @@ The field connection shortcode for an ACF Image field returns the image URL, not
 
 ![](/img/troubleshoot-field-connection-shortcodes-themer-c5abaf19.png)
 
-If you wrap the ACF field connection shortcode in an `<img>` tag, you'll see the image instead of the URL, as shown in the following code and screenshot of the result.
+If you wrap the ACF field connection shortcode in an `<img>` tag in your custom text output, you'll see the image instead of the URL, as shown in the following code and screenshot of the result.
 
 ```markup
 Does this post have a corporate photo?

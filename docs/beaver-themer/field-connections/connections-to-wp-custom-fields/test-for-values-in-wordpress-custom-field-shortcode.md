@@ -4,11 +4,15 @@ title: Test for values in WordPress custom field shortcode
 sidebar_label: Test for values in WordPress custom field shortcode
 ---
 
-You can use a conditional shortcode to test a text or integer value returned by the shortcode for a WordPress custom field.
+You can use [conditional shortcode](/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer.md) to test a text or integer value returned by the shortcode for a WordPress custom field.
+
+:::tip **Tip**
+You can also use condiitional shortcode to [test for the presence or absence of a WordPress custom field value](/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer.md).
+:::
 
 For example, you can test a shortcode with a statement such as "If the value of this shortcode is "coffee" then display this text, or else display this other text," or "If the value of this custom field shortcode is less than 2, then display this text or else display this other text."
 
-The syntax is the same as for the _Boolean-If_ and the _if-else_ conditionals shortcode statements, with extra parameters:
+The syntax is the same as for the _Boolean-If_ and the _if-else_ conditional shortcode statements, with extra parameters:
 
 ```markup
 [wpbb-if some-field-connection-shortcode
