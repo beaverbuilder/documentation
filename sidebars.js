@@ -528,6 +528,7 @@
             "beaver-builder/troubleshooting/common-issues/i-migrated-a-site-but-my-image-urls-didnt-change",
             "beaver-builder/troubleshooting/common-issues/im-getting-a-permission-denied-error",
             "beaver-builder/troubleshooting/common-issues/i-am-getting-a-blank-screen",
+            "beaver-builder/troubleshooting/common-issues/error-settings-not-saved",
           ]
         },
         {

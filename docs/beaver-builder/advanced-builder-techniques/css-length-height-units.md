@@ -36,8 +36,9 @@ Row width (individual and global)  |  ✓  |  ✓  |  |  |  ✓  |
 Minimum height (row, column)  |  ✓  |  |  |  |  ✓  |  ✓  
 Row shape overlays  |  ✓  |  ✓  |  |  |  ✓  |  ✓  
 Border settings (row, column, multiple modules)  |  ✓  |  |  |  |  |  
-Module style padding (Accordion, Call to Action, Callout, Tabs)  |  ✓  |  ✓  |  ✓  |  |  |  
+Module style padding (Accordion, Call to Action, Callout, List, Tabs)  |  ✓  |  ✓  |  ✓  |  |  |  
 Module style padding (Menu)  |  ✓  |  |  ✓  |  |  |  
+Module style spacing (Button group)  |  ✓  |   ✓  |  ✓  |  |   ✓  |  
 Module width (Button)  |  ✓  |  ✓  |  ✓  |  |  |  
 Module width (Photo, Separator)  |  ✓  |  ✓  |  |  |  ✓  |  
 Module height (Map)  |  ✓  |  |  |  |  |  ✓  

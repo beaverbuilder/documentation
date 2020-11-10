@@ -67,9 +67,9 @@ Here's how the output changed with this rule:
 
 Generic lists let you select from your [regular icon set](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md) instead of using standard list markers. They are represented by the `<div>` tag in the HTML output, with the option to choose an icon from your regular icon set as the marker.
 
-Here's an example of a generic list with a Font Awesome icon, set at 20px, and icon padding-right adjusted for more room between the icon and the heading.
+Here's an example of a generic list with a Font Awesome icon, set at 30px, and icon padding-right adjusted for more room between the icon and the heading.
 
-![](/img/list-02c09849.png)
+![](/img/list-pig-icon-example.png)
   
 Here's another example that shows two List modules, one for the list of advantages and one for the list of disadvantages, both with content and icons but no headings. The arrow icons are from the Font Awesome set and are displayed to the right of the content. The headings for each list are Heading modules.
 
@@ -104,7 +104,7 @@ See the settings below for more information about how to control the placement a
 * **List icon**  
   Chose the icon for the list item marker. The choices depend on which type of list you choose, as described in the first section of this article.
 * **List icon placement**  
-  Choose where the list item marker will appear. The choices are to the left or the right of the heading or the content. Choosing **Right of heading** or **Right of content** places the list item markers flush with the right margin of the list container. In either case, you can adjust the distance of the list item marker from the edge of the container and from the text on the same line by changing the left or right **Icon padding** in the **Icon style** section of the **Style** tab. See the screenshots in the **Icon padding** section below.
+  Choose where the list item marker will appear. The choices are to the left or the right of the heading or the content. Choosing **Right of heading** or **Right of content** places the list item markers flush with the right margin of the list container. You can fine-tune the positioning of the icons by changing the **Icon width** and **Icon padding** settings in [the **Icon style** section](#icon-style-section) of the **Style** tab.
 
 #### List items section
 
@@ -116,10 +116,13 @@ This is where you add the content and style for individual list items. Click **E
 
 * **List background color**  
   Puts a background color around the entire list.
-* **List padding**  
+* **List padding** (responsive)  
   Adds padding between the list border and the list items. This is especially useful when you've set a background color or border, as shown in this screenshot.  
   ![](/img/list-2c8bcc7e.png)
-* **Border around list**  
+* **List item padding** (responsive)  
+    Adds padding around the list items themselves, as shown in this screenshot. If you want even more control over padding around list items, use the **List item padding** setting on the **Style** tab for individual list items.  
+  ![](/img/list-item-padding.png)
+* **Border around list** (responsive)  
   Adds a border, radius, or shadow around the list, using [standard Beaver Builder border settings](/beaver-builder/styles/effects/borders.md).
 
 #### Icon style section
@@ -128,15 +131,22 @@ This section sets style properties for the list item markers selected on the **G
 
 * **Icon color**  
 * **Icon size**  
-* **Icon margin**  
-  Increases margins around the icon. Has the same effect as **Icon padding** in nearly all cases.
-* **Icon padding**  
-  Increases padding around the icon. If you have icons on the left, increasing the left icon padding indents the line and increasing the right icon padding increases the space between the icon and the text, as shown in this screenshot.  
+Size of the icon, in pixels.
+* **Icon width**  
+Determines the width of the icon's boundary box. This setting is useful when some icons in your list are wider than others and you want to vertically align them.  
+To achieve vertical alignment, the **Icon width** setting must be greater than the sum of icon size + icon right padding + icon left padding.  
+Here's a method to adjust **Icon width**, and **Icon padding** so the icons are vertically centered but the widest icon is aligned to the left edge of the list.  
+First, here's a list with Icon size set to 100px with no settings for **Icon width** or **Icon padding**. You can see that the icons are not vertically centered.  
+![](/img/list-icon-no-width-no-padding.png)  
+Click in the **Icon width** field and use the slider to vertically align the icons and create the distance you want between the icons and the heading text. Because the icon size is 100px, the icon width will have to be at least 100px for the icons to be vertically aligned.  
+![](/img/list-icon-width-no-padding.png)  
+Click in the **Right** setting for **Icon padding** and move the slider to the right until the widest icon is as far to the left as you want it:  
+![](/img/list-icon-width-right-padding.png)  
+
+* **Icon padding** (responsive)  
+  Increases padding between the icon and icon's border-box. If you have icons on the left, increasing the left icon padding indents the line and increasing the right icon padding increases the space between the icon and the text, as shown in this screenshot.  
   ![](/img/list-db5b4afd.png)  
-  To adjust the vertical position of the icon, tweak the icon's top padding or bottom padding. Here's an example of a numbered list in which the icon size of the numbers was increased and then more icon padding on the bottom was added to move the numbers higher.  
-  ![](/img/list-86a3d88a.png)  
-  If icons are to the right, you can also adjust their horizontal and vertical positions using **Icon padding** settings.  
-  ![](/img/list-99fa8c20.png)
+  To adjust the vertical position of the icons, tweak the top or bottom padding.
 
 :::tip **Tip**
 There's no setting to align the heading with content when there's a list item marker to the left of the heading, like this:
@@ -155,23 +165,23 @@ As a workaround, you can use some inline CSS in the text editor to increase the 
 
 * **Heading color**  
   The color of the heading text in every list item.
-* **Typography**  
+* **Typography** (responsive)  
   The standard Beaver Builder [Typography section](/beaver-builder/styles/typography/typography.md) for setting font family, weight, spacing, and so on.
 
 #### Content style section
 
 * **Content color**  
   The color of the content in every list item.
-* **Typography**  
+* **Typography** (responsive)  
     The standard Beaver Builder [Typography section](/beaver-builder/styles/typography/typography.md).
 
 #### Item separator section
 
-* **Line separator style**  
+* **Item separator style**  
   Choices are the same as for borders: **None**, **Solid**, **Dashed**, **Dotted**, **Double**.
 * **Line color**  
   The color of the separator line.
-* **Separator size**  
+* **Separator size** (responsive)  
   The height in pixels of the separator line.  
   **Tip:** This item is responsive. Click the icon to toggle the setting for desktop, tablet, and mobile displays.
 
@@ -192,7 +202,10 @@ When you edit individual list items, there are additional settings that override
 
 ### Style tab (specific list item)
 
-There are two settings, which override the general settings for a single list item.
+These settings override any global settings.
 
+* **Heading text color**
+* **Content text color**
 * **Background color**
 * **Icon color**
+* **List item padding** (responsive)
