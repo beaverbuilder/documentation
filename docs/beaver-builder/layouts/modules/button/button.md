@@ -86,7 +86,7 @@ additional fields:
 **Link** or **Lightbox**. With **Link**, there is a URL field. With
 **Lightbox**, there is a **LIghtbox Content** section with **Content type**
 to either embed content into an HTML field or provide a video link. See the
-click action examples in the previous sections.
+click action examples in the [previous section](#click-action-link-or-lightbox).
 
 ### Style tab
 
@@ -104,8 +104,7 @@ margin settings.
 You can [set a custom width](/beaver-builder/advanced-builder-techniques/css-length-height-units.md) in px, vw, or %.
 
   * **Align** (responsive)  
-See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for a description of how the alignment toggle
-settings work.
+See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for a description of how the alignment toggle settings work.
 
   * **Padding** (responsive)  
 Set a specific padding value in pixels. Click the **Link** icon to
@@ -152,23 +151,19 @@ There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/adva
 
 Other modules that include a button:
 
-  * Callout module  
+  * [Button Group module](/beaver-builder/layouts/modules/button-group.md)  
+This module lets you add a group of buttons in a single column. horizontally or vertically.
+  * [Callout module](/beaver-builder/layouts/modules/callout-and-call-to-action.md)  
 This module includes a heading, optional text, optional image (photo or icon),
 and optional button or link text. The link you provide works with any part of
 the Callout module, not just the button.
-
-  * Call to Action module  
-This module includes a heading, optional text, and a button. The link you
-provide works with any part of the Call to Action module, not just the button.
-
-  * Contact Form module  
+  * [Call to Action module](/beaver-builder/layouts/modules/callout-and-call-to-action.md)  
+This module includes a heading, optional text, and a button. The link you provide works with any part of the Call to Action module, not just the button.
+  * [Contact Form module](/beaver-builder/layouts/modules/contact-form/contact-form.md)  
 Special settings to set up a contact form, with a button to submit the form.
+  * [Subscribe Form module](/beaver-builder/layouts/modules/subscribe-form/subscribe-form.md)  
+Special settings to set up a connection to any of a number of mail service providers, creating a form to subscribe with a button to submit the form.
 
-  * Subscribe Form module  
-Special settings to set up a connection to any of a number of mail service
-providers, creating a form to subscribe with a button to submit the form.
-
-tip **Tip** 
-You can configure a Gallery module to [open its component images in a
-lightbox](/beaver-builder/layouts/modules/gallery/open-a-gallery-lightbox-on-button-click.md) with the addition of some code.
+:::tip **Tip** 
+You can configure a Gallery module to [open its component images in a lightbox](/beaver-builder/layouts/modules/gallery/open-a-gallery-lightbox-on-button-click.md) with the addition of some code.
 :::
