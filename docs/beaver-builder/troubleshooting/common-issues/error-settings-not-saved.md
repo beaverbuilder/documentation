@@ -4,7 +4,7 @@ title: Settings could not be saved error
 sidebar_label: Settings not saved error
 ---
 
-It's not likely but possible to encounter the following error when saving:
+It's not likely but possible to encounter the following error when saving a module:
 
 > Settings could not be saved.
 
@@ -15,7 +15,7 @@ There are two possible reasons for this to occur, described in the following sec
 In this case, the error message says:
 
 > Settings could not be saved.  
-> These settings contain sensitive code that is not allowed for your user role.
+> Your user role (...) doesn't allow you to enter sensitive code with tags such as \<iframe\> or \<script\>.
 
 In WordPress, user roles, (such as Administrator or Editor, contain a set of [capabilities](https://wordpress.org/support/article/roles-and-capabilities/), which define the particular tasks that users can perform. Custom roles, such as the Shop Manager in WooCommerce or custom roles that you create, have a custom set of capabilities. 
 
@@ -33,8 +33,7 @@ See [our blog post](https://www.wpbeaverbuilder.com/wordpress-user-roles/) for b
 In this case, you'll see the following version of the error.
 
 > Settings could not be saved.  
-> These settings contain sensitive code that is not allowed as DISALLOW_UNFILTERED_HTML has been set globally via wp-config.
-
+> Sensitive code (with tags such as \<iframe\> or \<script\>) is not allowed because the site's wp-config.php file contains the DISALLOW_UNFILTERED_HTML setting.
 
 This happens when the WordPress *wp-config.php* file has the following setting:
 
