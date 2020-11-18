@@ -15,7 +15,7 @@ There are two possible reasons for this to occur, described in the following sec
 In this case, the error message says:
 
 > Settings could not be saved.  
-> Your user role (...) doesn't allow you to enter sensitive code with tags such as \<iframe\> or \<script\>.
+> Your user role (...) doesn't allow you to enter sensitive code with tags such as `<iframe>` or `<script>`.
 
 In WordPress, user roles, (such as Administrator or Editor, contain a set of [capabilities](https://wordpress.org/support/article/roles-and-capabilities/), which define the particular tasks that users can perform. Custom roles, such as the Shop Manager in WooCommerce or custom roles that you create, have a custom set of capabilities. 
 
@@ -33,7 +33,7 @@ See [our blog post](https://www.wpbeaverbuilder.com/wordpress-user-roles/) for b
 In this case, you'll see the following version of the error.
 
 > Settings could not be saved.  
-> Sensitive code (with tags such as \<iframe\> or \<script\>) is not allowed because the site's wp-config.php file contains the DISALLOW_UNFILTERED_HTML setting.
+> Sensitive code (with tags such as `<iframe>` or `<script>`) is not allowed because the site's wp-config.php file contains the DISALLOW_UNFILTERED_HTML setting.
 
 This happens when the WordPress *wp-config.php* file has the following setting:
 
