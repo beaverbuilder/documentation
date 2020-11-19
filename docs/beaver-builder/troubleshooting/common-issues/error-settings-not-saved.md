@@ -52,7 +52,7 @@ In this case, the alternatives are:
 
 ## Filter examples
 
-If you want to preserve the `DISALLOW_UNFILTERED_HTML = true` setting in WordPress but override it in Beaver Builder, you can add the `fl_builder_ui_js_config` filter to their child theme's *functions.php* file. Here are some code examples of this filter in use.
+If you want to preserve the `DISALLOW_UNFILTERED_HTML = true` or sensitive code but override it in Beaver Builder for specific user roles, you can add the `fl_builder_ui_js_config` filter to their child theme's *functions.php* file. Here are some code examples of this filter in use.
 
 :::note **Note**
 This filter gives the user roles mentioned in the filter the `unfiltered_html` capability only in the Beaver Builder editor, not in WordPress.
