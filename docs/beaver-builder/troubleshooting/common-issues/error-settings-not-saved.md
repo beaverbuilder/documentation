@@ -25,6 +25,7 @@ If you see this error, you'll not be able to save without removing the sensitive
 
 * Log in with a user role that includes the `unfiltered_html` capability, such as WordPress Admin or Editor.
 * Use a WordPress plugin that gives you the ability to assign different capabilities to roles, such as the [User Role Editor](https://wordpress.org/plugins/user-role-editor/) plugin, and assign the `unfiltered_html` capability to the user role you want to have it.
+* Use the `fl_builder_ui_js_config` filter to give users the `unfiltered_html` capability in Beaver Builder layouts, see the [Filter Examples](/beaver-builder/troubleshooting/common-issues/error-settings-not-saved.md/#filter-examples) below.
 
 See [our blog post](https://www.wpbeaverbuilder.com/wordpress-user-roles/) for basics about WordPress user roles.
 
@@ -49,7 +50,7 @@ In this case, the alternatives are:
 * Remove the sensitive code from the title or content of your Beaver Builder layout and save your layout.
 * Add the following filter to give users the `unfiltered_html` capability in Beaver Builder layouts.
 
-### Filter to override the DISALLOW_UNFILTERED_HTML setting
+## Filter examples
 
 If you want to preserve the `DISALLOW_UNFILTERED_HTML = true` setting in WordPress but override it in Beaver Builder, you can add the `fl_builder_ui_js_config` filter to their child theme's *functions.php* file. Here are some code examples of this filter in use.
 
