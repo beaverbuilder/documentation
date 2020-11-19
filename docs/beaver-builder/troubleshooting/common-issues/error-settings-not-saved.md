@@ -47,3 +47,50 @@ In this case, the alternatives are:
 
 * Remove the `DISALLOW_UNFILTERED_HTML` setting from the *wp-config.php* file for your WordPress installation.
 * Remove the sensitive code from the title or content of your Beaver Builder layout and save your layout.
+* Add the following filter to give users the `unfiltered_html` capability in Beaver Builder layouts.
+
+### Filter to override the DISALLOW_UNFILTERED_HTML setting
+
+If you want to preserve the `DISALLOW_UNFILTERED_HTML = true` setting in WordPress but override it in Beaver Builder, you can add the `fl_builder_ui_js_config` filter to their child theme's *functions.php* file. Here are some code examples of this filter in use.
+
+:::note **Note**
+This filter gives the user roles mentioned in the filter the `unfiltered_html` capability only in the Beaver Builder editor, not in WordPress.
+:::
+
+The following snippet gives all user roles the `unfiltered_html` capability.
+
+```php
+add_filter( 'fl_builder_ui_js_config', function( $config ) {
+    $config['userCaps']['unfiltered_html'] = true;
+    return $config;
+} ,10);
+```
+
+The snippet below gives a specific user role (in this case the WooCommerce Shop Manager role) the `unfiltered_html` capability.
+
+```php
+add_filter( 'fl_builder_ui_js_config', function( $config ) {
+ 	$user = wp_get_current_user();
+	$role = $user->roles[0];
+ 	if ($role == "shop_manager") {
+    	$config['userCaps']['unfiltered_html'] = true;
+ 	}
+    return $config;
+} ,10);
+```
+
+This code snippet gives both the Shop Manager and Author roles the `unfiltered_html` capability.
+
+```php
+add_filter( 'fl_builder_ui_js_config', function( $config ) {
+ 	$user = wp_get_current_user();
+	$role = $user->roles[0];
+ 	if ($role == "shop_manager" || $role == "author") {
+    	$config['userCaps']['unfiltered_html'] = true;
+ 	}
+    return $config;
+} ,10);
+```
+
+You can add any user roles to the filter. See the [WordPress documentation about roles](https://wordpress.org/support/article/roles-and-capabilities/#summary-of-roles
+).
