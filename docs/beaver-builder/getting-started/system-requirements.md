@@ -59,8 +59,10 @@ For instructions on updating your WordPress installation, [see this WordPress co
 
 ### PHP
 
-  * **Beaver Builder plugin:** PHP 5.2.4 and above (PHP 7.x recommended)
-  * **Beaver Themer:** PHP 5.3 and above
+We follow WordPress minimum requirements for PHP version. See the [wordpress.org requirements page](https://wordpress.org/support/article/requirements/) for current recommendations.
+
+  * **Beaver Builder plugin:** PHP 5.6.20 and above (PHP 7.x recommended)
+  * **Beaver Themer:** PHP 5.6.20 and above
 
 ## jQuery
 
