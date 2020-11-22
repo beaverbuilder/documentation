@@ -16,7 +16,7 @@ the text and media in the WordPress editor will convert to a single Text
 Editor module when you open it in Beaver Builder, as shown in the following
 screenshot.
 
-![](/img/faq-easy-convert-bb.png)
+![](/img/faq--easy-convert-to-beaver-builder.png)
 
 That's a start – at least your text is now in a Beaver Builder layout. To get
 the beautiful layout you're dreaming of, you'll want to break up that content
