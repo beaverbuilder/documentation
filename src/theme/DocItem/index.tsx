@@ -4,13 +4,17 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
 import React from 'react';
+
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import DocPaginator from '@theme/DocPaginator';
 import DocVersionSuggestions from '@theme/DocVersionSuggestions';
+import type {Props} from '@theme/DocItem';
 import TOC from '@theme/TOC';
+
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import {
@@ -19,9 +23,8 @@ import {
   useActiveVersion,
 } from '@theme/hooks/useDocs';
 import DocsRating from '../../../core/DocsRating';
-
-function DocItem(props) {
-  const {siteConfig = {}} = useDocusaurusContext();
+function DocItem(props: Props): JSX.Element {
+  const {siteConfig} = useDocusaurusContext();
   const {url: siteUrl, title: siteTitle, titleDelimiter} = siteConfig;
   const {content: DocContent} = props;
   const {metadata} = DocContent;
@@ -32,7 +35,6 @@ function DocItem(props) {
     editUrl,
     lastUpdatedAt,
     lastUpdatedBy,
-    unversionedId,
   } = metadata;
   const {
     frontMatter: {
@@ -42,20 +44,22 @@ function DocItem(props) {
       hide_table_of_contents: hideTableOfContents,
     },
   } = DocContent;
-  const {pluginId} = useActivePlugin({
-    failfast: true,
-  });
+
+  const {pluginId} = useActivePlugin({failfast: true});
   const versions = useVersions(pluginId);
   const version = useActiveVersion(pluginId);
-  const showVersionBadge = versions.length > 1 && !version.isLast;
+
+  // If site is not versioned or only one version is included
+  // we don't show the version badge
+  // See https://github.com/facebook/docusaurus/issues/3362
+  const showVersionBadge = versions.length > 1;
+
   const metaTitle = title
     ? `${title} ${titleDelimiter} ${siteTitle}`
     : siteTitle;
-  const metaImageUrl = useBaseUrl(metaImage, {
-    absolute: true,
-  });
+  const metaImageUrl = useBaseUrl(metaImage, {absolute: true});
   return (
-    <div className={clsx('container padding-vert--lg', styles.docItemWrapper)}>
+    <>
       <Head>
         <title>{metaTitle}</title>
         <meta property="og:title" content={metaTitle} />
@@ -74,6 +78,7 @@ function DocItem(props) {
         {permalink && <meta property="og:url" content={siteUrl + permalink} />}
         {permalink && <link rel="canonical" href={siteUrl + permalink} />}
       </Head>
+
       <div className="row">
         <div
           className={clsx('col', {
@@ -98,9 +103,9 @@ function DocItem(props) {
                 <DocContent />
               </div>
             </article>
-            <DocsRating label={unversionedId} />
+            <DocsRating />
             {(editUrl || lastUpdatedAt || lastUpdatedBy) && (
-              <div className="docMetadata margin-vert--xl">
+              <div className="margin-vert--xl">
                 <div className="row">
                   <div className="col">
                     {editUrl && (
@@ -129,18 +134,18 @@ function DocItem(props) {
                   {(lastUpdatedAt || lastUpdatedBy) && (
                     <div className="col text--right">
                       <em>
-                        <small className="docMetadata-updated">
+                        <small>
                           Last updated{' '}
                           {lastUpdatedAt && (
                             <>
                               on{' '}
                               <time
                                 dateTime={new Date(
-                                  lastUpdatedAt * 1000
+                                  lastUpdatedAt * 1000,
                                 ).toISOString()}
                                 className={styles.docLastUpdatedAt}>
                                 {new Date(
-                                  lastUpdatedAt * 1000
+                                  lastUpdatedAt * 1000,
                                 ).toLocaleDateString()}
                               </time>
                               {lastUpdatedBy && ' '}
@@ -154,7 +159,8 @@ function DocItem(props) {
                           {process.env.NODE_ENV === 'development' && (
                             <div>
                               <small>
-                                (Simulated during dev for better perf)
+                                {' '}
+                                (Simulated during dev for better perf meh)
                               </small>
                             </div>
                           )}
@@ -176,7 +182,7 @@ function DocItem(props) {
           </div>
         )}
       </div>
-    </div>
+    </>
   );
 }
 
