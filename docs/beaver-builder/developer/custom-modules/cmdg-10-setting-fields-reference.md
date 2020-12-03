@@ -727,7 +727,7 @@ The text entered by the user.
   'label'         => __( 'Textarea Field', 'fl-builder' ),
   'default'       => '',
   'placeholder'   => __( 'Placeholder Text', 'fl-builder' ),
-  'maxlength'		=> '255'
+  'maxlength'		=> '255',
   'rows'          => '6'
 ),
 ```
