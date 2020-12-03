@@ -2510,6 +2510,11 @@ from = "/article/346-remove-an-existing-or-custom-preset"
 to = "https://docs.wpbeaverbuilder.com/bb-theme/developer/custom-theme-preset/remove-an-existing-or-custom-preset"
 status = 301
 force = true
+[[redirects]]
+from = "/category/118-new-to-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/what-can-i-do-with-beaver-builder"
+status = 301
+force = true
 
 # Home page
 [[redirects]]
