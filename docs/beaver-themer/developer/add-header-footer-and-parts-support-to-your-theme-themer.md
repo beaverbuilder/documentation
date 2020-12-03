@@ -24,6 +24,7 @@ add_action( 'after_setup_theme', 'my_theme_header_footer_support' );
 function my_theme_header_footer_support() {
   add_theme_support( 'fl-theme-builder-headers' );
   add_theme_support( 'fl-theme-builder-footers' );
+}
 ```
 
 The next step varies from theme to theme, but the general idea is to check to see if a header or footer exists for the current page. If it does, remove the theme's default header or footer and add an action to render the header or footer built by Beaver Themer. Here's what the code looks like to do that for Genesis:
