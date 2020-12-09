@@ -4,8 +4,8 @@ title: The General tab in Customizer
 sidebar_label: General tab
 ---
 
-<div class="embed-responsive">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/N2fimrKI6Gk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/N2fimrKI6Gk" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
   </iframe>
 </div>
 

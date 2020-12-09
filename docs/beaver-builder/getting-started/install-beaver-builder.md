@@ -4,8 +4,8 @@ title: Install Beaver Builder
 sidebar_label: Install Beaver Builder
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/x6FrwCHgaT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/x6FrwCHgaT4" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
 These instructions are for new premium installations, reinstallations, and upgrades to or downgrades from one premium version to another.

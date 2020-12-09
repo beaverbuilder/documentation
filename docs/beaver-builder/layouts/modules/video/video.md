@@ -100,8 +100,8 @@ the structured data provided.
   <meta itemprop="uploadDate" content="April 10, 2017">
   <meta itemprop="thumbnailUrl" content="https://example.com/wp-content/uploads/2019/10/history-embed-thumbnail.png">
   <meta itemprop="description" content="A photo slideshow of memorable moments in our history">
-  <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-    <iframe src="https://www.youtube.com/embed/AbCdEfG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0"></iframe>
+  <div className="fluid-width-video-wrapper" style="padding-top: 56.25%;">
+    <iframe src="https://www.youtube.com/embed/AbCdEfG" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="" name="fitvid0"></iframe>
   </div>
 </div>
 ```

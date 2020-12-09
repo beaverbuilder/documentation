@@ -6,8 +6,8 @@ sidebar_label: Install Beaver Themer
 
 See the [requirements for installation](/beaver-themer/getting-started/beaver-themer-requirements-for-installation.md), then watch the video or follow the instructions below.
 
-<div class="embed-responsive">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/lNM7B8_1IRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lNM7B8_1IRE" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
 ##  Download the Beaver Themer plugin

@@ -4,8 +4,8 @@ title: Settings Overview
 sidebar_label: Settings Overview
 ---
 
-<div class="embed-responsive">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rMzCSp-UDHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rMzCSp-UDHI" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
 The **Settings > Beaver Builder** panel has a number of tabs, and we'll go
