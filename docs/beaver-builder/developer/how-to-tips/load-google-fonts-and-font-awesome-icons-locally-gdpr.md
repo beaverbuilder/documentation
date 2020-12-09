@@ -1,15 +1,16 @@
 ---
 id: load-google-fonts-and-font-awesome-icons-locally-gdpr
-title: Load Google fonts and Font Awesome icons locally (GDPR)
-sidebar_label: Load Google fonts and Font Awesome icons locally (GDPR)
+title: Load Google fonts locally (GDPR)
+sidebar_label: Load Google fonts locally (GDPR)
 ---
 
-Beaver Builder accesses Google Fonts through its Content Delivery Network
-(CDN). Beaver Builder includes Font Awesome 5 with the plugin and loads it locally.
+Beaver Builder accesses Google Fonts through its Content Delivery Network (CDN). 
 
-Both companies have been quoted to be compliant with GDPR in their use of
-personal information. If you still want to load the fonts locally from your own server, this
-article has the procedures to do so.
+Google claims to be compliant with GDPR in their use of personal information. If you still want to load Google fonts locally from your own server, this article has the procedure to do so.
+
+:::tip **Tip**
+Beaver Builder includes Font Awesome 5 icons with the plugin and loads them locally.
+:::
 
 ## Load Google Fonts locally
 
@@ -77,50 +78,3 @@ code](/beaver-builder/styles/code/custom-css.md)
   12. Test by adding the font to a Beaver Builder module, such as a Heading module, to see if the correct Google font shows up. If you’re using the Beaver Builder Theme, you can test by selecting that font in **Customize > General > Headings** or **Customize > General > Text**.  
 Remember that although you’re still seeing the full Google font list, only the
 ones you’ve uploaded to your site and provided the CSS for will work.
-
-## Load the Font Awesome 5 icons locally
-
-You can set up your site to load the Font Awesome 5 icons locally by uploading
-the icons to your site and adding one code snippet in your child theme.
-
-:::note **Note**
-Font Awesome icons
-are included with the plugin and loaded locally. Use this procedure only if you believe that
-GDPR prevents you from using a CDN.
-:::
-
-**To make Beaver Builder Plugin load Font Awesome 5 icons locally:**
-
-  1. Download the latest Font Awesome zip from <https://fontawesome.com/>
-  2. Extract the archive and rename the top-level folder _fontawesome_.  
-The extracted top folder for the free fonts has a name such as _fontawesome-
-free-5.2.0-web_ , as shown in the following screenshot. That's the one you
-should rename.  
-![](/img/general-load-fonts-locally-2.png)
-
-  3. Create a folder called _fonts_ in your site’s root directory, and upload the _fontawesome_ folder from your local system into that folder.  
-If you already created a _fonts_ folder for the previous procedure for Google
-fonts, you can just upload the new _fontawesome_ subfolder under that.  
-![](/img/general-load-fonts-locally-3.png)
-
-  4. Edit the **functions.php** file in your child theme and add the following code.  
-Be sure to use a child theme so the code doesn't get overwritten when you
-update the theme.  
-
-```php
-add_action( 'wp_enqueue_scripts', function() {
-    global $wp_styles;
-    if ( isset( $wp_styles->queue ) ) {
-        foreach ( $wp_styles->queue as $key => $handle ) {
-            if ( 'font-awesome-5' === $handle ) {
-                if ( is_dir( ABSPATH . '/fonts/fontawesome' ) ) {
-                    $wp_styles->registered[ $handle ]->src = site_url( 'fonts/fontawesome/css/fontawesome-all.min.css');
-                }
-            }
-        }
-    }
-}, 11 );
-```
-
-This code dequeues the CDN version that Beaver Builder loads by default and
-enqueues your new local version.
