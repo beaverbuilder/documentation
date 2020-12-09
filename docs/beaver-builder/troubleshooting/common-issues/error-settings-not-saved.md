@@ -8,7 +8,7 @@ It's not likely but possible to encounter the following error when saving a modu
 
 > Settings could not be saved.
 
-There are two possible reasons for this to occur, described in the following sections. The error message is different for each but in both cases, the reason for the error is that sensitive code containing tags such as `<script>` or `<iframe>` has been inserted into a post title, post content, or comment, and either the user role does not have the required capability or the *wp-config.php* file contains a filter that disallows saving this sensitive code.
+There are two possible reasons for this to occur, described in the following sections. The error message is different for each but in both cases, the reason for the error is that sensitive code containing tags such as `<script>` or `<iframe>` has been inserted into a post title, post content, or comment, and either the user role does not have the required capability or the *wp-config.php* file contains a filter that disallows saving this sensitive code. See [this section below](#wordpress-sensitive-code) for more information about what WordPress considers sensitive code.
 
 ## User role does not have the right capability
 
@@ -95,3 +95,11 @@ add_filter( 'fl_builder_ui_js_config', function( $config ) {
 
 You can add any user roles to the filter. See the [WordPress documentation about roles](https://wordpress.org/support/article/roles-and-capabilities/#summary-of-roles
 ).
+
+## WordPress sensitive code
+
+Every WordPress installation includes a file called [*kses.php*](https://core.trac.wordpress.org/browser/tags/5.5.1/src/wp-includes/kses.php), which contains a list of HTML elements and attributes that are considered safe. KSES is an acronym for "kses strips evil scripts." Here's [a good article about KSES and the `wp_kses` function in WordPress](https://tommcfarlin.com/what-is-wordpress-kses/).
+
+With the `unfiltered_html` user capability and the `DISALLOW_UNFILTERED_HTML` setting in *wp-config.php*, WordPress makes it possible to restrict code that can be used for malicious purposes and to limit users who are able to enter code with sensitive tags or attributes.
+
+By default, Beaver Builder follows these WordPress restrictions on sensitive code, while offering you the ability to add a filter to override them in your layouts.
