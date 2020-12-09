@@ -93,6 +93,7 @@ You could add an *else* clause to the featured image code to display the text "N
     [wpbb-else]
         <div class="no-featured-image">
             No featured image.
+        </div>
 [/wpbb-if]
 ```
 
