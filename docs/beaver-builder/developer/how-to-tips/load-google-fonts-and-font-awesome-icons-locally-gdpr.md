@@ -1,5 +1,5 @@
 ---
-id: load-google-fonts-and-font-awesome-icons-locally-gdpr
+id: load-google-fonts-locally-gdpr
 title: Load Google fonts locally (GDPR)
 sidebar_label: Load Google fonts locally (GDPR)
 ---

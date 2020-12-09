@@ -1447,8 +1447,8 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/rend
 status = 301
 force = true
 [[redirects]]
-from = "/article/648-load-google-fonts-and-font-awesome-icons-locally-gdpr"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/load-google-fonts-and-font-awesome-icons-locally-gdpr"
+from = "/article/648-load-google-fonts-locally-gdpr"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/how-to-tips/load-google-fonts-locally-gdpr"
 status = 301
 force = true
 [[redirects]]
