@@ -37,7 +37,7 @@ Beaver Themer supports the following ACF field types:
 
 Here's an example of using field connections to ACF fields to assist your clients with edits, with more details about implementation in the following sections.
 
-Suppose you have a client who has a Call to Action on their home page that they want to modify frequently. To make it easy for them to manage the information in the back end of the site (shown in the following screenshot), you've created an ACF [options page](https://www.advancedcustomfields.com/resources/options-page/) with a group of four ACF fields: a headline, a blurb, an image, and a button label.
+Suppose you have a client who has a Call to Action on their home page that they want to modify frequently. To make it easy for them to manage the information in the back end of the site (shown in the following screenshot), you've created an ACF [options page](https://www.advancedcustomfields.com/resources/options-page/) with four ACF fields: a headline, a blurb, an image, and a button label.
 
 ![](/img/connect-to-acf-fields-themer-50fe44f5.jpg)
 
