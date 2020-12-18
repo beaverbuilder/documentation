@@ -624,7 +624,7 @@
             "beaver-builder/developer/how-to-tips/disable-minification-and-caching-with-wpdebug",
             "beaver-builder/developer/how-to-tips/add-custom-attributes-to-rows-columns-or-modules",
             "beaver-builder/developer/how-to-tips/render-layouts-with-php",
-            "beaver-builder/developer/how-to-tips/load-google-fonts-and-font-awesome-icons-locally-gdpr",
+            "beaver-builder/developer/how-to-tips/load-google-fonts-locally-gdpr",
             "beaver-builder/developer/how-to-tips/prevent-css-and-javascript-from-loading-on-archive-pages",
             "beaver-builder/developer/how-to-tips/create-a-video-lightbox-for-an-amazon-s3-video",
           ]

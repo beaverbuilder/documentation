@@ -1,7 +1,7 @@
 ---
 id: classic-wordpress-and-beaver-builder-text-editor-toolbars-dont-match
-title: Classic WordPress and Beaver Builder text editor toolbars don''t match
-sidebar_label: Classic WordPress and Beaver Builder text editor toolbars don''t match
+title: "Classic WordPress and Beaver Builder text editor toolbars don't match"
+sidebar_label: "Classic WordPress and Beaver Builder text editor toolbars don't match"
 ---
 
 There are two types of differences between the classic WordPress classic text
