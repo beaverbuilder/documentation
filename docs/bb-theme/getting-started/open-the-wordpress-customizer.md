@@ -5,7 +5,7 @@ sidebar_label: Open the WordPress Customizer
 ---
 
 <div className="embed-responsive">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/w5GkIwRzO7U" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=""></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/w5GkIwRzO7U" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=""></iframe>
 </div>
 
 The Beaver Builder Theme uses the WordPress Customizer to set all of its theme options.

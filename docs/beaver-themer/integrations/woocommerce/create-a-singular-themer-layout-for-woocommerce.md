@@ -11,7 +11,7 @@ The WooCommerce modules that you use in Beaver Themer to lay out single product 
 :::
 
 <div className="embed-responsive">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jz8MXyPrF50" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jz8MXyPrF50" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 </div>
 

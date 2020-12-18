@@ -5,7 +5,7 @@ sidebar_label: General tab
 ---
 
 <div className="embed-responsive">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/N2fimrKI6Gk" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/N2fimrKI6Gk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
   </iframe>
 </div>
 

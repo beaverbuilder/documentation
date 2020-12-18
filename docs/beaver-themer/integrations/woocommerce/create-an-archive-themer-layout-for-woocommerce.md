@@ -18,7 +18,7 @@ Themer layouts created in Beaver Themer can only display lists of products, not 
 Here's a video of how to make a WooCommerce Archive Page (start at 2 min 54 sec):
 
 <div className="embed-responsive">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jz8MXyPrF50" FrameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jz8MXyPrF50" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 </div>
 
