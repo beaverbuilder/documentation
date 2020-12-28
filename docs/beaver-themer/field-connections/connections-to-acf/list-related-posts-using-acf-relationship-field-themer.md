@@ -16,18 +16,18 @@ Then, in most cases, you'd add a Related Posts section on a single page or post 
 
 ##  1. Create an ACF Relationship field type
 
-  1. From the WordPress admin panel, do one of the following:
-    * **Advanced Custom Fields free plugin**: Click **Custom Fields > Custom Fields**.
-    * **ACF Pro**: Click **Custom Fields > Field Groups**.
-  2. Click **Add new** to create a new field group.
-  3. Add a title for the field group.  
-  In this example, we’ll use **Related Movies**.
-  4. Click **Add Field**.
-  5. Add a field label, such as **Related Movies**.  
-  The label automatically populates the **Field Name**, in this case, **related_movies**.
-  6. For **Field type**, choose **Relationship**.  
-  This adds some extra fields to the UI so you can filter by post type and taxonomy. Learn more [in this ACF documentation](https://www.advancedcustomfields.com/resources/relationship/).
-  7. Click **Publish** to save the field group.
+1. From the WordPress admin panel, do one of the following:  
+   * **Advanced Custom Fields free plugin**: Click **Custom Fields > Custom Fields**.
+   * **ACF Pro**: Click **Custom Fields > Field Groups**.
+2. Click **Add new** to create a new field group.
+3. Add a title for the field group.  
+In this example, we’ll use **Related Movies**.
+4. Click **Add Field**.
+5. Add a field label, such as **Related Movies**.  
+The label automatically populates the **Field Name**, in this case, **related_movies**.
+6. For **Field type**, choose **Relationship**.  
+This adds some extra fields to the UI so you can filter by post type and taxonomy. Learn more [in this ACF documentation](https://www.advancedcustomfields.com/resources/relationship/).
+7. Click **Publish** to save the field group.
 
 ## 2. Configure the related posts on each page or post
 
