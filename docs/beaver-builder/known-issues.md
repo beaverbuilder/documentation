@@ -56,16 +56,18 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ### Video Module
 
-#### Video embed not specified error
+#### Video Module not specified error
 
 <p><span class="badge badge--primary">Status: Fixed</span></p>
+
+**Description:** "video embed not specified" error notice shows when using connect field connection and the field is empty
 
 `IR: 913`
 
 ### WooCommerce
 
 #### Product sorting does not work with multiple posts modules on the page
-<p><span class="badge badge--success">Status: Success</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** It seems like it is sorting by price, for example, but it is not accurate
 
