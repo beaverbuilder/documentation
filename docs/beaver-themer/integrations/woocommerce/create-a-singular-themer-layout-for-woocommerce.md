@@ -10,8 +10,8 @@ You can use the Singular Themer layout to design WooCommerce single product page
 The WooCommerce modules that you use in Beaver Themer to lay out single product pages have standard WooCommerce functionality. The WooCommerce modules provide a convenient way to style the page and show or hide various WooCommerce components.
 :::
 
-<div class="embed-responsive">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jz8MXyPrF50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jz8MXyPrF50" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 </div>
 

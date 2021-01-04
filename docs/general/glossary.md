@@ -116,9 +116,9 @@ that the layout outside the _content area_ is controlled by the _theme_.
 
 ## Page template (WP)
 
-The WordPress template applied to a page or post, which you can select through
+The [WordPress template](https://developer.wordpress.org/themes/template-files-section/page-template-files/) applied to a page or post, which you can select through
 the **Templates** field in the **Page attributes** section of a WordPress
-editing page. The choice of page templates is controlled by the theme.
+editing page. The templates are determined by the active theme. See [this article about Beaver Builder Theme page templates](https://docs.wpbeaverbuilder.com/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts/).
 
 ## Post (WP)
 

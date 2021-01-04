@@ -85,7 +85,7 @@ Use one of the following formats, depending on whether it's the slug or the ID:
   [fl_builder_insert_layout slug="my-post-slug"]
   ```
   ```markup
-  `[fl_builder_insert_layout id="123"]
+  [fl_builder_insert_layout id="123"]
   ```
 
 See [the Shortcodes reference](/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-reference.md) for more advanced
