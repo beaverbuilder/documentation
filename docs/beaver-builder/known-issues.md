@@ -13,6 +13,14 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ## Beaver Builder
 
+### UI Dark mode syntax highlighting is missing
+
+<p><span class="badge badge--primary">Status: Fixed</span></p>
+
+**Description:**  Syntax highlighting goes away when using Dark Mode in the UI
+
+`IR: 926`
+
 ### Callout Module HTML Error
 
 <p><span class="badge badge--secondary">Status: Pending</span></p>
@@ -34,15 +42,22 @@ This is a partial list of high-priority issues we're chipping away at.
 #### Mobile Layout JS error
 
 <p><span class="badge badge--secondary">Status: Pending</span></p>
+
 **Description:** JS error on mobile if you click a link
+
 
 #### Button Padding is not responsive
 
-<p><span class="badge badge--secondary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** Button padding is not fully responsive
 
+
 `IR: 858`
+
+#### Video Module: "video embed not specified" error
+
+<p>span class="badge badge--primary">Status: Fixed</span></p>
 
 
 ## Beaver Themer
