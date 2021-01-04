@@ -33,7 +33,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 <p><span class="badge badge--secondary">Status: Pending</span></p>
 
-**Description:** Some individual border styles do not override the global tyles
+**Description:** Some individual border styles do not override the global styles
 
 `IR: 689`
 
