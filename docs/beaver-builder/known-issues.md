@@ -52,12 +52,11 @@ This is a partial list of high-priority issues we're chipping away at.
 
 **Description:** Button padding is not fully responsive
 
-
 `IR: 858`
 
-#### Video Module: "video embed not specified" error
+#### Video Module: video embed not specified error
 
-<p>span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 
 ## Beaver Themer
