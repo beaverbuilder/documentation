@@ -54,10 +54,22 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 858`
 
-#### Video Module: video embed not specified error
+### Video Module
+
+#### Video embed not specified error
 
 <p><span class="badge badge--primary">Status: Fixed</span></p>
 
+`IR: 913`
+
+### WooCommerce
+
+#### Product sorting does not work with multiple posts modules on the page
+<p><span class="badge badge--success">Status: Success</span></p>
+
+**Description:** It seems like it is sorting by price, for example, but it is not accurate
+
+`IR: 745`
 
 ## Beaver Themer
 
@@ -67,7 +79,7 @@ This is a partial list of high-priority issues we're chipping away at.
 ### Event description module shows too much information
 <p><span class="badge badge--secondary">Status: Pending</span></p>
 
-**Description:** It displays all of the Event content instead of just the description when Gutenberg content editor is in use
+**Description:** It displays all of the Event content instead of just the description when Gutenberg content editor is in use.  
 
 `IR: 176`
 
@@ -80,14 +92,14 @@ This is a partial list of high-priority issues we're chipping away at.
 `IR: 154`
 
 ### Multi-Day events do not always display when they should
-<p><span class="badge badge--secondary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** If the start date has passed the event does not show even if the end date hasn't passed.
 
 `IR: 121`
 
 ### Applying a Singular layout to Organizer results in a loading gif
-<p><span class="badge badge--secondary">Status: Pending</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** Applying a singular Themer layout shows a loading GIF above the content area
 
@@ -99,15 +111,6 @@ LearnDash has indicated to us that they are working on a fix as it's not just an
 
 **Description:** After updating LearnDash, much of the LearnDash content is missing.
 
-
-### WooCommerce
-
-#### Product sorting does not work with multiple posts modules on the page
-<p><span class="badge badge--secondary">Status: Pending</span></p>
-
-**Description:** It seems like it is sorting by price, for example, but it is not accurate
-
-`IR: 141`
 
 ## Beaver Builder Theme
 
