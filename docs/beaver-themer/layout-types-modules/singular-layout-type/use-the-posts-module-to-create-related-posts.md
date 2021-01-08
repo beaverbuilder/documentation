@@ -4,11 +4,15 @@ title: Create a Related Posts section
 sidebar_label: Create a Related Posts section
 ---
 
-In  Beaver Builder layouts, you can add a Related Posts section (posts, products, pages, custom post types, etc.) by adding one of the Posts modules and using **Match these categories** to filter content. However, this doesn't work in a Themer layout, because the category of the post  depends on the post you're viewing. 
+In  Beaver Builder layouts, you can add a Related Posts section (posts, pages, custom post types, etc.) to your layout by adding one of the Posts modules and using **Match these categories** to filter content. However, this doesn't work in a Themer layout, because the category of the post  depends on the post you're viewing. 
 
 There's another option for the settings to filter posts on the **Content** tab that works in Themer layouts: the **Match all related categories except** option. This option displays all posts that share whatever categories or parent categories assigned to whatever post is being viewed, with optional exceptions.
 
 We'll show you the general procedure for adding this filter, then show examples of it in use. If you find you're getting unexpected results, see [the final section](#how-related-categories-and-exceptions-work) with details about related categories and how the exceptions work.
+
+:::tip **Tip**
+There's a special Related Products module that's available for Singular Themer layouts when you have WooCommerce installed. That module uses the WooCommerce API and so is highly suited for that use.
+:::
 
 ## How to add a Related Posts section
 
@@ -21,7 +25,7 @@ The **Match all related categories except** option comes with the Beaver Builder
 1. Add a Posts, Posts Slider, or Posts Carousel module to your layout.  
 This will become the Related Posts section.
 2. Click the **Content** tab and make sure the **Source** field is set to **Custom query**.
-3. If you don't want to include the current post as a related post, set **Exclude Current Post** to **Yes**.  
+3. If you don't want to include the current post as a related post, set **Exclude current post** to **Yes**.  
 ![](/img/use-the-posts-module-to-create-related-posts-f4b29a40.png)
 4. In the **Filter** section, set **Categories** to **Match all related categories except**.  
 This setting includes all posts in the same category or ancestor category as the current post.
@@ -29,7 +33,7 @@ This setting includes all posts in the same category or ancestor category as the
 You'll see a list of matching categories as you type.  
 
 :::tip **Tip**
-The **Match all related \[items\] except** option can be used with any of the settings listed in the **Filter** section: post types, categories, tags, authors, and custom taxonomies. The list of settings you see can change with the post type you select.
+The **Match all related \[items\] except** option is available with any of the settings listed in the **Filter** section: post types, categories, tags, authors, and custom taxonomies. The list of settings you see can change with the post type you select.
 
 ![](/img/related-post-filters.png)
 
@@ -63,13 +67,7 @@ This post is assigned to two categories, **human** and **oils**, so the result i
 
 ### Example 3: Related items in a saved layout template for pages
 
-This example shows a Related Posts section in a custom layout template that is applied to static pages. Each page to which the template is applied summarizes one of the client's business projects. The project pages are related through a custom taxonomy called **Projects**, for which each term is the name of one project. 
-
-![](/img/related-post-saved-layout.png)
-
-Why use a layout template and pages instead of a Themer layout with a custom post type to display each project summary? The client wanted a consistent content layout on every project page but the projects themselves have enough variation that there needed to be more flexibility in the layout and content than a custom post type could easily accommodate. The client also wanted the flexibility to change the layout template moving forward to apply to new projects without affecting previous project pages. 
-
-The following  screenshot shows portions of one of the project pages. 
+This example shows a Related Posts section in a custom layout template that is applied to static pages. Each page summarizes one of the client's business projects. The following  screenshot shows portions of one of the project pages. 
 
 <hr/>
 
@@ -77,13 +75,21 @@ The following  screenshot shows portions of one of the project pages.
 
 <hr/>
 
-The layout template has sections where the client enters static information about the project but also has sections that use Themer field connections and Themer custom post layouts to pull in existing information. For example, in the header, the project title uses the **Post Title** field connection and the columns of bulleted information in the header are heading modules with field connection shortcodes to custom properties. The News, Related Documents, and Related Projects sections all use Posts modules with various filters.
+Why use a layout template and pages instead of a Themer layout with a custom post type to display each project summary? The client wanted a consistent content layout on every project page but the projects themselves have enough variation that there needed to be more flexibility in the layout and content than a custom post type could easily accommodate. The client also wanted the flexibility to change the layout template moving forward to apply to new projects without affecting previous project pages. 
+
+The layout template has sections where the client enters static information about the project but also has sections that use Themer field connections and Themer custom post layouts to pull in existing information. In the header, the project title uses the **Post Title** field connection and the columns of bulleted information are heading modules with field connection shortcodes to custom properties. 
+
+News and documents related to the project are posted to other areas of the site so there's a custom taxonomy called **Projects** that ties all the information together. The News and Related Documents sections on the summary page use Posts modules with various filters to display information pulled from these locations.
+
+For the Related Projects section, the Posts module's **Filter** section includes a setting for the custom taxonomy **Projects**, and **Match all related Projects except** is selected, plus the **Exclude current post** setting:
+
+![](/img/related-post-saved-layout.png) 
+
+When the layout template is applied to each new page, the Related Projects section, as well as the News and Related Documents sections, show the correct content without the need to make further modifications to the page layout.
 
 :::note **Note**
-Even though this example uses a Themer layout, Beaver Themer must be installed to make use of the field connections and custom post layouts in a layout template. 
+Beaver Themer must be installed to make use of the field connections and custom post layouts in standard Beaver Builder layouts, including layout templates. 
 :::
-
-For the Related Projects section, the **Match all related Projects except** filter pulls all of the project summary pages and the **Exclude Current Post** setting excludes the current project. When the layout template is applied to each new page, this Related Projects section, as well as the News and Related Documents sections, work without modification.
 
 ## How related categories and exceptions work
 
