@@ -113,7 +113,7 @@ Add a single function, then use filters to add the font to Beaver Builder Theme'
   add_filter( 'fl_builder_font_families_system', 'my_bb_custom_fonts' );
   ```
 
-  3. Change the `$system` parameter to match the `font-family` value you used in the CSS rule in the previous procedure.  
+  3. Change the `$system_fonts` key to match the `font-family` value you used in the CSS rule in the previous procedure. In this example, it's `forza-book`, or `Forza book` if you changed it to a user-friendly name.  
   If your CSS has more than one font family, see [the complex example of installing web fonts](/bb-theme/defaults-for-styles/typography/add-web-fonts-complex-example.md).
   4. Change the fallback font list if you want. For example, if you're adding a serif web font, you might want to change the fallback to the following:  
 
