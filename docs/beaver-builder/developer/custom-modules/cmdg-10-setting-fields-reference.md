@@ -405,13 +405,13 @@ everything for you.
 
 **Usage**  
 To use the loop settings, simply create a new tab array that links to the
-_loop-settings.php_ file instead of defining sections and fields like a
+_ui-loop-settings.php_ file instead of defining sections and fields like a
 standard tab array.
 
 ```php
 'my_loop_settings' => array(
   'title'     => __( 'Loop Settings', 'fl-builder' ),
-  'file'      => FL_BUILDER_DIR . 'includes/loop-settings.php',
+  'file'      => FL_BUILDER_DIR . 'includes/ui-loop-settings.php',
 )
 ```
 
