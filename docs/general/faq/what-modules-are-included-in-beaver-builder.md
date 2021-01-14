@@ -10,6 +10,7 @@ the [Knowledge Base](/beaver-builder/layouts/modules/module-overview.md).
 
 The free version of Beaver Builder contains the following subset of modules:
 
+* [Audio](/beaver-builder/layouts/modules/audio.md)
 * [Button](/beaver-builder/layouts/modules/button/button.md)
 * [Heading](/beaver-builder/layouts/modules/heading.md)
 * [HTML](/beaver-builder/layouts/modules/html.md)
