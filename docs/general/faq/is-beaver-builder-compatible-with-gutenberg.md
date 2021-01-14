@@ -14,7 +14,7 @@ classic editor, you can move text and images between Beaver Builder and the Word
 
 See [the detailed article about how Beaver Builder works with the WordPress Standard (block) editor](/beaver-builder/management-migration/convert-content-between-wordpress-5-and-beaver-builder.md).
 
-:::caution Tip:
+:::tip Tip:
 The responsive default heading and text styles that you can assign at
 **Customize > General > Headings** and **Customize > General > Text** in the
 Beaver Builder Theme apply as default settings in Beaver Builder and Beaver
