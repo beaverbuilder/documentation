@@ -94,7 +94,7 @@ If you purchased before May 1st, 2017, you will not be automatically billed. You
 ---
 
 ###  Can I upgrade my subscription after signing up?
-Yes, you can [upgrade from the free version of Beaver Builder](/general/pre-sales#upgrade-from-free-to-premium-version-of-beaver-builder.md) to any premium version or [from any premium subscription to a higher one](/general/account-billing/upgrade-your-premium-license.md). If you've already purchased a Premium subscription, your new premium subscription is prorated for the difference in cost.
+Yes, you can [upgrade from the free version of Beaver Builder](/general/pre-sales.md/#upgrade-from-free-to-premium-version-of-beaver-builder) to any premium version or [from any premium subscription to a higher one](/general/account-billing/upgrade-your-premium-license.md). If you've already purchased a Premium subscription, your new premium subscription is prorated for the difference in cost.
 
 You can also [downgrade from one premium version to another](/general/account-billing/downgrade-to-a-lower-version-of-beaver-builder.md/#downgrade-to-another-premium-version) or [from a premium version to the free version](/general/account-billing/downgrade-to-a-lower-version-of-beaver-builder.md/#downgrade-from-a-premium-version-to-the-free-beaver-builder-lite-plugin).
 
@@ -178,8 +178,7 @@ site these Themer layouts apply to. Here's [an article](/beaver-themer/getting-s
 :::note **Note**
 Beaver Themer overrides your theme's layout on the pages to which it
 applies, so your theme must support the removal of headers and footers with
-hooks. See the [list of themes that currently
-support Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md).
+hooks. See the [list of themes that currently support Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md).
 :::
 
 The Pro and Agency packages of the Beaver Builder plugin include the Beaver
