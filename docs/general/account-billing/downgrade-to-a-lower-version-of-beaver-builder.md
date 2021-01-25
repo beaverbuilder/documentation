@@ -46,7 +46,7 @@ If you want to use the free Beaver Builder Lite
 plugin, on the **Plugins** page deactivate and delete the premium version, then install the Lite version from the WordPress plugins catalog. 
 
 The only modules that will continue to function on the live site and
-in the editor are [the ones contained in the Lite version](/general/pre-sales/difference-between-free-and-premium-versions.mdx). The Beaver Beaver Lite editing page will display your old premium layouts as a framework of rows and columns that were previously there and any modules that are still supported.
+in the editor are [the ones contained in the Lite version](/general/pre-sales#difference-between-free-and-premium-versions.mdx). The Beaver Beaver Lite editing page will display your old premium layouts as a framework of rows and columns that were previously there and any modules that are still supported.
 
 If you open any Beaver Builder page in the WordPress editor, you'll see all text and image portions of the modules that could be converted. 
 

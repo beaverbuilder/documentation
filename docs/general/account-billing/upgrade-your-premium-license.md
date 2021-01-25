@@ -18,7 +18,7 @@ package, minus the renewal discount if you renew within the discount window.
 :::important Other upgrade/downgrade options:
 
   * You can [downgrade from one premium version to another](/general/account-billing/downgrade-to-a-lower-version-of-beaver-builder.md).
-  * You can [upgrade from the free Lite version to a premium version](/general/pre-sales/upgrade-from-free-to-premium-version-of-beaver-buidler.md).
+  * You can [upgrade from the free Lite version to a premium version](/general/pre-sales#upgrade-from-free-to-premium-version-of-beaver-buidler.md).
 :::
 
 Here are the steps to purchase and install your premium upgrade.

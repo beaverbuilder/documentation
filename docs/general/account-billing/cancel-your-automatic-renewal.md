@@ -11,8 +11,7 @@ renewal.
 If you are set up for autorenewal, you can cancel it, and when your
 subscription expires you can either manually renew (you'll get a notice about
 the renewal, and the renewal discount will still apply) or let your
-subscription lapse. See this article about [what
-happens if you don't renew your subscription](/general/faq/do-i-lose-my-work-if-i-dont-renew-my-subscription.md).
+subscription lapse. See this article about [what happens if you don't renew your subscription](/general/faq#do-i-lose-my-work-if-i-dont-renew-my-subscription.md).
 
 :::note **Note**
 If you cancel autorenewal, we cannot reinstate it later.
