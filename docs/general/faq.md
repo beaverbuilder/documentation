@@ -38,6 +38,17 @@ We answer questions you didn’t know you had about how Beaver Builder works and
 ## Beaver Themer
 
 * [Difference between BB Theme and Beaver Themer](#whats-the-difference-between-beaver-builder-theme-and-beaver-themer)
+* [What is the difference between the Beaver Builder Theme and Beaver Themer?](#what-is-the-difference-between-the-beaver-builder-theme-and-beaver-themer)
+* [Which Beaver Builder Packages include Beaver Themer?](#which-beaver-builder-packages-include-beaver-themer)
+* Does Beaver Themer work with the lite version?
+* What themes can I use Beaver Themer with?
+* Does Beaver Themer require Page Builder?
+* How many sites can I use Beaver Themer on?
+
+
+
+
+
 
 ## BB Theme
 
@@ -462,6 +473,41 @@ together. See the [list of themes that are fully supported by Beaver Themer](/be
 ☝️ [Top](#)
 
 ---
+
+### What is the difference between the Beaver Builder Theme and Beaver Themer?
+
+Beaver Themer is an extension to Page Builder and it is a WordPress plugin. When using a supported theme, Beaver Themer enables you to build headers/footers and create templates using Page Builder's drag and drop interface. This functionality was generally only possible before by editing a theme's PHP template files.
+
+☝️ [Top](#)
+
+---
+
+### Which Beaver Builder Packages include Beaver Themer?
+
+Beaver Themer is not included with any of the Beaver Builder packages (Standard, Pro, or Agency). It must be purchased separately.
+
+☝️ [Top](#)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## BB Theme
 
