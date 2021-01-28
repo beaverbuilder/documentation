@@ -31,7 +31,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ### Button Group Module
 
-<p><span class="badge badge--secondary">Status: Fixed</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** Some individual border styles do not override the global styles
 
@@ -48,12 +48,12 @@ This is a partial list of high-priority issues we're chipping away at.
 
 #### Button Padding is not responsive
 
-<p><span class="badge badge--success">Status: Released</span></p>
+<p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** Button padding is not fully responsive
+`IR: 868`
 
-
-#### Posts Module issue with images not loading on Safari 13 and below
+### Posts Module issue with images not loading on Safari 13 and below
 
 <p><span class="badge badge--pending">Status: Pending</span></p>
 
