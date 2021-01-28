@@ -107,6 +107,7 @@
         "general/affiliate-program/use-of-intellectual-property",
       ]
     },
+    "general/license-suspension",
     "general/software-releases-and-versioning",
     "general/alpha-and-beta-releases",
     "general/accessibility",
