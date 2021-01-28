@@ -53,7 +53,7 @@ Here's a table listing differences, and see [our blog post on the differences be
 | Priority support                        | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark:|
 | Beaver Builder Theme included           | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark:|
 | WordPress Multisite support             | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark:|
-| Network-wide settings                   | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark:|
+| Network-wide settings                   | :x:                | :x:                | :x:                | :white_check_mark:|
 | White labeling                          | :x:                | :x:                | :x:                | :white_check_mark:|
 
 The free version of Beaver Builder contains the following subset of  modules:
