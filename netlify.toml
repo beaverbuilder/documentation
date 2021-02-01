@@ -5,6 +5,18 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/common-iss
 status = 301
 force = false
 
+# Redirect from deleted text editor "tips" article to Text Editor article
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/change-fonts-and-colors-in-the-text-editor-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
+status = 301
+force = false
+
+# Redirect from deleted text editor category to standalone Text Editor article
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/text"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
+status = 301
+force = false
+
 # Redirects from old KB to new KB
 
 # General
@@ -808,7 +820,7 @@ status = 301
 force = true
 [[redirects]]
 from = "/article/77-text-editor-module-overview"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/text"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
 status = 301
 force = true
 [[redirects]]
