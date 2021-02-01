@@ -2,7 +2,7 @@
 id: module-overview
 title: Module Overview
 sidebar_label: Module Overview
-description: Beaver  Buildder includes 30 content modules that form the building blocks of adding content to your layouts.
+description: Beaver Builder includes 30 content modules that form the building blocks of adding content to your layouts.
 ---
 
 Beaver Builder includes 30 modules and growing, separated into several groups in the Beaver Builder content panel. Modules contain settings that determine how the module appears on the page.
