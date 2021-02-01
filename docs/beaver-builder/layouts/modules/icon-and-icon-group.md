@@ -2,9 +2,12 @@
 id: icon-and-icon-group
 title: Icon and Icon Group
 sidebar_label: Icon and Icon Group
+description: The Icon and Icon Group modules displaya single icon plus optional text or a group of iconsl
 ---
 
-:::notes **Notes**
+The Icon module displays a single icon plus optional text. The and Icon Group module displays a group of icons with no text.
+
+:::note **Notes**
 * To make icons available for selection in Beaver Builder modules that allow them, [they have to be enabled](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md) in **Settings > Beaver Builder > Icons**. You can also [add custom icon sets](/beaver-builder/styles/icons/create-and-import-a-custom-icon-set.md) or [Font Awesome Pro icons](/beaver-builder/styles/icons/enable-font-awesome-pro-icon-sets.md).
 * Beaver Builder loads the stylesheet and font files for every icon set you use on a page. For example, if you use one icon from Font Awesome and one icon from Foundation on your page, it has to load both icon sets. This adds load time to your page. If page load time is a concern, limit your icon to one set, or create a custom icon set using only the icons you need on the page.
 * Font Awesome 5 icons are not compatible Font Awesome 4. If you have an older site that still has Font Awesome 4 icons in existing layouts, Beaver Builder loads a shim automatically to convert those icons to Font Awesome 5.

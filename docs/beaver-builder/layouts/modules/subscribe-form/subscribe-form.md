@@ -2,6 +2,7 @@
 id: subscribe-form
 title: Subscribe Form
 sidebar_label: Subscribe Form
+description: The Subscribe Form module displays a form for visitors to sign up, with back-end connections to many email services or just a simple email notification.
 ---
 
 Use the Subscribe Form module to provide a form for visitors to subscribe to an email list or to collect email addresses for your own use. See the list of supported email subscription services at the end of this article.

@@ -2,6 +2,7 @@
 id: login-form
 title: Login Form module
 sidebar_label: Login Form
+description: The Login Form module adds a login form to your layout. This is useful to create restricted arears of the site, such as member-only pages.
 ---
 
 The Login Form module lets you add a login to Beaver Builder layouts. A typical use of this module is to provide a login for registered members to access restricted areas of the site.

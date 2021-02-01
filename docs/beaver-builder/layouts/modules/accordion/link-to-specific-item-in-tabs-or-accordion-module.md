@@ -2,6 +2,7 @@
 id: link-to-specific-item-in-tabs-or-accordion-module
 title: Link to a specific item in a Tabs or Accordion module
 sidebar_label: Link to a specific item in a Tabs or Accordion module
+description: Here's how to link to a specific tab in a Tabs module or item in an Accordion module.
 ---
 
 You can link to a specific item in the Tabs or Accordion module by setting a

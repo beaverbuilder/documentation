@@ -17,5 +17,5 @@ The free version of Beaver Builder contains the following subset of modules:
 * [Icon](/beaver-builder/layouts/modules/icon-and-icon-group.md)
 * [Photo](/beaver-builder/layouts/modules/photo/photo.md)
 * [Sidebar](/beaver-builder/layouts/modules/sidebar.md)
-* [Text Editor](/beaver-builder/layouts/modules/text-editor/text.md)
+* [Text Editor](/beaver-builder/layouts/modules/text.md)
 * [Video](/beaver-builder/layouts/modules/video/video.md)

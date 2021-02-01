@@ -2,6 +2,7 @@
 id: add-a-google-recaptcha-checkbox-to-a-form
 title: Add a Google reCAPTCHA checkbox to a form
 sidebar_label: Add a Google reCAPTCHA checkbox to a form
+description: Here's how to add a Google reCAPTCHA to your Contact form or Subscribe Form.
 ---
 
 You can add [Google reCAPTCHA](https://support.google.com/recaptcha/?hl=en) to

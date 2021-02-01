@@ -2,6 +2,7 @@
 id: posts-slider
 title: Posts Slider
 sidebar_label: Posts Slider module
+description: The Posts Slider module displays a set of posts or pages that display one at a time, either sliding or fading to the next slide.
 ---
 
 In the Posts Slider module, a set of posts or pages is displayed with either a

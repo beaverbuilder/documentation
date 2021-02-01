@@ -2,6 +2,7 @@
 id: tabs
 title: Tabs
 sidebar_label: Tabs
+description: The Tabs module displays horizontal or vertical tabbed content, ideal for inserting sets of content into a small space.
 ---
 
 Use the Tabs module to insert tabbed text content into your layouts. This is a

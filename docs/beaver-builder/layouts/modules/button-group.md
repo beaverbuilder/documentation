@@ -2,9 +2,10 @@
 id: button-group
 title: Button Group
 sidebar_label: Button Group
+description: The Button Group module displays display multiple buttons in a single column, either horizontally or vertically. 
 ---
 
-A button group module is a way to display multiple buttons in a single column, either horizontally or vertically. 
+The Button Group module is a way to display multiple buttons in a single column, either horizontally or vertically. 
 
 ![](/img/button-group-30a865c5.png)
 

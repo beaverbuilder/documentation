@@ -2,6 +2,7 @@
 id: module-overview
 title: Module Overview
 sidebar_label: Module Overview
+description: Beaver  Buildder includes 30 content modules that form the building blocks of adding content to your layouts.
 ---
 
 Beaver Builder includes 30 modules and growing, separated into several groups in the Beaver Builder content panel. Modules contain settings that determine how the module appears on the page.
@@ -18,7 +19,7 @@ One of the module groups consists of WordPress widgets, which give you the abili
 * [List](/beaver-builder/layouts/modules/list.md)
 * [Photo](/beaver-builder/layouts/modules/photo/photo.md)
 * [Separator](/beaver-builder/layouts/modules/separator.md)
-* [Text Editor](/beaver-builder/layouts/modules/text-editor/text.md)
+* [Text Editor](/beaver-builder/layouts/modules/text.md)
 * [Video](/beaver-builder/layouts/modules/video/video.md)
 
 ## Media

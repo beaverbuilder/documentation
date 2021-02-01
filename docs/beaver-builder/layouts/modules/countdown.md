@@ -2,10 +2,10 @@
 id: countdown
 title: Countdown
 sidebar_label: Countdown
+description: The Countdown module displays a visual timer that counts down to zero from a specified date and time.
 ---
 
-The Countdown module is a timer that counts down to zero from a date and time
-that you specify.
+The Countdown module displays a visual timer that counts down to zero from a date and time that you specify.
 
 You can specify the exact date and time, including choosing the timezone that
 should be used. There are a number of styling settings for customizing the

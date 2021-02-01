@@ -2,6 +2,7 @@
 id: sidebar
 title: Sidebar
 sidebar_label: Sidebar
+description: The Sidebar module creates a WordPress sidebar in a Beaver Builder layout, containing any set of WordPress widgets that your theme allows.
 ---
 
 The Sidebar module gives you the ability to insert any of your WordPress

@@ -2,6 +2,7 @@
 id: woocommerce
 title: WooCommerce
 sidebar_label: WooCommerce
+description: If you have the WooCommerce plugin installed, you can use the Beaver Builder WooCommerce module to display products in your layouts.
 ---
 
 Use the WooCommerce module to insert WooCommerce content into any page.
@@ -98,11 +99,9 @@ procedure above for inserting a custom list of IDs for multiple products.
 
   1. Drag a WooCommerce module into your page layout.
   2. In the **Layout** field, choose **Multiple Products**.
-  3. In the **Products source** field, choose how the products will be selected.
-    * Products IDs  
-    To display all products, choose **Products IDs** for **Products Source**, then leave the **Product IDs** field blank.
-
-    * To display a custom list of products, choose **Products IDs** for **Products Source**, then in the **Product IDs** field, add the list of Product IDs you want to display, separated by commas.
+  3. In the **Products source** field, choose how the products will be selected.  
+      * To display all products, choose **Products IDs** for **Products Source**, then leave the **Product IDs** field blank.  
+      * To display a custom list of products, choose **Products IDs** for **Products Source**, then in the **Product IDs** field, add the list of Product IDs you want to display, separated by commas.
 
 ## Display price and the Add to Cart button for a single product
 
