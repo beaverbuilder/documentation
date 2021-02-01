@@ -2,7 +2,7 @@
 id: make-a-button-transparent
 title: Make a button transparent
 sidebar_label: Make a button transparent
-description: Here's how to make a button's background color  semitransparent or completely transparent. 
+description: Here's how to make a button's background color semitransparent or completely transparent. 
 ---
 
 A transparent button means the button's background color is semitransparent or
