@@ -2,7 +2,7 @@
 id: icon-and-icon-group
 title: Icon and Icon Group
 sidebar_label: Icon and Icon Group
-description: The Icon and Icon Group modules displaya single icon plus optional text or a group of iconsl
+description: The Icon and Icon Group modules displaya single icon plus optional text or a group of icons
 ---
 
 The Icon module displays a single icon plus optional text. The and Icon Group module displays a group of icons with no text.
@@ -75,5 +75,4 @@ you.
 ## Advanced tab
 
 There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
-
 
