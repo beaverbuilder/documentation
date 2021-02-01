@@ -40,15 +40,10 @@ We answer questions you didn’t know you had about how Beaver Builder works and
 * [Difference between BB Theme and Beaver Themer](#whats-the-difference-between-beaver-builder-theme-and-beaver-themer)
 * [What is the difference between the Beaver Builder Theme and Beaver Themer?](#what-is-the-difference-between-the-beaver-builder-theme-and-beaver-themer)
 * [Which Beaver Builder Packages include Beaver Themer?](#which-beaver-builder-packages-include-beaver-themer)
-* Does Beaver Themer work with the lite version?
-* What themes can I use Beaver Themer with?
-* Does Beaver Themer require Page Builder?
-* How many sites can I use Beaver Themer on?
-
-
-
-
-
+* [Does Beaver Themer work with the lite version?](#does-beaver-themer-work-with-the-lite-version)
+* [What themes can I use Beaver Themer with?](#what-themes-can-i-use-beaver-themer-with)
+* [Does Beaver Themer require Page Builder?](#does-beaver-themer-require-page-builder)
+* [How many sites can I use Beaver Themer on?](#how-many-sites-can-i-use-beaver-themer-on)
 
 ## BB Theme
 
@@ -490,24 +485,39 @@ Beaver Themer is not included with any of the Beaver Builder packages (Standard,
 
 ---
 
+### Does Beaver Themer work with the lite version?
 
+Unfortunately, Beaver Themer is an add-on for the premium version of Page Builder and is not compatible with the lite version.
 
+☝️ [Top](#)
 
+---
 
+### What themes can I use Beaver Themer with?
 
+Most themes support archive, singular, and 404 layouts out of the box. However, to support the Theme Builder header, footer, and part layouts, themes must be built a certain way.
 
+Currently, Beaver Themer pairs well with the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) and is supported by [several 3rd party themes listed here](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md).
 
+☝️ [Top](#)
 
+---
 
+### Does Beaver Themer require Page Builder?
 
+Yes! Beaver Themer is an add-on to Page Builder and will not function if Page Builder is not installed alongside.
 
+☝️ [Top](#)
 
+---
 
+### How many sites can I use Beaver Themer on?
 
+You can use Beaver Themer on an unlimited number of sites.
 
+☝️ [Top](#)
 
-
-
+---
 
 ## BB Theme
 
