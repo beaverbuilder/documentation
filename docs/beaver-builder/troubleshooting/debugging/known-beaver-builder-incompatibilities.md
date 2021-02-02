@@ -36,16 +36,6 @@ saved layouts. They may look like they work but can cause problems when you
 try to edit the Beaver Builder layout on the new page. Instead, use the
 [Duplicate Layout](/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md) functionality on the Tools menu in the Beaver Builder editor.
 
-### [Form Maker Pro](https://web-dorado.com/products/wordpress-form.html)
-
-When this plugin is active, the Beaver Builder editor does not fully load.
-This issue does not seem to affect the free version of this plugin.
-
-The only solution we have found is to dequeue (unload) two of the scripts in
-this plugin when the Beaver Builder editor is active. Add the code below to
-the *functions.php* file in your child theme or in a plugin that you create
-yourself.
-
 ### [Google Maps Bank](https://wordpress.org/plugins/google-maps-bank/screenshots/) (Shortcodes only)
 
 Shortcodes from this plugin break Beaver Builder because `document.write` is
