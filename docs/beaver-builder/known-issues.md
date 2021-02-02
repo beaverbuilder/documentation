@@ -67,7 +67,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 #### Video Module not specified error
 
-<p><span class="badge badge--success">Status: Rleased</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** "video embed not specified" error notice shows when using connect field connection and the field is empty
 
