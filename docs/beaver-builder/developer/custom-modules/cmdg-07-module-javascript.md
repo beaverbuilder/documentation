@@ -24,7 +24,7 @@ my-plugin/my-module/includes/frontend.js.php
 This file is used to render the JavaScript for each individual instance of
 your module. Note that this is JavaScript that applies to each instance, not
 global JavaScript that should be applied to all instances. Use
-_js/frontend.jss_ if you would like to include global JavaScript for your
+_js/frontend.js_ if you would like to include global JavaScript for your
 module.
 
 In addition to the full WordPress environment, within this file, you have
