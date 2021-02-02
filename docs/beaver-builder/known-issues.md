@@ -53,7 +53,9 @@ This is a partial list of high-priority issues we're chipping away at.
 **Description:** Button padding is not fully responsive
 `IR: 868`
 
-### Posts Module issue with images not loading on Safari 13 and below
+### Posts Module
+
+#### Issue with images not loading on Safari 13 and below
 
 <p><span class="badge badge--pending">Status: Pending</span></p>
 
