@@ -2,6 +2,7 @@
 id: audio
 title: Audio
 sidebar_label: Audio
+description: The Audio module displays an audio player with controls to play audio from the Media Library or an audio file from an external source.
 ---
 
 Using the Audio module, you can insert one or more audio files from the

@@ -2,6 +2,7 @@
 id: posts-carousel
 title: Posts Carousel
 sidebar-label: Posts Carousel module
+description: The Posts Carousel module displays a set of posts or pages that moves horizontally across the screen, with many layout and content filtering options.
 ---
 
 

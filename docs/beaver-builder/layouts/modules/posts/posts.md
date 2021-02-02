@@ -2,6 +2,7 @@
 id: posts
 title: Posts
 sidebar_label: Posts module
+description: The Posts module displays a set of posts or pages with various layouts, styles, and content filters.
 ---
 
 The Posts module is the non-animated version of the three Posts modules (Posts,
@@ -122,5 +123,4 @@ search form when **Show search** is set to **Show**.
 ## Advanced tab
 
 There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
-
 

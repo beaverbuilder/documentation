@@ -2,6 +2,7 @@
 id: testimonials
 title: Testimonials
 sidebar_label: Testimonials
+description: The Testimonials module is a basic slider that offers an animiated way to display testimonials or any other combination of heading, text, and media.
 ---
 
 Use the Testimonials module to add a basic slider with testimonials to your

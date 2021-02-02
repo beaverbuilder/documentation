@@ -2,6 +2,7 @@
 id: slideshow
 title: Slideshow
 sidebar_label: Slideshow
+description: The Slideshow module displays a gallery of image "slides" with a choice of transitions.
 ---
 
 ## Uses of this module

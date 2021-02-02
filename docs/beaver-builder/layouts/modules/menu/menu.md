@@ -2,6 +2,7 @@
 id: menu
 title: Menu
 sidebar_label: Menu module
+description: The Menu module inserts any WordPress menu into your layout, with many layout and style options that can be tailored for responsiveness.
 ---
 
 The Menu module can give you more options for menu content, style, and layout

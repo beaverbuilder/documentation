@@ -2,6 +2,7 @@
 id: number-counter
 title: Number Counter
 sidebar-label: Number Counter
+description: The Number Counter module displays a number in an animated fashion, with the counter going from zero to the number or percent you specify.
 ---
 
 The Number Counter module displays a number in an animated fashion, with the

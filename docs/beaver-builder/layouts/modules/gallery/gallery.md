@@ -2,9 +2,10 @@
 id: gallery
 title: Gallery
 sidebar_label: Gallery module
+description: The Gallery module displays a gallery of images from the Media Library or SmugMug. Clicking a gallery image opens it in a lightbox.
 ---
 
-The Gallery Module is used to display a gallery of images from either the
+The Gallery module is used to display a gallery of images from either the
 WordPress Media Library or a SmugMug gallery that you specify.
 
 ## Uses of the Gallery module

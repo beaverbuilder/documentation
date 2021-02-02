@@ -2,10 +2,10 @@
 id: video
 title: Video
 sidebar_label: Video module
+description: The Video module displays a video from the Media Library or with embed code and includes the ability to enter structrured data, important for SEO.
 ---
 
-Use the Video module to insert a video into your layout. The source can be
-either of the following:
+Use the Video module to insert a video into your layout or play it in a lightbox. The source can be either of the following:
 
   * A video from the WordPress Media Library
   * Embed code provided by a third party such as Vimeo or YouTube.
@@ -36,7 +36,7 @@ Field  |  Description
 ---|-----  
 **Video (MP4)** |  Add an MP4 video that you have uploaded to your media library.  
 **Video (WebM)** |  (Optional) Select a WebM-format video from the media library to display in browsers that can't play MP4. WebM was required on some older versions of Firefox and Safari. 
-**Show video on lightbox** |  (Default is **No**) The video plays in a lightbox rather than directly on the page. If set to **Yes**, you must enable the Poser and select a poster image, described in the following table rows.
+**Show video on lightbox** |  (Default is **No**) The video plays in a lightbox rather than directly on the page. If set to **Yes**, you must select **Enable Poster** and select a poster image, described in the following table rows.
 **Enable poster** |  Enable or disable a poster image that displays before the video is loaded, whether the video is displayed in a lightbox or not. If set to *Yes*, you must add an image to the next **Poster** setting.<br/>**Note:** If a poster image is specified, the attribute `preload="none"` is added to the rendered output to ask the browser not to load the video when the page loads. However, this attribute is ignored if  **Autoplay**  is set to **Yes**. See [this article](https://www.w3schools.com/tags/att_video_preload.asp) for more information about the `preload` attribute.  
 **Poster** |  (Optional for videos that play on the page, required for videos that play in a lightbox) Select a poster image from the Media Library.  If the video plays in a lightbox, the poster image displays on the main page and the video plays in the lightbox.
 **Autoplay** |  (Default is **No**) Choose whether the video should start automatically.<br/>**Note:** Selecting *Yes* doesn't guarantee your video will autoplay in all environments. Standards frequently change for whether browsers and mobile devices will autoplay videos. [Here's a good recent summary.](https://help.outofthesandbox.com/hc/en-us/articles/360000661568-Why-won-t-my-video-autoplay-)
@@ -112,7 +112,7 @@ There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/adva
 
 ### Related modules
 
-You can always embed the code for videos using an HTML module, but if you
-want the structured meta data in the output, you'll have to provide your own
-code. Use the example above for how to structure this information around your
-video iframe.
+* You can also play a video in a lightbox using a Button module.  
+For a description of the differences, see the article about [opening a video in a lightbox](/beaver-builder/layouts/modules/video/open-a-video-in-a-lightbox.md).
+* You can  embed the code for videos using an HTML module.  
+However, if you want the structured metadata in the output, you'll have to provide your own code. Use the example above for how to structure this information around your video iframe.

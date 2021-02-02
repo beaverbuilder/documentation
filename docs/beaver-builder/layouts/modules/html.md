@@ -2,11 +2,10 @@
 id: html
 title: HTML
 sidebar_label: HTML
+description: The HTML module lets you insert custom code and markup into your layouts, rendered directly in the HTML output. 
 ---
 
-
-The HTML module lets you insert custom code and markup into your layouts that
-is rendered directly to the HTML output.
+The HTML module lets you insert custom code and markup into your layouts that is rendered directly to the HTML output.
 
 ![](/img/html-module-1.png)
 

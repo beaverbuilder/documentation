@@ -2,6 +2,7 @@
 id: change-the-accordion-icon-to-an-image
 title: Change the accordion icon to an image
 sidebar_label: Change the accordion icon to an image
+description: Here's some CSS to change the icons to Media Library images in the Accordion module.
 ---
 
 By default, the Accordion module has a plus icon when the content is collapsed

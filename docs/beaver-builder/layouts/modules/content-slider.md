@@ -2,6 +2,7 @@
 id: content-slider
 title: Content slider
 sidebar_label: Content slider
+description: The Content Slider module displays an animated set of slides, with the a background and an overlay of text, photo or video, and a link.
 ---
 
 You might think of a content slider module as a slideshow of rows, in which

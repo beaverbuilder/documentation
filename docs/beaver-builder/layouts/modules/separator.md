@@ -2,10 +2,11 @@
 id: separator
 title: Separator
 sidebar_label: Separator
+description: The Separator module inserts a horizontal line to separate content with options to control width, color, alignment, and thickness of the line.
 ---
 
 The Separator module inserts a horizontal line to separate content. It can be
-styled for color, size, and spacing.
+styled for width, color, alignment, and thickness of the line.
 
 This module has the following settings on the **General** tab:
 

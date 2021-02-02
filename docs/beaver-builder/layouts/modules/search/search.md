@@ -2,6 +2,7 @@
 id: search
 title: Search module
 sidebar_label: Search
+description: The Search module adds a search input field and Submit button to your layout with many layout and style options.
 ---
 
 The Search module lets you place a standard WordPress search form in your layout. It has a standard input form and a button to activate the search query.

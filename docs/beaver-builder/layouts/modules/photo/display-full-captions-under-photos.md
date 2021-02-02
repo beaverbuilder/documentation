@@ -2,6 +2,7 @@
 id: display-full-captions-under-photos
 title: Display full captions under photos
 sidebar_label: Display full captions under photos
+description: Here's how to avoid captions under images getting truncated in the Photo or Gallery module.
 ---
 
 By default, if you display captions in the Photo or Gallery module, the
