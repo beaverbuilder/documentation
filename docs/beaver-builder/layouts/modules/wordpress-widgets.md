@@ -2,6 +2,7 @@
 id: wordpress-widgets
 title: WordPress widgets
 sidebar_label: WordPress Widgets
+description: Beaver Builder has turned all the standard WordPress widgets into module so you can easily use them anywhere in your layout.
 ---
 
 Almost any WordPress widget that is available to you in the WordPress admin
@@ -57,5 +58,5 @@ add_action( 'wp_enqueue_scripts', function() {
 
 :::note **Note**
 If you're unsure of the URL for your plugins widget assets, contact the plugin
-developer who will be able to assist.
+developer.
 :::

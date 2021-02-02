@@ -2,6 +2,7 @@
 id: contact-form
 title: Contact form
 sidebar_label: Contact Form module
+description: The Contact Form module displays a basic contact form. Form information is sent by email to an address you specify.
 ---
 
 The Contact Form module displays a basic contact form with the following properties:

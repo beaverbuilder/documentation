@@ -2,6 +2,7 @@
 id: bigcommerce-products
 title: BigCommerce Products
 sidebar_label: BigCommerce Products
+description: The BigCommerce Products module provides options to display selected BigCommerce products in page layouts.
 ---
 
 If you have the BigCommerce plugin for WordPress installed, the BigCommerce

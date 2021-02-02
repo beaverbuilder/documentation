@@ -2,6 +2,7 @@
 id: list
 title: List module
 sidebar_label: List
+description: The List module displays lists based on the Bootstrap concept of a List Group with optional headings, content, and list marker icons.
 ---
 
 While it's easy to add bulleted and numbered lists in a text editor, the List module offers you an easy way to shape them into beautiful designs.

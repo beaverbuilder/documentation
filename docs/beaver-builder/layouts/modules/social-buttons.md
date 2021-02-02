@@ -2,6 +2,7 @@
 id: social-buttons
 title: Social Buttons
 sidebar_label: Social Buttons
+description: The Social Buttons module is a legacy module that displays social icons. There are a number of social icon plugins that can replace this module.
 ---
 
 :::note **Note**

@@ -2,6 +2,7 @@
 id: callout-and-call-to-action
 title: Callout and Call to Action modules
 sidebar_label: Callout and Call to Action
+description: The Callout and Call to Action modules display a group with a heading, text, a button, and, with the Callout module, an image.
 ---
 
 The Callout and Call to Action modules are very similar, as shown in this

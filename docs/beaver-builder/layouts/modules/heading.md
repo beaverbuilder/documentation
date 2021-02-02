@@ -2,6 +2,7 @@
 id: heading
 title: Heading
 sidebar_label: Heading
+description: The Heading module inserts a heading that is rendered with a heading tag (H1, H2, etc.) in the HTML output and can be customized in various ways.
 ---
 
 The Heading module inserts a heading into your row that is rendered with a

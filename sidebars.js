@@ -107,6 +107,7 @@
         "general/affiliate-program/use-of-intellectual-property",
       ]
     },
+    "general/license-suspension",
     "general/software-releases-and-versioning",
     "general/alpha-and-beta-releases",
     "general/accessibility",
@@ -336,14 +337,7 @@
               ]
             },
             "beaver-builder/layouts/modules/testimonials",
-            {
-              type: 'category',
-              label: 'Text Editor',
-              items: [
-                "beaver-builder/layouts/modules/text-editor/text",
-                "beaver-builder/layouts/modules/text-editor/change-fonts-and-colors-in-the-text-editor-module",
-              ]
-            },
+            "beaver-builder/layouts/modules/text",
             {
               type: 'category',
               label: 'Video',

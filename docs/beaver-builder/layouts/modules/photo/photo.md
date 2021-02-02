@@ -2,6 +2,7 @@
 id: photo
 title: Photo
 sidebar-label: Photo module
+description: The Photo module displays individual photos from your WordPress Media Library or a custom URL and style options such as cropping, borders, and shadows.
 ---
 
 The Photo module lets you insert an individual photo from your WordPress Media

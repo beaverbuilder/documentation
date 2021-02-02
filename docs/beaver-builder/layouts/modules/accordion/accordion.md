@@ -2,6 +2,7 @@
 id: accordion
 title: Accordion
 sidebar_label: Accordion
+description: The Accordio module adds expandable and collapsible title-content pairs. This module works well for content such as FAQs, Q&A, feature lists.
 ---
 
 An accordion displays a list of items as title-content pairs, as shown in the

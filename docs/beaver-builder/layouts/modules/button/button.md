@@ -2,15 +2,20 @@
 id: button
 title: Button
 sidebar_label: Button module
-description: The Button module is an object that you insert into your layout that resembles a physical button.
+description: The Button module resembles a physical button. The click action is either a link or a lightbox, where you can add custom HTML or embed a video.
 ---
 
 The Button module is an exactly that: an object that you insert into your layout that resembles a physical button.
 
 ## Uses of this module
 
-  * Traditionally, a web button is a pretty package for a link that sends visitors elsewhere when clicked.
-  * The Button module's button can also open a lightbox that displays a video or any other content that you can insert with shortcut or HTML.
+  * Traditionally, a web button is a pretty package for a link that sends visitors elsewhere when clicked.  
+![](/img/button-module-with-link.jpg)
+  * The button can also [open a lightbox](#set-the-click-action-to-a-lightbox), which displays a video or any other content that you can insert with a shortcode, HTML, or code such as an `<iframe>`.
+
+:::tip **Tip**
+You can play a video in a lightbox using either a Button module or a Video module. For a description of the differences, see the article about [opening a video in a lightbox](/beaver-builder/layouts/modules/video/open-a-video-in-a-lightbox.md).
+:::
 
 ## Button examples
 
@@ -39,31 +44,27 @@ When you set **Click action** to **Link**, a Link section opens.
 
 #### Set the click action to a lightbox
 
-If you choose the **Lightbox** option, you next choose whether the lightbox
-content will be based on custom HTML content or a link to a video, as
-described in the following sections.
+If you choose the **Lightbox** option, you next choose whether the lightbox will display custom HTML content or play a video from a URL you provide, as described in the following sections.
 
 ![](/img/button-3.png)
 
-HTML content
+**HTML content**
 
-With the HTML content type option, an HTML editing box lets you enter custom
-HTML that will be displayed in the lightbox. This works great for adding
-shortcode. In the following screenshot, the shortcode for a saved row
-containing a **Call to Action** module was inserted into the HTML box to make
-an opt-in popup.
+With the **HTML** option, an HTML editing box lets you enter custom code such as HTML markup, embed code for a video, or shortcode. In the following screenshot, the shortcode for a saved row containing a **Call to Action** module was inserted into the HTML box to make an opt-in popup.
 
 ![](/img/button-4.jpg)
 
-You could also add shortcode from third-party plugins. For example, a plugin
-that uses a shortcode to display PDF content on a web page could be used to
-display the PDF in a lightbox by using the same shortcode in the HTML box.
+Other shortcode examples: 
+* Embed an audio player with [audio shortcode](https://wordpress.org/support/article/audio-shortcode/).
+* Use shortcode from a plugin to display the contents of a PDF file.
+
+:::tip **TIp**
+You can click from a button to display individual images from a hidden Gallery module in a lightbox. [Here's how to do that](/beaver-builder/layouts/modules/gallery/open-a-gallery-lightbox-on-button-click.md).
+:::
 
 **Video link**
 
-The video option works well as an alternative to embedding the video in the
-page. Insert the URL of the video you want to open in the lightbox, from a
-service such as Youtube or Vimeo.
+Insert the URL of the video you want to play in the lightbox, from a service such as Youtube or Vimeo: 
 
 ![](/img/button-5.jpg)
 
@@ -83,10 +84,11 @@ additional fields:
 **Icon visibility**: The icon can be always visible or appear on hover only.
 
   * **Click action**  
-**Link** or **Lightbox**. With **Link**, there is a URL field. With
-**Lightbox**, there is a **LIghtbox Content** section with **Content type**
-to either embed content into an HTML field or provide a video link. See the
-click action examples in the [previous section](#click-action-link-or-lightbox).
+**Link** or **Lightbox**.   
+If you choose **Link**, a **Link** field opens for you to enter a typical URL link to another page or location.   
+If you choose **Lightbox**, a **Content type** option lets you choose either **HTML** or  **Video**.  
+For **HTML**, add any code to display in the lightbox.  
+For **Video**, a field opens so you can provide a URL for a video from a service such as Youtube or Vimeo. 
 
 ### Style tab
 

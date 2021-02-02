@@ -808,7 +808,7 @@ status = 301
 force = true
 [[redirects]]
 from = "/article/77-text-editor-module-overview"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/text"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
 status = 301
 force = true
 [[redirects]]
@@ -2515,6 +2515,20 @@ from = "/category/118-new-to-beaver-builder"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/what-can-i-do-with-beaver-builder"
 status = 301
 force = true
+
+# Redirect from deleted text editor tips article to Text Editor article
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/change-fonts-and-colors-in-the-text-editor-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
+status = 301
+force = false
+
+# Redirect from deleted text editor category to standalone Text Editor article
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/text"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
+status = 301
+force = false
 
 # Home page
 [[redirects]]

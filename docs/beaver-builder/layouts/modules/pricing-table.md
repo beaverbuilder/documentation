@@ -2,6 +2,7 @@
 id: pricing-table
 title: Pricing Table
 sidebar_label: Pricing Table
+description: The Pricing Table module inserts a table of columns that display columns that compare features and pricing.
 ---
 
 The Pricing Table module lets you insert a pricing table with as many columns
