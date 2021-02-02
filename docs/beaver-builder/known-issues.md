@@ -57,7 +57,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 #### Issue with images not loading on Safari 13 and below
 
-<p><span class="badge badge--pending">Status: Pending</span></p>
+<p><span class="badge badge--secondary">Status: Pending</span></p>
 
 **Description:** When using the load more option for Pagination, in Safari 13 and below, images can not show due to how Safari handles srcset with AJAX.
 
