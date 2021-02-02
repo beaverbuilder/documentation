@@ -45,12 +45,12 @@ This is a partial list of high-priority issues we're chipping away at.
 
 **Description:** JS error on mobile if you click a link
 
-
 #### Button Padding is not responsive
 
 <p><span class="badge badge--primary">Status: Fixed</span></p>
 
 **Description:** Button padding is not fully responsive
+
 `IR: 868`
 
 ### Posts Module
