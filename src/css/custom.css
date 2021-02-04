@@ -72,7 +72,6 @@ blockquote {
 /* Hide category index sidebar items */
 a[href="/general/account-billing"].menu__link,
 a[href="/next/general/account-billing"].menu__link,
-a[href="/general/affiliate-program"].menu__link,
 a[href="/beaver-builder/getting-started"].menu__link,
 a[href="/next/beaver-builder/getting-started"].menu__link,
 a[href="/beaver-builder/getting-started/bb-editor-basics"].menu__link,

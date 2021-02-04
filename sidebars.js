@@ -32,29 +32,13 @@
         "general/account-billing/suggest-new-features",
       ]
     },
-    "general/glossary",
-    {
-      type: 'category',
-      label: 'Affiliate Program',
-      items: [
-        "general/affiliate-program", // Index
-        "general/affiliate-program/signup-fee",
-        "general/affiliate-program/affiliate-agreement",
-        "general/affiliate-program/payment-options",
-        "general/affiliate-program/cookie-duration",
-        "general/affiliate-program/beaver-builder-subscription",
-        "general/affiliate-program/payment-schedule",
-        "general/affiliate-program/affiliate-links",
-        "general/affiliate-program/earnings-potential",
-        "general/affiliate-program/search-engine-keyword-bids",
-        "general/affiliate-program/use-of-intellectual-property",
-      ]
-    },
+    "general/affiliate-program",
+    "general/support-policy",
+    "general/accessibility",
+    "general/translations",
     "general/software-releases-and-versioning",
     "general/alpha-and-beta-releases",
-    "general/accessibility",
-    "general/support-policy",
-    "general/translations",
+    "general/glossary",
     "general/gdpr",
   ],
   beaverbuilder: [
