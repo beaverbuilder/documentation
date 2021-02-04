@@ -11,7 +11,6 @@
       type: 'doc',
       id: 'general', // Index
     },
-    "general/pre-sales",
     "general/faq",
     {
       type: 'category',
