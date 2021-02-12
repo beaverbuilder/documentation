@@ -2,6 +2,7 @@
 id: header
 title: The Header tab in Customizer
 sidebar_label: Header tab
+description: Describes the settings available on the Header tab in the Customizer
 ---
 
 The [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) supports several different header styles with a variety of styling options.
@@ -10,11 +11,11 @@ The header area includes:
 
   * An optional top bar
   * The main header area, which contains text or a logo
-  * A navigation menu, which in some header layouts is part of the main header area, or in others is styled as a separate area, as shown in the following screenshot.
+  * A navigation menu, which in some header layouts is part of the main header area and in others (Nav Bottom and Nav Centered) is styled as a separate menu bar below the header, as shown in the following screenshot.
 
 ![](/img/customizer-settings-the-header-tab-66e65267.jpg)
 
-See the articles on [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md) and additional screenshots of header layout types in the following sections.
+See the header descriptions below and the article on [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md)  for more information about the color sources of header layout types.
 
 :::tip **Troubleshooting tip**
 [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/) Header-type layouts override these Customizer settings on the pages to which they apply. If you have the Beaver Themer plugin installed and your Customizer settings don't seem to be working, check to see if there is a Themer [Header layout](/beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type.md) applied to that page.
@@ -28,8 +29,7 @@ If you select **Text** for either column, you can enter HTML in the content area
 
 If you select **Social icons**, [configure the icons](/bb-theme/customizer-settings/general.md/#social-links) at **Customize > General > Social links**.
 
-If you enable just one column, the content is centered. If you enable two columns, the left column is left-justified and the right column is right-
-justified at larger screen sizes. As the screen is sized smaller, the two columns become stacked and centered.
+If you enable just one column, the content is centered. If you enable two columns, the left column is left-justified and the right column is right-justified at larger screen sizes. As the screen is sized smaller, the two columns become stacked and centered.
 
 The maximum width of the content is controlled by the [Content width setting](/bb-theme/customizer-settings/general.md/#content-width) in **Customize > General > Layout**.
 
@@ -64,6 +64,8 @@ And here's the default mobile layout with the same settings. Either the Menu but
 
 ![](/img/customizer-settings-the-header-tab-7cffb1da.png)
 
+See the article on [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md)  for more information about where to adjust color settings in Nav Bottom layouts.
+
 #### Nav Bottom layout options:
 
 * **Padding**  
@@ -95,6 +97,8 @@ And here's the default mobile layout with the same settings.  Either the Menu bu
 
 ![](/img/customizer-settings-the-header-tab-5b95d11b.png)
 
+See the article on [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md)  for more information about where to adjust color settings in Nav Left and Nav Right layouts.
+
 #### Nav Left and Nav Right layout options
 
 * **Padding**  
@@ -124,6 +128,8 @@ And here's the default mobile layout with the same settings. Either the Menu but
 
 ![](/img/customizer-settings-the-header-tab-c5b03ecc.png)
 
+See the article on [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md)  for more information about where to adjust color settings in Nav Centered layouts.
+
 #### Nav Centered layout options
 
 * **Padding**  
@@ -141,7 +147,7 @@ You can check the layout at the three device sizes by clicking one of the WordPr
 
 ### Nav centered + inline logo
 
-In this layout the header logo is centered and the menu items straddle the logo text or image, as shown in the following screenshot.
+In this layout, the header logo is centered and the menu items straddle the logo text or image, as shown in the following screenshot.
 
 ![](/img/customizer-settings-the-header-tab-5fa5769c.png)
 
@@ -153,10 +159,12 @@ And here's the default mobile layout with the same settings. Either the Menu but
 
 ![](/img/customizer-settings-the-header-tab-990effc9.png)
 
+See the article on [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md)  for more information about where to adjust color settings in Nav Centered + Inline Logo layouts.
+
 #### Nav Centered + Inline Logo layout  options:
 
 * **Inline logo position**  
-  When there are an odd number of menu items, should the logo appear to the right or the left of the middle item? In the large-screen screenshot above, the setting is **Right**.
+  When there is an odd number of menu items, should the logo appear to the right or the left of the middle item? In the large-screen screenshot above, the setting is **Right**.
 * **Padding**  
   Vertical space in the top and bottom of the header area.
 * **Fixed header**  
@@ -174,11 +182,11 @@ You can check the layout at the three device sizes by clicking one of the WordPr
 
 #### Inline logo position
 
-When there are an odd number of menu items, should the logo appear to the right or the left of the middle item? In the screenshot, the setting is **Right**.
+When there is an odd number of menu items, should the logo appear to the right or the left of the middle item? In the screenshot, the setting is **Right**.
 
 ### Nav vertical left, Nav vertical right
 
-Header and menu items appear in a vertical bar along the left or right side of the page in the header background color, with fixed layout (doesn't scroll with the content to the right). You can customize settings for the width and padding of the left or right bar.
+Header and menu items appear in a vertical bar along the left or right side of the page in the header background color, with a fixed layout (doesn't scroll with the content to the right). You can customize settings for the width and padding of the left or right bar.
 
 ![](/img/customizer-settings-the-header-tab-ceb06eb7.jpg)
 
@@ -190,7 +198,7 @@ As screen width is sized smaller, menu items appear centered below the header, t
 
 ## Header style
 
-This category has a number of settings that relate to two aspects of the header logo area:
+This category has several settings that relate to two aspects of the header logo area:
 
 * Background  
   You can set a background color or image, with associated style settings.
@@ -216,7 +224,8 @@ On the **Nav Layout** tab, you can control the following aspects of the nav menu
 * **Nav search icon**  
   Choose whether or not to display a WordPress search icon. By default, WordPress searches only Post  titles and Post content.
 * **Responsive nav toggle**  
-  Choose the **Menu button** or [**Hamburger icon**](https://en.wikipedia.org/wiki/Hamburger_button) to appear when the screen width goes below the **Responsive nav breakpoint** (customized further down).
+  Choose the **Menu button** or [**Hamburger icon**](https://en.wikipedia.org/wiki/Hamburger_button) to appear when the screen width goes below the **Responsive nav breakpoint**  
+For Menu button and Hamburger icon colors, see this article about [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md).
 * Menu button text  
   If you choose the MENU button for the **Responsive nav toggle**, you can enter a custom label instead of MENU.
 * **Responsive nav breakpoint**  
@@ -236,7 +245,7 @@ The default breakpoints are 992px for medium screens and 768px for small screens
   When the setting is **Enabled**, you must click each level to display the next level of submenu.  
   ![](/img/customizer-settings-the-header-tab-09144492.gif)
 * **Responsive collapse**  
-  Choose **No** to allow more than one submeu to be open at the same time  when the Hamburger icon or Menu button is in use. Choose **Yes** to automatically hide a submenu when another submenu is opened.
+  Choose **No** to allow more than one submenu to be open at the same time  when the Hamburger icon or Menu button is in use. Choose **Yes** to automatically hide a submenu when another submenu is opened.
 
 ## Nav style
 
@@ -250,11 +259,7 @@ You can enable a Font Awesome down arrow icon to main menu items that have subme
 
 #### Nav background and text color
 
-When the header layout puts the menu below the header logo area ( **Nav Centered** or **Nav Bottom** ), you can select a background color or image for the menu bar plus nav text color.
-
-:::note **Note**
-Some nav layouts like **Nav right** turn into a **Nav centered** layout as the screen is sized smaller, but in this case the nav bar cannot be styled in Customizer for the smaller devices. You'll have to write your own customization.
-:::
+When the header layout puts the menu below the header logo area ( **Nav Centered** or **Nav Bottom** ), you can select a background color or image for the menu bar plus nav text color for large screens.  For medium and small screens, see this article about [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md).
 
 #### Font family, weight, format, size
 

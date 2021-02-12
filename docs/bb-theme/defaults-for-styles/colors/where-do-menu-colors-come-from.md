@@ -1,92 +1,118 @@
 ---
 id: where-do-menu-colors-come-from
-title: Where do menu colors come from
-sidebar_label: Where do menu colors come from
+title: Where menu colors come from
+sidebar_label: Where menu colors come from
+description: Shows the settings where all menu colors are assigned at various screen sizes.
 ---
 
-Menu background color and link colors are set in two different locations in Beaver Builder Theme's Customizer, depending on the header layout and screen size. Here are the details of how menu colors work, with screenshots for all of the header layouts at all device sizes.
+The Beaver Builder Theme has many interacting header and nav menu settings, which also depend on header layout. This article shows examples of how the header and nav menu colors change as screen size decreases and how to change the colors.
 
-  * The two types of header layouts
-  * Menu color sources when menu appears in header area
-  * Menu color sources when menu appears outside header area
+## Two types of header layouts
 
-## The two types of header layouts
+The main distinction in how menu colors are assigned comes from the two types of header layouts:
+  * Those in which the menu appears in the main header area
+  * Those in which the menu color appears in a nav bar below the main header area.
 
-How menu colors are set depends mainly on which of the following two types of header layouts you are using, as shown in this table.
+Here's a table that shows which header layouts fall into which category.
 
-**Table 1: Nav menus according to whether they appear inside or outside the header area**
+*Table 1: Nav menus according to whether they appear inside or outside the header area* 
 
-Menu appears in header area  |  Menu appears outside header area
+[1\. Menu appears in the header area](#example-1-nav-right)  |  [2\. Menu appears outside the header area](#example-2-nav-bottom)
 ---|---
 Nav Left  |  Nav Centered
 Nav Right  |  Nav Bottom
-Nav Centered + Inline  |
-Nav Vertical Left  |
-Nav Vertical Right  |
+Nav Centered + Inline  | 
+Nav Vertical Left  | 
+Nav Vertical Right  | 
 
+Here's' one example from each header layout category, to show changes as screen width grows smaller and where to change the colors.
 
-## 1\. Menu color sources when menu appears in header area
+## Example 1: Nav Right
 
-  * Menu background is transparent and the menu links appear over the background color or image of the header, which is set in **Customize > Header > Header Style**.  
-  ![](/img/where-do-menu-colors-come-from-cb6ed974.png)
-  * Menu text colors are set in **Customize > Header > Header Style**. Here's how we set the colors for the examples that appear below.  
-  ![](/img/where-do-menu-colors-come-from-9ce381df.png)
-  * The following table has a more detailed breakdown of menu color sources at each device size for the following nav layouts: Nav Right, Nav Left, Nav Centered + Inline, Nav Right Vertical, Nav Left Vertical.
+In the first category of header layout, the menu appears in the header area. The header background and menu text colors come from **Header > Header Style**.
 
-**Table 2: Color sources when nav layout is inside header**
+*Figure 1: Nav Right menu color sources, large screen*  
+![Nav Right menu color sources, large screen](/img/menu-colors-nav-right-1-widest.png) 
 
-Menu item  |  Large screen  |  Medium device  |  Small device
----|---|---|---
-Menu background color  |  Transparent, appears in header  |  Header background color, sits below header  |  Header background color, sits below header
-Default menu links  |  Header Style, Link Color  |  Header Style, Link Color  |  Header Style, Link Color
-Active page or mouse hover  |  Header Style, Hover Color  |  Header Style, Hover Color  |  Header Style, Hover Color
-Hamburger icon or MENU  text color  |  n/a  |  n/a  |  Header Style, Link Color
+As screen width narrows, you might notice a darker background (if the header background color has a gradient enabled) or border lines above and below the menu (if the gradient is disabled). You can diminish or remove these effects by sliding the **Nav Style > Background opacity** button, as shown in the following screenshot. 
 
-### Examples: Nav Left/Right, Nav Centered + Inline Logo, Nav Vertical Left/Right
+*Figure 2: Nav Right menu background color source*  
+![Nav Right menu color background color source](/img/menu-colors-nav-right-2-nav-style.png) 
 
-On medium devices, Nav Left and Nav Right header layout changes to look more like Nav Centered, but the menu colors come from **Header Style** at all screen sizes.
+As screen width narrows more, the Nav Right header layout turns into a Nav Centered layout, with a menu bar below the layout that may appear to be a dark color or have a border, as in the following screenshot. Again, if you want to remove these effects, use the **Background opacity** slider to reduce the opacity:
 
-**Nav Left:**
+*Figure 3: Nav Right layout becomes Nav Centered as screen width reduces more*  
+![Nav Right layout becomes Nav Centered](/img/menu-colors-nav-right-3-nav-style.png) 
 
-![](/img/where-do-menu-colors-come-from-8d1c10ee.png)
+:::tip **Tip**
+Type 1 header layouts ignore the color settings on the **Header > Nav Style** tab but do use the other settings there, shown in this screenshot.
 
-**Nav Right** is the mirror image of Nav Left on large devices, but the medium device and small device views are identical.
+![Nav Style color settings ignored in Type 1 header layouts](/img/menu-colors-nav-style-ignored-header-type-1.png) 
+:::
 
-![](/img/where-do-menu-colors-come-from-7a6b2ebf.png)
+As the screen grows narrower and exceeds a breakpoint,  the Menu button or a Hamburger icon appears. Here's an example of a Menu button. The button colors are set on the **General > Buttons** tab in the Customizer:
 
-**Nav Centered + Inline Logo** layout is identical to the Nav Left and Nav Right views on medium and small devices.
+*Figure 4: Nav Right layout, Menu button*  
+![Nav Right layout, Menu button](/img/menu-colors-nav-right-4-general-buttons.png) 
 
-![](/img/where-do-menu-colors-come-from-9a3d969c.png)
+When the Menu button is hovered over and clicked, the colors change to the hover settings at **General > Buttons**, while the menu text colors in the dropdown come from the **Header > Header Style** text link and hover settings:
 
-**Nav Vertical Left** and **Nav Vertical Right** still treat the menu as part of the header area. The view on medium and small devices is identical to the other header layouts in which the menu is inside the header area.
+*Figure 5: Nav Right layout, Menu button with hover colors and dropdown-style menu*  
+![Nav Right layout, Menu button with hover colors and dropdown-style menu](/img/menu-colors-nav-right-5-menu-button-color.png) 
 
-![](/img/where-do-menu-colors-come-from-d730e2ad.png)
+If you use a Hamburger icon instead of a Menu button, the menu colors are the same, and the Hamburger icon color also comes from the **Header style** link color:
 
-![](/img/where-do-menu-colors-come-from-3f5cbf11.png)
+*Figure 6: Nav Right layout with Hamburger icon and dropdown-style menu*  
+![Nav Right layout with Hamburger icon and dropdown-style menu](/img/menu-colors-nav-right-hamburger-color-small-screen.png) 
 
-## 2. Menu color sources when menu appears outside header area
+If you're wondering, the site title and tagline colors come from **Header > Header logo** when **Logo type** is set to **Text**.
 
-  * Menu background color or image is set separately in **Customize > Header > Nav Style**.  
-  ![](/img/where-do-menu-colors-come-from-12265024.png)
-  * Depending on screen size, the menu text colors come from either **Header Style** or **Nav Style**, as shown in the table below.  
-  Here's how we set the **Nav Style** colors for the examples below, so you can easily see where the menu colors are coming from:  
-  ![](/img/where-do-menu-colors-come-from-a2335363.png)
+Flyout menus, set at **Header > Nav Layout > Responsive Nav Layout**, have the same colors as dropdown menus.
 
-The following table has a more detailed breakdown of the menu color sources for each header layout at each device size. Note the change in the source of the menu colors on small devices.
+## Example 2: Nav Bottom
 
-**Table 2: Nav Centered, Nav Bottom by menu category and device size**
+**Nav Bottom** and **Nav Centered** layouts have a menu bar beneath the main header. You can set the menu bar's background color at **Header > Nav Style**. Here's an example of a Nav Bottom layout on a large screen.
 
-Menu category  |  Large screen  |  Medium screen  |  Small screen
----|---|---|---
-Menu background color  |  Nav Style  |  Nav Style  |  Header Style
-Default menu links  |  Nav Style, Link Color  |  Nav Style, Link Color  |  Header Style, Link Color
-Active page or mouse hover  |  Nav Style, Hover Color  |  Nav Style, Hover Color  |  Header Style, Hover Color
-Hamburger icon or MENU text color  |  n/a  |  n/a  |  Header Style, Link Color
+*Figure 7: Nav bottom layout, large screen*  
+![Nav bottom layout, large screen](/img/menu-colors-nav-bottom-large-screen.png)
 
-### Examples: Nav Centered and Nav Bottom
+The **Hover color** setting applies to both hovered links and the currently active link. 
 
-Nav Centered and Nav Bottom are the two header layouts in which the menu appears outside the header area.
+### Medium screens (Nav Bottom and Nav Centered layouts)
 
-![](/img/where-do-menu-colors-come-from-5b741017.png)
+Behavior on medium screens mirrors either large screens or small screens depending on the **Responsive nav breakpoint** setting at **Header > Nav layout**. See [this article for information about Beaver Builder Theme breakpoints](/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes.md).
 
-![](/img/where-do-menu-colors-come-from-4c03e413.png)
+By default, the **Header > Nav layout > Responsive nav breakpoint** setting is **Small screens only**, which means that medium screens keep the menu bar and menu that you see on a large screen.
+
+When  the **Header > Nav layout > Responsive nav breakpoint** setting is **Medium & small screens only** and screen width goes below the **Theme medium breakpoint** setting on the **General > Layout** tab (by default, 992px),  the Menu button appears inside this menu bar, as in this screenshot:
+
+*Figure 8: Nav bottom layout with Menu button, medium screen*  
+![Nav bottom layout with Menu button, medium screen](/img/menu-colors-nav-bottom-menu-button-medium-screen.png)
+
+The Menu Button colors come from **General > Buttons**, as described in Example 1. 
+
+With the colors we've been using in these examples, the yellow background creates a problem for the expanded menu text, which uses the colors set in **Header > Header style**:
+
+*Figure 9: Nav bottom layout, Menu button with hover colors and dropdown-style menu*  
+![Nav bottom layout, Menu button with hover colors and dropdown-style menu](/img/menu-colors-nav-bottom-medium-screen-menu-button-expanded.png)
+
+There are several possible solutions to this problem.
+
+* Change the Background color opacity on **Header > Nav Style**.  
+In our example, reducing the opacity to zero changes the menu bar color from yellow to the blue of the header background. Note that this also changes the opacity of the menu bar on large screens. 
+* Use a different **Responsive nav layout** setting at **Header > Nav layout**.  
+All of the [flyouts](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md) use the header background color rather than the menu bar background color.
+* Use CSS to change the dropdown menu background color.  
+Adjust the breakpoint and background color as necessary:  
+```css
+@media (max-width: 767px) {
+    .fl-page-nav-toggle-button.fl-page-nav-toggle-visible-mobile .fl-page-nav-collapse {
+        background-color: red;
+    }
+} 
+ ```
+
+### Small screens  (Nav Bottom and Nav Centered layouts)
+
+When the screen width for a Nav Bottom or Nav Centered layout goes below the **Theme mobile breakpoint** setting on the **General > Layout** tab (by default, 768px),  the menu bar disappears entirely and the small-screen menu layouts and colors are identical for all header layouts, as described for Example 1.
+
