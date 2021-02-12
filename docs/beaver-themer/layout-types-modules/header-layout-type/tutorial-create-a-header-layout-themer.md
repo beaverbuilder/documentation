@@ -13,8 +13,9 @@ It's assumed you've already installed Beaver Themer into the appropriate environ
 ## 1. Set up what you're going to connect to
 
 One of the great aspects of Beaver Themer is that you can create field connections so the content on the published page changes according to your site information or the location at which the Themer layout occurs. In this tutorial, we're going to use field connections for the following content:
-  * The site's tagline
-  * The header logo
+
+* The site's tagline
+* The header logo
 
 We're also going to need a menu ready to use. Here's an example of what we're gong for.
 
@@ -22,24 +23,24 @@ We're also going to need a menu ready to use. Here's an example of what we're go
 
 You need to have those things ready to go first, so do the following if you haven't already.
 
-  * Have an image ready to use as a logo.
-  * Create a site tagline in **Settings > General > Tagline**.  
-  In this tutorial, we're using the tagline "We keep it simple".
-  * Create a menu at **Appearance > Menu** or **Customize > Menu**.
+* Have an image ready to use as a logo.
+* Create a site tagline in **Settings > General > Tagline**.  
+In this tutorial, we're using the tagline "We keep it simple".
+* Create a menu at **Appearance > Menu** or **Customize > Menu**.
 
 ## 2. Create a new themer layout
 
-  1. In the WordPress admin panel, click **Beaver Builder**.  
-  The **Themer layouts** screen opens by default if you have Beaver Themer
+1. In the WordPress admin panel, click **Beaver Builder**.  
+The **Themer layouts** screen opens by default if you have Beaver Themer
 installed.
-  2. Click the **Add new** button at the top of the **Themer layouts** page.  
-  See the screenshot below to enter the settings, or follow these steps.
-  3. Enter a title.  
-  We'll use **My header** as the layout title in this tutorial.
-  4. In the **Type** field, select **Themer layout**.
-  5. In the **Layout** field, select **Header.**
-  6. Click **Add themer layout**.  
-  The **Edit Themer layout** screen will open automatically.
+2. Click the **Add new** button at the top of the **Themer layouts** page.  
+See the screenshot below to enter the settings, or follow these steps.
+3. Enter a title.  
+We'll use **My header** as the layout title in this tutorial.
+4. In the **Type** field, select **Themer layout**.
+5. In the **Layout** field, select **Header.**
+6. Click **Add themer layout**.  
+The **Edit Themer layout** screen will open automatically.
 
 Here's the screen with these choices:
 
@@ -49,13 +50,13 @@ Here's the screen with these choices:
 
 Configure the layout settings on the **Edit Themer layout** screen as in the screenshot below, or use the following procedure for details.
 
-  1. Verify that **Type** is **Header**.
-  2. Leave **Sticky** and **Overlay** set to **No**.  
-  Set to **No**, the header will scroll out of sight as the page moves up, and the header won't overlay the page content.
-  3. For **Location**, choose **Page** in the left field and **All Pages** in the right field.  
-  This makes the header apply to all Pages (as opposed to Posts, archives, etc.).  
-  ![](/img/tutorial-create-a-header-layout-themer-1401139d.png)
-  4. Click **Publish**.
+1. Verify that **Type** is **Header**.
+2. Leave **Sticky** and **Overlay** set to **No**.  
+Set to **No**, the header will scroll out of sight as the page moves up, and the header won't overlay the page content.
+3. For **Location**, choose **Page** in the left field and **All Pages** in the right field.  
+This makes the header apply to all Pages (as opposed to Posts, archives, etc.).  
+![](/img/tutorial-create-a-header-layout-themer-1401139d.png)
+4. Click **Publish**.
 
 You can set up additional location rules or create exclusion rules. For example, you could choose all pages except your landing page.
 
@@ -80,29 +81,29 @@ You can also see there's a field connection set to **Site URL** for the **Link**
 :::tip **Tip**
 
 With Beaver Themer installed, you can use this **Site Title** field connection throughout your site, even in regular Beaver Builder layouts. If you ever change the information at **Settings > General > Site title**, your site will instantly reflect the new information wherever it's displayed. Likewise, if you update your site URL and migrate your site to another location, once you change the WordPress setting your site's links are updated.
-
 :::
 
 For this tutorial, we're going to modify the template layout as follows:
 
-  * Remove the top bar
-  * Replace the site title with the site tagline
-  * Add the business logo above that.
+* Remove the top bar
+* Replace the site title with the site tagline
+* Add the business logo above that.
 
-  1. From the editing screen for the Header layout that you edited in the previous procedure, click **Launch Beaver Builder**.
-  2. Mouse over the top-bar row and click the **X** tool to remove the entire row.
-  3. Open the Heading module for editing, make the following changes, and save the module.
-    * Click the plus sign to the right of the **Heading** field.
-    * Scroll to the bottom of the list and choose **Site tagline**.  
-    ![](/img/tutorial-create-a-header-layout-themer-63421990.png)
-    * Click the **Style** tab and in the **Typography** section, click **Font** and change **Size** to **20 px**.
-  4. Click the Menu module to open it for editing and on the **General** tab in the **Menu** field, select the menu you want to use.  
-  You must have already created a menu for it to appear in the **Menu** field.
-  5. Add and edit a Photo module as follows:
-    1. Open the Content panel by clicking the Plus sign in the upper right corner of the screen
-    2. Drag a Photo module into the layout above the Heading module in the left column.
-    3. In the Photo field, click **Select photo** and add a photo to serve as the logo.
-  6. Publish or save the page.
+1. From the editing screen for the Header layout that you edited in the previous procedure, click **Launch Beaver Builder**.
+2. Mouse over the top-bar row and click the **X** tool to remove the entire row.
+3. Open the Heading module for editing, make the following changes, and save the module.  
+
+   * Click the plus sign to the right of the **Heading** field.
+   * Scroll to the bottom of the list and choose **Site tagline**.  
+   ![](/img/tutorial-create-a-header-layout-themer-63421990.png)
+   * Click the **Style** tab and in the **Typography** section, click **Font** and change **Size** to **20 px**.
+4. Click the Menu module to open it for editing and on the **General** tab in the **Menu** field, select the menu you want to use.  
+You must have already created a menu for it to appear in the **Menu** field.
+5. Add and edit a Photo module as follows:
+  1. Open the Content panel by clicking the Plus sign in the upper right corner of the screen
+  2. Drag a Photo module into the layout above the Heading module in the left column.
+  3. In the Photo field, click **Select photo** and add a photo to serve as the logo.
+6. Publish or save the page.
 
 :::tip **Tip**
 
