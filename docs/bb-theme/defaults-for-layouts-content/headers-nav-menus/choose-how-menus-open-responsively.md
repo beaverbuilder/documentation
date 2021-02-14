@@ -2,45 +2,47 @@
 id: choose-how-menus-open-responsively
 title: Choose how menus open responsively
 sidebar_label: Choose how menus open responsively
+description:  Choose how the menu opens and where it appears on mobile devices when you click the Hamburger icon or Menu button.
 ---
 
-You can choose how menus open when you click the Hamburger icon or MENU label: a dropdown or a flyout animation. This setting is located at **Customize > Header > Nav layout > Responsive nav layout**.
+You can choose how menus open when you click the Hamburger icon or MENU button: either a dropdown or flyout animation. This setting is located at **Customize > Header > Nav layout > Responsive nav layout**.
 
-## Responsive menu dropdown
-
-By default in the Beaver Builder Theme, when you click the Hamburger icon or the Menu label, a dropdown menu appears below the header, as shown in the following screenshot on a mobile device. The dropdown menu pushes down the page content as it opens.
-
-_Figure 1: Dropdown responsive nav layout_  
-![](/img/choose-how-menus-open-responsively-7287ef93.jpg)
-
-There are several settings in the **Responsive nav layout** field on the **Customizer > Header > Nav Layout**
-tab, which offer the following flyout animations when you click the hamburger or Menu icon.
+The following options are available and are described in the sections to follow. The menu behavior is the same whether you click a Hamburger icon or a Menu button or label.
 
   * Dropdown (default)
   * Flyout overlay
   * Flyout push
   * Flyout push with opacity
 
-There's also a new **Responsive nav layout position** field, which lets you
-choose whether the flyout occurs from the left or the right.
+## Responsive menu dropdown
+
+The Dropdown-style mobile menu appears below the header, as shown in the following screenshot on a mobile device. This option is a dropdown push, in that the menu pushes down the page content as it opens.
+
+_Figure 1: Dropdown-style responsive nav layout_  
+![Dropdown-style responsive nav layout](/img/choose-how-menus-open-responsively-dropdown.png)
 
 ### Flyout overlay
 
-With **Flyout overlay**, the menu flies in from the left or right (depending on the **Responsive nav layout position** setting), and overlays the main screen with a semi-opaque background, as shown in the following screenshot.
+With **Flyout overlay**, the menu flies in from the left or right (depending on the **Responsive nav layout position** setting) and overlays the main screen, as shown in the following screenshot. The menu background is the same color as the header background, though it appears darker in the screenshot because the header background has a gradient.
 
 _Figure 2: Flyout Overlay responsive nav layout_  
-![](/img/choose-how-menus-open-responsively-c48f2ed3.jpg)
+![Flyout Overlay responsive nav layout](/img/choose-how-menus-open-responsively-flyout-overlay.png)
 
 ### Flyout push
 
-With **Flyout push**, the menu flies in from the left or right (depending on the **Responsive nav layout position** setting), but pushes the main screen to the side, as shown in the following screenshot, where **Responsive nav layout position** is set to **Left**.
+With **Flyout push**, the menu flies in from the left or right (depending on the **Responsive nav layout position** setting) and pushes the main screen to the side, as shown in the following screenshot.
 
 _Figure 3: Flyout Push responsive nav layout_  
-![](/img/choose-how-menus-open-responsively-7884b3d3.jpg)
+![Flyout Push responsive nav layout](/img/choose-how-menus-open-responsively-flyout-push.png)
 
 ### Flyout push with opacity
 
-With **Flyout push with opacity**, the menu animation is the same as for **Flyout push** but additional the main screen has a semi-opaque dark overlay, as shown in the following screenshot.
+With **Flyout push with opacity**, the menu animation is the same as for **Flyout push** but additionally the visible portion of the main screen has a semi-transparent dark overlay, as shown in the following screenshot.
 
 _Figure 4: Flyout Push with Opacity responsive nav layout_  
-![](/img/choose-how-menus-open-responsively-e53d34c7.jpg)
+![Flyout Push with Opacity responsive nav layout](/img/choose-how-menus-open-responsively-flyout-push-opacity.png)
+
+## Related information
+See the following articles for more information about mobile menus.
+* Where menu colors come from
+* Change the background color of mobile menus
