@@ -54,11 +54,11 @@ blockquote {
 
 .menu__list a.menu__link,
 .menu .menu__list-item .menu__list .menu__list a.menu__link {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
-.menu .menu__list .menu__list-item a.menu__link--sublist {
-  font-size: 0.9rem;
+.menu__link--sublist:after {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
 }
 
 /* Size welcome/introduction menu item */
@@ -194,11 +194,6 @@ a[href="/next/bb-theme/developer"].menu__link {
   border: 0;
 }
 
-/* Comparsion table */
-.table-comparison td:nth-child(1n + 2) {
-  text-align: center !important;
-}
-
 .admonition.alert {
   margin-top: var(--ifm-leading);
   margin-bottom: var(--ifm-leading);
@@ -255,7 +250,7 @@ a[href="/next/bb-theme/developer"].menu__link {
   fill: #7633db;
 }
 
-/** native types */
+/* native types */
 .alert.alert--warning {
   background-color: rgba(241, 196, 15, 0.1);
   margin-top: var(--ifm-leading);
