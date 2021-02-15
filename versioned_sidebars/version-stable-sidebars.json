@@ -2695,10 +2695,6 @@
             },
             {
               "type": "doc",
-              "id": "version-stable/bb-theme/defaults-for-styles/colors/change-menu-background-color-on-small-devices"
-            },
-            {
-              "type": "doc",
               "id": "version-stable/bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer"
             }
           ]

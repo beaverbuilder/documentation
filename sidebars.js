@@ -1054,7 +1054,6 @@
            "bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-content-area",
            "bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from",
            "bb-theme/defaults-for-styles/colors/change-menu-link-and-icon-colors-on-small-devices",
-           "bb-theme/defaults-for-styles/colors/change-menu-background-color-on-small-devices",
            "bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer",
          ]
        },
