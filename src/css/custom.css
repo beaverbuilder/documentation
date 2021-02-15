@@ -53,7 +53,7 @@ html[data-theme='dark'] .DocSearch {
     var(--ifm-color-emphasis-200) 0%,
     var(--ifm-color-emphasis-100) 100%
   );
-} */
+}
 
 .docusaurus-highlight-code-line {
   background-color: var(--ifm-color-emphasis-300);
