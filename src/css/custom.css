@@ -16,6 +16,45 @@
   --ifm-code-font-size: 95%;
 }
 
+html[data-theme='dark'] {
+  --ifm-background-color: #242526;
+  --ifm-navbar-background-color: #313131;
+  --ifm-navbar-link-hover-color: var(--ifm-color-info);
+  --ifm-menu-color-active: var(--ifm-color-info);
+  --ifm-color-primary: var(--ifm-color-info);
+  --ifm-heading-color: #eeeeee;
+  --ifm-color-gray-100: #bbbbbb;
+  --ifm-footer-background-color: var(--ifm-navbar-background-color);
+  --ifm-navbar-link-color: var(--ifm-color-emphasis-1000);
+}
+
+html[data-theme='dark'] .admonition.alert a {
+  color: var(--ifm-color-info);
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+html[data-theme='dark'] .admonition.alert a:hover {
+  color: var(--ifm-color-info);
+}
+
+html[data-theme='dark'] .DocSearch {
+  --docsearch-text-color: var(--ifm-font-color-base);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgba(47, 55, 69, 0.7);
+  --docsearch-modal-background: var(--ifm-background-color);
+  --docsearch-searchbox-background: var(--ifm-background-color);
+  --docsearch-searchbox-focus-background: var(--ifm-color-black);
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-emphasis-100);
+  --docsearch-footer-background: var(--ifm-background-surface-color);
+  --docsearch-key-gradient: linear-gradient(
+    -26.5deg,
+    var(--ifm-color-emphasis-200) 0%,
+    var(--ifm-color-emphasis-100) 100%
+  );
+}
+
 .docusaurus-highlight-code-line {
   background-color: var(--ifm-color-emphasis-300);
   display: block;
@@ -46,6 +85,10 @@ blockquote {
   font-size: 1.2rem;
   color: var(--ifm-color-gray-700);
   margin-bottom: calc(var(--ifm-leading) * 2);
+}
+
+html[data-theme='dark'] .markdown .lead {
+  color: var(--ifm-color-gray-500);
 }
 
 .menu .menu__list .menu__list {
@@ -336,6 +379,11 @@ a[href="/next/bb-theme/developer"].menu__link {
 .hero {
   overflow: visible;
 }
+
+html[data-theme='dark'] .hero__title {
+  color: var(--ifm-color-gray-1000);
+}
+
 /* Hero Search */
 .hero__search {
   background: transparent;
@@ -359,7 +407,6 @@ a[href="/next/bb-theme/developer"].menu__link {
     visibility: hidden;
   }
 }
-
 
 .bb-docs-home-box {
   color: var(--ifm-navbar-link-color);
