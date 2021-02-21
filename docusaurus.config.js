@@ -7,6 +7,63 @@ module.exports = {
   organizationName: 'beaverbuilder',
   projectName: 'docs',
   onBrokenLinks: 'warn',
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: false,
+        offlineModeActivationStrategies: ['appInstalled', 'queryString'],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: 'img/icons/icon-512x512.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: `./manifest.json`,
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(255, 255, 255)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: 'img/icons/icon-512x512.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: 'img/icons/icon-512x512.png',
+            color: 'rgb(27, 116, 151)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: 'img/icons/icon-512x512.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ],
+  ],
   scripts: [
     {
       src: 'https://kit.fontawesome.com/b1b1d7d7c6.js',
