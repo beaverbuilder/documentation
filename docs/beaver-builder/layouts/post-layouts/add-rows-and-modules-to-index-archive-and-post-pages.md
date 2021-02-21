@@ -98,7 +98,7 @@ code will be added just above this line in both cases.
 :::tip **Customization tips:**
 * The code `is_home() || is_single() || is_archive()` inserts the shortcode into the index page (whether it's the front page or another page where you've set the Posts Page in **Settings > Reading**), plus single post pages, plus all archive pages (including custom post type archives). (The double pipe corresponds to the boolean OR.) If you don't want one of those types, remove it from the list of conditionals and adjust the double pipes as necessary.
 
-* To use other conditionals, see the [WordPress codex on conditional tags](https://codex.wordpress.org/Conditional_Tags).
+* To use other conditionals, see the [WordPress codex on conditional tags](https://developer.wordpress.org/themes/basics/conditional-tags/).
 :::
 
 ### Method 2: Add code to functions.php

@@ -24,7 +24,7 @@ feature:
   * You are testing some new content and want to show it only to your site's editors and administrators before taking it live. (Choose **Logged in user** and edit the capability.)
   * You want to hide time-sensitive info on an event site so that when it's time to show it again, you can unhide it. (Choose **Logged in user** and set the capability to Administrator).
 
-For a description of WordPress user roles and capabilities, see the [WordPress codex](http://codex.wordpress.org/Roles_and_Capabilities#Capability_vs._Role_Table).
+For a description of WordPress user roles and capabilities, see the [WordPress codex](https://wordpress.org/support/article/roles-and-capabilities/).
 
 **To change element visibility by user login:**
 

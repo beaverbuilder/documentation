@@ -64,7 +64,7 @@ and which Beaver Builder relies on:
 ?>
 ```
 
-See [the WordPress codex](https://codex.wordpress.org/The_Loop) for more
+See [the WordPress codex](https://developer.wordpress.org/themes/basics/the-loop/) for more
 information about The Loop.
 
 ### The theme has enqueued or hardcoded its own version of jQuery

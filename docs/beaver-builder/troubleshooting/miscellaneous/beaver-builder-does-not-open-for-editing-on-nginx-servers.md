@@ -46,11 +46,8 @@ $uri/ /index.php?$query_string;`
 
 Here are some additional resources that may help:
 
-  * NGINX setup for WordPress  
-<https://www.nginx.com/resources/wiki/start/topics/recipes/wordpress/>
-
-  * NGINX - WordPress Codex  
-<https://codex.wordpress.org/Nginx>
+  * [NGINX setup for WordPress](https://www.nginx.com/resources/wiki/start/topics/recipes/wordpress/)
+  * [NGINX - WordPress Codex](https://wordpress.org/support/article/nginx/)
 
 If you are unable to find the correct configuration file to make the change,
 we suggest contacting your hosting provider. If making a configuration change

@@ -51,7 +51,7 @@ it breaks Beaver Builder. Insert a link instead.
    * Use the *Alt+Shift+d* keyboard shortcut on Windows; *Control+Option+d* on Mac.
 
   3. Keyboard shortcuts  
-  You can access a more complete list of keyboard shortcuts [in the WordPress codex](https://codex.wordpress.org/Keyboard_Shortcuts).
+  You can access a more complete list of keyboard shortcuts [in the WordPress codex](https://wordpress.org/support/article/keyboard-shortcuts/).
 
   4. Certain plugin buttons  
 See the next section.

@@ -8,7 +8,7 @@ You can insert Beaver Builder layouts as shortcodes into any text or text
 editor field, just like you do for any other WordPress shortcodes.
 
 :::info **Basics:**
-* WordPress shortcodes are macros that can create markup dynamically. For an introduction to WordPress shortcodes, see [the WordPress Codex](https://codex.wordpress.org/Shortcode). Shortcodes can be recognized as a bit of code that lives between square brackets, such as `[fl_builder_insert_layout id="123"]`.
+* WordPress shortcodes are macros that can create markup dynamically. For an introduction to WordPress shortcodes, see [the WordPress Codex](https://developer.wordpress.org/plugins/shortcodes/). Shortcodes can be recognized as a bit of code that lives between square brackets, such as `[fl_builder_insert_layout id="123"]`.
 
 * When you update the source content, the shortcode content is automatically updated.
 

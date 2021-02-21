@@ -10,7 +10,7 @@ You can use standard WordPress custom fields, Toolset custom fields, Pods custom
 
 Any standard WordPress custom field can be connected using the **Post Custom Field** field connection provided by Beaver Themer. See the [tutorial about how to add a WordPress custom field and use it in a Themer layout](/beaver-themer/field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout.md).
 
-Since custom fields are essentially the same thing as [post meta](https://codex.wordpress.org/Function_Reference/add_post_meta), any post meta stored in the database can be connected by using the **Post Custom Field** field connection.
+Since custom fields are essentially the same thing as [post meta](https://developer.wordpress.org/reference/functions/add_post_meta/), any post meta stored in the database can be connected by using the **Post Custom Field** field connection.
 
 :::note **Note**
 Currently, only string values will be returned as objects, and arrays are not currently supported by field connections.

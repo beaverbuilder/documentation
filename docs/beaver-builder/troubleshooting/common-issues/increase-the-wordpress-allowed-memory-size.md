@@ -28,7 +28,7 @@ define('WP_MEMORY_LIMIT', '64M');
 Save your changes.
 
 You can also increase memory to a higher number, and you can also increase the
-memory limit for admin tasks, as described in the [WordPress codex](https://codex.wordpress.org/Editing_wp-config.php#Increasing_memory_allocated_to_PHP).
+memory limit for admin tasks, as described in the [WordPress codex](https://wordpress.org/support/article/editing-wp-config-php/#increasing-memory-allocated-to-php).
 
 If you’re still receiving the error after this fix, contact your web host
 provider or server administrator for their help.
