@@ -85,7 +85,7 @@ to write your own custom code or use a playlist plugin.
 ## More information about audio in WordPress
 
 The Audio module is a wrapper for WordPress’ core
-[audio](https://codex.wordpress.org/Audio_Shortcode) and
+[audio](https://wordpress.org/support/article/audio-shortcode/) and
 [playlist](https://codex.wordpress.org/Playlist_Shortcode) shortcodes. Follow
 the links to the WordPress codex for more information. If you prefer, you can
 embed these shortcodes into HTML modules instead of using the Audio module.

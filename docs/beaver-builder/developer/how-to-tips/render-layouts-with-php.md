@@ -13,7 +13,7 @@ of query parameters and works exactly the same way `WP_Query` works, except
 that it renders Beaver Builder layout for any posts that are found instead of
 returning them.
 
-See the [WordPress Codex on WP_Query](https://codex.wordpress.org/Class_Reference/WP_Query#Parameters) for
+See the [WordPress Codex on WP_Query](https://developer.wordpress.org/reference/classes/wp_query/) for
 more information about the query parameters that can be passed to this method.
 
 ### Examples
