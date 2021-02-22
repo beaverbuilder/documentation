@@ -70,6 +70,7 @@ function my_theme_header_footer_support() {
   add_theme_support( 'fl-theme-builder-headers' );
   add_theme_support( 'fl-theme-builder-footers' );
   add_theme_support( 'fl-theme-builder-parts' );
+}
 ```
 
 After you've declared support for parts, you can use the `fl_theme_builder_part_hooks` filter to register your parts. The function for your filter should return an array of arrays for each group of parts, as shown below. Within the hooks array, set your actions to the array key, and set the human-readable label to the array value.
