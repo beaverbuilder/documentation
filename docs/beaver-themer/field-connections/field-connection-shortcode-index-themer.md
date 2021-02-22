@@ -14,8 +14,8 @@ sidebar_label: Field connection shortcode reference
 
 ### Site category
 
-  * **Site Title**`[wpbb site:title]`
-  * **Site Tagline**`[wpbb site:tagline]`
+  * **Site Title** `[wpbb site:title]`
+  * **Site Tagline** `[wpbb site:tagline]`
 
 ### Archive category
 
@@ -28,8 +28,8 @@ sidebar_label: Field connection shortcode reference
 
   * **Post Title** `[wpbb post:title]`
   * **Post ID** `[wpbb post:id]`
-  * **Post Content**`[wpbb post:content]`
-  * **Post URL**`[wpbb post:url]`
+  * **Post Content** `[wpbb post:content]`
+  * **Post URL** `[wpbb post:url]`
   * **Post Slug** `[wpbb post:slug]`
 
 ### Comments category
@@ -90,7 +90,7 @@ sidebar_label: Field connection shortcode reference
     * Example
       * `[wpbb post:featured_image size='medium' display='tag' align='center' linked='no']`
 
-  * **Post Terms List**`[wpbb post:terms_list]`
+  * **Post Terms List** `[wpbb post:terms_list]`
   Post terms are items in the taxonomy.
 
     * Options
@@ -197,7 +197,8 @@ sidebar_label: Field connection shortcode reference
     ( *This is an example using WooCommerce* )
 
   * **User Logged In** `[wpbb site:logged_in]`
-  :::note **Note** This shortcode returns True (1) or False (0) and is used mostly as a conditional shortcode. This shortcode has the following options to limit by user role and user.
+  :::note **Note** 
+  This shortcode returns True (1) or False (0) and is used mostly as a conditional shortcode. This shortcode has the following options to limit by user role and user.
   :::
 
     * Options
