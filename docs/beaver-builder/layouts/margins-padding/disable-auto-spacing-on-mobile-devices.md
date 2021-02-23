@@ -4,9 +4,6 @@ title: Disable auto spacing on mobile devices
 sidebar_label: Disable auto spacing on mobile devices
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 Auto spacing on mobile devices is enabled by default in Beaver Builder. In
 general, it reduces the amount of space between rows, columns, and modules on
 mobile devices automatically, to save you time adding your own values. See the
