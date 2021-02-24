@@ -57,7 +57,7 @@ This is a partial list of high-priority issues we're chipping away at.
 
 #### Issue with images not loading on Safari 13 and below
 
-<p><span class="badge badge--secondary">Status: Pending</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** When using the load more option for Pagination, in Safari 13 and below, images can not show due to how Safari handles srcset with AJAX.
 
@@ -73,14 +73,6 @@ This is a partial list of high-priority issues we're chipping away at.
 
 `IR: 913`
 
-### WooCommerce
-
-#### Product sorting does not work with multiple posts modules on the page
-<p><span class="badge badge--success">Status: Released</span></p>
-
-**Description:** It seems like it is sorting by price, for example, but it is not accurate
-
-`IR: 745`
 
 ## Beaver Themer
 
@@ -96,21 +88,21 @@ This is a partial list of high-priority issues we're chipping away at.
 
 ### Event notices module not working
 
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** Module displays empty even when there should be content
 
 `IR: 154`
 
 ### Multi-Day events do not always display when they should
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** If the start date has passed the event does not show even if the end date hasn't passed.
 
 `IR: 121`
 
 ### Applying a Singular layout to Organizer results in a loading gif
-<p><span class="badge badge--primary">Status: Fixed</span></p>
+<p><span class="badge badge--success">Status: Released</span></p>
 
 **Description:** Applying a singular Themer layout shows a loading GIF above the content area
 
