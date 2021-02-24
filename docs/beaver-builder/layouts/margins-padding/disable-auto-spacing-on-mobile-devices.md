@@ -22,10 +22,10 @@ padding](/beaver-builder/layouts/margins-padding/change-individual-margin-and-pa
 
 **To disable mobile auto spacing site-wide:**
 
-  1. Open any page for editing in Beaver Builder.
-  2. Open Global Settings by clicking the title bar in the upper left corner to expose the **Tools** menu, then click **Global settings**, or just use the keyboard shortcut:
-
+1. Open any page for editing in Beaver Builder.
+2. Open Global Settings by clicking the title bar in the upper left corner to expose the **Tools** menu, then click **Global settings**, or just use the keyboard shortcut:  
+  
     * <kbd>⌘</kbd> + <kbd>U</kbd> (<i class="fab fa-apple"></i> Mac)
     * <kbd>Ctrl</kbd> + <kbd>U</kbd> (<i class="fab fa-windows"></i> Windows).
-    
-  3. Go to the **Responsive layout** section and change **Enable auto spacing** to **No**.
+  
+3. Go to the **Responsive layout** section and change **Enable auto spacing** to **No**.
