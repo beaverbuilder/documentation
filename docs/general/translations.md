@@ -38,8 +38,12 @@ become a translator, please [contact us using this form](https://translate.wpbea
 There are various plugins that assist with translating your site, but there
 are two that have specific integrations with Beaver Builder:
 
-  * [TranslatePress](https://translatepress.com)  
+* [TranslatePress](https://translatepress.com)  
 See [this blog post](https://www.wpbeaverbuilder.com/how-to-create-a-multilingual-wordpress-site/) for information about how to translate a Beaver Builder site using TranslatePress.
 
-  * [WPML](https://wpml.org)  
-For more information, see WPML's post on [How to build multilingual sites with Beaver Builder and WPML](https://wpml.org/documentation/plugins-compatibility/beaver-builder/?aid=83065&affiliate_key=OKuuAGLjyHp3) or watch their [video tutorial](https://www.youtube.com/watch?v=f4RjUCdOtFk).
+* [WPML](https://wpml.org)  
+  For more information, see WPML's documentation.
+  
+  * [Beaver Builder](https://wpml.org/documentation/plugins-compatibility/beaver-builder)
+  * [Beaver Themer](https://wpml.org/documentation/plugins-compatibility/how-to-build-multilingual-websites-using-beaver-themer-and-wpml/)
+  * [BB Theme](https://wpml.org/documentation/theme-compatibility/how-to-build-multilingual-sites-using-beaver-builder-theme-and-wpml/)
