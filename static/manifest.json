@@ -1,11 +1,11 @@
 {
   "name": "Beaver Builder Knowledge Base",
-  "short_name": "BB KB",
+  "short_name": "Beaver Builder",
   "theme_color": "#1b7497",
   "background_color": "#424242",
   "display": "standalone",
   "scope": "./",
-  "start_url": "./index.html",
+  "start_url": "/",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
