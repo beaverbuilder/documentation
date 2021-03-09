@@ -12,7 +12,7 @@ module.exports = {
       '@docusaurus/plugin-pwa',
       {
         debug: false,
-        offlineModeActivationStrategies: ['appInstalled'],
+        offlineModeActivationStrategies: ['always'],
         pwaHead: [
           {
             tagName: 'link',
