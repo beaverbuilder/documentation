@@ -93,3 +93,13 @@ You can use the undo and redo keyboard shortcuts to step backwards and
 forwards through the items listed in **Tools > History**. The keystrokes
 depend on your operating system, as follows, or within the Beaver Builder
 editor you can find them at **Tools > Keyboard shortcuts**.
+
+## Disable undo/redo functionality in the editor
+
+The History manager can cause sluggish behavior in the editor, particularly when your site is in a shared hosting environment or the page you're editing has a large number of rows and modules.
+
+If you need to, you can manually disable the History Manager functionality by adding `&nohistory` to the end of your URL in the Beaver Builder editor. For example:
+
+```markup
+https://mysite.com/?fl_builder&nohistory
+```
