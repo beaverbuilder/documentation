@@ -23,14 +23,35 @@ Access the Outline panel by clicking the Outline icon to the left of the **Done*
 
 See [the tour of the Beaver Builder editor UI](/beaver-builder/getting-started/bb-editor-basics/user-interface.md) for more information.
 
-### Disable undo/redo functionality in the editor
-The [History manager](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md) can cause sluggish behavior in the editor, particularly when your site is in a shared hosting environment or the page you're editing has a large number of rows and modules. 
+### Reduce or disable undo/redo functionality in the editor
+The [History manager](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md) can cause sluggish behavior in the editor, particularly when your site is in a shared hosting environment or the page you're editing has a large number of rows and modules. The default number of changes the History Manager remembers is 20. 
 
-If you need to, you can manually disable the History Manager functionality by adding `&nohistory` to the end of your URL in the Beaver Builder editor. For example:
+You can reduce or disable this number temporarily or more permanently in two ways:
+
+#### Disable the History Manager temporarily
+
+* Add `&nohistory` to the end of your URL in the Beaver Builder editor.  
+For example:
 
 ```markup
 https://mysite.com/?fl_builder&nohistory
 ```
+In the editor, if you click **History** in the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), you'll see the message I `Undo/redo history is currently disabled`.
+
+#### Reduce or disable the history by changing wp-config
+
+This method requires access to the *wp-config.php* file in your WordPress installation root. It reduces or disables the History Manager for all Beaver Builder layouts site-wide.
+
+1. Open the *wp-config.php* file for editing.
+2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
+```php
+if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {
+			define( 'FL_BUILDER_HISTORY_STATES', 20 );
+		}
+```
+3. Change the number of states from `20` to a smaller number, or change the number to `0` to disable the History Manager entirely.
+
+To restore normal History Manager functionality, remove this code from the *wp-config.php* file.
 
 ## Existing module improvements
 
