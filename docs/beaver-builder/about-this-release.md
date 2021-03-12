@@ -5,7 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this release of the Beaver Builder plugin.
 ---
 
-Here are the new features as of Beaver Builder 2.5-alpha.2. Features for the latest alpha version (alpha.2) are marked.
+Here are the new features as of Beaver Builder 2.5-alpha.2. Features for the latest alpha version (alpha.2) are labeled.
 
 :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.

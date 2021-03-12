@@ -109,7 +109,7 @@ For example:
 ```markup
 https://mysite.com/?fl_builder&nohistory
 ```
-In the editor, if you click **History** in the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), you'll see the message I `Undo/redo history is currently disabled`.
+In the editor, if you click **History** in the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), you'll see the message `Undo/redo history is currently disabled`.
 
 ### Reduce or disable the history by changing wp-config
 
