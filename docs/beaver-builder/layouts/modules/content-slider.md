@@ -2,7 +2,7 @@
 id: content-slider
 title: Content slider
 sidebar_label: Content slider
-description: The Content Slider module displays an animated set of slides, with the a background and an overlay of text, photo or video, and a link.
+description: The Content Slider module displays an animated set of slides, with a choice of background plus an overlay of text, photo or video, and a link.
 ---
 
 You might think of a content slider module as a slideshow of rows, in which
@@ -66,15 +66,15 @@ See the section about related modules below.
 The content slider module offers a larger number of options for styling and
 content. Here are some examples.
 
-  * In each slide, you can choose a photo, video, or color background.
+  * In each slide, you can choose a photo, video, or color background, or no background. For photo backgrounds, you can add a color overlay.
   * You can add a heading, text, and a button and display them overlaid on the photo video, or color background, or side by side with the photo or video.
   * You can automate and adjust the playback or add navigation buttons so users can cycle through themselves.
   * If you choose to show the nav arrows, you can style the arrow color, and arrow background color and shape on the **Style** tab.
   * There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
 
-
-
-**Note:** On the **Slider** tab, be sure to set the **Transition speed**
+:::note **Note** 
+On the **Slider** tab, be sure to set the **Transition speed**
 setting for a shorter time than the **Delay** setting. This avoids an issue
 where an image can get skipped because it hasn't finished transitioning before
 it's time to display the next slide.
+:::

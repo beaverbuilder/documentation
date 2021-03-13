@@ -87,13 +87,11 @@ article on [granting user access](/beaver-builder/management-migration/control-u
 
 ## Icons tab
 
-Beaver Builder comes with the Font Awesome, Foundation, and WordPress
-Dashicons icon sets. You can also add your own icon sets through this UI, by
-helping you upload custom sets from Fontello or IcoMoon to your Media Library.
+The library of icons available to you in modules is determined by what is enabled in this setting. Beaver Builder comes with the Font Awesome, Foundation, and WordPress Dashicons icon sets. 
 
 ![](/img/admin-settings-icon-tab.png)
 
-For help and tips creating custom icon sets, see the article about [icon sets](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md).
+You can also add your own icon sets through this UI, by helping you upload custom sets from Fontello or IcoMoon to your Media Library. For help and tips creating custom icon sets, see the article about [icon sets](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md).
 
 ## Branding tab (Agency version only)
 

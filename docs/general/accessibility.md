@@ -61,7 +61,17 @@ conformance level for each:
 
 [https://www.w3.org/WAI/WCAG20/quickref/](https://www.w3.org/WAI/WCAG20/quickref/)
 
-### Make your sites accessible
+## The WAI-ARIA standard
+
+The [WAI-ARIA standard](https://www.w3.org/TR/wai-aria/#aria-label) is a set of specifications on how to use "aria labels" to provide semantic information about widgets, structures, and behaviors to assistive devices. Beaver Builder adds default ARIA labels and some modules have an aria setting that lets you assign your own ARIA label.
+
+Here's an example of HTML output from a [Menu module](/beaver-builder/layouts/modules/menu/menu.md), which has the custom ARIA label set to "primary menu":
+
+```html
+<nav aria-label="primary menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" class="focus">
+```
+
+## Make your sites accessible
 
 Full accessibility is rarely achieved, and meeting accessibility criteria is
 an ongoing effort, requiring new testing with each website revision and each
@@ -134,8 +144,7 @@ that previously failed to meet accessibility standards:
 
 * Menu module  
 You can tab through submenu items, in addition to main menu items.  
-There is also an accessible name given to the **MENU** button in the HTML
-output.
+The Menu module also has a **Menu label** setting so you can assign a custom ARIA label to the output.
 
 * Slideshow Module  
 Images use `alt` tags.  

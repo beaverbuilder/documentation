@@ -85,6 +85,8 @@ longer have access to the items that you chose not to keep. If the **Save as
 Draft** or **Discard** your layout, the history remains and you can undo and
 redo the next time you open the editor. For other implications of saving vs.
 discarding vs. publishing a page, see [this article](/beaver-builder/getting-started/bb-editor-basics/save-publish-discard.md).
+
+Don't forget you can use the [Revisions feature](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md/#revisions) to revert to a previously published version.
 :::
 
 ### Use undo and redo keyboard shortcuts
@@ -93,3 +95,33 @@ You can use the undo and redo keyboard shortcuts to step backwards and
 forwards through the items listed in **Tools > History**. The keystrokes
 depend on your operating system, as follows, or within the Beaver Builder
 editor you can find them at **Tools > Keyboard shortcuts**.
+
+## Reduce or disable undo/redo functionality in the editor
+The [History manager](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md) can cause sluggish behavior in the editor, particularly when your site is in a shared hosting environment or the page you're editing has a large number of rows and modules. The default number of changes the History Manager remembers is 20. 
+
+You can reduce or disable this number temporarily or more permanently in two ways:
+
+### Disable the History Manager temporarily
+
+* Add `&nohistory` to the end of your URL in the Beaver Builder editor.  
+For example:
+
+```markup
+https://mysite.com/?fl_builder&nohistory
+```
+In the editor, if you click **History** in the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), you'll see the message `Undo/redo history is currently disabled`.
+
+### Reduce or disable the history by changing wp-config
+
+This method requires access to the *wp-config.php* file in your WordPress installation root. It reduces or disables the History Manager for all Beaver Builder layouts site-wide.
+
+1. Open the *wp-config.php* file for editing.
+2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
+```php
+if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {
+  define( 'FL_BUILDER_HISTORY_STATES', 20 );
+}
+```
+3. Change the number of states from `20` to a smaller number, or change the number to `0` to disable the History Manager entirely.
+
+To restore normal History Manager functionality, remove this code from the *wp-config.php* file.
