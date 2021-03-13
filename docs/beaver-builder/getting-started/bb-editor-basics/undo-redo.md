@@ -119,8 +119,8 @@ This method requires access to the *wp-config.php* file in your WordPress instal
 2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
 ```php
 if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {
-			define( 'FL_BUILDER_HISTORY_STATES', 20 );
-		}
+  define( 'FL_BUILDER_HISTORY_STATES', 20 );
+}
 ```
 3. Change the number of states from `20` to a smaller number, or change the number to `0` to disable the History Manager entirely.
 
