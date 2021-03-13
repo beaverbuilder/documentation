@@ -201,7 +201,7 @@ On the **Advanced** tab where you set the anchor in the **ID** field, add `fl-no
 
 Errors are now output only if  the `showerrors` parameter is in the URL.  
 
-After [enabling Debug Mode](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md),  add the parameter `/?showerrors` to your URL to view errors, for example:  
+After [enabling Debug Mode](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md), add the parameter `/?showerrors` to your URL to view errors, for example:  
 `https://mysite.com/?showerrors`.
 
 If the URL already has a `?` parameter in use, then use `&showerrors` instead. For example, if you're using the Beaver Builder debug URL, the existing URL might be something like `mysite.com?fldebug=ed52f356`. In this case, you'd append the `showerrors` parameter to form `mysite.com?fldebug=ed52f356&showerrors`.
