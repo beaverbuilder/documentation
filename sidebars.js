@@ -497,6 +497,7 @@
         "beaver-builder/management-migration/convert-content-between-wordpress-5-and-beaver-builder",
         "beaver-builder/management-migration/anonymous-usage-data-sent-to-beaver-builder",
         "beaver-builder/management-migration/disable-specific-modules-sitewide",
+        "beaver-builder/management-migration/enable-prerelease-updates",
         "beaver-builder/management-migration/manually-migrate-a-beaver-builder-site",
       ]
     },
