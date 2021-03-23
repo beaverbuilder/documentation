@@ -8,6 +8,8 @@ You can modify column style and layouts in the following ways.
 
 ## Style tab
 
+### Column dimensions
+
   * Change the column widths when you have two or more columns across.  
 Widths must add up to 100% on large devices, but medium and small device
 column width settings can total less than 100%.  
@@ -27,21 +29,29 @@ The following screenshot shows two columns set to equal height and vertically
 centered.  
 ![](/img/row-columns-edit-column-2.png)
 
-  * Set default text colors for the column. These colors override row colors for that column and apply to modules unless the modules have their own colors set. The options are text color, link color, text hover color, and heading color.
+### Text colors
+
+You can set default text colors for the column. These colors override row colors for that column and apply to modules unless the modules have their own colors set. The options are text color, link color, text hover color, and heading color.
 
 ![](/img/row-columns-edit-column-3-new.png)
 
 ![](/img/row-columns-edit-column-3.png)
 
-  * Add a background color or image.  
+### Background effects
+
+You can add a background color, color gradient, or image to the column. If you add an image, you can also add a color overlay.
+
 :::note **Note**
 You can't add dynamic backgrounds to columns, such as videos,
 slideshows, or parallax.
 :::
 
-  * Add a column border.  
+### Border
+
+Columns have the [standard Border section](/beaver-builder/styles/effects/borders.md) that lets you add border lines, rounded corners, and shadows.
+
 :::tip **Tip**
-You can set individual top, bottom, left, and right borders, which you can use to create horizontal or vertical column separators.
+Set individual top, bottom, left, or right border to create horizontal or vertical column separators. Adjust column margins and padding on the **Advanced tab** to fine-tune the border placement.
 :::
 
 ## Advanced tab

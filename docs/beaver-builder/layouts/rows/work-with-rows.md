@@ -107,7 +107,7 @@ This section appears if you choose **Photo**, **Video**, **Slideshow**, or
 **Parallax** as the background type. You can select a color overlay and
 manipulate the opacity to show more or less of the underlying background.
 
-Usually a background cover overlay is done using a semitransparent white or
+Usually a background color overlay is done using a semitransparent white or
 black color to improve legibility of content on top of the row background, but
 in some cases a semi-transparent color is used for design effect.
 

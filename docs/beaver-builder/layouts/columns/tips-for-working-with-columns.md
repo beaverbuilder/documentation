@@ -8,8 +8,7 @@ Using columns inside other columns can get, well, complicated. Here are some
 tips to help you get started. Along the way, you may find shortcuts that work
 better for you.
 
-## Tip #1: Understand the properties and limitations of using columns and
-child columns
+## Tip #1: Understand the properties and limitations of using columns and child columns
 
 See the [column layouts overview article](/beaver-builder/layouts/columns/column-layouts-overview.md). In
 particular, make sure you understand the concept of columns, module layers,
@@ -60,5 +59,6 @@ its own column.
 ### Tip #4 Deleting modules is safer than deleting columns
 
 When you mouse over **Delete column**, you can see the scope of what you'll
-be deleting. But since there's no Undo, it's even safer to delete modules
-first, then delete column structure. See [the article about deleting columns](/beaver-builder/getting-started/bb-editor-basics/delete-a-module-or-column.md).
+be deleting. It's even safer to delete the modules first, then delete column structure. See [the article about deleting columns](/beaver-builder/getting-started/bb-editor-basics/delete-a-module-or-column.md).
+
+If you find you've deleted something you want to get back, you can [access the History panel to undo it](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md).
