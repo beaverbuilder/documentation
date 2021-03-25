@@ -19,5 +19,5 @@ you can extract the files from the zip directory and FTP them to the following
 location:
 
 ```bash
-your-wordpress-installation-root/wp-content/plugins/bb-plugin.
+your-wordpress-installation-root/wp-content/plugins/bb-plugin
 ```
