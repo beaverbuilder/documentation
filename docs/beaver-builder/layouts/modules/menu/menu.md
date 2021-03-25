@@ -49,7 +49,7 @@ This option is a standard horizontal layout that supports dropdown submenus, wit
 
 ![](/img/menu-module-horizontal-layout.jpg) 
 
-You can also add an image to a horizontal layout that appears centered between  the menu items by using the [**Centered + inline logo** settings]((#centered--inline-logo)).
+You can also add an image to a horizontal layout that appears centered between  the menu items by using the [**Centered + inline logo** settings](#centered--inline-logo).
 
 #### Layout: Vertical
 
