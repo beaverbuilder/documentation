@@ -29,8 +29,6 @@ centered.
 
   * Set default text colors for the column. These colors override row colors for that column and apply to modules unless the modules have their own colors set. The options are text color, link color, text hover color, and heading color.
 
-![](/img/row-columns-edit-column-3-new.png)
-
 ![](/img/row-columns-edit-column-3.png)
 
   * Add a background color or image.  
@@ -70,11 +68,11 @@ See [this article](/beaver-builder/layouts/columns/insert-columns.md) for how to
 
   ![](/img/row-columns-edit-column-6.png)
 
-  If you see a hamburger icon in the module toolbar, click that and mouse over **Edit column**.
+  If you see a hamburger icon in the module toolbar, click that and mouse over **Edit column**, then click **Column settings**.
 
 2. Do either of the following:
   1. Mouse over **Column settings**.  
-The area that will be affected by the column settings will have a blue
+The area that will be affected by the column settings has a blue
 overlay.  
 ![](/img/row-columns-edit-column-7.png)
 

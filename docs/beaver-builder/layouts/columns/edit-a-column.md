@@ -15,16 +15,12 @@ Widths must add up to 100% on large devices, but medium and small device
 column width settings can total less than 100%.  
 :::tip **Tip**
 When you have more than two columns across, it's easier to use the drag handle on the column instead of column settings.
-:::
 
 ![](/img/row-columns-edit-column-1.png)
+:::
 
   * Set a minimum column height. If you set a minimum column height for one column in a layer, it will propagate to all columns in the layer.
-  * Equalize the column heights of all columns in the layer, then choose whether the content in the column content should be vertically aligned to the top, center, or bottom of the column.   
-Parent columns must have at least two columns in the layer for the **Equalize
-heights** field to be displayed, but you only need to set it in one column for
-it to apply to all columns in the layer. Achild columns display the **Equalize
-heights** field.  
+  * Equalize the column heights of all columns in the layer, then choose whether the column content should be vertically aligned to the top, center, or bottom of the columns.   
 The following screenshot shows two columns set to equal height and vertically
 centered.  
 ![](/img/row-columns-edit-column-2.png)
@@ -32,8 +28,6 @@ centered.
 ### Text colors
 
 You can set default text colors for the column. These colors override row colors for that column and apply to modules unless the modules have their own colors set. The options are text color, link color, text hover color, and heading color.
-
-![](/img/row-columns-edit-column-3-new.png)
 
 ![](/img/row-columns-edit-column-3.png)
 
@@ -61,9 +55,6 @@ There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/adva
 
 ##  Open column settings for editing
 
-If a column has child columns, you can edit either the child or the entire
-parent column.
-
 **To open column settings in an empty column:**
 
 When a column is empty, access **Column Settings** by hovering over the empty
@@ -82,13 +73,11 @@ See [this article](/beaver-builder/layouts/columns/insert-columns.md) for how to
 
   If you see a hamburger icon in the module toolbar, click that and mouse over **Edit column**.
 
-2. Do either of the following:
-  1. Mouse over **Column settings**.  
-The area that will be affected by the column settings will have a blue
-overlay.  
-![](/img/row-columns-edit-column-7.png)
+2. Mouse over and then click **Column settings**.   
+    The area that will be affected by the column settings will have a blue overlay when you mouse over it.  
+    ![Parent column menu](/img/tips-for-columns-column-parent-menu.png)
+  If you mouse over a nested column and you want to edit its parent column, click **Parent settings.**  
+    ![Nested column menu](/img/tips-for-columns-nested-columns.png)
 
-  2. If you mouse over a child column and you want to edit its parent column, click **Parent settings.**  
-  ![](/img/row-columns-edit-column-8.png)
+See [this tip](/beaver-builder/layouts/columns/tips-for-working-with-columns.md/#tip-3-figuring-out-column-structure-for-existing-columns) for more information about identifying parent and nested columns.
 
-  3. After you verify the scope of where the settings will apply by looking at the blue column overlay, click **Column settings**.
