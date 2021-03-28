@@ -5,11 +5,11 @@ sidebar_label: Responsive columns
 ---
 Columns in layouts can become quite complex, with multiple layers of columns in rows and nested columns. For an overview of columns with many visual examples, see the the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
 
-Here's a complex example of column stacking. This example shows a single row with two column layers. The first column layer has two columns with two layers each. The second column layer has two module layers and a child column layer. The main columns have a light gray background. The child columns have a dark gray background. 
+Here's a complex example of column stacking. This example shows a single row with two column layers. The first column layer has two columns with two layers each. The second column layer has two module layers and a nested column layer. The main columns have a light gray background. The nested columns have a dark gray background. 
 
 As screen size decreases, column and module stacking occurs left to right, top to bottom, first within each column, then across columns in the same layer, then across column layers:
 
-![](/img/row-columns-column-layout-overview-9.jpg)
+![](/img/responsive-columns-column-stacking-1.jpg)
 
 This stacking behavior applies to both standard content area layouts and to Beaver Themer layouts, such as in a Header layout.
 

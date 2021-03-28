@@ -7,21 +7,18 @@ sidebar_label: Insert columns
 There are several ways to insert columns.
 
 :::note **Note**
-There is a limit of 12 main columns in a layer and 4 child columns
-within a column layer.
+There is a limit of 12 main columns in a layer and 4 nested columns
+in a layer. If you're unable to insert new columns, check to see if you've reached the column limit. See the [column tips article](/beaver-builder/layouts/columns/tips-for-working-with-columns.md) for troubleshooting information.
 :::
 
 ## Drag and drop empty columns into the layout
 
-You can use this technique to add columns or child columns anywhere. It works
+You can use this technique to add columns or nested columns anywhere. It works
 particularly well to construct complex column layouts before you start adding
 modules.
 
 :::tip **Tip**
-If you want to add a single child column as a layer insider another
-column, you'll probably need to use this method. By default, when you drag a
-module into an existing column, it creates a module layer. See the Related
-Article on column layouts for more details.
+If you want to add a single nested column inside another column, you'll probably need to use this method. By default, when you drag a module into an existing column, it creates a module layer. See [this example](/beaver-builder/layouts/columns/column-layouts-overview.md#nested-columns) of when you might want to created a single nested column.
 :::
 
 **To drag one or more empty columns into the layout:**

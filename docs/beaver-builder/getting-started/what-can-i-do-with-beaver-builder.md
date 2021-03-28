@@ -82,16 +82,17 @@ Builder admin bar and then in the **Tools** menu click **Help**.
 
 When you drag content modules from the Content panel to the layout, the rows
 and columns are automatically created. As your layouts become more complex,
-with columns within columns, sometimes it's easier to drag in row layouts
-first, then drag content modules into them. For example, here is a single row
-with three layers of columns.
+with columns nested within columns, sometimes it's easier to drag in row layouts
+first, then drag content modules into them. 
+
+For example, here is a single row with three *column groups*, which can be thought of as rows within rows.
 
 ![](/img/what-can-i-do-with-beaverbuilder-8.png)
 
 For more information about how columns work, see the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
 
-In the screenshot above, all three layers of columns are inside a single row,
-but you could also put each column layer into a different row, as shown in
+In the screenshot above, all three column groups are inside a single row,
+but you could also put each column group into a different row, as shown in
 this screenshot:
 
 ![](/img/what-can-i-do-with-beaverbuilder-9.png)

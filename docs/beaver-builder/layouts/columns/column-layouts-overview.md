@@ -4,110 +4,74 @@ title: Column layouts overview
 sidebar_label: Column layouts overview
 ---
 
-In Beaver Builder you cannot have rows within rows, but you can construct
-complex layouts with column layers and child columns.
+In Beaver Builder, you cannot place rows within rows, but you can construct
+complex layouts with column groups and nested columns.
 
-## Column layers, module layers, and child columns
+*Figure 1: An example of complex columns*  
+![An example of complex columns](/img/row-columns-column-layout-overview-5-nested.jpg)
 
-In any row, you can have multiple vertical layers of parent columns, child
-columns, and modules. Here are some diagram examples of a single row with
-various configurations of layers and columns.
+## Column groups, modules in columns, nested columns
 
-In Figure 1, there is one column inside the row, and the column contains three
-module layers. You can have any number of module layers within a single
-column, but only one module in each layer.
+In a single row, you can have multiple column groups, multiple modules in a column, and nested columns. There are two main reasons for preferring one layout over another:
 
-*Figure 1: One column with three module layers*  
-![](/img/row-columns-column-layout-overview-1.png)
+* Responsive stacking  
+Modules can stack differently depending on the column layout in which they're placed.
+* Background scope  
+You can apply backgrounds such as color or an image to individual columns, and this may determine how you want to group columns.
 
-If you want to more than one module in a layer, add a new column for each
-module. In Figure 2, there are two column layers in the row. The first layer
-has one column and the second layer has two columns.
+### Column groups
 
-*Figure 2: Two column layers with one column in the first layer and two columns
-in the second layer*  
-![](/img/row-columns-column-layout-overview-2.png)
+In any row, there is at least one *column group*, which can be thought of as a row within a row. You can have an unlimited number of column groups in a row. One column group can have a maximum of 12 columns.
 
-:::note **Note**
-You can have a maximum of 12 columns in a layer. You can have as
-many module and column layers in a row as you like.
-:::
+Figure 2, shows four column groups in one row. The third and fourth column groups each have two columns. In this annotated screenshot, each column group is numbered and each column is marked with a blue dashed line.
 
-A column within another column is considered a child column. In Figure 3,
-there are two module layers and then a layer with two child columns.
+*Figure 2: One row with four column groups*   
+![One row with four column groups](/img/columns-overview-4-column-layers.jpg)
 
-*Figure 3: Two module layers and a third layer with two child columns*  
-![](/img/row-columns-column-layout-overview-3.png)
+In Figure 3 you can see how each column group is rendered in the HTML output.
 
-:::note **Note**
-You can have a maximum of four child columns in a layer. You can
-have as many layers of child columns as you like.
-:::
+*Figure 3: HTML for the four column groups*   
+![HTML for the four column groups](/img/columns-overview-html-for-column-layers.png)
 
-You can also have a single child column in a row with module layers. In Figure
-4, there are two module layers and then a layer with one child column. Why
-would you want to do this? Usually, it's because you want to add a background
-color or image to the child column but you still want the modules and the
-child column in a single parent column (perhaps to add another background
-color or to line up content in another column to the left or right). The real
-example in the next section will make this more clear.
+### Modules in columns
 
-*Figure 4: Two module layers and a third layer with one child column*  
-![](/img/row-columns-column-layout-overview-4.png)
+You can place as many modules as you like in a single column group. 
 
-:::note **Note**
-By default, when you drag a module into a column, you create a
-module layer. If you want to create a child column, you usually need to [add
-one or more empty columns](/beaver-builder/layouts/columns/insert-columns.md) inside the main column before you add modules.
-:::
+In Figure 4, there are two column groups. The second group has two columns, and the column on the right contains four modules. The left and right columns are set to equal height with a centered vertical position, and the column on the right has a background color.
 
-## Real-world example of complex columns
+*Figure 4: Multiple modules in one column*   
+![Multiple modules in one column](/img/columns-overview-multiple-modules-in-column-layer.jpg)
 
-Here's an example of a page with a complex layout of columns, module layers,
-and child columns. This is a single row with two column layers. The first
-column layer has two columns with two layers each, and the second column layer
-has two module layers and a child column layer. The main columns have a light
-gray background. The child columns have a dark gray background.
+The stacking order in mobile view is shown in Figure 5.
 
-*Figure 5: A real example of column layers, modules layers, and child columns*  
-![](/img/row-columns-column-layout-overview-5.jpg)
+*Figure 5: Multiples modules in one column, mobile view*   
+![Multiples modules in one column, mobile view*](/img/columns-overview-multiple-modules-in-column-layer-mobile.jpg)
 
-In the upper left column, there's one layer with a Photo module, and a second
-layer with three child columns, each of which contains an Icon module.
+### Nested columns
 
-In the upper right column, the first layer has a Heading module and the second
-layer has two child columns. The left child column has two module layers, with
-a Heading module in the upper layer and a Button module in the lower layer.
-The right child column has one module layer with a Photo module.
+Suppose in the previous example you want to put two buttons side by side in the right column, as shown in Figure 6. This is accomplished by nesting a layer of two columns within the right column:
 
-The bottom column layer with two module layers and a child column layer all
-contain Heading modules, with text that explains their position.
+*Figure 6: Two columns nested in the right column*   
+![Two columns nested in the right column](/img/columns-overview-multiple-modules-and-nested.jpg)
 
-If you're looking at a complex layout like thhis after it's been created, how do you unravel which are column layers and which are child columns? See the next section.
+Here's another example, in which  nesting is used to improve the column stacking order. In Figure 2, which shows four column layers, the title of the image in the third column layer sits over the image it matches in the fourth column layer. However, when you look at this layout on a small device, shown in Figure 7, you can see that the stacked order shows the two image headings from Layer 3, then the two images from Layer 4. 
 
-## How to find child columns in an existing layout
+*Figure 7: Four column layers, mobile view*   
+![Four column layers, mobile view](/img/columns-overview-4-column-layers-mobile.jpg)
 
-Without background shading, it can be hard to tell the difference between parent and  child columns. For example, here's a screenshot of a Heading module with two columns of Button modules underneath.
+Instead of a fourth column layer, nest each Photo module in the third column layer under the Heading module, shown in Figure 8.
 
-*Figure 6: Two column layers or one parent column with two children?*  
-![](/img/column-layer-vs-child-example.png)
+*Figure 8: Nested columns in third column layer, mobile view*   
+![Nested columns in third column layer, mobile view](/img/columns-overview-3-column-layers-nested.jpg)
 
-Just mousing over this layout, you can't tell if it's a row with two layers of columns, or a single layer with two child columns, as in this diagram:
+Now in mobile view, the columns are stacked correctly:
 
-*Figure 7: Schematic of two column layers vs. one parent with two children*  
-![](/img/column-layers-vs-children-schematic.png)
+*Figure 9: Three column layers with nested columns, mobile view*   
+![hree column layers with nested columns, mobile view](/img/columns-overview-3-column-layers-nested-mobile.jpg)
 
-The best way to find out the scope of the column is to mouse over  **Column settings** and look at the column shading that appears. In this example, looking at column settings for the heading column shows that the blue background shading extends over the area with the two buttons, which shows there is a single parent column with two child columns, as in this screenshot.
+## Column limits
 
-*Figure 8: Settings menu for a parent column*  
-![](/img/column-parent-menu.png)
-
-A second way to verify is to click the **Column settings** option for one of the child columns. The child column settings always shows a couple parent column options at the bottom of the list, as in this screenshot. 
-
-*Figure 9: Settings menu for a child column*  
-![](/img/column-child-menu.png)
-
-If the columns were in simple layers, you'd see the **Column settings** shading applying to the top or the bottom layer respectively, and no child column menu settings.
-
-:::tip **Tip**
-Knowing how columns stack as screen size decreases will help you decide how to construct the columns on your page. For more information, see the [article on responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md).
+* There is a maximum of 12 columns in a layer. 
+* There is a maximum of four nested columns in a layer.
+* You can only have one level of nesting. In other words, you can't nest a column in a column that is itself nested.
+* There is no limit to the number of column layers in a row or modules in a column layer.

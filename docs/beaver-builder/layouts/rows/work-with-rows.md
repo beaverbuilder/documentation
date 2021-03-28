@@ -131,8 +131,9 @@ has three vertical layers with a different number of columns in each row.
 
 ![](/img/rows-columns-work-with-rows-3.png)
 
-Tip: For even more complex layouts, you can have columns within columns. For
-more information about how columns work, see the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
+:::tip **Tip** 
+For even more complex layouts, you can have columns nested within columns. For more information about how columns work, see the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
+:::
 
 But you could also put each or these column layers into a different row, as
 shown in this screenshot:
