@@ -4,15 +4,12 @@ title: Reverse column stacking order
 sidebar_label: Reverse column stacking order
 ---
 
-By default, columns that stand side by side on a large device will change to
-stacked columns on a small device, where left to right becomes top to bottom.
-For a more complex example of how layers of columns in a row stack by default,
-see the [article about responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md).
+By default, column groups (columns that stand side by side on a large device) change to stacked columns on a small device, where left to right becomes top to bottom. For a more complex example of how column groups stack by default, see the [article about responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md).
 
 You can easily reverse the stacking order with a setting on the **Advanced**
 tab so the columns stack bottom to top. The reversed stacking order applies to
-all columns in the same layer, so you only have to change the setting for one
-of the columns.
+the entire column group, so you only have to change the setting for one
+of the columns in the group.
 
 In this example, there are two rows with two columns each. This screenshot
 shows the large screen view in the Beaver Builder editor, with text in the

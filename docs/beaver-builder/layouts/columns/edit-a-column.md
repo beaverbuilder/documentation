@@ -10,19 +10,19 @@ You can modify column style and layouts in the following ways.
 
 ### Column dimensions
 
-  * Change the column widths when you have two or more columns across.  
-Widths must add up to 100% on large devices, but medium and small device
-column width settings can total less than 100%.  
+* Change the column widths when you have two or more columns across.  
+Widths must add up to 100% on large devices. If you have [custom widths set or medium for small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md), those widths can total less than 100%.  
+
 :::tip **Tip**
-When you have more than two columns across, it's easier to use the drag handle on the column instead of column settings.
+When you have more than two columns across, it's easier to use the drag handle on the column instead of column settings to change the widths.
 
 ![](/img/row-columns-edit-column-1.png)
 :::
 
-  * Set a minimum column height. If you set a minimum column height for one column in a layer, it will propagate to all columns in the layer.
-  * Equalize the column heights of all columns in the layer, then choose whether the column content should be vertically aligned to the top, center, or bottom of the columns.   
-The following screenshot shows two columns set to equal height and vertically
-centered.  
+* Set a minimum column height.  
+If you set a minimum column height for one column in a column group, it will propagate to all columns in the group.
+* Equalize the column heights of all columns in the group, then choose whether the column content should be vertically aligned to the top, center, or bottom of the columns.   
+The following screenshot shows two columns set to equal height and vertically centered.  
 ![](/img/row-columns-edit-column-2.png)
 
 ### Text colors
@@ -33,7 +33,7 @@ You can set default text colors for the column. These colors override row colors
 
 ### Background effects
 
-You can add a background color, color gradient, or image to the column. If you add an image, you can also add a color overlay.
+You can add a background color, color gradient, or image to the column. If you add an image, you can also add a color overlay. See this[ tip for determining column scope](/beaver-builder/layouts/columns/tips-for-working-with-columns.md#tip-3-figure-out-column-structure-for-existing-columns) to see where the background effect will apply.
 
 :::note **Note**
 You can't add dynamic backgrounds to columns, such as videos,
@@ -75,9 +75,9 @@ See [this article](/beaver-builder/layouts/columns/insert-columns.md) for how to
 
 2. Mouse over and then click **Column settings**.   
     The area that will be affected by the column settings will have a blue overlay when you mouse over it.  
-    ![Parent column menu](/img/tips-for-columns-column-parent-menu.png)
+    ![Parent column menu](/img/edit-column-parent-menu.png)
   If you mouse over a nested column and you want to edit its parent column, click **Parent settings.**  
     ![Nested column menu](/img/tips-for-columns-nested-columns.png)
 
-See [this tip](/beaver-builder/layouts/columns/tips-for-working-with-columns.md/#tip-3-figuring-out-column-structure-for-existing-columns) for more information about identifying parent and nested columns.
+See [this tip](/beaver-builder/layouts/columns/tips-for-working-with-columns.md/#tip-3-figure-out-column-structure-for-existing-columns) for more information about identifying parent and nested columns.
 

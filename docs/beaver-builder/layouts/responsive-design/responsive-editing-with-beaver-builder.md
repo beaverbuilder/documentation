@@ -31,9 +31,8 @@ and small versions.
 
 ## Large screen
 
-The following screenshot shows a single row with a background image, with two
-layers of two columns each. In this example, all of the column margins are set
-to 80px.
+The following screenshot shows a single row with a background image and two
+column groups with two columns each. In this example, all of the column margins are set to 80px.
 
 ![](/img/the-basics-example-resonsive-editing-1.jpg)
 
@@ -90,9 +89,7 @@ mobile-specific changes made to settings
 
 Make sure the columns have stacked the way you expected them to. You can
 [reverse the stacking order](/beaver-builder/layouts/columns/reverse-column-stacking-order.md), or you can [prevent stacking](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md) by adding column width
-values in the small-device column settings. For example, to preserve the two-
-column two-layer layout from the large screen used in this example, set each
-of the four column widths to 50%.
+values in the small-device column settings. For example, to preserve the layout from the large screen used in this example, set each of the four column widths to 50%.
 
 You can adjust the column margins specifically for mobile. In the
 following screenshot, we set the column's top margin to 20px and clicked the

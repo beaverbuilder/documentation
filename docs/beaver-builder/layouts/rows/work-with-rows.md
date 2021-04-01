@@ -124,10 +124,9 @@ Assign a shape overlay to the top or bottom edge of the row. See [the article on
 
 There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins and padding, visibility, animations, and advanced HTML settings.
 
-## Choose between new rows or row layers
+## Choose between new rows or rows with column groups
 
-Rows can contain layers of columns, as shown in this screenshot, where one row
-has three vertical layers with a different number of columns in each row.
+Rows can contain multiple column groups, which can be thought of as rows within rows. In the following screenshot, there's one row that has three column groups with a different number of columns in each group.
 
 ![](/img/rows-columns-work-with-rows-3.png)
 
@@ -135,8 +134,7 @@ has three vertical layers with a different number of columns in each row.
 For even more complex layouts, you can have columns nested within columns. For more information about how columns work, see the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
 :::
 
-But you could also put each or these column layers into a different row, as
-shown in this screenshot:
+But you could also put each or these column groups into their own row, as shown in this screenshot:
 
 ![](/img/rows-columns-work-with-rows-4.png)
 
@@ -147,6 +145,6 @@ fast rule, but here are some considerations:
   * You want to save a particular row in order to reuse it somewhere else.
   * You have content sections on your page that you might want to reposition later – if they are in separate rows, it's easy to move them by dragging.
   * You want to take advantage of the row's margin or padding features to position a block of content within a row or position the row with respect to other rows.
-  * Instead of a theme sidebar, you want to add a Sidebar module or some other module that appears to span several rows. To give this area the look of a sidebar, you need a single row with column layers, as in this quick mockup showing a single row with two columns. The left column contains two Heading _column layers_ , and the right column contains the sidebar.
+  * Instead of a theme sidebar, you want to add a Sidebar module or some other module that appears to span several rows. To give this area the look of a sidebar, you need a single row with column groups, shown in this mockup. There's a single row with one column group containing two columns. The sidebar is in the right column, and the left column has two Heading modules. 
 
 ![](/img/rows-columns-work-with-rows-5.jpg)

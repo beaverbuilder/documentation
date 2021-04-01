@@ -52,7 +52,7 @@ In other words, this banner will display above the header whenever the user is l
 
 ### Display a button only when a specific ACF custom field has a value
 
-Suppose you have created an Advanced Custom Fields (ACF) field for posts so that you can display the company title below the Author's name in the post title row. But company title is not a required field, and you want to display the row or column containing it only when the company title field has a value. For example, here's a screenshot of a post that has the company title in a column layer below the author name:
+Suppose you have created an Advanced Custom Fields (ACF) field for posts so that you can display the company title below the Author's name in the post title row. But company title is not a required field, and you want to display the row or column containing it only when the company title field has a value. For example, here's a screenshot of a post that has the company title in a column group below the author name:
 
 ![](/img/beaver-themer-conditional-logic-74fe4598.jpg)
 
@@ -60,7 +60,7 @@ And here's the same page when the ACF field is blank:
 
 ![](/img/beaver-themer-conditional-logic-2f30569a.jpg)
 
-While the difference is subtle, the column layer containing the custom field without a value is no longer displayed, and the rest of the text has recentered vertically. The need to hide a row is much more obvious in the following case, where the lack of the custom field value would leave an empty blue band.
+While the difference is subtle, the column group containing the custom field for company title is no longer displayed, and the rest of the text has recentered vertically. The need to hide a row is much more obvious in the following case, where the lack of the custom field value would leave an empty blue band.
 
 ![](/img/beaver-themer-conditional-logic-9cd20ed7.png)
 
