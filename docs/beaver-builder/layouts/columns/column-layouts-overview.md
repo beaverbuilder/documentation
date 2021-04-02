@@ -20,7 +20,7 @@ Figure 2 shows a schematic of a single row that displays some of the layout prop
 * A column group, shown with red outlines in Figure 2, is like a row within a row.  Each column group contains one or more columns arranged horizontally.
 This example has two main column groups and one nested column group.  
 The first column group has one column and the second column group has two columns, labeled 2a and 2b. 
-n Figure 2, Modules 7 and 8 are nested into a two-column group.
+In Figure 2, Modules 7 and 8 are nested into a two-column group.
 * Column groups are automatically created as you add columns or modules. Columns can be dragged in from the **Rows** tab of the Content panel or as you drag modules into your layout. See [the article about inserting columns](/beaver-builder/layouts/columns/insert-columns.md).
 
 The HTML rendered for the layout shown in Column 2 mirrors the row, column, and module structure shown in Figure 2. Abstracting away from the actual code, the classes for the main elements are embedded as follows:
