@@ -8,7 +8,7 @@ In Beaver Builder, you cannot place rows within rows, but you can construct
 complex column layouts within a single row, as shown in Figure 1.
 
 *Figure 1: An example of a complex column layout in one row*  
-![n example of a complex column layout in one row](/img/row-columns-column-layout-overview-5-nested.jpg)
+![An example of a complex column layout in one row](/img/row-columns-column-layout-overview-5-nested.jpg)
 
 ## Column groups, columns, and modules
 
