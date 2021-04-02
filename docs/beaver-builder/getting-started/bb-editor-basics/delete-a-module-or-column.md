@@ -8,7 +8,7 @@ You can delete a module and leave the column, or you can delete a column,
 which also deletes the column's contents.
 
 :::tip **Tip**
-Deleting columns and nested columns can get complicated. It's  safer to delete modules first and then the empty columns and if you delete something you regret [use the Undo feature](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md).
+Deleting columns and nested columns can get complicated. It's safer to delete modules first and then the empty columns and if you delete something you regret [use the Undo feature](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md).
 :::
 
 ## Delete a module and leave the column
