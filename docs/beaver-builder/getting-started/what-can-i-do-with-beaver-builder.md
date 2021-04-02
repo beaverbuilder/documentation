@@ -82,7 +82,7 @@ Builder admin bar and then in the **Tools** menu click **Help**.
 
 When you drag content modules from the Content panel to the layout, the rows
 and columns are automatically created. As your layouts become more complex,
-with columns nested within columns, sometimes it's easier to drag in row layouts
+with nested columns, sometimes it's easier to drag in row layouts
 first, then drag content modules into them. 
 
 For example, here is a single row with three *column groups*, which can be thought of as rows within rows.
