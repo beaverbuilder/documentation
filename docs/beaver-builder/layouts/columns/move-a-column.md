@@ -4,7 +4,7 @@ title: Move a column
 sidebar_label: Move a column
 ---
 
-You can move both main and main columns and nested columns and preserve the column style settings. When you move a nested column, you have a choice to move just that column or the entire parent column to which it belongs.
+You can move both main columns and nested columns and preserve the column style settings. When you move a nested column, you have a choice to move just that column or the entire parent column to which it belongs.
 
 **To move a column and its contents:**
 
