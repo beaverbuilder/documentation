@@ -41,6 +41,18 @@ An attribute with a custom value that is assigned to an HTML element. The
 class attribute is similar to the _ID_ attribute, except a class value doesn't
 have to be unique. Class values are usually used as selectors in CSS rules.
 
+## Column (BB)
+
+The components of [column groups](#column-group-bb). Columns can be configured for relative width in their column group and minimum height. They can contain an unlimited number of modules. As the screen size becomes smaller, columns stack vertically. 
+
+For the CSS class, see the [HTML, CSS, and JavaScript reference](/beaver-builder/developer/how-to-tips/html-css-and-javascript-reference.md/#columns-fl-col).
+
+## Column group (BB)
+
+A row of columns, placed inside a [Row](#row-bb). See the [Column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
+
+For the CSS class, see the [HTML, CSS, and JavaScript reference](/beaver-builder/developer/how-to-tips/html-css-and-javascript-reference.md#column-groups-fl-col-group).
+
 ## Content area (WP)
 
 The editing screen where authors enter content. Both _posts_ and _pages_ have
@@ -81,6 +93,12 @@ An attribute with a custom value that is assigned to an HTML element. An ID
 value must be unique on any particular web page. ID values are usually used as
 link targets and as selectors in CSS rules.
 
+## Layout (BB)
+
+The outermost element in a Beaver Builder layout. It contains rows, columns, and modules. In Beaver Builder the layout is applied to the [content area](/general/glossary.md/#content-area-wp). In Beaver Themer, it's applied to the location for which you're creating the layout: header, footer, etc. 
+
+For the CSS class, see the [HTML, CSS, and JavaScript reference](/beaver-builder/developer/how-to-tips/html-css-and-javascript-reference.md#layout-fl-builder-content).
+
 ## Layout template (BB)
 
 (1) Any of the built-in layout templates that come with both the Beaver
@@ -99,6 +117,12 @@ saved template has been applied.
 
 In the CSS box model, the distance between the edge of the box and the border.
 See also [the article on margins and padding](/beaver-builder/layouts/margins-padding/margin-padding.md).
+
+## Module (BB)
+
+Modules are the lowest element in the hierarchy. They contain the content in the layout and are always placed in a [column](#column-bb) inside a [column group](#column-group-BB) inside a [row](#row-bb) inside the [layout](#layout-bb).
+
+For the CSS class, see the [HTML, CSS, and JavaScript reference](/beaver-builder/developer/how-to-tips/html-css-and-javascript-reference.md#modules-fl-module).
 
 ## Padding (CSS)
 
@@ -141,6 +165,12 @@ A _blog posts index_ that appears on a static page that you specify in
 
 **Note:** Using a Beaver Builder Posts module on a static page is neither a
 blog posts index nor an archive. See [the article on generated WordPress archives vs. Beaver Builder layouts](/beaver-builder/layouts/post-layouts/generated-wordpress-archives-versus-beaver-builder-layouts.md).
+
+## Row (BB)
+
+Rows are child elements of the layout element and contain column groups. See the article on [working with rows](/beaver-builder/layouts/rows/work-with-rows.md).
+
+For the CSS class, see the [HTML, CSS, and JavaScript reference](/beaver-builder/developer/how-to-tips/html-css-and-javascript-reference.md#rows-fl-row).
 
 ## Saved row, column, or module
 

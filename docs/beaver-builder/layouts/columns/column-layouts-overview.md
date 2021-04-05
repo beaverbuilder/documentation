@@ -4,112 +4,86 @@ title: Column layouts overview
 sidebar_label: Column layouts overview
 ---
 
-In Beaver Builder you cannot have rows within rows, but you can construct
-complex layouts with column layers and child columns.
+In Beaver Builder, you cannot place rows within rows, but you can construct
+complex column layouts within a single row, as shown in Figure 1.
 
-## Column layers, module layers, and child columns
+*Figure 1: An example of a complex column layout in one row*  
+![An example of a complex column layout in one row](/img/row-columns-column-layout-overview-5-nested.jpg)
 
-In any row, you can have multiple vertical layers of parent columns, child
-columns, and modules. Here are some diagram examples of a single row with
-various configurations of layers and columns.
+## Column groups, columns, and modules
 
-In Figure 1, there is one column inside the row, and the column contains three
-module layers. You can have any number of module layers within a single
-column, but only one module in each layer.
+Figure 2 shows a schematic of a single row that displays some of the layout properties of column groups, columns, and modules. This example is displayed on a large screen. Its responsive changes on small devices will be described below.
 
-![](/img/row-columns-column-layout-overview-1.png)
+*Figure 2: A schematic example of a complex column layout*  
+![ schematic example of a complex column layout](/img/columns-overview-column-schematic-example.png)
 
-Figure 1: One column with three module layers
+* A column group, shown with red outlines in Figure 2, is like a row within a row.  Each column group contains one or more columns arranged horizontally.
+This example has two main column groups and one nested column group.  
+The first column group has one column and the second column group has two columns, labeled 2a and 2b. 
+In Figure 2, Modules 7 and 8 are nested into a two-column group.
+* Column groups are automatically created as you add columns or modules. Columns can be dragged in from the **Rows** tab of the Content panel or as you drag modules into your layout. See [the article about inserting columns](/beaver-builder/layouts/columns/insert-columns.md).
 
-If you want to more than one module in a layer, add a new column for each
-module. In Figure 2, there are two column layers in the row. The first layer
-has one column and the second layer has two columns.
+The HTML rendered for the layout shown in Column 2 mirrors the row, column, and module structure shown in Figure 2. Abstracting away from the actual code, the classes for the main elements are embedded as follows:
 
-![](/img/row-columns-column-layout-overview-2.png)
+```
+row
+    column group
+        column
+            module 1
+    column group
+        column 2a
+            module 2
+        column 2b
+            module 3
+            module 4
+            module 5
+            module 6
+        column group
+            column
+                Module 7
+            column
+                Module 8
+```
+Figure 3 shows a screenshot of this column layout with actual content.
 
-Figure 2: Two column layers with one column in the first layer and two columns
-in the second layer
+*Figure 3: Same column example with content*   
+![Same column example with content](/img/columns-overview-multiple-modules-and-nested.jpg)
 
-:::note **Note**
-You can have a maximum of 12 columns in a layer. You can have as
-many module and column layers in a row as you like.
-:::
+## Heuristics for column layouts
 
-A column within another column is considered a child column. In Figure 3,
-there are two module layers and then a layer with two child columns.
+You can often achieve layouts that have the same placement on a large screen but use different underlying column structure. There are two main reasons for preferring one layout over another:
 
-![](/img/row-columns-column-layout-overview-3.png)
+* Responsive stacking  
+Modules can stack differently depending on the column layout in which they're placed.
+* Background scope  
+You can apply color or photo backgrounds to individual columns, and this may determine how you want to group them. See the [tip about determining structure and scope for existing columns](/beaver-builder/layouts/columns/tips-for-working-with-columns.md#tip-3-figure-out-column-structure-for-existing-columns).
 
-Figure 3: Two module layers and a third layer with two child columns
+Here's an example of layouts that look identical but produce different responsive results. Figure 4 shows a layout with four column groups in one row. The third and fourth column groups each have two columns. In this annotated screenshot, each column group is numbered and each column is marked with a blue dashed line.
 
-:::note **Note**
-You can have a maximum of four child columns in a layer. You can
-have as many layers of child columns as you like.
-:::
+*Figure 4: One row with four column groups*   
+![One row with four column groups](/img/columns-overview-4-column-groups.jpg)
 
-You can also have a single child column in a row with module layers. In Figure
-4, there are two module layers and then a layer with one child column. Why
-would you want to do this? Usually, it's because you want to add a background
-color or image to the child column but you still want the modules and the
-child column in a single parent column (perhaps to add another background
-color or to line up content in another column to the left or right). The real
-example in the next section will make this more clear.
+However, when you look at this layout on a small device, shown in Figure 5, you can see that the stacked order shows the two image headings from the third column group, then the two images from the fourth column group. 
 
-![](/img/row-columns-column-layout-overview-4.png)
+*Figure 5: Four column groups with undesirable responsive behavior*   
+![Four column groups with undesirable responsive behavior](/img/columns-overview-4-column-groups-mobile.jpg)
 
-Figure 4: Two module layers and a third layer with one child column
+By changing the column layout, you can get the headings to stack above their respective image.  Instead of a fourth column group, move each Photo module to the third column group underneath the Heading module, shown in Figure 6.
 
-:::note **Note**
-By default, when you drag a module into a column, you create a
-module layer. If you want to create a child column, you usually need to [add
-one or more empty columns](/beaver-builder/layouts/columns/insert-columns.md) inside the main column before you add modules.
-:::
+*Figure 6: Two modules in the third column group to improve responsive behavior*   
+![Two modules in the third column group to improve responsive behavior](/img/columns-overview-3-column-groups-adjusted-for-stacking.jpg)
 
-## Real-world example
+Now the columns are stacked correctly in mobile view:
 
-Here's an example of a page with a complex layout of columns, module layers,
-and child columns. This is a single row with two column layers. The first
-column layer has two columns with two layers each, and the second column layer
-has two module layers and a child column layer. The main columns have a light
-gray background. The child columns have a dark gray background.
+*Figure 7: Two modules in the third column group, mobile view*   
+![Two modules in the third column group, mobile view](/img/columns-overview-stacking-behavior-improved.jpg)
 
-![](/img/row-columns-column-layout-overview-5.jpg)
+For details about how columns stack, see [the article about responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md).
 
-Figure 5: A real example of column layers, modules layers, and child columns
+## Column limits
 
-In the upper left column, there's one layer with a Photo module, and a second
-layer with three child columns, each of which contains an Icon module.
-
-In the upper right column, the first layer has a Heading module and the second
-layer has two child columns. The left child column has two module layers, with
-a Heading module in the upper layer and a Button module in the lower layer.
-The right child column has one module layer with a Photo module.
-
-The bottom column layer with two module layers and a child column layer all
-contain Heading modules, with text that explains their position.
-
-### How to find child columns in an existing layout
-
-Without background shading, it can be hard to tell the difference between
-child columns. For example, in the following screenshot you can't tell if this
-column layer has three main columns or one main column on the left and two
-child columns on the right.
-
-![](/img/row-columns-column-layout-overview-6.jpg)
-
-The best way to find out is to edit the column and look to see if there are
-options for the parent column. If there are, it means you have selected a
-child column. When you mouse over the **Parent settings**, the entire parent
-columns becomes shaded in blue, as shown in the following screenshot.
-
-![](/img/row-columns-column-layout-overview-7.jpg)
-
-On the other hand, the column on the left has no options for a parent column
-at all, which means it is not a child column. If you mouse over **Column
-settings**, the entire left column is shaded in blue, showing that the second
-layer of that column has three child columns.
-
-![](/img/row-columns-column-layout-overview-8.jpg)
-
-:::tip **Tip**
-Knowing how columns stack as screen size decreases will help you decide how to construct the columns on your page. For more information, see the [article on responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md).
+* A row can have from one to an unlimited number of column groups.
+* A top-level column group can have a maximum of 12 columns.
+* A nested column group can have a maximum of four columns. 
+* Each column can contain from zero to an unlimited number of modules.  
+An empty column is sometimes used on either side of a column with content to position the content horizontally.

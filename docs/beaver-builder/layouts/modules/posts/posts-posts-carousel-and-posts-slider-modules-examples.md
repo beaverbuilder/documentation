@@ -29,7 +29,7 @@ In a slider, an image is usually displayed in a background that fills the screen
 
 ### Posts module – Columns layout
 
-Posts or pages are displayed in top-aligned layers of columns. In this example, the columns are not set to equal height, so each layer is top- aligned, but the bottom borders are adjusted to fit the posts.
+Posts or pages are displayed in top-aligned column groups. In this example, the columns are not set to equal height, so each group is top- aligned, but the bottom borders are adjusted to fit the posts.
 
 ![](/img/post-modules-examples-3.jpg)
 

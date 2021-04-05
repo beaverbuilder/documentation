@@ -68,11 +68,9 @@ module respectively.
   4. Select the checkbox if you want to make the saved row global
   5. Click **Add saved row**.
   6. Click **Launch Beaver Builder**.  
-Under your page header, you'll see either an empty row and column.
-
-  7. Create the layout you want for the saved row or module by dragging modules into the empty column, adding more columns, or modifying the row and column settings.  
-You can add multiple layers of columns, but you can only create one row.
-
+Under your page header, you'll see an empty row and column.
+  7. Create the layout you want for the row by dragging in modules or columns from the Content panel in the normal fashion. 
+You can add a complex column layout but you can only create one row.
   8. Click **Done > Publish** to save the row.  
 The saved row now appears both in the Beaver Builder admin area under **Saved
 rows** and also in regular page layouts in Beaver Builder on the **Saved** tab
@@ -88,7 +86,6 @@ in the Content panel.
   6. Click **Add saved module**.
   7. Click **Launch Beaver Builder**.  
 Under your page header, you'll see an empty module of the type that you chose.
-
   8. Mouse over the module to reveal the Wrench icon, then click it to open the module settings.
   9. Add the module's settings, save the module, and click **Done > Publish.  
 **The saved module now appears both in the Beaver Builder admin area under

@@ -4,30 +4,18 @@ title: Prevent column stacking with custom widths
 sidebar_label: Prevent column stacking with custom widths
 ---
 
-You can prevent column stacking as screen width decreases by setting column
-widths differently for each device size.
+You can prevent column stacking on smaller devices by setting column widths differently for each device size.
 
-For example, here's a two-column layer in which the columns have equal widths
-of 50% on large devices, as shown in the top screenshot. For medium devices
-(tablets), shown in the middle screenshot, the width of the left column was
-set to 20% and the right column to 80%. For small (mobile) devices, shown
-bottom screenshot, the width of the left column was set to 35% and the right
-column to 50%. You can see that the narrower columns are left-aligned in their
-space.
+For example, here's a column group with two columns, in which the columns have equal widths of 50% on large devices, as shown in the top screenshot. For medium devices (tablets), shown in the middle screenshot, the width of the left column was set to 20% and the right column to 80%. For small (mobile) devices, shown bottom screenshot, the width of the left column was set to 35% and the right column to 50%. You can see that the narrower columns are left-aligned in their space.
 
 ![](/img/row-columns-prevent-cols-stacking-1.jpg)
 
-Column widths set for medium and small devices can be set to total less than
-100% for the columns in a layer, as shown in the in the last screenshot above,
-in which the left column is 35% and the right column is 50%.
+Column widths set for medium and small devices can be set to total less than 100% for the columns in a column group, as shown in the in the last screenshot above, in which the left column is 35% and the right column is 50%.
 
 :::tip **Tip**
-If you set a large-device value for one column, the values in the
-other columns in the layer will be adjusted automatically to total 100%. This
-isn't true when you set column width values for medium and small devices.
+If you set a large-device value for one column, the values in the other columns in the column group will be adjusted automatically to total 100%. This isn't true when you set column width values for medium and small devices.
 
-If you set a width value for a medium or small device, it's a best practice to
-set an explicit value for all the other columns in the same layer.
+For this reason, if you set a width value for a medium or small device, it's a best practice to set an explicit value for all the other columns in the same column group.
 :::
 
 :::note **Note**
@@ -52,4 +40,4 @@ screen.
   5. If you want to block column stacking for small devices, click the responsive toggle again and enter the % width that you want for small devices for that column, or use the column drag handle in the layout.  
 If you leave the **Width** value blank, it will inherit the value from the
 medium device setting.
-  6. Repeat these steps for each column in the layer that you want to modify.
+  6. Repeat these steps for each column in the group that you want to modify.

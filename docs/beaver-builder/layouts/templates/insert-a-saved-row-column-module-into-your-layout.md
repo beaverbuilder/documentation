@@ -10,11 +10,9 @@ it's standard or global.
   * In the Content panel, click the **Saved** tab, then drag the saved row, column, or module into your layout.
 
 :::note **Note**
-You can't drag a column from the Saved tab intside another column in
-your layout, because of the possibility that the saved column could have
-children, and you can't have child columns within child columns. Drag the
-column into a row as a main column, then if it has no children you can move it
-from there into another column.
+You can't drag a column from the **Saved** tab inside another column in your layout because of the possibility that the saved column can have nested columns, which would exceed the limit of one level of nesting. See [more information about column limits](/beaver-builder/layouts/columns/column-layouts-overview.md/#column-limits)
+
+A workaround is to drag the column into a row as a main column and inspect it. If it has no nested columns, you can move it from there into another column.
 :::
 
 Global rows, columns, or modules have an orange overlay after they are

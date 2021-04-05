@@ -2,6 +2,7 @@
 id: settings-overview
 title: Settings Overview
 sidebar_label: Settings Overview
+description: All about the Beaver Builder plugin settings.
 ---
 
 <div className="embed-responsive">
@@ -106,5 +107,10 @@ your clients see when they click **Help**. See the article on [customizing the H
 
 ## Tools tab
 
-The **Tools** tab has a **Cache** section where you can [manually clear the cache](/beaver-builder/troubleshooting/debugging/issue-fixer-clear-the-cache.md), a [**Cache Clearing Tool** section](/beaver-builder/troubleshooting/debugging/cache-clearing-tool.md), a [**Debug mode** section](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md), and an
-[**Uninstall** section](/beaver-builder/troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin.md).
+The **Tools** tab has the following sections.
+
+* [**Cache**](/beaver-builder/troubleshooting/debugging/issue-fixer-clear-the-cache.md)
+* [**Cache Clearing Tool**](/beaver-builder/troubleshooting/debugging/cache-clearing-tool.md)
+* [**Debug mode disabled**](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md)
+* [**Prerelease Updates**](./beaver-builder/management-migration/enable-prerelease-updates.md)
+* [**Uninstall** section](/beaver-builder/troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin.md)

@@ -4,61 +4,60 @@ title: Tips for working with columns
 sidebar_label: Tips for working with columns
 ---
 
-Using columns inside other columns can get, well, complicated. Here are some
-tips to help you get started. Along the way, you may find shortcuts that work
-better for you.
+Using column groups and nesting columns can get, well, complicated. Here are some tips to help you get started. Along the way, you may find shortcuts that work better for you.
 
-## Tip #1: Understand the properties and limitations of using columns and
-child columns
+## Tip #1: Understand the properties and limitations of various column layouts
 
-See the [column layouts overview article](/beaver-builder/layouts/columns/column-layouts-overview.md). In
-particular, make sure you understand the concept of columns, module layers,
-and child columns.
+See the [column layouts overview article](/beaver-builder/layouts/columns/column-layouts-overview.md). In particular, make sure you understand the concept of column groups, nested columns, and multiple modules in a single column. See the [Responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md) article to understand how columns stack as screen width decreases.
 
 ## Tip #2: Drag in the layout before inserting content
 
-You can create a new main column in by dragging a module to the right or left
-of an existing column. But when you create new layers in a vertical column,
-dragging in a module doesn't always create its own column. The safest way to
-insert child columns is to use **Add content > Row layouts**. In addition,
-with complex column layouts, it can be helpful to build the row layout first,
-then add the content. For example, here's a layout for three main columns (two
-on top, one below) in which the first column (on the left) includes a layer
-with four child columns and the second column (on the right) includes a layer
-with two child columns.
+You can create new columns by dragging a module into the layout. But sometimes the exact column structure you want, such as a new column to the left or right of an existing column, doesn't work by dragging in a module. It's hard to know by dragging whether you've exceeded a [column limit](/beaver-builder/layouts/columns/column-layouts-overview.md/#column-limits) or just need to drag in column structure instead.
 
-![](/img/row-columns-tips-with-columns-1.png)
+The best way to insert columns in a complex layout is to create the column structure before adding content. Here's how to do it.
 
-Once you have the structure set up, it's easy to drag in content modules, as
-in the following example.
+1. Open the [Content panel](/beaver-builder/getting-started/bb-editor-basics/user-interface.md/#7-13-content-panel) and click the **Rows** tab.  
+Make sure the **Group** name is **Columns**. You'll see a selection of column group layouts.
+2. Drag the column group you want into your layout.  
+A new row is created if you drop the column group outside of an existing row. If you drop the column group inside an existing column, a nested column group is created.
 
-![](/img/row-columns-tips-with-columns-2.png)
+If you are unable to drop the column group where you want it, most likely you have exceeded the [column limits](/beaver-builder/layouts/columns/column-layouts-overview.md#column-limits) in that location.
 
-Note that the first child column in the second layer on the right has two
-modules, the text and the small photo. If you move that column, the two
-modules will always move together.
+Once you have the structure set up, it's easy to drag in content modules. Of course, you can [change the column widths](/beaver-builder/layouts/columns/resize-or-reset-column-width.md) of any column in your layout, before or after you add modules.
 
-You can still create simple column structure by dragging modules directly into
-a row, and you can move columns to create new structure. See the Related
-Articles for more information about inserting columns.
+## Tip #3 Figure out column structure for existing columns
 
-### Tip #3 Figuring out column structure for existing columns
+It can be hard to tell the difference between column groups, modules in a single column group, and nested columns.  It's important to know this when the columns aren't stacking the way you expected, or when you want to group columns differently to apply a background effect.
 
-Click the **Edit  Column** icon for a module, then mouse over **Move Column**
-\--you'll see the scope of the column that module is in, as shown in this
-screenshot.
+For example, here's a screenshot of a Heading module with two columns of Button modules underneath.
 
-![](/img/row-columns-tips-with-columns-3.png)
+![Two column groups or one parent column with two nested columns?](/img/column-groups-vs-nested-example.png)
 
-In some cases with a layer of columns, you'll find a module that isn't in its
-own column that you want to style individually. In this case, follow Tip #2 to
-drag in a row layout of a single column, then move that module into it. You
-may run up against the level of column nesting (see Tip #1) but may find
-another way to organize the column layers so you can get get the module into
-its own column.
+Just mousing over this layout, you can't tell if it's a row with two column groups (upper row and lower row) or a single column group with nested columns for the buttons. Here's a diagram of the difference.
 
-### Tip #4 Deleting modules is safer than deleting columns
+![Schematic of two column groups versus one column group with two nested columns](/img/column-groups-vs-nested-columns-schematic.png)
 
-When you mouse over **Delete column**, you can see the scope of what you'll
-be deleting. But since there's no Undo, it's even safer to delete modules
-first, then delete column structure. See [the article about deleting columns](/beaver-builder/getting-started/bb-editor-basics/delete-a-module-or-column.md).
+The best way to determine a column's scope is to click the **Edit  Column** icon for a module, then mouse over **Column settings**. The blue shading that appears shows  the scope of the column containing that module.
+
+In this example, when you look at column settings for the Heading module, you can see that the blue background shading extends over the area with the two buttons, which shows there is a single parent column with two nested columns:
+
+![Column scope for the Heading module](/img/tips-for-columns-shading.png)
+
+A good way to verify a nested column is to click **Edit column** for a module in a column. If the column is nested, the blue shading is limited to that column and in the menu, you'll see a couple parent column options at the bottom of the list, as in this screenshot. 
+
+![Column menu for a nested column](/img/tips-for-columns-nested-columns.png)
+
+When there are two main column groups, the column scope still shows only that Button module but there are no parent options in the menu:
+
+![Column menu for the lower column group](/img/tips-for-columns-independent-column-groups.png)
+
+
+## Tip #4 Delete modules first, columns second
+
+When you're deleting a column in a complex column layout, you could end up being surprised that what got deleted isn't what you expected. In the **Edit column** menu, it's a good idea to mouse over the **Delete column** menu item to verify the scope of what you're about to delete. 
+
+Another idea is to delete the modules first, then delete the empty column structure. 
+
+If you find you've deleted something you want to get back, you can [access the History panel to undo it](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md).
+
+See [the article about deleting columns](/beaver-builder/getting-started/bb-editor-basics/delete-a-module-or-column.md).
