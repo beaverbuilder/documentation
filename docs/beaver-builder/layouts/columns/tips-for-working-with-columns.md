@@ -33,11 +33,11 @@ For example, here's a screenshot of a Heading module with two columns of Button 
 
 ![Two column groups or one parent column with two nested columns?](/img/column-groups-vs-nested-example.png)
 
-Just mousing over this layout, you can't tell if it's a row with two column groups (upper row and lower row) or a single column group with nested columns  for the buttons. Here's a diagram of the difference.
+Just mousing over this layout, you can't tell if it's a row with two column groups (upper row and lower row) or a single column group with nested columns for the buttons. Here's a diagram of the difference.
 
 ![Schematic of two column groups versus one column group with two nested columns](/img/column-groups-vs-nested-columns-schematic.png)
 
-The best way to determine  a column's scope is to click the **Edit  Column** icon for a module, then mouse over **Column settings**. The blue shading that appears shows  the scope of the column containing that module.
+The best way to determine a column's scope is to click the **Edit  Column** icon for a module, then mouse over **Column settings**. The blue shading that appears shows  the scope of the column containing that module.
 
 In this example, when you look at column settings for the Heading module, you can see that the blue background shading extends over the area with the two buttons, which shows there is a single parent column with two nested columns:
 
