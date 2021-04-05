@@ -8,7 +8,7 @@ Using column groups and nesting columns can get, well, complicated. Here are som
 
 ## Tip #1: Understand the properties and limitations of various column layouts
 
-See the [column layouts overview article](/beaver-builder/layouts/columns/column-layouts-overview.md). In particular, make sure you understand the concept of column groups, nested columns, and multiple modules in a single column. See the [Responsive columns](#) article to understand how columns stack as screen width decreases.
+See the [column layouts overview article](/beaver-builder/layouts/columns/column-layouts-overview.md). In particular, make sure you understand the concept of column groups, nested columns, and multiple modules in a single column. See the [Responsive columns](/beaver-builder/layouts/responsive-design/responsive-columns.md) article to understand how columns stack as screen width decreases.
 
 ## Tip #2: Drag in the layout before inserting content
 
