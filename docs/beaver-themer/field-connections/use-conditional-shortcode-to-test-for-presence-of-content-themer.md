@@ -65,8 +65,8 @@ However, if the field has no content, you don't want to display the label "Hobbi
 In this example code, you can see that the ACF field connection shortcode appears both in the conditional shortcode and in the custom text area, which also includes HTML markup and the "Hobbies: " label:
 
 ```markup
-[wpbb-if post:acf type='text' field='hobbies']
-    <p>Hobbies: [wpbb post:acf type='text' field='hobbies']</p>
+[wpbb-if post:acf type='text' name='hobbies']
+    <p>Hobbies: [wpbb post:acf type='text' name='hobbies']</p>
 [/wpbb-if]
 ```
 In natural language, this conditional means "if the ACF `hobbies` field has content, display the text 'Hobbies:' plus the value of the field." If the conditional shortcode evaluates to `false`, the custom text doesn't display.
