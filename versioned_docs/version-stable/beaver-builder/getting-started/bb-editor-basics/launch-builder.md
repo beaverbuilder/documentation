@@ -2,18 +2,14 @@
 id: launch-builder
 title: Launch the Beaver Builder editor
 sidebar_label: Launch the Beaver Builder editor
+description: Instructions for launching the Beaver Builder editor.
 ---
 
-WordPress 5 uses the block editor (also called the Standard
-Editor or Gutenberg editor) by default. If you want to use the Classic Editor, in other words the WordPress editor that existed before the block editor, you have to install a plugin to restore it. This article contains
-the instructions for accessing the Beaver Builder editor from both the
-WordPress block editor and the classic editor UI, and from other locations in
-the WordPress admin panel or admin bar.
+This article contains both video and written instructions for accessing the Beaver Builder editor from both the WordPress standard and classic editor UI and from other locations in the WordPress admin panel or admin bar.
 
-:::note **Note**
-We've found
-that both the [Classic Editor](https://wordpress.org/plugins/classic-editor/) and the [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/) plugins work with Beaver Builder. Most of the other plugins are untested but would be expected to work. If you are using a third-party plugin to restore the classic editor and have a problem, please file a Beaver Builder Support ticket so that we can document the problem and any possible workarounds, or list it as incompatible.
-:::
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zpAnDlIUbio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 :::note **Note**
 By default, the Beaver Builder editor is enabled for page layouts only. You can [enable posts and custom post types in the Beaver Builder settings](/beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder.md).

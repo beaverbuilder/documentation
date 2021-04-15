@@ -2,6 +2,7 @@
 id: install-the-bb-theme-and-child-theme
 title: Install the BB theme and child theme
 sidebar_label: Install the BB theme and child theme
+description: Shows how to install the Beaver Builder theme and the Beaver Builder child theme.
 ---
 
 The [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) isn't required for the [Beaver Builder Plugin](https://www.wpbeaverbuilder.com) but it's a great framework theme with clean code and lots of options that are set in the WordPress Customizer.
@@ -9,6 +10,12 @@ The [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-t
 :::tip **Tip**
 You can check whether your Beaver Builder version includes the theme on the [Beaver Builder pricing page](https://www.wpbeaverbuilder.com/pricing/). If you want to add the Theme, it's easy to [upgrade to a different premium version](/general/account-billing/upgrade-your-premium-license.md).
 :::
+
+You can choose between the video installation instructions here or written instructions below. Installing the Beaver Builder child theme is optional but [we strongly encourage it](/bb-theme/getting-started/install-the-bb-theme-and-child-theme.md#should-i-use-the-beaver-builder-child-theme).
+
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZMHFcWc4u7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Should I use the Beaver Builder child theme?
 
