@@ -2,6 +2,7 @@
 id: duplicate-your-beaver-builder-layout-to-another-page
 title: Duplicate your Beaver Builder layout to another page
 sidebar_label: Duplicate your Beaver Builder layout to another page
+description: Shows how to duplicate a Beaver Builder page or post with the same layout and metadata.
 ---
 
 You can duplicate any Beaver Builder layout to a new page with the same layout
@@ -37,6 +38,18 @@ source page as well.
 :::
 
 ## To duplicate a Beaver Builder layout
+
+Follow this video or use the written instructions below.
+
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/CQGuGVLDSnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+  1. Open the page you want to duplicate in Beaver Builder.
+  2. Click the arrow in the page title bar in the upper left corner to open the **Tools** menu.
+  3. Click **Duplicate layout**.   
+The new page opens in the WordPress editor. From there, you can change the page title and slug and launch the Beaver Builder editor.
+
 
   1. Open the page you want to duplicate in Beaver Builder.
   2. Click the arrow in the upper left side of the top bar to open the **Tools** menu.
