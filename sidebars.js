@@ -674,11 +674,8 @@
      id: 'beaver-themer', // Index
    },
    {
-     type: 'category',
-     label: 'New release info',
-     items: [
-       "beaver-themer/new-release-info/beaver-themer-1-3-overview",
-     ]
+     type: 'doc',
+     id: 'beaver-themer/about-this-release',
    },
    {
      type: 'category',
