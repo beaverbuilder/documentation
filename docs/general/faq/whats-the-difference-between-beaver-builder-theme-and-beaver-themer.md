@@ -17,7 +17,7 @@ footer on the page, as well as options such as a sidebar or footer for widgets
 and how blog posts are displayed. Themes also usually allow you to set some
 global styling options for your pages, such as fonts and colors.
 
-The Beaver Builder plugin lets you  create layouts in the content area
+The Beaver Builder plugin lets you create layouts in the content area
 of the page. That's the part of the page that is not controlled by a theme.
 For more information on the difference between the content area and theme
 areas of a page, see [the primer article](/beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer.md).
