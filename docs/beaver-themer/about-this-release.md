@@ -5,7 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this Beaver Themer release.
 ---
 
-Here are the new features  for Beaver Themer 1.4-alpha. <!-- Features for the latest alpha version (alpha.2) are labeled. -->
+Here are the new features for Beaver Themer 1.4-alpha. <!-- Features for the latest alpha version (alpha.2) are labeled. -->
 
 :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback. See [this article](/general/alpha-and-beta-releases.md/#install-an-alpha-or-beta-plugin-release) for information about installing prerelease versions.
@@ -81,5 +81,4 @@ You can add this custom field to your Themer layout the same as you do with othe
 In the following screenshot, a custom field was created in ACF called **Smart Slider 3** with **Smart Slider 3** selected as the field type. The **Field type** and **Field name** settings are autopopulated. 
 
 ![Adding a field connection to an ACF Smart Slider field type](/img/themer-1-4-features-3.png)
-
 
