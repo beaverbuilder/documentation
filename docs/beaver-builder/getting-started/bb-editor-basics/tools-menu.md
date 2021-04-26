@@ -1,7 +1,8 @@
 ---
 id: tools-menu
 title: The Tools Menu
-sidebar_label: The Tools Menu
+sidebar_label: Tools Menu
+description: Shows where to find the Tools menu and describes the options there.
 ---
 
 Open the Tools menu by clicking the arrow in the page title bar in the upper left corner of your editing screen, as shown in this screenshot.

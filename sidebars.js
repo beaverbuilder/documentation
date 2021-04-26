@@ -144,6 +144,7 @@
             "beaver-builder/getting-started/bb-editor-basics/launch-builder",
             "beaver-builder/getting-started/bb-editor-basics/user-interface",
             "beaver-builder/getting-started/bb-editor-basics/tools-menu",
+            "beaver-builder/getting-started/bb-editor-basics/outline-panel",
             "beaver-builder/getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title",
             "beaver-builder/getting-started/bb-editor-basics/alignment",
             "beaver-builder/getting-started/bb-editor-basics/inline-editing",
