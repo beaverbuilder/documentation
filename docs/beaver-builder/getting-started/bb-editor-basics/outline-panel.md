@@ -27,7 +27,7 @@ You can move modules (but not rows and columns) within the Outline panel by drag
 
 ## Add a label that displays in Outline view
 
-You can [add a label to the **Advanced** tab](/beaver-builder/layouts/advanced-tab-for-rows-columns-modules.md/#html-element-section) of a row, column, or module that helps to identify its purpose in Outline view. In the following screenshot, the Outline panel shows the label **Page Title** that was added to a Heading module for the setting **Advanced > HTML Element > Label**.
+You can [add a label to the **Advanced** tab](./beaver-builder/layouts/advanced-tab-rows-columns-modules.md#html-element-section) of a row, column, or module that helps to identify its purpose in Outline view. In the following screenshot, the Outline panel shows the label **Page Title** that was added to a Heading module for the setting **Advanced > HTML Element > Label**.
 
 ![Advanced tab label displayed in the Outline panel](/img/outline-panel-2.png)
 

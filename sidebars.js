@@ -163,7 +163,7 @@
       label: 'Layouts',
       items: [
         "beaver-builder/layouts", // Index
-        "beaver-builder/layouts/advanced-tab-for-rows-columns-modules",
+        "beaver-builder/layouts/advanced-tab-rows-columns-modules",
         {
           type: 'category',
           label: 'Templates',
