@@ -6,6 +6,12 @@ sidebar_label: Remove the header and footer
 
 You can remove the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) header or footer sitewide in the Customizer, or you can remove both the header and footer on a per-page basis.
 
+Watch the video or follow the written instructions below.
+
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FO4HfRep3xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Remove the header or footer sitewide
 
 1. In the WordPress admin panel, click **Appearance > Customize**.

@@ -2,7 +2,12 @@
 id: whats-the-difference-between-beaver-builder-theme-and-beaver-themer
 title: What's the difference between Beaver Builder Theme and Beaver Themer?
 sidebar_label: Difference between BB Theme and Beaver Themer
+description:  Describes the difference between the Beaver Builder Theme and Beaver Themer, two separate products
 ---
+
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KNpGTrCguEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 The [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) is a WordPress theme. The [Beaver Builder
 plugin](https://www.wpbeaverbuilder.com) and [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/) are both plugins.
