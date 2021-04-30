@@ -42,12 +42,11 @@ when there are any unpublished changes, even from previous sessions.
 
 ### 5. Outline panel
 
-Click the Outline icon to open the Outline panel, which lets you view the structure of your page layout in an outline format:
+Click the Outline icon to open the Outline panel, which displays the layout structure in an outline format:
 
-![Outline panel icon in the Beaver Builder editor](/img/BB25-outline-panel.png) 
+![Outline panel in the Beaver Builder editor](/img/BB25-outline-panel.png) 
 
-In this release, the Outline Panel is view-only. Make changes to your layout in the usual fashion.
-
+See [the article about the Outline panel](./beaver-builder/getting-started/bb-editor-basics/outline-panel.md) for more information about working with the Outline panel.
 
 ### 6. The Content panel show/hide icon  
 Click **+** to expand and **x** to close.
@@ -79,12 +78,9 @@ information about discarding, saving, and publishing see [Instant save - Save as
 
 The numbers correspond to those in the screenshot at the top of the page.
 
-### 8. Drag icon  
+### 8. Drag handle  
 Click and hold the left mouse button on this icon to drag the Content panel
-anywhere on the screen.  
-You can pin the panel by dragging it to the side of the screen and dropping it
-into a blue vertical strip that appears. To unpin the panel, grab the top of
-the panel and drag it back to the center.
+anywhere on the screen.  You can pin the panel by dragging it to the side of the screen and dropping it into a blue vertical strip that appears. To unpin the panel, grab the top of the panel and drag it back to the center.
 
 ### 9. Group selection within the tab  
 Each tab (#9-12) is organized into groups. Click the **Group** box to navigate
