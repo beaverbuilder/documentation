@@ -1,5 +1,5 @@
 ---
-id: advanced-tab-for-rows-columns-modules
+id: advanced-tab-rows-columns-modules
 title: The Advanced tab for rows, columns, and modules
 sidebar_label: The Advanced tab
 ---
