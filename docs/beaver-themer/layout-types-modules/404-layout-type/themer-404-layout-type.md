@@ -2,6 +2,7 @@
 id: themer-404-layout-type
 title: Themer 404 layout type
 sidebar_label: Themer 404 layout type
+parse_number_prefixes: false
 ---
 
 The 404-type layout in Beaver Themer is used to create a custom 404 page. This Themer layout is different from other types, in that it can only apply to a single page, so in the usual case you'll be creating static content rather than using field connections in your modules.
@@ -17,3 +18,4 @@ You can certainly use field connections if you want to. For example, by using th
 :::tip **Tip**
 If you ever want to revert to this default layout, click the **Templates** button when you're editing the Themer layout in Beaver Builder.
 :::
+
