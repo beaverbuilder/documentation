@@ -2,6 +2,7 @@
 id: general
 title: The General tab in Customizer
 sidebar_label: General tab
+description: Describes all of the Beaver Builder Theme settings available on the General tab of the Customizer.
 ---
 
 <div className="embed-responsive">
@@ -71,7 +72,7 @@ If this setting is enabled, then an upward arrow icon appears in the lower right
 
 You can choose Bootstrap 3 or 4. If you're not sure, choose None. See the article about [Bootstrap versions](/bb-theme/management-migration/choose-bootstrap-3-or-4.md).
 
-### Font Awesome Icons
+### Font Awesome icons
 
 You can control how Font Awesome 5 loads by making one of the following choices:
 
@@ -81,7 +82,7 @@ You can control how Font Awesome 5 loads by making one of the following choices:
 
 See [this article about how Font Awesome icons load](/bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme.md) for details.
 
-### Theme Medium Breakpoint and Mobile Breakpoint
+### Theme medium breakpoint and mobile breakpoint
 
 A breakpoint is the number of pixels of browser width below  which medium-device behavior or small-device behavior starts. Defaults are 992px for Medium and 768px, respectively. 
 

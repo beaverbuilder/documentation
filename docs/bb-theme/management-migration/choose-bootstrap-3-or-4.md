@@ -2,9 +2,14 @@
 id: choose-bootstrap-3-or-4
 title: Choose Bootstrap 3 or 4
 sidebar_label: Choose Bootstrap 3 or 4
+description: Describes the bootstrap settings in the Beaver Builder Theme Customizer.
 ---
 
 Beaver Builder Theme is built on the Bootstrap framework, and Bootstrap is transitioning from Version 3 to Version 4. Here's a [good technical summary of the changes in Bootstrap 4](https://getbootstrap.com/docs/4.0/migration/). Note in particular the change in browser support.
+
+:::note **Note**
+The Beaver Builder Theme Version 1.7.9 upgraded to Bootstrap Version 4.6.0.
+:::
 
 In **Customize > General > Layout**, there's a **Framework** field with settings to help in the eventual transition to Bootstrap 4 or to choose which version of Bootstrap you want if you're having any issues. You can choose from the following settings:
 
@@ -18,7 +23,8 @@ In **Customize > General > Layout**, there's a **Framework** field with settings
   Loads the full version of Bootstrap 4.
 
 :::tip **Tip**
-The Minimal Bootstrap is a lightweight build that only contains the CSS needed for the grid system and basic styling. This Includes:
+The Minimal Bootstrap is a lightweight build that only contains the CSS needed for the grid system and basic styling. This includes:
+
 * Grid
 * Print Styles
 * Typography

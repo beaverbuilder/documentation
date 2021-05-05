@@ -2,11 +2,12 @@
 id: woocommerce
 title: The WooCommerce tab in Customizer
 sidebar_label: WooCommerce tab
+description: Describes all of the Beaver Builder Theme settings available on the WooCommerce tab of the Customizer.
 ---
 If you have the WooCommerce plugin installed, you'll see a **WooCommerce** tab in Customizer. This tab has the following settings:
 
 * **Store notice**  
-  Enter tet for a store notice to be shown site-wide.
+  Enter text for a store notice to be shown site-wide.
 * **Product catalog**
   * Choose what to display on the main shop pages (products, categories, both).
   * Choose what to display on product category pages (products, subcategories, both).
@@ -19,3 +20,7 @@ If you have the WooCommerce plugin installed, you'll see a **WooCommerce** tab i
   * Optionally select a page on your site for the terms and conditions.
   * Enter text for a privacy policy that will appear on the Checkout page.
   * Enter text for terms and conditions that will appear on the Checkout page.
+
+:::note **Note**
+If you have custom button settings at **Customize > General > Buttons**, they apply to WooCommerce buttons as well.
+:::
