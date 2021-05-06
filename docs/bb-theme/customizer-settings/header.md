@@ -178,7 +178,7 @@ The Nav area can be configured separately on the [**Nav layout**](#nav-layout) a
 
 #### Device view:
 
-You can check the layout at the three device sizes by clicking one of the [device view icons at the bottom of the Customizer panel.](h/bb-theme/getting-started/responsive-previews.md)
+You can check the layout at the three device sizes by clicking one of the [device view icons at the bottom of the Customizer panel](/bb-theme/getting-started/responsive-previews.md).
 
 #### Inline logo position
 
