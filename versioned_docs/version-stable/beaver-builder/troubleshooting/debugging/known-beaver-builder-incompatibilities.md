@@ -48,6 +48,10 @@ Builder because it is only coded to load in *wp-admin/widgets.php* and *wp-
 admin/customizer.php*. VideoPress calls admin-only code that breaks the media
 uploader on the front end.
 
+### [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache)
+
+If you have CSS Minify enabled in Page Optimization settings, then the Settings Panel can go fullscreen in responsive editing.  A workaround is to exclude the builder.  You can do that in the Tuning tab of Page Optimization.  Scroll down to URI Excludes and enter `?fl_builder` in the box and save and purge all caches.
+
 ### [Post video players, slideshow albums, photo galleries and music / podcast playlist](https://wordpress.org/plugins/video-playlist-and-gallery-plugin/)
 
 Incorrectly loads in jQuery, causing a second version to be loaded which
