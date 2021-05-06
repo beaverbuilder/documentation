@@ -5,6 +5,10 @@ sidebar_label: Add a menu item that links to a page section
 description: Here's how to create an anchor for a specific part of the page and link to it from a menu.
 ---
 
+<div className="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PofxCzgqbN8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
 You can add a menu item whose link goes to a specific section on the same page
 or a section on a different page. This works both with menus you set up in your theme and menus in the Beaver Builder Menu module. It's particularly useful for single-page websites where you have a menu for the various sections on that  page.
 
