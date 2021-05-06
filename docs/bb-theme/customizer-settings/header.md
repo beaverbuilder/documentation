@@ -2,7 +2,7 @@
 id: header
 title: The Header tab in Customizer
 sidebar_label: Header tab
-description: Describes the settings available on the Header tab in the Customizer
+description: Describes the Beaver Builder Theme settings available on the Header tab in the Customizer
 ---
 
 The [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) supports several different header styles with a variety of styling options.
@@ -60,7 +60,7 @@ Here's the default Nav Bottom layout on medium devices, with the same settings.
 
 ![](/img/customizer-settings-the-header-tab-f17b82f9.png)
 
-And here's the default mobile layout with the same settings. Either the Menu button or the hamburger icon will appear, depending on your setting in **Customize > Header > Nav Layout > Responsive nav toggle**.
+And here's the default mobile layout with the same settings. Either the Menu button or the hamburger icon will appear, depending on your setting in **Customize > Header > Nav layout > Responsive nav toggle**.
 
 ![](/img/customizer-settings-the-header-tab-7cffb1da.png)
 
@@ -77,7 +77,7 @@ See the article on [where menu colors come from](/bb-theme/defaults-for-styles/c
 
 #### Nav layout and style
 
-The Nav area can be configured separately on the Nav Layout and Nav Style tabs. See those sections for details.
+The Nav area can be configured separately on the [**Nav layout**](#nav-layout) and [**Nav Style**](#nav-style) tabs. See those sections for details.
 
 #### Device view
 
@@ -108,7 +108,7 @@ Disabled by default, or you can choose a type of fixed header. See [the article 
 
 #### Nav layout and style
 
-The Nav area can be configured separately on the [**Nav Layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
+The Nav area can be configured separately on the [**Nav layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
 
 #### Device view
 
@@ -139,7 +139,7 @@ See the article on [where menu colors come from](/bb-theme/defaults-for-styles/c
 
 #### Nav layout and style
 
-The Nav area can be configured separately on the [**Nav Layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
+The Nav area can be configured separately on the [**Nav layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
 
 #### Device view
 
@@ -174,11 +174,11 @@ See the article on [where menu colors come from](/bb-theme/defaults-for-styles/c
 
 #### Nav layout and style
 
-The Nav area can be configured separately on the [**Nav Layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
+The Nav area can be configured separately on the [**Nav layout**](#nav-layout) and [**Nav style**](#nav-style) tabs.
 
 #### Device view:
 
-You can check the layout at the three device sizes by clicking one of the WordPress device view icons at the bottom of the Customizer panel. There is one other setting for this layout choice.
+You can check the layout at the three device sizes by clicking one of the [device view icons at the bottom of the Customizer panel.](h/bb-theme/getting-started/responsive-previews.md)
 
 #### Inline logo position
 
@@ -209,7 +209,7 @@ This category has several settings that relate to two aspects of the header logo
 
 Choose **Text** or **Image** as the logo type.
 
-For text as the logo type, you can choose font family, font weight, and font size. Text and link color are determined by the settings in the **Customize > Header > Header Style** section.
+For text as the logo type, you can choose font family, font weight, and font size, logo text color and text hover color. Horizontal alignment is controlled by the header layout type.
 
 For image logos, you can add both a standard and high-DPI (retina) version. You can set a different header logo image for mobile devices in the **Mobile header logo** field. By default, the max-width breakpoint for mobile devices is 768px.
 
@@ -217,7 +217,7 @@ You can also upload a different standard and Retina logo for **Fade In** header 
 
 ## Nav layout
 
-On the **Nav Layout** tab, you can control the following aspects of the nav menu in the header.
+On the **Nav layout** tab, you can control the following aspects of the nav menu in the header.
 
 * **Nav item spacing**  
   Set the number of pixels between menu items.
@@ -235,8 +235,10 @@ Choose the breakpoint at which to display the Hamburger icon or Menu button. The
   * (Default): Small devices only  
 **Note**
 The default breakpoints are 992px for medium screens and 768px for small screens. You can [change these breakpoints on the **General** tab](/bb-theme/customizer-settings/general.md#theme-medium-breakpoint-and-mobile-breakpoint).
+* **Hamburger icon position**  
+If you chose to display a Hamburger icon, then you can change the vertical position where it appears. The default setting is `0` and increasing the value moves the icon down. You can set the [Responsive preview](/bb-theme/getting-started/responsive-previews.md) to mobile to view where it will appear.
 * **Responsive nav layout**  
-  You can choose one of the animated flyout settings or the standard menu dropdown to appear when you click the Hamburger icon or Menu button. For more information about each choice, see [the article about flyout animations](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md).
+You can choose one of the animated flyout settings or the standard menu dropdown to appear when you click the Hamburger icon or Menu button. For more information about each choice, see [the article about flyout animations](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md).
 * **Responsive nav layout position** (Appears only when **Responsive nav layout** is set to a flyout choice.)  
   Choose whether the flyout menu appears to the left or right.
 * **Responsive submenu toggle**  
