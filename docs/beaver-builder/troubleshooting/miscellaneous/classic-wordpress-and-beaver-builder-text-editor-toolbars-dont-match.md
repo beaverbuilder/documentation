@@ -56,8 +56,7 @@ it breaks Beaver Builder. Insert a link instead.
   4. Certain plugin buttons  
 See the next section.
 
-## Plugin buttons or icons in the classic WordPress toolbar missing in the
-Beaver Builder text editor
+## Plugin buttons or icons in the classic WordPress toolbar missing in the Beaver Builder text editor
 
 In addition, there can be special buttons or icons on your WordPress editor
 toolbar for plugins that don't appear in the Beaver Builder text editor.
