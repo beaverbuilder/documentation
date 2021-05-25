@@ -54,7 +54,7 @@ You can completely disable inline editing by using the `fl_inline_editing_enable
 ### Example:
 
 ```php
-add_filter(' fl_inline_editing_enabled', '__return_false' );
+add_filter( 'fl_inline_editing_enabled', '__return_false' );
 ```
 
 ## Disable notifications from Beaver Builder in the UI
