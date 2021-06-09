@@ -4,6 +4,10 @@ title: Show or hide the WordPress page title
 sidebar_label: Show or hide the WordPress page title
 ---
 
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/39fRCRyVSJ0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
 If you are using Beaver Builder Theme, the title that you assign to the page
 in WordPress is hidden on pages with Beaver Builder layouts by default, though you can set it
 to show if you prefer.
