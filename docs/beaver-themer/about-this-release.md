@@ -5,13 +5,13 @@ sidebar_label: About this release
 description: Describes the features in this Beaver Themer release.
 ---
 
-Here are the new features for Beaver Themer 1.4-alpha. <!-- Features for the latest alpha version (alpha.2) are labeled. -->
+Here are the new features for Beaver Themer 1.4-alpha. Features for the latest alpha version (alpha.2) are labeled. 
 
 :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback. See [this article](/general/alpha-and-beta-releases.md/#install-an-alpha-or-beta-plugin-release) for information about installing prerelease versions.
 :::
 
-## Themer Singular layout enhancement
+## Layout enhancements
 
 ### Singular layouts can have Beaver Builder layouts in the post content area
 
@@ -31,9 +31,7 @@ When you choose to edit a single post in Beaver Builder, a message is displayed 
 
 You can change your decision later about whether to apply the Singular layout to this post. In the Beaver Builder editor for this post content, open the **Tools** menu and choose **Themer override**. The same choice box is displayed, asking you to choose whether to override or use the Themer Singular layout for this page.
 
-## Themer Header layout enhancement
-
-### Set the breakpoint for sticky headers
+### Header layouts: Set the breakpoint for sticky headers
 
 The Themer Header layout has a **Sticky** setting that in previous releases applied only to large devices. You can now choose which breakpoints it applies in the **Sticky breakpoint** setting. 
 
@@ -45,7 +43,19 @@ If the **Shrink** setting is set to **Yes** it also follows the **Sticky header*
 
 The **Overlay** setting is independent of the "Sticky header" setting and continues to work at all device sizes.
 
-## Field connections
+### Header layouts: four new layout templates (alpha.2)
+
+When you create a Themer layout, a layout template is automatically assigned. You can change the layout template by opening the Content panel and clicking the **Templates** tab. By default, the **Header 1** layout template is assigned, but you can select any of Headers 2-5, as shown in this screenshot:
+
+![Header Themer layout templates in the Content panel](/img/themer-header-templates.png)
+
+### Footer layouts: four new layout templates (alpha.2)
+
+Themer Footer layouts also have four new layout templates on the **Templates** tab of the content panel, as shown in this screenshot:
+
+![Footer Themer layout templates in the Content panel](/img/themer-footer-templates.png)
+
+## Field connection enhancements
 
 ### Field connection to pull the current, newest, or oldest post
 
@@ -82,3 +92,8 @@ In the following screenshot, a custom field was created in ACF called **Smart Sl
 
 ![Adding a field connection to an ACF Smart Slider field type](/img/themer-1-4-features-3.png)
 
+## Conditional logic enhancements (alpha.2)
+
+The **Browser** conditional logic category has been added to the  **Rules** section of the Beaver Themer editing panel. It was already available in the **Display** setting on the **Advanced** tab in Beaver Builder modules. The selections are documented in the [Conditional Logic article](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md/#browser). It has the selections **Cookie**, **Referer**, and **URL variable**.
+
+![Conditional logic browser settings in the Rules section in the Themer editing screen](/img/browser-conditional-logic-settings-in-rules.png)
