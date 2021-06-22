@@ -41,14 +41,18 @@ Suppose you have a client who has a Call to Action on their home page that they 
 
 ![](/img/connect-to-acf-fields-themer-50fe44f5.jpg)
 
-To display these fields on the front end, you create a layout in Beaver Builder with connections to these ACF fields, using a Heading module, Text Editor module, Photo module, and Button module respectively. This way, the client only needs to provide the content, while the layout and style are created automatically.
+To display these fields on the front end, create a layout in Beaver Builder with connections to these ACF fields, using a Heading module, Text Editor module, Photo module, and Button module respectively. This way, you only need to provide the content in the back end, while the layout and style are created automatically in the front end.
 
 ![](/img/connect-to-acf-fields-themer-fe6864e7.jpg)
 
 You could even let the client choose colors for the background, text, and button, using a Color Picker custom field.
 
 :::tip **Tip**
-As long as Beaver Themer is installed, field connections are available in both regular Beaver Builder layouts and Themer layouts, so you have many options in where and how you choose to display custom fields. You can put this callout example into a Part-type Themer layout, which you can assign to a specific position outside the content area on any pages you specify. If you want the custom field to appear inside the content area of a regular Beaver Builder layout, you can use a field connection in a regular Beaver Builder layout, and then save the row, column, or module to reuse it. Or, if the site makes use of layout templates for consistency across pages, you can add it there.
+As long as Beaver Themer is installed, field connections are available in both regular Beaver Builder layouts and Themer layouts, so you have many options in where and how you choose to display custom fields. You can put this callout example into a Part-type Themer layout, which you can assign to a specific position outside the content area on any pages you specify. 
+
+If you want the custom field to appear inside the content area, you can use a field connection in a regular Beaver Builder layout, then [save the row, column, or module](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) to reuse it. 
+
+Or, if the site makes use of [layout templates](/beaver-builder/layouts/templates/layout-templates-overview.md) for consistency across pages, you can add it there.
 :::
 
 ## ACF field connection choices

@@ -27,5 +27,5 @@ The Beaver Builder plugin gives you the ability to lay out and add content to ma
 
   * The header, footer, location of the sidebar, and Post information and metadata are controlled by the active WordPress theme. Beaver Themer overrides this control as appropriate.
   * WordPress allows only one content area on a Post or Page.
-  * If you use the [Singular Themer layout](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type.md) to set up a Post page, you'll have to use the WordPress editor for the content area. If you want to use Beaver Builder to design layout inside the content area, use regular Beaver Builder, not a Singular Themer layout. 
+  * The [Singular Themer layout](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type.md) lets you create Beaver Builder layouts for the information that lies outside the countent area of a single post. To use Beaver Builder for the content area of a post, use a regular Beaver Builder layout. Be sure to [enable the **Posts** post type in the Beaver Builder settings](/beaver-builder/management-migration/settings-overview.md/#post-types-tab). 
 :::

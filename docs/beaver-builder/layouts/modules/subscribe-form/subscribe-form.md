@@ -105,7 +105,7 @@ If you're mocking up a website but don't have a subscription service enabled yet
 |  **Structure**  | **Layout** |  Choose **Stacked** (vertical layout) or **Inline** (horizontal layout).  |
 |  |  **Name field**  |  (Default is **Show**.) Show or hide on the form.  |
 |  |  **Name field text**  |  (Default is "Name.") Modify if you want to customize the field's placeholder text.  |
-|  |  **Email field text**  |  (Default is "Email Addresse.") Modify if you want to customize the field's placeholder text.  |
+|  |  **Email field text**  |  (Default is "Email Address.") Modify if you want to customize the field's placeholder text.  |
 |  |  **Terms and Conditions checkbox**  |  (Default is **Hide**.) If set to **Show**, new settings appear to customize the text label and to enter the terms and conditions. If you enable this setting, users are required to accept them for form submission to be successful.  |
 |  **Success**  | **Notification subject** | The subject of the notification email that the subscriber receives. The default subject is "Subscribe Form Signup."  |
 |  |  **Success action**  | **Show message** means the confirmation message is displayed in place of the Subscribe Form. **Redirect** lets you provide a URL to a different page where you can provide your own message.  |
