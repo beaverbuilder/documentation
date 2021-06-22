@@ -4,6 +4,10 @@ title: Smooth scrolling links
 sidebar_label: Smooth scrolling links
 ---
 
+<div className="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Aatomn_Nxuc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
 You can add an `ID` to a target row, column, or module so that links from other
 locations will go directly to that spot on a page. When the link and target
 are on the same page, the page will smoothly scroll up or down to the target
