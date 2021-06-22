@@ -21,7 +21,7 @@ Beaver Builder layouts:
 You can [change the margins and padding](/beaver-builder/layouts/margins-padding/change-individual-margin-and-padding-settings.md) of individual rows and columns, and you can change the margins of individual modules. You can set different values for each device size.
 
   * **Site-wide**  
-You can [change the global default ettings](/beaver-builder/layouts/rows/set-global-site-wide-default-row-widths.md), which are then used as the defaults in individual rows and modules. You can set global margins and padding values for each device
+You can [change the global default settings](/beaver-builder/layouts/rows/set-global-site-wide-default-row-widths.md), which are then used as the defaults in individual rows and modules. You can set global margins and padding values for each device
 size. By default, the desktop global setting propagates to all device sizes.
 
   * **Mobile auto spacing**  

@@ -4,36 +4,52 @@ title: Singular layout type
 sidebar_label: Singular layout type
 ---
 
-The Singular layout type in Beaver Themer (which [can be purchased here](https://www.wpbeaverbuilder.com/beaver-themer/)) is usually applied to single posts and custom post types.
+The Singular layout type in Beaver Themer (which [can be purchased here](https://www.wpbeaverbuilder.com/beaver-themer/)) is most often applied to single posts and custom post types, though it can also be applied to pages.
 
 The Singular layout includes the parts of the page shown in the following diagram, which includes standard information that is associated with single posts: the post title and post info, post content, post categories or tags, an author bio, post navigation, and post comments.
 
 ![](/img/themer-singular-layout-type-8934fe9e.png)
 
-You can also include a sidebar in the Singular layout by using a standard Sidebar module.
+You can add a sidebar to a Singular layout by adding a second column to the layout.
 
 :::tip **Tip**
 If you'd like a short refresher on the WordPress content area versus other parts of the page, see [this primer](/beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer.md).
 :::
 
-##  Special behavior of the Singular Themer layout
-
-The Singular Themer layout behaves differently from the other Themer layout types because it is the only layout type that includes a module that is a placeholder for the post content, which you edit in the native WordPress editor.  
-
-:::note **Note**
-If you use Beaver Builder instead of the WordPress editor to create a layout for the post content, you cannot apply a Singular Themer layout to that post.
-:::
+##  Properties of the Singular Themer layout
 
 Here are the special properties of the Singular Themer layout:
 
-* It has special modules that display post title, author, date, category, comments, post navigation, and featured image, as shown in this screenshot.  
+* It has special Themer modules that display post title, author, date, category, comments, post navigation, and featured image, as shown in this screenshot.  
   ![](/img/themer-singular-layout-type-97aeeacd.png)  
-  The template for the Singular Themer layout already includes most of these modules. See the next section.
+  The [template](#singular-themer-layout-template) for the Singular Themer layout already includes most of these modules.
 * These modules use [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) to display the correct information for each post.
-* The Post Content module pulls the post's content from the WordPress text editor (standard or classic).  
-  That's why the Singular layout usually is usually used for posts rather than pages.
+* The Post Content module pulls the post's content from the post itself.  
+The post content is pulled from either the WordPress text editor or a Beaver Builder layout. In the following screenshot of a Singular layout, the post content area contains a Beaver Builder layout pulled from a post.  
+![Singular Themer layout with Beaver Builder post content layout](/img/singular-layout-3.jpg)
 * There can only be one content area for a post or page. If you include more than one Post Content module in a Singular Themer layout, the content from the post will repeat.
-* If you use WooCommerce, Easy Digital Downloads, or The Events Calendar, the **Themer layout** group in the Content panel has additional sections of modules specifically for those post types.
+* The **Themer layout** group in the Content panel has additional sections of modules specifically for these plugins, if they're installed:  
+  * BigCommerce
+  * WooCommerce
+  * Easy Digital Downloads
+  * The Events Calendar
+
+## Extra step for Singular layouts with Beaver Builder layouts in the content area
+
+By default, when a post or page has a Beaver Builder layout, any Singular Themer layout that applies is overridden to make sure content area layouts and Themer layouts don't look bad together. More specifically, a standard Beaver Builder in an individual page or post  overrides the setting in the Themer **Location** field. 
+
+To make a Themer layout apply to a post or page with a Beaver Builder layout, you have to set each post page to accept the Singular Themer layout. Here's how.
+
+****To set a page or post with Beaver Builder content to accept or overriide a Themer layout:**
+
+1. Add a new page or post or open an existing page or post in the Beaver Builder editor.  
+  A choice box appears when the editor opens. If you don't see the choice box, open the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md) and click **Themer override** to open the choice box.
+2. Choose one of the following options:  
+    * **Override layout**  
+    Block the Singular Themer layout and use Beaver Builder in the content area only.  
+    * **Edit content only**  
+  Accept the Singular Themer layout and use Beaver Builder in the content area also.
+3. Publish the post or page.
 
 ## Singular Themer layout template
 

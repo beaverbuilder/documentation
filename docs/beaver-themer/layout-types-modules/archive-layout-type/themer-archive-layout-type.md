@@ -4,7 +4,7 @@ title: Archive layout type
 sidebar_label: Archive layout type
 ---
 
-The Archive-type layout in Beaver Themer applies to the content area in which WordPress generates lists of posts.
+The Archive-type layout in Beaver Themer applies to the type of page in which WordPress automatically generates lists of posts.
 
 ![](/img/themer-archive-layout-type-90f1b12f.png)
 
