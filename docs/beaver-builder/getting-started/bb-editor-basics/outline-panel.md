@@ -23,7 +23,7 @@ Right-click any entry to see a list of options. Rows and columns have **Open set
 
 ## Move modules in the Outline panel
 
-You can move modules (but not rows and columns) within the Outline panel by dragging and dropping. Currently (as of 2.5-alpha.4) you cannot drag modules into empty columns, and you can't move rows or columns. 
+You can move modules (except for subcolumns) within the Outline panel by dragging and dropping. 
 
 ## Add a label that displays in Outline view
 

@@ -5,7 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this release of the Beaver Builder plugin.
 ---
 
-Here are the Beaver Builder 2.5 features as of Version 2.5-alpha.4.  Changes for alpha.4 are marked in the text.
+Here are the Beaver Builder 2.5 features as of Version 2.5-beta.
 
 :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
@@ -20,8 +20,6 @@ The new Outline panel lets you view the structure of your page layout in an outl
 Access the Outline panel by clicking the Outline icon to the left of the **Done** button in the editor:
 
 ![Outline panel icon in the Beaver Builder editor](/img/2-5-features-outline-panel-icon-363.png) 
-
-Changes in the latest release: You can move modules within the Outline panel. (Version 2.5-alpha.4)
 
 See [the article about the Outline panel](./beaver-builder/getting-started/bb-editor-basics/outline-panel.md) for more information.
 
@@ -57,8 +55,20 @@ To restore normal History Manager functionality, remove this code from the *wp-c
 
 ## Existing module improvements
 
+### Button Group module
+
+When **Layout** on the **Style** tab is set to **Horizontal**, there is a **Width** setting that controls the width of all buttons in the group. The Width setting has two values: 
+
+* **Default**  
+The width of each button varies according to the individual button text plus padding. Longer text has longer button width:
+![Button group width setting for horizontal layouts, 2.5 features](/img/about-this-release-2-5-button-group-module-default-width.png)
+* **Custom**  
+The width of all of the buttons is set to the custom width. Text wraps if necessary:
+![Button group width setting for horizontal layouts, 2.5 features](/img/about-this-release-2-5-button-group-module-custom-width.png) 
+
 ### Contact  Form module
-Contact Form labels (the **Show labels/placeholders** setting on the **General** tab) can be translated. (Version 2.5-alpha.4)
+
+Contact Form labels (the **Show labels/placeholders** setting on the **General** tab) can be translated.
 
 ### Content Slider module
 
@@ -76,11 +86,11 @@ On the **Link** tab for individual slides,  if you add a button, the **Padding**
 
 ### Countdown module
 
-The **Style** tab now has the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both numbers and text. (Version 2.5-alpha.4)
+The **Style** tab now has the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both numbers and text. 
 
 ### HTML module
 
-The code editor has line numbers and automatic line wrap. (Version 2.5-alpha.4).
+The code editor has line numbers and automatic line wrap. 
 
 ### Icon Group module
 
@@ -92,13 +102,13 @@ You can now add text to each Icon item:
 
 The text can be formatted in the [Typography section](/beaver-builder/styles/typography/typography.md) on the **Style** tab. There are no text style settings for individual items.
 
-#### The Alignment setting is responsive (Version 2.5-alpha.4)
+#### The Alignment setting is responsive
 
 The **Alignment** setting on the **Style** tab, which horizontally aligns the entire icon group within its column, now has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) to set different alignments at large, medium, and small devices. 
 
 ### List module
 
-You're not losing your mind. On the **General** tab, the settings were rearranged so the **List items** section appears at the top. (Version 2.5-alpha.4)
+On the **General** tab, the settings were rearranged so the **List items** section appears at the top.
 
 ### Menu module
 
@@ -106,40 +116,28 @@ The Menu module has the following new features. See the [Menu module article](/b
 
 #### New General tab settings
 
-* Link to Menu page when there is no menu (Version 2.5-alpha.4)  
-For the **Menu** setting you normally choose an existing menu. If there is no menu to choose, there's an **Add menu** link  that opens a new tab on the **Appearance > Menus** page so you can create a menu. Note that when you're finished, you can close the additional tab and will need to reload the page in the previous tab to display the new menu choice.
-* Centered inline logo option  
-There's a new section to create a centered inline menu by inserting a logo.  
-![Menu module centered inline logo, 2.5 features](/img/2-5-features-menu-module-centered-inline-logo.png) 
+* Link to Menu page from the **Layout** setting when there is no menu
+* A centered inline logo option  
 * Option to add search  
-There's a new section to add search to the menu:  
-![Menu module, add search, 2.5 features](/img/2-5-features-menu-module-search-option.png) 
 * Option to responsively stack or wrap horizontal menu items  
-When your menu's **Layout** setting is **Horizontal** and you set the **Responsive toggle** to **None**, that means the menu items continue to be displayed on smaller devices rather than changing to a Hamburger icon or Menu button. In this case, then a new setting appears immediately under the **Responsive toggle** setting, called **Stacked layout**. If this setting is **Yes**, then on smaller devices the menu items stack vertically, whereas with a choice of **No**,  on smaller devices the menu items wrap.
 
 #### New Style tab settings
 
-* The **Dropdowns** section now has [Typography settings](/beaver-builder/styles/typography/typography.md) to style the text in dropdowns for submenus.
-* There is a new **Responsive dropdown** section so you can style responsive dropdown settings differently from the dropdown settings for larger devices. (Version 2.5-alpha.4)
-* There is a new **Responsive toggle** section with options to set the size of the Responsive toggle, plus submenu dropdown background colors, text colors, and borders.  
-![Menu module responsive toggle, 2.5 features](/img/2-5-features-menu-module-responsive-toggle.png) 
+* [Typography settings](/beaver-builder/styles/typography/typography.md) in the **Dropdowns** section, to style the text in dropdowns for submenus.
+* A new **Responsive dropdown** section, to style responsive dropdown settings differently from the dropdown settings for larger devices.
+* A **Responsive toggle** section with options to set the toggle size, submenu dropdown background colors, text colors, and borders.  
 
 #### Support for WooCommerce Dynamic Cart 
 
-If you have WooCommerce installed, there's now a **WooCommerce** tab to display the WooCommerce Dynamic Cart. You can display the number of items, the total amount, or both. You can style the options you choose in the **WooCommerce dynamic cart** section of the **Style** tab.
-
-This screenshot shows the difference between the **Cart** menu item added to the WordPress menu at **Appearance > Menus** versus the dynamic cart added with the Menu module:
-
-![Menu module WooCommerce dynamic cart, 2.5 features](/img/2-5-features-menu-module-woocommerce-cart.png) 
-
+If you have WooCommerce installed, there's a **WooCommerce** tab with options to display the WooCommerce Dynamic Cart, with additional settings on the **Style** tab.
+ 
 ### Number Counter module
 
-Improvements in Version 2.5-alpha.4:
-
 * In the bar display of the number, you can now set the height of the bar.  
-On the **General** tab, when **Layout** is set to **Bars counter**,  then on the **Style** tab in the **Bar styles** section, there is a new setting for **Bar height**. This option also has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) so you can adjust the height differently for large, medium, and small devices. (Version 2.5-alpha.4)
+On the **General** tab, when **Layout** is set to **Bars counter**,  then on the **Style** tab in the **Bar styles** section, there is a new setting for **Bar height**. This option also has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) so you can adjust the height differently for large, medium, and small devices.
 * You can hide the number entirely in the bar display.  
 On the **General** tab, set **Number position** to **Hidden**.
+* The **Style** tab now has the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both numbers and text. 
 
 <!---  ### Posts module
 
@@ -167,7 +165,7 @@ The Pricing Table module has several enhancements, summarized in this screenshot
 There's a new **Toggle pricing** option where you can choose  a single price or a toggle to display dual pricing. If you enable the toggle, you can also choose the two billing options (the default is Monthly/Yearly). Then in each pricing box, there are fields to enter the price for each billing option. On the front end, there's a toggle with the two billing options, as shown in the screenshot above. 
 
 #### Display a ribbon
-For each price column, you can select an option to display a ribbon with custom text in the top center (Version 2.5-alpha.4), upper left corner, or upper right corner.
+For each price column, you can select an option to display a ribbon with custom text in the top center, upper left corner, or upper right corner.
 
 #### New options for each pricing feature
 
@@ -192,6 +190,10 @@ Typography sections have also been added to the **Title** and **Price** in each 
 The Separator module has new responsive toggles for both the **Height** and **Alignment** settings, with the result that you can now specify different settings for height, width, and alignment for large, medium, and small devices. 
 
 ![Separator module height and alignment settings now responsive in 2.5](/img/2-5-features-separator-module-settings.png) 
+
+### Slideshow module
+
+The Google+ icon has been removed.
 
 ### Subscribe Form module
 
@@ -222,7 +224,7 @@ For posts (including pages and custom post types) that use a Beaver Builder layo
 
 ![Duplicate post, a 2.5 feature](/img/2-5-features-duplicate-post.png) 
 
-Where possible, this feature hides the **Duplicate** option that comes from other plugins for pages and posts that have Beaver Builder layouts. These other plugins often don't work well with Beaver Builder. (Version 2.5-alpha.4)
+Where possible, this feature hides the **Duplicate** option that comes from other plugins for pages and posts that have Beaver Builder layouts. These other plugins often don't work well with Beaver Builder.
 
 :::note **Note**
 You can still [duplicate pages from the Tools menu in the Beaver Builder editor](/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md).
@@ -256,7 +258,7 @@ If the URL already has a `?` parameter in use, then use `&showerrors` instead. F
 ### Automatic clearing of CSS and JavaScript files
 CSS and JavaScript files are now automatically cleared when the URL changes.
 
-### Filter to add a mail service to the Subscribe module (Version 2.5-alpha.4)
+### Filter to add a mail service to the Subscribe module
 
 The `fl_builder_subscribe_form_services` filter lets you add a service to the list displayed in the Subscribe Form module. Here's an example.
 
@@ -272,6 +274,9 @@ function bb_subscribe_form_custom_service( $services ) {
 }
 add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
 ```
+### The suggest field in posts is sortable
+
+For module developers, the `suggest` field is sortable. See the [Module Development Guide](/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference.md/#suggest-field).
 
 ### WP-CLI enhancements
 

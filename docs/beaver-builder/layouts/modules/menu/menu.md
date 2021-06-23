@@ -23,9 +23,7 @@ The Menu module displays items from [a WordPress menu that you designate](#menu)
 
 In the **Menu** field, choose the  WordPress menu that you have defined in **Appearance > Menus** from the WordPress admin panel. This menu defines which items are displayed in the menu.
 
-:::tip **Tip**
-If you're using the Beaver Builder Theme, you can also choose your menus and settings at **Appearance > Customize > Menus**.
-:::
+If the website has no menu, this field says **No menu found** with a link to add one, which opens **Appearance > Menus** in a new tab. When you're finished, close the additional tab and reload your layout page in the previous tab to display the new menu choice.
 
 ### Layout
 
@@ -77,7 +75,7 @@ The behavior changes when the menu is displayed as an icon. See [the section on 
 
 The Accordion layout is a vertical layout that expands the menu to display submenu items inline when the toggle icon is clicked. Here's a screenshot showing two submenu items after the down arrow on the **Home** menu link was clicked.
 
-![](/img/menu-module-accordion-layout-submenu-flush.png)
+![Menu module, submenu items in an accordion layout](/img/menu-module-accordion-layout-submenu-flush.png)
 
 :::tip **Tip**
 You can see from the screenshot that the submenu is left-aligned with the main menu items, so it's a good idea to change the submenu background color at **Style > Dropdown**.
@@ -87,7 +85,7 @@ You can see from the screenshot that the submenu is left-aligned with the main m
 
 The Expanded layout is similar to the [WordPress Navigation Menu widget](https://en.support.wordpress.com/widgets/navigation-menu-widget/). The following screenshot shows an example. Top-level menu and submenu items are displayed in a list and both top-level and submenu items are left-aligned. 
 
-![](/img/menu-module-expanded-layout.png)
+![Menu module, expanded layout](/img/menu-module-expanded-layout.png)
 
 :::tip **Tip**
 * You can distinguish submenu items from main menu items with different background colors. The hover color shown in the screenshot comes from the **Style > Dropdowns > Link hover background color**.  The **Style > Dropdowns > Dropdown background color** is ignored.
@@ -131,13 +129,15 @@ When there's an odd number of menu items, the logo cannot appear exactly in the 
 Horizontal menu items wrap onto a second line as screen size decreases, so be sure to test responsive behavior. The alignment of the wrapped line follows the alignment setting in the **Style > Menu** section.
 :::
 
-### Option to add search
+### Add search
 
-You can add a search icon to the menu, as you've seen in many of the layout screenshots in this article. When the icon is clicked, a search form opens, shown in this screenshot.
+In the **Search** section of the **General** tab, you can show or hide a search icon to the menu, shown in this screenshot.
 
 ![Menu module, search icon clicked](/img/menu-module-vertical-expanded-search-form.jpg)
 
-The **General > Search** section contains the options to show or hide the search icon and to replace the default icon with an icon from the available icon set. You can style both the search icon and the search form on the **Style** tab.
+You can replace the default icon with an icon from the [available icon sets](/beaver-builder/management-migration/settings-overview.md/#icons-tab). 
+
+In the [**Search menu** section of the **Style** tab](#search-menu-section), you can style both the search icon and the search form that appears when you click the icon.
 
 ### Set responsive behavior
 
@@ -155,11 +155,15 @@ This setting includes both the Hamburger icon and a MENU label, with an optional
 This setting is a button with a label.  By default, the menu button label is **Menu** unless you have a custom setting for [**Menu name**](#menu-name). 
 ![Menu button example](/img/menu-module-menu-button.png)
 * **None**  
-This setting displays an [Accordion layout](#layout-accordion). With this setting, you won't see the settings for **Responsive style** and **Responsive breakpoint** described in the following two sections.
+With this setting, the menu items continue to be displayed on smaller devices rather than changing to a Hamburger icon or Menu button.  
+For a menu whose **Layout** setting is **Horizontal**, another setting appears immediately underneath the **None** setting, called **Stacked layout**. As shown in the following screenshot, if this setting **No**, the menu remains horizontal and wraps on small devices. If  **Yes**, then on smaller devices the menu items are displayed in an Accordion (vertical) list.  
+![Menu module, resonsive toggle non, stacking option](/img/menu-module-responsive-section.png)
+For all other menu layouts, the **None** setting displays an [Accordion layout](#layout-accordion).   
+With the **None** setting, you won't see the settings for **Responsive style** and **Responsive breakpoint** described in the following two sections.  
 
 #### Responsive style 
 
-This setting has the following  options for the menu expansive when the responsive icon or button is clicked.
+This setting has the following  options for menu expansion when the responsive icon or button is clicked. 
 
 * **Inline**  
 The expanded menu falls below the hamburger. This works for centered menus but doesn’t work if, for example, you have a hamburger in a small column on the right. The menu gets squished.
@@ -180,7 +184,11 @@ By default, the responsive menu appears on small devices only, but you can chang
 
 ## WooCommerce tab
 
-If the WooCommerce plugin is installed, there's a **WooCommerce** tab with settings for the WooCommerce dynamic cart, which includes quantity or pricing information and which has been shown in many of the screenshots in this article. This tab has the following settings.
+If the WooCommerce plugin is installed, there's a **WooCommerce** tab with settings for the WooCommerce dynamic cart, which includes quantity or pricing information. The following screenshot shows the difference between the **Cart** menu item added to the WordPress menu at **Appearance > Menus** versus the dynamic cart added with the Menu module:
+
+![Menu module WooCommerce tab](/img/menu-module-woocommerce-tab.png) 
+
+This tab has the following settings.
 
 * **Menu cart**  
 If you choose **Hide**, the word **Cart** appears instead of the dynamic cart. If for some reason you prefer to show a cart icon that doesn't include the dynamic information about the cart, here's an article that shows [how to replace the word `Cart` with an icon](/beaver-builder/styles/icons/add-an-icon-to-a-menu-item.md). 
@@ -190,6 +198,8 @@ You can replace the default Cart icon with another icon from your [icon library]
 This setting determines whether the dynamic cart icon appears in the menu on the Checkout page.
 * **Display type**  
 This setting lets you choose which dynamic information appears with the icon: number of items in the cart, total purchased, or both.
+
+You can style the options you choose in the **WooCommerce dynamic cart** section of the **Style** tab.
 
 ## Style tab
 
@@ -263,17 +273,20 @@ You can add a border, round the corners, and add a shadow around the dropdown su
 
 See the article about typography settings [Typography section](/beaver-builder/styles/typography/typography.md) to style your submenu text.
 
+### Responsive dropdowns
+
+You can style the following responsive dropdown settings differently from the dropdown settings for larger devices:
+
+* Link color
+* Link hover color
+* Link hover background color
+* Dropdown background color
+
 ### Responsive Toggle section
 
-If **General > Responsive toggle** is set to anything other than **None**, there's a **Responsive toggle** section on the **Style** tab where you can set the following options:
+If **General > Responsive toggle** is set to anything other than **None**, there's also a **Responsive toggle** section on the **Style** tab where you can set the size of the Responsive toggle plus submenu dropdown background colors, text colors, and borders, as shown in this screenshot.
 
-* Size of the hamburger icon or Menu button, in px, em, or rem.
-* Background color
-* Hover background color
-* Color  
-This would, for example, set the color of the lines in the Hamburger icon or the Menu button and text.
-* Hover color
-* Border
+![Menu module responsive toggle on Style tab](/img/menu-module-style-tab-responsive-toggle.png) 
 
 ### Search Menu section
 
