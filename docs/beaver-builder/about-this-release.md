@@ -139,10 +139,12 @@ On the **General** tab, when **Layout** is set to **Bars counter**,  then on the
 On the **General** tab, set **Number position** to **Hidden**.
 * The **Style** tab now has the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both numbers and text. 
 
-<!---  ### Posts module
+### All Posts modules
 
-The **No posts found** option has been moved to the **Content** tab.
--->
+If you want to display a defined set of posts or pages, categories, or tags in a custom order, you can set this up on the **Content** tab. As of Beaver Builder 2.5, you can reorder your custom selection in any of the **Filter** section settings by dragging listed items. For example, in the following screenshot showing three posts about insects, you can change the order of posts in the **Match these posts** setting.
+
+![Settings to order a filtered set of posts - 2.5 features](/img/2-5-features-posts-order-by-selection.jpg)
+
 ### Posts Carousel module
 
 Now includes the standard Beaver Builder [Typography section](/beaver-builder/styles/typography/typography.md) for the **Post Title** and **Post Info** sections.
