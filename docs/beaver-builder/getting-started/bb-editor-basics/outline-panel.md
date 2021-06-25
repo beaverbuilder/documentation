@@ -21,9 +21,9 @@ Click once in any entry in the Outline panel to scroll to that element in the la
 
 Right-click any entry to see a list of options. Rows and columns have **Open settings** and **Remove** options. Modules have **Open settings**, **Duplicate**, and **Remove** options.
 
-## Move modules in the Outline panel
+## Move elements in the Outline panel
 
-You can move modules (except for subcolumns) within the Outline panel by dragging and dropping. 
+You can move rows, columns (except for subcolumns), and modules within the Outline panel by dragging and dropping. 
 
 ## Add a label that displays in Outline view
 
