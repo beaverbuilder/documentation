@@ -7,7 +7,9 @@ description: The HTML module lets you insert custom code and markup into your la
 
 The HTML module lets you insert custom code and markup into your layouts that is rendered directly to the HTML output.
 
-![](/img/html-module-1.png)
+![](/img/html-module-2.png)
+
+Like other code editors, the HTML has line numbering and text wrap, which are not visible in the published version.
 
 ## Uses of the HTML module
 

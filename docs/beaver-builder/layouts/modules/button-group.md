@@ -7,7 +7,7 @@ description: The Button Group module displays multiple buttons in a single colum
 
 The Button Group module is a way to display multiple buttons in a single column, either horizontally or vertically. 
 
-![](/img/button-group-30a865c5.png)
+![Button group module example](/img/button-group-30a865c5.png)
 
 It's based on the [Button module](/beaver-builder/layouts/modules/button/button.md), so the settings are very similar.
 
@@ -41,17 +41,25 @@ This tab has four sections: a top section, **Text**, **Background**, and **Borde
 
 #### 1 Top section (global)
 
-Here's a diagram that illustrates the global padding and spacing settings in this section. Each setting is described below.
+Here's a diagram that illustrates the global padding, spacing, and width settings in this section. Each setting is described below.
 
-![](/img/button-group-padding-and-spacing.png)
+![Button group padding, spacing, and width](/img/button-group-2.png)
 
 * **Layout**  
 Choose a horizontal or vertical placement of the buttons.
 
 :::tip **Tip**
-A horizontal layout still stacks the buttons vertically as screen size decreases. Enter <kbd>R</kbd> on the keyboard to enter [Responsive Mode](/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder/) to compare layouts at different screen sizes.
+A horizontal layout wraps the buttons to another line as screen size decreases. A vertical layout wraps the button text to another line as screen size decreases. Enter <kbd>R</kbd> on the keyboard to enter [Responsive Mode](/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder/) to compare layouts at smaller screen sizes.
 :::
 
+* **Width**  
+This setting controls the width of the buttons in the group. The values are **Default** and **Custom** but the behavior varies according to the type of layout.   
+When **Width** is **Default** and **Layout** is **Horizontal**, the width of each button varies according to the individual button text plus **Button padding**. This means that buttons with more text are wider:  
+![Button group - Default width setting for horizontal layouts](/img/button-group-3.png)  
+Buttons wrap to a second horizontal line if necessary but the text doesn't wrap.  
+When  **Width** is **Default** and **Layout** is **Vertical**, the button spans the entire width of the container minus the **Container padding** amount. Button text wraps if necessary.  
+When **Width** is set to **Custom** in either horizontal or vertical layouts, the width of every button is set to the custom width you specify. Text wraps if necessary:
+![Button group - Custom width setting for horizontal layouts](/img/button-group-4.png)   
 * **Align** (responsive)  
 This setting horizontally aligns the entire button container within its row or column. See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for a description of how the alignment toggle settings work.
 * **Container padding** (responsive)  
