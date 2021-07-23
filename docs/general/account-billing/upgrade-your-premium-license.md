@@ -2,6 +2,7 @@
 id: upgrade-your-premium-license
 title: Upgrade your premium license
 sidebar_label: Upgrade your premium license
+description: Instructions for how to upgrade from one premium version of Beaver Builder to a higher one.
 ---
 
 You can upgrade your license from one premium version to another at any time.
@@ -25,8 +26,9 @@ Here are the steps to purchase and install your premium upgrade.
 
 ## 1. Purchase your upgrade
 
-  1. Go to your [My Account](https://www.wpbeaverbuilder.com/my-account/) page and scroll to the **My Subscriptions** section.
-  2. Click the upgrade package that you want.  
+  1. Go to your [My Account](https://www.wpbeaverbuilder.com/my-account/) page and scroll to the **My Subscriptions** section.  
+![The My Subscriptions section of the My Account page](/img/account-billing--upgrade-your-premium-license--1.jpg)
+  2. Click the **Upgrade** button and on the pricing page select the package that you want. 
 Only eligible upgrades are shown in this section. If you already have the
 Agency version, you won't see any upgrade options.
   3.  Complete the checkout process.  
