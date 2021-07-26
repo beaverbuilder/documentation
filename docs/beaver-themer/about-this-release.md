@@ -80,7 +80,7 @@ The easiest way to construct the conditional field connection shortcode is to fo
 2. Change the `[wpbb` at the beginning of the shortcode to `[wpbb-if`
 3. After the right bracket at the end of the shortcode, add the text you want to display if the statement is true, followed by [/wpbb-if]`.
 3. In the [wpbb-if] open tag, add an `exp=' '` attribute to indicate the operator.  
-Usually, you're doing a text comparison using `equals`, `notequals`, or `contains`.
+Usually, you're doing a text comparison using `equals`, or `notequals`.
 4. Add a `value=' '` attribute to indicate the value you're looking for.
 
 For example, here's a standard field connection shortcode to insert a post title:
