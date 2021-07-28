@@ -4,6 +4,10 @@ title: Add a color palette to the Beaver Builder editor
 sidebar_label: Add a color palette to the Beaver Builder editor
 ---
 
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zN9h8GiYGU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 You can add single colors or color palettes to the Beaver Builder editor both
 manually and programmatically.
 

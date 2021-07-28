@@ -4,6 +4,10 @@ title: Add a custom theme preset
 sidebar_label: Add a custom theme preset
 ---
 
+<div className="embed-responsive">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Oky9roTCk3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 You can add your own custom presets to the Beaver Builder Theme. Put your code in your child theme's _functions.php_.
 
 Add a preset with the following method:
