@@ -5,7 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this release of the Beaver Builder plugin.
 ---
 
-Here are the Beaver Builder 2.5 features as of Version 2.5-beta.
+Here are the Beaver Builder 2.5 features as of Version 2.5-beta.2.
 
 :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
@@ -57,14 +57,7 @@ To restore normal History Manager functionality, remove this code from the *wp-c
 
 ### Button Group module
 
-When **Layout** on the **Style** tab is set to **Horizontal**, there is a **Width** setting that controls the width of all buttons in the group. The Width setting has two values: 
-
-* **Default**  
-The width of each button varies according to the individual button text plus padding. Longer text has longer button width:
-![Button group width setting for horizontal layouts, 2.5 features](/img/about-this-release-2-5-button-group-module-default-width.png)
-* **Custom**  
-The width of all of the buttons is set to the custom width. Text wraps if necessary:
-![Button group width setting for horizontal layouts, 2.5 features](/img/about-this-release-2-5-button-group-module-custom-width.png) 
+There is now a **Width** setting for horizontal as well as vertical layouts. The behavior is slightly different depending on the type of layout. See the [Button Group article](/beaver-builder/layouts/modules/button-group.md/#style-tab-global) for more details.
 
 ### Contact  Form module
 
@@ -86,11 +79,16 @@ On the **Link** tab for individual slides,  if you add a button, the **Padding**
 
 ### Countdown module
 
-The **Style** tab now has the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both numbers and text. 
+Changes to the **Style** tab:
+
+* There is now the standard [horizontal alignment](/beaver-builder/getting-started/bb-editor-basics/alignment.md) setting, and you can set alignment differently for large, medium, and small devices.
+* There is now  the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both the number and text settings. 
+
+See the [Countdown module article](/beaver-builder/layouts/modules/countdown.md) for all the details.
 
 ### HTML module
 
-The code editor has line numbers and automatic line wrap. 
+The [code editor](/beaver-builder/layouts/modules/html.md) has line numbers and automatic line wrap. 
 
 ### Icon Group module
 
@@ -100,11 +98,13 @@ You can now add text to each Icon item:
 
 ![Text in Icon Group module, 2.5 features](/img/BB25-icon-group-module-text-example.png)
 
-The text can be formatted in the [Typography section](/beaver-builder/styles/typography/typography.md) on the **Style** tab. There are no text style settings for individual items.
+The text can be formatted in the **Typography** section on the **Style** tab for the entire group. 
 
 #### The Alignment setting is responsive
 
-The **Alignment** setting on the **Style** tab, which horizontally aligns the entire icon group within its column, now has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) to set different alignments at large, medium, and small devices. 
+The **Alignment** setting on the **Style** tab, which horizontally aligns the entire icon group within its column, now has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) to set different alignments at large, medium, and small devices.
+
+For details, see the [Icon and Icon Group modules article](/beaver-builder/layouts/modules/icon-and-icon-group.md).
 
 ### List module
 
@@ -113,6 +113,10 @@ On the **General** tab, the settings were rearranged so the **List items** secti
 ### Menu module
 
 The Menu module has the following new features. See the [Menu module article](/beaver-builder/layouts/modules/menu/menu.md) for more complete descriptions.
+
+#### Menu behavior with keyboard navigation
+
+The menu now closes when tabbing through the last of the items in a menu.
 
 #### New General tab settings
 
@@ -233,6 +237,10 @@ You can still [duplicate pages from the Tools menu in the Beaver Builder editor]
 :::
 
 ## Other improvements
+
+### Support for SEOPress
+
+Beaver Builder now supports [SEOPress](https://www.seopress.org/).
 
 ### Line height allows 0 value in all module **Typography** sections
 

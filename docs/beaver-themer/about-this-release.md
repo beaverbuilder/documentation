@@ -5,11 +5,12 @@ sidebar_label: About this release
 description: Describes the features in this Beaver Themer release.
 ---
 
-Here are the new features for Beaver Themer 1.4-alpha. Features for the latest alpha version (alpha.2) are labeled. 
+Here are the new features for Beaver Themer 1.4-beta.1. 
 
-:::warning **Warning**
+<!-- :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback. See [this article](/general/alpha-and-beta-releases.md/#install-an-alpha-or-beta-plugin-release) for information about installing prerelease versions.
 :::
+-->
 
 ## Layout enhancements
 
@@ -33,19 +34,70 @@ If the **Shrink** setting is set to **Yes** it also follows the **Sticky header*
 
 The **Overlay** setting is independent of the "Sticky header" setting and continues to work at all device sizes.
 
-### Header layouts: four new layout templates (alpha.2)
+### Header layouts: four new layout templates
 
 When you create a Themer layout, a layout template is automatically assigned. You can change the layout template by opening the Content panel and clicking the **Templates** tab. By default, the **Header 1** layout template is assigned, but you can select any of Headers 2-5, as shown in this screenshot:
 
 ![Header Themer layout templates in the Content panel](/img/themer-header-templates.png)
 
-### Footer layouts: four new layout templates (alpha.2)
+### Footer layouts: four new layout templates
 
 Themer Footer layouts also have four new layout templates on the **Templates** tab of the content panel, as shown in this screenshot:
 
 ![Footer Themer layout templates in the Content panel](/img/themer-footer-templates.png)
 
+## Themer Module enhancements
+
+### Post Navigation module
+
+The Post Navigation module has a number of new options and a new **Style** tab. See the [Post Navigation Module article](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-navigation-module.md) for details.
+
+![Beaver Themer 1.4 post navigatio module enhancements](/img/themer-1-4-features-9.png)
+
+### WooCommerce Add to Cart Button module new hover colors]
+
+In Singular Themer layouts, you can set hover colors in the Add to Cart Button module in the **Themer Modules** group:
+
+![WooCommerce](/img/themer-1-4-features-8.jpg)
+
 ## Field connection enhancements
+
+### Expanded ability to test for values in fields
+
+The ability to test for values in field connections was previously limited to certain data types in custom fields. You can now test for values in standard fields. For example, you could test for a specific title for a standard post and display something as a result. 
+
+Another example: you could check for a specific term assigned to the post. Suppose you have a standard category with the value `News` and the slug `news-cat`. The following shortcode tests for the presence of this category on a particular post. 
+
+```
+[wpbb-if post:terms_list taxonomy='category' display='slug' limit='1' linked='no' exp='equals' value='news-cat']
+The result here is what's displayed if the post is in the News category.
+[/wpbb-if]
+```
+
+The easiest way to construct the conditional field connection shortcode is to follow this procedure:
+
+1. Create a field connection shortcode in a Beaver Builder module in the usual way: click the Plus icon, choose the options to create the shortcode, and click **Insert**.
+2. Change the `[wpbb` at the beginning of the shortcode to `[wpbb-if`
+3. After the right bracket at the end of the shortcode, add the text you want to display if the statement is true, followed by [/wpbb-if]`.
+3. In the [wpbb-if] open tag, add an `exp=' '` attribute to indicate the operator.  
+Usually, you're doing a text comparison using `equals`, or `notequals`.
+4. Add a `value=' '` attribute to indicate the value you're looking for.
+
+For example, here's a standard field connection shortcode to insert a post title:
+
+```
+[wpbb post:title]
+```
+
+Here's a conditional shortcode constructed from that:
+
+```html
+[wpbb-if post:title exp="equals" value="My funky post"]
+Yeah, this is my funky post!
+[/wpbb-if]
+```
+
+If the post title is "My funky post" then here is what's displayed on the page: "Yeah, this is my funky post!".
 
 ### Field connection to pull the current, newest, or oldest post
 
@@ -62,7 +114,27 @@ To access this feature, add one of these field connections by clicking the **Con
 
 #### Dropdown selection of ACF fields
 
-When you choose any ACF field category as a field connection or insert (post, archive, and so on), there's a **Detected Fields** dropdown list of ACF fields to choose from. Choosing a field from this list autopopulates the **Field type** and **Field name** settings.
+When you choose any ACF field category as a field connection or insert (post, archive, and so on), there's a **Detected Fields** dropdown list of ACF fields to choose from. Choosing a field from this list autopopulates the **Field type** and **Field name** settings, as shown in this screenshot.
+
+![](/img/themer-1-4-features-7.png)
+
+Using **Detected fields** is optional. You can continue to select the field type and type in the the field name slug manually.
+
+#### Support for ACF Taxonomy fields
+
+You can now use a field connection or field connection shortcode to list the items selected in an ACF Taxonomy field.
+
+In this example, the WooCommerce Products taxonomy was used in an ACF Taxonomy field and assigned to single posts, so that products could be featured in a blog and related to product categories. Then a field connection shortcode was added in a module in a Themer Singular layout to display the product terms selected for any particular post, as shown in the following screenshot.
+
+![Example of an ACF Taxonomy field in a Themer Singular layout](/img/themer-1-4-features-5.jpg)
+
+To set up the field connection or shortcode, use a module with text output, such as a Text Editor or HTML module, or even a module with a text field such as a Heading module. When you click the Plus sign to insert the field connection, choose **ACF Relational**, shown in this screenshot: 
+
+![To insert a Taxonomy field, choose ACF Relational](/img/themer-1-4-features-4.png)
+
+Then in the settings, specify the slug for your ACF Taxonomy field. You can type it into the **Field name** setting or simply select it from the **Detected fields** list, shown in the screenshot below. In the **List type** setting, choose how you want your terms list to appear.
+
+![ACF Taxonomy field - field connection settings](/img/themer-1-4-features-6.png)
 
 #### Expanded support for ACF True/False field types
 
@@ -70,7 +142,7 @@ When you choose any ACF field category as a field connection or insert (post, ar
 
 #### New support for the ACF Button Group  field type
 
-When you click an ACF category from the list of eligible field connections,  just choose  **Button group** from the list of eligible field types.
+When you click an ACF category from the list of eligible field connections, choose  **Button group** as the **Field type** or choose a Button Group field from the **Detected Fields** list.
 
 #### Field connection support for the Smart Slider field type stored in ACF
 
@@ -82,7 +154,7 @@ In the following screenshot, a custom field was created in ACF called **Smart Sl
 
 ![Adding a field connection to an ACF Smart Slider field type](/img/themer-1-4-features-3.png)
 
-## Conditional logic enhancements (alpha.2)
+## Conditional logic enhancements
 
 The **Browser** conditional logic category has been added to the  **Rules** section of the Beaver Themer editing panel. It was already available in the **Display** setting on the **Advanced** tab in Beaver Builder modules. The selections are documented in the [Conditional Logic article](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md/#browser). It has the selections **Cookie**, **Referer**, and **URL variable**.
 
