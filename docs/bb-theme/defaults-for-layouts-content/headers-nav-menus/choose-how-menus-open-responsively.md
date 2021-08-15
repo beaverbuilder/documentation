@@ -44,5 +44,6 @@ _Figure 4: Flyout Push with Opacity responsive nav layout_
 
 ## Related information
 See the following articles for more information about mobile menus.
-* Where menu colors come from
-* Change the background color of mobile menus
+
+* [Where menu colors come from](../../defaults-for-styles/colors/where-do-menu-colors-come-from.md)
+* [Change the background color of mobile menus](../../defaults-for-styles/colors/change-menu-background-color-on-small-devices.md)
