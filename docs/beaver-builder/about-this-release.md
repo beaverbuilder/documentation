@@ -5,13 +5,44 @@ sidebar_label: About this release
 description: Describes the features in this release of the Beaver Builder plugin.
 ---
 
-Here are the Beaver Builder 2.5 features as of Version 2.5-beta.2.
+Here are the Beaver Builder 2.5 features as of Version 2.5-beta.4.
 
-:::warning **Warning**
+<!-- :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
 :::
+-->
 
 ## New Beaver Builder editor features
+
+### New layout templates
+
+There are two new layout templates and several new content templates.
+
+### New icon labels for left-right-up-down settings
+
+In rows, columns, and modules, whenever there is a numerical Top, Bottom, Right, or Left setting, the labels now appear as icons, as shown in the following screenshot.
+
+![Icon labels for top, bottom, right, left settings](/img/25-features-left-right-top-bottom-label-changes.png) 
+
+These new labels apply to the following settings:
+
+* border
+* border radius
+* margins 
+* padding
+* spacing
+
+### Changes to the icon picker
+
+When you click a link to select an icon in the Beaver Builder editor, an icon picker opens, in which you can search through all the sets of icons that you have enabled.  The icon picker now uses the graphQL system that powers the icons page at fontawesome.com, which has resulted in the changes shown in the following screenshot and described in the list below:
+
+![Icon Picker version comparison](/img/25-features-icon-picker-changes.png) 
+
+* The old version opens the icon picker in a full window. The new version opens in a smaller lightbox.
+* Both versions let you search the font slugs in the available libraries. The new version searches the Font Awesome libraries for both font slug and font name and searches the other font libraries on font slug only.
+* The old version shows which Font Awesome libraries the icons are associated with. The new version does not distinguish between Font Awesome libraries in the search result.
+* The old version let you select a single icon library to work with. The new version does not have this filter.
+* Font Awesome custom kits appear at the top of the icon libraries.
 
 ### View an outline of your layout
 
@@ -92,19 +123,21 @@ The [code editor](/beaver-builder/layouts/modules/html.md) has line numbers and 
 
 ### Icon Group module
 
-#### Ability to add text
-
-You can now add text to each Icon item:
-
-![Text in Icon Group module, 2.5 features](/img/BB25-icon-group-module-text-example.png)
-
-The text can be formatted in the **Typography** section on the **Style** tab for the entire group. 
-
 #### The Alignment setting is responsive
 
 The **Alignment** setting on the **Style** tab, which horizontally aligns the entire icon group within its column, now has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) to set different alignments at large, medium, and small devices.
 
 For details, see the [Icon and Icon Group modules article](/beaver-builder/layouts/modules/icon-and-icon-group.md).
+
+#### Text labels reverted
+
+The ability to add text labels to individual icons in the Icon Group module has been reverted. As in Beaver Builder 2.4, the Icon Group module contains a group of icons, no text.
+
+<!-- You can now add text to each Icon item:
+
+![Text in Icon Group module, 2.5 features](/img/BB25-icon-group-module-text-example.png)
+
+The text can be formatted in the **Typography** section on the **Style** tab for the entire group.  -->
 
 ### List module
 
@@ -218,6 +251,20 @@ If you use a **Photo** background in your column's **Style** settings, the **Pos
 
 ## Improvements in the WP admin UI
 
+### UI improvements when Beaver Builder is restricted for a user role
+
+There are a couple of improvements in what users see when their user role does not allow them to use Beaver Builder and they open a Beaver Builder page for editing in WordPress.
+
+The following screenshots show Beaver Builder 2.4 and 2.5 for comparison. The following shows the screen when the logged-in user is not allowed to open Beaver Builder and clicks **Edit** to open a Beaver Builder page or post for editing in the WordPress standard editor.
+
+![User restricted from using Beaver Builder clicks Edit for a page that uses Beave Builder](/img/25-features-bb-restricted-block-editor-view.png) 
+
+In both the older and newer releases, the person with restricted access sees a **View page** button in the location in which there's normally a **Launch Beaver Builder** button. The **Use Standard Editor** link does not open either editor.
+
+The second change in behavior is when the user  is restricted from using the Beaver Builder and has selected the **Disable the visual editor when writing** option in their WordPress profile. In Beaver Builder 2.4, when they opened a Beaver Builder page they'd see the page in the WordPress code editor. In Beaver Builder 2.5, they see the same view/editor options as in the previous case:
+
+![User who is restricted from using Beaver Builder and has disabled the WP visual editor clicks Edit for a page that uses Beave Builder](/img/25-features-visual-editor-disabled.png) 
+
 ### Copy a shortcode for a saved item with one click
 
 In the Beaver Builder section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
@@ -237,6 +284,14 @@ You can still [duplicate pages from the Tools menu in the Beaver Builder editor]
 :::
 
 ## Other improvements
+
+### Filter to disable the Outline Panel
+
+If you want to completely disable the Outline Panel, add the following filter to your child thme's *functions.php* file:
+
+```php
+///Diisable Outline Panel
+add_filter( 'fl_builder_outline_panel_enabled', '__return_false' );```
 
 ### Support for SEOPress
 
