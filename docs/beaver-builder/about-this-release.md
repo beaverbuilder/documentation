@@ -122,8 +122,6 @@ The [code editor](/beaver-builder/layouts/modules/html.md) has line numbers and 
 
 The **Alignment** setting on the **Style** tab, which horizontally aligns the entire icon group within its column, now has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) to set different alignments at large, medium, and small devices.
 
-For details, see the [Icon and Icon Group modules article](/beaver-builder/layouts/modules/icon-and-icon-group.md).
-
 #### Text labels reverted
 
 The ability to add text labels to individual icons in the Icon Group module has been reverted. As in Beaver Builder 2.4, the Icon Group module contains a group of icons, no text.
