@@ -34,7 +34,11 @@ add_filter( 'fl_remember_settings_tabs_enabled', '__return_false' );
 
 By default, when you disable modules in **Settings > Beaver Builder > Modules**, they do not appear in the module list in the Beaver Builder editor, but any modules of that type already used in layouts are still displayed on web pages.
 
-You can change the behavior in **Settings > Beaver Builder > Modules** so that when you disable modules they don't load or render in either the front end or the editor, and before you disable them you'll be able to see how many modules of that type are already in use. This is done by setting the `is_module_disable_enabled` filter to `true`. Add the following line of code to the _functions.php_ file in your child them
+You can change the behavior in **Settings > Beaver Builder > Modules** so that when you disable modules they don't load or render in either the front end or the editor, and before you disable them you'll be able to see how many modules of that type are already in use. This is done by setting the `is_module_disable_enabled` filter to `true`. Add the following line of code to the _functions.php_ file in your child theme.
+
+:::note
+The Slideshow module is required for row background slideshows to function.
+:::
 
 ```php
 add_filter( 'is_module_disable_enabled', '__return_true' );
