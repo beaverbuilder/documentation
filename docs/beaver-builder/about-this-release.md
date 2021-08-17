@@ -5,11 +5,20 @@ sidebar_label: About this release
 description: Describes the features in this release of the Beaver Builder plugin.
 ---
 
-Here are the Beaver Builder 2.5 features as of Version 2.5-beta.2.
+Here are the Beaver Builder 2.5 features as of Version 2.5-beta.4.
 
-:::warning **Warning**
+Changes for beta.3 and beta.4:
+
+* [New layout templates](#new-layout-templates)
+* [ New icon picker design and function](#changes-to-the-icon-picker)
+* [Icons instead of top-bottom-left-right text labels](#new-icon-labels-for-left-right-up-down-settings)
+* [Improvements to the WP edit page when Beaver Builder is restricted](#ui-improvements-when-beaver-builder-is-restricted-for-a-user-role)
+* [Ability to disable Outline panel completely](#disable-the-outline-panel)
+
+<!-- :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
 :::
+-->
 
 ## New Beaver Builder editor features
 
@@ -23,35 +32,52 @@ Access the Outline panel by clicking the Outline icon to the left of the **Done*
 
 See [the article about the Outline panel](./beaver-builder/getting-started/bb-editor-basics/outline-panel.md) for more information.
 
-### Reduce or disable undo/redo functionality in the editor
-The [History manager](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md) can cause sluggish behavior in the editor, particularly when your site is in a shared hosting environment or the page you're editing has a large number of rows and modules. The default number of changes the History Manager remembers is 20. 
+### New layout templates
 
-You can reduce or disable this number temporarily or more permanently in two ways:
+There are two new layout templates and several new content templates. Here's a thumbnail snapshot of the two new layout templates in the **Landing pages** group:
 
-#### Disable the History Manager temporarily
+![New layout templates in the Landing Pages group](/img/25-features-layout-templates-landiing-group.png) 
 
-* Add `&nohistory` to the end of your URL in the Beaver Builder editor.  
-For example:
+And here's a thumbnail snapshot of the eight new layout templates in the **Content pages** group.
 
-```markup
-https://mysite.com/?fl_builder&nohistory
-```
-In the editor, if you click **History** in the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), you'll see the message `Undo/redo history is currently disabled`.
+![New layout templates in Content Pages group](/img/25-features-layout-templates-content-group.png) 
 
-#### Reduce or disable the history by changing wp-config
+#### Deleted layout templates
 
-This method requires access to the *wp-config.php* file in your WordPress installation root. It reduces or disables the History Manager for all Beaver Builder layouts site-wide.
+Some older layout templates have also been deleted in this release. The following screenshot shows the layout templates in the **Landing pages** group that have been deleted (Associates, Biz, Sell, Grande, Deluxe, Subscribe).
 
-1. Open the *wp-config.php* file for editing.
-2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
-```php
-if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {
-			define( 'FL_BUILDER_HISTORY_STATES', 20 );
-		}
-```
-3. Change the number of states from `20` to a smaller number, or change the number to `0` to disable the History Manager entirely.
+![Deleted layout templates in the Landing Pages group](/img/25-features-layout-templates-landing-group-deleted.png) 
 
-To restore normal History Manager functionality, remove this code from the *wp-config.php* file.
+The following screenshot shows the layout templates in the **Content pages** group that have been deleted (About Us, Design Portfolio, FAQs).
+
+![Deleted layout templates in the Content Pages group](/img/25-features-layout-templates-content-group-deleted.png) 
+
+### Changes to the icon picker
+
+When you click a link to select an icon in the Beaver Builder editor, an icon picker opens, in which you can search through all the sets of icons that you have enabled.  The icon picker now uses the graphQL system that powers the icons page at fontawesome.com, which has resulted in the changes shown in the following screenshot and described in the list below:
+
+![Icon Picker version comparison](/img/25-features-icon-picker-changes.png) 
+
+* The old version of the icon picker opens in a full window. The new version opens in a smaller lightbox.
+* Both versions search font slugs in all available libraries: Font Awesome and any others. 
+* If the [Font Awesome plugin](#support-for-the-font-awesome-plugin) is installed, the new version searches the Font Awesome libraries for both font slug and font name and searches other font libraries for font slug only.
+* The old version shows which Font Awesome libraries the icons are associated with. The new version does not distinguish between Font Awesome libraries in the search result.
+* The old version lets you select a single icon library to work with. The new version does not have this filter.
+* Font Awesome custom kits appear at the top of the icon libraries.
+
+### New icon labels for left-right-up-down settings
+
+In rows, columns, and modules, whenever there is a numerical Top, Bottom, Right, or Left setting, the labels now appear as icons, as shown in the following screenshot.
+
+![Icon labels for top, bottom, right, left settings](/img/25-features-left-right-top-bottom-label-changes.png) 
+
+These new labels apply to the following settings:
+
+* border
+* border radius
+* margins 
+* padding
+* spacing
 
 ## Existing module improvements
 
@@ -92,19 +118,19 @@ The [code editor](/beaver-builder/layouts/modules/html.md) has line numbers and 
 
 ### Icon Group module
 
-#### Ability to add text
-
-You can now add text to each Icon item:
-
-![Text in Icon Group module, 2.5 features](/img/BB25-icon-group-module-text-example.png)
-
-The text can be formatted in the **Typography** section on the **Style** tab for the entire group. 
-
 #### The Alignment setting is responsive
 
 The **Alignment** setting on the **Style** tab, which horizontally aligns the entire icon group within its column, now has a [Responsive Settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) to set different alignments at large, medium, and small devices.
 
-For details, see the [Icon and Icon Group modules article](/beaver-builder/layouts/modules/icon-and-icon-group.md).
+#### Text labels reverted
+
+The ability to add text labels to individual icons in the Icon Group module has been reverted. As in Beaver Builder 2.4, the Icon Group module contains a group of icons, no text.
+
+<!-- You can now add text to each Icon item:
+
+![Text in Icon Group module, 2.5 features](/img/BB25-icon-group-module-text-example.png)
+
+The text can be formatted in the **Typography** section on the **Style** tab for the entire group.  -->
 
 ### List module
 
@@ -207,7 +233,7 @@ The Mailpoet 3 integration now shows all lists.
 
 ### Video module
 
-There are two additional options on the **Structured data** tab: `contentUrl` and `embedUrl`.
+There are two additional options on the **Structured data** tab: **contentUrl**  and **embedUrl**.
 
 ## Column improvements
 
@@ -217,12 +243,6 @@ There are two additional options on the **Structured data** tab: `contentUrl` an
 If you use a **Photo** background in your column's **Style** settings, the **Position** option has a **Custom position** option where you can set the X position and Y position in either pixels or percent. This feature is already available for row photo backgrounds,.
 
 ## Improvements in the WP admin UI
-
-### Copy a shortcode for a saved item with one click
-
-In the Beaver Builder section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
-
-![Saved row shortcode example](/img/wp-admin-saved-row-shortcode.png) 
 
 ### Duplicate option in post and page lists
 
@@ -236,7 +256,31 @@ Where possible, this feature hides the **Duplicate** option that comes from othe
 You can still [duplicate pages from the Tools menu in the Beaver Builder editor](/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md).
 :::
 
+### Copy a shortcode for a saved item with one click
+
+In the Beaver Builder section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
+
+![Saved row shortcode example](/img/wp-admin-saved-row-shortcode.png) 
+
+### UI improvements when Beaver Builder is restricted for a user role
+
+There are a couple of improvements in what users see when their user role does not allow them to use Beaver Builder and they open a Beaver Builder page for editing in WordPress.
+
+The following screenshots show Beaver Builder 2.4 and 2.5 for comparison. The following shows the screen when the logged-in user is not allowed to open Beaver Builder and clicks **Edit** to open a Beaver Builder page or post for editing in the WordPress standard editor.
+
+![User restricted from using Beaver Builder clicks Edit for a page that uses Beave Builder](/img/25-features-bb-restricted-block-editor-view.png) 
+
+In both the older and newer releases, the person with restricted access sees a **View page** button in the location in which there's normally a **Launch Beaver Builder** button. The **Use Standard Editor** link does not open either editor.
+
+The second change in behavior is when the user  is restricted from using the Beaver Builder and has selected the **Disable the visual editor when writing** option in their WordPress profile. In Beaver Builder 2.4, when they opened a Beaver Builder page they'd see the page in the WordPress code editor. In Beaver Builder 2.5, they see the same view/editor options as in the previous case:
+
+![User who is restricted from using Beaver Builder and has disabled the WP visual editor clicks Edit for a page that uses Beave Builder](/img/25-features-visual-editor-disabled.png) 
+
 ## Other improvements
+
+### Support for the Font Awesome plugin
+
+There is now basic support for the [official Font Awesome Plugin](https://wordpress.org/plugins/font-awesome/) so you can use that plugin's shortcodes in your Beaver Builder layouts. If you want to use Font Awesome Pro icons, be sure to follow the [plugin installation instructions](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/wordpress) for enabling your domain in the Font Awesome CDN or set up a kit.
 
 ### Support for SEOPress
 
@@ -246,9 +290,44 @@ Beaver Builder now supports [SEOPress](https://www.seopress.org/).
 
 You can set the line height to be 0 in any [Typography section](/beaver-builder/styles/typography/typography.md).
 
-### Support for the Font Awesome plugin
+### Disable the Outline Panel
 
-There is now basic support for the [official Font Awesome Plugin](https://wordpress.org/plugins/font-awesome/) so you can use that plugin's shortcodes in your Beaver Builder layouts. If you want to use Font Awesome Pro icons, be sure to follow the plugin installation instructions for enabling your domain in the Font Awesome CDN.
+If you want to completely disable the Outline Panel, add the following filter to your child theme's *functions.php*  file:
+
+```php
+//Diisable Outline Panel
+add_filter( 'fl_builder_outline_panel_enabled', '__return_false' );
+```
+
+### Reduce or disable undo/redo functionality in the editor
+The [History manager](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md) can cause sluggish behavior in the editor, particularly when your site is in a shared hosting environment or the page you're editing has a large number of rows and modules. The default number of changes the History Manager remembers is 20. 
+
+You can reduce or disable this number temporarily or more permanently in two ways:
+
+#### Disable the History Manager temporarily
+
+* Add `&nohistory` to the end of your URL in the Beaver Builder editor.  
+For example:
+
+```markup
+https://mysite.com/?fl_builder&nohistory
+```
+In the editor, if you click **History** in the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), you'll see the message `Undo/redo history is currently disabled`.
+
+#### Reduce or disable the history by changing wp-config
+
+This method requires access to the *wp-config.php* file in your WordPress installation root. It reduces or disables the History Manager for all Beaver Builder layouts site-wide.
+
+1. Open the *wp-config.php* file for editing.
+2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
+```php
+if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {
+			define( 'FL_BUILDER_HISTORY_STATES', 20 );
+		}
+```
+3. Change the number of states from `20` to a smaller number, or change the number to `0` to disable the History Manager entirely.
+
+To restore normal History Manager functionality, remove this code from the *wp-config.php* file.
 
 ### An easier way to disable smooth scrolling
 
@@ -272,7 +351,7 @@ CSS and JavaScript files are now automatically cleared when the URL changes.
 
 The `fl_builder_subscribe_form_services` filter lets you add a service to the list displayed in the Subscribe Form module. Here's an example.
 
-```php
+```PHP
 function bb_subscribe_form_custom_service( $services ) {
 	$services['convertkit_custom'] = array(
 		'type'  => 'autoresponder',
@@ -284,6 +363,7 @@ function bb_subscribe_form_custom_service( $services ) {
 }
 add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
 ```
+
 ### The suggest field in posts is sortable
 
 For module developers, the `suggest` field is sortable. See the [Module Development Guide](/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference.md/#suggest-field).
