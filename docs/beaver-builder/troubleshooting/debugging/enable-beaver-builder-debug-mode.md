@@ -16,16 +16,16 @@ For example, Debug Mode lets you access any code you've added to the [Global CSS
 Entering Debug Mode produces a URL that contains a debug report. You can do
 any of the following things with the URL:
 
-  * Copy it into your browser to view the debug report.
-  * Add the URL when you file a Support ticket
-  * Send it to the Support team when they request it at *hello@wpbeaverbuilder.com*.
+* Copy it into your browser to view the debug report.
+* Add the URL when you file a Support ticket
+* Send it to the Support team when they request it at *hello@wpbeaverbuilder.com*.
 
 ## Enable Debug Mode
 
 To enable Beaver Builder Debug Mode and obtain the URL for the debug report:
 
-  1. On the WordPress admin panel, click **Settings > Beaver Builder**, then click the **Tools** tab.
-  2. Click the **Enable debug mode** button.  
+1. On the WordPress admin panel, click **Settings > Beaver Builder**, then click the **Tools** tab.
+2. Click the **Enable debug mode** button.  
 The URL appears just above the button. Copy the URL to send to Support.
 
 :::note **Note**
