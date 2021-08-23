@@ -4,7 +4,7 @@ title: Resize or reset column width
 sidebar_label: Resize or reset column width
 ---
 
-You can change column widths relative to the widths of other columns within the same column group. You can reset the columns in a column group to equal widthss. Finally, you can [add width percentages to apply specifically to medium and small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md).
+You can change column widths relative to the widths of other columns within the same column group. You can reset the columns in a column group to equal widths. Finally, you can [add width percentages to apply specifically to medium and small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md).
 
 ## Resize column width
 

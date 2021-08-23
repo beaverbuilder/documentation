@@ -6,16 +6,11 @@ description: The Posts Carousel module displays a set of posts or pages that mov
 ---
 
 
-In the Posts Carousel module, a set of posts or pages is displayed as a single
-row of posts in either Grid layout (with post title and info underneath the
-featured image) or Gallery view (with post title and info replacing the
-featured image on mouseover), as shown in the following screenshots of the two
-layouts.
+In the Posts Carousel module, a set of posts or pages is displayed as a single row of posts in either Grid layout (with post title and info underneath the featured image) or Gallery view (with post title and info replacing the featured image on mouseover), as shown in the following screenshots of the two layouts.
 
 ![](/img/post-carousel-module-1.jpg)
 
-Autoplay, looping of the posts, and navigation icons (dots, arrows) are all
-optional.
+Autoplay, looping of the posts, and navigation icons (dots, arrows) are all optional.
 
 :::tip **Tip**
 Not sure which Posts module to use? See [the comparison article](/beaver-builder/layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples.md).
@@ -62,12 +57,12 @@ Section  |  Field  |  Description
 
 Section  |  Field  |  Description  
 ---|---|---  
-**Colors** |  Text color  |  Color of any unlinked text in the post title, post info, and post content.  
-&nbsp;  |  Link color  |  Color of any linked text, including the post title, author, number of comments, and the Read More link.  
-&nbsp;  |  Link hover color  |  Color of the link when the cursor hovers over it.  
-&nbsp;  |  Text background color  |  Color of the text background.  
-&nbsp;  |  Post icon color  |  If you set an icon for a Gallery layout, you can set the post icon color here.  
-&nbsp;  |  Text background opacity  |  Opacity of the text background color.  
+**Carousel item** | Background color |  A background color that can be seen for items with no featured image.  
+&nbsp; | Icon color | The color of the icon, when one has been set on the **Layout** tab.  
+**Post title** | Color | Text color of the post title.  
+&nbsp; | Typography | The standard Beaver Builder [typography section](/beaver-builder/styles/typography/typography.md) for the post title.
+**Post info** | Color | Text color of the post info.  
+&nbsp; | Typography | The standard Beaver Builder [typography section](/beaver-builder/styles/typography/typography.md) for the post info.  
 **Nav arrows** (Only when **Show arrows** is set to **Yes** on the **Slider** tab)  | Arrows background color  |  Sets the color of a circle or square background behind the navigation arrows. When no color is set, there is no background circle or square.  
 &nbsp;  |  Arrows background style  |  When Arrows background color is set, this option sets the arrow background to a circle or a square.
 &nbsp;  |  Arrows color  |  Sets the color of the arrows themselves.  
@@ -82,7 +77,7 @@ Section  |  Field  |  Description
 &nbsp;  |  Order by  |  The choices are **Author**, **Comment count**, **Date**, **Date last modified**, **ID**, **Menu order**, **Meta value** (alphabetic or numeric), **Random**, **Title**.<br/> If you display pages in **Menu order**, you are effectively displaying a menu, with the added ability to display a content summary of the page.<br/> The **Meta value** option enables ordering by a custom field. If you select either the alphabetic or numeric **Meta value** option, a **Meta key** field appears so you can enter the key (`meta_key`).  
 &nbsp;  |  Offset  |  Enter an integer if you want to skip a certain number of posts in the order specified in the **Order** setting.  
 &nbsp;  |  Exclude current post  |  Excludes the current post from the query. This is useful when you are using the module to create a list of related posts on a single post page.  
-**Filter** |  Posts, Pages, Products, etc.  |  (The label matches the single post name for the **Post type** you set)<br/> Include or exclude a set of posts, page, products, etc., by title. Start typing a word, and the titles containing that word will be displayed for you to choose. Keep selecting titles until you have the set you want to include or exclude.  
+**Filter** |  Posts, Pages, Products, etc.  |  (The label matches the single post name for the **Post type** you set)<br/> Include or exclude a set of posts, page, products, etc., by title. Start typing a word, and the titles containing that word will be displayed for you to choose. Keep selecting titles until you have the set you want to include or exclude. You can reorder matched selections and they are reflected in the front end. See an example for the Posts module at [Selection Order in Filtering](/beaver-builder/layouts/modules/posts/posts.md#selection-order-in-filtering). 
 &nbsp;  |  Categories  |  (Hidden when the **Post type** setting is **Pages** )<br/> You can include or exclude categories to display. The third setting, **Match related categories except**, is useful in Singular-type Themer layouts when you want to use the Posts module to display a list of related posts, and you want to display the related posts in a family of categories except for the specific categories that you name.  
 &nbsp;  |  Tags  |  (Hidden when the **Post type** setting is **Pages** )<br/> You can include or exclude tags to display. The choices are the same as for including or excluding categories.  
 &nbsp;  |  Authors  |  You can include or exclude posts or pages by specific authors.

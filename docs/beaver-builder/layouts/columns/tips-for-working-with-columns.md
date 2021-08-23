@@ -16,7 +16,7 @@ You can create new columns by dragging a module into the layout. But sometimes t
 
 The best way to insert columns in a complex layout is to create the column structure before adding content. Here's how to do it.
 
-1. Open the [Content panel](/beaver-builder/getting-started/bb-editor-basics/user-interface.md/#7-13-content-panel) and click the **Rows** tab.  
+1. Open the [Content panel](/beaver-builder/getting-started/bb-editor-basics/user-interface.md/#8-14-content-panel) and click the **Rows** tab.  
 Make sure the **Group** name is **Columns**. You'll see a selection of column group layouts.
 2. Drag the column group you want into your layout.  
 A new row is created if you drop the column group outside of an existing row. If you drop the column group inside an existing column, a nested column group is created.

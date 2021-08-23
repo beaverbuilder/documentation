@@ -29,6 +29,8 @@ Here's a screenshot of where this procedure occurs.
 
 ![Duplicate post, a 2.5 feature](/img/2-5-features-duplicate-post.png) 
 
+Where possible, this feature hides the Duplicate option that comes from other plugins for pages and posts that have Beaver Builder layouts. These other plugins often don't work well with Beaver Builder.
+
 1. From the WordPress admin panel, go to **Pages > All Pages** or **Posts > All Posts** or the equivalent for your custom post type. 
 2.  Mouse over the page or post you want to duplicate to show the options.
 3.  Click **Add Duplicate**.  

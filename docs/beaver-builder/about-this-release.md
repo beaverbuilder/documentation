@@ -5,15 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this release of the Beaver Builder plugin.
 ---
 
-Here are the Beaver Builder 2.5 features as of Version 2.5-beta.4.
-
-Changes for beta.3 and beta.4:
-
-* [New layout templates](#new-layout-templates)
-* [ New icon picker design and function](#changes-to-the-icon-picker)
-* [Icons instead of top-bottom-left-right text labels](#new-icon-labels-for-left-right-up-down-settings)
-* [Improvements to the WP edit page when Beaver Builder is restricted](#ui-improvements-when-beaver-builder-is-restricted-for-a-user-role)
-* [Ability to disable Outline panel completely](#disable-the-outline-panel)
+Here are the new features in Beaver Builder 2.5.
 
 <!-- :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
@@ -51,6 +43,8 @@ Some older layout templates have also been deleted in this release. The followin
 The following screenshot shows the layout templates in the **Content pages** group that have been deleted (About Us, Design Portfolio, FAQs).
 
 ![Deleted layout templates in the Content Pages group](/img/25-features-layout-templates-content-group-deleted.png) 
+
+See [this article](/beaver-builder/layouts/templates/layout-templates-overview.md) for an overview of layout templates.
 
 ### Changes to the icon picker
 
@@ -114,7 +108,7 @@ See the [Countdown module article](/beaver-builder/layouts/modules/countdown.md)
 
 ### HTML module
 
-The [code editor](/beaver-builder/layouts/modules/html.md) has line numbers and automatic line wrap. 
+The [code editor](/beaver-builder/layouts/modules/html.md) in the HTML module has line numbers and automatic line wrap. 
 
 ### Icon Group module
 
@@ -134,7 +128,9 @@ The text can be formatted in the **Typography** section on the **Style** tab for
 
 ### List module
 
-On the **General** tab, the settings were rearranged so the **List items** section appears at the top.
+On the **General** tab, the settings were rearranged so the **List items** section appears at the top, and settings from the original top section now appear in the lower sections. 
+
+See the [List module article](/beaver-builder/layouts/modules/list.md) for more details.
 
 ### Menu module
 
@@ -169,6 +165,8 @@ On the **General** tab, when **Layout** is set to **Bars counter**,  then on the
 On the **General** tab, set **Number position** to **Hidden**.
 * The **Style** tab now has the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both numbers and text. 
 
+For details, see the [Number Counter module article](beaver-builder/layouts/modules/number-counter.md).
+
 ### All Posts modules
 
 If you want to display a defined set of posts or pages, categories, or tags in a custom order, you can set this up on the **Content** tab. As of Beaver Builder 2.5, you can reorder your custom selection in any of the **Filter** section settings by dragging listed items. For example, in the following screenshot showing three posts about insects, you can change the order of posts in the **Match these posts** setting.
@@ -192,6 +190,8 @@ There's now an option to customize the output when no posts are found.
 The Pricing Table module has several enhancements, summarized in this screenshot and explained in the following sections.
 
 ![Pricing Table module 2.5 features](/img/2-5-features-pricing-table-overview.png) 
+
+For a complete description of the module settings, see the [Pricing Table module article](/beaver-builder/layouts/modules/pricing-table.md).
 
 #### Monthly/yearly pricing
 There's a new **Toggle pricing** option where you can choose  a single price or a toggle to display dual pricing. If you enable the toggle, you can also choose the two billing options (the default is Monthly/Yearly). Then in each pricing box, there are fields to enter the price for each billing option. On the front end, there's a toggle with the two billing options, as shown in the screenshot above. 
@@ -219,13 +219,15 @@ Typography sections have also been added to the **Title** and **Price** in each 
 
 ### Separator module
 
-The Separator module has new responsive toggles for both the **Height** and **Alignment** settings, with the result that you can now specify different settings for height, width, and alignment for large, medium, and small devices. 
+The Separator module has new responsive toggles for both the **Height** and **Alignment** settings, with the result that you can now specify different settings for height, width, and alignment for large, medium, and small devices.  See the [Separator module article](/beaver-builder/layouts/modules/separator.md) for details.
 
-![Separator module height and alignment settings now responsive in 2.5](/img/2-5-features-separator-module-settings.png) 
+![Separator module height and alignment settings now responsive in 2.5](/img/2-5-features-separator-module-settings.png)
+
+For details, see the [Separator module article](/beaver-builder/layouts/modules/separator.md)
 
 ### Slideshow module
 
-The Google+ icon has been removed.
+The Google+ icon has been removed from the **Social** section on the **Controls** tab. See the [Slideshow module article](/beaver-builder/layouts/modules/slideshow.md#social-section) for details.
 
 ### Subscribe Form module
 
@@ -233,7 +235,7 @@ The Mailpoet 3 integration now shows all lists.
 
 ### Video module
 
-There are two additional options on the **Structured data** tab: **contentUrl**  and **embedUrl**.
+There are two additional options on the **Structured data** tab: **contentUrl**  and **embedUrl**. For details see the [Video module article](/beaver-builder/layouts/modules/video/video.md/#structured-data-tab).
 
 ## Column improvements
 
@@ -258,9 +260,11 @@ You can still [duplicate pages from the Tools menu in the Beaver Builder editor]
 
 ### Copy a shortcode for a saved item with one click
 
-In the Beaver Builder section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
+In the **Beaver Builder** section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
 
 ![Saved row shortcode example](/img/wp-admin-saved-row-shortcode.png) 
+
+See the [shortcode article](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md) for details.
 
 ### UI improvements when Beaver Builder is restricted for a user role
 
@@ -335,14 +339,9 @@ There's now an easy way to disable [smooth scrolling](/beaver-builder/advanced-b
 
 On the **Advanced** tab where you set the anchor in the **ID** field, add `fl-no-scroll` to the **Class** field  below it. See the [smooth scrolling article](/beaver-builder/advanced-builder-techniques/smooth-scrolling-links.md) for more information about creating target anchors on a page and linking to them.
 
-### Change in Debug Mode operation
+### Change in Beaver Builder Debug Mode operation
 
-Errors are now output only if  the `showerrors` parameter is in the URL.  
-
-After [enabling Debug Mode](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md), add the parameter `/?showerrors` to your URL to view errors, for example:  
-`https://mysite.com/?showerrors`.
-
-If the URL already has a `?` parameter in use, then use `&showerrors` instead. For example, if you're using the Beaver Builder debug URL, the existing URL might be something like `mysite.com?fldebug=ed52f356`. In this case, you'd append the `showerrors` parameter to form `mysite.com?fldebug=ed52f356&showerrors`.
+Errors are now output only if  the `showerrors` parameter is in the URL.  For details, see the [Beaver Builder Debug Mode article](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md/#show-errrors).
 
 ### Automatic clearing of CSS and JavaScript files
 CSS and JavaScript files are now automatically cleared when the URL changes.
