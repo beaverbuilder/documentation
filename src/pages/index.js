@@ -161,7 +161,7 @@ const community = [
   },
   {
     title: <>Slack</>,
-    url: 'https://beaverbuilders.herokuapp.com/',
+    url: 'https://beaverbuilders.slack.com/join/shared_invite/zt-p4cb3bl0-gACU3QD8r25RPlaIoh3YAA#/shared-invite/email',
     icon: <><i className="fab fa-slack"></i></>,
   },
   {
