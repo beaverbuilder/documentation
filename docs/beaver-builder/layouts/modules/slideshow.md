@@ -235,7 +235,7 @@ total photos.
 **Yes** displays a Heart icon, shown in this screenshot, and clicking the icon displays whatever social buttons you have enabled in the **Social** section on this tab.  
   
 *Figure 7: Control bar Buttons layout when Social button is clicked*   
-![When Social buton is clicked, social icons displays in an overlay](/img/slideshow-module-5.png)
+![When Social button is clicked, social icons displays in an overlay](/img/slideshow-module-5.png)
 
 #### Control Bar Overlay section
 
