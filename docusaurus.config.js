@@ -122,7 +122,7 @@ module.exports = {
             },
             {
               label: 'Slack',
-              href: 'https://beaverbuilders.herokuapp.com/',
+              href: 'https://beaverbuilders.slack.com/join/shared_invite/zt-p4cb3bl0-gACU3QD8r25RPlaIoh3YAA#/shared-invite/email',
             },
             {
               label: 'Forums',
