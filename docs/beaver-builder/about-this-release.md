@@ -292,7 +292,7 @@ You can set the line height to be 0 in any [Typography section](/beaver-builder/
 
 ### Reduce or disable undo/redo functionality in the editor
 
-If your hosting environment or the size of the page you're editing is such that you notice sluggish behavior in the editor, you can [reduce the capacity of or disable the History Manager](/beaver-builder/troubleshooting/miscellaneous/reduce-disable-undo-redo-manager.md) with a URL parametter or through *wp-config.php*.
+If your hosting environment or the size of the page you're editing is such that you notice sluggish behavior in the editor, you can [reduce the capacity of or disable the History Manager](/beaver-builder/troubleshooting/miscellaneous/reduce-disable-undo-redo-manager.md) with a URL parameter or through *wp-config.php*.
 
 ### Disable smooth scrolling for individual links
 
