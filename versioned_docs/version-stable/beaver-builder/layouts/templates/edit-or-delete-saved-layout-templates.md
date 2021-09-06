@@ -5,7 +5,7 @@ sidebar_label: Edit or delete saved layout templates
 ---
 
 You can edit or delete your saved layout templates either through the **Beaver
-Builder** admin panel or from withiin the Beaver Builder editor.
+Builder** admin panel or from within the Beaver Builder editor.
 
 :::note **Note**
 Editing or deleting a saved layout template has no effect on any

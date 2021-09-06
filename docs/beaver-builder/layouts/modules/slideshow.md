@@ -7,29 +7,18 @@ description: The Slideshow module displays a gallery of image "slides" with a ch
 
 ## Uses of this module
 
-Use a slideshow module when you want to display a set of images in the
-foreground, one at a time. Besides the traditional horizontal slide
-transition, there are a number of other types of transitions from one image to
-the next, as described in the Playback tab section below. The images come from
-a gallery you create either in the WordPress Media Library or in SmugMug. You
-can display the image title, but if there is other content you want to display
-and the image is of secondary importance, see the related modules described
-below.
+Use a slideshow module when you want to display a set of images in the foreground, one at a time. Besides the traditional horizontal slide transition, there are a number of other types of transitions from one image to the next, as described in the Playback tab section below. The images come from a gallery you create either in the WordPress Media Library or in SmugMug. You can display the image title, but if there is other content you want to display and the image is of secondary importance, see the related modules described below.
 
 ## Display options
 
-Besides various types of transitions of the slides themselves, there are
-various options to display navigation and play controls, an image caption,
-social media links, thumbnails of the gallery, and a fullscreen toggle, all
-described in the following sections.
+Besides various types of transitions of the slides themselves, there are various options to display navigation and play controls, an image caption, social media links, thumbnails of the gallery, and a fullscreen toggle, all described in the following sections.
 
 Here's a screenshot of an image slideshow, showing the three main areas:
 
 * The slides are taken from a gallery of images that you specify.
 * Large navigation arrows can be displayed on either side of the slides, or with wider slides the icons are overlaid on the slides.
 * The control bar appears above or below the images, depending on your settings.  
-All of the icons that appear in the control bar can be displayed or hidden, as
-explained in more detail below.
+All of the icons that appear in the control bar can be displayed or hidden, as explained in more detail below.
 
 *Figure 1: Slideshow module, annotated*
 
@@ -45,30 +34,21 @@ This tab has the following settings.
 WordPress Media Library or SmugMug.
 
 * **Photos** (Media Library only)  
-Contains links to create a gallery of images in your Media Library or to edit
-an existing gallery.
+Contains links to create a gallery of images in your Media Library or to edit an existing gallery.
 
 * **Feed URL** (SmugMug galleries only)  
-Enter the URL for the RSS feed here. For help with linking to a SmugMug
-gallery, see the [Gallery module overview](/beaver-builder/layouts/modules/gallery/gallery.md/#use-a-smugmug-gallery).
+Enter the URL for the RSS feed here. For help with linking to a SmugMug gallery, see the [Gallery module overview](/beaver-builder/layouts/modules/gallery/gallery.md/#use-a-smugmug-gallery).
 
 #### Display section
 
 * **Height**  
-Sets the height of the box in which images and controls are displayed. The
-default height is 500px.
+Sets the height of the box in which images and controls are displayed. The default height is 500px.
 
 * **Skin color**  
-There's not much difference, but choose **Light** if you have light-colored
-images and background and **Dark** if you have dark-colored images and
-backgroiund. Individual image size is adjusted to maintain this height.
+There's not much difference, but choose **Light** if you have light-colored images and background and **Dark** if you have dark-colored images and backgroiund. Individual image size is adjusted to maintain this height.
 
 * **Crop**  
-Since the Height setting keeps the height of each image constant, the Crop
-setting determines whether the width of the image will adjust to display the
-full image (so width will vary depending on each image) or the iimage width
-expands to the full width of the column (minus margin and padding) and crops
-the left and right edges if necessary.
+Since the Height setting keeps the height of each image constant, the Crop setting determines whether the width of the image will adjust to display the full image (so width will vary depending on each image) or the image width expands to the full width of the column (minus margin and padding) and crops the left and right edges if necessary.
 
 * **Disable right-click**  
 Does not allow image to be downloaded.
@@ -76,19 +56,15 @@ Does not allow image to be downloaded.
 #### Click Action section
 
 * **Type**  
-None, or choose **Link**  to add a URL that will serve as a single destination
-for the entire set of images. You can't set a separate link for each image.
+None, or choose **Link**  to add a URL that will serve as a single destination for the entire set of images. You can't set a separate link for each image.
 
 * **Link URL**  
-If you selected **Link** for the **Click action**, enter the destination URL
-here.
+If you selected **Link** for the **Click action**, enter the destination URL here.
 
 ### Playback tab
 
 * **Auto Play**  
-**Yes** (the default) means the images transition automatically and can be
-overridden by any navigation controls that are displayed. **No** means the
-user must advance the images using the navigation controls.
+**Yes** (the default) means the images transition automatically and can be overridden by any navigation controls that are displayed. **No** means the user must advance the images using the navigation controls.
 
 * **Speed**  
 Number of seconds the full image is displayed. The default is 3 seconds.
@@ -135,9 +111,7 @@ Number of seconds spent transitioning to the next image. The default
 transition speed is one second.
 
 * **Randomize photos**  
-**No** (default) means photos are displayed in the same order as they appear
-in the gallery. **Yes** means the images are randomized. The randomization
-order stays the same with autoplay loops and navigation.
+**No** (default) means photos are displayed in the same order as they appear in the gallery. **Yes** means the images are randomized. The randomization order stays the same with autoplay loops and navigation.
 
 ### Controls tab
 
@@ -258,7 +232,7 @@ This section only appears when **Social button** is set to **Yes** in the **Cont
 The choices:
 
 * **Facebook button**
-* **Twiitter button**
+* **Twitter button**
 * **Pinterest button**
 
 ### Advanced tab

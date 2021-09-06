@@ -3,7 +3,7 @@ id: responsive-columns
 title: Responsive columns
 sidebar_label: Responsive columns
 ---
-Columns in layouts can become quite complex, with multiple layers of columns in rows and nested columns. For an overview of columns with many visual examples, see the the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
+Columns in layouts can become quite complex, with multiple layers of columns in rows and child columns. For an overview of columns with many visual examples, see the the [column layouts overview](/beaver-builder/layouts/columns/column-layouts-overview.md).
 
 Here's a complex example of column stacking. This example shows a single row with two column layers. The first column layer has two columns with two layers each. The second column layer has two module layers and a child column layer. The main columns have a light gray background. The child columns have a dark gray background. 
 

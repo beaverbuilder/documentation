@@ -99,17 +99,6 @@ Yeah, this is my funky post!
 
 If the post title is "My funky post" then here is what's displayed on the page: "Yeah, this is my funky post!".
 
-### Field connection to pull the current, newest, or oldest post
-
-In Themer Archive and Singular layouts you can display the results for the current post, newest post, or oldest post by connecting to or inserting a shortcode for any of the following fields:
-
-* Post title
-* Post ID
-* Post slug
-* Post URL (available only for settings that require a link, such as the **Link** field in a Button module)
-
-To access this feature, add one of these field connections by clicking the **Connect** or **Insert** buttons, then choose the current, oldest, or newest post from the dropdown list of options for that field.
-
 ### Additional support for Advanced Custom Fields field connections
 
 #### Dropdown selection of ACF fields
