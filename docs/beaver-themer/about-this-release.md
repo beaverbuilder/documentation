@@ -5,7 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this Beaver Themer release.
 ---
 
-Here are the new features for Beaver Themer 1.4-beta.1. 
+Here are the new features for Beaver Themer 1.4-beta.2. 
 
 <!-- :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback. See [this article](/general/alpha-and-beta-releases.md/#install-an-alpha-or-beta-plugin-release) for information about installing prerelease versions.
@@ -54,11 +54,54 @@ The Post Navigation module has a number of new options and a new **Style** tab. 
 
 ![Beaver Themer 1.4 post navigatio module enhancements](/img/themer-1-4-features-9.png)
 
-### WooCommerce Add to Cart Button module new hover colors]
+### New: Woo Notices module for Singular layouts
+
+There is a new Woo Notices module for Singular layouts that displays standard WooCommerce notices such as the following:
+
+![Beaver Themer 1.4 new Woo Notices module enhancements](/img/themer-1-4-features-9.png)
+
+This module lets you style the notices and place them in page locations other than the default notices.
+
+The module has a **Style** tab, with settings for text and background color, plus [**Typography**](/beaver-builder/styles/typography/typography.md) and [**Border**](/beaver-builder/styles/effects/borders.md) sections, and the standard [**Advanced** tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md).
+
+### WooCommerce Add to Cart Button module enhancements
+
+#### New Add to Cart button hover colors
 
 In Singular Themer layouts, you can set hover colors in the Add to Cart Button module in the **Themer Modules** group:
 
 ![WooCommerce](/img/themer-1-4-features-8.jpg)
+
+#### WooCommerce Wishlists plugin integration
+
+The [WooCommerce Wishlists plugin](https://woocommerce.com/products/woocommerce-wishlists/) adds an **Add to wishlist** button to the WooCommerce **Add to Cart** hook, which includes product quantity and product variations. Beaver Themer's Add to Cart Button module, available in Singular layouts when the WooCommerce plugin is active, serves as a pass-through for this behavior, as shown in this screenshot.
+
+![WooCommerce Wishlists plugin, Add to Wishlist button](/img/themer-1-4--about--wc-wishlist.png)
+
+You can also create Themer Archive layouts specifically for the Wishlist archive page. Choose **Wishlist archive** selection for **Location** when you create the Archive layout:
+
+![WooCommerce Wishlists plugin, Wishlist Archive location setting](/img/themer-1-4--about--wc-wishlist--2.png)
+
+:::note **Notes**
+
+* Color settings in the Add to Cart Button module have no effect on the wishlist button. That color must be changed in the WooCommerce Wishlists plugin settings. 
+* If you do add a custom background color in the WooCommerce Wishlists settings, you won't see that color in the Themer layout preview or even in the front-end Singular Themer layout, but you'll see it on the product page.
+* The **Add to Wishlist** button does not appear with the **Add to Cart** button on Shop and other product archive pages, whether or not there is a Themer Archive layout applied.
+:::
+
+## New HTML classes for third-party integrations
+
+### WooCommerce: class for products on sale
+
+When a product is on sale, the WooCommerce single product page with a Singular Themer layout adds a `sale` class, as follows:
+
+![WooCommerce added HTML sale class in singular layouts for products on sale](/img/themer-1-4--about--wc-sale-class--4.png)
+
+This class is useful if you want to add some custom CSS rules to single products on sale.
+
+### The Events Calendar: single event class
+
+Themer Singular layouts applied to single events add the `tribe-events-single` class to single event pages that have a Singular Themer layout applied. This is useful if you want to add some custom CSS rules to single event pages.
 
 ## Field connection enhancements
 
@@ -118,7 +161,7 @@ When you choose any ACF field category as a field connection or insert (post, ar
 
 ![](/img/themer-1-4-features-7.png)
 
-Using **Detected fields** is optional. You can continue to select the field type and type in the the field name slug manually.
+Using **Detected fields** is optional. You can continue to select the field type and type in the field name slug manually.
 
 #### Support for ACF Taxonomy fields
 
