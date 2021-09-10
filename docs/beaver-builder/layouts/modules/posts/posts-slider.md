@@ -53,20 +53,26 @@ Section  |  Field  |  Description
 
 Section  |  Field  |  Description  
 ---|---|---  
-**Heading** |  Heading tag  |  Choose the level of heading that will be assigned to the post title when it is rendered.  
-&nbsp;  |  Heading size  |  Choose **Default** or **Custom**. If you choose Custom, you can specify the custom font size.  
-**Text** |  Position  |  If **Image** on the **Layout** tab is set to **Background**, this setting determines which part of the slide the post text appears in: **Left**, **Right**, or **Bottom**. If Image is set to **Thumbnail**, this setting determines the orientation of post text in relation to the thumbnail: post text on the left or post text on the right.  
-&nbsp;  |  Text width  |  (Applies only when **Position** is set to **Left** or **Right**)<br/> You can choose the percent of the width of the slide that the post content covers.  
+**Content** |  Position  |  If **Image** on the **Layout** tab is set to **Background**, this setting determines which part of the slide the post text appears in: **Left**, **Right**, or **Bottom**. If **Image** is set to **Thumbnail**, this setting determines the orientation of post text in relation to the thumbnail: post text on the left or post text on the right.  
+&nbsp;  |  Text width  |  (Applies only when **Position** is set to **Left** or **Right**)<br/>The percent of the width of the slide that the post content covers.  
 &nbsp;  |  Text padding  |  Sets the amount of space on all four sides of the post text.  
-**Colors** |  Text color  |  Color of any unlinked text in the post title, post info, and post content.  
-&nbsp;  |  Link color  |  Color of any linked text, including the post title, author, number of comments, and the Read More link.
-&nbsp;  |  Link hover color  |  Color of the link when the cursor hovers over it.
-&nbsp;  |  Text background color  |  Color of the text background.  
-&nbsp;  |  Text background opacity  |  (Applies only when the featured image is set to **Background**)<br/> Opacity of the text background color.
-&nbsp;  |  Text background gradient  |  (Applies only when the featured image is set to **Background**)<br/>If set to **Yes** , automatically adds an opacity gradient to the specified text background color. The gradient uses the text background color and the text background opacity at the left edge (for text on the left) or right edge (for text on the right) and decreases in opacity towards the center of the slide. There's an example of a text background gradient [in the Posts Slider section of this article](/beaver-builder/layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples.md/#posts-slider-module).  
+&nbsp;  |  Background color  |  Color of the text background.  
+&nbsp;  |  Background gradient  |  (Applies only when the featured image is set to **Background**)<br/>If set to **Yes** , automatically adds an opacity gradient to the specified text background color. The gradient uses the text background color and the text background opacity at the left edge (for text on the left) or right edge (for text on the right) and decreases in opacity towards the center of the slide. There's an example of a text background gradient [in the Posts Slider section of this article](/beaver-builder/layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples.md/#posts-slider-module).  
 &nbsp;  |  Text background height  |  (Applies only when the featured image is set to **Background**)<br/> If set to **Auto** , the text background color adjusts to fit the area of text shown on the slide plus the **Text padding** specified in the **Text** section.<br/> If set to **100%** , the text background color covers the entire height of the slide. (The text background width is the width of the text plus padding.) See examples [in the Posts Slider section of this article](/beaver-builder/layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples.md/#posts-slider-module).<br/> **Note:** When **Position** in the **Text** section on the **Style** tab is set to **Bottom** , the text background effect will always be the equivalent of the **Auto** setting, even when set to **100%**.
-**Nav arrows**(Only when **Show arrows** is set to **Yes** on the **Slider** tab)  |  Arrows background color  |  Sets the color of a circle or square background behind the navigation arrows. When no color is set, there is no background circle or square.  
-&nbsp;  |  Arrows background style  |  When Arrows background color is set, this option sets the arrow background to a circle or a square.
+**Post title** | Title tag | The heading style of the post title.  
+&nbsp; | Color | Color of the post title.  
+&nbsp; | Hover color | Hover color of the post title.  
+&nbsp; | Typography | The standard Beaver Builder [typography section](/beaver-builder/styles/typography/typography.md) for the post title.
+**Post info** | Color | Color of the post info text.  
+&nbsp; | Link color | Color of text links.  
+&nbsp; | Link hover color | Hover color of text links.  
+&nbsp; | Typography | The standard Beaver Builder [typography section](/beaver-builder/styles/typography/typography.md) for the post info.  
+**Post content** | Color | Color of the post content.  
+&nbsp; | Link color | Color of text links.  
+&nbsp; | Link hover color | Hover color of text links.  
+&nbsp; | Typography | The standard Beaver Builder [typography section](/beaver-builder/styles/typography/typography.md) for the post content.  
+**Nav arrows** (Only when **Show arrows** is set to **Yes** on the **Slider** tab)  | Arrows background color  |  Sets the color of a circle or square background behind the navigation arrows. When no color is set, there is no background circle or square.  
+&nbsp;  |  Arrows background style  |  Sets the arrow background to a circle or a square.
 &nbsp;  |  Arrows color  |  Sets the color of the arrows themselves.  
 
 ## Content tab
@@ -79,7 +85,7 @@ Section  |  Field  |  Description
 &nbsp;  |  Order by  |  The choices are **Author**, **Comment count**, **Date**, **Date last modified**, **ID**, **Menu order**, **Meta value** (alphabetic or numeric), **Random**, **Title**.<br/> If you display pages in **Menu order**, you are effectively displaying a menu, with the added ability to display a content summary of the page.<br/> The **Meta value** option enables ordering by a custom field. If you select either the alphabetic or numeric **Meta value** option, a **Meta key** field appears so you can enter the key (`meta_key`).
 &nbsp;  |  Offset  |  Enter an integer if you want to skip a certain number of posts in the order specified in the **Order** setting.  
 &nbsp;  |  Exclude current post  |  Excludes the current post from the query. This is useful when you are using the module to create a list of related posts on a single post page.
-**Filter** |  Posts, Pages, Products, etc.  |  (The label matches the single post name for the **Post type** you set)<br/> Include or exclude a set of posts, page, products, etc., by title. Start typing a word, and the titles containing that word will be displayed for you to choose. Keep selecting titles until you have the set you want to include or exclude.  
+**Filter** |  Posts, Pages, Products, etc.  |  (The label matches the single post name for the **Post type** you set)<br/> Include or exclude a set of posts, page, products, etc., by title. Start typing a word, and the titles containing that word will be displayed for you to choose. Keep selecting titles until you have the set you want to include or exclude. You can reorder matched selections and they are reflected in the front end. See an example for the Posts module at [Selection Order in Filtering](/beaver-builder/layouts/modules/posts/posts.md#selection-order-in-filtering).  
 &nbsp;  |  Categories  |  (Hidden when the **Post type** setting is **Pages**)<br/> You can include or exclude categories to display.<br/> The third setting, **Match related categories except**, is useful in Singular-type Themer layouts when you want to use the Posts module to display a list of related posts, and you want to display the related posts in a family of categories except for the specific categories that you name.  
 &nbsp;  |  Tags  |  (Hidden when the **Post type** setting is **Pages** )<br/> You can include or exclude tags to display. The choices are the same as for including or excluding categories.  
 &nbsp;  |  Authors  |  You can include or exclude posts or pages by specific authors.

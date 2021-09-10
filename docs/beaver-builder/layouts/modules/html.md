@@ -9,7 +9,7 @@ The HTML module lets you insert custom code and markup into your layouts that is
 
 ![](/img/html-module-2.png)
 
-Like other code editors, the HTML has line numbering and text wrap, which are not visible in the published version.
+Like other code editors, the HTML module has line numbering and text wrap, which are not visible in the published version.
 
 ## Uses of the HTML module
 
@@ -18,6 +18,10 @@ shortcodes, or JavaScript. The HTML module is better for adding markup and
 code than the Text Editor module, because the WordPress editor instance
 embedded in the Text Editor module can try to insert its own markup, such as
 `<p>` tags.
+
+:::tip **Tip**
+If you enter code in the HTML module that results in an inability to open the Beaver Builder editor, [open the editor in Safe mode](/beaver-builder/troubleshooting/debugging/safe-mode.md) so you can fix or remove the code.
+:::
 
 In the screenshot above, the `[fl_year]` shortcode (which is available when
 you use the Beaver Builder Theme) has been inserted to render the current year

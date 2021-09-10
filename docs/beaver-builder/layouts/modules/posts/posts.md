@@ -92,10 +92,20 @@ Section  |  Field  |  Description
 &nbsp;  |  Order by  |  The choices are: **Author**, **Comment count**, **Date**, **Date last modified**, **ID**, **Menu order**, **Meta value** (alphabetic or numeric), **Random**, **Title**, **Selection order**.<br/>**Menu order** can be used with a plugin such as [Post Types Order](https://wordpress.org/plugins/post-types-order/) to order the posts or custom posts in the same way you arrange them in the back end.<br/>The **Meta value** option enables ordering by a custom field. If you select either the alphabetic or numeric **Meta value** option, a **Meta key** field appears so you can enter the key (`meta_key`).<br/>**Selection order** works when you have selected specific posts to display in the **Filter** settings on this tab.( The Posts will display in the same sequence as your selections (Ascending order) or the reverse sequence (Descending order). ) 
 &nbsp;  |  Offset  |  Enter an integer if you want to skip a certain number of posts in the order specified in the **Order** setting.  
 &nbsp;  |  Exclude current post  |  Excludes the current post from the query. This is useful when you are using the module to create a list of related posts on a single post page.  
-&nbsp;  |  Posts, Pages, Products, etc.  |  (The label matches the single post name for the **Post type** you have set)<br/>Include or exclude a set of posts, page, products, etc., by title. Start typing a word, and the titles containing that word will be displayed for you to choose. Keep selecting titles until you have the set you want to include or exclude.  
+**Filter**  |  Posts, Pages, Products, etc.  |  (The label matches the single post name for the **Post type** you have set)<br/>Include or exclude a set of posts, page, products, etc., by title. Start typing a word, and the titles containing that word will be displayed for you to choose. Keep selecting titles until you have the set you want to include or exclude.  You can reorder the selections and they are reflected in the front end. See also [Selection Order in Filtering](#selection-order-in-filtering).
 &nbsp;  |  Categories  |  (When the **Post type** setting is **Posts**)<br/>You can include or exclude categories to display.<br/>The third setting, **Match related categories except**, is useful in Singular-type Themer layouts when you want to use the Posts module to display a list of related posts, and you want to display the related posts in a family of categories except for the specific categories that you name.
 &nbsp;  |  Tags  |  (When the **Post type** setting is **Posts**)<br/>You can include or exclude tags to display. The choices are the same as for including or excluding categories.  
 &nbsp;  |  Authors  |  You can include or exclude posts or pages by specific authors.  
+
+### Selection order in filtering
+
+In the **Filter** section, when you select a specific posts, pages, or custom posts, you can drag the listed items you've selected to reorder them. If you choose **Selection order** in the **Order by** setting,  the order in which your posts, pages, or custom post types appear is reflected in the order of the items that appear on the page. For example, in the following screenshot showing three posts about insects, the order of posts in the **Match these posts** setting is the same order you see on the page.
+
+![Settings to order a filtered set of posts](/img/layouts--modules--posts--1.jpg)
+
+::note **Notes**
+* **Selection order** works only for selected posts, pages, and custom posts. It doesn't work for selected categories, tags, or authors.
+* The **Ascending** and **Descending** settings don't affect the order of posts when **Selection order** is used.
 
 ## Pagination tab
 
