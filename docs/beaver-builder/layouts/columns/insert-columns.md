@@ -2,6 +2,7 @@
 id: insert-columns
 title: Insert columns
 sidebar_label: Insert columns
+descriptions: Describes the methods to add one or more columns to a layout.
 ---
 
 There are a couple ways to insert columns.
@@ -16,7 +17,7 @@ In the following screenshot, an Icon module is being dragged between two other c
 
 ## Drag and drop empty columns into the layout
 
-There are times when dragging a module into the layout doesn't create the column structure you want. Particularly in these cases, you can add empty columns or nested columns anywhere and drag in the modules as a second step.
+There are times when dragging a module into the layout doesn't create the column structure you want. Particularly in these cases, you can add empty columns or child columns anywhere and drag in the modules as a second step.
 
 **To drag one or more empty columns into the layout:**
 
@@ -25,5 +26,5 @@ There are times when dragging a module into the layout doesn't create the column
 ![](/img/row-columns-insert-cols-1.png)
 
 :::note **Note**
-If you're unable to insert new columns, check to see if you've reached the [column limit](/beaver-builder/layouts/columns/column-layouts-overview.md/#column-limits). 
+If you're unable to insert new columns, check to see if you've reached the [column limit](/beaver-builder/layouts/columns/column-layouts-overview.md/#basic-column-rules-and-limits). 
 :::

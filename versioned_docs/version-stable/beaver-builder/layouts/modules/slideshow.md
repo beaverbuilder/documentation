@@ -64,7 +64,7 @@ backgroiund. Individual image size is adjusted to maintain this height.
 * **Crop**  
 Since the Height setting keeps the height of each image constant, the Crop
 setting determines whether the width of the image will adjust to display the
-full image (so width will vary depending on each image) or the iimage width
+full image (so width will vary depending on each image) or the image width
 expands to the full width of the column (minus margin and padding) and crops
 the left and right edges if necessary.
 

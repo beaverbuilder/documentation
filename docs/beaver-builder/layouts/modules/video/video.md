@@ -86,6 +86,11 @@ become available.
 
 * **Video name**
 * **Video description**
+* **Content URL**  
+Google defines this as "The URL of the actual content bytes, either on the local site or on a streaming service."
+* **Embed URL**  
+Google defines this as "The URL of the custom player. This is often the src value for an <iframe\> or <embed\> tag on the page."  
+For more information about both of these URLs, see this Google [Video Best Practices](https://developers.google.com/search/docs/advanced/guidelines/video#which-url-is-which) page.
 * **Video thumbnail**
 * **Upload date**
 

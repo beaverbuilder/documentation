@@ -2,11 +2,27 @@
 id: resize-or-reset-column-width
 title: Resize or reset column width
 sidebar_label: Resize or reset column width
+description: Describes the methods to resize column width or reset it to the default.
 ---
 
-You can change column widths relative to the widths of other columns within the same column group. You can reset the columns in a column group to equal widthss. Finally, you can [add width percentages to apply specifically to medium and small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md).
+You can resize column width using one of several methods. You can reset column width to the defaults. Finally, you can [vary column width according to device](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md), which also prevents column stacking.
 
 ## Resize column width
+
+The method to resize column width largely depends on how many columns are in the column group.
+
+## Resize column width in a single-column group
+
+When a [column group](/beaver-builder/layouts/columns/column-layouts-overview.md) contains just one column, by default the width is 100%. There are two methods you can use to reduce the width of a single column. 
+
+* Set the column width to less than 100%.  
+Open the column settings and change the **Width** setting on the **Style** tab.  
+**Note:** The column stays left-aligned and the width of the column is shortened, as shown in this screenshot. You can't change the horizontal alignment with this method.  
+![A single column with 50% width](/img/layouts--columns--resize-reset--1.png)
+
+* Place an empty column on each side of the single column, then set column widths to position the center column horizontally. [Use the column drag handles](#method-1-drag-the-column-handle) to set the column widths you want.
+
+## Resize column width in multicolumn groups
 
 There are two methods to resize column width. With both methods, resizing one column width resizes the other column widths in the same column group to maintain a total of 100%. The new setting applies to all device sizes unless you [change the width separately for medium and small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md).
 
@@ -33,8 +49,7 @@ This method may not work well for changing the widths of more than two columns b
 
 ## Reset column widths
 
-With this procedure you can reset column widths to evenly divided widths for
-the entire column group.
+With this procedure you can reset column widths to evenly divided widths for the entire column group.
 
 **To reset the column widths for the entire column group:**
 

@@ -40,7 +40,7 @@ By default, when a post or page has a Beaver Builder layout, any Singular Themer
 
 To make a Themer layout apply to a post or page with a Beaver Builder layout, you have to set each post page to accept the Singular Themer layout. Here's how.
 
-****To set a page or post with Beaver Builder content to accept or overriide a Themer layout:**
+****To set a page or post with Beaver Builder content to accept or override a Themer layout:**
 
 1. Add a new page or post or open an existing page or post in the Beaver Builder editor.  
   A choice box appears when the editor opens. If you don't see the choice box, open the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md) and click **Themer override** to open the choice box.

@@ -14,7 +14,7 @@ You can test for ACF field values using [conditional shortcode](/beaver-themer/f
   Test for the value of the radio button selected.
 
 :::tip **Tip**
-You can also use condiitional shortcode to test for the presence or absence of an ACF field value. See [this example](/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer.md/#example-1-label-for-custom-field).
+You can also use conditional shortcode to test for the presence or absence of an ACF field value. See [this example](/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer.md/#example-1-label-for-custom-field).
 :::
 
 In the following example (and the other examples in the following section), the custom field is identified with the standard `post:acf` (to identify the field as an ACF), `type` (the ACF field type, such as `text`, `number`, `radio`), and `name` (your custom field name), then the `exp` option for the operator and the field `value` being tested.
