@@ -94,22 +94,27 @@ See the settings below for more information about how to control the placement a
 
 ### General tab
 
-#### Top section
-
-* **List type**  
-  **Generic**, **Unordered**, or **Ordered**, as described above.
-* **List item heading tag**  
-  Choose the HTML tag that will be used for the list item's heading. You can choose from `<h1>` - `<h6>` or the `<span>` or `<div>` tag.
-* **List item content tag**  
-  Choose the HTML tag that will be used for the list item's content. You can choose the `<div>`, `<aside>`, or `<section>` tag.
-* **List icon**  
-  Chose the icon for the list item marker. The choices depend on which type of list you choose, as described in the first section of this article.
-* **List icon placement**  
-  Choose where the list item marker will appear. The choices are to the left or the right of the heading or the content. Choosing **Right of heading** or **Right of content** places the list item markers flush with the right margin of the list container. You can fine-tune the positioning of the icons by changing the **Icon width** and **Icon padding** settings in [the **Icon style** section](#icon-style-section) of the **Style** tab.
+The **General** tab contains three sections: **List items**, **Display**, and **List item tags**.
 
 #### List items section
 
 This is where you add the content and style for individual list items. Click **Edit list item** to add the first item, after you save click **Add list item** for additional items. See [the section on individual list item settings](#settings-for-each-list-item) for details of editing list items.
+
+#### Display section
+
+* **List type**  
+  **Generic**, **Unordered**, or **Ordered**, as described above.
+  * **List icon**  
+    Chose the icon for the list item marker. The choices depend on which type of list you choose, as described in the first section of this article.
+    * **List icon placement**  
+      Choose where the list item marker will appear. The choices are to the left or the right of the heading or the content. Choosing **Right of heading** or **Right of content** places the list item markers flush with the right margin of the list container. You can fine-tune the positioning of the icons by changing the **Icon width** and **Icon padding** settings in [the **Icon style** section](#icon-style-section) of the **Style** tab.
+
+#### List Item Tags section
+
+* **List item heading tag**  
+  Choose the HTML tag that will be used for the list item's heading. You can choose from `<h1>` - `<h6>` or the `<span>` or `<div>` tag.
+* **List item content tag**  
+  Choose the HTML tag that will be used for the list item's content. You can choose the `<div>`, `<aside>`, or `<section>` tag. If you're not sure, choose the generic `<div>` tag.
 
 ### Style tab
 

@@ -2,13 +2,13 @@
 id: delete-a-module-or-column
 title: Delete a module or column
 sidebar_label: Delete a module or column
+description: Describes methods to delete a module or a column
 ---
 
-You can delete a module and leave the column, or you can delete a column,
-which also deletes the column's contents.
+You can delete a module and leave the column, or you can delete a column, which also deletes the column's contents.
 
 :::tip **Tip**
-Deleting columns and nested columns can get complicated. It's safer to delete modules first and then the empty columns and if you delete something you regret [use the Undo feature](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md).
+Deleting columns and child columns can get complicated. It's safer to delete modules first and then the empty columns and if you delete something you regret [use the Undo feature](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md).
 :::
 
 ## Delete a module and leave the column
@@ -34,9 +34,9 @@ See the screenshot below
 
   3. Verify that you want to remove the column.
 
-## Delete a column or nested column and its content
+## Delete a column or child column and its content
 
-When you delete a column or nested column, the contents of the column are also
+When you delete a column or child column, the contents of the column are also
 deleted.
 
 :::tip **Tip**
@@ -48,7 +48,7 @@ the module options, then delete any empty columns.
 
 ![](/img/how-to-tips-delete-col-module-3.png)
 
-  * **To delete a main or nested column and its contents:**
+  * **To delete a main or child column and its contents:**
 
   1. Mouse over one of the modules to reveal the options.
   2. Click **Edit Column**, then mouse over **Delete column**.  

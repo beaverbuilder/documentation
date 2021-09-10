@@ -5,15 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this release of the Beaver Builder plugin.
 ---
 
-Here are the Beaver Builder 2.5 features as of Version 2.5-beta.4.
-
-Changes for beta.3 and beta.4:
-
-* [New layout templates](#new-layout-templates)
-* [ New icon picker design and function](#changes-to-the-icon-picker)
-* [Icons instead of top-bottom-left-right text labels](#new-icon-labels-for-left-right-up-down-settings)
-* [Improvements to the WP edit page when Beaver Builder is restricted](#ui-improvements-when-beaver-builder-is-restricted-for-a-user-role)
-* [Ability to disable Outline panel completely](#disable-the-outline-panel)
+Here are the new features in Beaver Builder 2.5.
 
 <!-- :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
@@ -36,7 +28,7 @@ See [the article about the Outline panel](./beaver-builder/getting-started/bb-ed
 
 There are two new layout templates and several new content templates. Here's a thumbnail snapshot of the two new layout templates in the **Landing pages** group:
 
-![New layout templates in the Landing Pages group](/img/25-features-layout-templates-landiing-group.png) 
+![New layout templates in the Landing Pages group](/img/25-features-layout-templates-landing-group.png) 
 
 And here's a thumbnail snapshot of the eight new layout templates in the **Content pages** group.
 
@@ -51,6 +43,8 @@ Some older layout templates have also been deleted in this release. The followin
 The following screenshot shows the layout templates in the **Content pages** group that have been deleted (About Us, Design Portfolio, FAQs).
 
 ![Deleted layout templates in the Content Pages group](/img/25-features-layout-templates-content-group-deleted.png) 
+
+See [this article](/beaver-builder/layouts/templates/layout-templates-overview.md) for an overview of layout templates.
 
 ### Changes to the icon picker
 
@@ -114,7 +108,7 @@ See the [Countdown module article](/beaver-builder/layouts/modules/countdown.md)
 
 ### HTML module
 
-The [code editor](/beaver-builder/layouts/modules/html.md) has line numbers and automatic line wrap. 
+The [code editor](/beaver-builder/layouts/modules/html.md) in the HTML module has line numbers and automatic line wrap. 
 
 ### Icon Group module
 
@@ -134,7 +128,9 @@ The text can be formatted in the **Typography** section on the **Style** tab for
 
 ### List module
 
-On the **General** tab, the settings were rearranged so the **List items** section appears at the top.
+On the **General** tab, the settings were rearranged so the **List items** section appears at the top, and settings from the original top section now appear in the lower sections. 
+
+See the [List module article](/beaver-builder/layouts/modules/list.md) for more details.
 
 ### Menu module
 
@@ -169,6 +165,8 @@ On the **General** tab, when **Layout** is set to **Bars counter**,  then on the
 On the **General** tab, set **Number position** to **Hidden**.
 * The **Style** tab now has the standard [Typography section](/beaver-builder/styles/typography/typography.md) for both numbers and text. 
 
+For details, see the [Number Counter module article](beaver-builder/layouts/modules/number-counter.md).
+
 ### All Posts modules
 
 If you want to display a defined set of posts or pages, categories, or tags in a custom order, you can set this up on the **Content** tab. As of Beaver Builder 2.5, you can reorder your custom selection in any of the **Filter** section settings by dragging listed items. For example, in the following screenshot showing three posts about insects, you can change the order of posts in the **Match these posts** setting.
@@ -192,6 +190,8 @@ There's now an option to customize the output when no posts are found.
 The Pricing Table module has several enhancements, summarized in this screenshot and explained in the following sections.
 
 ![Pricing Table module 2.5 features](/img/2-5-features-pricing-table-overview.png) 
+
+For a complete description of the module settings, see the [Pricing Table module article](/beaver-builder/layouts/modules/pricing-table.md).
 
 #### Monthly/yearly pricing
 There's a new **Toggle pricing** option where you can choose  a single price or a toggle to display dual pricing. If you enable the toggle, you can also choose the two billing options (the default is Monthly/Yearly). Then in each pricing box, there are fields to enter the price for each billing option. On the front end, there's a toggle with the two billing options, as shown in the screenshot above. 
@@ -219,13 +219,15 @@ Typography sections have also been added to the **Title** and **Price** in each 
 
 ### Separator module
 
-The Separator module has new responsive toggles for both the **Height** and **Alignment** settings, with the result that you can now specify different settings for height, width, and alignment for large, medium, and small devices. 
+The Separator module has new responsive toggles for both the **Height** and **Alignment** settings, with the result that you can now specify different settings for height, width, and alignment for large, medium, and small devices.  See the [Separator module article](/beaver-builder/layouts/modules/separator.md) for details.
 
-![Separator module height and alignment settings now responsive in 2.5](/img/2-5-features-separator-module-settings.png) 
+![Separator module height and alignment settings now responsive in 2.5](/img/2-5-features-separator-module-settings.png)
+
+For details, see the [Separator module article](/beaver-builder/layouts/modules/separator.md)
 
 ### Slideshow module
 
-The Google+ icon has been removed.
+The Google+ icon has been removed from the **Social** section on the **Controls** tab. See the [Slideshow module article](/beaver-builder/layouts/modules/slideshow.md#social-section) for details.
 
 ### Subscribe Form module
 
@@ -233,38 +235,36 @@ The Mailpoet 3 integration now shows all lists.
 
 ### Video module
 
-There are two additional options on the **Structured data** tab: **contentUrl**  and **embedUrl**.
+There are two additional options on the **Structured data** tab: **contentUrl**  and **embedUrl**. For details see the [Video module article](/beaver-builder/layouts/modules/video/video.md/#structured-data-tab).
 
 ## Column improvements
 
 * You can now set the width for single columns.  
 ![Column width setting for single columns, 2.5 features](/img/2-5-features-single-column-width.png) 
 * You can now set custom positions for column backgrounds. 
-If you use a **Photo** background in your column's **Style** settings, the **Position** option has a **Custom position** option where you can set the X position and Y position in either pixels or percent. This feature is already available for row photo backgrounds,.
+If you use a **Photo** background in your column's **Style** settings, the **Position** option has a **Custom position** option where you can set the X position and Y position in either pixels or percent. This feature is already available for row photo backgrounds. See the [background effects section in this article](/beaver-builder/layouts/columns/edit-a-column.md/#background-effects).
 
 ## Improvements in the WP admin UI
 
 ### Duplicate option in post and page lists
 
-For posts (including pages and custom post types) that use a Beaver Builder layout, there's now an **Add Duplicate** option, allowing you to duplicate Beaver Builder layouts to new posts and pages.
+For posts (including pages and custom post types) that use a Beaver Builder layout, there's now an **Add Duplicate** option, allowing you to duplicate Beaver Builder layouts right from the **All pages** or **All posts** screen in the WordPress admin panel.
 
 ![Duplicate post, a 2.5 feature](/img/2-5-features-duplicate-post.png) 
 
-Where possible, this feature hides the **Duplicate** option that comes from other plugins for pages and posts that have Beaver Builder layouts. These other plugins often don't work well with Beaver Builder.
-
-:::note **Note**
-You can still [duplicate pages from the Tools menu in the Beaver Builder editor](/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md).
-:::
+See [the article about duplicating pages](/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md/#method-1-duplicate-a-page-from-the-wordpress-admin-panel) for more information. You can still duplicate pages from the Tools menu in the Beaver Builder editor.
 
 ### Copy a shortcode for a saved item with one click
 
-In the Beaver Builder section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
+In the **Beaver Builder** section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
 
 ![Saved row shortcode example](/img/wp-admin-saved-row-shortcode.png) 
 
+See the [shortcode article](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md) for details.
+
 ### UI improvements when Beaver Builder is restricted for a user role
 
-There are a couple of improvements in what users see when their user role does not allow them to use Beaver Builder and they open a Beaver Builder page for editing in WordPress.
+There are a couple of improvements in what users see [when their user role does not allow them to use Beaver Builder](/beaver-builder/management-migration/control-user-access-by-role.md/#builder-access) and they open a Beaver Builder page for editing in WordPress.
 
 The following screenshots show Beaver Builder 2.4 and 2.5 for comparison. The following shows the screen when the logged-in user is not allowed to open Beaver Builder and clicks **Edit** to open a Beaver Builder page or post for editing in the WordPress standard editor.
 
@@ -280,72 +280,43 @@ The second change in behavior is when the user  is restricted from using the Bea
 
 ### Support for the Font Awesome plugin
 
-There is now basic support for the [official Font Awesome Plugin](https://wordpress.org/plugins/font-awesome/) so you can use that plugin's shortcodes in your Beaver Builder layouts. If you want to use Font Awesome Pro icons, be sure to follow the [plugin installation instructions](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/wordpress) for enabling your domain in the Font Awesome CDN or set up a kit.
+There is now basic support for the [official Font Awesome Plugin](https://wordpress.org/plugins/font-awesome/) so you can use that plugin's shortcodes in your Beaver Builder layouts, improve search in the icon picker, and make it easier to add Font Awesome Pro icons. See the articles about [enabling icon sets in Beaver Builder](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md) and [enabling Font Awesome Pro icons](/beaver-builder/styles/icons/enable-font-awesome-pro-icon-sets.md).
 
 ### Support for SEOPress
 
 Beaver Builder now supports [SEOPress](https://www.seopress.org/).
 
-### Line height allows 0 value in all module **Typography** sections
+### Line height allows 0 value in all module Typography sections
 
 You can set the line height to be 0 in any [Typography section](/beaver-builder/styles/typography/typography.md).
+
+### Reduce or disable undo/redo functionality in the editor
+
+If your hosting environment or the size of the page you're editing is such that you notice sluggish behavior in the editor, you can [reduce the capacity of or disable the History Manager](/beaver-builder/troubleshooting/miscellaneous/reduce-disable-undo-redo-manager.md) with a URL parameter or through *wp-config.php*.
+
+### Disable smooth scrolling for individual links
+
+You can disable smooth scrolling for a target from any link that occurs on the same page. When smooth scrolling is disabled, the link jumps to its target when clicked, rather than dynamically scrolling the page.  See the [article on smooth scrolling links](/beaver-builder/advanced-builder-techniques/smooth-scrolling-links.md#disable-smooth-scrolling-for-a-target).
+
+### Change in Beaver Builder Debug Mode operation
+
+Errors are now output only if  the `showerrors` parameter is in the URL.  For details, see the [Beaver Builder Debug Mode article](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md/#show-errrors).
+
+### Automatic clearing of CSS and JavaScript files
+CSS and JavaScript files are now automatically cleared when the URL changes. See the [article about the Beaver Builder cache](/beaver-builder/troubleshooting/debugging/issue-fixer-clear-the-cache.md).
+
+### WP-CLI enhancements
+
+You can use WP-CLI to change the values in **Tools > Global Settings** in the Beaver Builder editor. There are two commands: one to return a list of global settings and the other to change specific settings. See the [WP-CLI article](/beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme.md/#list-beaver-builder-global-options) for more details.
 
 ### Disable the Outline Panel
 
 If you want to completely disable the Outline Panel, add the following filter to your child theme's *functions.php*  file:
 
 ```php
-//Diisable Outline Panel
+//Disable Outline Panel
 add_filter( 'fl_builder_outline_panel_enabled', '__return_false' );
 ```
-
-### Reduce or disable undo/redo functionality in the editor
-The [History manager](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md) can cause sluggish behavior in the editor, particularly when your site is in a shared hosting environment or the page you're editing has a large number of rows and modules. The default number of changes the History Manager remembers is 20. 
-
-You can reduce or disable this number temporarily or more permanently in two ways:
-
-#### Disable the History Manager temporarily
-
-* Add `&nohistory` to the end of your URL in the Beaver Builder editor.  
-For example:
-
-```markup
-https://mysite.com/?fl_builder&nohistory
-```
-In the editor, if you click **History** in the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), you'll see the message `Undo/redo history is currently disabled`.
-
-#### Reduce or disable the history by changing wp-config
-
-This method requires access to the *wp-config.php* file in your WordPress installation root. It reduces or disables the History Manager for all Beaver Builder layouts site-wide.
-
-1. Open the *wp-config.php* file for editing.
-2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
-```php
-if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {
-			define( 'FL_BUILDER_HISTORY_STATES', 20 );
-		}
-```
-3. Change the number of states from `20` to a smaller number, or change the number to `0` to disable the History Manager entirely.
-
-To restore normal History Manager functionality, remove this code from the *wp-config.php* file.
-
-### An easier way to disable smooth scrolling
-
-There's now an easy way to disable [smooth scrolling](/beaver-builder/advanced-builder-techniques/smooth-scrolling-links.md). When smoother scrolling is disabled, a link jumps to its target on the same page rather than dynamically traveling down the page.  
-
-On the **Advanced** tab where you set the anchor in the **ID** field, add `fl-no-scroll` to the **Class** field  below it. See the [smooth scrolling article](/beaver-builder/advanced-builder-techniques/smooth-scrolling-links.md) for more information about creating target anchors on a page and linking to them.
-
-### Change in Debug Mode operation
-
-Errors are now output only if  the `showerrors` parameter is in the URL.  
-
-After [enabling Debug Mode](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md), add the parameter `/?showerrors` to your URL to view errors, for example:  
-`https://mysite.com/?showerrors`.
-
-If the URL already has a `?` parameter in use, then use `&showerrors` instead. For example, if you're using the Beaver Builder debug URL, the existing URL might be something like `mysite.com?fldebug=ed52f356`. In this case, you'd append the `showerrors` parameter to form `mysite.com?fldebug=ed52f356&showerrors`.
-
-### Automatic clearing of CSS and JavaScript files
-CSS and JavaScript files are now automatically cleared when the URL changes.
 
 ### Filter to add a mail service to the Subscribe module
 
@@ -364,13 +335,3 @@ function bb_subscribe_form_custom_service( $services ) {
 add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
 ```
 
-### The suggest field in posts is sortable
-
-For module developers, the `suggest` field is sortable. See the [Module Development Guide](/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference.md/#suggest-field).
-
-### WP-CLI enhancements
-
-* The following command shows a list of all options:  
-`wp beaver global list`
-*  The following command updates a single option:  
-`wp beaver global-update --id=default_heading_selector --value=.fl-post-header`

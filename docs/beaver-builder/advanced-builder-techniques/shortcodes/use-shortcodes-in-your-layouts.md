@@ -9,9 +9,7 @@ editor field, just like you do for any other WordPress shortcodes.
 
 :::info **Basics:**
 * WordPress shortcodes are macros that can create markup dynamically. For an introduction to WordPress shortcodes, see [the WordPress Codex](https://developer.wordpress.org/plugins/shortcodes/). Shortcodes can be recognized as a bit of code that lives between square brackets, such as `[fl_builder_insert_layout id="123"]`.
-
 * When you update the source content, the shortcode content is automatically updated.
-
 * You can use shortcodes in the WordPress editor or in Beaver Builder module settings fields that accept text, such as the **Heading** field of the Heading module.
 :::
 
@@ -20,20 +18,14 @@ editor field, just like you do for any other WordPress shortcodes.
 The two most common uses for Beaver Builder shortcode are:
 
 * Inserting Beaver Builder module into other Beaver Builder modules where normally only text can occur, as the following examples show.
-
 * Inserting a section of Beaver Builder layout, such as a saved row, into a standard WordPress content area.  
-For example, you could insert a Subscribe Form module into the middle of a
-post that is edited with the WordPress editor.
+For example, you could insert a Subscribe Form module into the middle of a post that is edited with the WordPress editor.
 
-Here's an example where the shortcode for a Photo module was inserted into a
-feature field in a Pricing module.
+Here's an example where the shortcode for a Photo module was inserted into a feature field in a Pricing module.
 
 ![](/img/how-to-tips-shortcodes-in-layout-1.png)
 
-The screenshot shows a Pricing Table module in which the first feature in the
-first feature in the first column contains text ("Your logo or custom text
-printed on apparel") a `<br>` tag to put the photo on the next line, and the
-shortcode for the saved Photo module.
+The screenshot shows a Pricing Table module in which the first feature in the first feature in the first column contains text ("Your logo or custom text printed on apparel") a `<br>` tag to put the photo on the next line, and the shortcode for the saved Photo module.
 
 Here are a couple of other examples of how you can use shortcodes:
 
@@ -41,15 +33,12 @@ Here are a couple of other examples of how you can use shortcodes:
   * Embed a contact form from Beaver Builder or another plugin into a tab in a Tabs module.
 
 :::tip **Tip**
-If you have Beaver Themer, it can sometimes be used more efficiently
-than Beaver Builder shortcodes. See advanced examples of shortcodes and Themer
-alternatives below.
+If you have Beaver Themer, it can sometimes be used more efficiently than Beaver Builder shortcodes. See advanced examples of shortcodes and Themer alternatives below.
 :::
 
 ## What Beaver Builder content can be turned into shortcodes?
 
-You can create shortcodes for any Beaver Builder content that has an ID or a
-slug:
+You can create shortcodes for any Beaver Builder content that has an ID or a slug:
 
   * Posts, pages, or custom post types with Beaver Builder layouts
   * Saved rows, columns, or modules
@@ -58,17 +47,21 @@ slug:
 :::tip **Tips**
 
   * If you use the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/), there's a special `[fl_year]` shortcode, which you can use to insert the current date both into both Beaver Builder layouts and into text areas of the theme, such as the top bar and footer. For more information, see the [article on the Beaver Builder Theme date shortcode](/bb-theme/defaults-for-layouts-content/shortcode-for-current-date.md).
-
   * With the Pro and Agency versions of Beaver Builder, you can use Beaver Builder shortcodes anywhere on a multisite installation. See the [shortcodes article](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md).
 :::
 
 ## Create a Beaver Builder shortcode
 
-**Prerequisite:** If you plan to use a row, module, column, or layout template
-in your shortcode, it must be saved first so it has its own ID and slug. See
-the article about [saving rows, columns, and modules](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) or the article about [saving layout templates](/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template.md).
+**Prerequisite:** If you plan to use a row, module, column, or layout template in your shortcode, it must be saved first so it has its own ID and slug. See the article about [saving rows, columns, and modules](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) or the article about [saving layout templates](/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template.md).
 
-**To create Beaver Builder shortcode:**
+### Method 1:  Copy a shortcode for a saved item with one click
+
+In the **Beaver Builder** section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
+
+This screenshot shows the shortcode location for a saved row.
+![Saved row shortcode example](/img/wp-admin-saved-row-shortcode.png) 
+
+### Method 2: Manually construct a Beaver Builder shortcode
 
 1. Get the ID or slug of the saved item.   
 See [this article for instructions](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode.md).  

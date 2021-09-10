@@ -29,13 +29,15 @@ Here's a screenshot of where this procedure occurs.
 
 ![Duplicate post, a 2.5 feature](/img/2-5-features-duplicate-post.png) 
 
+Look for the green or gray dot after **Duplicate page** to know that this functionality is coming from Beaver Builder. Where possible, this feature hides the Duplicate option that comes from other plugins for pages and posts that have Beaver Builder layouts. These other plugins often don't work well with Beaver Builder.
+
 1. From the WordPress admin panel, go to **Pages > All Pages** or **Posts > All Posts** or the equivalent for your custom post type. 
 2.  Mouse over the page or post you want to duplicate to show the options.
 3.  Click **Add Duplicate**.  
 The duplicated page or post opens in the Beaver Builder editor.
 
 :::tip **Tip**
-You can change the page title and slug from within the Beaver Builder editor. From the [**Tools** menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), click **WordPress admin > Edit page**. A new browser tab opens with the WordPress editor open for that page, where you can change the page title and slug and publish the page, then close that tab. The first tab continues to show the old page title in the upper left corner of the Beaver Builder editor,, so you can either reload the page in your browser or just save or publish the Beaver Builder page and it will save under the renamed page slug and title.
+You can change the page title and slug from within the Beaver Builder editor. From the [**Tools** menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), click **WordPress admin > Edit page**. A new browser tab opens with the WordPress editor open for that page, where you can change the page title and slug and publish the page, then close that tab. The first tab continues to show the old page title in the upper left corner of the Beaver Builder editor, so you can either reload the page in your browser or just save or publish the Beaver Builder page and it will save under the renamed page slug and title.
 :::
 
 ## Method 2: Duplicate a page from within the Beaver Builder editor

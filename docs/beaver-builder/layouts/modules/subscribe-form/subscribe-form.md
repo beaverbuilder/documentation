@@ -83,7 +83,7 @@ on.
   * MailerLite
   * Mailjet
   * MailPoet  
-**Note**: You must have the MailPoet plugin installed for MailPoet to appear in the list in the Subscribe Form module.
+**Note**: You must have the MailPoet plugin installed for MailPoet to appear in the list in the Subscribe Form module. MailPoet shows all of your lists for you to choose from.
   * Mailrelay
   * Mautic
   * Ontraport
