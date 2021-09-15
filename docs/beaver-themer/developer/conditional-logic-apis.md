@@ -38,7 +38,7 @@ You can follow along by [downloading the example plugin here](https://www.wpbeav
     wp_enqueue_script(
       'bb-logic-example-rules',
       BB_LOGIC_EXAMPLE_URL . 'js/rules.js',
-      array( 'bb-logic-core-bundle' ),
+      array( 'bb-logic-core' ),
       '1.0',
       true
     );
