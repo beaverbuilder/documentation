@@ -7,7 +7,7 @@ description: Instructions for enabling Font Awesome Pro icons in Beaver Builder.
 
 You can enable support for your Font Awesome Pro icons by installing the Font Awesome plugin or, without the plugin, by connecting to a Font Awesome kit or the Font Awesome CDN in the Beaver Builder settings, using one of the following methods. See the [overview article about enabling icon sets](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md) to see the advantages of using the Font Awesome plugin.
 
-No matter which method you choose, in the Beaver Builder editor's icon picker you'll see the Font Awesome Pro icon sets that you've enabled in the Beaver Builder settings. If you enable the Duotone icon set, you'll also see [two color choices in the style settings]((/beaver-builder/styles/icons/font-awesome-pro-duotone-icons.md)) after you select a Duotone icon from the icon picker.
+No matter which method you choose, in the Beaver Builder editor's icon picker you'll see the Font Awesome Pro icon sets that you've enabled in the Beaver Builder settings. If you enable the Duotone icon set, you'll also see [two color choices in the style settings](/beaver-builder/styles/icons/font-awesome-pro-duotone-icons.md) after you select a Duotone icon from the icon picker.
 
 ## Method 1: Set up Font Awesome Pro icons through the Font Awesome plugin
 
