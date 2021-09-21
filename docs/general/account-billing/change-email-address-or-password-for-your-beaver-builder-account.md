@@ -6,7 +6,7 @@ sidebar_label: Change email address or password
 
 ### Email Address
 
-Please [contact support](https://www.wpbeaverbuilder.com/beaver-builder-support/) should you need to change your email address
+Please [contact support](https://www.wpbeaverbuilder.com/beaver-builder-support/) should you need to change your email address.
 
 ### Password
 
