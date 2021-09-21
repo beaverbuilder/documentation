@@ -6,7 +6,7 @@ sidebar_label: Change email address or password
 
 ### Email Address
 
-You can change your email address for your Beaver Builder account on the [Edit Account](https://www.wpbeaverbuilder.com/my-account/edit-account/) page but updating it there does not update your billing email. If you need to change your email address, [contact us](https://www.wpbeaverbuilder.com/contact/) and our billing team will handle your request.
+Please [contact support](https://www.wpbeaverbuilder.com/beaver-builder-support/) should you need to change your email address.
 
 ### Password
 
