@@ -30,7 +30,8 @@ If you have any blog posts, set layout options for the post and archive pages. T
 For archive pages that display a list of your blog posts (such as when you set your home page to display your latest blog posts in **Customize > Settings**), you can set options for how the posts are displayed.
 
   * Full post or a summary  
-  If you have a lot of blogs or very long ones, it's helpful to display a summary with a _Read More_ link that takes you to the actual post. You can also change _Read More_ to say something else.
+  If you have a lot of blogs or very long ones, it's helpful to display a summary with a _Read More_ link that takes you to the actual post. You can also change _Read More_ to say something else.  
+  **Note:** The WordPress Search Results page is a type of archive but it  always displays the excerpt, regardless of this setting.
   * Positioning of the featured image  
   You can show or hide the featured image from each post and choose where to display it in relation to the text.
   * Image size  
