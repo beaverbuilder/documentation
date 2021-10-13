@@ -2,6 +2,7 @@
 id: content
 title: The Content tab in Customizer
 sidebar_label: Content tab
+description: Describes the settings on the Customizer's Content tab for the Beaver Builder Theme.
 ---
 
 The content area is everything between your site’s header and footer. Here are the options you can set.
@@ -30,7 +31,8 @@ If you have any blog posts, set layout options for the post and archive pages. T
 For archive pages that display a list of your blog posts (such as when you set your home page to display your latest blog posts in **Customize > Settings**), you can set options for how the posts are displayed.
 
   * Full post or a summary  
-  If you have a lot of blogs or very long ones, it's helpful to display a summary with a _Read More_ link that takes you to the actual post. You can also change _Read More_ to say something else.
+  If you have a lot of blogs or very long ones, it's helpful to display a summary with a _Read More_ link that takes you to the actual post. You can also change _Read More_ to say something else.  
+  **Note:** The WordPress Search Results page is a type of archive but it  always displays the excerpt, regardless of this setting.
   * Positioning of the featured image  
   You can show or hide the featured image from each post and choose where to display it in relation to the text.
   * Image size  
@@ -94,7 +96,7 @@ Hide the WooCommerce sidebar or place it on the left or right.
 
 #### Number of columns
 
-On WooCommerce category pages, you can configure the number of categories displayed per layer, from 1-6. The default is 4 columns per layer. This setting is at **Customize > Content > WooCommerce layout > Number of columns**.
+On WooCommerce category pages, you can configure the number of columns displayed per [column group](/general/glossary.md/#column-group-bb), from 1-6. The default is 4 columns per group. This setting is at **Customize > Content > WooCommerce layout > Number of columns**.
 
 #### Product Gallery
 

@@ -2,6 +2,7 @@
 id: content
 title: The Content tab in Customizer
 sidebar_label: Content tab
+description: Describes the settings on the Customizer's Content tab for the Beaver Builder Theme.
 ---
 
 The content area is everything between your site’s header and footer. Here are the options you can set.
