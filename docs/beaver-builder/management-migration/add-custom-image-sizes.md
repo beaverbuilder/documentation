@@ -37,7 +37,7 @@ Add the following code to the *functions.php* file in your [child theme](/bb-the
   
 ### Reserved Names
 
-When adding your own image sizes, you will be unable to use a few image size names that WordPress has reserved. You can learn more from the [WordPress Developer docs](https://developer.wordpress.org/reference/functions/add_image_size/#reserved-image-size-names).
+When adding your own image sizes with this code, you can't use any of the following image size names that WordPress has reserved. 
 
 * `thumb`
 * `thumbnail`
@@ -45,6 +45,8 @@ When adding your own image sizes, you will be unable to use a few image size nam
 * `medium_large`
 * `large`
 * `post-thumbnail`
+
+You can learn more from the [WordPress Developer docs](https://developer.wordpress.org/reference/functions/add_image_size/#reserved-image-size-names).
 
 ### Image Names
 
