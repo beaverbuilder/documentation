@@ -98,7 +98,7 @@ This class is useful if you want to add custom CSS to single products on sale.
 
 ### The Events Calendar: single event class
 
-For Themer Singular layouts the `tribe-events-single` class is added to the HTML output for single event pages. This is useful if you want to add custom CSS to single event pages.
+For Themer Singular layouts, the `tribe-events-single` class is added to the HTML output for single event pages. This is useful if you want to add custom CSS to single event pages.
 
 ## Field connection enhancements
 
