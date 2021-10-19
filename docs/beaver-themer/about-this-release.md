@@ -82,10 +82,6 @@ If you have the [WooCommerce Wishlists plugin](https://woocommerce.com/products/
 
 For more information, see the section on wishlists in the WooCommerce [Add to Cart module article](/beaver-themer/integrations/woocommerce/add-to-cart-button-module-for-woocommerce-singular-themer-layouts.md/#woocommerce-wishlists-plugin).
 
-<!-- You can also create Themer Archive layouts specifically for the Wishlist archive page. Choose **Wishlist archive** selection for **Location** when you create the Archive layout:
-
-![WooCommerce Wishlists plugin, Wishlist Archive location setting](/img/themer-1-4--about--wc-wishlist--2.png) -->
-
 ## New HTML classes for third-party integrations
 
 ### WooCommerce: class for products on sale
