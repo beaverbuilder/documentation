@@ -76,11 +76,9 @@ See the article about the [WooCommerce Add to Cart Button](/beaver-themer/integr
 
 #### WooCommerce Wishlists plugin integration
 
-If you have the [WooCommerce Wishlists plugin](https://woocommerce.com/products/woocommerce-wishlists/) then the **Add to Cart** module in Singular Themer layouts include an **Add to wishlist** button, as shown in this screenshot.
+If you have the [WooCommerce Wishlists plugin](https://woocommerce.com/products/woocommerce-wishlists/), then the **Add to Cart** module in Singular Themer layouts includes an **Add to wishlist** button, as shown in this screenshot.
 
 ![WooCommerce Wishlists plugin, Add to Wishlist button](/img/themer-1-4--about--wc-wishlist.png)
-
-For more information, see the section on wishlists in the WooCommerce [Add to Cart module article](/beaver-themer/integrations/woocommerce/add-to-cart-button-module-for-woocommerce-singular-themer-layouts.md/#woocommerce-wishlists-plugin).
 
 ## New HTML classes for third-party integrations
 
