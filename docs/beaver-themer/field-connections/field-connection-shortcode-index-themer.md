@@ -16,6 +16,8 @@ sidebar_label: Field connection shortcode reference
 
   * **Site Title** `[wpbb site:title]`
   * **Site Tagline** `[wpbb site:tagline]`
+  * **Site URL**`[wpbb site:url]`
+  * **Current Year** `[wpbb site:year format='Y']`
 
 ### Archive category
 
