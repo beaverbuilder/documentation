@@ -2,6 +2,7 @@
 id: create-an-archive-themer-layout-for-woocommerce
 title: Archive layout for WooCommerce
 sidebar_label: Archive layout for WooCommerce
+description: Create a Themer Archive layout specifically for WooCommerce Shop pages and product category pages.
 ---
 
 You can use the Archive-type Themer layout to design the following WooCommerce archive pages:

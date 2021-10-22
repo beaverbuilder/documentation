@@ -5,7 +5,7 @@ sidebar_label: About this release
 description: Describes the features in this Beaver Themer release.
 ---
 
-Here are the new features for Beaver Themer 1.4-beta.2. 
+Here are the new features in Beaver Themer 1.4. 
 
 <!-- :::warning **Warning**
 Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback. See [this article](/general/alpha-and-beta-releases.md/#install-an-alpha-or-beta-plugin-release) for information about installing prerelease versions.
@@ -16,7 +16,7 @@ Using alpha releases in a production environment is highly discouraged. The risk
 
 ### Singular layouts can have Beaver Builder layouts in the post content area
 
-You can now have both a Singular Beaver Themer layout and a Beaver Builder layout in the content area of the same post. This is illustrated in the following screenshot. The Themer Singular layout usually includes a Post Content module, into which the post content is dynamically inserted. The post content itself is created with the WordPress editor, or, as of Beaver Themer 1.4-alpha, with the Beaver Builder editor. In the screenshot, the post content area was created with a Beaver Builder layout, containing a Text Editor module and a Photo module in two columns.
+You can now have both a Singular Beaver Themer layout and a Beaver Builder layout in the content area of the same post. This is illustrated in the following screenshot. The Themer Singular layout usually includes a Post Content module, into which the post content is dynamically inserted. The post content itself is created with the WordPress editor, or, as of Beaver Themer 1.4, with the Beaver Builder editor. In the screenshot, the post content area was created with a Beaver Builder layout, containing a Text Editor module and a Photo module in two columns.
 
 ![Singular Themer layout with Beaver Builder post content layout](/img/themer-1-4-features-1.jpg)
 
@@ -28,11 +28,7 @@ The Themer Header layout has a **Sticky** setting that in previous releases appl
 
 ![Header Themer layout, Sticky Breakpoint setting](/img/themer-1-4-features-2.png)
 
-The **Default** setting supports large devices only (the legacy setting). It also supports the `fl_theme_builder_sticky_header_breakpoint` filter, which enables the sticky header for medium but not small devices. The new **Sticky breakpoint** setting allows the most flexibility in device selection.
-
-If the **Shrink** setting is set to **Yes** it also follows the **Sticky header** setting for device size. 
-
-The **Overlay** setting is independent of the "Sticky header" setting and continues to work at all device sizes.
+For more information about how the **Sticky**, **Shrink**, and **Overlay** settings work together, see the article about [Themer Header layouts](/beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type.md/#sticky-shrink-and-overlay-settings).
 
 ### Header layouts: four new layout templates
 
@@ -40,11 +36,15 @@ When you create a Themer layout, a layout template is automatically assigned. Yo
 
 ![Header Themer layout templates in the Content panel](/img/themer-header-templates.png)
 
+See the article about [Themer Header layouts](/beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type.md/#choose-a-themer-header-layout-template) for more information about each template.
+
 ### Footer layouts: four new layout templates
 
 Themer Footer layouts also have four new layout templates on the **Templates** tab of the content panel, as shown in this screenshot:
 
 ![Footer Themer layout templates in the Content panel](/img/themer-footer-templates.png)
+
+See the article about [Themer Footer layouts](/beaver-themer/layout-types-modules/footer-layout-type/themer-footer-layout-type.md/#choose-a-themer-footer-layout-template) for more information about each template.
 
 ## Themer Module enhancements
 
@@ -58,11 +58,11 @@ The Post Navigation module has a number of new options and a new **Style** tab. 
 
 There is a new Woo Notices module for Singular layouts that displays standard WooCommerce notices such as the following:
 
-![Beaver Themer 1.4 new Woo Notices module enhancements](/img/themer-1-4-features-9.png)
+![Beaver Themer 1.4 new Woo Notices module enhancements](/img/themer-1-4-features-10.png)
 
-This module lets you style the notices and place them in page locations other than the default notices.
+This module lets you style the text and background color of the notices and place them in any position in your Themer Singular product layout.
 
-The module has a **Style** tab, with settings for text and background color, plus [**Typography**](/beaver-builder/styles/typography/typography.md) and [**Border**](/beaver-builder/styles/effects/borders.md) sections, and the standard [**Advanced** tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md).
+For more information see the article about the [Woo Notices module](./beaver-themer/integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts.md).
 
 ### WooCommerce Add to Cart Button module enhancements
 
@@ -72,36 +72,27 @@ In Singular Themer layouts, you can set hover colors in the Add to Cart Button m
 
 ![WooCommerce](/img/themer-1-4-features-8.jpg)
 
+See the article about the [WooCommerce Add to Cart Button](/beaver-themer/integrations/woocommerce/add-to-cart-button-module-for-woocommerce-singular-themer-layouts.md)
+
 #### WooCommerce Wishlists plugin integration
 
-The [WooCommerce Wishlists plugin](https://woocommerce.com/products/woocommerce-wishlists/) adds an **Add to wishlist** button to the WooCommerce **Add to Cart** hook, which includes product quantity and product variations. Beaver Themer's Add to Cart Button module, available in Singular layouts when the WooCommerce plugin is active, serves as a pass-through for this behavior, as shown in this screenshot.
+If you have the [WooCommerce Wishlists plugin](https://woocommerce.com/products/woocommerce-wishlists/), then the **Add to Cart** module in Singular Themer layouts includes an **Add to wishlist** button, as shown in this screenshot.
 
 ![WooCommerce Wishlists plugin, Add to Wishlist button](/img/themer-1-4--about--wc-wishlist.png)
-
-You can also create Themer Archive layouts specifically for the Wishlist archive page. Choose **Wishlist archive** selection for **Location** when you create the Archive layout:
-
-![WooCommerce Wishlists plugin, Wishlist Archive location setting](/img/themer-1-4--about--wc-wishlist--2.png)
-
-:::note **Notes**
-
-* Color settings in the Add to Cart Button module have no effect on the wishlist button. That color must be changed in the WooCommerce Wishlists plugin settings. 
-* If you do add a custom background color in the WooCommerce Wishlists settings, you won't see that color in the Themer layout preview or even in the front-end Singular Themer layout, but you'll see it on the product page.
-* The **Add to Wishlist** button does not appear with the **Add to Cart** button on Shop and other product archive pages, whether or not there is a Themer Archive layout applied.
-:::
 
 ## New HTML classes for third-party integrations
 
 ### WooCommerce: class for products on sale
 
-When a product is on sale, the WooCommerce single product page with a Singular Themer layout adds a `sale` class, as follows:
+When a product is on sale, the WooCommerce single product page with a Singular Themer layout adds a `sale` class to the HTML output, as follows:
 
 ![WooCommerce added HTML sale class in singular layouts for products on sale](/img/themer-1-4--about--wc-sale-class--4.png)
 
-This class is useful if you want to add some custom CSS rules to single products on sale.
+This class is useful if you want to add custom CSS to single products on sale.
 
 ### The Events Calendar: single event class
 
-Themer Singular layouts applied to single events add the `tribe-events-single` class to single event pages that have a Singular Themer layout applied. This is useful if you want to add some custom CSS rules to single event pages.
+For Themer Singular layouts, the `tribe-events-single` class is added to the HTML output for single event pages. This is useful if you want to add custom CSS to single event pages.
 
 ## Field connection enhancements
 

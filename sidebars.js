@@ -781,6 +781,7 @@
            "beaver-themer/integrations/woocommerce/product-title-module-for-woocommerce-singular-themer-layouts",
            "beaver-themer/integrations/woocommerce/product-upsells-module-for-woocommerce-singular-themer-layouts",
            "beaver-themer/integrations/woocommerce/related-products-module-for-woocommerce-singular-themer-layouts",
+           "beaver-themer/integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts",
            "beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index",
          ]
        },
