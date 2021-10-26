@@ -61,7 +61,7 @@ Line Height  |  `fl-body-line-height`  |  Number between 1 and 2.5 (_decimals ac
 
 Title in Customizer  |  Key  |  Value options
 ---|---|---
-Button style  |  `fl-buttons`  |  None or custom
+Button style  |  `fl-button-style`  |  None or custom
 Color  |  `fl-button-color`  |  Any hex value
 Hover color  |  `fl-button-hover-color`  |  Any hex value
 Background color  |  `fl-button-background-color`  |  Any hex value
