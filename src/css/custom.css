@@ -55,6 +55,15 @@ html[data-theme='dark'] .DocSearch {
   );
 }
 
+/* Announcement Bar */
+div[class^=announcementBar_] {
+  background: #1b7497;
+  color: white;
+	font-size: 20px;
+  font-weight: 700;
+	height: auto;
+}
+
 .docusaurus-highlight-code-line {
   background-color: var(--ifm-color-emphasis-300);
   display: block;
