@@ -29,6 +29,14 @@ module.exports = {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
+    announcementBar: {
+      id: 'announcement-bar',
+      content:
+        'Save page builder templates and design assets to the cloud! Get started FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
+      backgroundColor: '#1b7497',
+      textColor: '#ffffff',
+      isCloseable: true,
+    },
     navbar: {
         logo: {
         alt: 'Beaver Builder',
