@@ -4,7 +4,15 @@ title: Assistant Pro Introduction
 sidebar_label: Introduction
 ---
 
-How to manage your WordPress assets using the Assistant Pro Cloud and Assistant WordPress plugin. 
+How to manage your WordPress assets using the Assistant Pro Cloud and Assistant WordPress plugin.
+
+## TODO!
+
+- [ ] Add Assistant video
+- [ ] Add more content to this introduction page.  
+- [ ] What is the Assistant plugin?
+- [ ] What is the Assistant Pro cloud?
+
 
 ## Assistant Features
 

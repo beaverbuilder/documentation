@@ -12,3 +12,6 @@ You can add images, colors, theme settings, and page content (posts, pages, Gute
 Assistant also supports the templates and saved content of most popular page editors including Divi, Visual Composer and Elementor.
 
 
+* [Adding assets overview](adding-assets/overview.md)  
+	* [Adding assets with Assistant Pro Cloud](adding-assets/assistant-cloud.md)
+	* [Adding assets with Assistant plugin](adding-assets/assistant-plugin.md)
