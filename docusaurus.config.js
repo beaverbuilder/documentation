@@ -68,12 +68,12 @@ module.exports = {
           position: 'left',
           activeBasePath: 'bb-theme',
         },
-        {
-          to: 'alpha-beta',
-          label: 'Alpha & Beta Docs',
-          position: 'right',
-          activeBasePath: 'next',
-        },
+        // {
+        //   to: 'alpha-beta',
+        //   label: 'Alpha & Beta Docs',
+        //   position: 'right',
+        //   activeBasePath: 'next',
+        // },
       ],
     },
     footer: {
