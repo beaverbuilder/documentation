@@ -186,4 +186,4 @@ The **Edit Themer layout** screen has the following settings for Footer layouts:
 ![Themer Footer layout overlay example](/img/themer--layout-types-modules--footer-layout-type--13.png) 
 
 * The [locations](/beaver-themer/locations/themer-locations-reference.md) on your site where the header applies.
-* Optional [conditional logic](h/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md) rules.
+* Optional [conditional logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md) rules.
