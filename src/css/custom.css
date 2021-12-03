@@ -219,6 +219,16 @@ a[href="/next/bb-theme/developer"].menu__link {
   margin-bottom: var(--ifm-paragraph-margin-bottom);
 }
 
+/* Image/Video */
+.markdown img, video {
+  border: 3px solid var(--ifm-color-emphasis-200);
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Responsive videos */
 .embed-responsive {
   position: relative;

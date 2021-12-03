@@ -1177,4 +1177,79 @@
      ]
    },
  ],
+ assistant: [
+   {
+     type: 'doc',
+     id: 'assistant', // Index
+   },
+   {
+     type: 'category',
+     label: 'Getting Started',
+     items: [
+       "assistant/getting-started/overview", // Index
+       "assistant/getting-started/what-can-i-do",
+       "assistant/getting-started/signup",
+       "assistant/getting-started/account-types",
+       "assistant/getting-started/installation",
+       "assistant/getting-started/link-to-assistant-cloud",
+     ],
+   },
+   {
+     type: 'category',
+     label: 'Assistant Plugin',
+     items: [
+       "assistant/plugin/overview", // Index
+       {
+         type: 'category',
+         label: 'Apps',
+         items: [
+           "assistant/plugin/apps/overview", // Index
+           "assistant/plugin/apps/home",
+           "assistant/plugin/apps/content",
+           "assistant/plugin/apps/media",
+           "assistant/plugin/apps/comments",
+           "assistant/plugin/apps/updates",
+           "assistant/plugin/apps/libraries",
+         ],
+       },
+       "assistant/plugin/app-settings",
+     ],
+   },
+   {
+     type: 'category',
+     label: 'Assistant Pro Cloud',
+     items: [
+       "assistant/cloud/overview", // Index
+       {
+         type: 'category',
+         label: 'Account & Settings',
+         items: [
+           "assistant/cloud/account-settings/overview", // Index
+           "assistant/cloud/account-settings/profile-settings",
+           "assistant/cloud/account-settings/change-password",
+           "assistant/cloud/account-settings/transfer-ownership",
+           "assistant/cloud/account-settings/create-manage-team-libraries",
+           "assistant/cloud/account-settings/delete-account",
+         ],
+       },
+       {
+         type: 'category',
+         label: 'Libraries',
+         items: [
+           "assistant/cloud/libraries/overview", // Index
+           {
+             type: 'category',
+             label: 'Adding Assets',
+             items: [
+               "assistant/cloud/libraries/adding-assets/overview", // Index
+               "assistant/cloud/libraries/adding-assets/assistant-cloud",
+               "assistant/cloud/libraries/adding-assets/assistant-plugin",
+
+             ],
+           },
+         ],
+       },
+     ],
+   },
+ ],
 };
