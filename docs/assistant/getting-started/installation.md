@@ -14,7 +14,7 @@ You can download the Assistant Pro WordPress Plugin from your Assistant.Pro Clou
 
 You can download the Assistant Plugin from the [Wordpress.org](https://wordpress.org/plugins/assistant/) plugin repository.
 
-![Download from Wordpress.org plugin respository](/img/assistant/getting-started--installation--2.jpg)
+![Download from Wordpress.org plugin repository](/img/assistant/getting-started--installation--2.jpg)
 
 ## Download from the backend of Your WordPress Site
 
