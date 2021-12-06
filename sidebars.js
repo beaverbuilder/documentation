@@ -1236,17 +1236,26 @@
          type: 'category',
          label: 'Libraries',
          items: [
-           "assistant/cloud/libraries/overview", // Index
-           {
-             type: 'category',
-             label: 'Adding Assets',
-             items: [
-               "assistant/cloud/libraries/adding-assets/overview", // Index
-               "assistant/cloud/libraries/adding-assets/assistant-cloud",
-               "assistant/cloud/libraries/adding-assets/assistant-plugin",
-
-             ],
-           },
+          "assistant/cloud/libraries/overview", // Index
+          {
+           type: 'category',
+           label: 'Adding Assets',
+           items: [
+             "assistant/cloud/libraries/adding-assets/overview", // Index
+             "assistant/cloud/libraries/adding-assets/assistant-cloud",
+             "assistant/cloud/libraries/adding-assets/assistant-plugin",
+           ],
+          },
+          {
+            type: 'category',
+            label: 'Using Assets on sites',
+            items: [
+              "assistant/cloud/libraries/using-library-assets/overview", // Index
+              "assistant/cloud/libraries/using-library-assets/add-single-items",
+              "assistant/cloud/libraries/using-library-assets/entire-libraries",
+            ],
+          },
+          "assistant/cloud/libraries/organize-assets",
          ],
        },
      ],
