@@ -7,9 +7,9 @@ sidebar_label: Add single items
 ## Post types, blocks, Beaver Builder & 3rd party page builder templates
 
 * Navigate to the piece of content you’d like to import to your site from the Libraries App
-* Select Create and Edit or Import from the Create New drop-down menu  
+* Select Create and Edit or Import from the Create New drop-down menu
 	* Create and Edit will import the content and open the content for you to edit
-	* Import will add the content to the backend of your site and the [Content App](../../plugin/apps/content.md) 
+	* Import will add the content to the backend of your site and the [Content App](../../../plugin/apps/content.md)
 
 <img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
 
@@ -23,6 +23,6 @@ sidebar_label: Add single items
 
 ## Theme Settings
 
-Navigate to the theme setting you want to import and click Apply to Theme. You also have the option to preview the theme settings before importing. 
+Navigate to the theme setting you want to import and click Apply to Theme. You also have the option to preview the theme settings before importing.
 
 <img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
