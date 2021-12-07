@@ -1262,6 +1262,7 @@
          ],
        },
        "assistant/cloud/community",
+       "assistant/cloud/beaver-builder-integration",
      ],
    },
  ],
