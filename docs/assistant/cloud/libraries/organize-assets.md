@@ -50,4 +50,10 @@ To add collections to a creative asset from the Assistant Plugin, select the ass
 
 View a list of a library’s collections by clicking the collections tab.
 
+<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
 
+## Sort by Collection from the Assistant Plugin
+
+To sort a library by collection from the Assistant Plugin, select View by Collection from the dropdown menu.
+
+<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
