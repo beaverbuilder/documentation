@@ -1178,10 +1178,7 @@
    },
  ],
  assistant: [
-   {
-     type: 'doc',
-     id: 'assistant', // Index
-   },
+   "assistant/overview",
    {
      type: 'category',
      label: 'Getting Started',

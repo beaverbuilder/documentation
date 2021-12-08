@@ -1,17 +1,35 @@
 ---
-id: assistant
+id: overview
 title: Assistant Pro Introduction
 sidebar_label: Introduction
+slug: /assistant/
 ---
 
-How to manage your WordPress assets using the Assistant Pro Cloud and Assistant WordPress plugin.
+Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide to the Assistant plugin and Assistant Pro Cloud. We’ll cover topics such as installation, how to manage your WordPress assets, and tutorials to speed up your workflow.
 
-## TODO!
 
-- [ ] Add Assistant video
-- [ ] Add more content to this introduction page.
-- [ ] What is the Assistant plugin?
-- [ ] What is the Assistant Pro cloud?
+<div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+  <iframe
+	src="https://player.vimeo.com/video/635393013?h=d8b29f8525&badge=0&autopause=0&player_id=0&app_id=58479"
+	frameBorder={0}
+	allow="autoplay; fullscreen; picture-in-picture"
+	allowFullScreen
+	style={{
+	  position: "absolute",
+	  top: 0,
+	  left: 0,
+	  width: "100%",
+	  height: "100%"
+	}}
+	title="Assistant Pro Introduction"
+  />
+</div>
+
+## What is the Assistant plugin?
+
+## What is the Assistant Pro cloud?
+
+
 
 ## Assistant Features
 
