@@ -14,6 +14,9 @@ To delete a library from the Assistant Pro Cloud, select the library you’d lik
 
 ## Delete an Assistant Pro Library from the Assistant Plugin
 
-To delete a library from the Assistant Plugin, select the library you’d like to delete, then from the bottom of the settings window, select Delete This Library.
+To delete a library:
+
+1. In Assistant Pro Cloud, select the library you want to delete.
+1. Click **Delete this library** below the settings.
 
 <img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />

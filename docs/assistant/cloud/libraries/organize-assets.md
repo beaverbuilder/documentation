@@ -14,10 +14,10 @@ In the example below, the color `#ede2f1` is filed under two collections; **Past
 
 To create a library collection from the Assistant Pro Cloud:
 
-* Select the library you’d like to add a collection to
-* Select the collections tab
-* Type a name for your collection
-* Click the Add Collection button
+1. Select the library you’d like to add a collection to
+2. Select the collections tab
+3. Type a name for your collection
+4. Click the Add Collection button
 
 <img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
 
@@ -25,10 +25,10 @@ To create a library collection from the Assistant Pro Cloud:
 
 To create a library collection from the Assistant Plugin:
 
-* Click on the library you’d like to add a collection to
-* Click the settings icon
-* Type a name for your collection
-* Click the Add to Collection button
+1. Click on the library you’d like to add a collection to
+2. Click the settings icon
+3. Type a name for your collection
+4. Click the Add to Collection button
 
 <img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
 

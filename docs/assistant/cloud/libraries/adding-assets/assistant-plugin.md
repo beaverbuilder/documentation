@@ -8,10 +8,10 @@ sidebar_label: Assistant Plugin
 
 To create a new library from the Assistant Plugin:
 
-* Open the Libraries App
-* Click the plus symbol (+)
-* Enter a name for your library
-* Click the Enter button or hit Enter/Return on your keyboard 
+1. Open the Libraries App
+2. Click the plus symbol (+)
+3. Enter a name for your library
+4. Click the Enter button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard
 
 ![Create library via Assistant plugin](/img/assistant/cloud--libraries--assistant-plugin--1.jpg)
 
@@ -32,9 +32,9 @@ To add content from the Content App, click the piece of content you want to add,
 
 You can add .jpg, .png, and .svg graphics to Assistant Pro from the Media App.  By default, you can’t add .svg graphics to WordPress media storage, so being able to add .svg graphics to WordPress via the Assistant Plugin can save you the trouble of using ftp to add .svg graphics to your WordPress sites.
 
-* Open the Media App
-* Click the plus sign
-* Choose files or drop the file onto the box to upload
+1. Open the Media App
+2. Click the plus sign
+3. Choose files or drop the file onto the box to upload
 
 ![Add content via Media app](/img/assistant/cloud--libraries--assistant-plugin--2.jpg)
 
@@ -44,30 +44,30 @@ You can add content, media, colors and customizer (theme) settings from the [Lib
 
 ### Add Posts, Pages or Templates to libraries from the Libraries App
 
-* Open the Libraries App
-* Click the library you want to add content to
-* Click the plus sign
-* Enter the name of the piece of content you would like to add in the search field
-* Click the search result for the piece of content you would like to add
+1. Open the Libraries App
+2. Click the library you want to add content to
+3. Click the plus sign
+4. Enter the name of the piece of content you would like to add in the search field
+5. Click the search result for the piece of content you would like to add
 
 <img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
 
 ### Add a Color to an Assistant Pro Library From the Libraries App
 
-* Open the Libraries App
-* Navigate to the library you want to add color(s) to
-* Click the Plus Sign and select Colors 
-* Select your color from the color picker or enter numeric values to select a color  
-* Name your color (by default the name will be the color’s hex code.)
+1. Open the Libraries App
+2. Navigate to the library you want to add color(s) to
+3. Click the Plus Sign and select Colors
+4. Select your color from the color picker or enter numeric values to select a color
+5. Name your color (by default the name will be the color’s hex code.)
 
 <img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
 
 ### Add Theme Settings to an Assistant Pro Library From the Libraries App
 
-This will save your site’s customizer settings.  
+This will save your site’s customizer settings.
 
-* Open the Libraries App
-* Navigate to the library you want to add the theme settings to
-* Click the plus sign
-* Select settings
-* Click add settings
+1. Open the Libraries App
+2. Navigate to the library you want to add the theme settings to
+3. Click the plus sign
+4. Select settings
+5. Click add settings

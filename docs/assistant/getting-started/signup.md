@@ -1,7 +1,7 @@
 ---
 id: signup
-title: Signup for the Assistant Pro Cloud
-sidebar_label: Signup
+title: Sign up for the Assistant Pro Cloud
+sidebar_label: Sign Up
 ---
 
 You can sign up for the Assistant Pro Cloud at [Assistant.Pro](https://assistant.pro/).
