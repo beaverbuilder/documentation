@@ -5,10 +5,11 @@ sidebar_label: Introduction
 slug: /assistant/
 ---
 
+<div className="docs-lead">
 Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide to the Assistant plugin and Assistant Pro Cloud. We’ll cover topics such as installation, how to manage your WordPress assets, and tutorials to speed up your workflow.
+</div>
 
-
-<div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+<div className="embed-responsive intro-vid">
   <iframe
 	src="https://player.vimeo.com/video/635393013?h=d8b29f8525&badge=0&autopause=0&player_id=0&app_id=58479"
 	frameBorder={0}
@@ -27,20 +28,34 @@ Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide 
 
 ## What is the Assistant plugin?
 
+The Assistant plugin is how you connect your sites to your libraries in Assistant Pro.  It also works as a stand alone application that allows you to perform common tasks from the frontend of your WordPress sites using an expandable sidebar. For instance:
+
+* Browse and edit page content and media
+* Browse and edit WooCommerce products, orders and coupons
+* Update and manage plugins
+* Review comments for approval/spam/trash
+* Import and export content to between sites using the Assistant Pro Cloud
+
+
 ## What is the Assistant Pro cloud?
 
+The Assistant Pro Cloud lets you import, export and save WordPress assets to a file sharing cloud app.  It’s sort of like a "Dropbox" for WordPress developers.
+
+The Assistant Pro Cloud interfaces with the Assistant Plugin.  From the plugin, you can add and access page content, media, WooCommerce content, and Beaver Builder Templates.  Many 3rd party page builder templates are also supported, including Divi, Visual Composer and Elementor.
+
+Assistant Pro also includes a web app user dashboard where you can add and manage your assets.
 
 
-## Assistant Features
+## Features
 
 * Access the Assistant user interface from any frontend page
-* Get a glance of your recently edited posts from the Home App
+* Get a glance of your recently edited posts from the [Home App](plugin/apps/home.md)
 * Search WordPress directly from the frontend
-* Quickly find posts, pages, and custom post types with the Content App
-* Upload media to WordPress media library by dropping files on the Media App
-* The Comments App lets you quick reply, approve, mark as spam and trash comments
-* Keep an eye on plugin and theme updates with the Updates App
-* Add custom labels to posts or pages to help organize your site from Apps + Settings
+* Quickly find posts, pages, and custom post types with the [Content App](plugin/apps/content.md)
+* Upload media to WordPress media library by dropping files on the [Media App](plugin/apps/media.md)
+* The [Comments App](plugin/apps/comments.md) lets you quick reply, approve, mark as spam and trash comments
+* Keep an eye on plugin and theme updates with the [Updates App](plugin/apps/updates.md)
+* Add custom labels to posts or pages to help organize your site from [Apps + Settings](plugin/app-settings.md)
 
 ## Terminology
 

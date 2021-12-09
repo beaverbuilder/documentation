@@ -64,6 +64,17 @@ div[class^=announcementBar_] {
 	height: auto;
 }
 
+.docs-lead {
+  font-size: var(--ifm-h3-font-size);
+  border-bottom: 2px solid var(--ifm-toc-border-color);
+  padding-bottom: 2rem;
+  color: var(--ifm-color-gray-700);
+}
+
+html[data-theme='dark'] .docs-lead {
+  color: var(--ifm-color-gray-600);
+}
+
 .docusaurus-highlight-code-line {
   background-color: var(--ifm-color-emphasis-300);
   display: block;
@@ -224,12 +235,17 @@ a[href="/next/bb-theme/developer"].menu__link {
   border: 3px solid var(--ifm-color-emphasis-200);
 }
 
+
+
+/* videos */
 video {
   max-width: 100%;
   height: auto;
 }
 
-/* Responsive videos */
+.intro-vid {
+  margin-top: calc(var(--ifm-global-spacing) * 2)
+}
 .embed-responsive {
   position: relative;
   display: block;

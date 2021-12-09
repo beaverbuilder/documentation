@@ -11,10 +11,13 @@ Assistant Pro is a cloud sharing application that will help you keep your WordPr
 
 Allows you to perform common WordPress tasks more efficiently using a sidebar on the frontend of your website.
 
+![Assistant WordPress plugin user interface](/img/assistant/getting-started--what-can-i-do--1.jpg)
+
 ## Assistant Pro Cloud
 
 A cloud storage platform that connects to the WordPress sites you’ve installed the Assistant WordPress plugin on.  It allows you to easily access, share and organize design assets across multiple sites.  It’s kinda like a “Dropbox” for WordPress assets.
 
+![Assistant Pro Cloud user interface](/img/assistant/getting-started--what-can-i-do--2.jpg)
 
 
 
