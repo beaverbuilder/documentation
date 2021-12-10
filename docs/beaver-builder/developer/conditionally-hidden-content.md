@@ -23,4 +23,4 @@ We also added this to our compatibility file
 `add_filter( 'get_the_excerpt', array( __CLASS__, 'fix_rest_excerpt_filter' ), 10, 2 );`
 
 ## How To Get The Fixes
-Update to Beaver Builder 2.5.1 as all of the fixes with conditionally hidden content are contained within the Beaver Builder Plugin 2.5.1 release.
+Update to Beaver Builder 2.5.1. All of the fixes with conditionally hidden content are contained within the Beaver Builder Plugin 2.5.1 release.
