@@ -15,7 +15,7 @@ We found that the issue was with the WordPress `get_excerpt` function so as a re
 
 We added a new Utility Function `FLBuilderLoop::the_excerpt` which uses `FLBuilderLoop::get_the_excerpt()`
 
-Instances of `get_excerpt()`` were replaced with `FLBuilderLoop::the_excerpt()`
+Instances of `get_excerpt()` were replaced with `FLBuilderLoop::the_excerpt()`
 
 ### Compatibility File
 We also added this to our compatibility file `add_filter( 'get_the_excerpt', array( __CLASS__, 'fix_rest_excerpt_filter' ), 10, 2 );`
