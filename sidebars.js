@@ -1185,8 +1185,8 @@
      items: [
        "assistant/getting-started/overview", // Index
        "assistant/getting-started/what-can-i-do",
-       "assistant/getting-started/signup",
        "assistant/getting-started/account-types",
+       "assistant/getting-started/signup",
        "assistant/getting-started/installation",
        "assistant/getting-started/link-to-assistant-cloud",
      ],

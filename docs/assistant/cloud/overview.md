@@ -9,16 +9,16 @@ Assistant Pro allows us to organize creative assets in libraries and collections
 
 ## Creative Assets
 
-Creative assets are the things you put inside Libraries.  
+Creative assets include the following:
 
-* Images (.png .jpg .svg .giff)
-* Content (Posts, Pages, Beaver Builder Saved Content, Themer Layouts, WooCommerce Content, Gutenberg blocks...)
+* Images (.png .jpg .svg .gif)
+* Content, such as posts, pages, Beaver Builder saved content, Themer layouts, WooCommerce content, and Gutenberg blocks
 * Colors
 * Theme Customizer Settings
 
 ## Libraries
 
-Libraries are containers for your creative assets.  Libraries allow you to easily share assets across all your sites. Libraries can be:
+Libraries are containers for your creative assets. Libraries make it easy to share assets across all your sites. Libraries can be:
 
 * Public
 * Personal

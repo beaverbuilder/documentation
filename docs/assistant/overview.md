@@ -9,7 +9,7 @@ slug: /assistant/
 Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide to the Assistant plugin and Assistant Pro Cloud. We’ll cover topics such as installation, how to manage your WordPress assets, and tutorials to speed up your workflow.
 </div>
 
-<div className="embed-responsive intro-vid">
+<div className="embed-responsive margin-top--lg">
   <iframe
 	src="https://player.vimeo.com/video/635393013?h=d8b29f8525&badge=0&autopause=0&player_id=0&app_id=58479"
 	frameBorder={0}
