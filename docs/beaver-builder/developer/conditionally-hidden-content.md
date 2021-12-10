@@ -20,7 +20,9 @@ Instances of `get_excerpt()` were replaced with `FLBuilderLoop::the_excerpt()`
 ### Compatibility File
 We also added this to our compatibility file
 
-`add_filter( 'get_the_excerpt', array( __CLASS__, 'fix_rest_excerpt_filter' ), 10, 2 );`
+```php
+add_filter( 'get_the_excerpt', array( __CLASS__, 'fix_rest_excerpt_filter' ), 10, 2 );
+```
 
 ## How To Get The Fixes
 Update to Beaver Builder 2.5.1 as all of the fixes with conditionally hidden content are contained within the Beaver Builder Plugin 2.5.1 release.
