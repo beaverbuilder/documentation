@@ -4,7 +4,7 @@ title: Organizing Assets
 sidebar_label: Organizing Assets
 ---
 
-Assistant Pro Collections work in a similar way to WordPress post categories.  You can add more than one collection to any creative asset (posts, pages, images …) and that creative asset will show up under each collection.  This way of organizing files is preferred over folders, because files can be cross referenced in multiple places.
+Assistant Pro’s Library Collections work in a similar way to WordPress post categories. You can add more than one collection to any creative asset (posts, pages, images …) and that creative asset will show up under each collection. This way of organizing files is preferred over folders, because files can be cross referenced in multiple places.
 
 In the example below, the color `#ede2f1` is filed under two collections; **Pastel Colors** and **Pink Colors**.
 

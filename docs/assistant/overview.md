@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Assistant Pro Introduction
+title: Assistant and Assistant Pro Cloud Introduction
 sidebar_label: Introduction
 slug: /assistant/
 ---
@@ -26,25 +26,11 @@ Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide 
   />
 </div>
 
-## What is the Assistant plugin?
+## Quick Start
 
-The Assistant plugin is how you connect your sites to your libraries in Assistant Pro.  It also works as a stand alone application that allows you to perform common tasks from the frontend of your WordPress sites using an expandable sidebar. For instance:
-
-* Browse and edit page content and media
-* Browse and edit WooCommerce products, orders and coupons
-* Update and manage plugins
-* Review comments for approval/spam/trash
-* Import and export content to between sites using the Assistant Pro Cloud
-
-
-## What is the Assistant Pro cloud?
-
-The Assistant Pro Cloud lets you import, export and save WordPress assets to a file sharing cloud app.  It’s sort of like a "Dropbox" for WordPress developers.
-
-The Assistant Pro Cloud interfaces with the Assistant Plugin.  From the plugin, you can add and access page content, media, WooCommerce content, and Beaver Builder Templates.  Many 3rd party page builder templates are also supported, including Divi, Visual Composer and Elementor.
-
-Assistant Pro also includes a web app user dashboard where you can add and manage your assets.
-
+1. Create an [Assistant Pro user account](getting-started/create-account.md).
+2. [Install the Assistant Plugin](getting-started/installation.md) on one or more WordPress sites.
+3. [Link your site(s)](getting-started/connect.md) to the Assistant Pro Cloud.
 
 ## Features
 
@@ -58,6 +44,8 @@ Assistant Pro also includes a web app user dashboard where you can add and manag
 * Add custom labels to posts or pages to help organize your site from [Apps + Settings](plugin/app-settings.md)
 
 ## Terminology
+
+The following definitions are specific to the Assistant plugin and Assistant Pro Cloud, which some users may not be familiar with.
 
 ### Assistant Plugin
 

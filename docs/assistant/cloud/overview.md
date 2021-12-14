@@ -5,7 +5,7 @@ sidebar_label: Overview
 slug: /assistant/cloud/
 ---
 
-Assistant Pro allows us to organize creative assets in libraries and collections so we can easily access them from the Assistant WordPress Plugin when we’re building sites.
+Assistant Pro Cloud lets you organize creative assets in libraries and collections so you can access them from the Assistant plugin when you're building sites.
 
 ## Creative Assets
 
@@ -20,13 +20,10 @@ Creative assets include the following:
 
 Libraries are containers for your creative assets. Libraries make it easy to share assets across all your sites. Libraries can be:
 
-* Public
-* Personal
-* Private
-* Shared
-* Team
+* Private or Public (Private libraries are only available on Premium accounts)
+* Personal, Shared, or Team (Team Libraries are only available for Team account users)
 
 ## Collections
 
-Collections are a way to organize your libraries. Similar to how categories work in WordPress.
+Collections are a way to organize your libraries. They function in a similar way to WordPress categories.
 

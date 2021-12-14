@@ -4,10 +4,11 @@ title: Transfer Library Ownership
 sidebar_label: Transfer Library Ownership
 ---
 
-You can transfer a library's ownership from the Assistant Pro Cloud or Assistant Plugin.  
+A library can be transferred to another user or team from the Assistant Pro Cloud dashboard.
 
-## Transfer Library Ownership from the Assistant Pro Cloud
-
-You can transfer a library from the Assistant Pro Cloud dash from the settings page near the bottom of the settings page options.
+1. Select the library you want to transfer ownership.
+2. Click **Settings**.
+3. Scroll down to the **Transfer Library** section.
+4. Click the **Transfer Library** button and enter the name of the user or team.
 
 ![Transfer ownership](/img/assistant/cloud--account-settings--transfer-ownership--1.jpg)

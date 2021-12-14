@@ -4,6 +4,6 @@ title: Change Your Assistant Pro Account Password
 sidebar_label: Change password
 ---
 
-You can change your Assistant Pro account password from the Account page of your Assistant Pro Dashboard under the password menu option.
+To change your Assistant Pro account password, go to your Assistant Pro dashboard and click the **Password** tab.
 
 ![Change password](/img/assistant/cloud--account-settings--change-password--1.jpg)
