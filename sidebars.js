@@ -661,6 +661,7 @@
             "beaver-builder/developer/tutorials-guides/add-a-custom-shape-layer",
           ]
         },
+        "beaver-builder/developer/conditionally-hidden-content",
         {
           type: 'link',
           label: 'Hooks',
