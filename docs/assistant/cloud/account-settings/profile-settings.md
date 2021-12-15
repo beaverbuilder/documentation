@@ -4,7 +4,12 @@ title: Assistant Pro Public Profile settings
 sidebar_label: Public Profile Settings
 ---
 
-Your public profile is part of the Assistant Pro Community. Access public profile settings from the **Assistant Pro Cloud dashboard > Account > General**. If you don't want to make my profile available to the community, it can be disabled. By default it is enabled.
+Your public profile is part of the Assistant Pro Community.
+
+1. Log into your Assistant Pro account.
+2. Navigate to **Account > General** tab.
+3. If you don't want to make my profile available to the community, it can be disabled.  
+  By default it is **Enabled**.
 
 Your public profile is assigned a file structure that utilizes your username. This example is for the community member [@paullacey](https://app.assistant.pro/community/user/paullacey).
 
@@ -14,7 +19,11 @@ To access your community page, click your name/avatar on the Assistant Pro Cloud
 
 ![Profile name](/img/assistant/cloud--account-settings--profile-settings--2.jpg)
 
-To manage your community profile settings, click **Settings** on the **General** tab of your Assistant Pro Cloud account page.
+To manage your community profile settings:
+
+1. Log into your Assistant Pro account.
+2. Navigate to **Account > General** tab.
+3. Scroll down to the **Profile** section.
 
 ![Community settings](/img/assistant/cloud--account-settings--profile-settings--3.jpg)
 

@@ -8,41 +8,41 @@ Assistant Pro’s Library Collections work in a similar way to WordPress post ca
 
 In the example below, the color `#ede2f1` is filed under two collections; **Pastel Colors** and **Pink Colors**.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Organizing colors](/img/assistant/cloud--libraries--organize-assets--1.jpg)
 
-## Create a Library Collection From the Assistant Pro Cloud
+## Create a Library Collection from the Assistant Pro Cloud
 
 To create a library collection from the Assistant Pro Cloud:
 
-1. Select the library you’d like to add a collection to
-2. Select the collections tab
+1. Select the library you’d like to add a collection.
+2. Select the **Collections** tab
 3. Type a name for your collection
-4. Click the Add Collection button
+4. Click the **Add Collection** button
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Create collection from Assistant Pro Cloud](/img/assistant/cloud--libraries--organize-assets--2.jpg)
 
-## Create a Library Collection From the Assistant Plugin
+## Create a Library Collection from the Assistant Plugin
 
 To create a library collection from the Assistant Plugin:
 
-1. Click on the library you’d like to add a collection to
-2. Click the settings icon
+1. Click on the library you’d like to add a collection.
+2. Click the **Settings** icon.
 3. Type a name for your collection
-4. Click the Add to Collection button
+4. Click the **Add Collection** button
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Create collection from Assistant plugin](/img/assistant/cloud--libraries--organize-assets--3.jpg)
 
-## Assign Collections to a Creative Asset From Assistant Pro Cloud
+## Assign Collections to a creative asset from Assistant Pro Cloud
 
 To add collections to a creative asset in the Assistant Pro Cloud, select the asset and enter collection names into the sidebar dialogue field.  If you enter a collection name that is unassigned, Assistant will create a new collection with that name.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Assign assets to collections from Assistant Pro Cloud](/img/assistant/cloud--libraries--organize-assets--4.jpg)
 
-## Assign Collections to a Creative Asset From the Assistant Plugin
+## Assign Collections to a creative asset from the Assistant Plugin
 
 To add collections to a creative asset from the Assistant Plugin, select the asset and enter collection names into the sidebar dialogue field.  If you enter a collection name that is unassigned, Assistant will create a new collection with that name.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Assign assets to collections from Assistant plugin](/img/assistant/cloud--libraries--organize-assets--5.jpg)
 
 ## Sort by Collection from the Assistant Pro Cloud
 
@@ -50,10 +50,10 @@ To add collections to a creative asset from the Assistant Plugin, select the ass
 
 View a list of a library’s collections by clicking the collections tab.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Sort by collection from Assistant Pro Cloud](/img/assistant/cloud--libraries--organize-assets--6.jpg)
 
 ## Sort by Collection from the Assistant Plugin
 
 To sort a library by collection from the Assistant Plugin, select View by Collection from the dropdown menu.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Sort by collection from Assistant plugin](/img/assistant/cloud--libraries--organize-assets--7.jpg)

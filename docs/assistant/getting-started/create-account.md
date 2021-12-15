@@ -9,7 +9,7 @@ You sign up for the Assistant Pro Cloud at [Assistant.Pro](https://assistant.pro
 ## Sign Up
 
 1. Click the **Sign-Up Free** button.
-2. Complete out the registration form.
+2. Fill out the registration form.
 3. Use the request for verification you receive by email to verify your account.
 4. Click the **Verify Email Address** button to complete your registration.
 

@@ -50,7 +50,10 @@ You can add content, media, colors and customizer (theme) settings from the [Lib
 4. Enter the name of the piece of content you would like to add in the search field.
 5. Click the search result for the piece of content you would like to add.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+<video autoPlay loop>
+<source src="/video/assistant/libraries--add-assets--add-posts.mp4" type="video/mp4" />
+<source src="/video/assistant/libraries--add-assets--add-posts.webm" type="video/webm" />
+</video>
 
 #### Add a Color to an Assistant Pro Library From the Libraries App
 
@@ -60,7 +63,7 @@ You can add content, media, colors and customizer (theme) settings from the [Lib
 4. Select your color from the color picker or enter numeric values to select a color.
 5. Name your color (by default the name will be the color’s hex code.).
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Add a Color to a library](/img/assistant/cloud--libraries--assistant-plugin--3.jpg)
 
 #### Add Theme Settings to an Assistant Pro Library From the Libraries App
 
@@ -71,3 +74,5 @@ This procedure saves your site’s customizer settings.
 3. Click the plus sign.
 4. Select settings.
 5. Click add settings.
+
+![Add a Theme Settings to a library](/img/assistant/cloud--libraries--assistant-plugin--4.jpg)

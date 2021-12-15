@@ -22,17 +22,19 @@ To Create a Team:
 * Name your team.
 * Click the **Create Team** button.
 
-<video autoPlay loop>
-<source src="/video/assistant/accoun-settings--create-team.mp4" type="video/mp4" />
-<source src="/video/assistant/accoun-settings--create-team.webm" type="video/webm" />
-</video>
-
 ## Add team members
 
 To Add Team Members and Assign Permissions
 
 * Select **Members > Add Members > Invite Members**.
 * Enter the email addresses and permission levels for your team members.
+
+<video autoPlay loop>
+<source src="/video/assistant/account-settings--create-team.mp4" type="video/mp4" />
+<source src="/video/assistant/account-settings--create-team.webm" type="video/webm" />
+</video>
+
+
 
 Teams display on the Libraries Page sidebar under Shared Libraries.
 
