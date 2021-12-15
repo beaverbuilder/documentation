@@ -23,15 +23,16 @@ Beaver Themer supports the following ACF field types:
 * Select
 * Checkbox
 * Radio
-* Page Link
 * Google Map
 * Date Picker
 * Date Time Picker
 * Time Picker
 * Flexible Content (requires shortcode)
 * Repeater (requires shortcode)
-* Relationship (Source via Post module)
-* User (Source via Post module)
+* Relational > Relationship (Only supported in the Post Module Source field dropdown)
+* Relational > Post Object
+* Relational > Page Link
+* Relational> User (Only supported in the Post Module Source field dropdown)
 
 ##  ACF field connection example
 
