@@ -32,7 +32,7 @@ Beaver Themer supports the following ACF field types:
 * Relational > Relationship (Only supported in the Post Module Source field dropdown)
 * Relational > Post Object
 * Relational > Page Link
-* Relational> User (Only supported in the Post Module Source field dropdown)
+* Relational > User (Only supported in the Post Module Source field dropdown)
 
 ##  ACF field connection example
 
