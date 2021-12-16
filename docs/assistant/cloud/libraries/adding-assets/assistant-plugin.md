@@ -4,14 +4,16 @@ title: Adding Assets via the Assistant plugin
 sidebar_label: Assistant Plugin
 ---
 
+In Assistant Pro, all of our assets are organized into libraries.
+
 ## ​Create a New Library
 
 To create a new library from the Assistant Plugin:
 
-1. Open the Libraries App.
-2. Click the plus symbol (+).
+1. Open the **Libraries App**.
+2. Click the **Plus** (+) symbol .
 3. Enter a name for your library.
-4. Click the Enter button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard.
+4. Click the **Enter** button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard.
 
 ![Create library via Assistant plugin](/img/assistant/cloud--libraries--assistant-plugin--1.jpg)
 

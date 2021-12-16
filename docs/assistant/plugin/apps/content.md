@@ -4,12 +4,19 @@ title: Content App
 sidebar_label: Content
 ---
 
-The Content App is where you can view and edit content like posts, pages, Beaver Builder templates, WooCommerce products and Gutenberg blocks.  Other popular page builders such as Elementor and Divi are also supported by Assistant Pro. 
+In the Content App you can edit, view and manage content such as posts, pages, Beaver Builder templates, WooCommerce products, and Gutenberg blocks.
 
-You can also add content to the Assistant Pro Cloud from the Content App.
+Assistance Pro also includes support for other popular page builders, such as Elementor and Divi. Additionally, the app does the following:
+
+* Browse and sort content.
+* Create new content.
+* Delete content.
+* Edit content.
+* Attach labels to content.
+* Upload content to Assistant Pro Cloud as described in Adding Content.
 
 ![Content app overview](/img/assistant/apps--apps-content--1.jpg)
 
-Once you click on a piece of content, you are given the opportunity to perform various actions such as add labels, view post, launch Beaver Builder, save to Assistant Pro library, mark as favorite, edit in WordPress admin, duplicate, export, and move to trash.
+Once you click on a piece of content, you are given the opportunity to perform various actions. For example, you can add labels, view post, launch Beaver Builder, save to Assistant Pro library, mark as favorite, edit in WordPress admin, duplicate, export, and move to trash.
 
 ![Content app content actions](/img/assistant/apps--apps-content--2.jpg)

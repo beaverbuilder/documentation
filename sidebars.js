@@ -1259,7 +1259,16 @@
          ],
        },
        "assistant/cloud/community",
-       "assistant/cloud/beaver-builder-integration",
+       {
+        type: 'category',
+        label: 'Integrations',
+        items: [
+          "assistant/cloud/integrations/overview", // Index
+          "assistant/cloud/integrations/beaver-builder",
+          "assistant/cloud/integrations/third-party-page-builders",
+          "assistant/cloud/integrations/woocommerce",
+        ],
+       },
      ],
    },
  ],

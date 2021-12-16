@@ -4,9 +4,11 @@ title: Libraries App
 sidebar_label: Libraries
 ---
 
-The Libraries App is where you connect your WordPress sites to Assistant Pro so you can add and access assets to and from the Assistant Pro Cloud.
+The Libraries App allows you to your WordPress sites to Assistant Pro Cloud. Once your site is connected to the Assistant Pro Cloud you can do the following:
 
-For in-depth information on how to add content to the Assistant Pro Cloud from the Libraries App, see the help resources on How to ​​Create a New Library From the Assistant WordPress Plugin and Adding Content to a Library From the Libraries App in the Assistant Pro Cloud Overview Section of this documentation. To learn how to access content from the Assistant Pro Cloud, see the section on Using Assistant Pro Library Assets On Sites.
+* [Create and manage libraries](../../cloud/libraries/adding-assets/assistant-plugin.md).
+* [Add content to the Assistant Pro Cloud](../../cloud/libraries/adding-assets/assistant-plugin.md#adding-content-via-the-libraries-app) from the Libraries App.
+* [Organize content using collections](../../cloud/libraries/organize-assets.md).
 
 ![Libraries app overview](/img/assistant/apps--apps-libraries--1.jpg)
 
