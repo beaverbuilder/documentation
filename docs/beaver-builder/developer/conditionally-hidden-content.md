@@ -39,7 +39,7 @@ Download here: https://updates.wpbeaverbuilder.com/public/bb-excerpt-data-fix.zi
 
 1. We always recommend to make a full backup of your site before updating WordPress, plugins or themes or adding new themes or plugins.  
 
-2. Install and Active the plugin. It is named `Beaver Builder Excerpt Fix`.  Upon activation, it will fix your data to make sure the hidden conent is not in `post_content`.
+2. Install and Active the plugin. It is named `Beaver Builder Excerpt Fix`.  Upon activation, it will fix your data to make sure the hidden content is not in `post_content`.
 
 3. Check your post modules and archives and make sure the hidden data is not showing in the excerpt.
 
