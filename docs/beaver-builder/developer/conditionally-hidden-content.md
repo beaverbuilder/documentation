@@ -18,13 +18,6 @@ Up until now, visibility settings were ignored when you publish your layout so w
 
 We added some clever filters for the REST API so it respects any node visibility settings and from 2.5.1 onwards only visible text will be added to the backup `post_content`.
 
-### New Utility Function
-
-We added a new Utility Function `FLBuilderLoop::the_excerpt` which uses `FLBuilderLoop::get_the_excerpt()`
-
-Instances of `get_excerpt()` were replaced with `FLBuilderLoop::the_excerpt()`
-
-
 ## How To Get The Fixes
 
 Update to Beaver Builder 2.5.1. All of the fixes with conditionally hidden content are contained within the Beaver Builder Plugin 2.5.1 release.
