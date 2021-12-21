@@ -43,4 +43,4 @@ Download here: https://updates.wpbeaverbuilder.com/public/bb-excerpt-data-fix.zi
 
 3. Check your post modules and archives and make sure the hidden data is not showing in the excerpt.
 
-4. Deactivate and delete the plugin.  It only needs to be run once.
+4. The plugin will self-deactivate after activation and running.  You can then delete it.
