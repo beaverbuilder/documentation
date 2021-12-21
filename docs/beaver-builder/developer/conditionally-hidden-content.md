@@ -10,19 +10,19 @@ We were alerted to an issue with content that is hidden by Beaver Builder's visi
 
 ## How did this happen?
 
-When you add a text or image based module to a page, the raw text and image data are saved to the native WordPress `post_content`. This is to ensure if you deactivate Beaver Builder you will still have that data for WordPress to display.
+When you add a text-based or image-based module to a page, the raw text and image data are saved to the native WordPress `post_content`. This ensure that if you deactivate Beaver Builder you will still have that data for WordPress to display.
 
-Up until now, visibility settings were ignored when you publish your layout so when WordPress displays the post excerpt, it just uses everything it finds in the `post_content`, which includes anything that was supposed to be hidden.
+Up until now, visibility settings were ignored when you published your layout. This meant that when WordPress displayed the post excerpt, it used everything it found in the `post_content`, which included anything that was supposed to be hidden.
 
 ## The Fixes We Implemented
 
-We added some clever filters for the REST API so it respects any node visibility settings and from 2.5.1 onwards only visible text will be added to the backup `post_content`.
+We added some clever filters for the REST API so it respects any node visibility settings, so from 2.5.1 onwards, only visible text is added to the backup `post_content`.
 
 ## How To Get The Fixes
 
 Update to Beaver Builder 2.5.1. All of the fixes with conditionally hidden content are contained within the Beaver Builder Plugin 2.5.1 release.
 
-If you are using hidden content in your layouts and hidden text is showing up in post modules or archives, we have a small utility plugin that will remove the hidden content from the `post_content`. This will not change your layouts in any way.
+If you are using hidden content in your layouts and hidden text is showing up in post modules or archives, we have a small utility plugin that removes the hidden content from the `post_content`. This does not change your layouts in any way.
 
 ### Download the utility plugin
 
@@ -30,7 +30,7 @@ Download here: https://updates.wpbeaverbuilder.com/public/bb-excerpt-data-fix.zi
 
 ### How to use the plugin
 
-1. We always recommend to make a full backup of your site before updating WordPress, plugins or themes or adding new themes or plugins.  
+1. Make a full backup of your site, following best practice before updating WordPress, plugins or themes or adding new themes or plugins.  
 
 2. Install and activate the `Beaver Builder Excerpt Fix` plugin.  Upon activation, it will fix your data to make sure the hidden content is not in `post_content`.
 
