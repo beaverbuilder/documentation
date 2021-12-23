@@ -52,7 +52,7 @@ You can add content, media, colors and customizer (theme) settings from the [Lib
 4. Enter the name of the piece of content you would like to add in the search field.
 5. Click the search result for the piece of content you would like to add.
 
-<video autoPlay loop>
+<video controls>
 <source src="/video/assistant/libraries--add-assets--add-posts.mp4" type="video/mp4" />
 <source src="/video/assistant/libraries--add-assets--add-posts.webm" type="video/webm" />
 </video>

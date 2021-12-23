@@ -11,6 +11,6 @@ Additionally, the app does the following:
 * Sort comments by status: **All**, **Pending** (default), **Approved**, **Trashed**.
 * Approve/unapprove comments.
 * Edit comments.
-* Move comments to the trash.
+* Mark comments as spam.
 
 ![Comments app overview](/img/assistant/apps--apps-comments--1.jpg)

@@ -8,7 +8,7 @@ To change your Assistant Pro account password:
 
 1. Log into your Assistant Pro account.
 2. Navigate to **Account > Password** tab.
-3. You must first enter your current password, then enter a new password and confirm it.
+3. Enter your current password, then enter a new password and confirm it.
 4. Click the **Update Password** button to save the changes.
 
 ![Change password](/img/assistant/cloud--account-settings--change-password--1.jpg)

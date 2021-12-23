@@ -5,11 +5,15 @@ sidebar_label: Overview
 slug: /cloud/libraries/
 ---
 
-You can add colors and images (.jpg, .png, .svg .giff) as well as templates shared by the community to your libraries from the Assistant Pro Cloud.
+Libraries are collections of [creative assets](/assistant/overview.md/#creative-assets). There are two sources for the creative assets in libraries:
 
-You can add images, colors, theme settings, and page content (posts, pages, Gutenberg Blocks and Beaver Builder Saved Content) to libraries from the Assistant WordPress Plugin.
+* Those shared by the Assistant Pro Cloud Community.  
+* Those assigned to libraries from any of your websites with the Assistant WordPress Plugin installed.
 
-Assistant also supports the templates and saved content of most popular page editors including Divi, Visual Composer and Elementor.
+Libraries can be created in either the Assistant Pro Cloud or in the Assistant plugin.
+
+
+You can add colors and images (.jpg, .png, .svg .giff) as well as templates shared by the community to your libraries from the Assistant Pro Cloud. 
 
 
 * [Adding assets overview](adding-assets/overview.md)

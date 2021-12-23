@@ -18,7 +18,7 @@ You can manipulate the order of apps using drag-and-drop. To do this, click and 
 </video>
 
 :::info
-The **Home App** and **App & Settings** are excluded and can not be moved into a different order.
+The **Home App** and **App & Settings** are excluded and cannot be moved into a different order.
 :::
 
 ## Color Scheme
@@ -44,7 +44,7 @@ The **Panel Width** option lets you restore to the default width. You can adjust
 
 ## Manage Labels
 
-The **Manage Labels** section lets you add labels to posts inside the [Content App](apps/content.md). Labels are used to mark posts or pages for organization and collaborate with other users.
+The **Manage Labels** section lets you create, edit and delete labels. Labels are used to mark content for organization and collaborate with other users.
 
 ### Edit Label
 
@@ -61,7 +61,7 @@ To edit a label:
 
 To create a label:
 
-1. In the **Create New Label** section:
+1. Go to the **Create New Label** section.
 2. Enter a name in the **Add Label** field.
 3. Select a color.
 4. Click the **Create Label** button.

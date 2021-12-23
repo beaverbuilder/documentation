@@ -28,65 +28,89 @@ Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide 
 
 ## Quick Start
 
-1. Create an [Assistant Pro user account](getting-started/create-account.md).
-2. [Install the Assistant Plugin](getting-started/installation.md) on one or more WordPress sites.
-3. [Link your site(s)](getting-started/connect.md) to the Assistant Pro Cloud.
+1. [What can I do with the Assistant plugin and Assistant Pro Cloud?](getting-started/what-can-i-do.md)
+2. [Create an Assistant Pro user account.](getting-started/create-account.md)
+3. [Install the Assistant Plugin on one or more WordPress sites.](getting-started/installation.md)
+4. [Connect your site(s) to the Assistant Pro Cloud.](getting-started/connect.md)
 
 ## Features
 
-* Access the Assistant user interface from any frontend page
-* Get a glance of your recently edited posts from the [Home App](plugin/apps/home.md)
-* Search WordPress directly from the frontend
-* Quickly find posts, pages, and custom post types with the [Content App](plugin/apps/content.md)
-* Upload media to WordPress media library by dropping files on the [Media App](plugin/apps/media.md)
-* The [Comments App](plugin/apps/comments.md) lets you quick reply, approve, mark as spam and trash comments
-* Keep an eye on plugin and theme updates with the [Updates App](plugin/apps/updates.md)
-* Add custom labels to posts or pages to help organize your site from [Apps + Settings](plugin/app-settings.md)
+Access the Assistant user interface from any frontend page to use the suite of apps:
+
+* Get a glance of your recently edited posts from the [Home App](plugin/apps/home.md).
+* Search WordPress directly from the frontend.
+* Quickly find posts, pages, and custom post types with the [Content App](plugin/apps/content.md).
+* Upload media to WordPress media library by dropping files on the [Media App](plugin/apps/media.md).
+* Approve, mark as spam, trash, or reply to comments with the [Comments App](plugin/apps/comments.md).
+* Keep an eye on plugin and theme updates with the [Updates App](plugin/apps/updates.md).
+* Add custom labels to posts or pages to help organize your site from [Apps + Settings](plugin/app-settings.md).
 
 ## Terminology
 
-The following definitions are specific to the Assistant plugin and Assistant Pro Cloud, which some users may not be familiar with.
+The following definitions are specific to the Assistant plugin and Assistant Pro Cloud.
 
 ### Assistant Plugin
 
-A Plugin for WordPress that provides a sidebar on front end pages.  The sidebar makes it easy to access the back end of your site from front end pages. The Assistant Plugin also interfaces with the Assistant Pro Cloud.
+A Plugin for WordPress that provides a sidebar on front end pages.  The sidebar makes it easy to access the back end of your site from frontend pages. The Assistant Plugin also interfaces with the Assistant Pro Cloud.
 
 ### Assistant Pro Cloud
 
-A cloud based file sharing system for WordPress sites.
+A cloud-based file sharing system for WordPress sites.
 
 ### Apps
 
-There are currently 5 Apps, Home, Media, Content, Updates and Libraries
+Apps are modular component of the plugin with specific functionality. There are currently six apps: [Home](plugin/apps/home.md), [Content](plugin/apps/content.md), [Media](plugin/apps/media.md), [Comments](plugin/apps/comments.md), [Updates](plugin/apps/updates.md) and [Libraries](plugin/apps/libraries.md).
 
 ### Creative Assets
 
-Images, Posts, Pages, Custom Post Types, Gutenberg Blocks, Beaver Builder templates, Beaver Themer layouts and support for third-party page builder templates.
+Creative assets include the following:
+
+#### Media
+
+* Images in .png, .jpg, .svg, or .gif format.
+
+#### Content
+
+* Posts and archives.
+* Pages.
+* Custom post types, including plugins such as WooCommerce. 
+* Beaver Builder saved content (rows, columns, modules, layout templates).
+* Beaver Themer layouts.
+* Gutenberg blocks.
+* Templates from supported third-party page builders (Elementor, Divi, Visual Composer).
+
+#### Colors
+
+Colors can be selected from the color picker or entered as hexadecimal color values e.g. `#ffffff`.
+
+#### Settings
+
+* Customizer settings from a WordPress theme
 
 ### Library
 
 * **Private Library** - Only available for personal and team account holders. Not visible to the community
 * **Shared Library** - The entire community can see your shared libraries if they click your user handle.
-* **Team Library** - Instead of having an individual own the library, the library and it’s permissions are shared across a team of users.
+* **Team Library** - Instead of having an individual own the library, the library and its permissions are shared across a team of users.
 
-### Library Collection
+### Library Collections
 
 A way to sort creative assets within libraries similar to WordPress tags.
 
 ### Assistant Account
 
-* **Free** - Libraries are all shared with the assistant community.
-* **Personal** - Libraries can be made private
+* **Free** - Libraries are all shared with the Assistant community.
+* **Personal** - Libraries can be made private.
 * **Team** - Libraries and their permissions can be shared across a team of users.
 
 :::info
-The basic Team plan includes 3 personal user accounts. Additional users can be added to the team.
+The basic Team plan includes three personal user accounts. Additional users can be added for $5 per month each.
 :::
 
 ### Community
 
-* **Share** - Will update as the designer updates the library.
-* **Duplicate** - Creates a copy of the library
+* **Share** - Updates as the designer updates the library.
+* **Duplicate** - Creates a copy of the library.
 
 
 

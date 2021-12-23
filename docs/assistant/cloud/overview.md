@@ -5,7 +5,7 @@ sidebar_label: Overview
 slug: /assistant/cloud/
 ---
 
-Assistant Pro Cloud lets you organize creative assets in libraries and collections so you can access them from the Assistant plugin when you're building sites.
+Assistant Pro Cloud lets you organize [creative assets](../overview.md#creative-assets) in [libraries](../overview.md#library) and [collections](../overview.md#library-collections) so you can share them across your websites, by means of the Assistant plugin, or share them with the Assistant Pro Community.
 
 ## Creative Assets
 
