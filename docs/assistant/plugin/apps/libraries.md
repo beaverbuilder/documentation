@@ -21,7 +21,7 @@ To create a new library from the Assistant Plugin:
 
 ## Add Content to libraries
  
-The **Libaries App** lets you can add content, media, colors and customizer (theme) settings to your libraries.
+The **Libraries App** lets you can add content, media, colors and customizer (theme) settings to your libraries.
 
 ### Add Posts, Pages or Templates
 

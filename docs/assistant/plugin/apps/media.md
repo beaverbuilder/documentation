@@ -61,7 +61,7 @@ To create a label:
 1. Click the media item you want to edit.
 2. Scroll down to the **LABELS** section.
 3. Click the **+ Add Label** button.
-4. Select the lable from the drop-down menu.
+4. Select the label from the drop-down menu.
 
 You can create labels via the [Manage Labels](../app-settings.md#manage-labels) section in the [Apps & Settings](../app-settings.md) panel.
 
