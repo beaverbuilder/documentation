@@ -2,6 +2,7 @@
 id: media
 title: Media App
 sidebar_label: Media
+description: Browse, sort media, upload new media and delete media.
 ---
 
 The Media App allows you to browse, sort media, upload new media and delete media.

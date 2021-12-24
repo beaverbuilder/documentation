@@ -2,6 +2,7 @@
 id: connect
 title: Connect to the Assistant Pro Cloud
 sidebar_label: Connect
+description: Learn how to connect to the Assistant Pro Cloud.
 ---
 
 Connecting the Assistant plugin to Assistant Pro Cloud is the first step to managing and syncing [creative assets](../overview.md#creative-assets) between your WordPress sites. Follow these steps to get started.

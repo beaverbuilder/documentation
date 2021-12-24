@@ -2,6 +2,7 @@
 id: app-settings
 title: Apps & Settings
 sidebar_label: App & Settings
+description: Adjust the Assistant plugin UI and appearance settings.
 ---
 
 The App & Settings panel is where you can adjust the Assistant plugin user interface and appearance settings.

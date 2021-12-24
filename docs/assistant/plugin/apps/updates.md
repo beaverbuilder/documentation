@@ -2,6 +2,7 @@
 id: updates
 title: Updates App
 sidebar_label: Updates
+description: Manage plugin and theme updates for your site.
 ---
 
 The Updates App allows you to manage plugin and theme updates for your site.

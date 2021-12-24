@@ -2,6 +2,7 @@
 id: create-account
 title: Create an Assistant Pro User Account
 sidebar_label: Create Account
+description: Learn how to create an Assistant Pro Cloud account.
 ---
 
 Sign up for the Assistant Pro Cloud at [Assistant.Pro](https://assistant.pro/). There are three Assistant Pro Cloud account types: Free, Individual, and Team. Compare prices and features on this [comparison table](https://assistant.pro/#pricing).

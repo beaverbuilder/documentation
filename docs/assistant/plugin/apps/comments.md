@@ -2,6 +2,7 @@
 id: comments
 title: Comments App
 sidebar_label: Comments
+description: View, approve/unapprove and edit comments.
 ---
 
 The Comments app lets you quickly view all comments on your website.

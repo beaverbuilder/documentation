@@ -2,6 +2,7 @@
 id: content
 title: Content App
 sidebar_label: Content
+description: Browse, sort content, create new content and delete content.
 ---
 
 The Content App allows you to browse, sort content, create new content and delete content.

@@ -2,6 +2,7 @@
 id: install
 title: Install the Assistant Plugin
 sidebar_label: Install
+description: Learn how to install the Assistant plugin.
 ---
 
 There are three methods for installing the Assistant plugin, which are outlined below.

@@ -2,6 +2,7 @@
 id: what-can-i-do
 title: What can I do with Assistant and Assistant Pro Cloud?
 sidebar_label: What can I do with Assistant and Assistant Pro Cloud?
+description: Learn what you can do with Assistant.
 ---
 
 Assistant Pro is a cloud-sharing application that helps you keep your WordPress assets organized and easily accessible.  It links to your WordPress sites using a plugin. The plugin offers a suite of apps that perform common tasks using a frontend sidebar.

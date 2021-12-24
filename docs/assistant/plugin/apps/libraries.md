@@ -2,6 +2,7 @@
 id: libraries
 title: Libraries App
 sidebar_label: Libraries
+description: Connect to Assistant Pro Cloud to add content to libraries.
 ---
 
 The Libraries App allows you to connect your WordPress site to Assistant Pro Cloud. Once it's connected, you can create, manage and add content to libraries, launch the Assistant Pro Cloud and disconnect from Assistant Pro Cloud.

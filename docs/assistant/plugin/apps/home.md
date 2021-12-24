@@ -2,6 +2,7 @@
 id: home
 title: Home App
 sidebar_label: Home
+description: A birds-eye view of your website and quick access to content.
 ---
 
 In the Home App, you get a birds-eye view of your website, giving you quick access to content and media. Additionally, the app does the following:
