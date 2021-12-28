@@ -5,7 +5,7 @@ sidebar_label: 403 Forbidden or 403 Blocked error
 ---
 
 # Title Bar Incorrect
-The Beaver Builder UI shows you what page you are editing in the top left.  We refer to this as the Title Bar.  Sometimes users experience issues where the Title Bar does not show the correct Title information for the post/page they are editing. Users might also find that when this happens and they publish changes, instead of being takento the post/page they were editing, they are redirected to the incorrect post/page that was listed in the Title Bar.
+The Beaver Builder UI shows you what page you are editing in the top left.  We refer to this as the Title Bar.  Sometimes users experience issues where the Title Bar does not show the correct Title information for the post/page they are editing. Users might also find that when this happens and they publish changes, instead of being taken to the post/page they were editing, they are redirected to the incorrect post/page that was listed in the Title Bar.
 
 [Image Here]
 
