@@ -1,7 +1,7 @@
 ---
 id: title-bar-incorrect
-title: 403 Forbidden or 403 Blocked error
-sidebar_label: 403 Forbidden or 403 Blocked error
+title: Title Bar Incorrect
+sidebar_label: Title Bar Incorrect
 ---
 
 # Title Bar Incorrect
