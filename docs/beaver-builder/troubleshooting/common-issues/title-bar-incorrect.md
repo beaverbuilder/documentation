@@ -13,4 +13,4 @@ The Beaver Builder UI shows you what page you are editing in the top left.  We r
 The cause is custom code that uses [WP_Query](https://developer.wordpress.org/reference/classes/wp_query/) but does not [reset the query properly](https://developer.wordpress.org/reference/classes/wp_query/#usage). This custom code is in the theme or a plugin that the site uses.
 
 ## The Solution
-The custom code must be edited to [reset the query properly](https://developer.wordpress.org/reference/classes/wp_query/#more-information)
+If the jQuery comes from custom code in your site, you must [reset the query properly](https://developer.wordpress.org/reference/classes/wp_query/#more-information). If the problem is coming from a theme or plugin, contact the developer to correct the code.
