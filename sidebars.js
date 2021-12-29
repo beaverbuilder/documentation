@@ -651,7 +651,7 @@
             "beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme",
             "beaver-builder/developer/tutorials-guides/remove-rename-tools-menu-items",
             "beaver-builder/developer/tutorials-guides/customize-settings-forms",
-            "beaver-builder/developer/tutorials-guides/common-beaver-builder-filter-examples",
+            "beaver-builder/developer/tutorials-guides/common-beaver-builder-plugin-filter-examples",
             "beaver-builder/developer/tutorials-guides/add-icons-to-your-custom-modules",
             "beaver-builder/developer/tutorials-guides/customize-row-resizing-behavior",
             "beaver-builder/developer/tutorials-guides/customize-keyboard-shortcuts",

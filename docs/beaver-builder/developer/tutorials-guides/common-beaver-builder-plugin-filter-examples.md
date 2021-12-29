@@ -1,61 +1,79 @@
 ---
-id: common-beaver-builder-filter-examples
+id: common-beaver-builder-plugin-filter-examples
 title: Common Beaver Builder filter examples
 sidebar_label: Common Beaver Builder filter examples
+description: Beaver Builder has many filters. This article describes how to use some of the common ones.
 ---
 
-There is a comprehensive [Hook & Filter Reference](https://hooks.wpbeaverbuilder.com/bb-plugin/) but here's a list of some commonly used filters and their potential uses. This article is aimed at developers and assumes that you know where to put the code and how to tweak it
+There is a comprehensive [Hook & Filter Reference](https://hooks.wpbeaverbuilder.com/bb-plugin/) but here's a list of some commonly used filters with their potential uses. This article is aimed at developers and assumes that you know where to put the code and how to tweak it.
 
-## BB filter in WP admin lists
+## Remove Beaver Builder filter option in WP post lists
 
-In WP admin lists of pages, posts, you can click a Beaver Builder link that shows only the items that have Beaver Builder layouts. The link is shown in this screenshot.
+**Filter:** `fl_builder_admin_edit_sort_bb_enabled`
 
-![](/img/beaver-builder--bb-common-filter-examples-1.png)
+In WP admin lists of pages, posts, and custom post types in the back end, there's a Beaver Builder link in the list of post display filters, which limits the display to items that have Beaver Builder layouts. The Beaver Builder link to filter the display is shown in this screenshot.
 
-If you'd like to disable that feature altogether, use the filter `fl_builder_admin_edit_sort_bb_enabled`.
+![Screenshot of Beaver Builder filter link in WP lists of pages and posts](/img/beaver-builder--bb-common-filter-examples-1.png)
 
-### Example:
+:::note **Note**
+This Beaver Builder display filter link appears only for post types that have Beaver Builder enabled at **Settings > Beaver Builder > Post types**.
+:::
+
+If you'd like to remove this Beaver Builder display filter link, add the following line of code to the _functions.php_ file in your child theme.
 
 ```php
 add_filter( 'fl_builder_admin_edit_sort_bb_enabled', '__return_false' );
 ```
 
-## Remember settings tab used
+## Always open first tab in row/column/module settings
 
-The Beaver Builder editor remembers the last tab used in the row/column/module settings window. If you want to disable that and have the row, column, or module settings window always open at the first tab, use the filter `fl_remember_settings_tabs_enabled`.
+**Filter:** `fl_remember_settings_tabs_enabled`
 
-### Example:
+The Beaver Builder editor remembers the last tab used in the row/column/module settings window. If you want to disable that behavior and have the row, column, or module settings window always open at the first tab, add the following line of code to the _functions.php_ file in your child theme.
 
 ```php
 add_filter( 'fl_remember_settings_tabs_enabled', '__return_false' );
 ```
 
-## Prevent modules from loading site-wide
+## Show which modules are in use in a website
 
-By default, when you disable modules in **Settings > Beaver Builder > Modules**, they do not appear in the module list in the Beaver Builder editor, but any modules of that type already used in layouts are still displayed on web pages.
+**Filter:** `is_module_disable_enabled`
 
-You can change the behavior in **Settings > Beaver Builder > Modules** so that when you disable modules they don't load or render in either the front end or the editor, and before you disable them you'll be able to see how many modules of that type are already in use. This is done by setting the `is_module_disable_enabled` filter to `true`. Add the following line of code to the _functions.php_ file in your child theme.
+You can use this filter to show which Beaver Builder modules and how many of each type are used on the front end of your website.  This information is displayed on the **Modules** tab at **Settings > Beaver Builder**, as shown in the following screenshot.
 
-:::note
-The Slideshow module is required for row background slideshows to function.
-:::
+![Screenshot of the Modules tab in Beaver Builder settings showing which modules are in use](/img/beaver-builder--bb-common-filter-examples-2.png)
+
+You can see how many times each module is used in pages, posts, and "Templates." The "Templates" category applies both to [saved layout templates](/beaver-builder/layouts/templates/layout-templates-overview.md/#saved-layout-templates) and to [saved rows, columns, and modules](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md).
+
+To display these module counts, add the following line of code to the _functions.php_ file in your child theme.
 
 ```php
 add_filter( 'is_module_disable_enabled', '__return_true' );
 ```
 
-After you've added this filter, you'll see module counts displayed at **Settings > Beaver Builder > Modules** so you can see if there are existing modules that will be blocked from loading and rendering, as shown in the following screenshot.
+:::important **Important**
+If you uncheck modules on this tab with this filter applied, it will prevent them from being displayed on the front end of your site. See the following section about [preventing modules from loading site-wide](#prevent-modules-from-loading-site-wide).
+:::
 
-![](/img/beaver-builder--bb-common-filter-examples-2.png)
+## Prevent modules from loading site-wide
 
-It shows how many times each module is used in pages, posts, and "Templates." The "Templates" category applies both to saved layout templates and to saved rows, columns, and modules.
+**Filter:** `is_module_disable_enabled`
 
-When you clear a checkbox to disable a module, it will not appear for selection in the Beaver Builder editor and any existing modules of that type will not load or render on the page.
+By default, when you disable modules in **Settings > Beaver Builder > Modules**, they do not appear in the module list in the Beaver Builder editor, but any modules of that type already used in layouts are still displayed on web pages.
+
+If you apply the `is_module_disable_enabled` filter, then when you clear a checkbox to disable a module, it will not be visible in the editor and existing modules of that type will not load or render on the front end either.
+
+This filter is the same one [described in the previous section about displaying module counts](#show-which-modules-are-in-use-in-a-website). After you apply the filter as shown there, go to **Settings > Beaver Builder** and click the **Modules** tab to view which modules are used where, then uncheck the box for any modules that you don't want to display either on the front end or in the editor. 
+
+:::important **Important**
+The Slideshow module is required for row background slideshows to function.
+:::
 
 ## Disable inline editing
-You can completely disable inline editing by using the `fl_inline_editing_enabled` filter.
 
-### Example:
+**Filter:** `fl_inline_editing_enabled`
+
+You can use this filter to completely disable inline editing in the Beaver Builder editor. Add the following line of code to the _functions.php_ file in your child theme.
 
 ```php
 add_filter( 'fl_inline_editing_enabled', '__return_false' );
@@ -63,19 +81,34 @@ add_filter( 'fl_inline_editing_enabled', '__return_false' );
 
 ## Disable notifications from Beaver Builder in the UI
 
-There's a bell icon in the Beaver Builder editor UI that, when clicked, shows notifications that are issued by Beaver Builder. You can disable the notifications with the filter `fl_disable_notifications`
+**Filter:** `fl_disable_notifications`
 
-### Example:
+There's a bell icon in the Beaver Builder editor UI that, when clicked, shows notifications that are issued by Beaver Builder. You can use this filter to disable these notifications. Add the following line of code to the _functions.php_ file in your child theme.
 
 ```php
 add_filter( 'fl_disable_notifications', '__return_true' );
 ```
 
-## `fl_ajax_*`
+## Enable double opt-in for MailChimp integrations
 
-Use this filter to filter the results of the builder’s front-end AJAX actions. For example, for save_settings the filter would be `fl_ajax_save_settings`.
+**Filter:** `fl_builder_mailchimp_double_option`
 
-See the classes/class-fl-builder-ajax.php file for a complete list of core AJAX actions that can be appended to the fl_ajax_* filter.
+Use this filter to enable double opt-in for MailChimp integrations. Returning `true` enables double opt-in; returning `false` enables single opt-in. The default return value for this filter is `false`.
+
+**Example:**
+
+```php
+// Enable double opt-in.
+add_filter( 'fl_builder_mailchimp_double_option', '__return_true' );
+```
+
+##  Filter front-end AJAX actions in Beaver Builder
+
+**Filters:** `fl_ajax_*` , appended with an AJAX action listed in *classes/class-fl-builder-ajax.php* 
+
+Use this set of filters to filter the results of Beaver Builder’s front-end AJAX actions. For example,  for the `save_settings` action, the filter would be `fl_ajax_save_settings`, as shown in this example.
+
+**Example:**
 
 ```php
 function my_ajax_save_settings( $result, $args ) {
@@ -84,9 +117,17 @@ function my_ajax_save_settings( $result, $args ) {
 add_filter( 'fl_ajax_save_settings', 'my_ajax_save_settings' );
 ```
 
-## `fl_builder_admin_settings_post_types`
+See the *classes/class-fl-builder-ajax.php* file for a complete list of core AJAX actions that can be appended to the `fl_ajax_*` filter.
 
-Use this filter to modify the post types that are shown in the admin settings for enabling and disabling post types.
+## Modify the post types that are shown in Beaver Builder Settings
+
+**Filter:** `fl_builder_admin_settings_post_types`
+
+Use this filter to modify the post types that are shown at **Settings > Beaver Builder > Post types**, where you can choose which post types have the Beaver Builder editor enabled. 
+
+Add the following code  to the _functions.php_ file in your child theme and modify it for the post types you want to filter. In this example, the `unset( $post_types['post'] );` line means that standard posts do not appear in the **Settings > Beaver Builder > Post types** list and cannot have the Beaver Builder editor enabled.
+
+**Example:**
 
 ```php
 function my_builder_admin_settings_post_types( $post_types ) {
@@ -96,9 +137,29 @@ function my_builder_admin_settings_post_types( $post_types ) {
 add_filter( 'fl_builder_admin_settings_post_types', 'my_builder_admin_settings_post_types' );
 ```
 
-## `fl_builder_column_custom_class`
+## Modify custom class names for rows
 
-Use this filter to work with the custom class a user adds to a column under **Column Settings > Advanced > Class**.
+**Filter:** `fl_builder_row_custom_class`
+
+Use this filter to work with the custom class a user adds to a row under **Row Settings > Advanced > Class**.  In the following example, if the user enters a custom class called **my-red-class** for a particular column, it appears on the front end as `my-blue-class`.
+
+**Example:**
+
+```php
+function my_builder_row_custom_class( $class ) {
+  $class = str_replace( 'red', 'blue', $class );
+  return $class;
+}
+add_filter( 'fl_builder_row_custom_class', 'my_builder_row_custom_class' );
+```
+
+## Modify custom class names for columns
+
+**Filter:** `fl_builder_column_custom_class`
+
+Use this filter to work with the custom class a user adds to a column under **Column Settings > Advanced > Class**. In the following example, if the user enters a custom class called **my-red-class** for a particular column, it appears on the front end as `my-blue-class`.
+
+**Example:**
 
 ```php
 function my_builder_column_custom_class( $class ) {
@@ -108,10 +169,29 @@ function my_builder_column_custom_class( $class ) {
 add_filter( 'fl_builder_column_custom_class', 'my_builder_column_custom_class' );
 ```
 
-## `fl_builder_get_cache_dir`
+## Modify custom class names for modules
 
-Use this filter to modify the cache directory path and URL that the builder uses to store cached images, JavaScript, and CSS files.
+**Filter:** `fl_builder_module_custom_class`
 
+Use this filter to work with the custom class a user adds to a module in the **Class** field on the **Advanced tab**. In the following example, if the user enters a custom class called **my-red-class** for a particular module, it appears on the front end as `my-blue-class`.
+
+**Example:**
+
+```php
+function my_builder_module_custom_class( $class ) {
+  $class = str_replace( 'red', 'blue', $class );
+  return $class;
+}
+add_filter( 'fl_builder_module_custom_class', 'my_builder_module_custom_class' );
+```
+
+## Modify the cache directory path
+
+**Filter:** `fl_builder_get_cache_dir`
+
+Use this filter to modify the cache directory path and URL that the Beaver Builder editor uses to store cached images, JavaScript, and CSS files.
+
+**Example:**
 ```php
 function my_builder_get_cache_dir( $dir_info ) {
   $dir_info['path'] = '/your/custom/path/cache/';
@@ -121,9 +201,13 @@ function my_builder_get_cache_dir( $dir_info ) {
 add_filter( 'fl_builder_get_cache_dir', 'my_builder_get_cache_dir' );
 ```
 
-## `fl_builder_get_upload_dir`
+## Modify the upload directory path
+
+**Filter:** `fl_builder_get_upload_dir`
 
 Use this filter to modify the upload directory path and URL that the builder uses to store things like the cache and custom icons.
+
+**Example:**
 
 ```php
 function my_builder_get_upload_dir( $dir_info ) {
@@ -134,9 +218,13 @@ function my_builder_get_upload_dir( $dir_info ) {
 add_filter( 'fl_builder_get_upload_dir', 'my_builder_get_upload_dir' );
 ```
 
-## `fl_builder_global_posts`
+## Specify posts to load CSS and JavaScript assets globally
 
-Use this filter to specify a post or posts whose CSS and JavaScript assets should be loaded globally. This is useful when you want to display a builder layout on every page of your site such as in a sidebar. This filter is passed in an array to which you can add post IDs that should be loaded globally.
+**Filter** `fl_builder_global_posts`
+
+Use this filter to specify a post or posts whose CSS and JavaScript assets should be loaded globally. This is useful when you want to display a Beaver Builder layout on every page of your site, such as in a sidebar. This filter is passed in an array to which you can add post IDs that should be loaded globally.
+
+**Example:**
 
 ```php
 function my_global_builder_posts( $post_ids ) {
@@ -146,9 +234,13 @@ function my_global_builder_posts( $post_ids ) {
 add_filter( 'fl_builder_global_posts', 'my_global_builder_posts' );
 ```
 
-## `fl_builder_layout_style_dependencies`
+## Add dependencies to the dependency array
+
+**Filter:** `fl_builder_layout_style_dependencies`
 
 Use this filter to add dependencies to the dependency array when the main builder layout CSS file is enqueued using `wp_enqueue_style()`.
+
+**Example:**
 
 ```php
 function my_builder_layout_style_dependencies( $deps ) {
@@ -158,18 +250,13 @@ function my_builder_layout_style_dependencies( $deps ) {
 add_filter( 'fl_builder_layout_style_dependencies', 'my_builder_layout_style_dependencies' );
 ```
 
-## `fl_builder_mailchimp_double_option`
+## Add custom module categories before default module categories
 
-Use this filter to enable double opt-ins for MailChimp integrations. Returning `true` enables double opt-ins; returning `false` enables single opt-ins. The default return value for this filter is false.
+**Filter:** `fl_builder_module_categories`
 
-```php
-// Enable double opt-ins.
-add_filter( 'fl_builder_mailchimp_double_option', '__return_true' );
-```
+Use this filter to add custom module categories that will show up before the default module categories in the Beaver Builder UI. These categories only display if they contain modules.
 
-## `fl_builder_module_categories`
-
-Use this filter to add custom module categories that will show up before the default module categories in the builder’s UI. Note these categories only show if they contain modules.
+**Example:**
 
 ```php
 function my_builder_module_categories( $categories ) {
@@ -179,21 +266,13 @@ function my_builder_module_categories( $categories ) {
 add_filter( 'fl_builder_module_categories', 'my_builder_module_categories' );
 ```
 
-## `fl_builder_module_custom_class`
+## Modify the post types that can use Beaver Builder
 
-Use this filter to work with the custom class a user adds to a module in the **Class** field on the **Advanced tab**.
+**Filter:** `fl_builder_post_types`
 
-```php
-function my_builder_module_custom_class( $class ) {
-  $class = str_replace( 'red', 'blue', $class );
-  return $class;
-}
-add_filter( 'fl_builder_module_custom_class', 'my_builder_module_custom_class' );
-```
+Use this filter to modify the post types that the Beaver Builder editor works with.
 
-## `fl_builder_post_types`
-
-Use this filter to modify the post types that the builder works with.
+**Example**
 
 ```php
 function my_builder_post_types( $post_types ) {
@@ -203,9 +282,13 @@ function my_builder_post_types( $post_types ) {
 add_filter( 'fl_builder_post_types', 'my_builder_post_types' );
 ```
 
-## `fl_builder_register_module`
+## Override modules enabled in Beaver Builder
 
-Use this filter to override the modules that are enabled in the builder.
+**Filter:** `fl_builder_register_module`
+
+Use this filter to override the modules that are enabled in the Beaver Builder editor.
+
+**Example:**
 
 ```php
 function my_builder_register_module( $enabled, $instance ) {
@@ -221,8 +304,13 @@ function my_builder_register_module( $enabled, $instance ) {
 add_filter( 'fl_builder_register_module', 'my_builder_register_module', 10, 2 );
 ```
 
-## `fl_builder_register_settings_form`
-Use this filter to modify the config array for a settings form when it is registered.
+## Customize a Beaver Builder settings form
+
+**Filter:** `fl_builder_register_settings_form`
+
+Use this filter to modify the config array for a settings form when it is registered. See [this article on customizing settings](/beaver-builder/developer/tutorials-guides/customize-settings-forms.md) for a more complete description of the code.
+
+**Example:**
 
 ```php
 function my_builder_register_settings_form( $form, $id ) {
@@ -238,8 +326,13 @@ function my_builder_register_settings_form( $form, $id ) {
 add_filter( 'fl_builder_register_settings_form', 'my_builder_register_settings_form', 10, 2 );
 ```
 
-## `fl_builder_render_css`
-Use this filter to modify the CSS that is compiled and cached for each builder layout.
+## Modify the CSS compiled and cached
+
+**Filter:** `fl_builder_render_css`
+
+Use this filter to modify the CSS that is compiled and cached for each Beaver Builder layout.
+
+**Example:**
 
 ```php
 function my_builder_render_css( $css, $nodes, $global_settings ) {
@@ -249,8 +342,17 @@ function my_builder_render_css( $css, $nodes, $global_settings ) {
 add_filter( 'fl_builder_render_css', 'my_builder_render_css', 10, 3 );
 ```
 
-## `fl_builder_render_js`
-Use this filter to modify the JavaScript that is compiled and cached for each builder layout.
+:::tip **Tip**
+This filter can also be used to solve a [403 error when CloudFlare or another CDN is used to serve images](/beaver-builder/troubleshooting/common-issues/cloudflare-and-403-errors-when-loading-background-images.md/#add-a-filter).
+:::
+
+## Modify the JavaScript compiled and cached
+
+**Filter:** `fl_builder_render_js`
+
+Use this filter to modify the JavaScript that is compiled and cached for each Beaver Builder layout.
+
+**Example:**
 
 ```php
 function my_builder_render_js( $js, $nodes, $global_settings ) {
@@ -260,8 +362,13 @@ function my_builder_render_js( $js, $nodes, $global_settings ) {
 add_filter( 'fl_builder_render_js', 'my_builder_render_js', 10, 3 );
 ```
 
-## `fl_builder_render_settings_field`
+## Modify the config array for a field
+
+**Filter:** `fl_builder_render_settings_field`
+
 Use this filter to modify the config array for a field before it is rendered.
+
+**Example:**
 
 ```php
 function my_builder_render_settings_field( $field, $name, $settings ) {
@@ -271,9 +378,13 @@ function my_builder_render_settings_field( $field, $name, $settings ) {
 add_filter( 'fl_builder_render_settings_field', 'my_builder_render_settings_field', 10, 3 );
 ```
 
-## `fl_builder_render_shortcodes`
+## Don't render shortcodes in the Beaver Builder editor
 
-Use this filter to prevent the builder from rendering shortcodes. It is useful if you don’t want shortcodes rendering while the builder UI is active.
+**Filter:** `fl_builder_render_shortcodes`
+
+Use this filter to prevent Beaver Builder from rendering shortcodes in the editor. It is useful if you don’t want shortcodes rendering while the builder UI is active.
+
+**Example:**
 
 ```php
 function my_builder_render_shortcodes( $render ) {
@@ -287,20 +398,13 @@ function my_builder_render_shortcodes( $render ) {
 add_filter( 'fl_builder_render_shortcodes', 'my_builder_render_shortcodes' );
 ```
 
-## `fl_builder_row_custom_class`
-Use this filter to work with the custom class a user adds to a row under **Row Settings > Advanced > Class**.
+## Change defaults for editor settings
 
-```php
-function my_builder_row_custom_class( $class ) {
-  $class = str_replace( 'red', 'blue', $class );
-  return $class;
-}
-add_filter( 'fl_builder_row_custom_class', 'my_builder_row_custom_class' );
-```
+**Filter:** `fl_builder_settings_form_defaults`
 
-## `fl_builder_settings_form_defaults`
+Use this filter to change the defaults for any of the settings forms in  Beaver Builder, including global, row, column, and module settings.
 
-Use this filter to change the defaults for any of the settings forms in the builder including global, row, column and module settings.
+**Example:**
 
 ```php
 function my_builder_settings_form_defaults( $defaults, $form_type ) {
@@ -314,9 +418,13 @@ function my_builder_settings_form_defaults( $defaults, $form_type ) {
 add_filter( 'fl_builder_settings_form_defaults', 'my_builder_settings_form_defaults', 10, 2 );
 ```
 
-## `fl_builder_upgrade_url`
+## Modify the upgrade URL in Beaver Builder Lite
 
-Use this filter to modify the upgrade URL in Beaver Builder Lite. This can be used to add an affiliate ID.
+**Filter:** `fl_builder_upgrade_url`
+
+Use this filter to modify the upgrade URL in Beaver Builder Lite. This is useful to add an affiliate ID.
+
+**Example:**
 
 ```php
 function my_bb_upgrade_link() {
