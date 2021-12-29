@@ -5,9 +5,7 @@ sidebar_label: Posts module
 description: The Posts module displays a set of posts or pages with various layouts, styles, and content filters.
 ---
 
-The Posts module is the non-animated version of the three Posts modules (Posts,
-Posts Slider, Posts Carousel), and it has the most versatility with layouts,
-settings, and content filters.
+The Posts module is the non-animated version of the three Posts modules (Posts, Posts Slider, Posts Carousel), and it has the most versatility with layouts, settings, and content filters.
 
 :::tip **Tip**
 Not sure which Posts module to choose? See [examples of all three Posts modules and layouts](/beaver-builder/layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples.md).
@@ -46,8 +44,7 @@ Section  |  Field  |  Description
 
 ## Style tab
 
-The Gallery layout has a different set of settings and is presented in Table
-3.
+The Gallery layout has a different set of settings and is presented in Table 3.
 
 **Table 2: Columns, Masonry, and List Style tab in Posts module**
 
@@ -117,18 +114,15 @@ Section  |  Field  |  Description
 &nbsp;    |  Posts per page  |  Determines how many posts constitute each chunk. The default is 10 posts.<br/>**Note:** Posts per page does not set the number of columns across the page.<br/>That is controlled automatically according settings on the Layout tab and screen width. For example, if the screen size allows 3 posts per row and your **Posts per page** is set to **5**, you will see three posts in the first row and two posts in the second row in the first chunk of posts.<br/> **Note:** When **Source** on the **Content** tab is set to **Main query**, this  **Posts per page** setting does not appear. In this case, the number of posts that appears on the page is determined by the WordPress value for the **Blog pages show at most** field at **Settings > Reading** in the WordPress admin panel.  
 &nbsp;  |  No Results message  |  The message displayed when there are no posts to display. <br/>**Note:** This option also supports shortcodes, which lets you add more complex layouts (rows, columns, modules, templates) than just text.
 &nbsp;  |  Show search  |  Show or hide a search form when no posts are found. See the screenshot below the table.  
-**Load more button** |  (Button settings)  |  This section appears when
-**Pagination style** is set to **Load more button**. It contains the usual
-style settings for a button.  
+**Load more button** |  (Button settings)  |  This section appears when **Pagination style** is set to **Load more button**. It contains the usual style settings for a button.  
 
 Here's an animated example of the Scroll pagination style.
 
-![](/img/posts-module-1.gif)
+![Animated screenshot of the Scroll pagination style](/img/posts-module-1.gif)
 
-Here's an example of the Numbers and Load more pagination style, plus the
-search form when **Show search** is set to **Show**.
+Here's an example of the Numbers and Load more pagination style, plus the search form when **Show search** is set to **Show**.
 
-![](/img/posts-module-2.png)
+![Screenshots of Numbers and Load more pagination style and the search form](/img/posts-module-2.png)
 
 ## Advanced tab
 

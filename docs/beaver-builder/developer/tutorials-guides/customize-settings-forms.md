@@ -2,17 +2,16 @@
 id: customize-settings-forms
 title: Customize settings forms
 sidebar_label: Customize settings forms
+description: Information about using a Beaver Builder filter to customize Beaver Builder settings forms.
 ---
 
 
 It is possible to customize any of the settings forms in Beaver Builder,
 including the ones built in.
 
-You'll need a solid grasp of how settings forms are created to understand how
-to customize them, so If you haven't already, see our [custom module guide](/beaver-builder/developer/custom-modules.mdx) before continuing. That guide has everything you'll need.
+You'll need a solid grasp of how settings forms are created to understand how to customize them, so If you haven't already, see our [custom module guide](/beaver-builder/developer/custom-modules.mdx) before continuing. That guide has everything you'll need.
 
-To customize a settings form, use `fl_builder_register_settings_form`, as
-shown in the following code.
+To customize a settings form, use `fl_builder_register_settings_form`, as shown in the following code.
 
 ```php
 function my_builder_register_settings_form( $form, $id ) {
@@ -27,8 +26,7 @@ function my_builder_register_settings_form( $form, $id ) {
 add_filter( 'fl_builder_register_settings_form', 'my_builder_register_settings_form', 10, 2 );
 ```
 
-In the callback function for that filter, you will receive the following two
-variables.
+In the callback function for that filter, you will receive the following two variables.
 
 ## $form (array)
 This is the configuration array for the form that was passed to the
@@ -41,7 +39,6 @@ not remove core settings.
 :::
 
 ## $id (string)
-This is the ID for the form that was passed to the register method when it was
-created. For modules, this is the module's folder slug.
+This is the ID for the form that was passed to the register method when it was created. For modules, this is the module's folder slug.
 
 See also the Beaver Themer information about [adding settings forms](/beaver-themer/developer/customize-field-connections-themer.md/#add-a-settings-form).
