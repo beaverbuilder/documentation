@@ -30,7 +30,7 @@ Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide 
 
 1. [What can I do with the Assistant plugin and Assistant Pro Cloud?](getting-started/what-can-i-do.md)
 2. [Create an Assistant Pro user account.](getting-started/create-account.md)
-3. [Install the Assistant Plugin on one or more WordPress sites.](getting-started/installation.md)
+3. [Install the Assistant Plugin on one or more WordPress sites.](getting-started/install.md)
 4. [Connect your site(s) to the Assistant Pro Cloud.](getting-started/connect.md)
 
 ## Features
@@ -81,7 +81,7 @@ Creative assets include the following:
 
 #### Colors
 
-Colors can be selected from the color picker or entered as hexadecimal color values e.g. `#ffffff`.
+Colors can be selected from the color picker or entered as hexadecimal color values. For example, `#ffffff`.
 
 #### Settings
 

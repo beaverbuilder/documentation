@@ -4,7 +4,7 @@ title: View and Edit Creative Assets
 sidebar_label: View and Edit Creative Assets
 ---
 
-You can view and edit [creative assets](../overview.md#creative-assets) in the Assistant Pro Cloud or in the Assistant plugin connected from any of your websites.
+You can view and edit [creative assets](../../overview.md#creative-assets) in the Assistant Pro Cloud or in the Assistant plugin connected from any of your websites.
 
 ## View and Edit Creative Assets in the Assistant Pro Cloud
 

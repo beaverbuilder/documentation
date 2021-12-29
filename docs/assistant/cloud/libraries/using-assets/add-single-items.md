@@ -4,7 +4,7 @@ title: Add single items to a site
 sidebar_label: Add single items
 ---
 
-How you add single items from a library to a website depends on the type of [creative asset](../../overview.md#creative-assets) you're adding.
+How you add single items from a library to a website depends on the type of [creative asset](../../../overview.md#creative-assets) you're adding.
 
 ## Content
 
