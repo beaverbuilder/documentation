@@ -11,7 +11,7 @@ The Content App allows you to browse, sort content, create new content and delet
 
 ## Browse Content
 
-You can use the **Content App** to browse all content on your site. Post types are separated (posts, pages, reusable blocks, templates, themer layouts, product etc.). To browse content:
+You can use the **Content App** to browse all content on your site. Post types are separated (posts, pages, reusable blocks, templates, Themer layouts, products etc.). To browse content:
 
 1. Open the **Content App**.
 2. Click the post type you want to browse the content for.  
@@ -56,20 +56,18 @@ Other actions include:
 
 ## Quick Edit
 
-You can also quickly edit your content by hovering your mouse cursor over your content. The quick edit panel lets you:
+You can quickly edit your content by hovering your mouse cursor over your content to expose the Quick Edit panel:
+
+![Quick edit actions](/img/assistant/apps--apps-media--3.jpg)
+
+The Quick Edit panel lets you:
 
 * **View Post** - Allows you to view a post and page on your site whilst Assistant is active.
 * **Edit Post** - Access the edit content options.
 * **Edit in Beaver Builder** - Launches Beaver Builder 
 * **Duplicate** - Duplicates the content with a status of **Draft**.
-* **Mark as Favourite** - Marks content as favourite. 
+* **Mark as Favorite** - Adds an icon to content you mark. 
 * **Delete** - Moves the content to the WordPress trash.
-
-:::info
-**Mark as Favourite** adds an icon to content you have marked as favourite.
-:::
-
-![Quick edit actions](/img/assistant/apps--apps-media--3.jpg)
 
 ## Add Content to Library
 
@@ -87,7 +85,7 @@ To add content to a library:
 
 ## Delete Content
 
-You can delete content using the **Delete** action on the edit content panel.
+You can delete content using the **Delete** action on the Edit Content panel.
 
 1. Open the **Content App**.
 2. Click the content item you want to delete.

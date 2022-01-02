@@ -9,12 +9,12 @@ There are three methods for installing the Assistant plugin, which are outlined 
 
 ## Install from Assistant Pro website
 
-1. Download the Assistant Plugin from your **Assistant.Pro Cloud dashboard**.
+1. Download the Assistant Plugin from your [Assistant.Pro Cloud](https://assistant.pro/) dashboard.
 2. Click the **three dots** to toggle the dropdown menu.
 3. Select **Download Plugin**.
 4. From your WordPress Admin Panel, go to **Plugins > Add New** and click the **Upload plugin** button at the top of the screen.
 5. Click **Browse** and select the downloaded zip file on your local system or just drag the file on top of the **Browse** button.
-6. Click **Install** now.
+6. Click **Install Now**.
 
 ![Download from Assistant pro website](/img/assistant/getting-started--installation--1.jpg)
 

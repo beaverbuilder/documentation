@@ -40,7 +40,7 @@ Access the Assistant user interface from any frontend page to use the suite of a
 * Get a glance of your recently edited posts from the [Home App](plugin/apps/home.md).
 * Search WordPress directly from the frontend.
 * Quickly find posts, pages, and custom post types with the [Content App](plugin/apps/content.md).
-* Upload media to WordPress media library by dropping files on the [Media App](plugin/apps/media.md).
+* Upload media to the WordPress media library by dropping files on the [Media App](plugin/apps/media.md).
 * Approve, mark as spam, trash, or reply to comments with the [Comments App](plugin/apps/comments.md).
 * Keep an eye on plugin and theme updates with the [Updates App](plugin/apps/updates.md).
 * Add custom labels to posts or pages to help organize your site from [Apps + Settings](plugin/app-settings.md).
@@ -51,7 +51,7 @@ The following definitions are specific to the Assistant plugin and Assistant Pro
 
 ### Assistant Plugin
 
-A Plugin for WordPress that provides a sidebar on front end pages.  The sidebar makes it easy to access the back end of your site from frontend pages. The Assistant Plugin also interfaces with the Assistant Pro Cloud.
+A Plugin for WordPress that provides a sidebar on frontend pages. The sidebar makes it easy to access the backend of your site from frontend pages. The Assistant Plugin also interfaces with the Assistant Pro Cloud to let you store and share your creative assets.
 
 ### Assistant Pro Cloud
 
@@ -88,6 +88,14 @@ Colors can be selected from the color picker or entered as hexadecimal color val
 * Customizer settings from a WordPress theme
 
 ### Library
+
+A library is a collection of creative assets that provides the means of sharing through the Assistant Pro Cloud.
+
+* You can create libraries in both the Assistant Pro Cloud and in the plugin. 
+* You can upload media and create color settings to any library in the Assistant Pro Cloud UI.
+* Through the Assistant plugin, you can add any creative assets on your site to a library, which is then shared via your Assistant Pro cloud account.
+
+Libraries fall into one of three categories, depending on your [Assistant Pro Cloud account](#assistant-cloud-pro-account-types):
 
 * **Private Library** - Only available for personal and team account holders. Not visible to the community
 * **Shared Library** - The entire community can see your shared libraries if they click your user handle.

@@ -9,7 +9,7 @@ The Media App allows you to browse, sort media, upload new media and delete medi
 
 ![Media app overview](/img/assistant/apps--apps-media--1.jpg)
 
-## Browser & Sort Media
+## Browse & Sort Media
 
 You can browse and sort media using the filters located at the top of the **Media App**. You can sort by the following:
 
@@ -17,7 +17,7 @@ You can browse and sort media using the filters located at the top of the **Medi
 * **Display As** - Arrange media items in a **List** or **Grid** (Default) layout.
 * **Label** - Filter media items by label.
 * **Sort By** - Sort media items by **ID**, **Date Uploaded** (Default) or **Last Modified**.
-* **Order** - Sort by Ascending or Descending (Default).
+* **Order** - Sort by **Ascending** or **Descending** (Default).
 
 You can restore the filters to default using the **Reset Filters** button.
 
