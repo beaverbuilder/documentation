@@ -1,6 +1,6 @@
 ---
 id: what-is-the-difference-between-unlimited-sites
-title: Difference between Unlimited Sites and Multi-Site capable
+title: Difference between unlimited sites and multisite-capable
 sidebar_label: Difference between Unlimited Sites and Multi-Site capable
 ---
 
