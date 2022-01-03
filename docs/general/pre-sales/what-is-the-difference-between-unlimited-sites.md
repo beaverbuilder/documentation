@@ -12,7 +12,7 @@ Normally, you install WordPress on each site you build so it's a standalone inst
 
 Only the Beaver Builder Pro and Agency packages are multisite-capable.
 
-## Unlimited Sites
+## Unlimited sites
 
 *Unlimited sites* refers to the number of sites that you can add your license key to.  There is no limit on any of our packages, including network sites with multisite setups.  
 
