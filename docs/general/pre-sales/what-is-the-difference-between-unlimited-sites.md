@@ -6,7 +6,7 @@ sidebar_label: Difference between Unlimited Sites and Multi-Site capable
 
 Here's the difference between *multisite-capable* and *unlimited sites* in relation to Beaver Builder packages and your Beavver Builder license.
 
-## Multi Site Capable
+## Multisite-capable
 
 Normally, you install WordPress on each site you build so it's a standalone installation. *Multisite-capable* refers to a specific WordPress setup that lets you install WordPress once and manage multiple sites under that one installation. This is also referred to as a network.  You can read more about network/multisite setups in the [WordPress documentation](https://wordpress.org/support/article/create-a-network/).  
 
