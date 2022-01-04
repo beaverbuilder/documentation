@@ -4,7 +4,9 @@ title: Create a library
 sidebar_label: Create a library
 ---
 
-To create a new library from the Assistant Pro Cloud:
+You can create a library [through the Assistant plugin](../../plugin/apps/libraries.md/#create-a-library) or directly in the Assistant Pro Cloud UI.  Libraries are shared the same regardless of how they are created.
+
+To create a new library directly in Assistant Pro Cloud:
 
 1. Click the **Libraries** menu.
 2. In the sidebar, enter a library name.

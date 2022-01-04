@@ -18,7 +18,7 @@ Your public profile is part of the Assistant Pro Community and is assigned a fil
 ## Manage your Community Profile Settings
 
 1. Log into your Assistant Pro account.
-2. Navigate to **Account > General** tab.
+2. Navigate to the **Account > General** tab.
 3. Scroll down to the **Profile** section.
 
 ![Community settings](/img/assistant/cloud--account-settings--profile-settings--3.jpg)

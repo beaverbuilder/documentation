@@ -5,9 +5,9 @@ sidebar_label: App & Settings
 description: Adjust the Assistant plugin UI and appearance settings.
 ---
 
-The App & Settings panel is where you can adjust the Assistant plugin user interface and appearance settings.
+The Apps & Settings panel is where you can adjust the Assistant plugin user interface and appearance settings.
 
-![App & Settings overview](/img/assistant/apps--apps-settings--1.jpg)
+![Apps & Settings overview](/img/assistant/apps--apps-settings--1.jpg)
 
 ## Ordering Apps
 
@@ -19,8 +19,7 @@ You can manipulate the order of apps using drag-and-drop. To do this, click and 
 </video>
 
 :::info
-The **Home App** and **App & Settings** are excluded and cannot be moved into a different order.
-:::
+The **Home App** and **Apps & Settings** are excluded and cannot be moved into a different order.:::
 
 ## Color Scheme
 
@@ -45,13 +44,13 @@ The **Panel Width** option lets you restore to the default width. You can adjust
 
 ## Manage Labels
 
-The **Manage Labels** section lets you create, edit and delete labels. Labels are used to mark content for organization and collaborate with other users.
+The **Manage Labels** section lets you create, edit and delete the labels that are used in the apps. Labels are used to mark content for organization and collaborate with other users.
 
 ### Edit Label
 
 To edit a label:
 
-1. Click the **Pencil** icon.
+1. In **Apps & Settings**, scroll to **Manage labels** and click the Pencil icon next to the label you want to edit.
 2. In the **Edit Label** option, enter a name.
 3. Select a color.
 4. Click the **Save** button.

@@ -4,12 +4,19 @@ title: Share a library
 sidebar_label: Share a library
 ---
 
-To share a library, select the share tab, then enter the email address and select the permissions you want to give the person you're sharing with.Another way to share files is by using a Team Account.  Team Libraries are more versatile than shared libraries because more than one person can be an administrator.
+You can share a library with any individual if you know their email address and you can give them either view or edit privileges. If they don't have an Assistant Pro account, they'll have to create an account before they can accept your invitation.
 
-To share a library, navigate into the library you want to share and click the share button.
+Another way to share files is by using a Team Account. Team Libraries are more versatile than shared libraries because more than one person can be an administrator.
+
+To share a library:
+
+1. Navigate into the library you want to share.
+2. Click the **Share** button.
+3. Enter the email address of the person you want to share with and select their permissions.
+4. Click **Send Invite**.
 
 ![Share a library](/img/assistant/cloud--libraries--share-library--1.jpg)
 
-Once a library is shared, you can select options from a dropdown menu.  You also have options for pending invites.
+Once a library is shared, you can select options from a dropdown menu. You also have options for pending invites.
 
 ![Share a library](/img/assistant/cloud--libraries--share-library--2.jpg)

@@ -23,7 +23,7 @@ You can restore the filters to default using the **Reset Filters** button.
 
 ## Upload Media
 
-The Media App allows you to add .jpg, .png, and .svg graphics to Assistant. In the WordPress media library, .svg graphics are not supported by default, but the Assistant Plugin adds .svg graphics without the need for a third-party plugin or custom code.
+The Media App allows you to add [graphics in common web formats](../../overview.md#creative-assets) to Assistant. The WordPress media library doesn't support .svg graphics by default, but the Assistant Plugin adds .svg graphics without the need for a third-party plugin or custom code.
 
 1. Open the **Media App**.
 2. Click the **Plus** (+) icon.
@@ -31,18 +31,23 @@ The Media App allows you to add .jpg, .png, and .svg graphics to Assistant. In t
 
 ## Edit Media
 
-You can edit media by clicking the media item. From here, you can view file information, such as **File Type**, **Size**, and **Upload Date**, by clicking a media item. Other actions include:
+You can edit a media item by clicking it. This displays the following sections:
 
-* **Edit Meta Data** - Edit the media items **Title**, **Alternative Text** and **Description**.
-* **View Attachment** - This will take you to the attachments page, for example `https://my-website.com?attachment_id=100`.
-* **Save to Library** - Adds the media item to a library.
-* **Edit in Admin** - This will take you to the edit media page in the WordPress Admin Dashboard.
+* **Metadata** – You can edit the Title, Alternative text, and Description fields.
+* **Info** – non-editable information about file size, file type, when uploaded, and who uploaded.
+* **Links** – File URL and attachment URL.
+* **Labels** – Add custom labels here.
+* **Actions** – Includes the following actions:  
+	* **View Attachment** - This will take you to the attachments page, for example `https://my-website.com?attachment_id=100`.
+	* **Save to Library** - Adds the media item to a library.
+	* **Edit in Admin** - Opens the **Edit Media** page in the WordPress admin dashboard.
+	* **Delete** – See the [section on deleting items](#delete-media) below.
 
 ![Media app media actions](/img/assistant/apps--apps-media--2.jpg)
 
 ## Delete Media
 
-You can delete media using the **Delete** action on the edit media panel.
+You can delete media using the **Delete** action on the **Edit Media** panel.
 
 1. Open the **Media App**.
 2. Click the media item you want to delete.
@@ -64,7 +69,9 @@ To create a label:
 3. Click the **+ Add Label** button.
 4. Select the label from the drop-down menu.
 
-You can create labels via the [Manage Labels](../app-settings.md#manage-labels) section in the [Apps & Settings](../app-settings.md) panel.
+:::tip **Tip**
+You can create and edit the labels available for selection in the apps via the [Manage Labels](../app-settings.md#manage-labels) section in the [Apps & Settings](../app-settings.md) panel.
+:::
 
 
 

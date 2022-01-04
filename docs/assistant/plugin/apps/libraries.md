@@ -43,7 +43,7 @@ The **Libraries App** lets you can add content, media, colors and customizer (th
 2. Navigate to the library you want to add color(s) to.
 3. Click the **Plus** (+) icon and select **Colors**.
 4. Select your color from the color picker or enter numeric values to select a color.
-5. Name your color (by default the name will be the color’s hex code.).
+5. Name your color (by default the name will be the color’s hex code).
 
 ![Add a Color to a library](/img/assistant/cloud--libraries--assistant-plugin--3.jpg)
 

@@ -55,7 +55,7 @@ A Plugin for WordPress that provides a sidebar on frontend pages. The sidebar ma
 
 ### Assistant Pro Cloud
 
-A cloud-based file sharing system for WordPress sites.
+A cloud-based file sharing system for WordPress sites, organized into libraries that contain creative assets.  Through the Assistant plugin, libraries can be shared between an individual website and the cloud, making them accessible to other websites, other Assistant Pro cloud users, and Assistant Pro cloud team members.
 
 ### Apps
 
@@ -105,7 +105,7 @@ Libraries fall into one of three categories, depending on your [Assistant Pro Cl
 
 A way to sort creative assets within libraries similar to WordPress tags.
 
-### Assistant Account
+### Assistant Cloud Pro Account Types
 
 * **Free** - Libraries are all shared with the Assistant community.
 * **Personal** - Libraries can be made private.
