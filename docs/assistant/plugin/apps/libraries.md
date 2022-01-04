@@ -74,10 +74,12 @@ To delete a library from the **Libraries App**:
 
 ## Launch Assistant Pro Cloud
 
-The Assistant Pro Cloud can be launched from within the **Libraries App** providing quick access. To launch the Assistant Pro Cloud from the **Libraries App**:
+You can quickly launch Assistant Pro Cloud in a browser from within Assistant plugin's **Libraries App**. 
+
+To launch Assistant Pro Cloud from the **Libraries App**:
 
 1. Open the **Libraries App**.
-2. Click your avatar to deploy the dropdown menu.
+2. Click your avatar in the upper right corner.
 3. Select **Launch Cloud**.
 
 :::info

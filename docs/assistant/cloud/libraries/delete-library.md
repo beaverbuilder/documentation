@@ -4,7 +4,7 @@ title: Delete a library
 sidebar_label: Delete a library
 ---
 
-To delete a library:
+To delete a library in Assistant Pro Cloud:
 
 1. Select the library you’d like to delete.
 2. Click the **Settings** button.

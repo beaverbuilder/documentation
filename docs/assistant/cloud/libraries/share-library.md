@@ -17,6 +17,6 @@ To share a library:
 
 ![Share a library](/img/assistant/cloud--libraries--share-library--1.jpg)
 
-Once a library is shared, you can select options from a dropdown menu. You also have options for pending invites.
+Once a library is shared, you can see all the members invited as well as any pending invitations.
 
 ![Share a library](/img/assistant/cloud--libraries--share-library--2.jpg)
