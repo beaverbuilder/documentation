@@ -10,7 +10,7 @@ The Assistant plugin and Assistant Pro Cloud provide integration for Beaver Buil
 
 You can access your Beaver Builder site’s saved content and Themer layouts from Assistant’s Content App.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Beaver Builder integration](/img/assistant/cloud--integrations--beaver-builder--1.jpg)
 
 ## Add Beaver Builder and Beaver Themer content to Library
 
@@ -22,7 +22,7 @@ You can add Beaver Builder Page Builder Templates and Themer Layouts from the Co
 * Navigate to the piece of content you’d like to add to your library.
 * Click **Save to Library** and select the library you’d like to save the content to.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Save Beaver Builder templates & Beaver Themer layouts using the Content app](/img/assistant/cloud--integrations--beaver-builder--2.jpg)
 
 ### Libraries App
 
@@ -32,4 +32,4 @@ You can add Beaver Builder Page Builder Templates and Themer Layouts from the Co
 * Enter the name of the piece of content you’d like to add.
 * Click the search result to add that listing to your library.
 
-<img src="https://plchldr.co/i/800x300?&bg=f6f6f6&fc=656565&text=Placeholder" />
+![Save Beaver Builder templates & Beaver Themer layouts using the Libraries app](/img/assistant/cloud--integrations--beaver-builder--3.jpg)

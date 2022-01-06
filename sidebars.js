@@ -1274,6 +1274,7 @@
              type: 'generated-index',
              title: 'Collections',
              slug: '/assistant/cloud/collections/',
+             description: 'Overview of Library Collections and how to create collections, assign assets and sort by collection.'
            },
           items: [
             "assistant/cloud/collections/create-collection",
@@ -1293,7 +1294,7 @@
         },
         items: [
           "assistant/cloud/integrations/beaver-builder",
-          "assistant/cloud/integrations/third-party-page-builders",
+          "assistant/cloud/integrations/third-party-builders",
           "assistant/cloud/integrations/woocommerce",
         ],
        },
