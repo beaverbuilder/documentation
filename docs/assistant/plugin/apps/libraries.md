@@ -72,6 +72,51 @@ To delete a library from the **Libraries App**:
 
 ![Delete library from Assistant plugin](/img/assistant/cloud--libraries--delete-library--2.jpg)
 
+## Import Content
+
+You can import content and [creative asset](../../overview.md#creative-assets) from a library to a website with the Assistant plugin.
+
+### Import Content
+
+1. In the Libraries app, navigate to the **Content** section and select the piece of content you’d like to import to your site.
+2. Scroll down and click the Create New action and select one of the following choices:
+    * **Create and Edit** imports the content and opens it for editing.
+    * **Import** adds the content to the backend of your site and the [Content App](../../../plugin/apps/content.md).
+
+![Add single WordPress content](/img/assistant/cloud--libraries--using-library-assets--add-single-items--1.jpg)
+
+### Import Images
+
+1. In the Libraries app, navigate to the **Images** section and select the image you’d like to import to your site.
+2. In the **Actions** section, click **Import**.  
+  The image will now be available in your WordPress Media Browser and Assistant Media app.
+
+![Add single images](/img/assistant/cloud--libraries--using-library-assets--add-single-items--2.jpg)
+
+### Import Theme Settings
+
+1. Open the **Libraries** app.
+2. Navigate to the **Theme Settings** section and select the theme settings item you’d like to import to your site.
+3. In the **Actions** section, click either **Preview** to preview the settings, or **Apply to Theme** to replace your current settings.
+
+:::warning
+The **Apply to Theme** setting overwrites any custom theme settings, so you should back up your current settings before using it.
+:::
+
+![Add Theme settings](/img/assistant/cloud--libraries--using-library-assets--add-single-items--3.jpg)
+
+### Import an entire library to a site
+
+You can import an entire Assistant Pro library to a website. Importing a library in one step imports all of the creative assets in your library except colors.
+
+To import an entire library:
+
+* In the **Libraries** app, select the library you’d like to import to your site.
+* Click the gear icon to open the library settings.
+* In the **Import Library** section, click the **Import Library** button.
+
+
+    
 ## Launch Assistant Pro Cloud
 
 You can quickly launch Assistant Pro Cloud in a browser from within Assistant plugin's **Libraries App**. 

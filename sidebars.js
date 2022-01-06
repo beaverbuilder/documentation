@@ -1262,25 +1262,25 @@
          items: [
            "assistant/cloud/libraries/create-library",
            "assistant/cloud/libraries/add-creative-assets",
-          {
-            type: 'category',
-            label: 'Using Assets on sites',
-            link: {
-              type: 'generated-index',
-              title: 'Using Assets on sites',
-              slug: '/assistant/cloud/libraries/using-assets/',
-            },
-            items: [
-              "assistant/cloud/libraries/using-assets/add-single-items",
-              "assistant/cloud/libraries/using-assets/entire-libraries",
-            ],
-          },
-          "assistant/cloud/libraries/view-edit-assets",
-          "assistant/cloud/libraries/share-library",
-          "assistant/cloud/libraries/delete-library",
+           "assistant/cloud/libraries/view-edit-assets",
+           "assistant/cloud/libraries/share-library",
+           "assistant/cloud/libraries/delete-library",
          ],
        },
-       "assistant/cloud/collections",
+       {
+          type: 'category',
+          label: 'Collections',
+          link: {
+             type: 'generated-index',
+             title: 'Collections',
+             slug: '/assistant/cloud/collections/',
+           },
+          items: [
+            "assistant/cloud/collections/create-collection",
+            "assistant/cloud/collections/assign-collections",
+            "assistant/cloud/collections/sort-collections",
+          ],
+        },
        "assistant/cloud/teams",
        "assistant/cloud/community",
        {
