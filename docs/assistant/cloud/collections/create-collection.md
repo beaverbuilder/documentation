@@ -15,7 +15,7 @@ To create a library collection from the Assistant Pro Cloud:
 3. Type a name for your collection.
 4. Click the **Add Collection** button.
 
-![Create collection from Assistant Pro Cloud](/img/assistant/cloud--libraries--organize-assets--2.jpg)
+![Create collection from Assistant Pro Cloud](/img/assistant/cloud--collections--create--1.jpg)
 
 ## Create a Library Collection from the Assistant Plugin
 
@@ -26,4 +26,4 @@ To create a library collection from the Assistant Plugin:
 3. In the **Library collections** section, enter a name for your collection.
 4. Click the **Add Collection** button.
 
-![Create collection from Assistant plugin](/img/assistant/cloud--libraries--organize-assets--3.jpg)
+![Create collection from Assistant plugin](/img/assistant/cloud--collections--create--2.jpg)

@@ -18,7 +18,8 @@ To create a new library from the Assistant Plugin:
 3. Enter a name for your library.
 4. Click the **Enter** button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard.
 
-![Create library via Assistant plugin](/img/assistant/cloud--libraries--assistant-plugin--1.jpg)
+![Create library via Assistant plugin](/img/assistant/apps--apps-libraries--2.jpg)
+
 
 ## Add Content to libraries
  
@@ -45,7 +46,7 @@ The **Libraries App** lets you can add content, media, colors and customizer (th
 4. Select your color from the color picker or enter numeric values to select a color.
 5. Name your color (by default the name will be the color’s hex code).
 
-![Add a Color to a library](/img/assistant/cloud--libraries--assistant-plugin--3.jpg)
+![Add a Color to a library](/img/assistant/apps--apps-libraries--3.jpg)
 
 ### Add Theme Settings
 
@@ -57,7 +58,25 @@ This procedure saves your site’s customizer settings.
 4. Select **Settings**.
 5. Click **Add Settings**.
 
-![Add a Theme Settings to a library](/img/assistant/cloud--libraries--assistant-plugin--4.jpg)
+![Add a Theme Settings to a library](/img/assistant/apps--apps-libraries--4.jpg)
+
+## Edit a Library
+
+To edit a new library from the Assistant Plugin:
+
+1. Open the **Libraries App**.
+2. Navigate to the library you want to edit.
+3. Click the **Settings** button (cog icon).
+
+From here, you can perform the following actions:
+
+* **Name** - Edit the library name.
+* **Description** - Give the library a description.
+* **Visibility** - Set the visibility of the library, chose between **Public** and **Private**.
+* **Featured Image** - You can assign an image to the library which will be used for the Assistant's user interface (UI).
+* [**Library Collections**](../../cloud/collections/)
+* [**Import Library**](#import-content)
+* [**Delete Library**](#delete-a-library)
 
 ## Delete a Library
 
@@ -70,7 +89,8 @@ To delete a library from the **Libraries App**:
 5. Click the **Delete Library** button in the **Delete this library** section.
 6. Confirm the deletion.
 
-![Delete library from Assistant plugin](/img/assistant/cloud--libraries--delete-library--2.jpg)
+![Delete library from Assistant plugin](/img/assistant/apps--apps-libraries--5.jpg)
+
 
 ## Import Content
 
@@ -81,9 +101,9 @@ You can import content and [creative asset](../../overview.md#creative-assets) f
 1. In the Libraries app, navigate to the **Content** section and select the piece of content you’d like to import to your site.
 2. Scroll down and click the Create New action and select one of the following choices:
     * **Create and Edit** imports the content and opens it for editing.
-    * **Import** adds the content to the backend of your site and the [Content App](../../../plugin/apps/content.md).
+    * **Import** adds the content to the backend of your site and the [Content App](content.md).
 
-![Add single WordPress content](/img/assistant/cloud--libraries--using-library-assets--add-single-items--1.jpg)
+![Add single WordPress content](/img/assistant/apps--apps-libraries--6.jpg)
 
 ### Import Images
 
@@ -91,7 +111,7 @@ You can import content and [creative asset](../../overview.md#creative-assets) f
 2. In the **Actions** section, click **Import**.  
   The image will now be available in your WordPress Media Browser and Assistant Media app.
 
-![Add single images](/img/assistant/cloud--libraries--using-library-assets--add-single-items--2.jpg)
+![Add single images](/img/assistant/apps--apps-libraries--7.jpg)
 
 ### Import Theme Settings
 
@@ -100,10 +120,10 @@ You can import content and [creative asset](../../overview.md#creative-assets) f
 3. In the **Actions** section, click either **Preview** to preview the settings, or **Apply to Theme** to replace your current settings.
 
 :::warning
-The **Apply to Theme** setting overwrites any custom theme settings, so you should back up your current settings before using it.
+The **Apply to Theme** setting overwrites any current theme settings, so be sure to back them up before using.
 :::
 
-![Add Theme settings](/img/assistant/cloud--libraries--using-library-assets--add-single-items--3.jpg)
+![Add Theme settings](/img/assistant/apps--apps-libraries--8.jpg)
 
 ### Import an entire library to a site
 
@@ -114,9 +134,7 @@ To import an entire library:
 * In the **Libraries** app, select the library you’d like to import to your site.
 * Click the gear icon to open the library settings.
 * In the **Import Library** section, click the **Import Library** button.
-
-
-    
+ 
 ## Launch Assistant Pro Cloud
 
 You can quickly launch Assistant Pro Cloud in a browser from within Assistant plugin's **Libraries App**. 
@@ -131,7 +149,7 @@ To launch Assistant Pro Cloud from the **Libraries App**:
 Using the **Launch Cloud** option is only possible after you have [connected the Assistant plugin](../../getting-started/connect.md).
 :::
 
-![Launch Cloud](/img/assistant/apps--apps-libraries--2.jpg)
+![Launch Cloud](/img/assistant/apps--apps-libraries--9.jpg)
 
 ## Disconnect from Assistant Pro Cloud
 
@@ -145,4 +163,4 @@ The Assistant Pro Cloud can be disconnected from within the **Libraries App**. T
 If you are disconnected from the Assistant Pro cloud, the Library App will be unable to access libraries, and you will need to [reconnect](../../getting-started/connect.md) for libraries to display.
 :::
 
-![Disconnect from Cloud](/img/assistant/apps--apps-libraries--3.jpg)
+![Disconnect from Cloud](/img/assistant/apps--apps-libraries--10.jpg)

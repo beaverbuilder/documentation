@@ -58,10 +58,13 @@ To share a Team library:
 
 ## Team Profile Settings
 
+To access a Team Profile settings:
 
+1. Select the team from the sidebar.
+2. Click the **Settings** button (cog icon).
+3. Scroll down to the **Profile** section.
 
-
-## Deleate Team Library
+## Delete Team Library
 
 To delete a library:
 

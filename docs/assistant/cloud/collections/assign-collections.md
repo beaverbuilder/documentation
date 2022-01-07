@@ -14,7 +14,7 @@ For example, suppose you assigned certain posts, images, and colors to a "Holida
 
 For another example, you might want to group your color assets into collections. In the image below, the color `#ede2f1` is filed under two collections; **Pastel Colors** and **Pink Colors**.
 
-![Organizing colors](/img/assistant/cloud--libraries--organize-assets--1.jpg)
+![Organizing colors](/img/assistant/cloud--collections--assign--1.jpg)
 
 ## Assign Collections to a creative asset from Assistant Pro Cloud
 
@@ -23,7 +23,7 @@ To add one or more collections to a creative asset:
 1. Click on an asset to open its settings.
 2. In the **Collections** field, start typing a collection name. Collection names that you've already used in that library will appear as suggestions.
 
-![Assign assets to collections from Assistant Pro Cloud](/img/assistant/cloud--libraries--organize-assets--4.jpg)
+![Assign assets to collections from Assistant Pro Cloud](/img/assistant/cloud--collections--assign--2.jpg)
 
 ## Assign Collections to a creative asset from the Assistant Plugin
 
@@ -36,4 +36,4 @@ To add collections to a creative asset:
 If you enter a collection name that is unassigned, Assistant will create a new collection with that name. This functionality is available in both the Assistant plugin and Assistant Pro Cloud.
 :::
 
-![Assign assets to collections from Assistant plugin](/img/assistant/cloud--libraries--organize-assets--5.jpg)
+![Assign assets to collections from Assistant plugin](/img/assistant/cloud--collections--assign--3.jpg)

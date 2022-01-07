@@ -10,7 +10,7 @@ sidebar_label: Sort Collections
 
 To view a library’s assets grouped by collection, open a library and click the **Type** dropdown at the top of the page, then choose **Collection**.  
 
-![Sort assets by collection from Assistant Pro Cloud](/img/assistant/cloud--libraries--organize-assets--6.jpg)
+![Sort assets by collection from Assistant Pro Cloud](/img/assistant/cloud--collections--sort--1.jpg)
 
 ## Sort by Collection from the Assistant Plugin
 
@@ -18,4 +18,4 @@ To sort a library's assets by collection from the Assistant Plugin:
 
 * Click the **View by** dropdown and choose **Collection**.
 
-![Sort assets by collection from Assistant plugin](/img/assistant/cloud--libraries--organize-assets--7.jpg)
+![Sort assets by collection from Assistant plugin](/img/assistant/cloud--collections--sort--2.jpg)
