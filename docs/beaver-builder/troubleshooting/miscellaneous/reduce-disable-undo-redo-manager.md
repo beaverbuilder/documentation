@@ -34,9 +34,7 @@ You can reduce the number of states the History manager remembers or disable it 
 1. Open the *wp-config.php* file for editing.
 2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
 ```php
-if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {
-			define( 'FL_BUILDER_HISTORY_STATES', 20 );
-		}
+define( 'FL_BUILDER_HISTORY_STATES', 20 );
 ```  
 Change the number of states from `20` (the default number of states) to a smaller number, or change the number to `0` to disable the History Manager entirely.
 
