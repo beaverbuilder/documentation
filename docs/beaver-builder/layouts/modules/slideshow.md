@@ -37,7 +37,7 @@ WordPress Media Library or SmugMug.
 Contains links to create a gallery of images in your Media Library or to edit an existing gallery.
 
 * **Feed URL** (SmugMug galleries only)  
-Enter the URL for the RSS feed here. For help with linking to a SmugMug gallery, see the [Gallery module overview](/beaver-builder/layouts/modules/gallery/gallery.md/#use-a-smugmug-gallery).
+Enter the URL for the RSS feed here. For help with linking to a SmugMug gallery, see the [Gallery module overview](/beaver-builder/layouts/modules/gallery/gallery.md#use-a-smugmug-gallery).
 
 #### Display section
 
