@@ -235,7 +235,7 @@ The Mailpoet 3 integration now shows all lists.
 
 ### Video module
 
-There are two additional options on the **Structured data** tab: **contentUrl**  and **embedUrl**. For details see the [Video module article](/beaver-builder/layouts/modules/video/video.md/#structured-data-tab).
+There are two additional options on the **Structured data** tab: **contentUrl**  and **embedUrl**. For details see the [Video module article](/beaver-builder/layouts/modules/video/video.md#structured-data-tab).
 
 ## Column improvements
 
