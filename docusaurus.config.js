@@ -68,6 +68,12 @@ module.exports = {
           position: 'left',
           activeBasePath: 'bb-theme',
         },
+        {
+          to: '/assistant',
+          label: 'Assistant',
+          position: 'left',
+          activeBasePath: 'assistant',
+        },
         // {
         //   to: 'alpha-beta',
         //   label: 'Alpha & Beta Docs',

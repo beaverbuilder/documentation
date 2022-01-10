@@ -1180,4 +1180,125 @@
      ]
    },
  ],
+ assistant: [
+   "assistant/overview",
+   {
+     type: 'category',
+     label: 'Getting Started',
+     link: {
+       type: 'generated-index',
+       title: 'Getting Started',
+       slug: '/assistant/getting-started/',
+     },
+     items: [
+       "assistant/getting-started/what-can-i-do",
+       "assistant/getting-started/create-account",
+       "assistant/getting-started/install",
+       "assistant/getting-started/connect",
+     ],
+   },
+   {
+     type: 'category',
+     label: 'Assistant Plugin',
+     link: {
+        type: 'generated-index',
+        title: 'Assistant Plugin',
+        slug: '/assistant/plugin/',
+      },
+     items: [
+       "assistant/plugin/launch-assistant",
+       {
+         type: 'category',
+         label: 'Apps',
+         link: {
+           type: 'generated-index',
+           title: 'Apps',
+           slug: '/assistant/plugin/apps/',
+         },
+         items: [
+           "assistant/plugin/apps/home",
+           "assistant/plugin/apps/content",
+           "assistant/plugin/apps/media",
+           "assistant/plugin/apps/comments",
+           "assistant/plugin/apps/updates",
+           "assistant/plugin/apps/libraries",
+         ],
+       },
+       "assistant/plugin/app-settings",
+     ],
+   },
+   {
+     type: 'category',
+     label: 'Assistant Pro Cloud',
+     link: {
+        type: 'generated-index',
+        title: 'Assistant Pro Cloud',
+        slug: '/assistant/cloud/',
+      },
+     items: [
+       {
+         type: 'category',
+         label: 'Account & Settings',
+         link: {
+            type: 'generated-index',
+            title: 'Account & Settings',
+            slug: '/assistant/cloud/account-settings/',
+          },
+         items: [
+           "assistant/cloud/account-settings/profile-settings",
+           "assistant/cloud/account-settings/change-password",
+           "assistant/cloud/account-settings/transfer-ownership",
+           "assistant/cloud/account-settings/delete-account",
+         ],
+       },
+       {
+         type: 'category',
+         label: 'Libraries',
+         link: {
+            type: 'generated-index',
+            title: 'Libraries',
+            slug: '/assistant/cloud/libraries/',
+          },
+         items: [
+           "assistant/cloud/libraries/create-library",
+           "assistant/cloud/libraries/add-creative-assets",
+           "assistant/cloud/libraries/view-edit-assets",
+           "assistant/cloud/libraries/share-library",
+           "assistant/cloud/libraries/delete-library",
+         ],
+       },
+       {
+          type: 'category',
+          label: 'Collections',
+          link: {
+             type: 'generated-index',
+             title: 'Collections',
+             slug: '/assistant/cloud/collections/',
+             description: 'Overview of Library Collections and how to create collections, assign assets and sort by collection.'
+           },
+          items: [
+            "assistant/cloud/collections/create-collection",
+            "assistant/cloud/collections/assign-collections",
+            "assistant/cloud/collections/sort-collections",
+          ],
+        },
+       "assistant/cloud/teams",
+       "assistant/cloud/community",
+       {
+        type: 'category',
+        label: 'Integrations',
+        link: {
+          type: 'generated-index',
+          title: 'Integrations',
+          slug: '/assistant/cloud/integrations/',
+        },
+        items: [
+          "assistant/cloud/integrations/beaver-builder",
+          "assistant/cloud/integrations/third-party-builders",
+          "assistant/cloud/integrations/woocommerce",
+        ],
+       },
+     ],
+   },
+ ],
 };

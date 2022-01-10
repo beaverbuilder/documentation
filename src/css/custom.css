@@ -5,6 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
+
 :root {
   --ifm-color-primary: #006ad4;
   --ifm-color-primary-dark: #005fbf;
@@ -62,6 +63,17 @@ div[class^=announcementBar_] {
 	font-size: 20px;
   font-weight: 700;
 	height: auto;
+}
+
+.docs-lead {
+  font-size: var(--ifm-h3-font-size);
+  border-bottom: 2px solid var(--ifm-toc-border-color);
+  padding-bottom: 2rem;
+  color: var(--ifm-color-gray-700);
+}
+
+html[data-theme='dark'] .docs-lead {
+  color: var(--ifm-color-gray-600);
 }
 
 .docusaurus-highlight-code-line {
@@ -219,7 +231,17 @@ a[href="/next/bb-theme/developer"].menu__link {
   margin-bottom: var(--ifm-paragraph-margin-bottom);
 }
 
-/* Responsive videos */
+/* Image/Video */
+.markdown img, video {
+  border: 3px solid var(--ifm-color-emphasis-200);
+}
+
+/* videos */
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .embed-responsive {
   position: relative;
   display: block;
@@ -246,143 +268,7 @@ a[href="/next/bb-theme/developer"].menu__link {
   border: 0;
 }
 
-.admonition.alert {
-  margin-top: var(--ifm-leading);
-  margin-bottom: var(--ifm-leading);
-  padding: 15px 30px 15px 15px;
-  border: 0;
-  border-radius: 0;
-  color: var(--ifm-font-base-color);
-}
 
-.admonition.alert h5 {
-  margin-top: 0;
-  text-transform: none;
-  font-size: 1rem;
-}
-
-.admonition.alert a {
-  color: var(--ifm-font-base-color);
-  font-weight: var(--ifm-font-weight-semibold);
-}
-
-.admonition.alert a:hover {
-  color: var(--ifm-color-primary-dark);
-}
-
-.admonition-icon {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 0.2em;
-}
-
-.admonition-icon svg {
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  stroke-width: 0;
-}
-
-.admonition-content > :last-child {
-  margin-bottom: 0;
-}
-
-/* default for custom types */
-.admonition {
-  background-color: rgba(118, 51, 219, 0.1);
-  border-left: 8px solid #7633db;
-}
-
-.admonition h5 {
-  color: #7633db;
-}
-
-.admonition .admonition-icon svg {
-  stroke: #7633db;
-  fill: #7633db;
-}
-
-/* native types */
-.alert.alert--warning {
-  background-color: rgba(241, 196, 15, 0.1);
-  margin-top: var(--ifm-leading);
-  padding: 15px 30px 15px 15px;
-  border: 0;
-  border-left: 8px solid var(--ifm-color-warning);
-  border-radius: 0;
-  margin-left: .5rem;
-  margin-right: .5rem;
-  color: var(--ifm-font-base-color);
-}
-
-.alert.alert--warning .margin-top--md {
-    margin-top: 0!important;
-}
-
-.alert.alert--warning a {
-  color: var(--ifm-font-base-color);
-  font-weight: var(--ifm-font-weight-semibold);
-}
-
-.alert.alert--warning a:hover {
-  color: var(--ifm-color-primary-dark);
-}
-
-.alert.alert--success {
-  background-color: rgba(46, 204, 113, 0.1);
-  border-left: 8px solid #2ecc71;
-}
-
-.alert.alert--success h5 {
-  color: #2ecc71;
-}
-
-.alert.alert--success .admonition-icon svg {
-  stroke: #2ecc71;
-  fill: #2ecc71;
-}
-
-.alert.alert--danger {
-  background-color: rgba(231, 76, 60, 0.1);
-  border-left: 8px solid #e74c3c;
-}
-
-.alert.alert--danger h5 {
-  color: #e74c3c;
-}
-
-.alert.alert--danger .admonition-icon svg {
-  stroke: #e74c3c;
-  fill: #e74c3c;
-}
-
-.alert.alert--info {
-  background-color: rgba(52, 152, 219, 0.1);
-  border-left: 8px solid #3498db;
-}
-
-.alert.alert--info h5 {
-  color: #3498db;
-}
-
-.alert.alert--info .admonition-icon svg {
-  stroke: #3498db;
-  fill: #3498db;
-}
-
-.alert.alert--secondary {
-  background-color: rgba(241, 196, 15, 0.1);
-  border-left: 8px solid #f1c40f;
-}
-
-.alert.alert--secondary h5 {
-  color: #f1c40f;
-}
-
-.alert.alert--secondary .admonition-icon svg {
-  stroke: #f1c40f;
-  fill: #f1c40f;
-}
 
 /* Hero */
 .hero {
