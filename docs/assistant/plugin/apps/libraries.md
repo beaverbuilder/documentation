@@ -62,7 +62,7 @@ This procedure saves your site’s customizer settings.
 
 ## Edit a Library
 
-To edit a new library from the Assistant Plugin:
+To edit a library from the Assistant Plugin:
 
 1. Open the **Libraries App**.
 2. Navigate to the library you want to edit.
