@@ -15,10 +15,6 @@ module.exports = {
   ],
   themeConfig: {
     image: 'img/bb-soc-logo.png',
-    googleAnalytics: {
-      trackingID: 'UA-15399878-10',
-      anonymizeIP: true,
-    },
     algolia: {
       apiKey: 'fa19c2d00714189b023a571e59f6e1c5',
       appId: '30TMM3CYV0',
@@ -177,6 +173,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        googleAnalytics: {
+          trackingID: 'UA-15399878-10',
+          anonymizeIP: true,
         },
         sitemap: {
           changefreq: 'weekly',
