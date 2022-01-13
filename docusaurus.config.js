@@ -15,7 +15,7 @@ module.exports = {
   ],
   themeConfig: {
     image: 'img/bb-soc-logo.png',
-    googleAnalytics: {
+    gtag: {
       trackingID: 'UA-15399878-10',
       anonymizeIP: true,
     },
