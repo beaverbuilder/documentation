@@ -124,10 +124,15 @@ Use the forward slash notation: *width*/*height*.
 
 ### Database reduction  in settings saved 
 
-Null options aren't saved in the database. [[NH? What benefit or cost?]]
+`Null` options aren’t saved in the database.
+
+If a node setting is not set or is `null` the setting does not get saved to the database reducing the post meta data size by about 50%.
 
 ### Refactor UI CSS 
 
-[[NH: What's the benefit?]]
-- if all goes well, should notice no difference in the UI
+This aims to unify our css with custom properties such as:
+
+* Font family
+* Colors
+* Sizing
 
