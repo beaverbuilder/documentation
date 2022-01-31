@@ -75,7 +75,7 @@ There are two dynamic data features in the Tabs and Accordion modules.
 
 Here's an example of using a post type as a repeater in an Accordion module.
 
-![Example of posts dislpayed in an Accordion module](/img/bb26--8.jpg) 
+![Example of posts displayed in an Accordion module](/img/bb26--8.jpg) 
 
 The Accordion or Tabs item is populated as follows:
 
