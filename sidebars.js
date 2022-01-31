@@ -123,6 +123,10 @@
     },
     {
       type: 'doc',
+      id: 'beaver-builder/dev-2.6',
+    },
+    {
+      type: 'doc',
       id: 'beaver-builder/about-this-release',
     },
     {
