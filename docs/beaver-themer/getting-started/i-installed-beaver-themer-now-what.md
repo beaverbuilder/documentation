@@ -65,9 +65,9 @@ When you open a module for editing in a Themer layout, you'll notice a plus sign
 
 ![](/img/i-installed-beaver-themer-now-what-34d69222.png)
 
-These plus signs indicate that you can set [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) to eligible data from another area of your site. Field connections pull the content of the field from the particular page or post that's being displayed.
+These plus signs indicate that you can set [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) to add information from your site's database. In the screenshot example above, the field connection was set to display the site title as the heading text and use the site's URL as the link. This means that whenever you change the title of your site or its URL in your WordPress settings, your site automatically reflects the new information.
 
-For example, the following screenshot shows part of a Singular Themer layout, in which the featured image is displayed as the row background, and the title, date, and author's name come  from the post that's being displayed, all by means of field connections. In other words, no matter which post the Themer layout appears on, it displays the content from that post.
+There are many types of field connections. For example, the following screenshot shows part of a Singular Themer layout, in which the featured image is displayed as the row background, and the title, date, and author's name come  from the post that's being displayed, all by means of field connections. In other words, no matter which post the Themer layout appears on, it displays the content from that post.
 
 ![](/img/i-installed-beaver-themer-now-what-f3cdb7e1.jpg)
 
