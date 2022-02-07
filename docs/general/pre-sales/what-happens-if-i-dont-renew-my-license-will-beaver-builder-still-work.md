@@ -4,9 +4,7 @@ title: What happens if I don't renew my license? Will Beaver Builder still work?
 sidebar_label: What happens if I don't renew my license? Will Beaver Builder still work?
 ---
 
-If you choose not to renew and your license expires. You can't download Beaver
-Builder products anymore, but you can continue to install and use any versions
-of Beaver Builder that you've already downloaded. So essentially Beaver
+If you choose not to renew and your license expires, you can't download Beaver Builder products anymore, but you can continue to install and use any versions of Beaver Builder that you've already downloaded. So essentially Beaver
 Builder freezes at the version you have installed when your license expires.
 You won't be able to contact Beaver Builder Support for help.  
 
