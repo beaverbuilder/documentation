@@ -19,7 +19,8 @@ You can manipulate the order of apps using drag-and-drop. To do this, click and 
 </video>
 
 :::info
-The **Home App** and **Apps & Settings** are excluded and cannot be moved into a different order.:::
+The **Home App** and **Apps & Settings** are excluded and cannot be moved into a different order.
+:::
 
 ## Color Scheme
 
