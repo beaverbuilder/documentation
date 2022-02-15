@@ -532,6 +532,7 @@
             "beaver-builder/troubleshooting/common-issues/403-forbidden-or-blocked-error",
             "beaver-builder/troubleshooting/common-issues/404-error-when-trying-to-open-editor",
             "beaver-builder/troubleshooting/common-issues/internal-server-500-error",
+            "beaver-builder/troubleshooting/common-issues/dreamhost",
             "beaver-builder/troubleshooting/common-issues/title-bar-incorrect",
             "beaver-builder/troubleshooting/common-issues/destination-folder-already-exists",
             "beaver-builder/troubleshooting/common-issues/require-once",
