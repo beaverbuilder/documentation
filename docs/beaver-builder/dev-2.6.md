@@ -27,9 +27,7 @@ You can use [WordPress reusable blocks](https://wordpress.org/support/article/re
 
 2. Drag the block that you want to use into your layout.
 
-3. In the Settings panel, choose the reusable block again.
-
-4. Save your layout in the normal fashion.
+3. Save your layout in the normal fashion.
 
 ## Google fonts preview
 
@@ -135,7 +133,7 @@ The Beaver Builder user interface can inherit your operating system's appearance
 
 ## Copy/Paste Improvements
 
-You can copy and paste row and column settings. There’s also a new UI dropdown menu allowing quick access to copy and paste.
+You can copy and paste row, column, and module settings. There’s also a new UI dropdown menu allowing quick access to copy and paste.
 
 ![Row shape uploads user interface](/img/beaver-builder/2.6-dev-preview--10.jpg) 
 
