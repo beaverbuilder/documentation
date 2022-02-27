@@ -19,15 +19,31 @@ shown in the following screenshot.
 
 ![](/img/troubleshooting-safe-mode-1.png)
 
-**To enter safe mode when opening a page for editing in Beaver Builder:**
+## Enable Safe Mode
+
+To enable safe mode when opening a page for editing in Beaver Builder:
 
 1. Try to open the page in Beaver Builder in the normal fashion.
+
 2. When the page fails to open, append `&safemode` to the end of the URL.  
   For example
+  
   ```markup
   https://example.com/?fl_builder&safemode
   ```
 
-  3. Check each module, looking especially for any custom HTML or JavaScript. Custom HTML can be inserted into any field that accepts text. JavaScript is more likely to have been placed in an HTML or Text Editor module.
-  4. Save or publish the page.
-  5. Now try opening the page in Beaver Builder in the normal fashion to make sure the page is working.
+3. Check each module, looking especially for any custom HTML or JavaScript. Custom HTML can be inserted into any field that accepts text. JavaScript is more likely to have been placed in an HTML or Text Editor module.
+
+4. Save or publish the page.
+
+5. Now try opening the page in Beaver Builder in the normal fashion to make sure the page is working.
+
+## `[fl_safe]` shortcode
+
+You can use the `[fl_safe]` shortcode to safely wrap code known to conflict with Beaver Builder.
+
+```markup
+[fl_safe]
+  // Your code here...
+[fl_safe]
+```

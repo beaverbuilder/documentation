@@ -4,7 +4,11 @@ title: Beaver Builder Integration
 sidebar_label: Beaver Builder
 ---
 
-The Assistant plugin and Assistant Pro Cloud provide integration for Beaver Builder and Beaver Themer. Allowing you to access and add Beaver Builder templates, saved content and Beaver Themer layouts 
+The Assistant plugin and Assistant Pro Cloud provide integration for Beaver Builder and Beaver Themer. Allowing you to access and add Beaver Builder templates, saved content and Beaver Themer layouts.
+
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dcnL-K1m3LY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
 
 ## Access Beaver Builder content from the Assistant Plugin
 
