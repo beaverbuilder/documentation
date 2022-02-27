@@ -9,6 +9,6 @@ In addition to Beaver Builder, the Assistant Pro Cloud platform allows you to ad
 To add third-party page builder content, simply add posts and pages with the third-party page builder layouts to your libraries using the [Content](../../plugin/apps/content.md) or 
 [Libraries](../../plugin/apps/libraries.md) apps.
 
-## Contant app
+## Content app
 
 In the case of supported page builders like Divi, Elementor, and Visual Composer, you can also add templates. Depending on the page builder you are using, the [Content app](../../plugin/apps/content.md) items will change depending on how your page builder organizes content.
