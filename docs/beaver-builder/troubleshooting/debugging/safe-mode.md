@@ -45,5 +45,5 @@ You can use the `[fl_safe]` shortcode to safely wrap code known to conflict with
 ```markup
 [fl_safe]
   // Your code here...
-[fl_safe]
+[/fl_safe]
 ```
