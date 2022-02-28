@@ -1299,6 +1299,7 @@
         },
         items: [
           "assistant/cloud/integrations/beaver-builder",
+          "assistant/cloud/integrations/gutenberg",
           "assistant/cloud/integrations/third-party-builders",
           "assistant/cloud/integrations/woocommerce",
         ],
