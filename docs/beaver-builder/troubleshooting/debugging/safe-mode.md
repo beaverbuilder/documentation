@@ -26,10 +26,9 @@ To enable safe mode when opening a page for editing in Beaver Builder:
 1. Try to open the page in Beaver Builder in the normal fashion.
 
 2. When the page fails to open, append `&safemode` to the end of the URL.  
-  For example
   
-  ```markup
-  https://example.com/?fl_builder&safemode
+  ```markup title='Example'
+  https://my-website.com/?fl_builder&safemode
   ```
 
 3. Check each module, looking especially for any custom HTML or JavaScript. Custom HTML can be inserted into any field that accepts text. JavaScript is more likely to have been placed in an HTML or Text Editor module.
@@ -38,12 +37,22 @@ To enable safe mode when opening a page for editing in Beaver Builder:
 
 5. Now try opening the page in Beaver Builder in the normal fashion to make sure the page is working.
 
-## `[fl_safe]` shortcode
+## `[fl-safe]` shortcode
 
-You can use the `[fl_safe]` shortcode to safely wrap code known to conflict with Beaver Builder.
+The `[fl-safe]` shortcode allows you to use code known to conflict with Beaver Builder or break the Beaver Builder user-interface (UI). While the Beaver Builder editor is active on a page or post, any code wrapped within the shortcode `[fl-safe]` will not render. When published, the page is automatically refreshed.
 
 ```markup
-[fl_safe]
+[fl-safe]
   // Your code here...
-[/fl_safe]
+[/fl-safe]
 ```
+
+:::tip
+`[fl_safe]` also supports wrapping third-party or custom shortcodes that may conflict with Beaver Builder.
+
+```markup
+[fl-safe]
+  [my_shortcode]
+[/fl-safe]
+```
+:::
