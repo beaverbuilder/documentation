@@ -4,7 +4,7 @@ title: Gutenberg Integration
 sidebar_label: Gutenberg
 ---
 
-Assistant Pro allows us to save and access reusable blocks from Libraries.
+The Assistant plugin and Assistant Pro Cloud provide integration for Gutenberg. Allowing you to save and access [reusable blocks](https://wordpress.org/support/article/reusable-blocks/) from Libraries.
 
 <div className="embed-responsive">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m__N7aaxvcM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
