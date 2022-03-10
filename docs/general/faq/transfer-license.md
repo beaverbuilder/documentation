@@ -1,5 +1,5 @@
 ---
-id: trasnfer-license
+id: transfer-license
 title: Can I transfer my license to someone else?
 sidebar_label: Transfer license
 ---
