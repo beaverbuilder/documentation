@@ -79,6 +79,7 @@
         "general/faq/is-beaver-builder-compatible-with-x-theme-or-y-plugin",
         "general/faq/does-beaver-builder-support-shortcodes",
         "general/faq/whats-your-refund-policy",
+        "general/faq/transfer-license",
         "general/faq/can-i-include-beaver-builder-as-part-of-my-hosted-website-builder-platform",
         "general/faq/can-you-build-my-website-for-me",
         "general/faq/does-beaver-builder-support-third-party-widgets",
