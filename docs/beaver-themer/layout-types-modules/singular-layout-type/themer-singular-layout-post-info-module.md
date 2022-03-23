@@ -4,15 +4,77 @@ title: Post Info module
 sidebar_label: Post Info module
 ---
 
-The Post Info module is in the **Post modules** category, which appears only when you're editing a Singular-type themer layout in Themer. It displays a single post or page's date, author, number of comments, and terms (categories, tags, or a custom taxonomy).
+The Post Info module is available when editing a Singular-type Beaver Themer layout and displays a single post or page's date, author, number of comments and terms (categories, tags, or custom taxonomies).
 
-Each type of information can be displayed or hidden, and there are some additional settings for each type:
+## General
 
-  * Date  
-  You can set the date format.
-  * Comments  
-  You can customize the text that is displayed for no comments, one comment, and more than one comment. The default text is "No comments," "1 comment," and "% comments," where % stands for the exact number of comments when there are more than one.
-  * Terms  
-  You can choose whether to display categories, tags, or a custom taxonomy, and you can choose the separator character when there's more than one. You can only display one of these types of terms at a time.
+The post date, modified Date, comments, and terms may all be shown, hidden, and configured on the General tab. 
 
-There are also the usual **Advanced** tab settings, which means you can customize margins, responsive layout, visibility, animation, and assign an ID or class name.
+### Date
+
+* **Date** - Show or hide the date.
+
+* **Format** - Set the date format.  
+  See the [WordPress formatting date & time](https://wordpress.org/support/article/formatting-date-and-time/) documentation for a list of date formats.d connection.
+
+* **Prefix** - Prefix the date. For example, `Post on January 27, 2022`.
+
+### Modified Date
+
+* **Modified Date** - Show or hide the modified date.
+
+* **Modified Date Format** - Set the modified date format.  
+  See the [WordPress formatting date & time](https://wordpress.org/support/article/formatting-date-and-time/) documentation for a list of date formats.d connection.
+
+* **Prefix** - Prefix the modified date. For example, `Last Updated Feburary 21, 2022`.  
+  Default value is `Last Updated&nbsp;`.
+
+### Author
+
+Show or hide the post author.
+
+### Comments
+
+* **Comments** - Show or hide comments.
+
+* **No Comments Text** - Set the text for when there are no comments.  
+  Default is `No Comments`.
+
+* **One Comment Text** - Set the text for when there is one comment.  
+  Default is `1 Comment`.
+
+* **Comments Text** - Set the text for when there are multiple comments. See [comments_number()](https://developer.wordpress.org/reference/functions/comments_number/) for more information.   
+  Default is `% Comments`.
+
+### Terms
+
+* **Terms** - Show or hide the terms.
+
+* **Taxonomy** - Displays the taxonomy terms assigned to the post type your Themer layout applies to.
+
+* **Display** - Display the taxonomy Name or Slug.
+
+* **Separator** - Leave blank or add in something to separate the terms.  
+  Default is comma (,). 
+
+## Style
+
+The Style tab has a variety of settings that apply to all of the text in the module.
+
+* [Typography section](/beaver-builder/styles/typography/typography.md)
+
+* **Color** - Sets a text color.
+
+* **Link Color** - Sets a link color.
+
+* **Link Hover Color** - Sets a link hover color.
+
+* **Separator** - Sets a link color.
+
+## Order
+
+Drag and drop the Post Info module's items into whatever order you like. 
+
+## Advanced
+
+There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) settings for margins, visibility, animations, and advanced HTML settings.
