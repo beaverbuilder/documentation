@@ -26,7 +26,7 @@ The post date, modified Date, comments, and terms may all be shown, hidden, and 
 * **Modified Date Format** - Set the modified date format.  
   See the [WordPress formatting date & time](https://wordpress.org/support/article/formatting-date-and-time/) documentation for a list of date formats.d connection.
 
-* **Prefix** - Prefix the modified date. For example, `Last Updated Feburary 21, 2022`.  
+* **Prefix** - Prefix the modified date. For example, `Last Updated February 21, 2022`.  
   Default value is `Last Updated&nbsp;`.
 
 ### Author
