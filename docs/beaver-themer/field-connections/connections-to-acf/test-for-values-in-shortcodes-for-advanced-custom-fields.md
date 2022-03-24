@@ -28,25 +28,33 @@ In the following example (and the other examples in the following section), the 
 
 For **Text**, **Email**, and **Url** fields, you can use the following operator values for the `exp` option.
 
-  * `equals`
-  * `notequals`
+* `equals`
+* `notequals`
+* `contains`
 
 For the **Number** field, you can use the following operator values for the `exp` option.
 
-  * `equals`
-  * `notequals`
-  * `greater`
-  * `greaterequals`
-  * `less`
-  * `lessequals`
+* `equals`
+* `notequals`
+* `contains`
+* `greater`
+* `greaterequals`
+* `less`
+* `lessequals`
 
 The `value` parameter is the value that you want to test for.
 
 :::note **Notes**
 
-  * When the value of `exp` is `greater`, `greaterequals`, `less`, or `lessequals`, both the **Number** field value and the value you're testing for in the value parameter are converted to integers before they're compared, but `equals` and `notequals` compare the exact strings that are there. So, for example, if you're testing whether 377.78 is `LESSEQUALS 377.77`, the result is `TRUE`, because both values are converted to 377 before comparison occurs, so they are equal. On the other hand, if you test whether 377.77 `EQUALS 377.78`, the result is `FALSE`. because the two strings are being compared as is.
-  * The `EQUALS` test for URLs ignores the trailing slash if there is one, in both the field value and the comparison value. For example, <https://example.com> and <https://example.com/> will return `TRUE` to the `EQUALS` test.
-  * The `value` parameter is case-sensitive.
+* When the value of `exp` is `greater`, `greaterequals`, `less`, or `lessequals`, both the **Number** field value and the value you're testing for in the value parameter are converted to integers before they're compared, but `equals` and `notequals` compare the exact strings that are there. So, for example, if you're testing whether 377.78 is `LESSEQUALS 377.77`, the result is `TRUE`, because both values are converted to 377 before comparison occurs, so they are equal. On the other hand, if you test whether 377.77 `EQUALS 377.78`, the result is `FALSE`. because the two strings are being compared as is.
+
+* The `EQUALS` tests for URLs ignores the trailing slash if there is one, in both the field value and the comparison value. For example, <https://example.com> and <https://example.com/> will return `TRUE` to the `EQUALS` test.
+
+* The `contains` expression tests if the value parameter contains similar characters or numbers. For example, if a field has a value of `Hello World` and the value you're testing for is `llo` this will be true and the `Hello World` value will be returned.
+
+* The `contains` expression determines if the value parameter contains letters or numbers that are comparable. For example, if a field contains the value `Hello World` and the value you're testing for is `llo`, this equates to `True` and the `Hello World` value is returned. 
+
+* The `value` parameter is case-sensitive.
 :::
 
 :::important **Important**
