@@ -370,10 +370,10 @@ Outputs the post's terms assigned to the post type you are editing.
   
 ### Post Parent ID
   
-Outputs any the parent posts `id`. 
+Outputs the post parent `id`. 
 
 :::note
-This field connection only works on child pages or posts.
+This field connection only works on child pages.
 :::
 
 ```markup
@@ -382,10 +382,10 @@ This field connection only works on child pages or posts.
 
 ### Post Parent URL
   
-Outputs any the parent posts URL. 
+Outputs the post parent URL. 
 
 :::note
-This field connection only works on child pages or posts.
+This field connection only works on child pages.
 :::
 
 ```markup
@@ -394,22 +394,22 @@ This field connection only works on child pages or posts.
 
 ### Post Parent Title
   
-Outputs any the parent posts title. 
+Outputs the post parent title. 
 
 :::note
-This field connection only works on child pages or posts.
+This field connection only works on child pages.
 :::
 
 ```markup
 [wpbb post:parent display='title']
 ``` 
 
-### Post Parent Title
+### Post Parent Content
   
-Outputs any the parent posts Content. 
+Outputs the post parent content. 
 
 :::note
-This field connection only works on child pages or posts.
+This field connection only works on child pages.
 :::
 
 ```markup
@@ -418,7 +418,7 @@ This field connection only works on child pages or posts.
 
 ### Post Parent Featured Image
 
-Outputs the parent post's [featured image](https://wordpress.org/support/article/settings-sidebar/#featured-image).
+Outputs the post parent [featured image](https://wordpress.org/support/article/settings-sidebar/#featured-image).
 
 ```markup
 [wpbb post:parent display='featured_image']
