@@ -67,7 +67,7 @@ Creative assets include the following:
 
 #### Media
 
-* Images in .png, .jpg, .svg, or .gif format.
+Images in .png, .jpg, .svg, or .gif format.
 
 #### Content
 
@@ -82,6 +82,10 @@ Creative assets include the following:
 #### Colors
 
 Colors can be selected from the color picker or entered as hexadecimal color values. For example, `#ffffff`.
+
+#### Code snippets
+
+Save code snippets in HTML, CSS, JavaScript, and PHP.
 
 #### Settings
 
