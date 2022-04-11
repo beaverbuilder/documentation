@@ -37,6 +37,14 @@ In any module that has a [Typography section](/beaver-builder/styles/typography/
 The preview doesn't work in the **Recently used** section of the list and the font you select from the list doesn't display in the **Recently used** section either.
 :::
 
+## Search saved items
+
+Added a search bar to the Saved tab allowing you to search saved content items (rows, columns, and modules).
+
+## Pricing Table - Ribbon typography 
+
+Added typography settings for the Pricing table ribbon.
+
 ## Multiselect of post types in Posts modules
 
 On the **Content** tab of the Posts, Posts Carousel, and Posts Slider modules, in custom queries you can select one or more post types. For example, you can display both posts and pages. 
@@ -145,7 +153,7 @@ The Post module supports filtering by a custom field.
 
 ## Behind-the-scenes improvements
 
-### Database reduction  in settings saved 
+### Database reduction in settings saved 
 
 `Null` options aren’t saved in the database.
 
@@ -159,3 +167,10 @@ This aims to unify our css with custom properties such as:
 * Colors
 * Sizing
 
+### UI Overlay refinements
+
+Refined the feel of the builder overlay UI and highlight features in the canvas area.
+
+### Fix visibility settings upgrade
+
+Fix some issues with visibility settings upon upgrade related to the new breakpoint.
