@@ -174,3 +174,5 @@ Refined the feel of the builder overlay UI and highlight features in the canvas 
 ### Fix visibility settings upgrade
 
 Fix some issues with visibility settings upon upgrade related to the new breakpoint.
+
+For example, any content set to Large Only devices were changed to Extra Large Only devices upon upgrading to 2.6. After installing the dev 3 update, any devices set to Large Only will be automatically switched to Extra Large and Large devices.
