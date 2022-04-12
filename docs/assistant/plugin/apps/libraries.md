@@ -50,7 +50,7 @@ The **Libraries App** lets you can add content, media, colors and customizer (th
 ### Add Code Snippets
 
 1. Open the **Libraries App**.
-2. Navigate to the library you want to add the theme settings to.
+2. Navigate to the library you want to add the code snippet to.
 3. Click the **Plus** (+) icon.
 4. Select **Code**.
 5. Type or paste your code snippet.
