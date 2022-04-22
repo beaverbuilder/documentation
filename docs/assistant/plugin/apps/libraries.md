@@ -56,7 +56,11 @@ The **Libraries App** lets you can add content, media, colors and customizer (th
 5. Type or paste your code snippet.
 6. Click **Add**.
 
-![Add a code snippets to a library](/img/assistant/apps--apps-libraries--4.jpg)
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KiqAHVx7ZHY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
+<!-- ![Add a code snippets to a library](/img/assistant/apps--apps-libraries--4.jpg) -->
 
 ### Add Theme Settings
 
