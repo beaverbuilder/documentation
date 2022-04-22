@@ -28,6 +28,15 @@ met:
 
   * jQuery is excluded
   * *wp-includes/js* is added to the **Async Javascript > Settings > Scripts Exclusion** field.
+  
+### [Cookie and Consent Solution for the GDPR & ePrivacy](https://wordpress.org/plugins/iubenda-cookie-law-solution/)
+
+The Beaver Builder user interface is not functional if **Automatically block scripts detected by the plugin** is enabled and **Primary Engine** is selected.
+
+Switch from the **Primary Engine** to the **Secondary Engine** to solve the problem.
+The Secondary Engine makes use of a third-party PHP library that is more accurate, capable of parsing broken HTML, and can resolve problems with third-party plugins.
+
+![Cookie and Content Solution settings page](/img/beaver-builder/troubleshooting--known-incompatibilities--cookie-plugin.jpg)
 
 ### Duplicator plugins (such as Post Duplicator)
 
