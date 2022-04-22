@@ -41,9 +41,23 @@ The preview doesn't work in the **Recently used** section of the list and the fo
 
 Added a search bar to the Saved tab allowing you to search saved content items (rows, columns, and modules).
 
-## Pricing Table - Ribbon typography 
+## Pricing Table
 
-Added typography settings for the Pricing table ribbon.
+* Added typography settings for the Pricing table ribbon.
+
+* Add icon color options for individual features.
+
+## Button, Button Group, Callout & Call to Action Modules
+
+Add option for control over the gradient styling.
+
+## Login Module
+
+Add icon options for the fields and buttons.
+
+## Outline Panel
+
+Collapse/expand all items and persistent storage were added so that the panel remembers what sections you have expanded and collapsed.
 
 ## Multiselect of post types in Posts modules
 
