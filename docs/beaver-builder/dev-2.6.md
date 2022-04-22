@@ -37,6 +37,28 @@ In any module that has a [Typography section](/beaver-builder/styles/typography/
 The preview doesn't work in the **Recently used** section of the list and the font you select from the list doesn't display in the **Recently used** section either.
 :::
 
+## Search saved items
+
+Added a search bar to the Saved tab allowing you to search saved content items (rows, columns, and modules).
+
+## Pricing Table
+
+* Added typography settings for the Pricing table ribbon.
+
+* Add icon color options for individual features.
+
+## Button, Button Group, Callout & Call to Action Modules
+
+Add option for control over the gradient styling.
+
+## Login Module
+
+Add icon options for the fields and buttons.
+
+## Outline Panel
+
+Collapse/expand all items and persistent storage were added so that the panel remembers what sections you have expanded and collapsed.
+
 ## Multiselect of post types in Posts modules
 
 On the **Content** tab of the Posts, Posts Carousel, and Posts Slider modules, in custom queries you can select one or more post types. For example, you can display both posts and pages. 
@@ -145,7 +167,7 @@ The Post module supports filtering by a custom field.
 
 ## Behind-the-scenes improvements
 
-### Database reduction  in settings saved 
+### Database reduction in settings saved 
 
 `Null` options aren’t saved in the database.
 
@@ -159,3 +181,12 @@ This aims to unify our css with custom properties such as:
 * Colors
 * Sizing
 
+### UI Overlay refinements
+
+Refined the feel of the builder overlay UI and highlight features in the canvas area.
+
+### Fix visibility settings upgrade
+
+Fix some issues with visibility settings upon upgrade related to the new breakpoint.
+
+For example, any content set to Large Only devices were changed to Extra Large Only devices upon upgrading to 2.6. After installing the dev 3 update, any devices set to Large Only will be automatically switched to Extra Large and Large devices.
