@@ -124,7 +124,7 @@
     },
     {
       type: 'doc',
-      id: 'beaver-builder/dev-2.6',
+      id: 'beaver-builder/2.6-alpha',
     },
     {
       type: 'doc',
