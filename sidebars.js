@@ -107,6 +107,7 @@
         "general/affiliate-program/earnings-potential",
         "general/affiliate-program/search-engine-keyword-bids",
         "general/affiliate-program/use-of-intellectual-property",
+        "general/affiliate-program/purchase-using-my-affiliate-link,
       ]
     },
     "general/license-suspension",
