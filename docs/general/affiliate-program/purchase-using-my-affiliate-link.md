@@ -1,6 +1,6 @@
 ---
 id: purchase-using-my-affiliate-link
-title: Can I or my Business Partner Purchase Through my Own Affiliate Link?
+title: Can I or my Business Partner Purchase Through my own Affiliate Link?
 sidebar_label: Purchase using my own affiliate link?
 ---
 

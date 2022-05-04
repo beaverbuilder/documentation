@@ -1,6 +1,6 @@
 ---
 id: purchase-not-using-affiliate-link
-title: Can I receive a commission on a Purchase that did not use a properly-tracking Affiliate Link?
+title: Can I Receive a Commission on a Purchase that did not use a Properly-Tracking Affiliate Link?
 sidebar_label: Can I receive a commission on a Purchase not using an Affiliate Link?
 ---
 
