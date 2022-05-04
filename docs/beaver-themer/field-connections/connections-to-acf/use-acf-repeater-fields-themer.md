@@ -53,6 +53,20 @@ Both the `nested_sub_field_text` and `nested_sub_field_img` are the names of you
 The Repeater field shortcode supports only one nested Repeater field.
 :::
 
+## Taxonomy
+
+The Repeater field connection shortcode supports repeater fields assigned to the ACF Taxonomy [location rule](https://www.advancedcustomfields.com/resources/custom-location-rules/) by adding `type='archive'` to the field connection shortcode.
+
+```markup
+[wpbb-acf-repeater type='archive' name='repeat']
+
+  <p>[wpbb archive:acf type='text' name='firstname']</p>
+  
+  <p>[wpbb archive:acf type='text' name='lastname']</p>
+
+[/wpbb-acf-repeater]
+```
+
 ## ACF Options page
 
 The Beaver Themer Repeater field connection shortcode also supports repeater fields added to the ACF [Options page](https://www.advancedcustomfields.com/resources/options-page/) by adding `type='option'` and `:acf_option` to the field connection shortcode.
