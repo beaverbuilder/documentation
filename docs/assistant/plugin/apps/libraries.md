@@ -114,8 +114,17 @@ You can import content and [creative asset](../../overview.md#creative-assets) f
 
 1. In the Libraries app, navigate to the **Content** section and select the piece of content you’d like to import to your site.
 2. Scroll down and click the Create New action and select one of the following choices:
-    * **Create and Edit** imports the content and opens it for editing.
-    * **Import** adds the content to the backend of your site and the [Content App](content.md).
+    
+    * **Create New**  
+      Imports the library item and creates a new page or post in the WordPress Admin Dashboard.
+    
+    * **Replace current Page/Post**  
+      The library item is imported on the current page or post.
+    
+      :::caution
+      This action replaces all content in the posts.
+      :::
+    
 
 ![Add single WordPress content](/img/assistant/apps--apps-libraries--7.jpg)
 
@@ -148,7 +157,17 @@ To import an entire library:
 * In the **Libraries** app, select the library you’d like to import to your site.
 * Click the gear icon to open the library settings.
 * In the **Import Library** section, click the **Import Library** button.
- 
+
+## Update
+
+The **Update** action allows you to update the library item with the content from the current page or post.
+
+:::warning
+Assistant Pro **does not** store revisions in the cloud, so this action **cannot be reversed**.
+:::
+
+![Update library item with content from post](/img/assistant/apps--apps-libraries--10.jpg)
+
 ## Launch Assistant Pro Cloud
 
 You can quickly launch Assistant Pro Cloud in a browser from within Assistant plugin's **Libraries App**. 
@@ -163,7 +182,7 @@ To launch Assistant Pro Cloud from the **Libraries App**:
 Using the **Launch Cloud** option is only possible after you have [connected the Assistant plugin](../../getting-started/connect.md).
 :::
 
-![Launch Cloud](/img/assistant/apps--apps-libraries--10.jpg)
+![Launch Cloud](/img/assistant/apps--apps-libraries--11.jpg)
 
 ## Disconnect from Assistant Pro Cloud
 
@@ -177,4 +196,4 @@ The Assistant Pro Cloud can be disconnected from within the **Libraries App**. T
 If you are disconnected from the Assistant Pro cloud, the Library App will be unable to access libraries, and you will need to [reconnect](../../getting-started/connect.md) for libraries to display.
 :::
 
-![Disconnect from Cloud](/img/assistant/apps--apps-libraries--11.jpg)
+![Disconnect from Cloud](/img/assistant/apps--apps-libraries--12.jpg)
