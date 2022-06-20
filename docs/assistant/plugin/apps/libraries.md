@@ -113,7 +113,7 @@ You can import content and [creative asset](../../overview.md#creative-assets) f
 ### Import Content
 
 1. In the Libraries app, navigate to the **Content** section and select the piece of content you’d like to import to your site.
-2. Scroll down and click the Create New action and select one of the following choices:
+2. Scroll down and click the **Import** action and select one of the following choices:
     
     * **Create New**  
       Imports the library item and creates a new page or post in the WordPress Admin Dashboard.
@@ -124,7 +124,6 @@ You can import content and [creative asset](../../overview.md#creative-assets) f
       :::caution
       This action replaces all content in the posts.
       :::
-    
 
 ![Add single WordPress content](/img/assistant/apps--apps-libraries--7.jpg)
 
