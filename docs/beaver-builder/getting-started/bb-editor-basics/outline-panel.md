@@ -10,7 +10,7 @@ Click the Outline icon in the top bar of the Beaver Builider editor to open the 
 ![Outline panel in the Beaver Builder editor](/img/outline-panel-1.png) 
 
 :::tip **Tip**
-The Outline panel doesn't have a drag handle, but you can remove its overlap on the layout with this trick. First display the Content panel and the [use the drag handle to pin it to the right of the layout](/beaver-builder/getting-started/bb-editor-basics/user-interface.md/#8-drag-handle), then click the Outline panel icon. It then overlays the Content panel.
+The Outline panel doesn't have a drag handle, but you can remove its overlap on the layout with this trick. First display the Content panel and the [use the drag handle to pin it to the right of the layout](user-interface.md#8-drag-handle), then click the Outline panel icon. It then overlays the Content panel.
 :::
 
 ## Navigate the layout from the Outline panel
@@ -27,7 +27,6 @@ You can move rows, columns (except for subcolumns), and modules within the Outli
 
 ## Add a label that displays in Outline view
 
-You can [add a label to the **Advanced** tab](./beaver-builder/layouts/advanced-tab-rows-columns-modules.md#html-element-section) of a row, column, or module that helps to identify its purpose in Outline view. In the following screenshot, the Outline panel shows the label **Page Title** that was added to a Heading module for the setting **Advanced > HTML Element > Label**.
+You can [add a label to the **Advanced** tab](beaver-builder/layouts/advanced-tab-rows-columns-modules.md#html-element-section) of a row, column, or module that helps to identify its purpose in Outline view. In the following screenshot, the Outline panel shows the label **Page Title** that was added to a Heading module for the setting **Advanced > HTML Element > Label**.
 
 ![Advanced tab label displayed in the Outline panel](/img/outline-panel-2.png)
-
