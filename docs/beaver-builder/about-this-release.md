@@ -22,7 +22,7 @@ Access the Outline panel by clicking the Outline icon to the left of the **Done*
 
 ![Outline panel icon in the Beaver Builder editor](/img/2-5-features-outline-panel-icon-363.png) 
 
-See [the article about the Outline panel](./beaver-builder/getting-started/bb-editor-basics/outline-panel.md) for more information.
+See [the article about the Outline panel](getting-started/bb-editor-basics/outline-panel.md) for more information.
 
 ### New layout templates
 
