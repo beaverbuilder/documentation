@@ -7,11 +7,6 @@ description: Describes the features in this Beaver Themer release.
 
 Here are the new features in Beaver Themer 1.4. 
 
-<!-- :::warning **Warning**
-Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback. See [this article](/general/alpha-and-beta-releases.md/#install-an-alpha-or-beta-plugin-release) for information about installing prerelease versions.
-:::
--->
-
 ## Layout enhancements
 
 ### Singular layouts can have Beaver Builder layouts in the post content area
@@ -62,7 +57,7 @@ There is a new Woo Notices module for Singular layouts that displays standard Wo
 
 This module lets you style the text and background color of the notices and place them in any position in your Themer Singular product layout.
 
-For more information see the article about the [Woo Notices module](./beaver-themer/integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts.md).
+For more information see the article about the [Woo Notices module](integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts.md).
 
 ### WooCommerce Add to Cart Button module enhancements
 

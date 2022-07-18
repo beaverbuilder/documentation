@@ -109,8 +109,8 @@ your clients see when they click **Help**. See the article on [customizing the H
 
 The **Tools** tab has the following sections.
 
-* [**Cache**](/beaver-builder/troubleshooting/debugging/issue-fixer-clear-the-cache.md)
-* [**Cache Clearing Tool**](/beaver-builder/troubleshooting/debugging/cache-clearing-tool.md)
-* [**Debug mode disabled**](/beaver-builder/troubleshooting/debugging/enable-beaver-builder-debug-mode.md)
-* [**Prerelease Updates**](./beaver-builder/management-migration/enable-prerelease-updates.md)
-* [**Uninstall** section](/beaver-builder/troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin.md)
+* [**Cache**](../troubleshooting/debugging/issue-fixer-clear-the-cache.md)
+* [**Cache Clearing Tool**](../troubleshooting/debugging/cache-clearing-tool.md)
+* [**Debug mode disabled**](../troubleshooting/debugging/enable-beaver-builder-debug-mode.md)
+* [**Prerelease Updates**](enable-prerelease-updates.md)
+* [**Uninstall** section](../troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin.md)
