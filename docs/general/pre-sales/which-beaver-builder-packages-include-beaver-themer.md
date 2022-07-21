@@ -4,4 +4,4 @@ title: Which Beaver Builder Packages include Beaver Themer?
 sidebar_label: Which Beaver Builder Packages include Beaver Themer?
 ---
 
-Only the Ultimate licence includes Beaver Themer. The Standard, Pro, Agency licenses do not include Beaver Themer which must be purchased separately.
+Only the Ultimate package includes Beaver Themer. Beaver Themer is a separate add-on and must be purchased separately to use with the Standard, Pro, or Agency packages.
