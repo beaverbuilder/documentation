@@ -83,6 +83,19 @@ To add content to a library:
 <source src="/video/assistant/libraries--add-assets-content-app.webm" type="video/webm" />
 </video>
 
+## Export Content
+
+You can export content using the **Export** action on the Edit Content panel. While the [WordPress Export tool](https://wordpress.org/support/article/tools-export-screen/) requires you to export all pages and posts, this allows you to export specific pages or posts.
+
+1. Open the **Content App**.
+2. Click the content item you want to export.
+3. Scroll down to the **ACTIONS** section.
+4. Click the **Export** button.
+
+:::info
+To import the content, use the [WordPress Import tool](https://wordpress.org/support/article/importing-content/).
+:::
+
 ## Delete Content
 
 You can delete content using the **Delete** action on the Edit Content panel.
