@@ -96,6 +96,12 @@ You can export content using the **Export** action on the Edit Content panel. Wh
 To import the content, use the [WordPress Import tool](https://wordpress.org/support/article/importing-content/).
 :::
 
+:::warning
+When exporting a page or post that contains Beaver Builder global content (rows, columns, or modules), you must also export the global content. If the global content is not exported, the layout for the exported page or post will not include the global content.
+
+These instructions are intended for Beaver Builder-based pages or posts. Other page builders may behave differently.
+:::
+
 ## Delete Content
 
 You can delete content using the **Delete** action on the Edit Content panel.
