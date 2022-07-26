@@ -96,6 +96,10 @@ You can export content using the **Export** action on the Edit Content panel. Wh
 To import the content, use the [WordPress Import tool](https://wordpress.org/support/article/importing-content/).
 :::
 
+:::warning
+When exporting a page or post that contains global content (rows, columns, or modules), you must also export the global content. If the global content is not exported, the layout for the exported page or post will not include global content.
+:::
+
 ## Delete Content
 
 You can delete content using the **Delete** action on the Edit Content panel.
