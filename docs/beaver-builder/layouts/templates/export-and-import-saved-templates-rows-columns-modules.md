@@ -13,9 +13,11 @@ templates on a single WordPress install or staging area, then easily move them
 around to other locations or bundle them for migration, resale, or
 distribution.
 
-:::note **Notes**
-* If you export a post or page that contains a global row, column, or module, it's a good idea to export the saved row, column, or module as well. That way, when you import the post or page, the global rows, columns, and modules can be relinked to the master template on the new site.
+:::warning
+When exporting a page or post that contains global content (rows, columns, or modules), you must also export the global content. If the global content is not exported, the layout for the exported page or post will not include global content.
+:::
 
+:::tip
 * Images and icon sets used by the templates, rows, columns, or modules you're exporting are not migrated with the template. You'll have to add them to the new location after import. Likewise, the theme at the new site will control the default font families, colors, and so on.
 
 * Links are not updated automatically in the imported template.
