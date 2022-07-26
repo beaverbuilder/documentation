@@ -97,7 +97,9 @@ To import the content, use the [WordPress Import tool](https://wordpress.org/sup
 :::
 
 :::warning
-When exporting a page or post that contains global content (rows, columns, or modules), you must also export the global content. If the global content is not exported, the layout for the exported page or post will not include global content.
+When exporting a page or post that contains Beaver Builder global content (rows, columns, or modules), you must also export the global content. If the global content is not exported, the layout for the exported page or post will not include the global content.
+
+These instructions are intended for Beaver Builder-based pages or posts. Other page builders may behave differently.
 :::
 
 ## Delete Content
