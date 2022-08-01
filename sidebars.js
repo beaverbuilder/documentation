@@ -1233,6 +1233,7 @@
          ],
        },
        "assistant/plugin/app-settings",
+       "assistant/plugin/limit-access",
      ],
    },
    {
