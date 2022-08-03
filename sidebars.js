@@ -496,6 +496,7 @@
       items: [
         "beaver-builder/management-migration", // Index
         "beaver-builder/management-migration/settings-overview",
+        "beaver-builder/management-migration/advanced-settings",
         "beaver-builder/management-migration/limit-page-post-lists-to-bb-layouts",
         "beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder",
         "beaver-builder/management-migration/control-user-access-by-role",
