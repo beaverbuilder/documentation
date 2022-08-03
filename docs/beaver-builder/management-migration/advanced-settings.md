@@ -1,7 +1,7 @@
 ---
 id: advanced-settings
 title: Advanced Tab Settings
-sidebar_label: Advanced
+sidebar_label: Advanced Tab Settings
 description: The Advanced tab in the Beaver Builder settings is where you can enable and disable settings.
 ---
 
