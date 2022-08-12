@@ -8,6 +8,10 @@ description:  Here's how to add cool hover effects to Photo module images.
 Using a custom class and some custom CSS, you can add some really cool hover
 effects to images.
 
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u4i9rkAB1Rw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
 1. Add a [Photo module](/beaver-builder/layouts/modules/photo/photo.md) to your page.
 2. Configure the Photo module as you normally would.
 3. Click the **Advanced** Tab
@@ -19,16 +23,17 @@ effects to images.
    * Hover Unblur: `hover-unblur`
    * Grayscale to Color: `gray-scale-img`
    * Sepia to Color: `sepia-img`
+
 5. Add the CSS for the effect wherever you put your custom CSS.  
 Copy the CSS for the effect you want from one of the following sections and see [this article](/beaver-builder/styles/code/custom-css.md) about where to add custom CSS code.
 
-:::tip **Tip: Shortcut for applying an effect to multiple Photo modules in a row**  
+:::tip 
 If you have multiple Photo modules in a row and want to apply an effect to the entire set, add the effect’s CSS to the **Class** field on the **Advanced** tab in the row settings rather than the Photo module settings. The effect will apply to every Photo module contained in the row.
 :::
 
 ## CSS for hover effects
 
-:::note **Note**
+:::info
 The transition speeds in these CSS examples are set to `.3s`. You can change the
 value to speed up or slow down the effect. For example, `1s` will slow the
 change.

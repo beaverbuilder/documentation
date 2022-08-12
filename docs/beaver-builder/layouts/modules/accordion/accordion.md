@@ -23,12 +23,13 @@ An accordion is great for whenever you have a list of items with details that
 you don't want to clutter the main page with but want the information easily
 accessible. Here are some good uses for the Accordion module:
 
-  * FAQs
-  * Q&A
-  * Feature lists
-  * One or more items in which you want a text excerpt to expand into a longer description with a "read more" label.  
-Note that this would be similar to WordPress posts, but this would be a case
-in which static content is set up manually. An example is shown below.
+* FAQs
+* Q&A
+* Feature lists
+
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W8PkT4fMoNs?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
 
 ##  Properties of the Accordion module
 

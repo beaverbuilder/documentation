@@ -4,6 +4,10 @@ title: Categorize and add thumbnails to the saved templates list
 sidebar_label: Categorize and add thumbnails to the saved templates list
 ---
 
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LaMVjKcu86g?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
 You can add categories and thumbnail images to the display of your custom
 saved templates in the Content pane.
 

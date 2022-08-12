@@ -6,6 +6,10 @@ sidebar_label: "Example: Create a header layout"
 
 This is a quick tutorial to show you the basics how to create a Themer layout and choose where to display it on your site.
 
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0uq8Hm6gBUQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
 In this tutorial, you'll create a header that will replace the header on all pages of your site, but not posts or custom post types. Then we'll set an exclusion rule so the header occurs on every page except for a landing page.
 
 It's assumed you've already installed Beaver Themer into the appropriate environment. Or you can create the layout on [the Themer Demo on the Beaver Builder website](http://demo.wpbeaverbuilder.com). If you don't feel like going through the effort yourself, we've tried to include enough screenshots to give you an idea of how it works.
