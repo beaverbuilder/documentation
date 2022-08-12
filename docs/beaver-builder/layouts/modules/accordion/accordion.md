@@ -28,7 +28,7 @@ accessible. Here are some good uses for the Accordion module:
 * Feature lists
 
 <div className="embed-responsive">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W8PkT4fMoNs?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W8PkT4fMoNs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
 ##  Properties of the Accordion module

@@ -9,7 +9,7 @@ into another module in the same layout or any other Beaver Builder layout on
 the internet.
 
 <div className="embed-responsive">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0Pz4P5CIyz8?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0Pz4P5CIyz8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
 This functionality is in an **Export/Import** section of the **Advanced** tab

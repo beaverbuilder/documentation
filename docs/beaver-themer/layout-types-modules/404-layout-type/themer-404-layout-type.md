@@ -8,7 +8,7 @@ parse_number_prefixes: false
 The 404-type layout in Beaver Themer is used to create a custom 404 page. This Themer layout is different from other types, in that it can only apply to a single page, so in the usual case you'll be creating static content rather than using field connections in your modules.
 
 <div className="embed-responsive">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IHoq5tWPDlU?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IHoq5tWPDlU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
 ## Default Layout
