@@ -4,6 +4,10 @@ title: Set up a Mega Menu
 sidebar_label: Set up a Mega Menu
 ---
 
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KFm_cwL5PHg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
 You can turn standard drop-down menus into mega menus in the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/), as shown in this screenshot.
 
 ![](/img/set-up-a-mega-menu-14a64605.png)
