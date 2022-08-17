@@ -4,10 +4,13 @@ title: Use shortcodes in your layouts
 sidebar_label: Use shortcodes in your layouts
 ---
 
-You can insert Beaver Builder layouts as shortcodes into any text or text
-editor field, just like you do for any other WordPress shortcodes.
+You can insert Beaver Builder layouts as shortcodes into any text or text editor field, just like you do for any other WordPress shortcodes.
 
-:::info **Basics:**
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q1l8f7dO--Q" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
+
+:::info
 * WordPress shortcodes are macros that can create markup dynamically. For an introduction to WordPress shortcodes, see [the WordPress Codex](https://developer.wordpress.org/plugins/shortcodes/). Shortcodes can be recognized as a bit of code that lives between square brackets, such as `[fl_builder_insert_layout id="123"]`.
 * When you update the source content, the shortcode content is automatically updated.
 * You can use shortcodes in the WordPress editor or in Beaver Builder module settings fields that accept text, such as the **Heading** field of the Heading module.
