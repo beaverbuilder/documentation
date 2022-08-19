@@ -75,7 +75,7 @@ When you look at this layout on a small device, shown in Figure 5, you can see t
 *Figure 5: Four column groups with undesirable responsive behavior*   
 ![Four column groups with undesirable responsive behavior](/img/columns-overview-4-column-groups-mobile.jpg)
 
-You can correct this problem by moving the two images into the third columnn group as child columns, shown in Figure 6.
+You can correct this problem by moving the two images into the third column group as child columns, shown in Figure 6.
 
 *Figure 6: Two modules in the third column group to improve responsive behavior*   
 ![Two modules in the third column group to improve responsive behavior](/img/columns-overview-3-column-groups-adjusted-for-stacking.jpg)
