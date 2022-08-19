@@ -124,7 +124,7 @@ This example demonstrates how you can combine a Flexible Content field inside a 
 
 ## Group 
 
-This example demonstrates how you can combine a [Group](group.md) field inside a Repeater field.
+This example demonstrates how you can combine a Group field inside a Repeater field.
 
 ```markup
 [wpbb-acf-repeater name='repeater']
