@@ -8,7 +8,7 @@ The Part layout in Beaver Themer is used to display pieces of content in in vari
 
 ![](/img/themer-part-layout-type-eee5c85b.png)
 
-When the sale is over, simply turn off the Part layout at **Beaver Buider > Themer layouts**, and the sale banner disappears from view everywhere.
+When the sale is over, simply turn off the Part layout at **Beaver Builder > Themer layouts**, and the sale banner disappears from view everywhere.
 
 ![](/img/themer-part-layout-type-c14fd7b8.png)
 
