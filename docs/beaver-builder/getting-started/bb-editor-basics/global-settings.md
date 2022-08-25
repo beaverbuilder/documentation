@@ -159,10 +159,6 @@ In the Shapes tab, you can upload custom shapes without requiring custom coding 
 
 3. Paste your SVG code into the **SVG Code** option and save.  
 
-  :::info
-  You must reload the page and launch Beaver Builder again to see the custom shape in the row shape list.
-  :::
-
 4. When you open the row settings your custom shape will be available.  
 
   ![Custom Row Shape available in shape options](/img/beaver-builder/user-interface--global-settings--2.jpg)
