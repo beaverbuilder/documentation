@@ -29,7 +29,7 @@ Here is an example of the Beaver Themer Repeater field connection shortcode.
 
 ### Output Specific Row Field
 
-Using the Repeater field name and row index number, you can output the field from a specific Repeater row. 
+Using the Repeater field name and row index number, you can output the field from a specific Repeater row.
 
 ```markup
 <p>[wpbb post:acf name='repeater_0_fieldname']</p>
@@ -78,13 +78,13 @@ This example demonstrates how to use Beaver Themer conditional shortcodes with a
 [wpbb-acf-repeater name='my_repeater']
 
   [wpbb-if post:acf type='text' name='sub_field_text']
-  
+
     <p>[wpbb post:acf type='text' name='sub_field_text']</p>
-  
+
   [/wpbb-if]
-  
+
   [wpbb-if post:acf type='image' name='sub_field_img']
-  
+
     <img src="[wpbb post:acf type='image' name='sub_field_img' image_size='large' display='url']">
 
   [/wpbb-if]
@@ -103,14 +103,14 @@ This example demonstrates how you can combine a Flexible Content field inside a 
   <img src="[wpbb post:acf type='image' name='image-repeat' image_size='large' display='url']">
 
   [wpbb-acf-flex name='my_flexible_content']
-  
+
     [wpbb-acf-layout name='layout_1']
-  
+
       <p>[wpbb post:acf type='text' name='layout_1_text']</p>
       <img src="[wpbb post:acf type='image' name='layout_1_img' image_size='large' display='url']">
-  
+
     [/wpbb-acf-layout]
-  
+
   [/wpbb-acf-flex]
 
 [/wpbb-acf-repeater]
@@ -122,13 +122,13 @@ This example demonstrates how you can combine a Flexible Content field inside a 
 * `layout_1` is the name of your Flexible Content layout.
 * `layout_1_text` and `layout_1_img` are the names of your flexible content sub-fields.
 
-## Group 
+## Group
 
 This example demonstrates how you can combine a Group field inside a Repeater field.
 
 ```markup
 [wpbb-acf-repeater name='repeater']
-  
+
   [wpbb post:acf type='text' name='my_group_text']
 
 [/wpbb-acf-repeater]
@@ -145,7 +145,7 @@ The Repeater field connection shortcode supports repeater fields assigned to the
 [wpbb-acf-repeater type='archive' name='repeat']
 
   <p>[wpbb archive:acf type='text' name='firstname']</p>
-  
+
   <p>[wpbb archive:acf type='text' name='lastname']</p>
 
 [/wpbb-acf-repeater]
@@ -153,17 +153,17 @@ The Repeater field connection shortcode supports repeater fields assigned to the
 
 ## ACF Options page
 
-The Beaver Themer Repeater field connection shortcode also supports repeater fields added to the ACF [Options page](../options-page.md) by adding `type='option'` and `site:acf_option` to the field connection shortcode.
+The Beaver Themer Repeater field connection shortcode also supports repeater fields added to the ACF Options page by adding `type='option'` and `site:acf_option` to the field connection shortcode.
 
 ### Repeater
 
 ```markup
 [wpbb-acf-repeater type='option' name='repeat']
-  
+
   <p>[wpbb site:acf_option type='text' name='firstname']</p>
-  
+
   <p>[wpbb site:acf_option type='text' name='lastname']</p>
-  
+
 [/wpbb-acf-repeater]
 ```
 

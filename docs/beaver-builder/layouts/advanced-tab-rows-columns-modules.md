@@ -43,7 +43,7 @@ seconds.)
   For example, for reasons of accessibilityy you might want to use an HTML container tag that has more semantic value than a `<div` tag, such as `<section>`.
   * Add a CSS ID or class value to the row, column, or module.  
   ID names must be unique on a page, so assign an ID only when you need to reference that unique ID. For example, a link to an anchor on the page requires a unique anchor so it know exactly where to go. Class names are usually intended for reuse and are often used in CSS rules. For example, you might want to assign a different text size to all HTML headings with an `fl-heading` class.
-  * You can add a **Label** to your row, column, or modules to help identify their purpose in the Beaver Builder editor, such as in [Outline view](./beaver-builder/getting-started/bb-editor-basics/outline-panel.md/#add-a-label-that-displays-in-outline-view). For example, In the following screenshot, **Page Title** was added to **Advanced > HTML Element > Label** in a Heading module.  
+  * You can add a **Label** to your row, column, or modules to help identify their purpose in the Beaver Builder editor, such as in [Outline view](/beaver-builder/getting-started/bb-editor-basics/outline-panel.md/#add-a-label-that-displays-in-outline-view). For example, In the following screenshot, **Page Title** was added to **Advanced > HTML Element > Label** in a Heading module.  
   ![Label added to Advanced tab for Heading module](/img/advanced-tab-for-rows-columns-modules-2.png)
 
 :::tip **Tip**

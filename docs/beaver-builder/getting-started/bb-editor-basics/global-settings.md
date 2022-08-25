@@ -83,7 +83,7 @@ Enable or Disable the Responsive Layout settings, these include:
 * [Medium Device Breakpoint](#medium-device-breakpoint)
 * [Small Device Breakpoint](#small-device-breakpoint)
 * [Enable Col Max-width](#enable-column-max-width)
-* [Reverse Column Stacking Order](layouts/columns/reverse-column-stacking-order.md)
+* [Reverse Column Stacking Order](/beaver-builder/layouts/columns/reverse-column-stacking-order.md)
 
 When **Disabled** only [Bast Font Size](#base-font-size) is available.
 
@@ -134,7 +134,7 @@ The CSS and JavaScript tabs allow you to apply custom CSS and JavaScript globall
 ![Global Settings](/img/beaver-builder/user-interface--global-settings--1.jpg)
 
 :::tip
-[Debug Mode](settings/tools.md#debug-mode) lets you access any code you've added to the **Global Settings** CSS & JavaScript tabs, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
+Debug Mode lets you access any code you've added to the **Global Settings** CSS & JavaScript tabs, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
 :::
 
 ### CSS tab

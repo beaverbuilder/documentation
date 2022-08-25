@@ -44,9 +44,9 @@ when there are any unpublished changes, even from previous sessions.
 
 Click the Outline icon to open the Outline panel, which displays the layout structure in an outline format:
 
-![Outline panel in the Beaver Builder editor](/img/BB25-outline-panel.png) 
+![Outline panel in the Beaver Builder editor](/img/BB25-outline-panel.png)
 
-See [the article about the Outline panel](./beaver-builder/getting-started/bb-editor-basics/outline-panel.md) for more information about working with the Outline panel.
+See [the article about the Outline panel](/beaver-builder/getting-started/bb-editor-basics/outline-panel.md) for more information about working with the Outline panel.
 
 ### 6. The Content panel show/hide icon  
 Click **+** to expand and **x** to close.
