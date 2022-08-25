@@ -316,6 +316,7 @@
               ]
             },
             "beaver-builder/layouts/modules/pricing-table",
+            "beaver-builder/layouts/modules/reusable-blocks",
             {
               type: 'category',
               label: 'Search',
