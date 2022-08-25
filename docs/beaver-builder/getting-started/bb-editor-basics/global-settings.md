@@ -144,3 +144,25 @@ The **CSS** tab allows you add custom CSS that applies globally to your site. Yo
 ### JavaScript tab
 
 The **JavaScript** tab allows you add custom JavaScript that applies globally to your site. You can learn more from the [Custom JavaScript](/beaver-builder/styles/code/custom-javascript.md) article.
+
+## Custom Row Shapes
+
+In the Shapes tab, you can upload custom shapes without requiring custom coding so that you can select them from the list of available shapes when setting the top or bottom shape for a row.
+
+1. Click the **Edit Shape** or **Add New** button.
+
+2. Specify the name of your custom shape, which will appear in the top or bottom shape options in the row settings.  
+
+  :::tip
+  An SVG file defining a shape is required. An application or generator for vector graphics can be used if you need to create one.
+  :::
+
+3. Paste your SVG code into the **SVG Code** option and save.  
+
+  :::info
+  You must reload the page and launch Beaver Builder again to see the custom shape in the row shape list.
+  :::
+
+4. When you open the row settings your custom shape will be available.  
+
+  ![Custom Row Shape available in shape options](/img/beaver-builder/user-interface--global-settings--2.jpg)
