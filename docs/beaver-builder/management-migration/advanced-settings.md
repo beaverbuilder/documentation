@@ -30,10 +30,12 @@ Enable or disable the Outline Panel in the Beaver Builder user interface.
 Enable or disable the Inline Editing in the Beaver Builder overlay UI.
 
 :white_check_mark: Enabled by default.
-  
+
 ### Notification system
 
 Enable or disable the Notification system in the Beaver Builder user interface. When disabled you will not receive alerts for new posts on the [Beaver Builder blog](https://www.wpbeaverbuilder.com/blog/).
+
+![Enable or disable the Notification system](/img/beaver-builder/settings--advanced--2.jpg)
 
 :white_check_mark: Enabled by default.
 
@@ -47,11 +49,13 @@ By default, Beaver Builder remembers the last tab opened in the row, column, or 
 
 Enable or disable the custom row shapes tab from **Tools Menu > Global Settings**.
 
+![Enable or disable Custom Row Shapes](/img/beaver-builder/settings--advanced--3.jpg)
+
 :white_check_mark: Enabled by default.
 
 ### Limit WP revisions for layouts
 
-By default, does not limit the amount of revisions. Enabling this setting will limit revisions to 10 for Beaver Builder layouts.
+By default, does not limit the amount of revisions. Enabling this setting will limit revisions to `10` for Beaver Builder layouts.
 
 :x: Disabled by default.
 
@@ -61,6 +65,24 @@ Enable the `mod_security` fix which prevents 403 errors when using Beaver Builde
 
 :x: Disabled by default.
 
+### Small Data Mode
+
+When enabled, empty/blank options will not be saved to the database, reducing post meta data size by approximately 50%.
+
+:x: Disabled by default.
+
+### Node Labels
+
+When enabled, displays the node label and tooltip when hovering over the node settings icon and in the top right hand corner of the node outline overlay.
+
+:::info
+Outline Panel labels are not removed when the Node Labels option is disabled.
+:::
+
+![Enable or disable node labels](/img/beaver-builder/settings--advanced--4.jpg)
+
+:white_check_mark: Enabled by default.
+
 ## WP Admin
 
 The WP Admin section allows you to enable or disable Beaver Builder features from the WordPress user interface.
@@ -68,6 +90,8 @@ The WP Admin section allows you to enable or disable Beaver Builder features fro
 ### Allow pages to be sortable
 
 Enable or disable the Beaver Builder filter link found in the WordPress admin dashboard for pages, posts, and custom post types.
+
+![Enable or disable the Beaver Builder filter](/img/beaver-builder/settings--advanced--5.jpg)
 
 :white_check_mark: Enabled by default.
 
@@ -122,4 +146,3 @@ Enable or disable rendering of Beaver Builder assets inline. When enabled, inste
 This can be a solution to some rare caching issues, but in most cases you don’t need this enabled.
 
 :x: Disabled by default.
- 
