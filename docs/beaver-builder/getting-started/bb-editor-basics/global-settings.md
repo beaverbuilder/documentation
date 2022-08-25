@@ -125,7 +125,7 @@ When **Enabled**, columns assigned 50% width or less are limited to `max-width: 
 
 ### Base Font Size
 
-If **Font Size** in the [Typography](styles/typography/typography.md) settings is set to the `vh` or `vw` CSS unit the **Base Font Size** will be used to [calculate the font size](basics/typography.md#size).
+If **Font Size** in the [Typography](/beaver-builder/styles/typography/typography.md) settings is set to the `vh` or `vw` CSS unit the **Base Font Size** will be used to calculate the font size.
 
 ## CSS & JavaScript
 
@@ -139,8 +139,8 @@ The CSS and JavaScript tabs allow you to apply custom CSS and JavaScript globall
 
 ### CSS tab
 
-The **CSS** tab allows you add custom CSS that applies globally to your site. You can learn more from the [Custom CSS](styles/code/custom-css.md) article.
+The **CSS** tab allows you add custom CSS that applies globally to your site. You can learn more from the [Custom CSS](/beaver-builder/styles/code/custom-css.md) article.
 
 ### JavaScript tab
 
-The **JavaScript** tab allows you add custom JavaScript that applies globally to your site. You can learn more from the [Custom JavaScript](styles/code/custom-javascript.md) article.
+The **JavaScript** tab allows you add custom JavaScript that applies globally to your site. You can learn more from the [Custom JavaScript](/beaver-builder/styles/code/custom-javascript.md) article.
