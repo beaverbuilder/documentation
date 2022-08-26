@@ -126,7 +126,7 @@
     },
     {
       type: 'doc',
-      id: 'beaver-builder/2.6-beta',
+      id: 'beaver-builder/dev-preview',
     },
     {
       type: 'doc',
