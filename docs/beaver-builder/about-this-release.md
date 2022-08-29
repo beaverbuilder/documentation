@@ -7,7 +7,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-The Beaver Builder 2.6 is a pre-release. It contains several features that we’d like to get feedback about from developers before we commit to putting them in an Alpha release.
+Beaver Builder 2.6 includes the following new features and improvements.
 
 ## :rocket: New
 
