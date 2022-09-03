@@ -1268,10 +1268,9 @@
          type: 'category',
          label: 'Libraries',
          link: {
-            type: 'generated-index',
-            title: 'Libraries',
-            slug: '/assistant/cloud/libraries/',
-          },
+           type: 'doc',
+           id: 'assistant/cloud/libraries/index',
+            },
          items: [
            "assistant/cloud/libraries/create-library",
            "assistant/cloud/libraries/add-creative-assets",

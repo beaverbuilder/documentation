@@ -37,3 +37,7 @@ To install the Assistant Plugin from your site's WordPress admin dashboard:
 3. Click **Install Now**.
 
 ![Download from WordPress Admin Dashboard](/img/assistant/getting-started--installation--3.jpg)
+
+## WordPress Multisite
+
+You can install and use the Assistant plugin on [WordPress Multisite installations](https://wordpress.org/support/article/create-a-network/), either network-wide or on a per subsite basis.
