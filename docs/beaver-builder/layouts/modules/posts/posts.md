@@ -19,17 +19,25 @@ Using the Layout tab, you can customize the layout and control which elements ar
 
 ![Posts module layouts](/img/beaver-builder/modules--post-module--2.jpg)
 
-* **Columns**  
-  Posts are displayed in top-aligned rows. Title, metadata, and content appear under featured image. Columns layout lets you choose number of columns.
+#### Columns
 
-* **Masonry**  
-  Posts are displayed in columns but vertical spacing is fit to the height of the post (unless the equal heights setting is selected). Masonry layout lets you choose the width of each post in pixels.
+Posts are displayed in top-aligned rows. Title, metadata, and content appear under featured image. Columns layout lets you choose number of columns.
 
-* **Gallery**  
-  Post title and metadata are overlaid on the featured image and displayed on mouseover. There is no option to display content. if there is no featured image, an image icon is displayed. Gallery layout offers no options to set number of columns or post width.
+#### Masonry
 
-* **List**  
-  The posts are listed vertically in a single column.
+Posts are displayed in columns but vertical spacing is fit to the height of the post (unless the equal heights setting is selected). Masonry layout lets you choose the width of each post in pixels.
+
+#### Gallery
+
+Post title and metadata are overlaid on the featured image and displayed on mouseover. There is no option to display content. if there is no featured image, an image icon is displayed. Gallery layout offers no options to set number of columns or post width.
+
+:::tip
+It is recommended that all featured images have similar dimensions in order to achieve the best results and to maintain consistency
+:::
+
+#### List
+
+The posts are listed vertically in a single column.
 
 ### Post layout
 
@@ -51,12 +59,17 @@ Enables the Custom Post Layout Editor, allowing you to customize the post layout
 The Custom Post Layout Editor overrides whatever layout you select from the [Layout option](#layout).
 :::
 
-* **WooCommerce Classes**  
-  Available when **Custom** is selected and adds `woocommerce` and `woocommerce-page` classes to module wrapper.  
+#### WooCommerce Classes
 
-  ```markup
-  <div class="fl-module fl-module-post-grid fl-node-1234567890 woocommerce woocommerce-page">
-  ```
+Adds the `woocommerce` and `woocommerce-page` classes to module wrapper.
+
+:::caution
+Only available when **Custom** is selected.
+:::
+
+```markup
+<div class="fl-module fl-module-post-grid fl-node-123456789 woocommerce woocommerce-page">
+```
 
 ### Equal Heights
 
@@ -88,11 +101,11 @@ Masonry layout only.
 
 ### Post Spacing
 
-Distance between post border boxes horizontally and vertically, in pixels. The Post spacing value does not affect the spacing above the top layer of posts, but it does affect the spacing below the bottom layer of posts.
+Allows you to control the distance between the individual posts horizontally and vertically, in pixels. The Post spacing value does not affect the spacing above the top layer of posts, but it does affect the spacing below the bottom layer of posts.
 
 ### Post Padding
 
-Distance between a post's border and its text (the post title, metadata, and content). The featured image is not affected by this setting, so if there is a featured image the upper post padding occurs between the featured image and the post text.
+Allows you to control the padding inside the individual posts. The featured image is not affected by this setting, so if there is a featured image the upper post padding occurs between the featured image and the post text.
 
 ### Posts Element
 
@@ -103,7 +116,7 @@ Allows you to choose an appropriate HTML5 sectioning content element replacing t
 Allows you assign a custom class to the `<div class="fl-post-grid-post">`.
 
 ```markup title="Example"
-<div class="fl-post-grid-post my-custom-class"> <!-- Post Element Custom Class -->
+<div class="fl-post-grid-post my-custom-class"> <!-- Post Element Class -->
   <div class="fl-post-text">
     <h2 class="fl-post-title">Hello World</h2>
     <div class="fl-post-excerpt">
@@ -125,6 +138,10 @@ Default is `<h2>`.
 ### Featured Image
 
 Show or hide the post's featured image.
+
+:::tip
+It is recommended that all featured images have similar dimensions in order to achieve the best results and to maintain consistency.
+:::
 
 :::caution
 Available for all layouts except Gallery. Gallery layouts automatically use the featured image as the background image.
@@ -305,11 +322,13 @@ The Events Calendar options appear in the [Layout tab](#layout-tab) when the Eve
   Show or hide the event cost.
 
 * **Events Order By**  
+  The choices are: Default, Start Date, and End Date. Selecting **Default** uses the sorting option via the [Content tab](#content-tab).
 
 * **Events Order**  
+  Choose between descending or ascending.
 
 * **Show Events**  
-
+  The choices are: Future Events, Past Events, Todays Events, All Events, and [Featured Events](https://theeventscalendar.com/knowledgebase/k/featured-events/).
 
 ## Style tab
 
@@ -347,7 +366,7 @@ Set the color of the post title.
 
 ### Title Typography
 
-The [standard typography section](/beaver-builder/styles/typography/typography.md) applied to the post title.
+You can style the title of the post using the [Typography](/beaver-builder/styles/typography/typography.md) options, including font size, family, line height, and more.
 
 ### Post Info Color
 
@@ -359,7 +378,7 @@ By default the link color in the Post Info is set by the theme's accent color, i
 
 ### Post Info Typography
 
-The standard typography section applied to the post info.
+You can style the post info using the [Typography](/beaver-builder/styles/typography/typography.md) options, including font size, family, line height, and more.
 
 ### Content Color
 
@@ -367,7 +386,7 @@ Color of post content.
 
 ### Content Typography
 
-The standard typography section applied to the post content.
+You can style the content of the post using the [Typography](/beaver-builder/styles/typography/typography.md) options, including font size, family, line height, and more.
 
 ### Link Color
 
@@ -510,15 +529,17 @@ The choices are: **Author**, **Comment count**, **Date**, **Date last modified**
 
 ### Offset
 
-Enter an integer if you want to skip a certain number of posts in the order specified in the Order setting.
+The Offset option allows you to exclude a certain number of pages or posts from the Post module.
+
+For example, using the Offset option, you can skip the most recent post on your website on pages that use more than one Post module.
 
 ### Exclude Current Post
 
-Excludes the current post from the query. This is useful when you are using the module to create a list of related posts on a single post page.
+Excludes the current post from the query. This is useful when you are using the Post module to create a list of related posts on a single post page.
 
 ### Filter
 
-The Filter section allows you to include or exclude a set of posts, pages or products by title, taxonomy, and author.
+The Filter section allows you to include or exclude a set of posts, pages or custom post types by title, taxonomy, and author.
 
 Filter options vary depending on the post type selected. The post category and tag filters will not be available if you select Products (WooCommerce).
 
@@ -547,6 +568,50 @@ Start typing a word, and the filter options will display any title that matches 
 * **Tags** - Include or exclude posts assigned to a specific tag.
 
 * **Authors** - Include or exclude posts or pages by specific authors.
+
+### Custom Field Filter
+
+The Custom Field Filter section allows you to include or exclude a set of posts, pages or custom post types by custom field. You can add as many custom fields as you want.
+
+#### Relation
+
+The Relation option allows you to apply logic to filter by custom fields. The rules operate with `AND` or `OR` logic.
+
+#### Edit/Add Custom Field
+
+* **Label**  
+  Labels are used to identify custom fields. They appear in the Custom Field Filter section.
+
+* **Meta Key**  
+  Custom field key or field name.
+
+* **Meta Value**  
+  Custom field value.
+
+* **Type**  
+  A list of all available field types supported. Choose between:
+
+  * **Numeric**
+  * **Binary**
+  * **Text**
+  * **Date**
+  * **Date Time**
+  * **Decimal**
+  * **Signed**
+  * **Time**
+  * **Unsigned**
+
+* **Compare**  
+  You can use the Compare option to check whether or not the field value matches, or if it is greater than, less than, or the same as, depending on the comparison operator. Choose from the following operators:
+
+  * **Equals**
+  * **Does not equal**
+  * **Greater than**
+  * **Less than**
+  * **Greater than or equal to**
+  * **Less than or equal to**
+  * **Exists**
+  * **Not Exists**
 
 ## Pagination tab
 
@@ -647,7 +712,7 @@ This section appears when [Pagination Style](#pagination-style) is set to **Load
 
 There are all the usual Advanced tab settings for margins, visibility, animations, and advanced HTML settings.
 
-See the [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for more information.
+See the [Advanced tab](advanced-tab/index.md) for more information.
 
 ## Sticky Posts
 
