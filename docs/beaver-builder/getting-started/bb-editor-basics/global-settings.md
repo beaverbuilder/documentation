@@ -147,7 +147,7 @@ The **JavaScript** tab allows you add custom JavaScript that applies globally to
 
 ## Custom Row Shapes
 
-In the Shapes tab, you can upload custom shapes without requiring custom coding so that you can select them from the list of available shapes when setting the top or bottom shape for a row.
+In the Shapes tab, you can upload custom shapes without writing any code. When setting the top or bottom shape for a row, you can choose the custom shapes from the list.
 
 1. Click the **Edit Shape** or **Add New** button.
 
