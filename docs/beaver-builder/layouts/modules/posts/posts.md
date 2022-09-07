@@ -712,7 +712,7 @@ This section appears when [Pagination Style](#pagination-style) is set to **Load
 
 There are all the usual Advanced tab settings for margins, visibility, animations, and advanced HTML settings.
 
-See the [Advanced tab](advanced-tab/index.md) for more information.
+See the [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for more information.
 
 ## Sticky Posts
 

@@ -96,7 +96,7 @@ In the Style tab, you can change the color of the tab items, such as the text an
   :::
 
 * **Background Color**  
-  Set the background color for the Accordion label.
+  Set the background color for the tab.
 
 * **Border Color**  
   Set the border color.
@@ -143,4 +143,4 @@ In the Style tab, you can change the color of the tab items, such as the text an
 
 ## Advanced
 
-There are all the usual [Advanced tab](advanced-tab/index.md) settings for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) settings for margins, visibility, animations, and advanced HTML settings.

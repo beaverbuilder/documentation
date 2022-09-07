@@ -18,7 +18,7 @@ Click the Outline icon in the **Top Bar** to open the Outline panel, which lets 
 ![Outline panel icon in the Beaver Builder editor](/img/beaver-builder/user-interface--outline-panel--1.jpg)
 
 :::tip **Tip**
-The Outline panel doesn't have a drag handle, but you can remove its overlap on the layout with this trick. First display the Content panel and the [use the drag handle to pin it to the right of the layout](content-panel.md#drag-handle), then click the Outline panel icon. It then overlays the Content panel.
+The Outline panel doesn't have a drag handle, but you can remove its overlap on the layout with this trick. First display the Content panel and the [use the drag handle to pin it to the right of the layout](/beaver-builder/getting-started/bb-editor-basics/user-interface.md#8-drag-handle), then click the Outline panel icon. It then overlays the Content panel.
 :::
 
 ## Expand/Collapse
@@ -53,6 +53,6 @@ Right-click any entry to see a list of available options.
 
 ## Labels
 
-You can add a label via the [Advanced tab](advanced-tab/html-element.md#label) of a row, column, or module that helps to identify its purpose in Outline Panel tree view. In the following screenshot, the Outline panel shows the label **Hero Heading** that was added to a Heading module.
+You can add a label via the [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md#html-element-section) of a row, column, or module that helps to identify its purpose in Outline Panel tree view. In the following screenshot, the Outline panel shows the label **Hero Heading** that was added to a Heading module.
 
 ![Labels displayed in Outline panel](/img/beaver-builder/user-interface--outline-panel--2.jpg)
