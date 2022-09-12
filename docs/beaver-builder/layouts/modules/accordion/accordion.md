@@ -74,9 +74,7 @@ To add more accordion items, click the **Add Item** button.
 
 #### Label
 
-Enter a name for your accordion item. This is used both as the accordion item title and in the Beaver Builder user interface to identify the item.
-
-Enter a name for your accordion item. This appears in the Accordion module settings panel to identify the item and on the frontend
+Enter a name for your accordion item. This appears in the Accordion module settings panel to identify the item and on the frontend.
 
 #### Content Type
 
