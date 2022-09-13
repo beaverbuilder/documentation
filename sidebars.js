@@ -133,10 +133,6 @@
       id: 'beaver-builder/about-this-release',
     },
     {
-      type: 'doc',
-      id: 'beaver-builder/known-issues',
-    },
-    {
       type: 'category',
       label: 'Getting Started',
       items: [
