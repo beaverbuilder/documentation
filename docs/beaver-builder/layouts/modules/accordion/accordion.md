@@ -5,159 +5,177 @@ sidebar_label: Accordion
 description: The Accordio module adds expandable and collapsible title-content pairs. This module works well for content such as FAQs, Q&A, feature lists.
 ---
 
-An accordion displays a list of items as title-content pairs, as shown in the
-screenshot below. When the accordion is collapsed, only the titles are
-displayed. When one or more items in the accordion are expanded, usually by
-clicking an icon, the paired content is displayed.
+The Accordion module lets you present a variety of content by expanding and collapsing the text, saving space while maintaining a professional appearance.
 
-![](/img/accordion-1.png)
+![Accordion module](/img/beaver-builder/modules--accordion--1.jpg)
 
-In the Beaver Builder Accordion module, the first row of each item contains
-the button label (the title) and button icon, and the expanded portion
-contains the content. Currently active items in the Accordion are marked in
-the rendered HTML output to improve accessibility by screen readers.
+## Usage
 
-## Uses of this module
-
-An accordion is great for whenever you have a list of items with details that
-you don't want to clutter the main page with but want the information easily
-accessible. Here are some good uses for the Accordion module:
+An accordion is great for whenever you have a list of items with details that you don't want to clutter the main page with but want the information easily accessible. Here are some good uses for the Accordion module:
 
 * FAQs
 * Q&A
-* Feature lists
+* Feature Lists
 
 <div className="embed-responsive">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W8PkT4fMoNs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
-##  Properties of the Accordion module
+## Items tab
 
-  * The Accordion module contains a set of items that you construct, as shown in this screenshot.  
-![](/img/accordion-2.png)  
-Each item has
+In the Items section, you can add, edit, and remove accordion content items.
 
-  * The module has a **Style** tab, which you can use to style all of the items the same way. See the section below on the **Style** tab.
-  * Each item includes a **Label** field and a Text Editor box for the content field. The **Label** field can include HTML tags, such as heading tags, for individual styling, images, and. The Text Editor box for content has the usual style options.
+### Content Source
 
-:::note **Tip:**
-You can make the layout in Accordion items more interesting by
-inserting the shortcode for a saved row or module into the text editor portion
-of an item. See the [article on shortcodes](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md) for more information.
+The content source allows you to determine what content is displayed. You can choose between posts and custom content.
+
+#### Post
+
+The Post content source option allows you to automatically populate the Accordion module with pages, posts, or custom post types.
+
+:::caution
+* The post title becomes the item label of the Accordion item.
+* The featured image does not appear in the Accordion item.
+* Post info (author, date, categories, or tags) is not displayed.
 :::
 
-## Example of expanding a text excerpt
+* **Post Type**  
+  Select the post type you wish to populate the Accordion module with. You can choose pages, posts, or a custom post type, such as WooCommerce Products or a custom post type that you created yourself.
 
-Here's an example to show how the Accordion module can be used to display a
-text excerpt, with a Read More link that expands into a longer description.
-The default plus sign has been replaced by the three dots that indicate an
-ellipsis.
+* **Posts Per Page**  
+  Determines how many accordion items are created. Each item contains one page, post, or custom post type. The default is 5.
 
-![](/img/accordion-3.gif)
+* **Order**  
+  Choose between descending or ascending.
 
-This technique works best when you have static content (not updated on a
-regular basis) because it requires manual setup.
+* **Order By**  
+  The choices are: Author, Comment count, Date, Date last modified, ID, Menu order, Meta value (alphabetic or numeric), Random, Title, Selection order.
 
-The trick is to put the first part into the **Label** field including the
-'read more" text, and the expanded portion into the Text Editor, as shown in
-the following screenshot. The "read more" text is set off with `<em>` tags in
-the **Label** field. In this example, the default plus icon to expand the
-content was changed to Font Awesome ellipsis icon in the **Icon** section of
-the **Style** tab.
+  See the [Order By](/beaver-builder/layouts/modules/posts/posts.md#order-by)  section in the Post module for more information.
 
-![](/img/accordion-4.png)
+* **Filter By**  
+  The Filter section allows you to include or exclude a set of posts, pages or products by title, taxonomy, and author.
 
-## Module details
+  See the [Filter](/beaver-builder/layouts/modules/posts/posts.md#filter) section in the Post module article for more information regarding the filter options.
 
-### Items tab
+#### Custom Content
 
-The Items tab contains the following sections and fields.
+The Custom Content source option allows you to add your own content using the WordPress classic editor or populate the accordion item with content from a saved row, column, module, or template.
 
-#### Items section
+### Edit items
 
-The Items section is shown in the following screenshot.
+When you first add an Accordion module to your layout, a blank item will be created for you to edit. To edit an item, click the **Edit Items** link.
 
-![](/img/accordion-5.png)
+![Edit accordion items](/img/beaver-builder/modules--accordion--2.jpg)
 
-This section contains the items you have created, with a button to add each
-new item. Use the icons at the top of each item to do the following:
+### Add items
 
-  * Move the item up or down in the list
-  * Duplicate the item
-  * Delete the item
+To add more accordion items, click the **Add Item** button.
 
-#### Display section
+#### Label
 
-This section contains the following fields:
+Enter a name for your accordion item. This appears in the Accordion module settings panel to identify the item and on the frontend.
 
-  * Collapse inactive  
-By default set to **Yes**, which allows only one item to be expanded at a
-time. Change to **No** to allow more than one item to be expanded,
+#### Content Type
 
-  * Expand first item  
-By default set to **No**. If set to **Yes**, the first item will be expanded
-on the first view, before the user clicks to expand anything.
+The choices are: Saved Row, Saved Column, Saved Module, Saved Template, and Custom Content. The Saved content drop down menu automatically lists all previously saved rows, columns, modules, or templates when you select Saved content.
 
-:::note **Note**
-After you save a label and text in the first item of the Accordion
-module, it remains open in the editing screen even when the **Expand first
-item** field is set to **No**. This is so that you can see the style settings
-while editing. The published page correctly follows the **Expand first item**
-setting.
+The Custom Content option allows you to add your own content using the WordPress classic editor.
+
+:::caution
+Shortcodes used too frequently on the same page or post may [impact performance](/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-performance.md).
 :::
 
-### Style tab
+#### Content
 
-The **Style** tab is divided into four sections, shown in the following
-screenshot and described below.
+Use the WordPress classic editor to add text to your accordion item. You can also add images using the **Add Media** button.
 
-![](/img/accordion-6.png)
+### Item Actions
 
-#### 1 Top section
+Each accordion item has a set of icons which perform the following actions:
 
-The top section has settings that style the item layout, with settings for
-item size, item spacing (the vertical space between items), and item border.
-The border settings use the new responsive **Border** section common to other
-modules.
+* Move (drag & drop into position)
+* Duplicate the item
+* Delete the item
 
-The **Item size** field has the choices **Small**, **Medium**, and
-**Large**. This setting functions like a preset and controls padding of the
-item and in some cases font size, as shown in the following table. When the
-font size is the default (in other words the font size set by the theme), then
-font size is controlled by this preset. If you set a specific font size for
-the label or content in the **Typography** section on this tab, then that
-custom size overrules the preset.
+![Accordion item actions](/img/beaver-builder/modules--accordion--3.jpg)
 
-Settings  |  Small  |  Medium  |  Large  
----|---|---|---  
-Label padding  |  Top 10px Right 15px Bottom 10px Left 15px  |  Top 15px Right 20px Bottom 15px Left 20px  |  Top 20px Right 25px Bottom 20px Left 25px  
-Content padding  |  Top 0px Right 30px Bottom 10px Left 15px  |  Top 0px Right 40px Bottom 15px Left 20px  |  Top 0px Right 50px Bottom 25px Left 25px  
-Font size (when font size is default set by theme)  |  Default  |  20px  | 26px  
+### Display
 
-#### **2 Label** section
+The Display section contains the following options:
 
-Controls the styling of the item labels, which appear when the item is
-collapsed.
+* **Collapse inactive**  
+  By default set to Yes, which allows only one item to be expanded at a time. Change to No to allow more than one item to be expanded,
 
-:::note **Note**
-Accordion labels are not marked as headings in the rendered output
-and without any custom settings use the default text font and size. You can
-customize text font and size in the **Text > Text typography** section.
+* **Expand first item**  
+  By default set to No. If set to Yes, the first item will be expanded on the first view, before the user clicks to expand anything.
+
+:::info
+After you save a label and text in the first item of the Accordion module, it remains open in the editing screen even when the Expand first item field is set to No. This is so that you can see the style settings while editing. The published page correctly follows the Expand first item setting.
 :::
 
-####  **3 Icon** section
+## Style tab
 
-Customize the icon that appears to expand and collapse the items.
+In the Style tab, you can change the color of the accordion items, such as the text and icon color, the border color, and more.
 
-####  **4 Content** section
+### Item
 
-Controls the text that appears when the item is expanded.
+* **Item Size**  
+  Changes the Accordion item size with specific padding values.
 
-### Advanced tab
+  * **Small** - Sets the padding to `10px 15px`.
+  * **Medium** - Sets the padding to `15px 20px`.
+  * **Large** - Sets the padding to `20px 25px`.
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+* **Item Spacing**  
+  Control the spacing between accordion items.
 
-## Related modules
+* **Item Border**  
+  The Border section has settings for border, radius, and shadow.
 
-  * The [Tabs module](/beaver-builder/layouts/modules/tabs/tabs.md), which would display the labels as horizontal or vertical tabs.
-  * The [Menu module](/beaver-builder/layouts/modules/menu/menu.md), in which each item could link to details on a different page.
+  See the [Borders](/beaver-builder/styles/effects/borders.md) article for more information.
+
+### Label
+
+* **Text Color**  
+  Set the text color of the Accordion label.
+
+* **Background Color**  
+  Set a background color for Accordion label.
+
+* **Padding**  
+  Set a specific padding value in pixels for the accordion label. Click the Link Value icon to automatically make all four padding values the same.
+
+* **Typography**  
+  Set the font size, family, line-height and more for the Accordion label. See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
+
+### Icon
+
+* **Icon Position**  
+  Set the position of the accordion expand and collapse icons. The Left option positions the icon before the accordion label.
+
+  The default is **Right**.
+
+* **Icon**  
+  Choose a custom icon that replaces the default <i className="fas fa-plus"></i> icon.
+
+* **Active Icon**  
+  Choose a custom icon that replaces the default <i className="fas fa-minus"></i> icon.
+
+### Content
+
+* **Text Color**  
+  Set the text color of the Accordion content.
+
+* **Background Color**  
+  Set a background color for Accordion content.
+
+* **Padding**  
+  Set a specific padding value in pixels for the accordion content. Click the Link Value icon to automatically make all four padding values the same.
+
+* **Typography**  
+  Set the font size, family, line-height and more for the Accordion content. See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
+
+## Advanced
+
+There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) settings for margins, visibility, animations, and advanced HTML settings.

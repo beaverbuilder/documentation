@@ -126,7 +126,7 @@
     },
     {
       type: 'doc',
-      id: 'beaver-builder/2.6-beta',
+      id: 'beaver-builder/dev-preview',
     },
     {
       type: 'doc',
@@ -153,6 +153,7 @@
             "beaver-builder/getting-started/bb-editor-basics/user-interface",
             "beaver-builder/getting-started/bb-editor-basics/tools-menu",
             "beaver-builder/getting-started/bb-editor-basics/outline-panel",
+            "beaver-builder/getting-started/bb-editor-basics/global-settings",
             "beaver-builder/getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title",
             "beaver-builder/getting-started/bb-editor-basics/alignment",
             "beaver-builder/getting-started/bb-editor-basics/inline-editing",
@@ -316,6 +317,7 @@
               ]
             },
             "beaver-builder/layouts/modules/pricing-table",
+            "beaver-builder/layouts/modules/reusable-blocks",
             {
               type: 'category',
               label: 'Search',
@@ -496,6 +498,8 @@
       items: [
         "beaver-builder/management-migration", // Index
         "beaver-builder/management-migration/settings-overview",
+        "beaver-builder/management-migration/advanced-settings",
+        "beaver-builder/management-migration/import-export-settings",
         "beaver-builder/management-migration/limit-page-post-lists-to-bb-layouts",
         "beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder",
         "beaver-builder/management-migration/control-user-access-by-role",
@@ -1264,10 +1268,9 @@
          type: 'category',
          label: 'Libraries',
          link: {
-            type: 'generated-index',
-            title: 'Libraries',
-            slug: '/assistant/cloud/libraries/',
-          },
+           type: 'doc',
+           id: 'assistant/cloud/libraries/index',
+            },
          items: [
            "assistant/cloud/libraries/create-library",
            "assistant/cloud/libraries/add-creative-assets",
