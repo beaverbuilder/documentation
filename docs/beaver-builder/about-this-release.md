@@ -72,6 +72,8 @@ There are two dynamic data features in the Tabs and Accordion modules.
 
 `Null` options aren’t saved in the database. If a node setting is not set or is `null` the setting does not get saved to the database reducing the post meta data size by about 50%.
 
+By default, this option is disabled; to enable it, visit the [Advanced settings page](/beaver-builder/management-migration/advanced-settings.md).
+
 ### Duplicate Page - WordPress Admin Bar
 
 A Duplicate Page option has been added to the Beaver Builder drop-down menu in the WordPress Admin Bar.
