@@ -25,6 +25,25 @@ If you'd like to remove this Beaver Builder display filter link, add the followi
 add_filter( 'fl_builder_admin_edit_sort_bb_enabled', '__return_false' );
 ```
 
+## Filter to add a mail service to the Subscribe module
+
+**Filter:** `fl_builder_subscribe_form_services`
+
+The fl_builder_subscribe_form_services filter lets you add a service to the list displayed in the Subscribe Form module. Here's an example.
+
+```php
+function bb_subscribe_form_custom_service( $services ) {
+	$services['convertkit_custom'] = array(
+		'type'  => 'autoresponder',
+		'name'  => 'ConvertKitCustom',
+		'class' => 'FLBuilderServiceConvertKitCustom',
+		'file' 	=> FL_CHILD_THEME_DIR.'/classes/class-fl-builder-service-convertkit.php',
+	);
+	return $services;
+}
+add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
+```
+
 ## Always open first tab in row/column/module settings
 
 **Filter:** `fl_remember_settings_tabs_enabled`
