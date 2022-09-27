@@ -44,6 +44,25 @@ function bb_subscribe_form_custom_service( $services ) {
 add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
 ```
 
+## Lightbox & Special Characters
+
+**Filter:** `fl_photocaptionregex`
+
+The Beaver Builder lightbox supports a limited number of special characters as a security measure.  
+ Default allowed characters: `'":() !.,-_|`
+
+In the example below, the `$` Dollar and `£` Pound Sterling are added to the list of allowed characters.
+
+```php
+add_filter('fl_photocaptionregex', function( $regex ) {
+  return 'a-zA-Z0-9\$£';
+});
+```
+
+:::tip
+`$` Dollar is a regex control character, so it must be escaped.
+:::
+
 ## Always open first tab in row/column/module settings
 
 **Filter:** `fl_remember_settings_tabs_enabled`
