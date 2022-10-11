@@ -12,7 +12,7 @@ A Beaver Themer layout will not appear if Beaver Builder is already active on a 
 
 ## 2. Themer Override
 
-You can use Beaver Builder to either override the Beaver Themer layout or edit only the Post Content module.
+You can use Beaver Builder to either override the Beaver Themer layout or edit only the post content.
 
 If you use the Override Layout option, you can revert back to the Beaver Themer Singular layout by navigate to the WordPress Edit Screen for your page or post and switch to the WordPress Editor. When you return to the page or post, the Beaver Themer layout should now be applied.
 
