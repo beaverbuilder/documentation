@@ -6,8 +6,7 @@ sidebar_label: Do I lose my work if I don't renew my subscription?
 
 
 Our annual subscription fees are there so we can continue to provide you with
-updates and outstanding support. (See our [Terms and Conditions](https://www.wpbeaverbuilder.com/terms-and-conditions/).) Also
-don't forget the great discount we offer at renewal time.
+updates and outstanding support. (See our [Terms and Conditions](https://www.wpbeaverbuilder.com/terms-and-conditions/).)
 
 Here's what happens if you choose not to renew and your license expires. You
 can't download Beaver Builder products anymore, but you can continue to

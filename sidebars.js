@@ -81,7 +81,6 @@
         "general/faq/can-i-include-beaver-builder-as-part-of-my-hosted-website-builder-platform",
         "general/faq/can-you-build-my-website-for-me",
         "general/faq/does-beaver-builder-support-third-party-widgets",
-        "general/faq/will-my-license-renew-automatically",
         "general/faq/is-there-a-marketplace-for-selling-our-custom-modules-or-extensions",
         "general/faq/can-i-try-beaver-builder-before-i-buy-it",
         "general/faq/i-tried-the-demo-but-what-other-settings-are-there",
