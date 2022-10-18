@@ -44,7 +44,7 @@ The post title becomes the item label of the Tabs item.
   See the [Order By](/beaver-builder/layouts/modules/posts/posts.md#order-by)  section in the Post module for more information.
 
 * **Filter By**  
-  The Filter section allows you to include or exclude a set of posts, pages or products by title, taxonomy, and author.
+  The Filter section allows you to include or exclude a set of posts, pages or custom post types by title, and taxonomy.
 
   See the [Filter](/beaver-builder/layouts/modules/posts/posts.md#filter) section in the Post module article for more information regarding the filter options.
 
