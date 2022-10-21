@@ -20,12 +20,12 @@ To provide feedback, click the **Dev feedback** button in the upper right corner
 ![Dev feedbback button in the Beaver Builder editor](/img/beaver-builder/dev-preview--1.jpg)
 
 :::warning
-Using alpha releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
+Using dev, alpha, and beta releases in a production environment is highly discouraged. The risk of bugs is high and features can be changed or removed based on testing and feedback.
 :::
 
 ## New Responsive Editing Experience
 
-Prior to Beaver Builder 3.0, the responsive editor provided an approximation of how your website would look on a mobile device and worked similarly to resizing a browser window. The new responsive editor uses an iframe. This should provide a better user experience, not only in terms of accuracy, but also in terms of ease of use.
+Prior to Beaver Builder 2.7, the responsive editor provided an approximation of how your website would look on a mobile device and worked similarly to resizing a browser window. The new responsive editor uses an iframe. This should provide a better user experience, not only in terms of accuracy, but also in terms of ease of use.
 
 :::tip
 If you prefer the previous responsive editing experience, you can disable the new experience using a toggle in the Advanced Settings.
