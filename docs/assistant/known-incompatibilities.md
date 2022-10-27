@@ -12,7 +12,7 @@ The Assistant plugin has been developed to work with almost any theme and allows
 
 ### Astra
 
-Astra theme settings are coded in such a way that the Assistant plugin is not able to apply them.
+Astra theme and Astra child theme settings are coded in such a way that the Assistant plugin is not able to apply them.
 
 ### Genesis Framework
 
