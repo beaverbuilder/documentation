@@ -27,21 +27,20 @@ used in MySQL queries, can be interpreted as a security threat and produce a
 
 ## Solution
 
-Often your web hosting provider or server administrator can resolve this
-issue, or you can try this solution.
+Often your web hosting provider or server administrator can resolve this issue, or you can try this solution by enabling the **Mod Security fix** found in the **WordPress Admin Dashboard > Settings > Beaver Builder > Advanced**.
 
-  * Add the following line to the _wp-config.php_ file in your WordPress home directory:
+This causes the request to be base64-encoded so modsec sees the offending tags and text as binary data and allows it to pass through.
+
+:::info
+You can also add the following line to the *wp-config.php* file in your WordPress home directory:
 
 ```php
 define( 'FL_BUILDER_MODSEC_FIX', true );
 ```
 
-This line causes the request to be base64-encoded so modsec sees the offending
-tags and text as binary data and allows it to pass through.
+This line can go in a child theme _functions.php_ in some cases, but we recommend that you put it in _wp-config.php_.
+:::
 
-:::note **Note**
-This line can go in a child theme _functions.php_ in some cases, but we
-recommend that you put it in _wp-config.php_. If you've tried adding it to
-_wp-config.php_ and _functions.php_ in your child theme and it doesn't resolve
-the issue, contact your hosting provider or Beaver Builder Support.
+:::caution
+If you've tried enabling the **Mod Security fix** and adding it to _wp-config.php_ and _functions.php_ in your child theme and it doesn't resolve the issue, contact your hosting provider or Beaver Builder Support.
 :::
