@@ -83,6 +83,14 @@ Outline Panel labels are not removed when the Node Labels option is disabled.
 
 :white_check_mark: Enabled by default.
 
+### Render shortcodes in CSS/JS
+
+When enabled, allows you to use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
+
+See the [Use shortcodes in CSS or JS](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-tools-menu-css-or-js.md) article for more information.
+
+:x: Disabled by default.
+
 ## WP Admin
 
 The WP Admin section allows you to enable or disable Beaver Builder features from the WordPress user interface.
