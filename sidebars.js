@@ -1306,5 +1306,6 @@
        },
      ],
    },
+   "assistant/known-incompatibilities",
  ],
 };
