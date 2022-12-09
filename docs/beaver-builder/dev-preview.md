@@ -23,7 +23,7 @@ Using dev, alpha, and beta releases in a production environment is highly discou
 
 ## New Responsive Editing Experience
 
-Prior to Beaver Builder 2.7, the responsive editor provided an approximation of how your website would look on a mobile device and worked similarly to resizing a browser window. The new responsive editor uses an iframe. This should provide a better user experience, not only in terms of accuracy, but also in terms of ease of use.
+Prior to Beaver Builder 2.7, the responsive editor provided an approximation of how your website would look on a mobile device and worked similarly to resizing a browser window. The new responsive editor uses an iframe. This should provide a better user experience, not only in terms of accuracy, but also ease of use.
 
 ### Features
 
