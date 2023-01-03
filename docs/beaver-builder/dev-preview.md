@@ -34,7 +34,7 @@ Prior to Beaver Builder 2.7, the responsive editor provided an approximation of 
 
 ## Visibility UI (Breakpoint)
 
-To improve the user experience, the Breakpoint dropdown menu in the Advanced tab has been replaced with icons. Now you can toggle the device icons in your layout to determine when rows, columns, or modules appear.
+To improve the user experience, the Breakpoint dropdown menu in the Advanced tab has been replaced with icons. Now you can toggle the device icons to determine when rows, columns, or modules appear.
 
 ## Per-node CSS & JavaScript
 
@@ -43,7 +43,7 @@ Added an option called **Enable Code Settings** to **WordPress Admin Dashboard >
 When enabled, a new CSS and JS section becomes available on the Advanced tab for the specific node (row, column, and module) you are working on. All CSS and JavaScript is automatically scoped to that particular node.
 
 :::tip
-In the Outline Panel, a new code (<i className="fas fa-code"></i>) icon appears when custom CSS or JavaScript has been added to a node (row, column, or module).
+In the Outline Panel, a new code (<i className="fa-solid fa-code"></i>) icon appears when custom CSS or JavaScript has been added to a node (row, column, or module).
 :::
 
 :::caution
@@ -53,3 +53,11 @@ Disabled by default.
 ## Accordion & Tab - Post Type Multi-select
 
 Add support for Multi-select of post types, allowing you to select one or more post types. For example, you can display both posts and pages.
+
+## ACF Blocks Integration
+
+Add integration with ACF Pro Blocks so that you can use them inside the BB UI.
+
+:::info
+Check out our [sample plugin](https://github.com/beaverbuilder/bb-example-acf-blocks) for how to use this integration (Documentation Coming Soon).
+:::
