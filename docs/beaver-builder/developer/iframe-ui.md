@@ -178,24 +178,24 @@ win.FooBar = FooBar
 ## Frontend Code Reference
 
 * `FLBuilder.UIIFrame.isEnabled`
-Returns `TRUE` if the iFrame UI is enabled. The legacy UI is enabled if this returns `FALSE`.
+  Returns `TRUE` if the iFrame UI is enabled. The legacy UI is enabled if this returns `FALSE`.
 
 * `FLBuilder.UIIFrame.isUIWindow`
-Returns `TRUE` if the script is currently executing in the parent window that renders the builder's UI.
+  Returns `TRUE` if the script is currently executing in the parent window that renders the builder's UI.
 
 * `FLBuilder.UIIFrame.isIFrameWindow`
-Returns `TRUE` if the script is currently executing in the iframe window.
+  Returns `TRUE` if the script is currently executing in the iframe window.
 
 * `FLBuilder.UIIFrame.getIFrameWindow`
-Returns the iframe's window object. Falls back to the current window for the legacy UI.
+  Returns the iframe's window object. Falls back to the current window for the legacy UI.
 
 ## Backend Code Reference
 
 * `FLBuilderUIIFrame::is_enabled`
-Returns `TRUE` if the iFrame UI is enabled. The legacy UI is enabled if this returns `FALSE`.
+  Returns `TRUE` if the iFrame UI is enabled. The legacy UI is enabled if this returns `FALSE`.
 
 * `FLBuilderUIIFrame::is_ui_request`
-Returns `TRUE` if the current request is for the iframe's parent window.
+  Returns `TRUE` if the current request is for the iframe's parent window.
 
-* `FLBuilderUIIFrame::is_iframe_request`
-Returns `TRUE` if the current request is for what should load in the iframe.
+* `FLBuilderUIIFrame::is_iframe_request`  
+  Returns `TRUE` if the current request is for what should load in the iframe.
