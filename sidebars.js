@@ -629,6 +629,7 @@
             "beaver-builder/developer/custom-modules/cmdg-19-localization",
           ]
         },
+        "beaver-builder/developer/iframe-ui",
         {
           type: 'category',
           label: "How to's & Tips",
