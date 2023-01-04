@@ -27,7 +27,7 @@ The iframe currently contains the entire page and the builder. When the builder 
 
 If the `fl_builder_ui` `GET` variable is present, the iframe UI will intercept the `template_redirect` hook and render a custom HTML document with only the necessary information to render the iframe.
 
-The iframe UI works by intercepting the `template_redirect` hook and rendering a custom HTML document with only what's needed to render the iframe when the `fl_builder_ui` `GET` variable is present.
+The iframe UI works by intercepting the `template_redirect` hook and rendering a custom HTML document with only what's needed to render the iframe when the `fl_builder_ui` `GET` variable is present. 
 
 As the iframe loads the same page, the builder knows to load the iframe's content rather than the iframe's parent by including the `fl_builder_ui_iframe` `GET` variable. This allows the builder to send AJAX requests from both the parent and the child because the URL is the same.
 
@@ -129,7 +129,7 @@ TinyMCE is one of the scripts that's loaded in both the iframe and parent window
 
 ```php
 add_action( 'fl_builder_ui_enqueue_scripts', function() {
-    // Enqueue builder UI assets.
+		// Enqueue builder UI assets.
 } );
 ```
 
@@ -177,24 +177,24 @@ win.FooBar = FooBar
 
 ## Frontend Code Reference
 
-* `FLBuilder.UIIFrame.isEnabled`
+* `FLBuilder.UIIFrame.isEnabled`  
   Returns `TRUE` if the iFrame UI is enabled. The legacy UI is enabled if this returns `FALSE`.
 
-* `FLBuilder.UIIFrame.isUIWindow`
+* `FLBuilder.UIIFrame.isUIWindow`  
   Returns `TRUE` if the script is currently executing in the parent window that renders the builder's UI.
 
-* `FLBuilder.UIIFrame.isIFrameWindow`
+* `FLBuilder.UIIFrame.isIFrameWindow`  
   Returns `TRUE` if the script is currently executing in the iframe window.
 
-* `FLBuilder.UIIFrame.getIFrameWindow`
+* `FLBuilder.UIIFrame.getIFrameWindow`  
   Returns the iframe's window object. Falls back to the current window for the legacy UI.
 
 ## Backend Code Reference
 
-* `FLBuilderUIIFrame::is_enabled`
+* `FLBuilderUIIFrame::is_enabled`  
   Returns `TRUE` if the iFrame UI is enabled. The legacy UI is enabled if this returns `FALSE`.
 
-* `FLBuilderUIIFrame::is_ui_request`
+* `FLBuilderUIIFrame::is_ui_request`  
   Returns `TRUE` if the current request is for the iframe's parent window.
 
 * `FLBuilderUIIFrame::is_iframe_request`  
