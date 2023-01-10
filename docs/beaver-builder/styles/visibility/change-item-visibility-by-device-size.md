@@ -11,7 +11,10 @@ By default, every row, column, and module is visible on every device size, but y
 Using the device toggle icons, you can quickly select which devices display or hide a row, column, or module. Simply click the device icon to toggle whether the element is displayed (blue) or hidden (gray) for those devices.
 
 ![Device Toggle Icons](/img/beaver-builder/advanced-tab--visibility--1.jpg)
-*The **Stacking Order** option is only available for columns.*
+
+:::info
+The **Stacking Order** option is only available for columns.
+:::
 
 You can choose one of the following device toggle icons:
 
