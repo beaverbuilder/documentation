@@ -25,8 +25,6 @@ The iframe currently contains the entire page and the builder. When the builder 
 
 ### Loading the UI
 
-If the `fl_builder_ui` `GET` variable is present, the iframe UI will intercept the `template_redirect` hook and render a custom HTML document with only the necessary information to render the iframe.
-
 The iframe UI works by intercepting the `template_redirect` hook and rendering a custom HTML document with only what's needed to render the iframe when the `fl_builder_ui` `GET` variable is present. 
 
 As the iframe loads the same page, the builder knows to load the iframe's content rather than the iframe's parent by including the `fl_builder_ui_iframe` `GET` variable. This allows the builder to send AJAX requests from both the parent and the child because the URL is the same.
@@ -43,7 +41,7 @@ See `FLBuilderUIIFrame::enqueue_scripts` in `classes/fl-builder-ui-iframe.php` f
 
 ### Loading Styles
 
-In order to provide a consistent UI for the iframe and the parent window, styles are loaded in both. The reason for this is that the styles for the iframe (mainly overlays) and the parent window UI (toolbar, settings, etc.) are all combined within a few files and plugins, if you have Beaver Themer installed.
+In order to provide a consistent UI for the iframe and the parent window, styles are loaded in both. The reason for this is that the styles for the iframe (mainly overlays) and the parent window UI (toolbar, settings, etc.) are all combined within a few files and plugins, especially if you have Beaver Themer installed.
 
 It is currently necessary to load those stylesheets in both the iframe and parent window so that they can be applied to elements rendered in both. Third-party developers may also encounter this issue since we recommend enqueuing builder assets using `wp_enqueue_scripts` and checking `FLBuilderModel::is_builder_active`.
 
@@ -142,7 +140,6 @@ The iframe UI can be disabled with a filter or by going to **Admin > Settings > 
 ```php
 add_filter( 'fl_builder_iframe_ui_enabled', '__return_false' );
 ```
-
 
 ## Migrating Existing Code
 
