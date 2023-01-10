@@ -19,16 +19,16 @@ The **Stacking Order** option is only available for columns.
 You can choose one of the following device toggle icons:
 
 * **Extra Large Device**  
-  The element will only be visible or hidden for desktop computers or TVs with a browser.
+  The element will be visible or hidden for desktop computers or TVs with a browser.
 
 * **Large Device**  
-  The element will only be visible or hidden for small desktop computers, laptops, and landscape tablets.
+  The element will be visible or hidden for small desktop computers, laptops, and landscape tablets.
 
 * **Medium Device**  
-  The element will only be visible or hidden for devices like small tablets.
+  The element will be visible or hidden for devices like small tablets.
 
 * **Small Device**  
-The element will only be visible or hidden for devices like portrait tablets, and smartphones.
+  The element will be visible or hidden for devices like portrait tablets, and smartphones.
 
 ## Combinations
 
