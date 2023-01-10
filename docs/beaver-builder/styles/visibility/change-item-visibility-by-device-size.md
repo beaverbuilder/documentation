@@ -30,8 +30,10 @@ You can choose one of the following device toggle icons:
 * **Small Device**  
   The element will be visible or hidden for devices like portrait tablets, and smartphones.
 
-## Combinations
+## Multi-selection
 
-It is possible to create whatever combination you wish, such as hiding a Heading module on Extra Large and Small devices. To accomplish this, click on the Extra Large and Small devices so that they become inactive.
+The device toggle supports multi-selection and allows you to select more than one device. As a result, you are not limited to preset combinations, such as Large & Medium or Medium & Small, and can create any combination you wish.
+
+It is possible, for example, to display a row on Extra Large, Large, and Small devices and hide the row on Medium devices. In addition, a Heading module can be hidden on Extra Large and Small devices, but displayed on Large and Medium devices.
 
 ![Device Toggle Combinations](/img/beaver-builder/advanced-tab--visibility--2.jpg)
