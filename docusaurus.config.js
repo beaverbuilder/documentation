@@ -9,7 +9,7 @@ module.exports = {
   onBrokenLinks: 'warn',
   scripts: [
     {
-      src: 'https://kit.fontawesome.com/b1b1d7d7c6.js',
+      src: 'https://kit.fontawesome.com/71592fd01a.js',
       defer: true,
     },
   ],
