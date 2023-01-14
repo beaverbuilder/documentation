@@ -630,6 +630,7 @@
           ]
         },
         "beaver-builder/developer/iframe-ui",
+        "beaver-builder/developer/acf-blocks",
         {
           type: 'category',
           label: "How to's & Tips",
