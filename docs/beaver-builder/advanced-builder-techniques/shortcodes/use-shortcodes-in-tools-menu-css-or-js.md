@@ -36,7 +36,7 @@ body {
     }
 ```
 
-By using the Beaver Themer shortcode [`[wpbb site:url]`](../shortcodes.md#site-url) to replace your site URL, you make it easier to migrate the code or the entire site to a new domain.
+By using the Beaver Themer shortcode [`[wpbb site:url]`](/beaver-themer/field-connections/field-connection-shortcode-index-themer.md#site-url) to replace your site URL, you make it easier to migrate the code or the entire site to a new domain.
 
 ```css
 body {
