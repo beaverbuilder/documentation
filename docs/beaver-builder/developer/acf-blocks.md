@@ -8,7 +8,7 @@ description: This article covers everything related to using ACF Blocks in Beave
 This article covers everything related to using ACF Blocks in Beaver Builder including why it’s useful, how it works, and how to create your first block.
 
 :::caution
-ACF Blocks require **Advanced Custom Fields Pro**.
+ACF Blocks require **[Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)**.
 :::
 
 ## What are ACF Blocks?
@@ -20,6 +20,10 @@ See the [ACF Blocks documentation](https://www.advancedcustomfields.com/resource
 ## Accessing ACF Blocks in Beaver Builder
 
 Blocks created with ACF can be found in [The Content Panel](/beaver-builder/getting-started/bb-editor-basics/user-interface.md#8-14-content-panel) under **Modules > ACF Blocks** subgroup. Any block categories or icons used to organize and display your blocks in Gutenberg will show there as well.
+
+:::tip
+See the [Defining Custom Groups](#defining-custom-groups) section for customizing the group location of your ACF Blocks.
+:::
 
 ![Access ACF Blocks in BB UI](/img/beaver-builder/developer--acf-blocks--1.jpg)
 
@@ -47,9 +51,7 @@ There are, however, a few things you should keep in mind.
 
 This is a standard WordPress ***block.json*** file with the addition of the `acf` param for defining where your template is located. Without that, you won’t be able to select it in ACF when building your form.
 
-Additionally, this is where you need to set **JSX support** to `FALSE`, otherwise, your block won’t load in Beaver Builder.
-
-The paths to the template file (and style or script files) are relative to your ***block.json*** file and need to be stored in the same location.
+Additionally, this is where you need to set **JSX support** to `FALSE`, otherwise, your block won’t load in Beaver Builder. The paths to the template file (and style or script files) are relative to your ***block.json*** file and need to be stored in the same location.
 
 ```json
 {
@@ -67,6 +69,16 @@ The paths to the template file (and style or script files) are relative to your 
 		"mode": "preview",
 		"renderTemplate": "template.php"
 	}
+}
+```
+
+### Defining Custom Groups
+
+You can assign your block to a group other than **Standard Modules** in The Content Panel by adding the following code to ***block.json***.
+
+```php
+"beaverBuilder": {
+	"group": "ACF Blocks"
 }
 ```
 
