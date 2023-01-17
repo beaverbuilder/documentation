@@ -7,6 +7,10 @@ description: This article covers everything related to using ACF Blocks in Beave
 
 This article covers everything related to using ACF Blocks in Beaver Builder including why it’s useful, how it works, and how to create your first block.
 
+:::caution
+ACF Blocks require **Advanced Custom Fields Pro**.
+:::
+
 ## What are ACF Blocks?
 
 ACF blocks allow you to create configurable content (e.g. blocks or modules) that work in both Beaver Builder and Gutenberg. If you use Beaver Builder for site building and page layout and Gutenberg for post content, ACF blocks are for you.
