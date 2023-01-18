@@ -15,6 +15,7 @@
   --ifm-color-primary-lighter: #007af4;
   --ifm-color-primary-lightest: #158aff;
   --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 html[data-theme='dark'] {
@@ -27,6 +28,7 @@ html[data-theme='dark'] {
   --ifm-color-gray-100: #bbbbbb;
   --ifm-footer-background-color: var(--ifm-navbar-background-color);
   --ifm-navbar-link-color: var(--ifm-color-emphasis-1000);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 html[data-theme='dark'] .admonition.alert a {
