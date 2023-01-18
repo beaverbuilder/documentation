@@ -25,7 +25,7 @@ any of the following things with the URL:
 To enable Beaver Builder Debug Mode and obtain the URL for the debug report:
 
 1. On the WordPress admin panel, click **Settings > Beaver Builder**, then click the **Tools** tab.
-2. Click the **Enable debug mode** button.  
+2. Click the **Debug Mode** button.  
 The URL appears just above the button. Copy the URL to send to Support.
 
 :::note **Note**
