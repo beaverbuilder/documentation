@@ -76,11 +76,40 @@ Additionally, this is where you need to set **JSX support** to `FALSE`, otherwis
 
 You can assign your block to a group other than **Standard Modules** in The Content Panel by adding the following code to ***block.json***.
 
-```php
+```json
 "beaverBuilder": {
 	"group": "ACF Blocks"
 }
 ```
+
+<details>
+	<summary>Example</summary>
+
+```json
+{
+	"name": "acf/bb-example-acf-block",
+	"title": "ACF Example Block",
+	"description": "An example ACF block that can be used in Beaver Builder.",
+	"category": "bb-example-acf-blocks",
+	"icon": "admin-appearance",
+	"script": "file:./js/scripts.js",
+	"style": "file:./css/styles.css",
+	"supports": {
+		"jsx": false
+	},
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "template.php"
+	}
+	// highlight-start
+	"beaverBuilder": {
+		"group": "ACF Blocks"
+	}
+	// highlight-end
+}
+```
+
+</details>
 
 ### Configuring template.php
 
