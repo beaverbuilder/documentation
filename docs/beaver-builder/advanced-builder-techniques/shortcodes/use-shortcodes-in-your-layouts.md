@@ -124,17 +124,17 @@ As an example, you might save a Subscribe Form module and insert it in the middl
 <Tabs>
 <TabItem value="wordpress-editor" label="WordPress Editor" default>
 
-![Insert into the middle of a post](/img/beaver-builder/shortcodes--index--2.jpg)
+![Insert shortcode using shortcode block](/img/beaver-builder/shortcodes--index--2.jpg)
 
 </TabItem>
 <TabItem value="classic-editor" label="Classic Editor">
 
-![Insert into the middle of a post](/img/beaver-builder/shortcodes--index--3.jpg)
+![Insert shortcode into middle of post](/img/beaver-builder/shortcodes--index--3.jpg)
 
 </TabItem>
 <TabItem value="widgets" label="Widgets">
 
-![Insert into the middle of a post](/img/beaver-builder/shortcodes--index--4.jpg)
+![Insert shortcode into widget](/img/beaver-builder/shortcodes--index--4.jpg)
 
 </TabItem>
 </Tabs>
