@@ -4,6 +4,9 @@ title: Use shortcodes in your layouts
 sidebar_label: Use shortcodes in your layouts
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 You can insert Beaver Builder layouts as shortcodes into any text or text editor field, just like you do for any other WordPress shortcodes.
 
 <div className="embed-responsive">
