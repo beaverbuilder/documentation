@@ -10,4 +10,4 @@ It’s likely you cancelled your PayPal Billing Agreement. Should you cancel you
 
 One of the payment options available is PayPal. When you pay for your Beaver Builder license using PayPal, you’re entering a billing agreement with us. A PayPal Billing Agreement functions much like keeping a credit card on file for automated payments. This is facilitated by our payment administrator PayPal and allows us to collect the payment for your purchase and/or renewal.
 
-If you do not want your subscription to renew automatically, you can [cancel auto-renew](cancel-your-automatic-renewal.md) within your Beaver Builder account area. You’ll then need to renew manually each year. See our documentation here about cancelling automatic renewal, https://docs.wpbeaverbuilder.com/general/account-billing/cancel-your-automatic-renewal/.
+If you do not want your subscription to renew automatically, you can [cancel auto-renew](cancel-your-automatic-renewal.md) within your Beaver Builder account area. You’ll then need to renew manually each year.
