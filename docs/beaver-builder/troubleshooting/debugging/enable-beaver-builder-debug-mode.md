@@ -20,15 +20,15 @@ any of the following things with the URL:
 * Add the URL when you file a Support ticket
 * Send it to the Support team when they request it at *hello@wpbeaverbuilder.com*.
 
-## Enable Debug Mode
+## Debug Mode
 
 To enable Beaver Builder Debug Mode and obtain the URL for the debug report:
 
 1. On the WordPress admin panel, click **Settings > Beaver Builder**, then click the **Tools** tab.
-2. Click the **Enable debug mode** button.  
+2. Click the **Debug Mode** button.  
 The URL appears just above the button. Copy the URL to send to Support.
 
-:::note **Note**
+:::info
 There are no security risks from having Debug Mode enabled. Debug Mode is automatically disabled after 48 hours.
 You'll see a countdown timer on the **Settings > Beaver Builder > Tools** tab.  
 You can also disable it manually on that tab after you know that Support has
