@@ -206,13 +206,13 @@ work to posts, even with Themer layouts. This is a good question to ask on [our 
 
 There is a possibility that Elfsight's script and HTML markup will interfere with the Beaver Builder photo field, preventing you from adding or replacing images.
 
-To avoid this issue, wrap the script and HTML markup with the `[fl-safe]` shortcode like the example below.
+To avoid this issue, wrap the script with the `[fl-safe]` shortcode like the example below.
 
 ```html
 [fl-safe]
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-123abc-123-456-789-abcdefgh123456"></div>
 [/fl-safe]
+<div class="elfsight-app-123abc-123-456-789-abcdefgh123456"></div>
 ```
 
 ## Code
