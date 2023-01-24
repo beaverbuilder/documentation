@@ -28,7 +28,7 @@ met:
 
   * jQuery is excluded
   * *wp-includes/js* is added to the **Async Javascript > Settings > Scripts Exclusion** field.
-  
+
 ### [Cookie and Consent Solution for the GDPR & ePrivacy](https://wordpress.org/plugins/iubenda-cookie-law-solution/)
 
 The Beaver Builder user interface is not functional if **Automatically block scripts detected by the plugin** is enabled and **Primary Engine** is selected.
@@ -201,6 +201,19 @@ on JavaScript.
 
 Some Beaver Builder users have reported success with getting Google AMP to
 work to posts, even with Themer layouts. This is a good question to ask on [our forum](https://community.wpbeaverbuilder.com/).
+
+### [Elfsight](https://elfsight.com/)
+
+There is a possibility that Elfsight's script and HTML markup will interfere with the Beaver Builder photo field, preventing you from adding or replacing images.
+
+To avoid this issue, wrap the script and HTML markup with the `[fl-safe]` shortcode like the example below.
+
+```html
+[fl-safe]
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-123abc-123-456-789-abcdefgh123456"></div>
+[/fl-safe]
+```
 
 ## Code
 
