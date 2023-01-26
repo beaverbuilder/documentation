@@ -86,6 +86,8 @@ function my_social_icons( $icons ) {
     'facebook',
     'twitter',
     'google',
+    'google-maps',
+    'snapchat',
     'linkedin',
     'yelp',
     'xing',
@@ -102,6 +104,9 @@ function my_social_icons( $icons ) {
     'github',
     'rss',
     'email',
+    'wordpress',
+    'tiktok',
+    'spotify',
   );
   return $icons;
 }
