@@ -48,6 +48,7 @@
         "general/account-billing/my-beaver-builder-license-was-deactivated",
         "general/account-billing/renew-your-beaver-builder-subscription",
         "general/account-billing/upgrade-your-premium-license",
+        "general/account-billing/subscription-cancel",
         "general/account-billing/cancel-your-automatic-renewal",
         "general/account-billing/downgrade-to-a-lower-version-of-beaver-builder",
         "general/account-billing/request-an-invoice",

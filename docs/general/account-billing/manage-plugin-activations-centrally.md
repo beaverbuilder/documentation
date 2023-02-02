@@ -10,7 +10,7 @@ of those installations.
 
 To see the list of sites, on the  [My Account](https://www.wpbeaverbuilder.com/my-account/) page, navigate to the Domain Manager section and click **Manage Domains**.
 
-:::tip **Tip**
+:::tip
 Switching from HTTP to HTTPS on your site by adding an SSL certificate will cause that site to appear twice in the Domain Manager because the two are considered separate domains. For example:
 
 ```markup

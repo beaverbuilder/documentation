@@ -4,6 +4,9 @@ title: Use shortcodes in your layouts
 sidebar_label: Use shortcodes in your layouts
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 You can insert Beaver Builder layouts as shortcodes into any text or text editor field, just like you do for any other WordPress shortcodes.
 
 <div className="embed-responsive">
@@ -62,7 +65,7 @@ You can create shortcodes for any Beaver Builder content that has an ID or a slu
 In the **Beaver Builder** section in the WP admin panel, under **Saved rows**, **Saved columns**, and **Saved modules**, there's now a **Shortcode** column with an automatically generated shortcode for each saved item. Clicking the shortcode automatically copies it to your clipboard.
 
 This screenshot shows the shortcode location for a saved row.
-![Saved row shortcode example](/img/wp-admin-saved-row-shortcode.png) 
+![Saved row shortcode example](/img/wp-admin-saved-row-shortcode.png)
 
 ### Method 2: Manually construct a Beaver Builder shortcode
 
@@ -111,23 +114,30 @@ some examples of text fields in Beaver Builder modules:
 * See [why there can be a performance hit](/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-performance.md) with the use of too many Beaver Builder shortcodes.
 :::
 
-## Add Beaver Builder shortcode to a WordPress text widget
+### WordPress Editor & Widgets
 
-By default, you cannot add any WordPress shortcode to WordPress text widgets.
-You can add this ability by adding the following code to the _functions.php_
-file in your child theme.
+The Beaver Builder shortcode can be used in the WordPress editor and widgets using the [Shortcode Block](https://wordpress.org/support/article/shortcode-block/).
 
-```php
-add_filter( 'widget_text', 'do_shortcode' );
-```
+As an example, you might save a Subscribe Form module and insert it in the middle of a post using the shortcode block, or between paragraphs when using the classic editor. For WordPress Widgets, simply use the Shortcode block and add your shortcode.
 
-You can then add your shortcode to a WordPress text widget.
 
-:::tip **Tip**
-Beaver Themer can often replace the need for WordPress widgets since
-you can create layouts in areas of the page normally controlled by the theme.
-See the next section for some examples.
-:::
+<Tabs>
+<TabItem value="wordpress-editor" label="WordPress Editor" default>
+
+![Insert shortcode using shortcode block](/img/beaver-builder/shortcodes--index--2.jpg)
+
+</TabItem>
+<TabItem value="classic-editor" label="Classic Editor">
+
+![Insert shortcode into middle of post](/img/beaver-builder/shortcodes--index--3.jpg)
+
+</TabItem>
+<TabItem value="widgets" label="Widgets">
+
+![Insert shortcode into widget](/img/beaver-builder/shortcodes--index--4.jpg)
+
+</TabItem>
+</Tabs>
 
 ## More examples of Beaver Builder shortcodes – and Beaver Themer alternatives
 

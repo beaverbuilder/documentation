@@ -88,7 +88,7 @@ article on [granting user access](/beaver-builder/management-migration/control-u
 
 ## Icons tab
 
-The library of icons available to you in modules is determined by what is enabled in this setting. Beaver Builder comes with the Font Awesome, Foundation, and WordPress Dashicons icon sets. 
+The library of icons available to you in modules is determined by what is enabled in this setting. Beaver Builder comes with the Font Awesome, Foundation, and WordPress Dashicons icon sets.
 
 ![](/img/admin-settings-icon-tab.png)
 
@@ -111,6 +111,6 @@ The **Tools** tab has the following sections.
 
 * [**Cache**](../troubleshooting/debugging/issue-fixer-clear-the-cache.md)
 * [**Cache Clearing Tool**](../troubleshooting/debugging/cache-clearing-tool.md)
-* [**Debug mode disabled**](../troubleshooting/debugging/enable-beaver-builder-debug-mode.md)
+* [**Debug Mode**](../troubleshooting/debugging/enable-beaver-builder-debug-mode.md)
 * [**Prerelease Updates**](enable-prerelease-updates.md)
 * [**Uninstall** section](../troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin.md)

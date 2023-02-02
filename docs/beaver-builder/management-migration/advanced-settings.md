@@ -55,7 +55,9 @@ Enable or disable the custom row shapes tab from **Tools Menu > Global Settings*
 
 ### Limit WP revisions for layouts
 
-By default, does not limit the amount of revisions. Enabling this setting will limit revisions to `10` for Beaver Builder layouts.
+By default, does not limit the amount of revisions.
+
+Enabling this setting will limit revisions to `10` for Beaver Builder layouts. Set to `0` to completely disable revisions for layouts/pages controlled by Beaver Builder.
 
 :x: Disabled by default.
 
