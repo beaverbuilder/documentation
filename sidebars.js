@@ -392,7 +392,6 @@
         },
       ]
     },
-
     {
       type: 'category',
       label: 'Styles',
@@ -445,14 +444,7 @@
             "beaver-builder/styles/visibility/change-element-visibility-by-user-login-and-capability",
           ]
         },
-        {
-          type: 'category',
-          label: 'Code',
-          items: [
-            "beaver-builder/styles/code/custom-css",
-            "beaver-builder/styles/code/custom-javascript",
-          ]
-        },
+        "beaver-builder/styles/custom-code",
       ]
     },
     {
