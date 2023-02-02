@@ -43,11 +43,14 @@ Older web font file formats like _.eot_ , _.svg_ , and _.ttf_ are not required w
 
 The `@font-face` rule in CSS3 specifies the location of web fonts and loads them.
 
-  1. Go to the location on your site where you can add CSS rules that apply site-wide.  
+1. Go to the location on your site where you can add CSS rules that apply site-wide.  
   In this example, we'll use file paths that will work for code placed in the following location:  
+
   **Appearance > Editor > style.css** (in the child theme)  
-  See this article about [where to add custom CSS rules](/beaver-builder/styles/code/custom-css.md).
-  2. If your web fonts kit includes a CSS stylesheet, open that file an copy all the `@font-face` rules, and paste into the location where you're putting the CSS rules for your site.  
+
+  See this article about [where to add custom CSS rules](/beaver-builder/styles/custom-code.md).
+
+2. If your web fonts kit includes a CSS stylesheet, open that file an copy all the `@font-face` rules, and paste into the location where you're putting the CSS rules for your site.   
   Otherwise, start with the following example.  
 
   ```css
@@ -61,6 +64,7 @@ The `@font-face` rule in CSS3 specifies the location of web fonts and loads them
   ```
 
   3. In the code you've inserted, modify the `url` lines in the `src` attribute to include the URLs for all and only the file types that you uploaded, with the correct file names.
+
   4. Change the value of `font-family` to what you want to appear in the font selection list in Customizer or the Beaver Builder plugin. It's also what you'll see listed as the font when you inspect the element in your browser.  
   In the example here you could change `'forza-book'` to `'Forza Book'`.
 
