@@ -53,6 +53,14 @@ Enable or disable the custom row shapes tab from **Tools Menu > Global Settings*
 
 :white_check_mark: Enabled by default.
 
+### Enable Code Settings
+
+When enabled CSS and JavaScript sections become available in the advanced tab for rows, columns, and modules.
+
+See the [Per-Node CSS & JS ](/beaver-builder/styles/custom-code.md#per-node-css--js) section in the [Custom Code](/beaver-builder/styles/custom-code.md) article for more information.
+
+:white_check_mark: Enabled by default.
+
 ### Limit WP revisions for layouts
 
 By default, does not limit the amount of revisions.

@@ -46,10 +46,6 @@ When enabled, a new CSS and JS section becomes available on the Advanced tab for
 In the Outline Panel, a new code (<i className="fa-solid fa-code"></i>) icon appears when custom CSS or JavaScript has been added to a node (row, column, or module).
 :::
 
-:::caution
-Disabled by default.
-:::
-
 ## Accordion & Tab - Post Type Multi-select
 
 Add support for Multi-select of post types, allowing you to select one or more post types. For example, you can display both posts and pages.
