@@ -11,7 +11,7 @@ If so, you can use this CSS code below, provided by the Ubermenu developer himse
 **To get rid of  Ubermenu duplication:**
 
   1. Add the CSS rules below.  
-  See the article on [where to add CSS code](/beaver-builder/styles/code/custom-css.md).  
+  See the article on [where to add CSS code](/beaver-builder/styles/custom-code.md).  
   ```css
   .navbar-toggle {
       display: none !important;

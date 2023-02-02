@@ -38,7 +38,7 @@ If you plan to apply a transparent header to every page, you might want to [save
 The following code will apply these CSS rules to every page. See the tweaks in the next section for other options.
 
   1. Copy and paste the CSS below.  
-  Refer to the article on [where to put CSS code](/beaver-builder/styles/code/custom-css.md).  
+  Refer to the article on [where to put CSS code](/beaver-builder/styles/custom-code.md).  
 
   ```css
   .fl-page-bar {

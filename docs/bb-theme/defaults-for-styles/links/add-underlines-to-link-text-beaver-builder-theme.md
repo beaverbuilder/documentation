@@ -6,7 +6,7 @@ sidebar_label: Add underlines to link text
 
 By default, the Beaver Builder Theme underlines link text in content only when you mouse over it, and not at all in the navigation menu. Here's how to add default underlining of link text in your content, your nav menu and header, or both, with some simple CSS.
 
-See the article on [where to add custom CSS code](/beaver-builder/styles/code/custom-css.md).
+See the article on [where to add custom CSS code](/beaver-builder/styles/custom-code.md).
 
 **To add underlines to all links in your site:**
 

@@ -25,9 +25,9 @@ effects to images.
    * Sepia to Color: `sepia-img`
 
 5. Add the CSS for the effect wherever you put your custom CSS.  
-Copy the CSS for the effect you want from one of the following sections and see [this article](/beaver-builder/styles/code/custom-css.md) about where to add custom CSS code.
+Copy the CSS for the effect you want from one of the following sections and see [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code.
 
-:::tip 
+:::tip
 If you have multiple Photo modules in a row and want to apply an effect to the entire set, add the effect’s CSS to the **Class** field on the **Advanced** tab in the row settings rather than the Photo module settings. The effect will apply to every Photo module contained in the row.
 :::
 

@@ -139,11 +139,11 @@ Debug Mode lets you access any code you've added to the **Global Settings** CSS 
 
 ### CSS tab
 
-The **CSS** tab allows you add custom CSS that applies globally to your site. You can learn more from the [Custom CSS](/beaver-builder/styles/code/custom-css.md) article.
+The **CSS** tab allows you add custom CSS that applies globally to your site. You can learn more from the [Custom CSS](/beaver-builder/styles/custom-code.md) article.
 
 ### JavaScript tab
 
-The **JavaScript** tab allows you add custom JavaScript that applies globally to your site. You can learn more from the [Custom JavaScript](/beaver-builder/styles/code/custom-javascript.md) article.
+The **JavaScript** tab allows you add custom JavaScript that applies globally to your site. You can learn more from the [Custom JavaScript](/beaver-builder/styles/custom-code.md) article.
 
 ## Custom Row Shapes
 

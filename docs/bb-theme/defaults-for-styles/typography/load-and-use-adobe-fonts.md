@@ -41,7 +41,7 @@ If your theme is currently using a Google Font for your heading or body font, it
 
 ## Add CSS rules to determine where the font is used
 
-There are [several places you can add custom CSS](/beaver-builder/styles/code/custom-css.md). The [Adobe Fonts site](https://helpx.adobe.com/fonts/using/css-selectors.html) has some information about how to construct the CSS rules, and here are a couple of examples.
+There are [several places you can add custom CSS](/beaver-builder/styles/custom-code.md). The [Adobe Fonts site](https://helpx.adobe.com/fonts/using/css-selectors.html) has some information about how to construct the CSS rules, and here are a couple of examples.
 
 ### Heading Font CSS example
 

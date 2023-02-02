@@ -33,6 +33,6 @@ If `id="content"` is the selector for your content wrapper, then the rule would 
 }
 ```
 
-See the article on [where to put custom CSS code](/beaver-builder/styles/code/custom-css.md).
+See the article on [where to put custom CSS code](/beaver-builder/styles/custom-code.md).
 
 If you cannot get this rule to work, [contact Support](https://www.wpbeaverbuilder.com/beaver-builder-support/) for help.

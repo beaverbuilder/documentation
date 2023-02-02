@@ -27,6 +27,6 @@ Don't use a period before the class name.
 
   5. Click **Save**.
   6. Add the CSS rule below.  
-  See the article on [where to put custom CSS code](/beaver-builder/styles/code/custom-css.md).
+  See the article on [where to put custom CSS code](/beaver-builder/styles/custom-code.md).
 
   7. Replace the class `.ss-changeme` in the code below with your own class, and change the URL to the one you copied in Step 1.

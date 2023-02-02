@@ -12,11 +12,11 @@ For these two mixed-layout presets, the layout under  **Customize > General > La
 
 **To override the preset's boxed content and make the entire preset full width:**
 
-  * Add the following CSS code.  
+* Add the following CSS code.  
   Add the first rule for the Premier preset; add both rules for the Deluxe preset.  
-  See the [article on where to put CSS code](/beaver-builder/styles/code/custom-css.md).  
+  See the [article on where to put CSS code](/beaver-builder/styles/custom-code.md).  
 
-  ````css
+  ```css
   /* Add the following rule for to make the Premier and Deluxe preset's content area full width */
   .fl-full-width .fl-page .fl-page-content {
       max-width: 100%;
@@ -25,6 +25,6 @@ For these two mixed-layout presets, the layout under  **Customize > General > La
   .fl-full-width .fl-page .fl-page-nav-wrap {
       max-width:100%;
   }
-  ````
+  ```
 
 After you have set these areas to full-width, you can control the width of the content area by opening a page in the Beaver Builder editor, going to **Tools > Global Settings**, and adjusting the **Max width** setting in the  **Rows** section. You can control the width of the header, footer, and nav bar through the **Customize > General > Layout > Content width** setting.

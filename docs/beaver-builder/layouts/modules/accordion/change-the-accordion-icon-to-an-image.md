@@ -19,7 +19,7 @@ expanded and collapsed state.
 
   1. From the WordPress admin panel, click **Media** and upload your images to the Media Library. Make a note of your image URLs so you can insert them into the CSS.
   2. Paste in the CSS code below and replace the URLs with the correct ones for your images. Omit the last rule if you're using the same image for both states.  
-See [this article](/beaver-builder/styles/code/custom-css.md) about where to add custom CSS code.
+See [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code.
 
   3. Click **Save & Publish**.
 

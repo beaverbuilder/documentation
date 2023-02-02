@@ -171,7 +171,7 @@ up rather than down.
 ### Fix for Internet Explorer 11
 
 Row shapes use SVG art, which won't work on IE11. If you want to use row
-shapes and block them only on IE11, use the following CSS code.  See [this article](/beaver-builder/styles/code/custom-css.md) about where to add custom CSS code. 
+shapes and block them only on IE11, use the following CSS code.  See [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code. 
 
 ```css
 body.fl-builder-ie-11 div.fl-builder-shape-layer {

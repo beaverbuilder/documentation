@@ -14,8 +14,8 @@ You can increase the size of the header logo wrapper to allow more room for the 
 
 **To adjust the header logo wrapper width:**
 
-  * Add the following CSS code.  
-  See the article on [where to add CSS code](/beaver-builder/styles/code/custom-css.md).  
+* Add the following CSS code.  
+  See the article on [where to add CSS code](/beaver-builder/styles/custom-code.md).  
 
   ```css
   @media (min-width: 768px) {

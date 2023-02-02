@@ -31,9 +31,9 @@ To add a button, first, create a menu item that you want to turn into a button. 
 
 **Add CSS rules for the class:**
 
-See the [article on where to add CSS code](/beaver-builder/styles/code/custom-css.md).
+See the [article on where to add CSS code](/beaver-builder/styles/custom-code.md).
 
-  * Add the following CSS rules. Be sure to change the class in these lines to the custom class you used.  
+* Add the following CSS rules. Be sure to change the class in these lines to the custom class you used.  
   Change the other settings for the button layout and style as you like.  
 
   ```css

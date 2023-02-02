@@ -31,6 +31,6 @@ then the rule would look like this:
 }
 ```
 
-See the article on  [where to put custom CSS code](/beaver-builder/styles/code/custom-css.md).
+See the article on  [where to put custom CSS code](/beaver-builder/styles/custom-code.md).
 
 If you cannot get this rule to work, please [contact Support](https://www.wpbeaverbuilder.com/beaver-builder-support/) for help.
