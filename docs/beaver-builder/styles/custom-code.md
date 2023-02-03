@@ -108,7 +108,7 @@ You can add the JavaScript code to a specific point in your page or post using t
 
 ### Tracking Scripts
 
-It is not possible to add tracking scripts to Beaver Builder layouts, such as Google Analytics and Facebook pixels. Due to the fact that they need to be added to the head of your HTML page. In contrast, JavaScript added to either the **Global Settings** or **Layout CSS & JavaScript** is merged into the *layout.js* file, which loads in the footer of your website.
+It is not possible to add tracking scripts to Beaver Builder layouts, such as Google Analytics and Facebook pixels. Due to the fact that they need to be added to the `<head>` of your HTML page. In contrast, JavaScript added to either the **Global Settings** or **Layout CSS & JavaScript** is merged into the *layout.js* file, which loads in the footer of your website.
 
 For that reason, tracking scripts code should be added to your theme's custom JavaScript setting if it has one or using the WordPress [`wp_head`](https://developer.wordpress.org/reference/hooks/wp_head/) action.
 
