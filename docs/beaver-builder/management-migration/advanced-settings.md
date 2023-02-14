@@ -19,6 +19,12 @@ The Advanced tab in the Beaver Builder settings is where you can enable and disa
 
 The Builder UI section allows you to enable or disable Beaver Builder user interface features.
 
+### Responsive Iframe UI
+
+Enable or disables the iframe UI for accurate responsive editing. May cause issues with legacy add-ons.
+
+:white_check_mark: Enabled by default.
+
 ### Outline Panel
 
 Enable or disable the Outline Panel in the Beaver Builder user interface.
