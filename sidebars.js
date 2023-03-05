@@ -171,15 +171,15 @@
          label: 'The Advanced Tab',
          link: {
             type: "doc",
-            id: "beaver-builder/advanced-tab/index",
+            id: "beaver-builder/layouts/advanced-tab/index",
          },
          items: [
-            "beaver-builder/advanced-tab/spacing",
-            "beaver-builder/advanced-tab/visibility",
-            "beaver-builder/advanced-tab/animation",
-            "beaver-builder/advanced-tab/html-element",
-            "beaver-builder/advanced-tab/copy-paste",
-            "beaver-builder/advanced-tab/css-js",
+            "beaver-builder/layouts/advanced-tab/spacing",
+            "beaver-builder/layouts/advanced-tab/visibility",
+            "beaver-builder/layouts/advanced-tab/animation",
+            "beaver-builder/layouts/advanced-tab/html-element",
+            "beaver-builder/layouts/advanced-tab/copy-paste",
+            "beaver-builder/layouts/advanced-tab/css-js",
          ],
        },
         {
