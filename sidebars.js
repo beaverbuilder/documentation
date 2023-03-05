@@ -166,7 +166,22 @@
       label: 'Layouts',
       items: [
         "beaver-builder/layouts", // Index
-        "beaver-builder/layouts/advanced-tab-rows-columns-modules",
+        {
+         type: 'category',
+         label: 'The Advanced Tab',
+         link: {
+            type: "doc",
+            id: "advanced-tab/index",
+         },
+         items: [
+            "advanced-tab/spacing",
+            "advanced-tab/visibility",
+            "advanced-tab/animation",
+            "advanced-tab/html-element",
+            "advanced-tab/copy-paste",
+            "advanced-tab/css-js",
+         ],
+       },
         {
           type: 'category',
           label: 'Templates',
