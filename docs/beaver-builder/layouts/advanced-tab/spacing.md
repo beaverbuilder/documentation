@@ -11,26 +11,22 @@ The **Spacing** section in the Advanced tab lets you change the default margin f
 
 ## Global Defaults
 
-Beaver Builder adds the following default margins and padding via the [Global Settings](user-interface/global-settings.md):
+Beaver Builder adds the following default margins and padding via the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md):
 
 * `0px` margin on each side of all rows and columns.
 * `20px` padding on each side of all rows.
 * `0px` padding for columns.
 * `20px` margin on each side of all modules.  
-  
+
 	:::info
 	Modules **do not** support padding.
   :::
 
-If you didn't change a single margin or padding anywhere, these defaults would apply on every device, though mobile devices may be different if [Auto Spacing](/user-interface/global-settings.md#auto-spacing) is enabled, which is enabled by default.
+If you didn't change a single margin or padding anywhere, these defaults would apply on every device, though mobile devices may be different if [Auto Spacing](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#auto-spacing) is enabled, which is enabled by default.
 
 ## Margin
 
 Beaver Builder gives you complete control over [Margin](https://www.w3schools.com/csS/css_margin.asp). Margin can be set for each side of an element (top, right, bottom, and left). You can also choose from the following CSS units `px`, `%`, `vw` and `vh`.
-
-:::info
-Margin can be used with [Link Values](user-interface/link-values.md) and [Responsive Toggle](responsive/toggle.md).
-:::
 
 ### Negative Margins
 
@@ -49,17 +45,13 @@ For example, suppose you need to position your Heading module higher up the page
 ```
 
 :::tip
-When using CSS to change a module's position, be sure to prefix your CSS with the [fl-builder-edit utility class and use the :not() selector](basics/custom-code.md#utility-classes) to avoid problems in the builder.
+When using CSS to change a module's position, be sure to prefix your CSS with the [fl-builder-edit utility class and use the `:not()` selector](/beaver-builder/getting-started/bb-editor-basics/custom-code.md#utility-classes) to avoid problems in the builder.
 :::
 
 ## Padding
 
 Beaver Builder gives you complete control over [Padding](https://www.w3schools.com/csS/css_padding.asp). Padding can be set for each side of an element (top, right, bottom, and left). You can also choose from the following CSS units `px`, `em`, `%`, `vw` and `vh`.
 
-:::tip
-Unlike margin, negative padding values are **not** allowed.
-:::
-
-:::info
-Padding can be used with [Link Values](user-interface/link-values.md) and [Responsive Toggle](responsive/toggle.md).
+:::caution
+Negative values **are not supported** by padding.
 :::

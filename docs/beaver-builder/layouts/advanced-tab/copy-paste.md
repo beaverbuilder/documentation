@@ -7,7 +7,7 @@ description: The Spacing section in the Advanced tab lets you change the default
 
 The **Export/Import** section in the Advanced tab lets you copy and paste module settings or styles into another module.
 
-![](/img/beaver-builder/editor-basics--advanced-tab--export-import--1.jpg)
+![](/img/beaver-builder/advanced-tab--export-import--1.jpg)
 
 ## Export
 

@@ -14,13 +14,13 @@ The **CSS & JavaScript** sections are available for all nodes (rows, columns, an
 
 ## Enable & Disable
 
-CSS and JavaScript are the only sections found in the Advanced tab that are enabled by default, but can be disabled if needed. You can disable the CSS & JavaScripts section by disabling the [Enable Code Settings](settings/advanced.md#enable-code-settings) option in Beaver Builder [Advanced settings](settings/advanced.md).
+CSS and JavaScript are the only sections found in the Advanced tab that are enabled by default, but can be disabled if needed. You can disable the CSS & JavaScripts section by disabling the [Enable Code Settings](/beaver-builder/management-migration/advanced-settings.md#enable-code-settings) option in Beaver Builder [Advanced settings](/beaver-builder/management-migration/advanced-settings.md).
 
 ## CSS Section
 
-The CSS section can be found in the [Advanced tab](index.md) and is available for all [nodes](getting-started/how-it-works.md#nodes) (rows, columns, and modules). By using the CSS section, you can add custom CSS that will only be applied to that specific node.
+The CSS section can be found in the [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) and is available for all nodes (rows, columns, and modules). By using the CSS section, you can add custom CSS that will only be applied to that specific node.
 
-For example, suppose you have a [Text module](modules/text.md) with a node id class name of `fl-node-1d43q3gf56s` and you add custom CSS to style the `<p>` tags with a specific color or font size. The following CSS rule will only affect paragraph (`<p>`) tags for that Text module.
+For example, suppose you have a [Text module](/beaver-builder/layouts/modules/text.md) with a node id class name of `fl-node-1d43q3gf56s` and you add custom CSS to style the `<p>` tags with a specific color or font size. The following CSS rule will only affect paragraph (`<p>`) tags for that Text module.
 
 ```css
 p {
@@ -76,7 +76,7 @@ The unique node class name can be identified either by viewing the page source o
 </div>
 ```
 
-Learn more about your browser's developer tools by clicking on the links below. 
+Learn more about your browser's developer tools by clicking on the links below.
 
 * [Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
 * [FireFox](https://firefox-dev.tools/)
@@ -91,34 +91,30 @@ The CSS and JavaScript sections can be used for various purposes, such as:
 
   If you want your clients to be able to easily update your CSS, you can place it in the code section of nodes (rows, columns, and modules). This allows the client to easily find the CSS rule for the correct node without affecting other CSS rules.
 
-* **Styling Specific Elements:** Using the CSS section for [nodes](getting-started/how-it-works.md#nodes) (rows, columns, or modules), you can style specific elements while using the module's text color option for the rest of the text. The CSS code example below uses the pseudo class `:first-of-type` to style the first `<p>` tag to the `tomato` <span className="swatch" style={{ backgroundColor: "tomato" }} /> color.  
-  
+* **Styling Specific Elements:** Using the CSS section for nodes (rows, columns, or modules), you can style specific elements while using the module's text color option for the rest of the text. The CSS code example below uses the pseudo class `:first-of-type` to style the first `<p>` tag to the `tomato` <span className="swatch" style={{ backgroundColor: "tomato" }} /> color.  
+
   <Tabs>
   <TabItem value="css" label="CSS" default>
-  
+
   ```css
   p:first-of-type {
     color: tomato !important;
   }
   ```
-  
+
   </TabItem>
   <TabItem value="scoped-css" label="Scoped CSS">
-  
+
   ```css
   .fl-node-8zdpmqybf7sr p:first-of-type {
     color: tomato !important;
   }
   ```
-  
+
   </TabItem>
   <TabItem value="image" label="Screenshot">
-  
+
   ![CSS example](/img/beaver-builder/advanced-tab--css-js--2.jpg)
-  
+
   </TabItem>
   </Tabs>
-
-  
-  
-  

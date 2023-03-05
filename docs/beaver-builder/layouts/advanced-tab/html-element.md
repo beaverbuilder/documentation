@@ -7,7 +7,7 @@ description: The HTML Element section lets you apply custom ID's, classes, label
 
 The **HTML Element** section in the Advanced tab lets you apply a custom ID, classes, labels and choose the HTML5 sectioning content element to improve accessibility and machine-readability.
 
-![HTML Elements section in the Advanced tab](/img/beaver-builder/editor-basics--advanced-tab--html-element--1.jpg)
+![HTML Elements section in the Advanced tab](/img/beaver-builder/advanced-tab--html-element--1.jpg)
 
 ## Container Element
 
@@ -138,9 +138,9 @@ Defines a [footer](https://www.w3schools.com/TAGs/tag_footer.asp) in your layout
 
 ## ID
 
-Using the ID option, you can assign a custom [ID](https://www.w3schools.com/htmL/html_id.asp) to a specific [node](getting-started/how-it-works.md#nodes) (row, column, or module) on your layout. 
+Using the ID option, you can assign a custom [ID](https://www.w3schools.com/htmL/html_id.asp) to a specific node (row, column, or module) on your layout.
 
-![Assign ID name](/img/beaver-builder/editor-basics--advanced-tab--html-element--2.jpg)
+![Assign ID name](/img/beaver-builder/advanced-tab--html-element--2.jpg)
 
 <details><summary>Custom ID HTML Markup</summary>
 
@@ -164,7 +164,7 @@ This unique identifier can then be used for various purposes, such as:
 
 * **Identifying**: You can use the ID to identify specific elements in your code. For example, if you are using JavaScript to manipulate the elements on your layout, you can use the ID to reference a specific element and perform actions on it.
 
-* **Anchoring**: You can use the ID to create [anchor fragments](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web#fragment). This allows you to [create links that jump directly to a specific section of your page or post](basics/smooth-scrolling.md).
+* **Anchoring**: You can use the ID to create [anchor fragments](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web#fragment). This allows you to [create links that jump directly to a specific section of your page or post](/beaver-builder/advanced-builder-techniques/smooth-scrolling-links.md).
 
 :::caution
 An important point to remember is that IDs on a page or post should be unique, meaning that no two elements should share the same ID.
@@ -182,7 +182,7 @@ Adding the pound symbol (`#`) to the ID option is not necessary, just the name o
 
 ### CSS Example {#id-css-example}
 
-Once you've added the custom **ID** to your [node](getting-started/how-it-works.md#nodes) (row, column, or module), you can use it in your custom CSS by prefixing it with the pound symbol (`#`), like this:
+Once you've added the custom **ID** to your node (row, column, or module), you can use it in your custom CSS by prefixing it with the pound symbol (`#`), like this:
 
 ```css
 #custom-id {
@@ -205,7 +205,7 @@ Lets you apply a [class](https://www.w3schools.com/html/html_classes.asp) or mul
 
 Separate multiple classes with spaces. The screenshot below shows an example of two classes being applied to the Class setting: `text-white` and `heading-right`.
 
-![Custom Classes Example](/img/beaver-builder/editor-basics--advanced-tab--html-element--3.jpg)
+![Custom Classes Example](/img/beaver-builder/advanced-tab--html-element--3.jpg)
 
 <details><summary>Custom Class HTML Markup</summary>
 
@@ -258,8 +258,8 @@ This can be taken a step further by targeting a specific element. For example, i
 
 ## Label
 
-Lets you apply a Label to your row, column, or modules to help identify their purpose in the Beaver Builder editor, such as in [Outline panel](user-interface/top-bar.md#outline-panel).
+The Label option is available for all rows, columns, and modules. It is used to provide a concise description of the content or purpose of these rows, columns, or modules.
 
-For example, in the following screenshot, **Page Title** was added to **Advanced tab > HTML Element > Label** in a Heading module.
+Labels will appear in both the Beaver Builder user interface overlay and Outline panel once they are added, as shown below.
 
-![Label in Outline panel](/img/beaver-builder/editor-basics--advanced-tab--html-element--4.jpg)
+![Label in Outline panel](/img/beaver-builder/advanced-tab--html-element--4.jpg)
