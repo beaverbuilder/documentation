@@ -10,7 +10,7 @@ The Countdown module displays a visual timer that counts down to zero for a date
 ## General tab
 
 You can specify the target date and time, including choosing the timezone that
-should be used. 
+should be used.
 
 ## Style tab
 This tab has a top section of settings, followed by several sections that vary depending on the type of layout you select.
@@ -19,7 +19,7 @@ This tab has a top section of settings, followed by several sections that vary d
 
 * **Layout**  
   The choices are:  
-  * **Numbers** 
+  * **Numbers**
   This setting includes numbers plus the text under the numbers for each unit of measurement (days, hours, minutes, seconds).    
   ![Countdown module, Numbers layout](/img/countdown-1.jpg)
   *  **Numbers \+ Circles**  
@@ -37,7 +37,7 @@ The standard [Typography section](/beaver-builder/styles/typography/typography.m
 * **Text typography**  
 The standard [Typography section](/beaver-builder/styles/typography/typography.md) for the text displayed under the numbers.
 * **Horizontal padding** (**Numbers** layout only)  
-Padding 
+Padding
 * **Vertical padding** (**Numbers** layout only)
 * **Number spacing**  
 Used in both types of layout to increase or decrease the left and right margins for individual numbers.
@@ -46,7 +46,7 @@ The following screenshot shows a **Numbers** layout with the **Horizontal paddin
 
 ![Countdown module, Numbers layout with padding and spacing mapped onto CSS box](/img/countdown-3.jpg)
 
-With the **Numbers \+ Circles** layout, only the **Number spacing** setting is available, so you can set only the left and right margins between numbers, shown in this screenshot. 
+With the **Numbers \+ Circles** layout, only the **Number spacing** setting is available, so you can set only the left and right margins between numbers, shown in this screenshot.
 
 ![Countdown module, Numbers \+ Circles layout with number spacing mapped onto CSS box](/img/countdown-4.jpg)
 
@@ -55,14 +55,14 @@ With the **Numbers \+ Circles** layout, only the **Number spacing** setting is a
 * To control the space between the numbers and the circle, use the **Circle size** setting in the **Circle styles** section described below.
 :::
 
-### **Backgrounds** section 
+### **Backgrounds** section
 
 This section appears for the **Numbers** layout only.
 
 * **Number background color**  
 Inserts a square of color behind the color/unit pair.
 * **Number border radius**  
-Rounds the corners of the background color squares. 
+Rounds the corners of the background color squares.
 
 ### **Separator** section (**Numbers** layout only)
 
@@ -86,6 +86,4 @@ Use this setting to increase the "fatness" of the circle.
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
-
-
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.

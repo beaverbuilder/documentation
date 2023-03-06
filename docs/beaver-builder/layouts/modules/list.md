@@ -193,7 +193,7 @@ As a workaround, you can use some inline CSS in the text editor to increase the 
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Settings for each list item
 

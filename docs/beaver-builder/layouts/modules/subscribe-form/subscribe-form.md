@@ -110,14 +110,14 @@ If you're mocking up a website but don't have a subscription service enabled yet
 |  **Success**  | **Notification subject** | The subject of the notification email that the subscriber receives. The default subject is "Subscribe Form Signup."  |
 |  |  **Success action**  | **Show message** means the confirmation message is displayed in place of the Subscribe Form. **Redirect** lets you provide a URL to a different page where you can provide your own message.  |
 |  | **Message**  |  (Optional) Enter a custom message for the **Show message** confirmation. Note that the text you provide here doesn't appear in the email notification.  |
-  
+
 ### Button tab
 |  Section  |  Field  |  Description  |
 ---|---|---|
 |  |  **Button text**  |  (Optional) Enter custom text for the Subscribe button.  |
 |  **Button icon**  |  **Button icon**  |  (Optional) Select an icon for the Subscribe button.  |
 |  **Button style**  |  **Button padding**  |  (Optional) Specify the number of pixels of space between the button edge and the button text.  |
-|  **Button text**  |  **Button text color**  |  (Optional) Choose the color of the button. Note: If you're using the Beaver Builder Theme, the default button and button hover colors come from **Customize > General > Buttons**, but you override the default colors with this setting. 
+|  **Button text**  |  **Button text color**  |  (Optional) Choose the color of the button. Note: If you're using the Beaver Builder Theme, the default button and button hover colors come from **Customize > General > Buttons**, but you override the default colors with this setting.
 |  |  **Button text hover color**  |  (Optional) Enter a hover color.  |
 |  |  **Button typography** | The [standard typography section](/beaver-builder/styles/typography/typography.md) to style the button text.  |
 |  **Button background**  |  **Button background color**  |  Set the fill color for the button in the resting state.  |
@@ -133,7 +133,7 @@ See [this article](/beaver-builder/layouts/modules/contact-form/add-a-google-rec
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Accessibility
 The Subscribe Form module's rendered HTML output contains a number of labels and classes to help screen readers understand the form. Here's an example.
@@ -145,15 +145,15 @@ The Subscribe Form module's rendered HTML output contains a number of labels and
 		<input type="text" aria-describedby="name-error" name="fl-subscribe-form-name" placeholder="Name" id="fl-subscribe-form-name">
 		<div class="fl-form-error-message" id="name-error">Please enter your name.</div>
 	</div>
-	
+
 	<div class="fl-form-field">
 		<label for="fl-subscribe-form-email" class="hidden">Email Address</label>
 		<input type="email" aria-describedby="email-error" name="fl-subscribe-form-email" placeholder="Email Address" id="fl-subscribe-form-email">
 		<div class="fl-form-error-message" id="email-error">Please enter a valid email address.</div>
 	</div>
 
-			
-			
+
+
 	<div class="fl-form-button" data-wait-text="Please Wait...">
 	<div class="fl-button-wrap fl-button-width-full fl-button-left">
 			<a href="#" target="_self" class="fl-button" role="button">
@@ -162,7 +162,7 @@ The Subscribe Form module's rendered HTML output contains a number of labels and
 </div>
 	</div>
 
-	
+
 	<div class="fl-form-success-message"><p>Thanks for subscribing! Please check your email for further instructions.</p></div>
 
 	<div class="fl-form-error-message">Something went wrong. Please check your entries and try again.</div>

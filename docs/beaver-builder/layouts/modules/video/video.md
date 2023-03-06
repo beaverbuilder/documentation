@@ -35,7 +35,7 @@ If you choose **Media Library**, the following additional settings are available
 Field  |  Description  
 ---|-----  
 **Video (MP4)** |  Add an MP4 video that you have uploaded to your media library.  
-**Video (WebM)** |  (Optional) Select a WebM-format video from the media library to display in browsers that can't play MP4. WebM was required on some older versions of Firefox and Safari. 
+**Video (WebM)** |  (Optional) Select a WebM-format video from the media library to display in browsers that can't play MP4. WebM was required on some older versions of Firefox and Safari.
 **Show video on lightbox** |  (Default is **No**) The video plays in a lightbox rather than directly on the page. If set to **Yes**, you must select **Enable Poster** and select a poster image, described in the following table rows.
 **Enable poster** |  Enable or disable a poster image that displays before the video is loaded, whether the video is displayed in a lightbox or not. If set to *Yes*, you must add an image to the next **Poster** setting.<br/>**Note:** If a poster image is specified, the attribute `preload="none"` is added to the rendered output to ask the browser not to load the video when the page loads. However, this attribute is ignored if  **Autoplay**  is set to **Yes**. See [this article](https://www.w3schools.com/tags/att_video_preload.asp) for more information about the `preload` attribute.  
 **Poster** |  (Optional for videos that play on the page, required for videos that play in a lightbox) Select a poster image from the Media Library.  If the video plays in a lightbox, the poster image displays on the main page and the video plays in the lightbox.
@@ -51,7 +51,7 @@ Field  |  Description
 ---|-----  
 **Play/pause** |  Show or hide the play and pause controls.  
 **Timer**  | Show or hide the timer control.  
-**Time Rail**  |  Show the bar that displays the time progression while the video plays. 
+**Time Rail**  |  Show the bar that displays the time progression while the video plays.
 **Duration**  |  Show the time duration.  
 **Volume**  | Show the volume control.  
 **Full screen**  |  Show the control to enable full-screen viewing.  
@@ -113,7 +113,7 @@ the structured data provided.
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ### Related modules
 

@@ -54,7 +54,7 @@ This tab has three sections, listed here and described below:
 * **Button background** section
 
 ### Main section
-For **Redirect URL**, provide URL for where to go when the user clicks the **Login** button. 
+For **Redirect URL**, provide URL for where to go when the user clicks the **Login** button.
 
 You can also change the login button label.
 
@@ -72,7 +72,7 @@ You can change the button background color and background hover colors.
 
 ## Logout Button tab options
 
-If the **Show logout button** option is set to **Yes**, then after the user successfully logs in, the login form is replaced by a **Logout** button. 
+If the **Show logout button** option is set to **Yes**, then after the user successfully logs in, the login form is replaced by a **Logout** button.
 
 ![](/img/login-form-85a02c2a.png)
 
@@ -93,4 +93,4 @@ You can set options that are applied to both the Login and Logout buttons, namel
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.

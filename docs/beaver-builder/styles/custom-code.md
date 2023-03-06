@@ -116,29 +116,9 @@ For third-party themes, check to see if it has an option to add JavaScript to th
 
 ## Per-Node CSS & JS
 
-The Enable Code Settings option in Beaver Builder [Advanced settings](/beaver-builder/management-migration/advanced-settings.md) allows you to add CSS and JavaScript to each node (rows, columns, and modules) individually. A CSS and JavaScript section can be found on the Advanced tab where you can add custom CSS and JavaScript for the specific node (row, column, module). All CSS and JavaScript is automatically scoped to the node you are working on.
+The Enable Code Settings option in Beaver Builder [Advanced settings](/beaver-builder/management-migration/advanced-settings.md) allows you to add CSS and JavaScript to each node (rows, columns, and modules) individually.
 
-:::info
-The `!important` declaration may be required if your custom CSS styles something already defined in the row, column, or module settings.
-:::
-
-:::tip Example
-The following CSS rule will only affect paragraph (`<p>`) tags for the module you are editing.
-
-```css
-p {
-  color: red;
-}
-```
-
-The CSS rules are then rewritten using the unique class name for that node.
-
-```css
-.fl-node-1d43q3gf56s p {
-  color: red;
-}
-```
-:::
+See the [CSS & JavaScript](beaver-builder/layouts/advanced-tab/css-js.md) article in the [Advanced tab section](beaver-builder/layouts/advanced-tab/index.md) for more information.
 
 ## HTML
 

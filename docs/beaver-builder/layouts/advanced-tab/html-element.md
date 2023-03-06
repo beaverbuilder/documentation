@@ -258,7 +258,7 @@ This can be taken a step further by targeting a specific element. For example, i
 
 ## Label
 
-The Label option is available for all rows, columns, and modules. It is used to provide a concise description of the content or purpose of these rows, columns, or modules.
+The Label option is available for all rows, columns, and modules. It is used to provide a concise description of the content or purpose of the row, column, or module.
 
 Labels will appear in both the Beaver Builder user interface overlay and Outline panel once they are added, as shown below.
 

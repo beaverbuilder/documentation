@@ -44,10 +44,6 @@ For example, suppose you need to position your Heading module higher up the page
 }
 ```
 
-:::tip
-When using CSS to change a module's position, be sure to prefix your CSS with the [fl-builder-edit utility class and use the `:not()` selector](/beaver-builder/getting-started/bb-editor-basics/custom-code.md#utility-classes) to avoid problems in the builder.
-:::
-
 ## Padding
 
 Beaver Builder gives you complete control over [Padding](https://www.w3schools.com/csS/css_padding.asp). Padding can be set for each side of an element (top, right, bottom, and left). You can also choose from the following CSS units `px`, `em`, `%`, `vw` and `vh`.

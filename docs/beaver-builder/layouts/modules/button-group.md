@@ -2,16 +2,16 @@
 id: button-group
 title: Button Group
 sidebar_label: Button Group
-description: The Button Group module displays multiple buttons in a single column, either horizontally or vertically. 
+description: The Button Group module displays multiple buttons in a single column, either horizontally or vertically.
 ---
 
-The Button Group module is a way to display multiple buttons in a single column, either horizontally or vertically. 
+The Button Group module is a way to display multiple buttons in a single column, either horizontally or vertically.
 
 ![Button group module example](/img/button-group-30a865c5.png)
 
 It's based on the [Button module](/beaver-builder/layouts/modules/button/button.md), so the settings are very similar.
 
-In the Button Group module, there's a **Style** tab that applies to all of the buttons, and then there's a **Style** tab for each button you create. Any setting on an individual button's **Style** tab overrides the global setting for the button group. 
+In the Button Group module, there's a **Style** tab that applies to all of the buttons, and then there's a **Style** tab for each button you create. Any setting on an individual button's **Style** tab overrides the global setting for the button group.
 
 :::tip **Tip**
 If you're using the Beaver Builder Theme, the buttons' initial style comes from the settings at **Customize > General > Buttons**. The button's default text color
@@ -33,7 +33,7 @@ An optional label for accessibility that adds an `aria` attribute with the value
 Click **Edit button** to configure the first button.
 
 **Add button**  
-Click to create each additional button. 
+Click to create each additional button.
 
 ### Style Tab (global)
 
@@ -86,7 +86,7 @@ See [this article](/beaver-builder/styles/typography/typography.md) about the **
 You can override all of the settings in this section on each button's **Style** tab.
 
   * **Background color**  
-Set the fill color for the button in the resting state. 
+Set the fill color for the button in the resting state.
   * **Background hover color**  
   Set the button's fill color on hover. If this setting is left blank, the **Background color** setting applies to hover also.
   * **Background style**  
@@ -108,7 +108,7 @@ Changes the background color of the buttons on hover.
 
 ### Advanced tab (global)
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Single-button tabs
 
@@ -136,7 +136,7 @@ This tab has four sections: a top section, **Text**, **Background**, and **Borde
 #### 1 Top section (single)
 
 * **Padding** (responsive)  
-Adjusts the padding between the edge of the button and the button's content. 
+Adjusts the padding between the edge of the button and the button's content.
 
 * Text align  
 See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for a description of how the alignment toggle settings work.

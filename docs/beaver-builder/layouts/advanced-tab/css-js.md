@@ -54,7 +54,7 @@ p {
 In contrast to the CSS section, the JavaScript section cannot automatically scope your JavaScript code to the node.
 
 :::warning Important
-In order for your JavaScript to be scoped to the specific node, you must either include the [node id class name](#identify-the-node-id) in your code, or [assign a custom ID or class name](assign-custom-id-or-class-name), and include that in your JavaScript.
+In order for your JavaScript to be scoped to the specific node, you must either include the [node id class name](#identify-the-node-id) in your code, or [assign a custom ID or class name](#assign-custom-id-or-class-name), and include that in your JavaScript.
 :::
 
 ### Assign Custom ID or Class Name
