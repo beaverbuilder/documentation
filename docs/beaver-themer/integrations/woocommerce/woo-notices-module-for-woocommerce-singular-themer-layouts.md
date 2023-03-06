@@ -20,6 +20,6 @@ This module also lets you style the notices with the following settings on the *
 * The [standard **Border** section settings](/beaver-builder/styles/effects/borders.md)
 * The [standard **Typography** section](/beaver-builder/styles/typography/typography.md)
 
-There are also  the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md).
+There are also  the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab/index.md).
 
 

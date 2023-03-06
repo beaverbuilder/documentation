@@ -20,7 +20,7 @@ By default, setting a single value applies to every device size. With Beaver's B
 
 The responsive settings occur most often for the following settings:
 
-* Margin and padding settings on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) and **Style** tab of rows, columns, and modules
+* Margin and padding settings on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab/index.md) and **Style** tab of rows, columns, and modules
 * [**Typography** section](/beaver-builder/styles/typography/typography.md) settings in modules
 * [**Border** section](/beaver-builder/styles/effects/borders.md) settings in rows, columns, and modules
 * **Alignment** settings in modules.
