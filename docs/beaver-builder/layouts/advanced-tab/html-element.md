@@ -260,6 +260,6 @@ This can be taken a step further by targeting a specific element. For example, i
 
 The Label option is available for all rows, columns, and modules. It is used to provide a concise description of the content or purpose of the row, column, or module.
 
-Labels will appear in both the Beaver Builder user interface overlay and Outline panel once they are added, as shown below.
+Labels appear in the Beaver Builder user interface overlay, settings window, and Outline panel once they are added, as shown below.
 
 ![Label in Outline panel](/img/beaver-builder/advanced-tab--html-element--4.jpg)
