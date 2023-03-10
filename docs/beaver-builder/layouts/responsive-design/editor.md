@@ -67,7 +67,7 @@ It is strongly recommended that you **do not** disable the [Responsive Iframe UI
 
 The Responsive Editor **does not** create separate layouts for each device size. You can, however, adjust your layouts per-device using the Visibility options and Responsive Toggle.
 
-* The [Visibility](advanced-tab/visibility.md#breakpoint) options utilize Beaver Builder [breakpoints](breakpoints.md) and allow you to show or hide row, column, or modules for specific devices.
+* The [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md#breakpoint) options utilize Beaver Builder [breakpoints](breakpoints.md) and allow you to show or hide row, column, or modules for specific devices.
 
 * The [Responsive Toggle](toggle.md) allows you to configure specific settings, such as font size, background image or column width on a per-device basis.
 
