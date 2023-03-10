@@ -52,7 +52,7 @@ Beaver Builder provides the following features to fine-tune your responsive layo
 
 * With [Custom Breakpoints](breakpoints.md#custom-breakpoints), you can set your own preferred widths for different device sizes overriding [Beaver Builder's default breakpoint](breakpoints.md) values.
 
-* Using [Visibility](advanced-tab/visibility.md) options, you can hide specific [nodes](getting-started/how-it-works.md#nodes) (rows, columns, and modules) on your website for selected devices, allowing you to customize your user experience accordingly.
+* Using [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md) options, you can hide specific [nodes](getting-started/how-it-works.md#nodes) (rows, columns, and modules) on your website for selected devices, allowing you to customize your user experience accordingly.
 
 * By using the [Responsive Toggle](toggle.md), you can define different row, column, and module settings per device, such as margins, padding, and even background images.
 

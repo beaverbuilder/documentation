@@ -20,13 +20,13 @@ Prior to Beaver Builder 2.7, the responsive editor provided an approximation of 
 * Zoom (100%, 75%, 50%, and Fit to Window).
 * You can resize the editor window by dragging it from the top, bottom, left, or right.
 
-See the [Responsive Editor](/beaver-builder/responsive-design/editor.md) article for more information.
+See the [Responsive Editor](/beaver-builder/layouts/responsive-design/editor.md) article for more information.
 
 ## Visibility UI (Breakpoint)
 
 To improve the user experience, the Breakpoint dropdown menu in the Advanced tab has been replaced with icons. Now you can toggle the device icons to determine when rows, columns, or modules appear.
 
-See the [Visibility](/beaver-builder/layouts/beaver-builder/layouts/advanced-tab/visibility.md) article for more information.
+See the [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md) article for more information.
 
 ## Per-node CSS & JavaScript
 

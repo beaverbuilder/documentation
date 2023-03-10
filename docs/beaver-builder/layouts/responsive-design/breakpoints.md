@@ -61,18 +61,18 @@ The default breakpoint values for each device size are:
 
 ## Custom Breakpoints
 
-The default breakpoints in Beaver Builder can be customized to suit your needs. If you modify the default breakpoint values, those changes will be applied globally. 
+The default breakpoints in Beaver Builder can be customized to suit your needs. If you modify the default breakpoint values, those changes will be applied globally.
 
-1. [Launch Beaver Builder](getting-started/launch-builder.md) on a page or post.
+1. [Launch Beaver Builder](/beaver-builder/getting-started/bb-editor-basics/launch-builder.md) on a page or post.
 
-2. Access the [Global Settings](user-interface/global-settings.md#medium-device-breakpoint) from the [Tools menu](user-interface/tools-menu.md).
+2. Access the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#medium-device-breakpoint) from the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md).
 
 3. Go to the **Responsive Layouts** sections and change the number of pixels for the Large, Medium, or Small device breakpoints.
 
 4. Click **Save**.
 
 :::tip
-If the [Use Responsive Settings in Previews?](user-interface/global-settings.md#use-responsive-settings-in-previews) setting in [Global Settings](user-interface/global-settings.md) is enabled, custom breakpoints will be used in [Responsive Editor mode](editor.md). 
+If the [Use Responsive Settings in Previews?](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#use-responsive-settings-in-previews) setting in [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md) is enabled, custom breakpoints will be used in [Responsive Editor mode](editor.md).
 :::
 
 ![Beaver Builder default breakpoints](/img/beaver-builder/responsive-design--breakpoints--1.jpg)
@@ -85,5 +85,4 @@ In many iPad models, the landscape orientation display dimensions are `1024x768`
 
 ![Landscape and Portrait Orientation diagram](/img/beaver-builder/responsive-design--breakpoints--2.jpg)
 
-By changing the Small Device Breakpoint value from `768px` to `767px`, you can make the iPad's portrait orientation a medium device. You can then use the [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md) setting on the [Advanced tab](/beaver-builder/layouts/beaver-builder/layouts/advanced-tab/index.md) to display one row for tablets in both orientations, but a separate row for phones.
-
+By changing the Small Device Breakpoint value from `768px` to `767px`, you can make the iPad's portrait orientation a medium device. You can then use the [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md) setting on the [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) to display one row for tablets in both orientations, but a separate row for phones.

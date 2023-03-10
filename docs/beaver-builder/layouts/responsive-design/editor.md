@@ -16,7 +16,7 @@ Enter Responsive Editing mode in any of the following ways:
 * Click the [Responsive Toggle](toggle.md) icon next to settings that have it for a row, column, or module.  
   Your page view will stay in responsive editing mode even if you close the Settings window. Use the **Exit** button to close responsive editing.
 
-* On the [Tools menu](user-interface/tools-menu.md), click **Responsive editing**.
+* On the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), click **Responsive editing**.
 
 * Keyboard shortcut <kbd>R</kbd>  
   This keyboard shortcut toggles responsive editing mode.
@@ -43,7 +43,7 @@ See the [Breakpoints](breakpoints.md) article for more information.
 
 ### Width & Height
 
-The Width and Height options allow you to adjust the width and height to custom values. 
+The Width and Height options allow you to adjust the width and height to custom values.
 
 ### Zoom
 
@@ -60,7 +60,7 @@ There are Drag Handles at the bottom, left, and right of the layout preview, whi
 The Responsive Editor provides an accurate preview of the layout you're editing for a variety of devices. You can preview the layout at any size you choose using the [Width and Height](#width--height) options or the [Drag Handles](#drag-handles).
 
 :::caution Legacy Responsive Editor
-It is strongly recommended that you **do not** disable the [Responsive Iframe UI from Beaver Builder Advanced settings](settings/advanced.md#responsive-iframe-ui). This will enable Beaver Builder's legacy, non-iframe responsive editing experience which only simulates device previews and provides an approximation of how your website would look on a mobile device.
+It is strongly recommended that you **do not** disable the [Responsive Iframe UI from Beaver Builder Advanced settings](/beaver-builder/management-migration/advanced-settings#responsive-iframe-ui). This will enable Beaver Builder's legacy, non-iframe responsive editing experience which only simulates device previews and provides an approximation of how your website would look on a mobile device.
 :::
 
 ## Per-device Styling
