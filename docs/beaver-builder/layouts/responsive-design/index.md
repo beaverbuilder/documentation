@@ -59,9 +59,10 @@ Beaver Builder provides the following features to fine-tune your responsive layo
 * [Columns stack](columns/stacking.md) automatically for small devices due to the limited viewing area, and one column is usually the best design. You can avoid and control column stacking by setting custom column widths for each device size, or by reversed column stacking order.
 
 ## In this section
-  
+
+```mdx-code-block
 import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
-<DocCardList />
-
-
+<DocCardList items={useCurrentSidebarCategory().items}/>
+```
