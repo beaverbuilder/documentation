@@ -384,13 +384,16 @@
         {
           type: 'category',
           label: 'Responsive Design',
+          link: {
+             type: "doc",
+             id: "beaver-builder/layouts/responsive-design/index",
+          },
           items: [
-            "beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder",
-            "beaver-builder/layouts/responsive-design/responsive-settings-icon",
-            "beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder",
+            "beaver-builder/layouts/responsive-design/editor",
+            "beaver-builder/layouts/responsive-design/breakpoints",
+            "beaver-builder/layouts/responsive-design/toggle",
+            "beaver-builder/layouts/responsive-design/disable",
             "beaver-builder/layouts/responsive-design/responsive-columns",
-            "beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes",
-            "beaver-builder/layouts/responsive-design/change-device-breakpoints-site-wide",
           ]
         },
         {
