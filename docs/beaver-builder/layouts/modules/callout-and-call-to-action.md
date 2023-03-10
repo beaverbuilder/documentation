@@ -120,7 +120,7 @@ information.
   * **Padding (responsive)**  
 The distance from the module's border to its content, in **px**, **em**, or
 **%** units. You can enter these values per device size by clicking the device
-icon or entering **Responsive Editing Mode**. See [this article](/beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder.md) for more information about responsive editing.  
+icon or entering **Responsive Editing Mode**. See [this article](/beaver-builder/layouts/responsive-design/index.md) for more information about responsive editing.  
 
 ![](/img/callout-9.png)
 

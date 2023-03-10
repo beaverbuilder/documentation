@@ -8,7 +8,7 @@ Most of the time, full-width images don’t look that great on mobile view,
 because they are cropped (which is better than being stretched). You can change the background image or any of the background
 image settings ( **Repeat**, **Position**, **Attachment**, **Scale** ) for
 each device size. To change any of these settings per device size, click the
-responsive icon toggle to open Responsive Editor mode. See [this article about using Responsive Editor mode](//beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder.md).
+responsive icon toggle to open Responsive Editor mode. See [this article about using Responsive Editor mode](//beaver-builder/layouts/responsive-design/editor.md).
 
 For earlier versions of Beaver Builder, you can change the background image
 when screen size reaches the mobile responsive breakpoint by using the

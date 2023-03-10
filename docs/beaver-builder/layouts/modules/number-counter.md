@@ -73,7 +73,7 @@ Sets the color of the portion of the bar that indicates the **Number** value.
 * **Bar background color**  
 Sets the color of the portion of the bar that indicates the **Total** value.
 * **Bar height** (responsive)  
-Sets the height of the bar. This number can be varied by device size, using the [responsive settings icon](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md).
+Sets the height of the bar. This number can be varied by device size, using the [responsive settings icon](/beaver-builder/layouts/responsive-design/toggle.md).
 
 #### Circle Bar Styles section
 This section appears only when **Layout** on the **General** tab is set to **Circle counter**.

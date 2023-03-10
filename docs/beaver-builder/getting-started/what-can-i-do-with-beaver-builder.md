@@ -107,7 +107,7 @@ inside your layout.
 ![](/img/what-can-i-do-with-beaverbuilder-10.gif)
 
 For more information about responsive editing settings, start with this
-[overview article on responsiveness.](/beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder.md)
+[overview article on responsiveness.](/beaver-builder/layouts/responsive-design/index.md)
 
 ### Save Beaver Builder layouts for use elsewhere
 

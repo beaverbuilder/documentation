@@ -49,7 +49,7 @@ Here's a diagram that illustrates the global padding, spacing, and width setting
 Choose a horizontal or vertical placement of the buttons.
 
 :::tip **Tip**
-A horizontal layout wraps the buttons to another line as screen size decreases. A vertical layout wraps the button text to another line as screen size decreases. Enter <kbd>R</kbd> on the keyboard to enter [Responsive Mode](/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder/) to compare layouts at smaller screen sizes.
+A horizontal layout wraps the buttons to another line as screen size decreases. A vertical layout wraps the button text to another line as screen size decreases. Enter <kbd>R</kbd> on the keyboard to enter [Responsive Mode](/beaver-builder/layouts/responsive-design/editor.md) to compare layouts at smaller screen sizes.
 :::
 
 * **Width**  

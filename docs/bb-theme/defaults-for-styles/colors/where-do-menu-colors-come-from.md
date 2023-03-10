@@ -80,7 +80,7 @@ The **Hover color** setting applies to both hovered links and the currently acti
 
 ### Medium screens (Nav Bottom and Nav Centered layouts)
 
-Behavior on medium screens mirrors either large screens or small screens depending on the **Responsive nav breakpoint** setting at **Header > Nav layout**. See [this article for information about Beaver Builder Theme breakpoints](/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes.md).
+Behavior on medium screens mirrors either large screens or small screens depending on the **Responsive nav breakpoint** setting at **Header > Nav layout**. See [this article for information about Beaver Builder Theme breakpoints](/beaver-builder/layouts/responsive-design/breakpoints.md).
 
 By default, the **Header > Nav layout > Responsive nav breakpoint** setting is **Small screens only**, which means that medium screens keep the menu bar and menu that you see on a large screen.
 

@@ -26,7 +26,7 @@ See the [Responsive Editor](/beaver-builder/responsive-design/editor.md) article
 
 To improve the user experience, the Breakpoint dropdown menu in the Advanced tab has been replaced with icons. Now you can toggle the device icons to determine when rows, columns, or modules appear.
 
-See the [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md) article for more information.
+See the [Visibility](/beaver-builder/layouts/beaver-builder/layouts/advanced-tab/visibility.md) article for more information.
 
 ## Per-node CSS & JavaScript
 

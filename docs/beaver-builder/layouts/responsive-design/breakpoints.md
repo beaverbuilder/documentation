@@ -85,5 +85,5 @@ In many iPad models, the landscape orientation display dimensions are `1024x768`
 
 ![Landscape and Portrait Orientation diagram](/img/beaver-builder/responsive-design--breakpoints--2.jpg)
 
-By changing the Small Device Breakpoint value from `768px` to `767px`, you can make the iPad's portrait orientation a medium device. You can then use the [Visibility](/advanced-tab/visibility.md) setting on the [Advanced tab](advanced-tab/getting-started.md) to display one row for tablets in both orientations, but a separate row for phones.
+By changing the Small Device Breakpoint value from `768px` to `767px`, you can make the iPad's portrait orientation a medium device. You can then use the [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md) setting on the [Advanced tab](/beaver-builder/layouts/beaver-builder/layouts/advanced-tab/index.md) to display one row for tablets in both orientations, but a separate row for phones.
 

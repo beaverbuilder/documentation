@@ -131,7 +131,7 @@ tablets and mobile devices. Go back to the **Advanced** tab and click the icon
 next to the **Margins** or **Padding** section to change the view, as shown in
 the following animation. Clicking this icon opens Responsive Editing mode,
 which lets you edit directly in the medium- and small-device views. See the
-[article  about Responsive Editing Mode](/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder.md).
+[article about Responsive Editing Mode](/beaver-builder/layouts/responsive-design/editor.md).
 
   ![](/img/rows-columns-margin-padding-2.gif)   
 

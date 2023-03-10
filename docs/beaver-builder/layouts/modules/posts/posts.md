@@ -85,7 +85,7 @@ Setting **Equal Heights** to **Yes** for the **Masonry** layout changes the maso
 
 ### Columns
 
-Control the maximum number of columns for the Post module. Automatically adjusts as screen size reduces. The Column option supports the [Responsive Toggle](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) allowing you to choose a different number of columns per-device.
+Control the maximum number of columns for the Post module. Automatically adjusts as screen size reduces. The Column option supports the [Responsive Toggle](/beaver-builder/layouts/responsive-design/toggle.md) allowing you to choose a different number of columns per-device.
 
 :::caution
 Available for Columns layout only.
