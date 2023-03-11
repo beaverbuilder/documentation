@@ -448,30 +448,27 @@ html[data-theme='dark'] .hero__title {
 }
 
 /* Details markup styling */
-.details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module {
+details {
   border: 2px solid var(--bb-details-border) !important;
   background-color: var(--bb-details-background) !important;
   box-shadow: none !important;
-}
-
-.details_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module > summary::before {
-  border-color: transparent transparent transparent var(--ifm-color-emphasis-900) !important;
-}
-
-.details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module {
   --docusaurus-details-decoration-color: transparent !important;
 }
 
-.details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module code {
+details > summary::before {
+  border-color: transparent transparent transparent var(--ifm-color-emphasis-900) !important;
+}
+
+details code {
   background-color: rgb(246, 247, 248);
 }
 
-html[data-theme='dark'] .details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module {
+html[data-theme='dark'] details {
   border: 2px solid var(--bb-details-border) !important;
   background-color: var(--bb-details-background) !important;
   box-shadow: none !important;
 }
 
-html[data-theme='dark'] .details_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module > summary::before {
+html[data-theme='dark'] details > summary::before {
   border-color: transparent transparent transparent var(--ifm-color-emphasis-0) !important;
 }
