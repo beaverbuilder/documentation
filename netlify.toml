@@ -1,4 +1,4 @@
-# New Responsive docs BB 2.7
+# Redirects for BB 2.7
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design"
@@ -24,13 +24,38 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-desig
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design"
 status = 301
 force = true
-
-# New Advanced tab docs BB 2.7
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab-rows-columns-modules"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab"
 status = 301
 force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/margin-padding"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/spacing"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/change-individual-margin-and-padding-settings"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/spacing"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/change-default-row-and-module-margins-and-padding"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/global-settings#rows"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/disable-auto-spacing-on-mobile-devices"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/global-settings#auto-spacing"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/spacing"
+status = 301
+force = true
+
+
 
 # Redirect Contact Form module doc link
 [[redirects]]

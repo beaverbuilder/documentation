@@ -372,17 +372,6 @@
         },
         {
           type: 'category',
-          label: 'Margins & Padding',
-          items: [
-            "beaver-builder/layouts/margins-padding/margin-padding",
-            "beaver-builder/layouts/margins-padding/change-individual-margin-and-padding-settings",
-            "beaver-builder/layouts/margins-padding/change-default-row-and-module-margins-and-padding",
-            "beaver-builder/layouts/margins-padding/disable-auto-spacing-on-mobile-devices",
-            "beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding",
-          ]
-        },
-        {
-          type: 'category',
           label: 'Responsive Design',
           link: {
              type: "doc",

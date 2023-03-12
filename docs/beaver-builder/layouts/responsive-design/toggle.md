@@ -14,7 +14,7 @@ The purpose of this article is to explain what the responsive device toggle is a
 
 ## Introduction
 
-Responsive Device Toggle allows you to customize the layout and appearance of your layout's rows, columns, and modules on a per-device basis, using Beaver Builder breakpoints. Options that support the Responsive Device Toggle will display a device icon. Every device size is represented by a different icon in order to make it easy to distinguish the device size you're currently using. 
+Responsive Device Toggle allows you to customize the appearance of your layout's rows, columns, and modules on a per-device basis, using Beaver Builder breakpoints. A device icon will appear next to options that support the Responsive Device Toggle. Every device size is represented by a different icon in order to make it easy to distinguish the device size you're currently using. 
 
 <ul className="dashicons-list">
   <li><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M3 2h14c.55 0 1 .45 1 1v10c0 .55-.45 1-1 1h-5v2h2c.55 0 1 .45 1 1v1H5v-1c0-.55.45-1 1-1h2v-2H3c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1zm13 9V4H4v7h12zM5 5h9L5 9V5z"/></svg></span> <span>Extra Large</span></li>
@@ -31,26 +31,26 @@ Any time you configure an option for a specific device size in a row, column, or
 
 ```css
 /* Extra Large (default) */
-.fl-module-heading .fl-heading { 
+.fl-module-heading .fl-heading {
  font-size: 60px;
 }
 
 /* Large device breakpoint */
-@media(max-width: 1200px) { 
+@media(max-width: 1200px) {
  .fl-module-heading .fl-heading {
   font-size: 50px;
  }
 }
 
 /* Medium device breakpoint */
-@media(max-width: 992px) { 
+@media(max-width: 992px) {
  .fl-module-heading .fl-heading {
   font-size: 40px;
  }
 }
 
 /* Small device breakpoint */
-@media(max-width: 768px) { 
+@media(max-width: 768px) {
  .fl-module-heading .fl-heading {
   font-size: 30px;
  }
