@@ -443,14 +443,6 @@
             "beaver-builder/styles/icons/create-and-import-a-custom-icon-set",
           ]
         },
-        {
-          type: 'category',
-          label: 'Visibility',
-          items: [
-            "beaver-builder/styles/visibility/change-item-visibility-by-device-size",
-            "beaver-builder/styles/visibility/change-element-visibility-by-user-login-and-capability",
-          ]
-        },
         "beaver-builder/styles/custom-code",
       ]
     },
