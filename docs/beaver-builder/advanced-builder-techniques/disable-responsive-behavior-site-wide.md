@@ -32,8 +32,8 @@ Remember this will apply site-wide.
 We don't recommend disabling responsive behavior entirely. Here are some
 alternatives:
 
-* You can [prevent columns from stacking by setting custom widths](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md). 
-* For more control over spacing, you can [disable auto spacing site-wide](/beaver-builder/layouts/margins-padding/disable-auto-spacing-on-mobile-devices.md) instead of disabling responsiveness entirely, then control margins and padding individually. 
+* You can [prevent columns from stacking by setting custom widths](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md).
+* For more control over spacing, you can [disable auto spacing site-wide](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#auto-spacing) instead of disabling responsiveness entirely, then control margins and padding individually. 
 
 Still, there could be a time when you want to disable responsiveness site-
 wide. For example, you might be developing an internal website that you know

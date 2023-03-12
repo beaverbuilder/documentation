@@ -34,7 +34,7 @@ The Style tab is divided into two sections: **Container style** and **Text style
 
 The container refers to the container surrounding both navigation links.
 
-See the [Margins and Padding](/beaver-builder/layouts/margins-padding/margin-padding.md) article for a refresher on the relationship between margins, borders, and padding.
+See the [Margins and Padding](/beaver-builder/layouts/advanced-tab/spacing.md) article for a refresher on the relationship between margins, borders, and padding.
 
 * **Container padding** (responsive)  
 Sets the padding for the container.

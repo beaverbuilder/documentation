@@ -42,7 +42,7 @@ Padding
 * **Number spacing**  
 Used in both types of layout to increase or decrease the left and right margins for individual numbers.
 
-The following screenshot shows a **Numbers** layout with the **Horizontal padding**, **Vertical padding**, and **Number spacing** settings mapped onto a [CSS box](/beaver-builder/layouts/margins-padding/margin-padding.md). The padding settings are associated with the `fl-countdown-unit` class, whereas the left-right spacing is associated with the  `fl-countdown-number` class.
+The following screenshot shows a **Numbers** layout with the **Horizontal padding**, **Vertical padding**, and **Number spacing** settings mapped onto a [CSS box](/beaver-builder/layouts/advanced-tab/spacing.md). The padding settings are associated with the `fl-countdown-unit` class, whereas the left-right spacing is associated with the  `fl-countdown-number` class.
 
 ![Countdown module, Numbers layout with padding and spacing mapped onto CSS box](/img/countdown-3.jpg)
 

@@ -116,7 +116,7 @@ saved template has been applied.
 ## Margin (CSS)
 
 In the CSS box model, the distance between the edge of the box and the border.
-See also [the article on margins and padding](/beaver-builder/layouts/margins-padding/margin-padding.md).
+See also [the article on margins and padding](/beaver-builder/layouts/advanced-tab/spacing.md).
 
 ## Module (BB)
 
@@ -127,7 +127,7 @@ For the CSS class, see the [HTML, CSS, and JavaScript reference](/beaver-builder
 ## Padding (CSS)
 
 In the CSS box model, the distance between the border and the content area of
-the box. See also [the article on margins and padding](/beaver-builder/layouts/margins-padding/margin-padding.md).
+the box. See also [the article on margins and padding](/beaver-builder/layouts/advanced-tab/spacing.md).
 
 ## Page (WP)
 
