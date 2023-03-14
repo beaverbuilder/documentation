@@ -1223,7 +1223,7 @@
          },
          items: [
            "assistant/plugin/apps/home",
-           "assistant/plugin/app/community",
+           "assistant/plugin/apps/community",
            "assistant/plugin/apps/content",
            "assistant/plugin/apps/media",
            "assistant/plugin/apps/comments",
