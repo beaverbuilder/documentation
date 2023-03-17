@@ -60,6 +60,29 @@ major update.
 
 There will typically be a post on our blog announcing the first beta release.
 
+### Install Alpha or Beta Releases
+
+Beaver Builder alpha or beta releases can be installed by enabling the [Prerelease Updates](/beaver-builder/management-migration/settings-overview.md) option in the Beaver Builder settings.
+
+:::tip Install via FTP
+1. Download the alpha/beta zip file from your [My Account](https://www.wpbeaverbuilder.com/my-account/) page via Alpha/Beta Testing Downloads section.
+
+2. FTP to your site and delete the `/wp-content/plugins/bb-plugin/` folder. Then unzip the alpha/beta plugin on your local system and upload the `/bb-plugin` folder to the same location.  
+
+3. Activate the plugin.
+
+This installation procedure works for Beaver Themer & BB Theme alpha/beta releases also.
+
+* The **Beaver Themer** folder location is `/wp-content/plugins/bb-theme-builder/`.
+* The **BB Theme** folder location is `/wp-content/plugins/bb-theme/`.
+:::
+
+
+
+
+
+
+
 ## Install an alpha or beta plugin release
 
 Once you have installed an alpha or beta release, the automatic update feature
