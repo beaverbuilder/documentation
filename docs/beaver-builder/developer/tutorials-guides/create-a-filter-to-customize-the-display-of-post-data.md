@@ -4,7 +4,7 @@ title: Create a filter to customize the display of post data
 sidebar_label: Create a filter to customize the display of post data
 ---
 
-If you want to display a custom set of posts and custom post types (CPTs) in a Posts or Search module, you can create a filter to override query args in the `FLBuilderLoop` class. 
+If you want to display a custom set of posts and custom post types (CPTs) in a Posts or Search module, you can create a filter to override query args in the `FLBuilderLoop` class.
 
 :::note **Note**
 This code applies to custom queries only and doesn't work with the main query. If you want to override the main query, see [this WordPress codex article.](https://developer.wordpress.org/reference/hooks/pre_get_posts/)
@@ -12,7 +12,7 @@ This code applies to custom queries only and doesn't work with the main query. I
 
 ## Code for a custom query that applies to the entire site
 
-The following code applies to the whole site, so wherever you use a Posts or Search module, the display will show the post types that you enumerated in your array. 
+The following code applies to the whole site, so wherever you use a Posts or Search module, the display will show the post types that you enumerated in your array.
 
 Add the following code to the _functions.php_ file in your child theme.
 
@@ -53,7 +53,7 @@ add_filter( 'fl_builder_loop_query_args', 'bb_custom_loop_query_args' );
 
 ### Apply an override to a specific Posts or Search module
 
-The following code example displays both standard posts and WooCommerce products for a specific Posts module or Search module ID. Note that the conditional statement for the Search module is slightly different from that of the Posts module so we provide both code examples here. 
+The following code example displays both standard posts and WooCommerce products for a specific Posts module or Search module ID. Note that the conditional statement for the Search module is slightly different from that of the Posts module so we provide both code examples here.
 
 1. Set a custom ID on the Posts or Search module.  
 ![](/img/dev-filter-post-data-1.png)
@@ -73,7 +73,7 @@ add_filter( 'fl_builder_loop_query_args', 'fl_builder_loop_query_args_filter' );
 **Search module:**  
 ```php
 function fl_builder_loop_query_args_filter( $query_args ) {
-  if ( 'example-module' == $query_args['settings']->settings->id ) {
+  if ( isset($query_args['settings']->settings->id) && 'example-module' == $query_args['settings']->settings->id ) {
     $query_args['post_type'] = array( 'post', 'product' );
   }
   return $query_args;
