@@ -28,7 +28,7 @@ module.exports = {
     announcementBar: {
       id: 'announcement-bar',
       content:
-        'Save page builder templates and design assets to the cloud! Get started FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
+        '🎉 New Beaver Builder template marketplace! Get started for FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
       backgroundColor: '#1b7497',
       textColor: '#ffffff',
       isCloseable: true,
