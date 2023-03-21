@@ -18,6 +18,8 @@ You need to have a Team Account in order to create teams. You can upgrade to a T
 
 :::caution
 A Team subscription includes 3 User Accounts. Additional users can be added for $5 per month each. When a free account user joins a team, their account **is not** upgraded to premium.
+
+If you wish to sell libraries, you must use your personal account. Team accounts are not currently supported.
 :::
 
 ## Create a team
@@ -50,27 +52,15 @@ There are three types of roles that can collaborate together in your Team: Membe
 A team may have more than one administrator.
 :::
 
-#### Member
-
-* View libraries, collections, and creative assets.
-
-#### Editor
-
-* View libraries, collections, and creative assets.
-* Add creative assets to libraries and collections.
-* Organize creative assets by creating collections.
-* Edit creative assets, such as renaming items and adding descriptions.
-* Delete creative assets.
-
-#### Admin
-
-* View libraries, collections, and creative assets.
-* Add creative assets to libraries and collections.
-* Organize creative assets by creating collections.
-* Edit creative assets, such as renaming items and adding descriptions.
-* Delete creative assets.
-* Create and delete libraries.
-* Manage team members, such as inviting, selecting roles, and deleting.
+| Member  | Editor  | Administrator  | Privilege                                                              |
+|---------|---------|----------------|------------------------------------------------------------------------|
+|✅       |✅       |✅              | View libraries, collections, and creative assets.                      |
+|❌       |✅       |✅              | Add creative assets to libraries and collections.                      |
+|❌       |✅       |✅              | Organize creative assets by creating collections.                      |
+|❌       |✅       |✅              | Edit creative assets, such as renaming items and adding descriptions.  |
+|❌       |✅       |✅              | Delete creative assets.                                                |
+|❌       |❌       |✅              | Create and delete libraries.                                           |
+|❌       |❌       |✅              | Manage team members, such as inviting, selecting roles, and deleting.  |
 
 ## Create Team library
 
