@@ -1216,6 +1216,7 @@
          },
          items: [
            "assistant/plugin/apps/home",
+           "assistant/plugin/apps/community",
            "assistant/plugin/apps/content",
            "assistant/plugin/apps/media",
            "assistant/plugin/apps/comments",
@@ -1247,6 +1248,7 @@
          items: [
            "assistant/cloud/account-settings/profile-settings",
            "assistant/cloud/account-settings/change-password",
+           "assistant/cloud/account-settings/seller",
            "assistant/cloud/account-settings/transfer-ownership",
            "assistant/cloud/account-settings/delete-account",
          ],
