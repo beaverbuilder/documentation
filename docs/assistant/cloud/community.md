@@ -9,11 +9,15 @@ import TabItem from '@theme/TabItem';
 
 Throughout this article, we will explain what the Assistant Community is, how it works, and how you can browse, view, and purchase libraries and creative assets.
 
-![Assistant Pro Cloud Community](/img/assistant/cloud--community--1.jpg)
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NIelbEGusUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## What is the Assistant Community?
 
 The Assistant Community is a marketplace where WordPress developers can acquire free and premium page builder templates, images and .svg graphics. Designers can become community marketplace [sellers](account-settings/seller.md) to monetize their design work.
+
+![Assistant Pro Cloud Community](/img/assistant/cloud--community--1.jpg)
 
 ## Explore the Community
 
@@ -47,6 +51,10 @@ See the [Seller](account-settings/seller.md) article for more information.
 ## Purchasing Libraries
 
 A library or creative asset can be purchased through the Assistant cloud website or through the Assistant plugin.
+
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/em3YdMn7eJ0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
 
 ### Assistant Cloud
 

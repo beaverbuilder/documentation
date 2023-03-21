@@ -25,6 +25,10 @@ In order to access the Seller Account menu, you need either a **Personal** or **
 
 ## Becoming a Seller
 
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bvyDGiwi7EQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 1. Navigate to the [Account tab](index.md) and click the **Seller Account** menu item.
 
 3. Complete the form and agree to the [Terms & Conditions](https://assistant.pro/seller-terms-conditions/).  
@@ -77,7 +81,6 @@ You can use the Library Description option to provide useful information about y
 3. Click the **Save Settings** button.
 
 ![Selling Libraries from Assistant Cloud](/img/assistant/account--seller-account--5.jpg)
-
 
 ### Assistant Plugin
 
