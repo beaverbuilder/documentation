@@ -14,7 +14,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+## Code Editors
 .nova
+.vscode
 
 npm-debug.log*
 yarn-debug.log*
