@@ -62,6 +62,19 @@ html[data-theme='dark'] .DocSearch {
   );
 }
 
+/* Size Device SVGs in lists
+ * beaver-builder/advanced-tab/visibility.md
+ */
+ .markdown ul p > img[alt~="Device"],
+ .markdown ol p > img[alt~="Device"] {
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: auto;
+  height: 22px;
+  vertical-align: sub;
+}
+
 /* Announcement Bar */
 div[class^=announcementBar_] {
   background: #1b7497;

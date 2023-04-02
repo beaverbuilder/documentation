@@ -27,7 +27,7 @@ To learn how to hide the page title for third-party themes, visit the [Show or h
 
 ## Rows
 
-### Margin/Padding
+### Margin & Padding
 
 Configure the default margin and padding value for all directions (top, right, bottom, and left) for rows globally. Use the responsive settings to enter values on a per device basis (large, medium, and small).
 
@@ -49,14 +49,14 @@ Choose between **Fixed** or **Full-width** which will be the default for all row
 
 ## Columns
 
-### Margin/Padding
+### Margin & Padding
 
 Configure the default margin and padding value for all directions (top, right, bottom, and left) for columns globally. Use the responsive settings to enter values on a per device basis (large, medium, and small).
 
-* **Margin** accepts `px`, or `%` CSS units.   
+* **Margin** accepts `px`, or `%` CSS units.  
   The default value is `0px`.
 
-* **Padding**  access `px`, `em`, or `%` CSS units.      
+* **Padding**  access `px`, `em`, or `%` CSS units.  
   The default value is `0px`.
 
 ## Modules
@@ -65,7 +65,7 @@ Configure the default margin and padding value for all directions (top, right, b
 
 Configure the default margin value for all directions (top, right, bottom, and left) for modules globally. Use the responsive settings to enter values on a per device basis (large, medium, and small).
 
-* **Margin** accepts `px`, or `%` CSS units.    
+* **Margin** accepts `px`, or `%` CSS units.  
   The default value is `0px`.
 
 :::info
