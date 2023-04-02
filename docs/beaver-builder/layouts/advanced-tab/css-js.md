@@ -64,7 +64,7 @@ In order for your JavaScript to be scoped to the specific node, you must either 
 
 ### Identify the Node ID
 
-The unique node class name can be identified either by viewing the page source or by using the inspection tool provided by your browser. This node class is assigned to the parent div of the node and is prefixed with `fl-node-`. The unique node ID class name for the Heading module in the code example below is `fl-node-8zdpmqybf7sr`.
+You can find the unique class name of a node in two ways: by checking the page source or by using the inspection tool in your browser. The node's parent div is labeled with a class name that starts with `fl-node-`. For example, in the code provided below, the unique class name for the Heading module is `fl-node-8zdpmqybf7sr`.
 
 ```markup
 <div class="fl-module fl-module-heading fl-node-8zdpmqybf7sr">
@@ -82,39 +82,3 @@ Learn more about your browser's developer tools by clicking on the links below.
 * [FireFox](https://firefox-dev.tools/)
 * [Google Chrome](https://developer.chrome.com/docs/devtools/overview/)
 * [Safari](https://support.apple.com/guide/safari/use-the-developer-tools-in-the-develop-menu-sfri20948/mac)
-
-## Usage
-
-The CSS and JavaScript sections can be used for various purposes, such as:
-
-* **Client Friendly:** If you're working on a client's website and the client wants to make some minor CSS adjustments. The client may have difficulty finding the correct CSS rule if you added all your custom CSS to the theme's style.css file.  
-
-  If you want your clients to be able to easily update your CSS, you can place it in the code section of nodes (rows, columns, and modules). This allows the client to easily find the CSS rule for the correct node without affecting other CSS rules.
-
-* **Styling Specific Elements:** Using the CSS section for nodes (rows, columns, or modules), you can style specific elements while using the module's text color option for the rest of the text. The CSS code example below uses the pseudo class `:first-of-type` to style the first `<p>` tag to the `tomato` <span className="swatch" style={{ backgroundColor: "tomato" }} /> color.  
-
-  <Tabs>
-  <TabItem value="css" label="CSS" default>
-
-  ```css
-  p:first-of-type {
-    color: tomato !important;
-  }
-  ```
-
-  </TabItem>
-  <TabItem value="scoped-css" label="Scoped CSS">
-
-  ```css
-  .fl-node-8zdpmqybf7sr p:first-of-type {
-    color: tomato !important;
-  }
-  ```
-
-  </TabItem>
-  <TabItem value="image" label="Screenshot">
-
-  ![CSS example](/img/beaver-builder/advanced-tab--css-js--2.jpg)
-
-  </TabItem>
-  </Tabs>
