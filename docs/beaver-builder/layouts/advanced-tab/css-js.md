@@ -82,3 +82,9 @@ Learn more about your browser's developer tools by clicking on the links below.
 * [FireFox](https://firefox-dev.tools/)
 * [Google Chrome](https://developer.chrome.com/docs/devtools/overview/)
 * [Safari](https://support.apple.com/guide/safari/use-the-developer-tools-in-the-develop-menu-sfri20948/mac)
+
+## Outline Panel Indicator
+
+If you've added custom CSS or JavaScript to your row, column, or module, a code <i className="fa-solid fa-code"></i> icon will appear in the [Outline Panel](/beaver-builder/getting-started/bb-editor-basics/outline-panel.md). This helps you easily identify which rows, columns, or modules have custom CSS or JavaScript.
+
+![Outline Panel Custom Code Indicator](/img/beaver-builder/advanced-tab--css-js--2.jpg)
