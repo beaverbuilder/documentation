@@ -89,13 +89,32 @@ When **Disabled** only [Bast Font Size](#base-font-size) is available.
 
 ### Auto Spacing
 
-The **Auto Spacing** setting is enabled by default and is a feature that makes your mobile layouts look better without needing to change individual mobile spacing settings for rows, columns, and modules.
+Auto Spacing removes the requirement to manually configure margin and padding settings for each row and column on small devices, ensuring consistent spacing throughout the layout. This simplifies the design process and can result in considerable time and effort savings.
 
-If you want more control over spacing on small devices, you can override it via the module settings for small devices or disable it entirely.
+* When **enabled** (default), Auto Spacing configures the margin to `0px` for all directions and the padding-left and padding-right to `0px` for both rows and columns on small devices. The padding-top and padding-bottom inherit the values configured in the Global Settings or those defined for the small device size in the row or column settings.
 
-* When Auto Spacing is **Enabled** we reset the left/right padding for rows and columns and all margins for rows, columns, and modules to the values set in the global settings.
+  The CSS code snippet below displays how the CSS is represented for both rows and columns on small devices.
+ 
+  ```css
+  @media (max-width: 768px) {
+    .fl-row[data-node] .fl-row-content-wrap {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .fl-col[data-node] .fl-col-content {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  ```
+  
+* If you **disable** Auto Spacing, the margin and padding values set for desktop will be inherited by the small device size instead.
 
-* When **Disabled** the margins and padding you set in the row, column, or module settings will be the same on mobile and desktop.
+:::info
+If you need more precise control over the spacing of rows and columns on small devices, you can modify the margin and padding options for each row and column individually. These options can be found in the Advanced Tab for the specific row and column that you are currently working on.
+:::
 
 ### Large Device Breakpoint
 
