@@ -10,12 +10,12 @@ The **Visibility** section in the Advanced tab lets you determine when your rows
 ![Visibility section in the Advanced tab](/img/beaver-builder/advanced-tab--visibility--1.jpg)
 
 :::info
-The **Stacking Order** option is only available for **Columns**.
+The **Reverse Stacking Order** option is only available for [Columns](columns/index.md).
 :::
 
 ## Breakpoint
 
-By default, every row, column, and module is visible on every device size. You can use the Breakpoint setting to hide individual rows, columns, and modules for certain device sizes. In the Global Settings, you can view the default breakpoints and set custom values.
+By default, every row, column, and module is visible on every device size. You can use the [Breakpoint](responsive/breakpoints.md) setting to hide individual rows, columns, and modules for certain device sizes. In the [Global Settings](user-interface/global-settings.md#medium-device-breakpoint), you can view the default breakpoints and set custom values.
 
 ### Device Toggle Icons
 
@@ -23,35 +23,36 @@ Using the device toggle icons, you can quickly select which devices display or h
 
 You can choose one of the following device toggle icons:
 
-* **Extra Large Device**  
-	The element will be visible or hidden for desktop computers or TVs with a browser.
+* ![Extra Large Device](/img/desktop-dashicons.svg) **Extra Large Device**  
+  The element will be visible or hidden for desktop computers or TVs with a browser.
 
-* **Large Device**  
-	The element will be visible or hidden for small desktop computers, laptops, and landscape tablets.
+* ![Large Device](/img/laptop-dashicons.svg) **Large Device**  
+  The element will be visible or hidden for small desktop computers, laptops, and landscape tablets.
 
-* **Medium Device**  
-	The element will be visible or hidden for devices like small tablets.
+* ![Medium Device](/img/tablet-dashicons.svg) **Medium Device**  
+  The element will be visible or hidden for devices like small tablets.
 
-* **Small Device**  
-	The element will be visible or hidden for devices like portrait tablets, and smartphones.
-
-:::tip
-By default, all device toggle icons are enabled (blue), displaying the row, column, or module at all times.
-:::
+* ![Small Device](/img/smartphone-dashicons.svg) **Small Device**  
+  The element will be visible or hidden for devices like portrait tablets, and smartphones.
 
 ### Multi-selection
 
-The device toggle supports multi-selection and allows you to select more than one device. As a result, you are not limited to preset combinations, such as Large & Medium or Medium & Small, and can create any combination you wish.
+All device toggle icons are enabled (blue) by default, indicating that the corresponding row, column, or module is always displayed. The device toggle feature allows for multi-selection, enabling users to choose more than one device at a time. This eliminates the restriction of pre-defined combinations such as Large & Medium or Medium & Small, giving users the freedom to create any combination they desire.
 
-It is possible, for example, to display a row on Extra Large, Large, and Small devices and hide the row on Medium devices. In addition, a Heading module can be hidden on Extra Large and Small devices, but displayed on Large and Medium devices.
+For instance, users can choose to display a row on Extra Large, Large, and Small devices while hiding it on Medium devices. Similarly, a Heading module can be hidden on Extra Large and Small devices but displayed on Large and Medium devices.
 
 ![Device Toggle Combinations](/img/beaver-builder/advanced-tab--visibility--2.jpg)
 
-## Stacking Order (Columns)
+## Stacking Order *(Columns only)*
 
-The **Stacking Order** option is only available for columns and lets you easily reverse the stacking order of columns.
+This option only applies to columns, allowing you to reverse the stacking order of columns for medium and small devices. You can choose from the following options:
 
-See the [Columns Stacking](/beaver-builder/layouts/columns/reverse-column-stacking-order.md) article for more information.
+* Disabled
+* Small
+* Medium
+* Small & Medium
+
+See the [Columns Stacking](columns/stacking.md) article for more information.
 
 ## Display
 
@@ -59,11 +60,11 @@ The **Display** option lets you display your row, column or module based certain
 
 ### Never
 
-The row, column or module is only visible to the user editing the page. This is useful if the design isn't complete and ready for publishing.
+The row, column, or module is only visible to the user editing the page. This is useful if the design isn’t complete and ready for publishing. Using this feature is an excellent way to ensure that your design is exactly how you want it before making it public on your page layout.
 
 ### Always
 
-The row, column or module will always be visible for all users.
+The row, column, or module is visible at all times for every user.
 
 ### Logged Out Users
 
@@ -71,14 +72,28 @@ The row, column or module will only be visible for logged out users.
 
 ### Logged In Users
 
-The row, column or module will only be visible for logged in users. If you choose to show an element only when a user is logged in, you can also enter a [capability](https://wordpress.org/support/article/roles-and-capabilities/) the user must have. This is useful for limiting the row, column or module to specific users roles.
+The row, column, or module is only visible to users who have logged in to your website. You can also utilize a [WordPress capability](https://wordpress.org/support/article/roles-and-capabilities/) to limit the visibility of the row, column, or module to certain user roles. To achieve this, specify a capability that is unique to the user role and not shared by other roles
 
-### Conditional Logic
+As an example, if you wish to hide a row from all users except those with the Administrator role, you can input the capability `install_plugins` as it is exclusive to users assigned to the Administrator role.
 
-The Conditional Logic option is only available if you have Beaver Themer installed. This lets you fine-tune visibility using conditional logic.
+![Using WordPress Capbilities to show or hide content](/img/beaver-builder/advanced-tab--visibility--3.jpg)
 
-## Visibility Rules Indicator
+:::caution
+This option does not allow adding WordPress user roles; it only accepts [WordPress capabilities](https://wordpress.org/support/article/roles-and-capabilities/). Adding a WordPress user role to this option is invalid, and it will not trigger any action.
+:::
 
-If you limit visibility, an Eye icon will appear when hovering your mouse cursor over a row, column, or module, as shown in the following screenshot:
+### Conditional Logic *(requires Beaver Themer)*
 
-![Visibility Rules Indicator](/img/beaver-builder/advanced-tab--visibility--3.jpg)
+This option enables the showing or hiding of rows, columns, or modules based on specific conditions. For instance, users may choose to display a module as a banner for all WooCommerce products that are currently on sale.  
+
+For additional details, please refer to the Beaver Themer Conditional Logic article.
+
+## Display Indicator
+
+When you restrict the display of a row, column, or module, an eye icon will appear in the Beaver Builder UI overlay. The color of the eye icon will change based on the display option you have chosen. This feature provides a visual cue for you to easily identify the visibility status of your content while you are editing your layout.
+
+* When you limit the display of a row, column, or module using the **Never**, **Logged Out Users**, or **Logged In Users** options, a blue Eye <i className="fa-solid fa-eye" style={{color: "#00A0D2"}}></i> icon will be displayed in the Beaver Builder UI overlay.
+
+* When you limit the display of a row, column, or module using the **Conditional Logic** options, a red Eye <i className="fa-solid fa-eye" style={{color: "#FF0000"}}></i> icon will be displayed in the Beaver Builder UI overlay.
+
+![Visibility Rules Indicator](/img/beaver-builder/advanced-tab--visibility--4.jpg)
