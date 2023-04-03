@@ -17,7 +17,7 @@ Click the Outline icon in the **Top Bar** to open the Outline panel, which lets 
 
 ![Outline panel icon in the Beaver Builder editor](/img/beaver-builder/user-interface--outline-panel--1.jpg)
 
-:::tip **Tip**
+:::tip
 The Outline panel doesn't have a drag handle, but you can remove its overlap on the layout with this trick. First display the Content panel and the [use the drag handle to pin it to the right of the layout](content-panel.md#drag-handle), then click the Outline panel icon. It then overlays the Content panel.
 :::
 
@@ -46,7 +46,7 @@ You can quickly move content such as rows, columns (except for child columns), a
 
 ## Right-Click
 
-Right-click any row, column, or module to see a list of available options. A blue outline will also appear around it, indicating its selection within the builder.
+Right-click any row, column, or module to see a list of available options. This action will also result in a blue outline appearing around the selected item within the builder.
 
 * Rows and Columns have **Open settings** and **Remove** options.
 * Modules have **Open settings**, **Duplicate**, and **Remove** options.
@@ -65,6 +65,6 @@ In the Outline Panel, icons will appear when the display visibility settings for
 
 * If you an Eye <i className="fa-solid fa-eye"></i> icon is present, it means that the display visibility settings for that row, column, or module have been changed from the default state, which is "Always."
 
-* The code <i className="fa-solid fa-code"></i>icon indicates that custom CSS or JavaScript has been added to the row, column, or module through the CSS or JavaScript sections found in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
+* The code <i className="fa-solid fa-code"></i> icon indicates that custom CSS or JavaScript has been added to the row, column, or module through the CSS or JavaScript sections found in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
 
 ![Right-Click Outline Panel](/img/beaver-builder/user-interface--outline-panel--4.jpg)
