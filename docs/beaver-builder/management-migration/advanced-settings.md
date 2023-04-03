@@ -5,7 +5,7 @@ sidebar_label: Advanced Settings
 description: The Advanced tab in the Beaver Builder settings is where you can enable and disable settings.
 ---
 
-The Advanced tab in the Beaver Builder settings is where you can enable and disable settings, which usually require custom coding, in order to achieve the desired results
+The Advanced tab within Beaver Builder's settings provides options to enable or disable settings that typically require custom coding to achieve specific outcomes.
 
 ## Access Advanced
 
