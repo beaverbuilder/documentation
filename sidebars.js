@@ -239,8 +239,7 @@
             "beaver-builder/layouts/columns/resize-or-reset-column-width",
             "beaver-builder/layouts/columns/move-a-column",
             "beaver-builder/layouts/columns/duplicate-a-column",
-            "beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths",
-            "beaver-builder/layouts/columns/reverse-column-stacking-order",
+            "beaver-builder/layouts/columns/stacking",
           ]
         },
         {
