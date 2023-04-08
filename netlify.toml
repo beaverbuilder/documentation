@@ -54,8 +54,16 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/spacing"
 status = 301
 force = true
-
-
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/stacking"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/reverse-column-stacking-order"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/stacking"
+status = 301
+force = true
 
 # Redirect Contact Form module doc link
 [[redirects]]
