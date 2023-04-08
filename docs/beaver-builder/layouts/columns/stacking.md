@@ -53,7 +53,7 @@ When designing for accessibility, as a best practice, it's recommended to design
 
 ### Custom Column Widths on Small Devices
 
-You can use **Reverse Column Order** with custom column widths for any device size.
+You can use **Reverse Column Order** with custom column widths for medium and small device sizes.
 
 For example, let's say you have a row with four columns, and on small devices, you set the column widths to `50%` to [prevent columns from stacking](#prevent-column-stacking) and create a two-by-two-column grid. By enabling Reverse Column Order, you can reverse the order of stacking, as shown in the diagram below.
 
