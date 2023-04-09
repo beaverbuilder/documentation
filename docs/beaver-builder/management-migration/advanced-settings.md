@@ -75,6 +75,14 @@ Enabling this setting will limit revisions to `10` for Beaver Builder layouts. S
 
 :x: Disabled by default.
 
+### Limit the amount of undo/redo history in Builder UI
+
+The default number of changes History tracks is 20.
+
+Enabling this setting will limit Beaver Builder history to `5` items you can undo/redo. Set to `0` to completely disable History for layouts/pages controlled by Beaver Builder.
+
+:x: Disabled by default.
+
 ### Mod Security fix
 
 Enable the `mod_security` fix which prevents 403 errors when using Beaver Builder in shared hosting environments.
@@ -107,6 +115,17 @@ See the [Use shortcodes in CSS or JS](/beaver-builder/advanced-builder-technique
 
 :x: Disabled by default.
 
+### ACF Blocks
+
+Enable or disable [ACF Block support](/beaver-builder/developer/acf-blocks.md) in Beaver Builder.
+
+:white_check_mark: Enabled by default.
+
+### Collapse All Settings
+
+Enable or disable the Collapse All Settings feature, which collapses all tabs in the Settings Window for rows, columns, and modules.
+
+:x: Disabled by default.
 ## WP Admin
 
 The WP Admin section allows you to enable or disable Beaver Builder features from the WordPress user interface.
