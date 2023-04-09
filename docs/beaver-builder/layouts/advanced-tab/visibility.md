@@ -10,12 +10,12 @@ The **Visibility** section in the Advanced tab lets you determine when your rows
 ![Visibility section in the Advanced tab](/img/beaver-builder/advanced-tab--visibility--1.jpg)
 
 :::info
-The **Reverse Stacking Order** option is only available for [Columns](/beaver-builder/layouts/columns/index.md).
+The **Reverse Stacking Order** option is only available for Columns.
 :::
 
 ## Breakpoint
 
-By default, every row, column, and module is visible on every device size. You can use the [Breakpoint](/beaver-builder/layouts/responsive/breakpoints.md) setting to hide individual rows, columns, and modules for certain device sizes. In the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#medium-device-breakpoint), you can view the default breakpoints and set custom values.
+By default, every row, column, and module is visible on every device size. You can use the [Breakpoint](/beaver-builder/layouts/responsive-design/breakpoints.md) setting to hide individual rows, columns, and modules for certain device sizes. In the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#medium-device-breakpoint), you can view the default breakpoints and set custom values.
 
 ### Device Toggle Icons
 

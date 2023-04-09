@@ -1240,9 +1240,8 @@
          type: 'category',
          label: 'Account & Settings',
          link: {
-            type: 'generated-index',
-            title: 'Account & Settings',
-            slug: '/assistant/cloud/account-settings/',
+            type: 'doc',
+            id: '/assistant/cloud/account-settings/index',
           },
          items: [
            "assistant/cloud/account-settings/profile-settings",

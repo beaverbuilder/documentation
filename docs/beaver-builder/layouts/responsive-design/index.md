@@ -56,7 +56,7 @@ Beaver Builder provides the following features to fine-tune your responsive layo
 
 * By using the [Responsive Toggle](toggle.md), you can define different row, column, and module settings per device, such as margins, padding, and even background images.
 
-* [Columns stack](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md) automatically for small devices due to the limited viewing area, and one column is usually the best design. You can avoid and control column stacking by setting custom column widths for each device size, or by reversed column stacking order.
+* [Columns stack](/beaver-builder/layouts/columns/stacking.md) automatically for small devices due to the limited viewing area, and one column is usually the best design. You can avoid and control column stacking by setting custom column widths for each device size, or by reversed column stacking order.
 
 ## In this section
 

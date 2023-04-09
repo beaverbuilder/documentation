@@ -51,7 +51,7 @@ See [this information](/beaver-builder/layouts/columns/resize-or-reset-column-wi
 
 See [this information](/beaver-builder/layouts/columns/resize-or-reset-column-width.md/#resize-column-width-in-a-single-column-group) about adjusting the width of a single column.
 
-Two or more columns must maintain a combined width of 100% on large devices but can have less than 100% total width on medium and small devices. See the [article about setting custom widths for medium and small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md). Setting custom widths for smaller devices also prevents column stacking.
+Two or more columns must maintain a combined width of 100% on large devices but can have less than 100% total width on medium and small devices. See the [article about setting custom widths for medium and small devices](/beaver-builder/layouts/columns/stacking.md). Setting custom widths for smaller devices also prevents column stacking.
 
 #### Minimum height
 
