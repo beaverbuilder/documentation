@@ -102,6 +102,6 @@ See the [Advanced Settings](advanced-settings.md) for more information.
 
 ## Import / Export tab
 
-The Import / Export tab allows you to export, import, and reset Beaver Builder [global settings](user-interface/global-settings.md).
+The Import / Export tab allows you to export, import, and reset Beaver Builder [global settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md).
 
 See the [Import & Export Settings](import-export-settings.md) article for more information.

@@ -16,19 +16,19 @@ To solve this issue, Beaver Builder automatically stacks columns vertically at t
 
 ## Prevent Column Stacking
 
-You can prevent columns from automatically stacking at the Small Device Breakpoint by using the [Responsive Toggle](respionsive/toggle.md) and selecting the small device size (represented by the Smartphone icon).
+You can prevent columns from automatically stacking at the Small Device Breakpoint by using the [Responsive Toggle](responsive/toggle.md) and selecting the small device size (represented by the Smartphone icon).
 
 When on the small device size, set a custom width value for each column within the row, ensuring that the total width of all columns doesn't exceed `100%` if you want them to be side-by-side.
 
 ![Use the Responsive Toggle to set a custom width for small devices](/img/beaver-builder/columns--stacking--2.jpg)
 
-For instance, let's say you have a row with two columns and want to keep the two-column layout on small screens. To do this, switch to the Small Device Breakpoint using the [Responsive Toggle](respionsive/toggle.md), and customize the width of both columns to `50%`. By doing this, you can maintain the original two-column layout and keep the columns side-by-side on smaller screens.
+For instance, let's say you have a row with two columns and want to keep the two-column layout on small screens. To do this, switch to the Small Device Breakpoint using the [Responsive Toggle](responsive/toggle.md), and customize the width of both columns to `50%`. By doing this, you can maintain the original two-column layout and keep the columns side-by-side on smaller screens.
 
 ![Maintain a two column layout on small devices](/img/beaver-builder/columns--stacking--3.jpg)
 
 ## Enforce Column Stacking
 
-You can enforce column stacking for other device sizes too. For instance, if you want two columns in a row designed for Extra Large Device size to stack on Medium Device size, use the [Responsive Toggle](respionsive/toggle.md) to switch to the Medium Device Breakpoint (represented by the Tablet icon) and set the width of each column to `100%`.
+You can enforce column stacking for other device sizes too. For instance, if you want two columns in a row designed for Extra Large Device size to stack on Medium Device size, use the [Responsive Toggle](responsive/toggle.md) to switch to the Medium Device Breakpoint (represented by the Tablet icon) and set the width of each column to `100%`.
 
 ![Enforce Column Stacking](/img/beaver-builder/columns--stacking--4.jpg)
 
@@ -41,8 +41,8 @@ You can use the **Reverse Column Order** option to reverse the column sequence f
 ### How to Reverse the Order of Columns?
 
 1. To access the Column Settings, hover your mouse over one of the modules and click on the <i className="fa-solid fa-table-columns"></i> Column Settings icon.
-2. Go to the [Advanced tab](advanced-tab/index.md).
-3. Under the [Visibility](advanced-tab/visibility.md) section, click on **Reverse Column Order**.
+2. Go to the [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md).
+3. Under the [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md) section, click on **Reverse Column Order**.
 4. Select your preferred option from the available choices: **Disabled**, **Small**, **Medium**, or **Small & Medium**.
 
 :::warning Warning

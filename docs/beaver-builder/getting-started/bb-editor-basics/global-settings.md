@@ -83,7 +83,7 @@ Enable or Disable the Responsive Layout settings, these include:
 * [Medium Device Breakpoint](#medium-device-breakpoint)
 * [Small Device Breakpoint](#small-device-breakpoint)
 * [Enable Col Max-width](#enable-column-max-width)
-* [Reverse Column Stacking Order](/beaver-builder/layouts/columns/reverse-column-stacking-order.md)
+* [Reverse Column Order](/beaver-builder/layouts/columns/stacking.md)
 
 When **Disabled** only [Bast Font Size](#base-font-size) is available.
 
