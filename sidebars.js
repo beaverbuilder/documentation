@@ -1241,7 +1241,7 @@
          label: 'Account & Settings',
          link: {
             type: 'doc',
-            id: '/assistant/cloud/account-settings/index',
+            id: 'assistant/cloud/account-settings/index',
           },
          items: [
            "assistant/cloud/account-settings/profile-settings",
