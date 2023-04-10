@@ -1,5 +1,5 @@
 ---
-id: export-import
+id: export-import-content
 title: Export & Import Content
 sidebar_label: Export & Import Content
 description: You can export your Beaver Builder content (templates, saved rows, columns, and modules) and import them into another site – or give them to clients, or sell them.
