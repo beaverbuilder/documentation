@@ -64,6 +64,11 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/reverse-
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/stacking"
 status = 301
 force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-import-content"
+status = 301
+force = true
 
 # Redirect Contact Form module doc link
 [[redirects]]

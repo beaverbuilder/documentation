@@ -201,7 +201,7 @@
             "beaver-builder/layouts/templates/convert-a-global-row-column-module-to-standard",
             "beaver-builder/layouts/templates/add-an-image-to-an-item-on-the-saved-tab",
             "beaver-builder/layouts/templates/delete-a-saved-row-column-module",
-            "beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules",
+            "beaver-builder/layouts/templates/export-import-content",
           ]
         },
         {
