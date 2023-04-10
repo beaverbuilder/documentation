@@ -41,20 +41,20 @@ settings.
 
 **Copy Styles** copies only a portion of the settings, specifically:
 
-  * Align
-  * Animation
-  * Border
-  * Button group
-  * Color
-  * Dimension
-  * Font
-  * Gradient
-  * Photo sizes
-  * Select
-  * Shadow
-  * Shape transforms
-  * Typography
-  * Unit (for example `px`, `em`, `%`)
+* Align
+* Animation
+* Border
+* Button group
+* Color
+* Dimension
+* Font
+* Gradient
+* Photo sizes
+* Select
+* Shadow
+* Shape transforms
+* Typography
+* Unit (for example `px`, `em`, `%`)
 
 ## Copy/Paste module settings vs. alternatives
 
@@ -66,7 +66,7 @@ Using the **Duplicate** tool in the toolbar is faster.
 ![](/img/the-basics-copy-paste-module-style-2.png)
 
   * If you want to reuse a column or row on another page of your site or export it to another site:  
-[Save the row or column](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) and [use WordPress import/export functionality](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md).
+[Save the row or column](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) and [use WordPress import/export functionality](/beaver-builder/layouts/templates/export-import-content.md).
 
   * If you want to reuse a module over and over again on the same site:  
 [Creating a saved module](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) is probably faster. In particular, if you

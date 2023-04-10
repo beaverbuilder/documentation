@@ -77,7 +77,7 @@ You can [duplicate the Beaver Builder layout to a new page](/beaver-builder/gett
 You can choose from dozens of [prebuilt rows](/beaver-builder/layouts/rows/add-prebuilt-rows-to-your-content.md) to add to your content. You can think of prebuilt rows as micro-content layout templates, but they are accessed in a different location in the Content panel.
 
   * **Save individual rows, columns, and modules**  
-You can [save](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) and [export](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md) individual rows, columns, or modules. If you save them as global objects, you can make a change in one place and the change is reflected everywhere else on the same site.
+You can [save](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) and [export](/beaver-builder/layouts/templates/export-import-content.md) individual rows, columns, or modules. If you save them as global objects, you can make a change in one place and the change is reflected everywhere else on the same site.
 
   * **Copy and paste modules**  
 You can [copy and paste individual modules and module styles](/beaver-builder/getting-started/bb-editor-basics/copy-and-paste-modules-or-module-styles.md), both within your same site and across sites.
