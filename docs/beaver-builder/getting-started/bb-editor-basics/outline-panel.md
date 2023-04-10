@@ -63,7 +63,7 @@ To help identify the purpose of a row, column, or module in the Outline Panel tr
 
 In the Outline Panel, icons will appear when the display visibility settings for a row, column, or module have been modified or when custom CSS or JavaScript has been added to them using the CSS or JavaScript sections in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
 
-* If you an <i className="fa-solid fa-eye"></i> Eye icon is present, it means that the display visibility settings for that row, column, or module have been changed from the default state, which is "Always."
+* The <i className="fa-solid fa-eye"></i> Eye icon indicates that the display visibility settings for that row, column, or module have been changed from the default state, which is "Always."
 
 * The <i className="fa-solid fa-code"></i> Code icon indicates that custom CSS or JavaScript has been added to the row, column, or module through the CSS or JavaScript sections found in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
 
