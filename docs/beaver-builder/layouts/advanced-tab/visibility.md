@@ -86,7 +86,7 @@ This option does not allow adding WordPress user roles; it only accepts [WordPre
 
 This option enables the showing or hiding of rows, columns, or modules based on specific conditions. For instance, users may choose to display a module as a banner for all WooCommerce products that are currently on sale.  
 
-For additional details, please refer to the Beaver Themer Conditional Logic article.
+For additional details, please refer to the [Beaver Themer Conditional Logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic) article.
 
 ## Display Indicator
 
