@@ -48,13 +48,34 @@ You can use the **Reverse Column Order** option to reverse the column sequence f
 :::warning Warning
 When prioritizing accessibility on your website, it's worth noting that utilizing the **Reverse Column Order** option involves using `flex-wrap: wrap-reverse;` to achieve the reversed order. However, this method does not modify the order of the Document Object Model (DOM), therefore, screen readers will continue to read the original stacking order, which may cause confusion.
 
+The code example below showcases a row with four columns that have Reversed Column Order enabled. While the website displays the columns in the reversed order of 4, 3, 2, and 1, the column order remains unchanged in the Document Object Model (DOM).
+
+```html
+<div class="fl-row">
+  <div class="fl-col-group fl-col-group-medium-reversed">
+    <div class="fl-col">Column 1</div>
+    <div class="fl-col">Column 2</div>
+    <div class="fl-col">Column 3</div>
+    <div class="fl-col">Column 4</div>
+  </div>
+</div>
+```
+
 When designing for accessibility, as a best practice, it's recommended to design web pages in a way that avoids the need for changing stacking order.
+
+For further details, refer to the [Device-Specific Column Layouts Instead of Reverse Column Order](#device-specific-column-layouts-instead-of-reverse-order) section.
 :::
 
-### Custom Column Widths on Small Devices
+### Custom Column Widths
 
 You can use **Reverse Column Order** with custom column widths for medium and small device sizes.
 
 For example, let's say you have a row with four columns, and on small devices, you set the column widths to `50%` to [prevent columns from stacking](#prevent-column-stacking) and create a two-by-two-column grid. By enabling Reverse Column Order, you can reverse the order of stacking, as shown in the diagram below.
 
 ![Custom Column Widths & Reverse Column Order Enabled](/img/beaver-builder/columns--stacking--6.jpg)
+
+### Alternative to Reverse Column Order
+
+Instead of using the Reverse Column Order, another approach is to create separate rows for each breakpoint and using the Visibility option to show or hide those rows for particular device sizes. This approach enables you to refine and enhance your row and column structure and order for each device size.
+
+Furthermore, this would help users who prioritize accessibility since it preserves the Document Object Model (DOM) order, which is not maintained when the Reverse Column Order option is used.
