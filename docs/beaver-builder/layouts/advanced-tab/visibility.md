@@ -47,10 +47,10 @@ For instance, users can choose to display a row on Extra Large, Large, and Small
 
 This option only applies to columns, allowing you to reverse the stacking order of columns for medium and small devices. You can choose from the following options:
 
-* Disabled
-* Small
-* Medium
-* Small & Medium
+* **Disabled** *(Default)*
+* **Small**
+* **Medium**
+* **Small & Medium**
 
 See the [Columns Stacking](/beaver-builder/layouts/columns/stacking.md) article for more information.
 
@@ -58,39 +58,38 @@ See the [Columns Stacking](/beaver-builder/layouts/columns/stacking.md) article 
 
 The **Display** option lets you display your row, column or module based certain conditions such as never, always, logged out users, logged in users and conditional logic (requires Beaver Themer).
 
-### Never
+* **Never**  
+  The row, column, or module is only visible to the user editing the page. This is useful if the design isn’t complete and ready for publishing. Using this feature is an excellent way to ensure that your design is exactly how you want it before making it public on your page layout.
 
-The row, column, or module is only visible to the user editing the page. This is useful if the design isn’t complete and ready for publishing. Using this feature is an excellent way to ensure that your design is exactly how you want it before making it public on your page layout.
+* **Always**  
+  The row, column, or module is visible at all times for every user.
 
-### Always
+* **Logged Out Users**  
+  The row, column or module will only be visible for logged out users.
 
-The row, column, or module is visible at all times for every user.
+* **Logged In Users**  
+  The row, column, or module is only visible to users who have logged in to your website. You can also utilize a [WordPress capability](https://wordpress.org/support/article/roles-and-capabilities/) to limit the visibility of the row, column, or module to certain user roles. To achieve this, specify a capability that is unique to the user role and not shared by other roles
 
-### Logged Out Users
+  As an example, if you wish to hide a row from all users except those with the Administrator role, you can input the capability `install_plugins` as it is exclusive to users assigned to the Administrator role.
 
-The row, column or module will only be visible for logged out users.
+  ![Using WordPress Capbilities to show or hide content](/img/beaver-builder/advanced-tab--visibility--3.jpg)
 
-### Logged In Users
+  :::caution
+  You cannot add WordPress user roles to this option; it only accepts [WordPress capabilities](https://wordpress.org/support/article/roles-and-capabilities/). Adding a WordPress user role to this option is invalid and won't trigger any action. If you need to hide a row or module for a specific user role without adding WordPress capabilities, it's better to use the Conditional Logic option instead.
+  :::
 
-The row, column, or module is only visible to users who have logged in to your website. You can also utilize a [WordPress capability](https://wordpress.org/support/article/roles-and-capabilities/) to limit the visibility of the row, column, or module to certain user roles. To achieve this, specify a capability that is unique to the user role and not shared by other roles
+* **Conditional Logic** *(requires Beaver Themer)*  
+  This option enables the showing or hiding of rows, columns, or modules based on specific conditions. For example, if you have posts categorized under a specific category, you can opt to display a different Heading module for them. Another example would be to hide the featured image if no image has been set for the post.
 
-As an example, if you wish to hide a row from all users except those with the Administrator role, you can input the capability `install_plugins` as it is exclusive to users assigned to the Administrator role.
+  For additional details, please refer to the [Beaver Themer Conditional Logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic) article.
 
-![Using WordPress Capbilities to show or hide content](/img/beaver-builder/advanced-tab--visibility--3.jpg)
+### Display Icon Indicator
 
-:::caution
-This option does not allow adding WordPress user roles; it only accepts [WordPress capabilities](https://wordpress.org/support/article/roles-and-capabilities/). Adding a WordPress user role to this option is invalid, and it will not trigger any action.
+When you restrict the display of a row, column, or module, an eye icon will appear in the Beaver Builder UI overlay. The color of the eye icon will change based on the display option you have chosen. This feature provides a visual indication for you to easily identify the visibility status of your content while you are editing your layout.
+
+:::tip
+The display icon indicator is also visible in the [Outline Panel](user-interface/outline-panel.md#icon-indicators).
 :::
-
-### Conditional Logic *(requires Beaver Themer)*
-
-This option enables the showing or hiding of rows, columns, or modules based on specific conditions. For instance, users may choose to display a module as a banner for all WooCommerce products that are currently on sale.  
-
-For additional details, please refer to the [Beaver Themer Conditional Logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic) article.
-
-## Display Indicator
-
-When you restrict the display of a row, column, or module, an eye icon will appear in the Beaver Builder UI overlay. The color of the eye icon will change based on the display option you have chosen. This feature provides a visual cue for you to easily identify the visibility status of your content while you are editing your layout.
 
 * When you limit the display of a row, column, or module using the **Never**, **Logged Out Users**, or **Logged In Users** options, a blue Eye <i className="fa-solid fa-eye" style={{color: "#00A0D2"}}></i> icon will be displayed in the Beaver Builder UI overlay.
 
