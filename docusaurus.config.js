@@ -28,7 +28,7 @@ module.exports = {
     announcementBar: {
       id: 'announcement-bar',
       content:
-        '🎉 New Beaver Builder template marketplace! Get started for FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
+        '🎉 New <a href="https://app.assistant.pro/community" target="_blank" rel="noopener">Beaver Builder template marketplace!</a> Get started for FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
       backgroundColor: '#1b7497',
       textColor: '#ffffff',
       isCloseable: true,
@@ -37,7 +37,7 @@ module.exports = {
         logo: {
         alt: 'Beaver Builder',
         src: 'img/bb-logo-light.png',
-        srcDark: 'img/bb-logo-dark.png', // default to logo.src
+        srcDark: 'img/bb-logo-dark.png',
       },
       items: [
         {
@@ -70,12 +70,6 @@ module.exports = {
           position: 'left',
           activeBasePath: 'assistant',
         },
-        // {
-        //   to: 'alpha-beta',
-        //   label: 'Alpha & Beta Docs',
-        //   position: 'right',
-        //   activeBasePath: 'next',
-        // },
       ],
     },
     footer: {
