@@ -30,7 +30,7 @@ and right edges of the page.
 Setting a row margin will move the row background away from the edge
 of the page, something you usually don't want because it also moves your row
 background away from the edge. Setting a row's padding keeps the row
-background at the page edges but pushes the column away from it. See [this article](/beaver-builder/layouts/margins-padding/margin-padding.md) for more information about margins vs. padding.
+background at the page edges but pushes the column away from it. See [this article](/beaver-builder/layouts/advanced-tab/spacing.md) for more information about margins vs. padding.
 :::
 
 ## Row 2: Full-width row, fixed-width content

@@ -5,7 +5,7 @@ sidebar_label: Separator
 description: The Separator module inserts a horizontal line to separate content with options to control width, color, alignment, and thickness of the line.
 ---
 
-The Separator module inserts a horizontal line to separate content. 
+The Separator module inserts a horizontal line to separate content.
 
 ## **General** tab
 
@@ -25,5 +25,4 @@ The **Double** line style must have a height of at least 3px set to display as a
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
-
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.

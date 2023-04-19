@@ -13,10 +13,10 @@ See how to set up the social icons in the [header](/bb-theme/customizer-settings
 **To adjust the size of the social icons:**
 
   1. Add one of the CSS rules below, depending on where your social icons appear.  
-  See the [article on where to add CSS code](/beaver-builder/styles/code/custom-css.md).
+  See the [article on where to add CSS code](/beaver-builder/styles/custom-code.md).
   2. Click **Save & Publish**.
 
-:::note **Note**
+:::info
 If you make the icons too large and spaced too far apart, you may exceed the width of the theme column, and the icon row will wrap.
 :::
 

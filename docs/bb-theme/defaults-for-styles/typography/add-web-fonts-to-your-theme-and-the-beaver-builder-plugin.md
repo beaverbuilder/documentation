@@ -35,7 +35,7 @@ This article contains the basic set of steps to load and use a web font, using a
     _wp-content/themes/bb-theme-child/fonts_  
     We'll use this location in the next procedure.
 
-:::tip **Tip**
+:::tip
 Older web font file formats like _.eot_ , _.svg_ , and _.ttf_ are not required with current browsers, but if you are in a situation where your site will be accessed by older browsers, you can add them as well.
 :::
 
@@ -43,11 +43,14 @@ Older web font file formats like _.eot_ , _.svg_ , and _.ttf_ are not required w
 
 The `@font-face` rule in CSS3 specifies the location of web fonts and loads them.
 
-  1. Go to the location on your site where you can add CSS rules that apply site-wide.  
+1. Go to the location on your site where you can add CSS rules that apply site-wide.  
   In this example, we'll use file paths that will work for code placed in the following location:  
+
   **Appearance > Editor > style.css** (in the child theme)  
-  See this article about [where to add custom CSS rules](/beaver-builder/styles/code/custom-css.md).
-  2. If your web fonts kit includes a CSS stylesheet, open that file an copy all the `@font-face` rules, and paste into the location where you're putting the CSS rules for your site.  
+
+  See this article about [where to add custom CSS rules](/beaver-builder/styles/custom-code.md).
+
+2. If your web fonts kit includes a CSS stylesheet, open that file an copy all the `@font-face` rules, and paste into the location where you're putting the CSS rules for your site.   
   Otherwise, start with the following example.  
 
   ```css
@@ -61,10 +64,11 @@ The `@font-face` rule in CSS3 specifies the location of web fonts and loads them
   ```
 
   3. In the code you've inserted, modify the `url` lines in the `src` attribute to include the URLs for all and only the file types that you uploaded, with the correct file names.
+
   4. Change the value of `font-family` to what you want to appear in the font selection list in Customizer or the Beaver Builder plugin. It's also what you'll see listed as the font when you inspect the element in your browser.  
   In the example here you could change `'forza-book'` to `'Forza Book'`.
 
-:::note **Note**
+:::info
 If you plan to include the font in the Customizer font lists, don't use hyphens for the `font-family` value.
 :::
 
@@ -80,7 +84,7 @@ Here are the options. You can implement any or all at the same time.
 * Option 2: Add code so the font appears in all of the module font selection lists in Beaver Builder
 * Option 3: Add CSS rules to specify that the font is used for particular HTML elements, IDs, or classes
 
-:::tip **Tips**
+:::tip
 * You may need to publish and clear your browser cache to see the web font as you complete these steps. Some browsers are particularly tenacious in holding onto fonts even when the cache is cleared. If you suspect that, try looking at the published page in another browser.
 * The fonts will appear at the end of the system fonts list, not in alphabetical order.
 :::
@@ -143,8 +147,8 @@ Add a single function, then use filters to add the font to Beaver Builder Theme'
 ### Option 3: Add CSS rules to determine where the web font is used
 
   1. Go to the location on your site where you can add CSS rules that apply site-wide, in our examples here it's the _style.css_ file for your child theme in **Appearance > Editor**.  
-  See the article about [where to add custom CSS rules](/beaver-builder/styles/code/custom-css.md).
-  
+  See the article about [where to add custom CSS rules](/beaver-builder/styles/custom-code.md).
+
   2. Add rules to show where you want the font to be used, as in this example. Substitute the name of your custom font family from the previous rule. You can use different fallback fonts besides Verdana, Arial, and sans-serif.  
 
   ```css

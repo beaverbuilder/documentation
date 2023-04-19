@@ -1,51 +1,65 @@
 ---
 id: use-shortcodes-in-tools-menu-css-or-js
-title: Use shortcodes in Tools menu CSS or JS
-sidebar_label: Use shortcodes in Tools menu CSS or JS
+title: Use shortcodes in CSS or JS
+sidebar_label: Use shortcodes CSS or JS
 ---
 
-You can use shortcodes in **Layout CSS & JavaScript settings**, accessed from
-the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md). Use this
-feature to replace a value in custom CSS or JS in a Beaver Builder layout.
+You can use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
 
-## To enable this feature
+## Enable
 
-* Add the following line to your child theme's functions.php file:
+1. Access your site's **WordPress Admin Dashboard**.
+2. Navigate to **Settings > Beaver Builder**.
+3. Then click the **Advanced** tab and toggle the **Render shortcodes in CSS/JS** option.
 
-  ```php
-  add_filter( 'fl_enable_shortcode_css_js', '__return_true' );
-  ```
+:::info
+You can also enable this feature using the `fl_enable_shortcode_css_js` filter in your child theme's *functions.php* file:
 
-  :::note **Note**
-  This filter also disables code checking for CSS and JavaScript,
-  because it would see raw shortcodes as a markup issue.
-  :::
+```php
+add_filter( 'fl_enable_shortcode_css_js', '__return_true' );
+```
 
-You can use any shortcode, Beaver Builder or not, but we'll give you a couple
-examples that use Beaver Themer shortcodes very effectively.
+This filter prevents shortcodes markup flagging as an error.
+:::
 
-## Example 1
+## Examples
 
-You have CSS for a background image for a page, such as:
+In the following examples, we demonstrate how to use field connection shortcodes in CSS, but any shortcode can be used.
+
+### `[wpbb site:url]` in CSS
+
+Suppose you have CSS for a background image for a page, such as:
 
 ```css
 body {
-  background: url("https://example.com/wp-content/uploads/2019/09/IMG_0346.jpg");
-}
+    background: url("https://my-website.com/wp-content/uploads/2022/10/my-image.jpg");
+    }
 ```
 
-By using the Themer shortcode `[wpbb site:url]` to replace your site URL, you
-make it easier to migrate the code or the entire site to new URLs:
+By using the Beaver Themer shortcode [`[wpbb site:url]`](/beaver-themer/field-connections/field-connection-shortcode-index-themer.md#site-url) to replace your site URL, you make it easier to migrate the code or the entire site to a new domain.
 
 ```css
 body {
-  background: url("[wpbb site:url]/wp-content/uploads/2019/09/IMG_0346.jpg");
-}
+    background: url("[wpbb site:url]/wp-content/uploads/2022/10/my-image.jpg");
+    }
 ```
 
-## Example 2
+### Conditional Logic
 
-Here's a screenshot example of adding conditional shortcodes based on ACF
-custom field values.
+You can use field connection conditional logic in your CSS. In the example below, we can change the color of a post title based on whether the Advanced Custom Field field value is true or false.
 
-![](/img/the-basics-shortcodes-tools-menu.jpg)
+```css
+.fl-post-title {
+
+    [wpbb-if post:acf type='text' name='FIELD NAME' exp='equals' value='SOME VALUE']
+
+        color: red;
+
+    [wpbb-else]
+
+        color: yellow;
+
+    [/wpbb-if]
+
+}
+```

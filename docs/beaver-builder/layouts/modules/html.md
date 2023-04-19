@@ -2,7 +2,7 @@
 id: html
 title: HTML
 sidebar_label: HTML
-description: The HTML module lets you insert custom code and markup into your layouts, rendered directly in the HTML output. 
+description: The HTML module lets you insert custom code and markup into your layouts, rendered directly in the HTML output.
 ---
 
 The HTML module lets you insert custom code and markup into your layouts that is rendered directly to the HTML output.
@@ -41,6 +41,4 @@ following ways:
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
-
-
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.

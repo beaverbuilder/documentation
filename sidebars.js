@@ -166,7 +166,22 @@
       label: 'Layouts',
       items: [
         "beaver-builder/layouts", // Index
-        "beaver-builder/layouts/advanced-tab-rows-columns-modules",
+        {
+         type: 'category',
+         label: 'The Advanced Tab',
+         link: {
+            type: "doc",
+            id: "beaver-builder/layouts/advanced-tab/index",
+         },
+         items: [
+            "beaver-builder/layouts/advanced-tab/spacing",
+            "beaver-builder/layouts/advanced-tab/visibility",
+            "beaver-builder/layouts/advanced-tab/animation",
+            "beaver-builder/layouts/advanced-tab/html-element",
+            "beaver-builder/layouts/advanced-tab/copy-paste",
+            "beaver-builder/layouts/advanced-tab/css-js",
+         ],
+       },
         {
           type: 'category',
           label: 'Templates',
@@ -186,7 +201,7 @@
             "beaver-builder/layouts/templates/convert-a-global-row-column-module-to-standard",
             "beaver-builder/layouts/templates/add-an-image-to-an-item-on-the-saved-tab",
             "beaver-builder/layouts/templates/delete-a-saved-row-column-module",
-            "beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules",
+            "beaver-builder/layouts/templates/export-import-content",
           ]
         },
         {
@@ -224,8 +239,7 @@
             "beaver-builder/layouts/columns/resize-or-reset-column-width",
             "beaver-builder/layouts/columns/move-a-column",
             "beaver-builder/layouts/columns/duplicate-a-column",
-            "beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths",
-            "beaver-builder/layouts/columns/reverse-column-stacking-order",
+            "beaver-builder/layouts/columns/stacking",
           ]
         },
         {
@@ -357,25 +371,17 @@
         },
         {
           type: 'category',
-          label: 'Margins & Padding',
-          items: [
-            "beaver-builder/layouts/margins-padding/margin-padding",
-            "beaver-builder/layouts/margins-padding/change-individual-margin-and-padding-settings",
-            "beaver-builder/layouts/margins-padding/change-default-row-and-module-margins-and-padding",
-            "beaver-builder/layouts/margins-padding/disable-auto-spacing-on-mobile-devices",
-            "beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding",
-          ]
-        },
-        {
-          type: 'category',
           label: 'Responsive Design',
+          link: {
+             type: "doc",
+             id: "beaver-builder/layouts/responsive-design/index",
+          },
           items: [
-            "beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder",
-            "beaver-builder/layouts/responsive-design/responsive-settings-icon",
-            "beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder",
+            "beaver-builder/layouts/responsive-design/editor",
+            "beaver-builder/layouts/responsive-design/breakpoints",
+            "beaver-builder/layouts/responsive-design/toggle",
+            "beaver-builder/layouts/responsive-design/disable",
             "beaver-builder/layouts/responsive-design/responsive-columns",
-            "beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes",
-            "beaver-builder/layouts/responsive-design/change-device-breakpoints-site-wide",
           ]
         },
         {
@@ -392,7 +398,6 @@
         },
       ]
     },
-
     {
       type: 'category',
       label: 'Styles',
@@ -437,22 +442,7 @@
             "beaver-builder/styles/icons/create-and-import-a-custom-icon-set",
           ]
         },
-        {
-          type: 'category',
-          label: 'Visibility',
-          items: [
-            "beaver-builder/styles/visibility/change-item-visibility-by-device-size",
-            "beaver-builder/styles/visibility/change-element-visibility-by-user-login-and-capability",
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Code',
-          items: [
-            "beaver-builder/styles/code/custom-css",
-            "beaver-builder/styles/code/custom-javascript",
-          ]
-        },
+        "beaver-builder/styles/custom-code",
       ]
     },
     {
@@ -630,6 +620,8 @@
             "beaver-builder/developer/custom-modules/cmdg-19-localization",
           ]
         },
+        "beaver-builder/developer/iframe-ui",
+        "beaver-builder/developer/acf-blocks",
         {
           type: 'category',
           label: "How to's & Tips",
@@ -1248,9 +1240,8 @@
          type: 'category',
          label: 'Account & Settings',
          link: {
-            type: 'generated-index',
-            title: 'Account & Settings',
-            slug: '/assistant/cloud/account-settings/',
+            type: 'doc',
+            id: 'assistant/cloud/account-settings/index',
           },
          items: [
            "assistant/cloud/account-settings/profile-settings",

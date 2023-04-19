@@ -4,7 +4,7 @@ title: Difference between unlimited sites and multisite-capable
 sidebar_label: Difference between Unlimited Sites and Multi-Site capable
 ---
 
-Here's the difference between *multisite-capable* and *unlimited sites* in relation to Beaver Builder packages and your Beavver Builder license.
+Here's the difference between *multisite-capable* and *unlimited sites* in relation to Beaver Builder packages and your Beaver Builder license.
 
 ## Multisite-capable
 

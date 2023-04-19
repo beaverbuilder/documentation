@@ -107,14 +107,14 @@ inside your layout.
 ![](/img/what-can-i-do-with-beaverbuilder-10.gif)
 
 For more information about responsive editing settings, start with this
-[overview article on responsiveness.](/beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder.md)
+[overview article on responsiveness.](/beaver-builder/layouts/responsive-design/index.md)
 
 ### Save Beaver Builder layouts for use elsewhere
 
 You can save rows and modules globally, so that any change you make in one
 place is reflected everywhere, or you can save the rows and modules so you can
 reuse them but can modify them differently in each location. Or you can save
-the entire layout as a [*layout template*](/general/glossary.md#layout-template-bb), which you can [use on any other page of your site](/beaver-builder/layouts/templates/add-a-layout-template-to-your-page.md) or [export for use on another site](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md).
+the entire layout as a [*layout template*](/general/glossary.md#layout-template-bb), which you can [use on any other page of your site](/beaver-builder/layouts/templates/add-a-layout-template-to-your-page.md) or [export for use on another site](/beaver-builder/layouts/templates/export-import-content.md).
 
 If you have the Agency edition of the Beaver Builder plugin, you can white-
 label the Beaver Builder UI. And with any edition of Beaver Builder, you can

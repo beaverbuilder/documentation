@@ -8,4 +8,4 @@ You can export Themer layouts built with Beaver Themer, either the entire set or
 
 ![](/img/export-beaver-themer-layouts-ab5315c6.png)
 
-The procedure is the same as for exporting Beaver Builder layout templates. See the [article about exporting layout templates](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md) to get more details about how to export.
+The procedure is the same as for exporting Beaver Builder layout templates. See the [article about exporting layout templates](/beaver-builder/layouts/templates/export-import-content.md) to get more details about how to export.

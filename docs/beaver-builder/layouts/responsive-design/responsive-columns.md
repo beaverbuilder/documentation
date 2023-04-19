@@ -13,11 +13,11 @@ As screen size decreases, column and module stacking occurs left to right, top t
 
 This stacking behavior applies to both standard content area layouts and to Beaver Themer layouts, such as in a Header layout.
 
-You can reverse the column stacking order for any column group in your layout by [following these instructions](/beaver-builder/layouts/columns/reverse-column-stacking-order.md).
+You can reverse the column stacking order for any column group in your layout by [following these instructions](/beaver-builder/layouts/columns/stacking.md).
 
-You can also [prevent columns from stacking](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md) by setting custom responsive widths.
+You can also [prevent columns from stacking](/beaver-builder/layouts/columns/stacking.md) by setting custom responsive widths.
 
 :::tip **Tip**
-Knowing how columns will stack is an important factor in how you construct your page. It's important to test your layouts at various device sizes as you develop the page to make sure the information flow across your columns is preserved. See [the article on Responsive Editing Mode](/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder.md) with an example that shows how responsive preview in Beaver Builder works.
+Knowing how columns will stack is an important factor in how you construct your page. It's important to test your layouts at various device sizes as you develop the page to make sure the information flow across your columns is preserved. See [the article on Responsive Editing Mode](/beaver-builder/layouts/responsive-design/editor.md) with an example that shows how responsive preview in Beaver Builder works.
 :::
 

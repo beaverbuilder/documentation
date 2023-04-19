@@ -5,7 +5,7 @@ sidebar_label: Advanced Settings
 description: The Advanced tab in the Beaver Builder settings is where you can enable and disable settings.
 ---
 
-The Advanced tab in the Beaver Builder settings is where you can enable and disable settings, which usually require custom coding, in order to achieve the desired results
+The Advanced tab within Beaver Builder's settings provides options to enable or disable settings that typically require custom coding to achieve specific outcomes.
 
 ## Access Advanced
 
@@ -18,6 +18,12 @@ The Advanced tab in the Beaver Builder settings is where you can enable and disa
 ## Builder UI
 
 The Builder UI section allows you to enable or disable Beaver Builder user interface features.
+
+### Responsive Iframe UI
+
+Enable or disables the iframe UI for accurate responsive editing. May cause issues with legacy add-ons.
+
+:white_check_mark: Enabled by default.
 
 ### Outline Panel
 
@@ -53,11 +59,27 @@ Enable or disable the custom row shapes tab from **Tools Menu > Global Settings*
 
 :white_check_mark: Enabled by default.
 
+### Enable Code Settings
+
+When enabled CSS and JavaScript sections become available in the advanced tab for rows, columns, and modules.
+
+See the [Per-Node CSS & JS ](/beaver-builder/styles/custom-code.md#per-node-css--js) section in the [Custom Code](/beaver-builder/styles/custom-code.md) article for more information.
+
+:white_check_mark: Enabled by default.
+
 ### Limit WP revisions for layouts
 
 By default, does not limit the amount of revisions.
 
 Enabling this setting will limit revisions to `10` for Beaver Builder layouts. Set to `0` to completely disable revisions for layouts/pages controlled by Beaver Builder.
+
+:x: Disabled by default.
+
+### Limit the amount of undo/redo history in Builder UI
+
+The default number of changes History tracks is 20.
+
+Enabling this setting will limit Beaver Builder history to `5` items you can undo/redo. Set to `0` to completely disable History for layouts/pages controlled by Beaver Builder.
 
 :x: Disabled by default.
 
@@ -85,6 +107,25 @@ Outline Panel labels are not removed when the Node Labels option is disabled.
 
 :white_check_mark: Enabled by default.
 
+### Render shortcodes in CSS/JS
+
+When enabled, allows you to use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
+
+See the [Use shortcodes in CSS or JS](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-tools-menu-css-or-js.md) article for more information.
+
+:x: Disabled by default.
+
+### ACF Blocks
+
+Enable or disable [ACF Block support](/beaver-builder/developer/acf-blocks.md) in Beaver Builder.
+
+:white_check_mark: Enabled by default.
+
+### Collapse All Settings
+
+Enable or disable the Collapse All Settings feature, which collapses all tabs in the Settings Window for rows, columns, and modules.
+
+:x: Disabled by default.
 ## WP Admin
 
 The WP Admin section allows you to enable or disable Beaver Builder features from the WordPress user interface.

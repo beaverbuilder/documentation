@@ -17,4 +17,4 @@ Task  |  Beaver Builder editor  |  Beaver Builder admin panel
 [Add an image with the display of the row, column, or module on the Saved tab](/beaver-builder/layouts/templates/add-an-image-to-an-item-on-the-saved-tab.md) |  |  yes  
 [Rename the title or slug of saved rows, columns, modules](/beaver-builder/layouts/templates/rename-title-or-slug-saved-template-row-column-module.md)  |  |  yes  
 Change from [global to standard](/beaver-builder/layouts/templates/convert-a-global-row-column-module-to-standard.md) or [standard to global rows, columns, or modules](/beaver-builder/layouts/templates/convert-a-saved-row-column-module-to-global.md)  |  yes  |  
-[Export or import](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md) rows, columns, modules across sites  |   |  yes  
+[Export or import](/beaver-builder/layouts/templates/export-import-content.md) rows, columns, modules across sites  |   |  yes  

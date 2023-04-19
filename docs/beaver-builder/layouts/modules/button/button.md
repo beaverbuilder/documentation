@@ -54,7 +54,7 @@ With the **HTML** option, an HTML editing box lets you enter custom code such as
 
 ![](/img/button-4.jpg)
 
-Other shortcode examples: 
+Other shortcode examples:
 * Embed an audio player with [audio shortcode](https://wordpress.org/support/article/audio-shortcode/).
 * Use shortcode from a plugin to display the contents of a PDF file.
 
@@ -64,7 +64,7 @@ You can click from a button to display individual images from a hidden Gallery m
 
 **Video link**
 
-Insert the URL of the video you want to play in the lightbox, from a service such as Youtube or Vimeo: 
+Insert the URL of the video you want to play in the lightbox, from a service such as Youtube or Vimeo:
 
 ![](/img/button-5.jpg)
 
@@ -88,7 +88,7 @@ additional fields:
 If you choose **Link**, a **Link** field opens for you to enter a typical URL link to another page or location.   
 If you choose **Lightbox**, a **Content type** option lets you choose either **HTML** or  **Video**.  
 For **HTML**, add any code to display in the lightbox.  
-For **Video**, a field opens so you can provide a URL for a video from a service such as Youtube or Vimeo. 
+For **Video**, a field opens so you can provide a URL for a video from a service such as Youtube or Vimeo.
 
 ### Style tab
 
@@ -147,7 +147,7 @@ See [this article](/beaver-builder/styles/effects/borders.md) for more informati
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Related modules
 
@@ -166,6 +166,6 @@ Special settings to set up a contact form, with a button to submit the form.
   * [Subscribe Form module](/beaver-builder/layouts/modules/subscribe-form/subscribe-form.md)  
 Special settings to set up a connection to any of a number of mail service providers, creating a form to subscribe with a button to submit the form.
 
-:::tip **Tip** 
+:::tip **Tip**
 You can configure a Gallery module to [open its component images in a lightbox](/beaver-builder/layouts/modules/gallery/open-a-gallery-lightbox-on-button-click.md) with the addition of some code.
 :::

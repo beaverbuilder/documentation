@@ -92,7 +92,7 @@ For [theme headers](/bb-theme/customizer-settings/header.md#header-layout), the 
 
 For [navigation layouts](/bb-theme/customizer-settings/header.md#nav-layout), the Nav menu collapses to a Hamburger icon or MENU link on small devices. 
 
-The Beaver Builder plugin also has default breakpoints to control responsive behavior in content areas and in Themer layouts, which differ by one pixel. For a description of the difference, see [the article on Beaver Builder breakpoints](/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes.md). See also the sections on [how to use the mobile nav icon instead of a full menu at all device sizes](/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes.md#use-the-mobile-nav-for-larger-devices) and [how to keep the theme's header layout the same on large and medium devices](/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes.md#preserve-the-themes-header-layout-on-medium-devices).
+The Beaver Builder plugin also has default breakpoints to control responsive behavior in content areas and in Themer layouts, which differ by one pixel. For a description of the difference, see [the article on Beaver Builder breakpoints](/beaver-builder/layouts/responsive-design/breakpoints.md). See also the sections on [how to use the mobile nav icon instead of a full menu at all device sizes](/beaver-builder/layouts/responsive-design/breakpoints.md#use-the-mobile-nav-for-larger-devices) and [how to keep the theme's header layout the same on large and medium devices](/beaver-builder/layouts/responsive-design/breakpoints.md#preserve-the-themes-header-layout-on-medium-devices).
 
 ## Background
 

@@ -50,9 +50,7 @@ The `value` parameter is the value that you want to test for.
 
 * The `EQUALS` tests for URLs ignores the trailing slash if there is one, in both the field value and the comparison value. For example, <https://example.com> and <https://example.com/> will return `TRUE` to the `EQUALS` test.
 
-* The `contains` expression tests if the value parameter contains similar characters or numbers. For example, if a field has a value of `Hello World` and the value you're testing for is `llo` this will be true and the `Hello World` value will be returned.
-
-* The `contains` expression determines if the value parameter contains letters or numbers that are comparable. For example, if a field contains the value `Hello World` and the value you're testing for is `llo`, this equates to `True` and the `Hello World` value is returned. 
+* The `contains` expression determines if the value parameter contains letters or numbers that are comparable. For example, if a field contains the value `Hello World` and the value you're testing for is `llo`, this equates to `True` and the `Hello World` value is returned.
 
 * The `value` parameter is case-sensitive.
 :::

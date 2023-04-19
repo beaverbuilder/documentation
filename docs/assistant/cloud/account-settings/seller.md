@@ -19,7 +19,7 @@ In order to access the Seller Account menu, you need either a **Personal** or **
 
 1. Log into your [Assistant account](https://app.assistant.pro/login).
 
-2. Navigate to the [Account tab](index.md).
+2. Navigate to the **Account tab**.
 
 3. If you have a **Personal** or **Team** plan, you will have access to the Seller Account menu.
 
@@ -29,17 +29,17 @@ In order to access the Seller Account menu, you need either a **Personal** or **
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bvyDGiwi7EQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 </div>
 
-1. Navigate to the [Account tab](index.md) and click the **Seller Account** menu item.
+1. Navigate to the **Account tab** and click the **Seller Account** menu item.
 
-3. Complete the form and agree to the [Terms & Conditions](https://assistant.pro/seller-terms-conditions/).  
+2. Complete the form and agree to the [Terms & Conditions](https://assistant.pro/seller-terms-conditions/).  
 
-4. You will be redirected to Stripe for the purpose of creating a Stripe Express account that is associated with your Assistant account.
+3. You will be redirected to Stripe for the purpose of creating a Stripe Express account that is associated with your Assistant account.  
+  
+  :::tip
+  Alternatively, if you already have a [Existing Stripe account](#existing-stripe-accounts), you can connect it to your Assistant account. Stripe will then create a new account under your main account for your Assistant Pro activity.
+  :::
 
-	:::tip
-	Alternatively, if you already have a [Existing Stripe account](#existing-stripe-accounts), you can connect it to your Assistant account. Stripe will then create a new account under your main account for your Assistant Pro activity.
-	:::
-
-5. Upon completing your Stripe account, your Assistant account page will now include a link to your Stripe Payment Dashboard.
+4. Upon completing your Stripe account, your Assistant account page will now include a link to your Stripe Payment Dashboard.
 
 <Tabs>
 <TabItem value="signup" label="Sign up" default>

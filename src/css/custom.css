@@ -15,6 +15,9 @@
   --ifm-color-primary-lighter: #007af4;
   --ifm-color-primary-lightest: #158aff;
   --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --bb-details-border: #e1e1e1;
+  --bb-details-background: #ffffff;
 }
 
 html[data-theme='dark'] {
@@ -27,6 +30,9 @@ html[data-theme='dark'] {
   --ifm-color-gray-100: #bbbbbb;
   --ifm-footer-background-color: var(--ifm-navbar-background-color);
   --ifm-navbar-link-color: var(--ifm-color-emphasis-1000);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --bb-details-border: #545454;
+  --bb-details-background: #313131;
 }
 
 html[data-theme='dark'] .admonition.alert a {
@@ -54,6 +60,19 @@ html[data-theme='dark'] .DocSearch {
     var(--ifm-color-emphasis-200) 0%,
     var(--ifm-color-emphasis-100) 100%
   );
+}
+
+/* Size Device SVGs in lists
+ * beaver-builder/advanced-tab/visibility.md
+ */
+ .markdown ul p > img[alt~="Device"],
+ .markdown ol p > img[alt~="Device"] {
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: auto;
+  height: 18px;
+  vertical-align: sub;
 }
 
 /* Announcement Bar */
@@ -430,4 +449,57 @@ html[data-theme='dark'] .hero__title {
 }
 .social-icons .fab {
     font-size: 3rem;
+}
+
+/* Tabs active color * border */
+.tabs {
+  box-shadow: inset 0px -3px 0 0 var(--ifm-color-emphasis-300);
+}
+
+.tabs__item--active {
+  background-color: var(--ifm-hover-overlay);
+}
+
+/* Details markup styling */
+details {
+  border: 2px solid var(--bb-details-border) !important;
+  background-color: var(--bb-details-background) !important;
+  box-shadow: none !important;
+  --docusaurus-details-decoration-color: transparent !important;
+}
+
+details > summary::before {
+  border-color: transparent transparent transparent var(--ifm-color-emphasis-900) !important;
+}
+
+details code {
+  background-color: rgb(246, 247, 248);
+}
+
+html[data-theme='dark'] detail code {
+  background-color: transparent;
+}
+
+html[data-theme='dark'] details {
+  border: 2px solid var(--bb-details-border) !important;
+  background-color: var(--bb-details-background) !important;
+  box-shadow: none !important;
+}
+
+html[data-theme='dark'] details > summary::before {
+  border-color: transparent transparent transparent var(--ifm-color-emphasis-0) !important;
+}
+
+/* Aligns SVGs used in an HTML list */
+.dashicons-list svg {
+  vertical-align: sub;
+}
+
+/* Used as a visual aid for colors */
+.swatch {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: .2rem;
+  vertical-align: middle;
 }

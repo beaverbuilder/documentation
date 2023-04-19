@@ -16,7 +16,7 @@ is 0, the second item is 1, and so on.
 **To link to a specific item in a Tabs or Accordion module:**
 
   1. Open the module for editing and click the **Advanced** tab.
-  2. In the **ID** field, set a unique ID name for the module. See the [**Advanced** tab article](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md#html-element-section) for more information about ID selectors.
+  2. In the **ID** field, set a unique ID name for the module. See the [**Advanced** tab article](/beaver-builder/layouts/advanced-tab/index.md#html-element-section) for more information about ID selectors.
   3. Link to any item in that module by specifying the module’s ID with the item’s index, separated by a hyphen.
 
 For example, suppose you have created a Tabs module with four tabs, shown in

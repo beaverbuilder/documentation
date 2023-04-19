@@ -11,5 +11,5 @@ The Post Content module is in the **Post modules** category, which appears only 
 * WordPress has only one content area. Although you can add more than one Post Content module to a Singular themer layout, the content in whatever page or post is viewed appears in every place you add the module, so you'll have duplicated content.
 :::
 
-The only settings available for the Post Content module are those on [the Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) to customize settings such as margins, responsive layout, visibility, animation, and HTML values.
+The only settings available for the Post Content module are those on [the Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) to customize settings such as margins, responsive layout, visibility, animation, and HTML values.
 

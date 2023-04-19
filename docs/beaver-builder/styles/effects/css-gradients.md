@@ -5,7 +5,7 @@ sidebar_label: Gradients with CSS
 ---
 
 The easiest way to add a gradient as the background color of a row or column
-is to [use the color gradient background feature](/beaver-builder/styles/effects/color-gradients-for-row-and-column-backgrounds-and-overlays.md) built into the rows and columns. However, if you have a special gradient effect you want to use, for example from a gradient-generating tool, here are some tips. 
+is to [use the color gradient background feature](/beaver-builder/styles/effects/color-gradients-for-row-and-column-backgrounds-and-overlays.md) built into the rows and columns. However, if you have a special gradient effect you want to use, for example from a gradient-generating tool, here are some tips.
 
 Gradients can be variations of a single color:
 
@@ -60,7 +60,7 @@ background.
 Copy and paste the CSS from the gradient generator and replace the class name
 in the first line with your own class name.
 
-See [this article](/beaver-builder/styles/code/custom-css.md) about where to add custom CSS code.
+See [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code.
 
 As soon as you add your custom class name you should see the row or column on
 your page take on the background gradient color.

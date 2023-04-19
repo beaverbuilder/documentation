@@ -32,7 +32,7 @@ size.
 
 As an alternative, from the **Tools** menu you can enter Responsive Design
 editing to view and edit the layouts for medium and small screen widths. See
-[this article for a detailed example of Responsive Design editing](/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder.md).
+[this article for a detailed example of Responsive Design editing](/beaver-builder/layouts/responsive-design/editor.md).
 
 ## Browser preview
 

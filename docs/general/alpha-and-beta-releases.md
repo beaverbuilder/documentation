@@ -60,35 +60,25 @@ major update.
 
 There will typically be a post on our blog announcing the first beta release.
 
-## Install an alpha or beta plugin release
+### Install Alpha or Beta Releases
 
-Once you have installed an alpha or beta release, the automatic update feature
-will keep your plugin updated to the latest version of the alpha or beta.
+Beaver Builder alpha or beta releases can be installed by enabling the [Prerelease Updates](/beaver-builder/management-migration/settings-overview.md) option in the Beaver Builder settings.
 
-Here's how to install an alpha or beta plugin the first time.
+:::info
+Once you have installed an alpha or beta release, the automatic update feature will keep your plugin updated to the latest version of the alpha or beta.
+:::
 
-1. Go to your [My Account](https://www.wpbeaverbuilder.com/my-account/) page.
-2. Download the installer zip file from the **Alpha/Beta Testing Downloads** section.
-The alpha/beta download version will match the premium package of Beaver
-Builder for which you have a license.
+:::tip Install via FTP
+1. Download the alpha/beta zip file from your [My Account](https://www.wpbeaverbuilder.com/my-account/) page via Alpha/Beta Testing Downloads section.
 
-3. If you have an existing version of the Beaver Builder plugin on your test site, deactivate and delete it on the **Plugins** page.  
-This won't delete your Beaver Builder layouts and content, but it's always a
-good idea to have a backup of sensitive data.  
+2. FTP to your site and delete the `/wp-content/plugins/bb-plugin/` folder. Then unzip the alpha/beta plugin on your local system and upload the `/bb-plugin` folder to the same location.  
 
-4. Do one of the following to install the zip file you downloaded:
-   * Go to **Plugins > Add new**, then click **Upload** plugin and select the zip file on your local system.  
-If you get an error that the plugin folder already exists, it means that
-either you didn't delete an existing plugin or that deleting the existing
-plugin didn't delete the folder in _wp-content/plugins/bb-plugin_. In this
-case, FTP to your site or use File Manager from cPanel to delete that folder.
+3. Activate the plugin.
 
-   * FTP to your site and delete the _wp-content/plugins/bb-plugin_ folder. Then unzip the plugin on your local system and upload the _bb-plugin_ folder to the same location.
-5. Activate the plugin.
+This installation procedure works for Beaver Themer & BB Theme alpha/beta releases also.
 
-:::note **Tip**
-This installation procedure works for Beaver Themer alpha/beta
-releases also. The file location is _wp-content/plugins/bb-theme-builder._
+* The **Beaver Themer** folder location is `/wp-content/plugins/bb-theme-builder/`.
+* The **BB Theme** folder location is `/wp-content/plugins/bb-theme/`.
 :::
 
 ## Install an alpha or beta theme release

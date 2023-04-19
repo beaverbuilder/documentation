@@ -115,7 +115,7 @@ transition speed is one second.
 
 ### Controls tab
 
-This tab lets you select which controls you want to display. 
+This tab lets you select which controls you want to display.
 
 The following figure shows the control icons in the control bar that you can see in the Beaver Builder editor, with the icon labels underneath the figure. Any of the icons can be displayed or hidden.
 
@@ -150,9 +150,9 @@ This section lets you choose the type of control bar and where to display it.
     * If you don't want to display any control bar, choose **None**.   
     If set to **None**, then the other **Controls** tab sections described below are hidden.
     * The **Buttons** choice displays the control bar in the layout shown in Figure 3, depending on the control buttons selected for display.  
-    
+
     *Figure 3: Control bar Buttons layout displayed in the front end*  
-    
+
     ![Control bar Buttons layout displayed in the front end, see legend below figure](/img/layouts--modules--slideshow--3.jpg)  
     1 Thumbs button  
     2 Caption button  
@@ -164,9 +164,9 @@ This section lets you choose the type of control bar and where to display it.
 
     * The **Thumbs** choice displays thumbnails of the gallery images, which can be clicked to navigate to a different slide.  
     By default, the size of the thumbnail images is **50px**, but you can change that in the **Thumbs size** field in the  **Thumbs** section.  
-    
+
     *Figure 4: Control bar Thumbs layout displayed in the front end*  
-      
+
     ![Control bar Thumbs layout displayed in the front end, see legend below figure](/img/layouts--modules--slideshow--4.jpg)  
     1 Caption button  
     2 Social button  
@@ -196,18 +196,18 @@ If set to **Yes**, the photo count is displayed as current photo position /
 total photos.
 * **Thumbs button**  (only visible when **NavType** is set to **Buttons**)  
 **Yes** displays this icon, and clicking the icon opens thumbnails of all the images in the gallery, as shown in this screenshot. By default, the size of the thumbnail images is a square **50px**, but you can change that in the  **Thumbs size**  field in the  **Thumbs**  section.  
-  
+
 *Figure 5: Control bar Buttons layout when Thumbs button is clicked*  
 ![Control bar Buttons layout when Thumbs button is clicked](/img/slideshow-module-3.png)
 * **Caption button**  
 **Yes** displays the Information icon, shown in this screenshot, and clicking the icon displays the image's caption from the Media Library in an overlay over the slide.  
-  
+
 *Figure 6: Control bar when Caption button is clicked*   
-  
+
 ![When Caption button is clicked, caption displays in an overlay](/img/slideshow-module-4.png)
 * **Social button**  
 **Yes** displays a Heart icon, shown in this screenshot, and clicking the icon displays whatever social buttons you have enabled in the **Social** section on this tab.  
-  
+
 *Figure 7: Control bar Buttons layout when Social button is clicked*   
 ![When Social button is clicked, social icons displays in an overlay](/img/slideshow-module-5.png)
 
@@ -227,7 +227,7 @@ control bar overlay disappears after the number of seconds that you specify.
 Sets the size of the thumbnails in pixels. The thumbnails are cropped squares, both in **Buttons** and **Thumbs** control bar layouts.
 
 #### Social section
-This section only appears when **Social button** is set to **Yes** in the **Control bar buttons** section. It controls which social icons appear when the Social icon is clicked. 
+This section only appears when **Social button** is set to **Yes** in the **Control bar buttons** section. It controls which social icons appear when the Social icon is clicked.
 
 The choices:
 
@@ -237,7 +237,7 @@ The choices:
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ##  Related modules
 

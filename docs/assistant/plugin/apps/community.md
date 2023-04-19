@@ -12,6 +12,6 @@ The Community App allows you to browse the Assistant community marketplace for i
 * Acquire free and premium templates.
 * Check out the profiles of Assistant Community developers and designers.
 
-See the [Community](cloud/community.md) article for more information.
+See the [Community](/assistant/cloud/community.md) article for more information.
 
 ![Community app overview](/img/assistant/apps--apps-community--1.jpg)

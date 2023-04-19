@@ -85,7 +85,7 @@ Setting **Equal Heights** to **Yes** for the **Masonry** layout changes the maso
 
 ### Columns
 
-Control the maximum number of columns for the Post module. Automatically adjusts as screen size reduces. The Column option supports the [Responsive Toggle](/beaver-builder/layouts/responsive-design/responsive-settings-icon.md) allowing you to choose a different number of columns per-device.
+Control the maximum number of columns for the Post module. Automatically adjusts as screen size reduces. The Column option supports the [Responsive Toggle](/beaver-builder/layouts/responsive-design/toggle.md) allowing you to choose a different number of columns per-device.
 
 :::caution
 Available for Columns layout only.
@@ -712,7 +712,7 @@ This section appears when [Pagination Style](#pagination-style) is set to **Load
 
 There are all the usual Advanced tab settings for margins, visibility, animations, and advanced HTML settings.
 
-See the [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for more information.
+See the [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) for more information.
 
 ## Sticky Posts
 

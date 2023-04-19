@@ -5,7 +5,7 @@ sidebar_label: Save a row, column, or module for reuse
 ---
 
 You can save a row, column, or module for reuse on your site. You can also
-[export saved rows, columns, and modules](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md) for use in other websites.
+[export saved rows, columns, and modules](/beaver-builder/layouts/templates/export-import-content.md) for use in other websites.
 
 You can save your row, column, or module as standard or global. When you save
 an item as global, each instance of it that you drag into any page on your

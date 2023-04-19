@@ -111,7 +111,7 @@ At this point, the pieces are there (title, image, custom field content, separat
 We'll change the text color, change the heading font size, make the separator larger and change its color, and add more padding between the image and the text.
 
   * Add the following CSS to any of the global locations for CSS.  
-   See [this article](/beaver-builder/styles/code/custom-css.md). We added it to **Customize > Additional CSS**.
+   See [this article](/beaver-builder/styles/custom-code.md). We added it to **Customize > Additional CSS**.
 
   ```css
   /* Styling for Author note */

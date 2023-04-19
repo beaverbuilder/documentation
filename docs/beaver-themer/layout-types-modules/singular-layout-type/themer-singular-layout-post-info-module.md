@@ -77,4 +77,4 @@ Drag and drop the Post Info module's items into whatever order you like.
 
 ## Advanced
 
-There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) settings for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) settings for margins, visibility, animations, and advanced HTML settings.

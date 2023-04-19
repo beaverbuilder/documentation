@@ -45,7 +45,7 @@ If you're using the Beaver Builder Theme, can choose how Font Awesome icons load
 We've seen an issue where the way another plugin handles assigning font weight
 to icons has caused a problem with FA5. The free version of FA5 requires a
 font weight of 900. If you're seeing blank boxes and other solutions haven't
-worked, you could try adding this custom rule. See [this article](/beaver-builder/styles/code/custom-css.md) about where to add custom CSS code.
+worked, you could try adding this custom rule. See [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code.
 
 ```css
 .fas { font-weight:900 !important; }

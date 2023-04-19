@@ -19,7 +19,7 @@ explicitly accept terms and conditions.
   * You can [add a Google reCaptcha button](/beaver-builder/layouts/modules/contact-form/add-a-google-recaptcha-checkbox-to-a-form.md) to the form to deter spam.
   * The user can submit the form with either the spacebar or the Enter key.
   * You can choose whether the person who submits the form sees a confirmation message or is redirected to a URL you specify.
-  * Email notifications are automatically sent to the designated recipient upon form submission. 
+  * Email notifications are automatically sent to the designated recipient upon form submission.
 
 :::note **Note**
 Entries from this form are not stored in the database or added to your website files. If you need a
@@ -43,7 +43,7 @@ plugin.
 |  |  **Phone field**  |  (Default is **Hide**.) If set to **Hide**, the **Phone** field is not displayed in the form.  |
 |  |  **Your Message placeholder**  |  (Default is "Your message.") Modify if you want to customize the placeholder text for the message.  |
 |  |  **Show labels/placeholders**  | (Default is **Show placeholders only**.) Determines whether placeholders and not labels are shown for each field, or labels and not placeholders are shown, or both are shown. See the screenshot below this table.  |
-|  |  **Terms and Conditions checkbox**  |  (Default is **Hide**.) If set to **Show**, new settings appear to customize the text label and to enter the terms and conditions. If you enable this setting, users are required to accept them for form submission to be successful. 
+|  |  **Terms and Conditions checkbox**  |  (Default is **Hide**.) If set to **Show**, new settings appear to customize the text label and to enter the terms and conditions. If you enable this setting, users are required to accept them for form submission to be successful.
 | **Success** |  **Success action**  |  |
 
 ![](/img/contact-form-1cf4996c.png)
@@ -57,7 +57,7 @@ plugin.
 |  **Button style**  |  **Button width**  | **Auto** means no width is set for the button. **Full width** means the button takes up the full width of the container (minus any margin settings).  |
 |  |  **Button align**  | The [standard toggles](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for horizontal alignment.  This can be set individually for each device size. |
 |  |  **Button padding**  |  (Optional) Specify the number of pixels of space between the button edge and the button text.  |
-|  **Button text**  |  **Button text color**  |  (Optional) Choose the color of the button. **Note:** If you're using the Beaver Builder Theme, the default button and button hover colors come from **Customize > General > Buttons**, but you override the default colors with this setting. 
+|  **Button text**  |  **Button text color**  |  (Optional) Choose the color of the button. **Note:** If you're using the Beaver Builder Theme, the default button and button hover colors come from **Customize > General > Buttons**, but you override the default colors with this setting.
 |  |  **Button text hover color**  |  (Optional) Enter a hover color.  |
 |  |  **Button typography** | The [standard typography section](/beaver-builder/styles/typography/typography.md) to style the button text.  |
 |  **Button background**  |  **Button background color**  |  Set the fill color for the button in the resting state.  |
@@ -73,13 +73,13 @@ See [this article](/beaver-builder/layouts/modules/contact-form/add-a-google-rec
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Accessibility
 
 For the contact form input fields, the `aria-describedby` attribute is used to indicate the IDs of the elements that describe the object. The label and placeholder text can be shown, hidden, or customized, so the value of the `aria-describedby` attribute for each input field in the form is the ID of the error that appears if the field is not filled in.
 
-For example, the following code is the HTML output produced for the **Name** field in a contact form with the default labels, placeholders, and the **Show placeholders only** setting. 
+For example, the following code is the HTML output produced for the **Name** field in a contact form with the default labels, placeholders, and the **Show placeholders only** setting.
 
 ```html
 <div class="fl-input-group fl-name">

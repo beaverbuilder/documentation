@@ -28,7 +28,7 @@ Here's an example of some of the features you can build into the Pricing Table m
 The tooltip has text that appears when the user clicks the Tooltip icon, shown in this screenshot.
 
 *Figure 4: The result of clicking a tooltip in a feature list*  
-![Pricing module feature showing tooltip icon and tooltip](/img/layouts--modules--pricing-table-module--5.png) 
+![Pricing module feature showing tooltip icon and tooltip](/img/layouts--modules--pricing-table-module--5.png)
 
 You can add HTML markup to any of the settings that accept text, such as the title, price, and features.
 
@@ -48,7 +48,7 @@ that line, enter the following markup:
 
 #### Pricing Options section
 
-This section displays the pricing boxes that form each column in the table. 
+This section displays the pricing boxes that form each column in the table.
 
 * Click **Add pricing box** to create a new pricing column.  
 This opens the panel with setting for individual pricing boxes
@@ -101,7 +101,7 @@ This option controls the width of the border. The choices are **Rounded** or **S
 The choices are **Large**, **Medium**, or **Small**. Figure 2 has a **Large** border width.
 
 #### Feature List Style section
-This section has styles that apply to all of the features in all of the pricing boxes. 
+This section has styles that apply to all of the features in all of the pricing boxes.
 
 * **Show list separator**  
 Shows a horizontal line between the features in the list.
@@ -125,7 +125,7 @@ The color that appears behind the tooltip text.
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Individual pricing box settings
 
@@ -214,7 +214,7 @@ Here's a screenshot example of settings for a ribbon in the **Top position**.
 * **Ribbon text color**
 * **Ribbon background color**
 * **Ribbon height**  
-Sets the height of the ribbon color background. 
+Sets the height of the ribbon color background.
 * **Ribbon height offset** or **Ribbon side offset**  
 Adjusts the ribbon height when the location for the ribbon is **Top**. Adjusts the ribbon side offset when the location for ribbon is **Top right** or **Top left**.
 

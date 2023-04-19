@@ -143,4 +143,4 @@ In the Style tab, you can change the color of the tab items, such as the text an
 
 ## Advanced
 
-There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) settings for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) settings for margins, visibility, animations, and advanced HTML settings.

@@ -26,21 +26,21 @@ Here's the same list with list markers displayed to the left of the content inst
 
 ![](/img/list-d17bcba2.png)
 
-Unordered lists are represented by the standard `<ul>` tag in the HTML output. 
+Unordered lists are represented by the standard `<ul>` tag in the HTML output.
 
 ### Ordered lists
 
 This is the typical numbered list with an `<ol>` tag in the HTML output, but you can choose from various ordering notations for the list item marker, such as numeric, alphabetic, or Roman, Hebrew, Armenian, or Greek numerals.
 
-![](/img/list-eb77e45b.png) 
- 
+![](/img/list-eb77e45b.png)
+
 Here's an example of an ordered list with just headings and markers, no content.
 
 ![](/img/list-44ced35e.png)
 
 In this example, the  icon size was increased. By default, the icon is vertically centered with the heading, but you can change the position by adjusting the icon padding setting.
 
-:::note **Note** 
+:::note **Note**
 Ordered list item markers do not include a period after the number.
 :::
 
@@ -49,7 +49,7 @@ Here's an example with just content and no headings, plus a separator between it
 ![](/img/list-9ed3d8ae.png)
 
 :::tip **Tip**
-There's no setting to increase space between list items, but you can add a CSS rule by [creating a custom class name for your List module](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md) (we'll call the custom class name `my-list-padding`) and then [adding the following CSS rule](/beaver-builder/styles/code/custom-css.md):
+There's no setting to increase space between list items, but you can add a CSS rule by [creating a custom class name for your List module](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md) (we'll call the custom class name `my-list-padding`) and then [adding the following CSS rule](/beaver-builder/styles/custom-code.md):
 
 ```css
 .my-list-padding li {
@@ -57,7 +57,7 @@ There's no setting to increase space between list items, but you can add a CSS r
 }
 ```
 
-The four padding numbers are for top, right, bottom, and left respectively. 
+The four padding numbers are for top, right, bottom, and left respectively.
 
 Here's how the output changed with this rule:
 
@@ -71,7 +71,7 @@ Generic lists let you select from your [regular icon set](/beaver-builder/styles
 Here's an example of a generic list with a Font Awesome icon, set at 30px, and icon padding-right adjusted for more room between the icon and the heading.
 
 ![](/img/list-pig-icon-example.png)
-  
+
 Here's another example that shows two List modules, one for the list of advantages and one for the list of disadvantages, both with content and icons but no headings. The arrow icons are from the Font Awesome set and are displayed to the right of the content. The headings for each list are Heading modules.
 
 ![](/img/list-7eab1ed5.png)
@@ -193,7 +193,7 @@ As a workaround, you can use some inline CSS in the text editor to increase the 
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
 ## Settings for each list item
 

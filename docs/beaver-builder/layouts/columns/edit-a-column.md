@@ -41,7 +41,7 @@ See [this tip](/beaver-builder/layouts/columns/tips-for-working-with-columns.md/
 
 #### Width
 
-By default, the columns in a [column group](/beaver-builder/layouts/columns/column-layouts-overview.md) total 100% width, divided equally. 
+By default, the columns in a [column group](/beaver-builder/layouts/columns/column-layouts-overview.md) total 100% width, divided equally.
 
 When you have more than two columns across, it's easier to use the drag handle on the column instead of column settings to change the widths.
 
@@ -51,12 +51,12 @@ See [this information](/beaver-builder/layouts/columns/resize-or-reset-column-wi
 
 See [this information](/beaver-builder/layouts/columns/resize-or-reset-column-width.md/#resize-column-width-in-a-single-column-group) about adjusting the width of a single column.
 
-Two or more columns must maintain a combined width of 100% on large devices but can have less than 100% total width on medium and small devices. See the [article about setting custom widths for medium and small devices](/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths.md). Setting custom widths for smaller devices also prevents column stacking.
+Two or more columns must maintain a combined width of 100% on large devices but can have less than 100% total width on medium and small devices. See the [article about setting custom widths for medium and small devices](/beaver-builder/layouts/columns/stacking.md). Setting custom widths for smaller devices also prevents column stacking.
 
 #### Minimum height
 
 You can set a minimum height for any column in the layer. See [this article about the units of measurement](/beaver-builder/advanced-builder-techniques/css-length-height-units.md).
-  
+
 #### Equalize heights
 
 Selecting **Yes** makes all column heights in the column layer the same height as the column with the longest content. Equalizing heights also lets you vertically align the content to the top, center, or bottom. if you change the equalization settings for one column, it applies to all of the columns in the same horizontal layer.
@@ -73,9 +73,9 @@ You can set default text colors for the column. These colors override row colors
 
 ### Background effects
 
-You can add a background color, color gradient, or image to the column. 
+You can add a background color, color gradient, or image to the column.
 
-If you add an image, you can also add a color overlay. 
+If you add an image, you can also add a color overlay.
 
 If you choose a **Photo** background and set **Position** to **Custom position**, you can set X and Y coordinates to place the image more accurately in the background.
 
@@ -96,5 +96,4 @@ Set individual top, bottom, left, or right border to create horizontal or vertic
 
 ## Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins and padding, visibility, animations, and advanced HTML settings.
-
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins and padding, visibility, animations, and advanced HTML settings.

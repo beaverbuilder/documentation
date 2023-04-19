@@ -24,20 +24,23 @@ The syntax is the same as for the _Boolean-If_ and the _if-else_ conditional sho
 
 The `exp` parameter is the operator, with the following values:
 
-  * For text strings, you can use the following operators:
-    * `equals`
-    * `notequals`
-  * For integers, you can use the following operators:
-    * `equals`
-    * `notequals`
-    * `greater`
-    * `greaterequals`
-    * `less`
-    * `lessequals`
+* For text strings, you can use the following operators:
+  * `equals`
+  * `notequals`
+  * `contains`
+
+* For integers, you can use the following operators:
+  * `equals`
+  * `notequals`
+  * `contains`
+  * `greater`
+  * `greaterequals`
+  * `less`
+  * `lessequals`
 
 The `value` parameter is the value that you want to test for. This can be a text string or an integer. Note that you can test for a date value as long as it is in the form YYYYMMDD, so the value can be compared as an integer.
 
-:::note **Note**
+:::info
 The `value` parameter is case-sensitive.
 :::
 

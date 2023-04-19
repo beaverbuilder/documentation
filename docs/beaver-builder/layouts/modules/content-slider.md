@@ -70,9 +70,9 @@ content. Here are some examples.
   * You can add a heading, text, and a button and display them overlaid on the photo video, or color background, or side by side with the photo or video.
   * You can automate and adjust the playback or add navigation buttons so users can cycle through themselves.
   * If you choose to show the nav arrows, you can style the arrow color, and arrow background color and shape on the **Style** tab.
-  * There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab-rows-columns-modules.md) for margins, visibility, animations, and advanced HTML settings.
+  * There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
 
-:::note **Note** 
+:::note **Note**
 On the **Slider** tab, be sure to set the **Transition speed**
 setting for a shorter time than the **Delay** setting. This avoids an issue
 where an image can get skipped because it hasn't finished transitioning before
