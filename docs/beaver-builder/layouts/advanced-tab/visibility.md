@@ -68,7 +68,7 @@ The **Display** option lets you display your row, column or module based certain
   The row, column or module will only be visible for logged out users.
 
 * **Logged In Users**  
-  The row, column, or module is only visible to users who have logged in to your website. You can also utilize a [WordPress capability](https://wordpress.org/support/article/roles-and-capabilities/) to limit the visibility of the row, column, or module to certain user roles. To achieve this, specify a capability that is unique to the user role and not shared by other roles
+  The row, column, or module is only visible to users who have logged in to your website. You can also use a [WordPress capability](https://wordpress.org/support/article/roles-and-capabilities/) to limit the visibility to certain user roles. To achieve this, specify a capability that is unique to the user role and not shared by other.
 
   As an example, if you wish to hide a row from all users except those with the Administrator role, you can input the capability `install_plugins` as it is exclusive to users assigned to the Administrator role.
 
