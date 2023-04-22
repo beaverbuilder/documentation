@@ -43,7 +43,7 @@ See the [Breakpoints](breakpoints.md) article for more information.
 
 ### Width & Height
 
-The Width and Height options allow you to adjust the dimensions of the layout preview to custom values.
+The Width and Height options allow you to adjust the width and height to custom values.
 
 ### Zoom
 
@@ -51,7 +51,7 @@ Use the Zoom options to zoom in or out. You can choose between 100%, 75%, 50%, a
 
 ### Drag Handles
 
-Using the Drag Handles is another way to adjust the width and height of the layout preview. To do so, click and hold on the handle, and drag either left or right to adjust the width, or up or down to adjust the height as needed.
+There are Drag Handles at the bottom, left, and right of the layout preview, which allow you to adjust the width and height. To use the drag handles, simply click and hold on the handle, and drag to increase or decrease the width (left or right) or height (up or down).
 
 ![Responsive Editing drag handles](/img/beaver-builder/responsive-design--responsive-editor--3.jpg)
 

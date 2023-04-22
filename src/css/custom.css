@@ -84,41 +84,6 @@ div[class^=announcementBar_] {
 	height: auto;
 }
 
-/* Mermaid Stylings */
-.markdown .docusaurus-mermaid-container {
-  margin-top: var(--ifm-leading);
-  margin-bottom: var(--ifm-leading);
-  text-align: center;
-  border: 3px solid var(--ifm-color-emphasis-200);
-  padding-top: 2rem;
-  padding-bottom: 2rem
-}
-
-.markdown .docusaurus-mermaid-container svg {
-  max-width: 75% !important;
-}
-
-@media (max-width: 996px) {
-  .markdown .docusaurus-mermaid-container svg {
-    max-width: 100% !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-/* Styling for Mermaid Module diagram
- * beaver-builder/layouts/module/index.md
- */
-.mermaid-module-diagram .edgeLabel {
-  background-color: var(--bb-details-background) !important;
-  outline: 8px solid var(--bb-details-background) !important;
-}
-
-html[data-theme='dark'] .mermaid-module-diagram .edgeLabel {
-  background-color: var(--ifm-background-color) !important;
-  outline: 8px solid var(--ifm-background-color) !important;
-}
-
 .docs-lead {
   font-size: var(--ifm-h3-font-size);
   border-bottom: 2px solid var(--ifm-toc-border-color);

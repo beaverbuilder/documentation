@@ -20,7 +20,7 @@ The Part layout has an additional field called **Position**, where you can speci
 
 ![](/img/themer-part-layout-type-68352acd.png)
 
-:::info
+:::note **Note**
 The list of positions depends on hooks in the Beaver Builder Theme. You don’t need to use the Beaver Builder Theme to get support for Themer Parts, but you do need to use one of the [themes that support Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md). 
 :::
 

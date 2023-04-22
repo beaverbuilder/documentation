@@ -7,10 +7,6 @@ module.exports = {
   organizationName: 'beaverbuilder',
   projectName: 'docs',
   onBrokenLinks: 'warn',
-  markdown: {
-    mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
   scripts: [
     {
       src: 'https://kit.fontawesome.com/71592fd01a.js',
