@@ -9,6 +9,10 @@ toc_max_heading_level: 2
 
 Beaver Builder 2.7 includes the following new features and improvements.
 
+<div className="embed-responsive">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gailwFRz61A?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## New Responsive Editing Experience
 
 Prior to Beaver Builder 2.7, the responsive editor provided an approximation of how your website would look on a mobile device and worked similarly to resizing a browser window. The new responsive editor uses an iframe. This should provide a better user experience, not only in terms of accuracy, but also ease of use.
