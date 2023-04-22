@@ -245,6 +245,10 @@
         {
           type: 'category',
           label: 'Modules',
+          link: {
+            type: 'doc',
+            id: 'beaver-builder/layouts/modules/index',
+         },
           items: [
             "beaver-builder/layouts/modules/module-overview",
             "beaver-builder/layouts/modules/where-can-i-display-image-layouts",
