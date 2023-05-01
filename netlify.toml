@@ -70,6 +70,33 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-i
 status = 301
 force = true
 
+# Custom Module Redirects
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-01-create-a-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/01-create-a-plugin"
+status = 301
+force = true
+
+
+"beaver-builder/developer/custom-modules/02-add-a-module-to-your-plugin",
+"beaver-builder/developer/custom-modules/03-define-module-settings",
+"beaver-builder/developer/custom-modules/04-module-settings-css-javascript",
+"beaver-builder/developer/custom-modules/05-module-html",
+"beaver-builder/developer/custom-modules/06-module-css",
+"beaver-builder/developer/custom-modules/07-module-javascript",
+"beaver-builder/developer/custom-modules/08-module-property-reference",
+"beaver-builder/developer/custom-modules/09-module-method-reference",
+"beaver-builder/developer/custom-modules/10-setting-fields-reference",
+"beaver-builder/developer/custom-modules/11-responsive-fields-reference",
+"beaver-builder/developer/custom-modules/12-repeater-fields-reference",
+"beaver-builder/developer/custom-modules/13-sanitize-field-values",
+"beaver-builder/developer/custom-modules/14-create-custom-fields",
+"beaver-builder/developer/custom-modules/15-helpers",
+"beaver-builder/developer/custom-modules/16-live-preview-reference",
+"beaver-builder/developer/custom-modules/17-partial-refresh-reference",
+"beaver-builder/developer/custom-modules/18-override-modules",
+"beaver-builder/developer/custom-modules/19-localization",
+
 # Redirect Contact Form module doc link
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/how-to-tips/use-smtp-to-send-form-notifications"
