@@ -1,7 +1,8 @@
 ---
-id: cmdg-10-setting-fields-reference
-title: 'CMDG 10: Setting fields reference'
-sidebar_label: 'CMDG 10: Setting fields reference'
+id: 10-setting-fields-reference
+title: '10: Setting fields reference'
+sidebar_label: '10: Setting fields reference'
+slug: setting-fields-reference
 ---
 
 :::note **Note**

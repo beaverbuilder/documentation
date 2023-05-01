@@ -1,7 +1,8 @@
 ---
-id: cmdg-13-sanitize-field-values
-title: 'CMDG 13: Sanitize field values'
-sidebar_label: 'CMDG 13: Sanitize field values'
+id: 13-sanitize-field-values
+title: '13: Sanitize field values'
+sidebar_label: '13: Sanitize field values'
+slug: sanitize-field-values
 ---
 
 You can provide a sanitization callback function for your field's value. For

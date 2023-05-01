@@ -1,7 +1,8 @@
 ---
-id: cmdg-07-module-javascript
-title: 'CMDG 07: Module JavaScript'
-sidebar_label: 'CMDG 07: Module JavaScript'
+id: 07-module-javascript
+title: '07: Module JavaScript'
+sidebar_label: '07: Module JavaScript'
+slug: module-js
 ---
 
 Beaver Builder gives you two entry points for defining JavaScript for your

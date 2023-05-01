@@ -1,7 +1,8 @@
 ---
-id: cmdg-12-repeater-fields-reference
-title: 'CMDG 12: Repeater fields reference'
-sidebar_label: 'CMDG 12: Repeater fields reference'
+id: 12-repeater-fields-reference
+title: '12: Repeater fields reference'
+sidebar_label: '12: Repeater fields reference'
+slug: repeater-fields-reference
 ---
 
 A repeater field is a field that can be duplicated multiple times, reordered

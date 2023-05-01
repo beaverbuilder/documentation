@@ -1,7 +1,8 @@
 ---
-id: cmdg-16-live-preview-reference
-title: 'CMDG 16: Live preview reference'
-sidebar_label: 'CMDG 16: Live preview reference'
+id: 16-live-preview-reference
+title: '16: Live preview reference'
+sidebar_label: '16: Live preview reference'
+slug: live-preview-reference
 ---
 
 By default, whenever a user changes a module setting, the Beaver Builder

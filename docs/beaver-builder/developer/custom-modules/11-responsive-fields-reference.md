@@ -1,7 +1,8 @@
 ---
-id: cmdg-11-responsive-fields-reference
-title: 'CMDG 11: Responsive fields reference'
-sidebar_label: 'CMDG 11: Responsive fields reference'
+id: 11-responsive-fields-reference
+title: '11: Responsive fields reference'
+sidebar_label: '11: Responsive fields reference'
+slug: responsive-fields-reference
 ---
 
 Users can enter different responsive breakpoint values for a single field by

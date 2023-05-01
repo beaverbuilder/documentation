@@ -1,7 +1,8 @@
 ---
-id: cmdg-15-helpers
-title: 'CMDG 15: Helpers'
-sidebar_label: 'CMDG 15: Helpers'
+id: 15-helpers
+title: '15: Helpers'
+sidebar_label: '15: Helpers'
+slug: helpers
 ---
 
 There are helpers for CSS rendering and settings compatibility, as follows.

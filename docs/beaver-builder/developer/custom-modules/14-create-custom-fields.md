@@ -1,7 +1,8 @@
 ---
-id: cmdg-14-create-custom-fields
-title: 'CMDG 14: Create custom fields'
-sidebar_label: 'CMDG 14: Create custom fields'
+id: 14-create-custom-fields
+title: '14: Create custom fields'
+sidebar_label: '14: Create custom fields'
+slug: create-custom-fields
 ---
 
 In addition to creating custom modules, developers can also define custom

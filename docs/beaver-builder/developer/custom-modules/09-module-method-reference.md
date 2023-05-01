@@ -1,7 +1,8 @@
 ---
-id: cmdg-09-module-method-reference
-title: 'CMDG 09: Module method reference'
-sidebar_label: 'CMDG 09: Module method reference'
+id: 09-module-method-reference
+title: '09: Module method reference'
+sidebar_label: '09: Module method reference'
+slug: module-method-reference
 ---
 
 ### add_css( $handle, $src, $deps, $ver, $media )  

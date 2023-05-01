@@ -1,7 +1,8 @@
 ---
-id: cmdg-19-localization
-title: 'CMDG 19: Localization'
-sidebar_label: 'CMDG 19: Localization'
+id: 19-localization
+title: '19: Localization'
+sidebar_label: '19: Localization'
+slug: localization
 ---
 
 You will notice that in all of the examples we are using WordPress' built-in

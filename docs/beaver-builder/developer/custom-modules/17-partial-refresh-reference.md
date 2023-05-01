@@ -1,7 +1,8 @@
 ---
-id: cmdg-17-partial-refresh-reference
-title: 'CMDG 17: Partial refresh reference'
-sidebar_label: 'CMDG 17: Partial refresh reference'
+id: 17-partial-refresh-reference
+title: '17: Partial refresh reference'
+sidebar_label: '17: Partial refresh reference'
+slug: partial-refresh-reference
 ---
 
 Current versions of Beaver Builder plugin employ Partial Refresh for layout,
