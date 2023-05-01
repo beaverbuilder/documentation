@@ -75,6 +75,13 @@ html[data-theme='dark'] .DocSearch {
   vertical-align: sub;
 }
 
+/* Forces list items into two columns
+ * beaver-themer/acf/index.md
+ */
+.ul-col-2 .markdown ul {
+  column-count: 2;
+}
+
 /* Announcement Bar */
 div[class^=announcementBar_] {
   background: #1b7497;
