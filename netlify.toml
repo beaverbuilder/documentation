@@ -69,33 +69,130 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-import-content"
 status = 301
 force = true
-
-# Custom Module Redirects
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-01-create-a-plugin"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/01-create-a-plugin"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/disable-responsive-behavior-site-wide"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/disable"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/link-to-specific-item-in-tabs-or-accordion-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/link-to-specific-item"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/change-the-accordion-icon-to-an-image"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/css-customization"
 status = 301
 force = true
 
 
-"beaver-builder/developer/custom-modules/02-add-a-module-to-your-plugin",
-"beaver-builder/developer/custom-modules/03-define-module-settings",
-"beaver-builder/developer/custom-modules/04-module-settings-css-javascript",
-"beaver-builder/developer/custom-modules/05-module-html",
-"beaver-builder/developer/custom-modules/06-module-css",
-"beaver-builder/developer/custom-modules/07-module-javascript",
-"beaver-builder/developer/custom-modules/08-module-property-reference",
-"beaver-builder/developer/custom-modules/09-module-method-reference",
-"beaver-builder/developer/custom-modules/10-setting-fields-reference",
-"beaver-builder/developer/custom-modules/11-responsive-fields-reference",
-"beaver-builder/developer/custom-modules/12-repeater-fields-reference",
-"beaver-builder/developer/custom-modules/13-sanitize-field-values",
-"beaver-builder/developer/custom-modules/14-create-custom-fields",
-"beaver-builder/developer/custom-modules/15-helpers",
-"beaver-builder/developer/custom-modules/16-live-preview-reference",
-"beaver-builder/developer/custom-modules/17-partial-refresh-reference",
-"beaver-builder/developer/custom-modules/18-override-modules",
-"beaver-builder/developer/custom-modules/19-localization",
+
+
+
+
+
+# Custom Module Redirects
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-01-create-a-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/create-a-plugin"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-02-add-a-module-to-your-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/add-a-module-to-your-plugin"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-03-define-module-settings"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/define-module-settings"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-04-module-settings-css-and-javascript"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-settings-css-javascript"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-05-module-html"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-html"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-06-module-css"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-css"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-07-module-javascript"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-javascript"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-08-module-property-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-property-reference"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-09-module-method-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-method-reference"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/setting-fields-reference"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-11-responsive-fields-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/responsive-fields-reference"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-12-repeater-fields-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/repeater-fields-reference"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-13-sanitize-field-values"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/sanitize-field-values"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-14-create-custom-fields"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/create-custom-fields"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-15-helpers"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/helpers"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-16-live-preview-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/live-preview-reference"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-17-partial-refresh-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/partial-refresh-reference"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-18-override-built-in-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/override-modules"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-19-localization"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/localization"
+status = 301
+force = true
+
 
 # Redirect Contact Form module doc link
 [[redirects]]
