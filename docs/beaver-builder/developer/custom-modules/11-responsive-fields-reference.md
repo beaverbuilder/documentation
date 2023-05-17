@@ -5,23 +5,19 @@ sidebar_label: '11: Responsive fields reference'
 slug: responsive-fields-reference
 ---
 
-Users can enter different responsive breakpoint values for a single field by
-clicking on the device toggle icon associated with that field. You can see an
-example of this in the Beaver Builder editor if you visit the margins setting
-for rows, columns or modules.
+Users can enter different responsive breakpoint values for a single field by clicking on the device toggle icon associated with that field. You can see an example of this in the Beaver Builder editor if you visit the margins setting for rows, columns or modules.
 
 The following field types support responsive breakpoints:
 
-  * `dimension`
-  * `unit`
-  * `align`
-  * `border`
-  * `photo`
-  * `select`
-  * `typography`
+* [`align`](10-setting-fields-reference.md#align-field)
+* [`border`](10-setting-fields-reference.md#border-field)
+* [`dimension`](10-setting-fields-reference.md#dimension-field)
+* [`photo`](10-setting-fields-reference.md#photo-field)
+* [`select`](10-setting-fields-reference.md#select-field)
+* [`typography`](10-setting-fields-reference.md#typography-field)
+* [`unit`](10-setting-fields-reference.md#unit-field)
 
-The easiest way to enable this for your fields is to define `responsive` as
-`true` in your field config, as shown below.
+The easiest way to enable this for your fields is to define `responsive` as `true` in your field config, as shown below.
 
 ```php
 'font_size' => array(
@@ -33,9 +29,7 @@ The easiest way to enable this for your fields is to define `responsive` as
 ),
 ```
 
-You can have more granular control by defining `responsive` as an array of
-standard field config keys, with each providing a value for the `default`,
-`medium`, and `responsive` breakpoints, as follows.
+You can have more granular control by defining `responsive` as an array of standard field config keys, with each providing a value for the `default`, `large`, `medium`, and `responsive` breakpoints, as follows.
 
 ```php
 'font_size' => array(
@@ -44,9 +38,10 @@ standard field config keys, with each providing a value for the `default`,
   'description' => 'px',
   'responsive'  => array(
     'placeholder' => array(
-      'default'    =>  36,
-      'medium'     =>  24,
-      'responsive' =>  16,
+      'default'     =>  36, // Extra Large
+      'large'       =>  26, // Large Breakpoint
+      'medium'      =>  20, // Medium Breakpoint
+      'responsive'  =>  16, // Small Breakpoint
     ),
   ),
 ),

@@ -5,21 +5,17 @@ sidebar_label: '10: Setting fields reference'
 slug: setting-fields-reference
 ---
 
-:::note **Note**
-Don't use either the `type` or `connection` key in a setting field.
-Those two keys are reserved for internal use.
+:::caution
+Please refrain from using the `type` or `connection` keys within the settings fields, as they have been designated for internal purposes and should not be used.
 :::
 
 ### Align field
 
-The align field displays a button group used to select either left, center or
-right values. The following screenshot shows the **Alignment** field button
-group in the UI and what the choices are:
+The align field displays a button group used to select either left, center or right values. The following screenshot shows the **Alignment** field button group in the UI and what the choices are:
 
-![](/img/cmdg-10-1.png)
+![Align field](/img/developer/custom-modules--10-settings-fields-reference--1.jpg)
 
-You can also set custom return values using the optional `values` param as
-shown in the example.
+You can also set custom return values using the optional `values` param as shown in the example.
 
 **Return value**  
 Returns left, center or right unless custom values have been defined.
@@ -53,8 +49,7 @@ Here is an example of an align field with custom return values.
 
 ### Border field
 
-The border field displays a compound field with inputs for constructing
-borders. Using [our live preview system](/beaver-builder/developer/custom-modules/cmdg-16-live-preview-reference.md) will take care of the complexities of previewing the border field for you.
+The border field displays a compound field with inputs for constructing borders. Using [our live preview system](16-live-preview-reference.md) will take care of the complexities of previewing the border field for you.
 
 **Return value**  
 An array of border data.
@@ -71,9 +66,7 @@ An array of border data.
 ),
 ```
 
-To render the CSS for your border field, use the
-`FLBuilderCSS::border_field_rule` helper method in your `frontend.css.php`
-file as shown below.
+To render the CSS for your border field, use the `FLBuilderCSS::border_field_rule` helper method in your `frontend.css.php` file as shown below.
 
 ```php
 FLBuilderCSS::border_field_rule( array(
@@ -85,12 +78,9 @@ FLBuilderCSS::border_field_rule( array(
 
 ### Button Group field
 
-The button group field displays a group of buttons for selecting a single
-value when one of the buttons is clicked. Only one button can be selected at a
-time. When no button is selected, the default setting applies. Here's a
-screenshot example of a button group used in the **Typography** section.
+The button group field displays a group of buttons for selecting a single value when one of the buttons is clicked. Only one button can be selected at a time. When no button is selected, the default setting applies. Here's a screenshot example of a button group used in the **Typography** section.
 
-![](/img/cmdg-10-2.png)
+![Button Group field](/img/developer/custom-modules--10-settings-fields-reference--2.jpg)
 
 **Return value**  
 The selected string value.
@@ -125,9 +115,7 @@ A string containing the user-submitted code.
 
 ### Color field
 
-The color field displays a color picker that can be used to pick a custom
-color. If `show_reset` is set to true, users will also be able to clear the
-color which results in an empty value. You can also set `show_alpha` to true
+The color field displays a color picker that can be used to pick a custom color. If `show_reset` is set to true, users will also be able to clear the color which results in an empty value. You can also set `show_alpha` to true
 to show the alpha slider in the picker.
 
 **Return value**  
@@ -145,8 +133,7 @@ The hexadecimal color value excluding the hash (#) sign.
 
 ### Date field
 
-The date field displays a simple date picker input. This field uses the native
-browser picker instead of a third-party JavaScript library.
+The date field displays a simple date picker input. This field uses the native browser picker instead of a third-party JavaScript library.
 
 **Return value**  
 A date/time string.
@@ -162,14 +149,11 @@ A date/time string.
 
 ### Dimension field
 
-The dimension field displays four number inputs for top, right, bottom, and
-left values.
+The dimension field displays four number inputs for top, right, bottom, and left values.
 
 **Return value**
-The dimension field doesn’t return a single value on your `$settings`
-object. Instead, it will return four values corresponding to top, right,
-bottom, and left, using the key for your setting as a prefix. For example, if
-my setting has a key of `margin`, the values returned will be as follows
+The dimension field doesn’t return a single value on your `$settings` object. Instead, it will return four values corresponding to top, right, bottom, and left, using the key for your setting as a prefix. For example, if
+my setting has a key of `margin`, the values returned will be as follows:
 
 ```php
 $settings->margin_top
@@ -193,9 +177,7 @@ See the code examples for the unit field.
 
 ### Editor field
 
-The editor field displays a WordPress editor that can be used to insert text
-just as you would on the post edit screen. If `media_buttons` is set to true,
-the Add Media button will be available above the editor.
+The editor field displays a WordPress editor that can be used to insert text just as you would on the post edit screen. If `media_buttons` is set to true, the Add Media button will be available above the editor.
 
 **Return value**  
 The HTML content generated by the editor.
@@ -208,8 +190,7 @@ The HTML content generated by the editor.
 ),
 ```
 
-If you would like to enable oEmbed in your editor fields, set the `wpautop`
-param to `false` and output your text in frontend.php like so...
+If you would like to enable oEmbed in your editor fields, set the `wpautop` param to `false` and output your text in frontend.php like so.
 
 ```php
 global $wp_embed;
@@ -218,8 +199,7 @@ echo wpautop( $wp_embed->autoembed( $settings->text ) );
 
 ### Font field
 
-The font field displays a select for choosing a font family and a select for
-choosing a corresponding weight.
+The font field displays a select for choosing a font family and a select for choosing a corresponding weight.
 
 **Return value**  
 An array with the family and weight values as shown below.
@@ -245,23 +225,17 @@ Array
 
 ### Form field
 
-A form field is a nested form that can be launched from within an existing
-form. For a live example of this, check out the Items tab of the Accordion
-module. There you will see that when you click the Edit Item link, a nested
-form is displayed for you to edit that particular item.
+A form field is a nested form that can be launched from within an existing form. For a live example of this, check out the Items tab of the Accordion module. There you will see that when you click the Edit Item link, a nested form is displayed for you to edit that particular item.
 
-:::note **Note**
-You can't nest form fields.
+:::caution
+Form fields cannot be nested.
 :::
 
 **Return value**  
 An object containing a property for each of the settings defined in the form.
 
 **Usage**  
-In order to use the form field, you must have a form defined. That is done
-similar to registering a module but instead uses the
-`FLBuilder::register_settings_form` method. That method takes your form ID as
-well as an array of form config data (again similar to a module's form).
+In order to use the form field, you must have a form defined. That is done similar to registering a module but instead uses the `FLBuilder::register_settings_form` method. That method takes your form ID as well as an array of form config data (again similar to a module's form).
 
 ```php
 FLBuilder::register_settings_form('my_form_field', array(
@@ -285,10 +259,7 @@ FLBuilder::register_settings_form('my_form_field', array(
 ));
 ```
 
-Once you have a form defined, you can reference it in your field's config
-array by setting the `form` value to the ID of the form you registered. You
-should also set the `preview_text` value to the ID of a field that is defined
-in your form.
+Once you have a form defined, you can reference it in your field's config array by setting the `form` value to the ID of the form you registered. You should also set the `preview_text` value to the ID of a field that is defined in your form.
 
 ```php
 'my_form_field' => array(
@@ -301,8 +272,7 @@ in your form.
 
 ### Gradient field
 
-The gradient field displays a compound field with color, stop, type, angle,
-and position inputs for constructing a gradient. Using [our live preview system](/beaver-builder/developer/custom-modules/cmdg-15-helpers.md) will take care of the complexities of previewing the gradient field for you.
+The gradient field displays a compound field with color, stop, type, angle, and position inputs for constructing a gradient. Using [our live preview system](15-helpers.md) will take care of the complexities of previewing the gradient field for you.
 
 **Return value**  
 An array of gradient data.
@@ -319,8 +289,7 @@ An array of gradient data.
 ),
 ```
 
-To render the CSS for your gradient field, use the `FLBuilderColor::gradient`
-helper method in your `frontend.css.php` as shown below.
+To render the CSS for your gradient field, use the `FLBuilderColor::gradient` helper method in your `frontend.css.php` as shown below.
 
 ```php
 background-image: <?php echo FLBuilderColor::gradient( $settings->my_gradient ); ?>
@@ -328,9 +297,7 @@ background-image: <?php echo FLBuilderColor::gradient( $settings->my_gradient );
 
 ### Icon field
 
-The icon field displays an icon selector that can be used to pick a custom
-icon. If `show_remove` is set to true, users will also be able to clear the
-icon, which results in an empty value.
+The icon field displays an icon selector that can be used to pick a custom icon. If `show_remove` is set to true, users will also be able to clear the icon, which results in an empty value.
 
 **Return value**  
 The icon class names, such as `fa fa-flag`.
@@ -359,8 +326,7 @@ You can toggle other fields like the [select field](#select-field) type using th
 
 ### Link field
 
-The link field displays a text input for entering a URL and a select button
-that shows a dialog when clicked for selecting a post of any type to link to.
+The link field displays a text input for entering a URL and a select button that shows a dialog when clicked for selecting a post of any type to link to.
 
 **Return value**  
 The link entered by the user.
@@ -369,45 +335,36 @@ The link entered by the user.
 'my_link_field' => array(
   'type'          => 'link',
   'label'         => __('Link Field', 'fl-builder')
+  'placeholder'   => __( 'http://www.example.com', 'fl-builder' ),
 ),
 ```
 
-You can show **Target** or **No Follow** checkboxes without having to code
-those fields yourself. The following screenshot shows how they appear in the
-UI.
+You can show **Target** or **No Follow** checkboxes without having to code those fields yourself. The following screenshot shows how they appear in the UI.
 
-![](/img/cmdg-10-3.png)
+![Link field](/img/developer/custom-modules--10-settings-fields-reference--3.jpg)
 
-To enable these checkboxes, set the `show_target` or `show_nofollow` values to
-`true` in your field config, as shown in the following code example.
+To enable these checkboxes, set the `show_target`, `show_nofollow`, or `show_download` values to `true` in your field config, as shown in the following code example.
 
 ```php
 'link' => array(
-	'type'          => 'link',
-	'label'         => 'Link',
-	'show_target'	=> true,
-	'show_nofollow'	=> true,
+  'type'          => 'link',
+  'label'         => 'Link',
+  'placeholder'   => __( 'http://www.example.com', 'fl-builder' ),
+  'show_target'   => true,
+  'show_nofollow' => true,
+  'show_download' => true,
 ),
 ```
 
-### Loop settings fields
+### Loop Settings fields
 
-Loop settings aren't actually a single field but a collection of fields that
-make up a tab in the settings panel. That tab allows users to select things
-like Post Type, Order, Terms and more that you can use to create a WordPress
-loop using the `FLBuilderLoop::query` method.
+Loop settings aren't actually a single field but a collection of fields that make up a tab in the settings panel. That tab allows users to select things like Post Type, Order, Terms and more that you can use to create a WordPress loop using the `FLBuilderLoop::query` method.
 
 **Return value**  
-All of the values for the loop settings will be stored in your module's
-settings object. You shouldn't need to access those settings directly
-(although you can if you want to). Instead, just pass them to the
-`FLBuilderLoop::query` method, as shown below, and it will take care of
-everything for you.
+All of the values for the loop settings will be stored in your module's settings object. You shouldn't need to access those settings directly (although you can if you want to). Instead, just pass them to the `FLBuilderLoop::query` method, as shown below, and it will take care of everything for you.
 
 **Usage**  
-To use the loop settings, simply create a new tab array that links to the
-_ui-loop-settings.php_ file instead of defining sections and fields like a
-standard tab array.
+To use the loop settings, simply create a new tab array that links to the _ui-loop-settings.php_ file instead of defining sections and fields like a standard tab array.
 
 ```php
 'my_loop_settings' => array(
@@ -416,8 +373,7 @@ standard tab array.
 )
 ```
 
-When a user saves your module, you can create a loop in your _frontend.php_
-file, as follows:
+When a user saves your module, you can create a loop in your _frontend.php_ file, as follows:
 
 ```php
 $query = FLBuilderLoop::query( $settings );
@@ -439,10 +395,9 @@ if ( $query->have_posts() ) {
 }
 ```
 
-### Multiple audios field
+### Multiple Audios field
 
-The multiple audios field displays a WordPress media lightbox that allows
-users to select multiple audio files.
+The multiple audios field displays a WordPress media lightbox that allows users to select multiple audio files.
 
 **Return value**  
 A JSON-encoded array of attachment IDs for each audio file selected.
@@ -454,10 +409,9 @@ A JSON-encoded array of attachment IDs for each audio file selected.
 ),
 ```
 
-### Multiple photos field
+### Multiple Photos field
 
-The multiple photos field displays a WordPress media lightbox that allows
-users to select multiple photos.
+The multiple photos field displays a WordPress media lightbox that allows users to select multiple photos.
 
 **Return value**  
 A JSON encoded array of attachment ids for each photo selected.
@@ -471,17 +425,12 @@ A JSON encoded array of attachment ids for each photo selected.
 
 ### Photo field
 
-The photo field displays a WordPress media lightbox that allows users to
-select a single photo.
+The photo field displays a WordPress media lightbox that allows users to select a single photo.
 
 **Return value**  
-The attachment ID for the selected photo. In addition to the attachment ID,
-the photo field also provides the photo URL as a separate variable in your
-module's settings object. That variable has the same name as your photo field
-with the suffix `_src` appended to it, such as `my_photo_field_src`. This is
-useful if all you need is the URL and don't need to deal with the attachment
-ID or data. If `show_remove` is set to true, users will also be able to clear
-the photo which results in an empty value.
+The attachment ID for the selected photo. In addition to the attachment ID, the photo field also provides the photo URL as a separate variable in your module's settings object. That variable has the same name as your photo field with the suffix `_src` appended to it, such as `my_photo_field_src`.
+
+This is useful if all you need is the URL and don't need to deal with the attachment ID or data. If `show_remove` is set to true, users will also be able to clear the photo which results in an empty value.
 
 ```php
 'my_photo_field' => array(
@@ -495,12 +444,10 @@ You can toggle other fields like the [select field](#select-field) type using th
 
 ### Photo sizes field
 
-The photo sizes field displays a select input containing the available
-WordPress photo sizes as values.
+The photo sizes field displays a select input containing the available WordPress photo sizes as values.
 
 **Return value**  
-The photo size string that can be used in functions such as
-`the_post_thumbnail($size)` to retrieve a specific photo size.
+The photo size string that can be used in functions such as `the_post_thumbnail($size)` to retrieve a specific photo size.
 
 ```php
 'my_photo_sizes_field' => array(
@@ -510,10 +457,9 @@ The photo size string that can be used in functions such as
 ),
 ```
 
-### Post type field
+### Post Type field
 
-The post type field displays a select input containing the available WordPress
-post types as values.
+The post type field displays a select input containing the available WordPress post types as values.
 
 **Return value**  
 The post type slug, such as post or page.
@@ -528,9 +474,7 @@ The post type slug, such as post or page.
 
 ### Raw HTML field
 
-The raw HTML field displays raw HTML specified using the `content` param. It
-does not return a value to your settings because it is only meant for output,
-not input.
+The raw HTML field displays raw HTML specified using the `content` param. It does not return a value to your settings because it is only meant for output, not input.
 
 **Return value**  
 This field does not return a value.
@@ -545,11 +489,7 @@ This field does not return a value.
 
 ### Select field
 
-The select field displays a standard HTML select input. Select fields can also
-be setup to show/hide other tabs, sections and fields within your settings by
-using the toggle array as shown in the example below. If the value selected by
-the user matches one defined in your toggle array, those tabs, sections and
-fields will be shown; otherwise, they will be hidden.
+The select field displays a standard HTML select input. Select fields can also be setup to show/hide other tabs, sections and fields within your settings by using the toggle array as shown in the example below. If the value selected by the user matches one defined in your toggle array, those tabs, sections and fields will be shown; otherwise, they will be hidden.
 
 **Return value**  
 The value selected by the user.
@@ -574,9 +514,7 @@ The value selected by the user.
 ),
 ```
 
-You can also make a select field that has the ability to select multiple
-values by setting the multi-select config value to true as shown below. If
-that is set, this field will return an array of selected values.
+You can also make a select field that has the ability to select multiple values by setting the multi-select config value to true as shown below. If that is set, this field will return an array of selected values.
 
 ```php
 'my_multi_select_field' => array(
@@ -593,22 +531,13 @@ that is set, this field will return an array of selected values.
 
 ### Service fields
 
-The service field isn't actually a single field but a collection of fields
-that make up a section in a settings form tab. These fields allow users to
-enter account information for a specific service (such as MailChimp) and save
-API connection data. You can then use the saved data in your modules to do
-things such as subscribe someone to a mailing list.
+The service field isn't actually a single field but a collection of fields that make up a section in a settings form tab. These fields allow users to enter account information for a specific service (such as MailChimp) and save API connection data. You can then use the saved data in your modules to do things such as subscribe someone to a mailing list.
 
 **Return value**  
-The values for the service fields will be stored in your module's settings
-object.
+The values for the service fields will be stored in your module's settings object.
 
 **Usage**  
-To use the service fields, simply create a new section array that links to the
-_service-settings.php_ file instead of defining fields like a standard section
-array. You also need to define the type of services that you would like
-available in the services list. Beaver Builder currently supports the
-`autoresponder` type.
+To use the service fields, simply create a new section array that links to the _service-settings.php_ file instead of defining fields like a standard section array. You also need to define the type of services that you would like available in the services list. Beaver Builder currently supports the `autoresponder` type.
 
 ```php
 'service' => array(
@@ -635,9 +564,7 @@ $account_data = $instance->get_account_data( $settings->service_account );
 
 ### Shadow field
 
-The shadow field displays a compound field with inputs for constructing a
-shadow effect. Using [our live preview system](/beaver-builder/developer/custom-modules/cmdg-15-helpers.md) will take
-care of the complexities of previewing the shadow field for you.
+The shadow field displays a compound field with inputs for constructing a shadow effect. Using [our live preview system](15-helpers.md) will take care of the complexities of previewing the shadow field for you.
 
 **Return value**  
 An array of shadow data.
@@ -655,8 +582,7 @@ An array of shadow data.
 ),
 ```
 
-To render the CSS for your shadow field, use the `FLBuilderColor::shadow`
-helper method in your `frontend.css.php` file as shown below.
+To render the CSS for your shadow field, use the `FLBuilderColor::shadow` helper method in your `frontend.css.php` file as shown below.
 
 ```php
 box-shadow: <?php echo FLBuilderColor::shadow( $settings->my_shadow ); ?>
@@ -664,17 +590,14 @@ box-shadow: <?php echo FLBuilderColor::shadow( $settings->my_shadow ); ?>
 
 ### Suggest field
 
-The suggest field displays a text input that returns a list of suggested
-results as the user types. It is currently designed to work with posts (of any
-type), terms (tags, categories, etc.), users and links (to a post of any
-type).
+The suggest field displays a text input that returns a list of suggested results as the user types. It is currently designed to work with posts (of any type), terms (tags, categories, etc.), users and links (to a post of any type).
 
-The action value of the config array currently accepts one of four values...
+The action value of the config array currently accepts one of four values.
 
-  * `fl_as_posts` \- Search posts. The data value of the config array must be the slug of the post type you want to search. Returns an array of post IDs.
-  * `fl_as_terms` \- Search terms. The data value of the config array must be the slug of the term you want to search. Returns an array of term IDs.
-  * `fl_as_users` \- Search users. Returns an array of user IDs.
-  * `fl_as_links` \- Search links. Returns an array of permalinks.
+* `fl_as_posts` \- Search posts. The data value of the config array must be the slug of the post type you want to search. Returns an array of post IDs.
+* `fl_as_terms` \- Search terms. The data value of the config array must be the slug of the term you want to search. Returns an array of term IDs.
+* `fl_as_users` \- Search users. Returns an array of user IDs.
+* `fl_as_links` \- Search links. Returns an array of permalinks.
 
 **Return value**  
 A string of comma-separated values that the user has selected.
@@ -713,11 +636,7 @@ The text entered by the user.
 
 ### Textarea field
 
-The textarea field displays a standard HTML textarea input. There is an
-optional `maxlength` key-value pair, shown in this example, and you can set
-any value you want. Beaver Builder has no maximum number of characters in its
-textareas, but you can use `maxlength` if you want to limit the number of
-characters that a user can enter.
+The textarea field displays a standard HTML textarea input. There is an optional `maxlength` key-value pair, shown in this example, and you can set any value you want. Beaver Builder has no maximum number of characters in its textareas, but you can use `maxlength` if you want to limit the number of characters that a user can enter.
 
 **Return value**  
 The text entered by the user.
@@ -735,8 +654,7 @@ The text entered by the user.
 
 ### Time field
 
-The time field displays inputs for selecting the hour, minutes and period of
-the day (am/pm).
+The time field displays inputs for selecting the hour, minutes and period of the day (am/pm).
 
 **Return value**  
 An array containing the hour, minutes and period.
@@ -761,7 +679,7 @@ $settings->my_time_field['minutes'];
 $settings->my_time_field['day_period'];
 ```
 
-### Time zone field
+### Time Zone field
 
 The time zone field displays an input for selecting a specific time zone.
 
@@ -778,13 +696,11 @@ The time zone string.
 
 ### Typography field
 
-The typography field displays a compound field with font, style, spacing, and
-shadow inputs for customizing the look of text.
+The typography field displays a compound field with font, style, spacing, and shadow inputs for customizing the look of text.
 
-![](/img/cmdg-10-4.png)
+![Link field](/img/developer/custom-modules--10-settings-fields-reference--4.jpg)
 
-Using [our live preview system](/beaver-builder/developer/custom-modules/cmdg-15-helpers.md) will take
-care of the complexities of previewing the typography field for you.
+Using [our live preview system](15-helpers.md) will take care of the complexities of previewing the typography field for you.
 
 **Return value**  
 An array of typography data.
@@ -826,12 +742,9 @@ The unit field displays a text input for entering a number.
 ),
 ```
 
-####  Custom unit select
+#### Custom Unit select
 
-You can add a custom unit select (such as px, vh, %) to unit fields. These
-selects allow you to choose from a predefined list of values, as shown below.
-When using custom unit selects, you don't have to define the unit in your
-preview config, also shown below.
+You can add a custom unit select (such as `px`, `vh`, `%`) to unit fields. These selects allow you to choose from a predefined list of values, as shown below. When using custom unit selects, you don't have to define the unit in your preview config, also shown below.
 
 ```php
 'width' => array(
@@ -847,26 +760,21 @@ preview config, also shown below.
 ),
 ```
 
-Settings with a custom unit select will receive a related setting with the
-`_unit` suffix, as shown in the example below. Together with the original
-setting, you can build the full value.
+Settings with a custom unit select will receive a related setting with the `_unit` suffix, as shown in the example below. Together with the original setting, you can build the full value.
 
 ```php
 $value = $settings->width . $settings->width_unit
 ```
 
-:::note **Note**
-If you choose to set only one value for your custom unit select
-(such as `px`), it will still show up but won't be a selectable field.
+:::info
+If you choose to set only one value for your custom unit select (such as `px`), it will still show up but won't be a selectable field.
 :::
 
-####  Popup value slider
+#### Popup Value slider
 
-You can enable a popup slider control for unit fields when they are focused.
-This lets users change the values using a slider instead of the keyboard.
+You can enable a popup slider control for unit fields when they are focused. This lets users change the values using a slider instead of the keyboard.
 
-To enable the popup slider for a field, simply set the `slider` value in your
-field config to `true`.
+To enable the popup slider for a field, simply set the `slider` value in your field config to `true`.
 
 ```php
 'width' => array(
@@ -876,9 +784,7 @@ field config to `true`.
 ),
 ```
 
-Examples of more advanced setups are shown below, allowing you to customize
-the `min`, `max`, and `step` values for the slider. If you are using custom
-units, you can customize the values for each unit as well.
+Examples of more advanced setups are shown below, allowing you to customize the `min`, `max`, and `step` values for the slider. If you are using custom units, you can customize the values for each unit as well.
 
 ```php
 'width' => array(
@@ -909,8 +815,7 @@ units, you can customize the values for each unit as well.
 
 ### Video field
 
-The video field displays a WordPress media lightbox that allows users to
-select a single video.
+The video field displays a WordPress media lightbox that allows users to select a single video.
 
 **Return value**  
 The attachment id for the selected video.
