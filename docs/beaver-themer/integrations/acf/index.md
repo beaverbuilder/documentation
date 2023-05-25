@@ -6,23 +6,17 @@ description: This article covers the Beaver Themer integration with Advanced Cus
 ---
 
 <!-- Do not remove!
-Adds custom class to body for styling this page only 
+Adds class to body for styling this pages list 
 -->
 <head>
   <body className="ul-col-2"/>
 </head>
 
-This article covers the Beaver Themer integration with Advanced Custom Fields.
+The Advanced Custom Fields (ACF) plugin provides a way to add more data to your pages, posts, and custom post types in WordPress. With Beaver Themer, you can use field connections to retrieve the data of custom fields you have created with ACF ([free](https://wordpress.org/plugins/advanced-custom-fields/) or [premium](https://www.advancedcustomfields.com/pro/)) plugin.
 
-## Introduction
-
-The Advanced Custom Fields (ACF) plugin provides a way to add more data to your pages, posts, and custom post types in WordPress. With Beaver Themer, you can create field connections or field connection shortcodes to retrieve the contents of custom fields you have made with ACF ([free](https://wordpress.org/plugins/advanced-custom-fields/) or [premium](https://www.advancedcustomfields.com/pro/)) plugin.
-
-In addition, these field connections are available not only in Beaver Themer layouts, but also in regular Beaver Builder layouts, provided that Beaver Themer is installed.
-
-## Availability
-
-With the installation of Beaver Themer, field connections become available in both Beaver Builder and Beaver Themer layouts, providing you with numerous choices in terms of where and how you wish to showcase custom fields.
+:::info
+Field connections are available not only in Beaver Themer layouts, but also in Beaver Builder layouts, provided that Beaver Themer is installed.
+:::
 
 ## Supported Field Types
 
@@ -58,7 +52,7 @@ Beaver Themer supports the following ACF field types:
 * [WYSIWYG](field-types/wysiwyg.md)
 
 :::tip
-You can add support for missing field types or third-party fields using our [Field Connection API](/developer/field-connections-api).
+You can add support for missing field types or third-party fields using our [Field Connection API](../../developer/customize-field-connections-themer.md).
 :::
 
 ## In this section:

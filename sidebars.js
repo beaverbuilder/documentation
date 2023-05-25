@@ -250,17 +250,28 @@
           id: 'beaver-builder/layouts/modules/index',
         },
           items: [
-            "beaver-builder/layouts/modules/module-overview",
-            "beaver-builder/layouts/modules/where-can-i-display-image-layouts",
-            "beaver-builder/layouts/modules/where-can-i-add-videos",
-            "beaver-builder/layouts/modules/where-can-i-display-menus",
             {
               type: 'category',
               label: 'Accordion',
+              link: {
+                type: 'doc',
+                id: 'beaver-builder/layouts/modules/accordion/index',
+              },
               items: [
-                "beaver-builder/layouts/modules/accordion/accordion",
-                "beaver-builder/layouts/modules/accordion/change-the-accordion-icon-to-an-image",
-                "beaver-builder/layouts/modules/accordion/link-to-specific-item-in-tabs-or-accordion-module",
+                {
+                  type: 'category',
+                  label: 'Settings',
+                  link: {
+                    type: 'doc',
+                    id: 'beaver-builder/layouts/modules/accordion/settings/index',
+                  },
+                  items: [
+                    'beaver-builder/layouts/modules/accordion/settings/items',
+                    'beaver-builder/layouts/modules/accordion/settings/style',
+                  ],
+                },        
+                'beaver-builder/layouts/modules/accordion/link-specific-item',
+                'beaver-builder/layouts/modules/accordion/css-customization',
               ]
             },
             "beaver-builder/layouts/modules/audio",
@@ -354,9 +365,24 @@
             {
               type: 'category',
               label: 'Tabs',
+              link: {
+                type: 'doc',
+                id: 'beaver-builder/layouts/modules/tabs/index',
+              },
               items: [
-                "beaver-builder/layouts/modules/tabs/tabs",
-                "beaver-builder/layouts/modules/accordion/link-to-specific-item-in-tabs-or-accordion-module",
+                {
+                  type: 'category',
+                  label: 'Settings',
+                  link: {
+                    type: 'doc',
+                    id: 'beaver-builder/layouts/modules/tabs/settings/index',
+                  },
+                  items: [
+                    'beaver-builder/layouts/modules/tabs/settings/items',
+                    'beaver-builder/layouts/modules/tabs/settings/style',
+                  ],
+                },
+                "beaver-builder/layouts/modules/tabs/link-specific-item",
               ]
             },
             "beaver-builder/layouts/modules/testimonials",
@@ -370,7 +396,7 @@
               ]
             },
             "beaver-builder/layouts/modules/woocommerce",
-            "beaver-builder/layouts/modules/wordpress-widgets",
+            "beaver-builder/layouts/modules/widgets",
           ]
         },
         {
@@ -464,7 +490,6 @@
         "beaver-builder/advanced-builder-techniques/display-only-custom-layout-templates-in-beaver-builder",
         "beaver-builder/advanced-builder-techniques/disable-inline-editing",
         "beaver-builder/advanced-builder-techniques/disable-columns-in-columns",
-        "beaver-builder/advanced-builder-techniques/disable-responsive-behavior-site-wide",
         {
           type: 'category',
           label: 'Shortcodes',
@@ -893,20 +918,6 @@
        "beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer",
        "beaver-themer/field-connections/field-connection-shortcode-index-themer",
        "beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer",
-       {
-         type: 'category',
-         label: 'Field Connections to ACF',
-         items: [
-           "beaver-themer/field-connections/connections-to-acf", // Index
-           "beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer",
-           "beaver-themer/field-connections/connections-to-acf/acf-radio-button-field-connection-examples",
-           "beaver-themer/field-connections/connections-to-acf/use-acf-flexible-content-field-themer",
-           "beaver-themer/field-connections/connections-to-acf/use-acf-repeater-fields-themer",
-           "beaver-themer/field-connections/connections-to-acf/use-acf-repeater-and-flexible-content-fields-together",
-           "beaver-themer/field-connections/connections-to-acf/test-for-values-in-shortcodes-for-advanced-custom-fields",
-           "beaver-themer/field-connections/connections-to-acf/list-related-posts-using-acf-relationship-field-themer",
-         ]
-       },
        {
          type: 'category',
          label: 'Field Connections to WP custom fields',

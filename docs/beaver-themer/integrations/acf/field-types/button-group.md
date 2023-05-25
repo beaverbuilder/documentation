@@ -6,6 +6,10 @@ sidebar_label: Button Group
 
 The Advanced Custom Fields (ACF) Button Group field is supported in Beaver Themer via a field connection shortcode.
 
+:::caution
+The Button Group field connection **does not** output an HTML button.
+:::
+
 ## Getting started
 
 To get started, create your Button Group field in ACF and use the shortcode to display the Button Group field on your pages or posts. You can use the shortcode inside any module that supports HTML such as a HTML or Text Editor module.
@@ -13,7 +17,7 @@ To get started, create your Button Group field in ACF and use the shortcode to d
 :::info
 The Button Group field connection can output either the **Value** or **Label** from the Button Group field **Return Format** setting.
 
-![](/img/beaver-themer/integrations--acf--button-group-field--1.jpg)
+![Button Group Value or Label output](/img/beaver-themer/integrations--acf--button-group-field--1.jpg)
 :::
 
 ## Shortcode

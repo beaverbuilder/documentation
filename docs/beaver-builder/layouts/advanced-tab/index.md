@@ -1,7 +1,7 @@
 ---
 id: index
 title: Advanced tab
-sidebar_label: Getting Started
+sidebar_label: Advanced tab
 ---
 
 The Advanced tab provides advanced settings for rows, columns, and modules, including options for spacing, animations, visibility, and custom code.

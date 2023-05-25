@@ -90,11 +90,37 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/
 status = 301
 force = true
 
-
-
-
-
-
+# Beaver Themer redirects
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/acf-radio-button-field-connection-examples"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/radio-button"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-flexible-content-field-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/flexible-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-fields-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/repeater"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-and-flexible-content-fields-together"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/repeater"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/list-related-posts-using-acf-relationship-field-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/relationship"
+status = 301
+force = true
 
 # Custom Module Redirects
 [[redirects]]

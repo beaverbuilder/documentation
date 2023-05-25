@@ -1,10 +1,10 @@
 ---
 id: getting-started
-title: Getting started
+title: Getting Started
 sidebar_label: Getting Started
 ---
 
-This article covers how to get started using field connections for Advanced Custom Fields.
+This article covers how to get started using field connections with Advanced Custom Fields.
 
 ## Access ACF Field Connections
 

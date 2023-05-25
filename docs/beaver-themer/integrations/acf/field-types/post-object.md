@@ -4,6 +4,9 @@ title: Post Object
 sidebar_label: Post Object
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 The [Post Object field](https://www.advancedcustomfields.com/resources/post-object/) of Advanced Custom Fields (ACF) is supported in Beaver Themer through a field connection shortcode. This field enables the creation of a list of posts.
 
 ![ACF Post Object field](/img/beaver-themer/integrations--acf--field-types--post-object--1.jpg)
@@ -34,7 +37,7 @@ Below is an example of the Post Object field connection shortcode.
 
 You can enter your Post Object field name in the `name=''` attribute.
 
-### Options	
+### Options
 
 * **List Type** - There are three options available: Regular, which uses the `<div>` tag, Ordered List, which uses the `<ol>` tag, and Unordered List, which uses the `<ul>` tag.
 
@@ -46,34 +49,47 @@ Depending on the [List Type](#options) option you choose, the HTML markup genera
 
 The following three code examples showcase the distinct HTML markup for each List Type option, along with the post ID classname, which is `post-123` in all of the examples.
 
+<Tabs>
+<TabItem value="unordered_list" label="Unordered List (<ul>" default>
 
-```html title='Unordered List (<ul>)'
+```html
 <ul>
-	<li class="post-123">
-		<a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
-	</li>
+  <li class="post-123">
+    <a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
+  </li>
 </ul>
 ```
 
-```html title='Ordered List (<ol>)'
+</TabItem>
+<TabItem value="ordered_list" label="Ordered List (<ol>)">
+
+```html
 <ol>
-	<li class="post-123">
-		<a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
-		</li>
+  <li class="post-123">
+    <a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
+  </li>
 </ol>
 ```
 
-```html title='Regular (<div>)'
+</TabItem>
+<TabItem value="regular" label="Regular (<div>)">
+
+```html
 <div>
-	<div class="post-123">
-		<a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
-	</div>
+  <div class="post-123">
+    <a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
+  </div>
 </div>
 ```
 
+</TabItem>
+</Tabs>
+
 ## Ordering your Post Object Items
 
-To sort your Post Object items, navigate to the location where your Post Object field was assigned through the Location Rule. You can then use drag-and-drop to rearrange the items in any order you prefer by dragging your pages, posts, or custom post type items. The field connection shortcode will respect the changes made when publishing.
+To sort your Post Object field items, access the WordPress Edit Screen of the page, post, or custom post type to which you assigned the field using the ACF Location Rule option.
+
+You can then rearrange the items in any order you prefer by dragging your pages, posts, or custom post type items. The field connection shortcode will respect the changes made when publishing.
 
 <video autoPlay loop>
   <source

@@ -16,7 +16,7 @@ Beaver Builder is equipped with an extensive collection of modules that provide 
 In Beaver Builder, modules are building blocks that contain content and can be added to any column. These modules are similar to WordPress widgets, but provide more advanced customization and styling choices. Each module serves a specific purpose, such as text, images, videos, buttons, and more. You can configure and arrange each module to create unique designs and layouts without requiring any coding experience.
 
 :::tip
-You can [override modules](/beaver-builder/developer/custom-modules/cmdg-18-override-built-in-modules.md) to add custom functionality, as well as create custom modules using our API. For more information, refer to the [Custom Module API](/beaver-builder/developer/custom-modules/index.md) developer article.
+You can [override modules](/beaver-builder/developer/custom-modules/18-override-modules.md) to add custom functionality, as well as create custom modules using our API. For more information, refer to the [Custom Module API](/beaver-builder/developer/custom-modules/index.md) developer article.
 :::
 
 ### Inherit Styling
@@ -53,7 +53,7 @@ Beaver Builder groups modules into different subgroups for better organization. 
 The following are the different module subgroups available.
 
 * **Standard Modules**  
-  All modules included with Beaver Builder are listed in the Standard Modules group. If you [disable modules via the Beaver Builder settings](settings/modules.md), they do not appear in the Standard Modules group.
+  All modules included with Beaver Builder are listed in the Standard Modules group. If you disable modules via the Beaver Builder settings, they do not appear in the Standard Modules group.
 
 * **Reusable Blocks**  
   Any [WordPress reusable blocks](https://wordpress.org/support/article/reusable-blocks/) created will appear in the Reuable Blocks group.
@@ -83,7 +83,7 @@ The following are the different module subgroups available.
 
 1. Move your mouse cursor over the module you want to configure.
 
-2. In the [Module overlay actions](user-interface/builder-overlay.md#overlay-actions-toolbar) click the **Wrench** <i className="fas fa-wrench"></i> icon.
+2. In the Module overlay actions click the **Wrench** <i className="fas fa-wrench"></i> icon.
 
 3. Configure the module according to your preferences in the module settings window.
 
@@ -101,7 +101,7 @@ Modules can be moved from one column to another or be used to create a new colum
 
 1. Move your mouse cursor over the module you want to move.
 
-2. In the [Module overlay actions](user-interface/builder-overlay.md#overlay-actions-toolbar) click and hold the **Move** <i className="fas fa-arrows-alt"></i> icon.
+2. In the Module overlay actions click and hold the **Move** <i className="fas fa-arrows-alt"></i> icon.
 
 3. Drag the module to move to another position in your layout.
 
@@ -115,7 +115,7 @@ The [Outline Panel](../../getting-started/bb-editor-basics/outline-panel.md) als
 
 1. Move your mouse cursor over the module you want to delete.
 
-2. In the [Module overlay actions](user-interface/builder-overlay.md#overlay-actions-toolbar) Click the **Close** <i className="fas fa-times"></i> icon to delete the module.
+2. In the Module overlay actions click the **Close** <i className="fas fa-times"></i> icon to delete the module.
 
 3. Verify that you want to remove the module.
 
