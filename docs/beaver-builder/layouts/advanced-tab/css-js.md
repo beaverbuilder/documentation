@@ -39,7 +39,8 @@ The CSS rules are then rewritten using the Text module's node id class name (`fl
 ```
 
 :::info
-The `!important` declaration may be necessary if your custom CSS styles settings already defined in the row, column, or module options, such as text color or font size options.
+
+The `!important` declaration may be necessary if your custom CSS styles options already defined in the row, column, or module settings, such as text color or font size options. This ensures that your custom CSS takes priority over the configured options.
 
 ```css
 p {
@@ -47,6 +48,7 @@ p {
   font-size: 36px !important;
 }
 ```
+
 :::
 
 ## JavaScript Section
