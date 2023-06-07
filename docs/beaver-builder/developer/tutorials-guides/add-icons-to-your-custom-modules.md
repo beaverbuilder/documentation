@@ -49,6 +49,6 @@ a custom icon with a different file name, you can override your module’s
 
 ```php
 public function get_icon( $icon = '' ) {
-  return file_get_contents( 'path/to/file.svg' );
+  return file_get_contents( 'path/to/icon.svg' );
 }
 ```
