@@ -99,10 +99,36 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/about-this-release"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/about-release"
 status = 301
 force = true
-
-
-ADD REDIRECTS FOR FAQ & ALL OTHER DOCS ADDED TO INTRODUCTION SECTION
-
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/software-releases-and-versioning"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/releases-versioning"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/accessibility"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/accessibility"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/support-policy"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/support-policy"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/translations"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/translations"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/gdpr"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/gdpr"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/gdpr"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/gdpr"
+status = 301
+force = true
 
 # Beaver Themer redirects
 [[redirects]]
