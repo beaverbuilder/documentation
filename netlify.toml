@@ -89,6 +89,20 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordio
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/css-customization"
 status = 301
 force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/dev-preview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/dev-preview"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/about-this-release"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/about-release"
+status = 301
+force = true
+
+
+ADD REDIRECTS FOR FAQ & ALL OTHER DOCS ADDED TO INTRODUCTION SECTION
+
 
 # Beaver Themer redirects
 [[redirects]]

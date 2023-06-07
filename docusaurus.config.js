@@ -51,10 +51,14 @@ module.exports = {
           activeBasePath: 'general',
         },
         {
-          to: '/beaver-builder',
-          label: 'Beaver Builder',
+          type: 'doc',
           position: 'left',
-          activeBasePath: 'beaver-builder',
+          docId: 'beaver-builder/introduction/index',
+          label: 'Beaver Builder',
+          // to: '/beaver-builder',
+          // label: 'Beaver Builder',
+          // position: 'left',
+          // activeBasePath: 'beaver-builder',
         },
         {
           to: '/beaver-themer',

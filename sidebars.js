@@ -119,16 +119,22 @@
   ],
   beaverbuilder: [
     {
-      type: 'doc',
-      id: 'beaver-builder', // Index
-    },
-    {
-      type: 'doc',
-      id: 'beaver-builder/dev-preview',
-    },
-    {
-      type: 'doc',
-      id: 'beaver-builder/about-this-release',
+      type: 'category',
+      label: 'Introduction',
+      link: {
+          type: 'doc',
+          id: 'beaver-builder/introduction/index',
+      },
+      items: [
+          "beaver-builder/introduction/faq",
+          "beaver-builder/introduction/dev-preview",
+          "beaver-builder/introduction/about-release",
+          "beaver-builder/introduction/releases-versioning",
+          "beaver-builder/introduction/accessibility",
+          "beaver-builder/introduction/translations",
+          "beaver-builder/introduction/gdpr",
+          "beaver-builder/introduction/support-policy",
+      ],
     },
     {
       type: 'category',

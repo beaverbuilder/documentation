@@ -1,7 +1,7 @@
 ---
 id: dev-preview
 title: Beaver Builder Developer Preview
-sidebar_label: Dev Preview
+sidebar_label: Developer Preview
 description: Describes the features for the upcoming release of the Beaver Builder plugin.
 ---
 

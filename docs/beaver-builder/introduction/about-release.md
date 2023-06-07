@@ -1,7 +1,7 @@
 ---
-id: about-this-release
-title: About this release
-sidebar_label: About this release
+id: about-release
+title: About this Release
+sidebar_label: About this Release
 description: Describes the features in this release of the Beaver Builder plugin.
 toc_min_heading_level: 2
 toc_max_heading_level: 2
