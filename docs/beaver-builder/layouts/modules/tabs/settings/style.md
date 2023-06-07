@@ -56,12 +56,16 @@ In the Style tab, you can change the color of the tab items, such as the text an
 ### Content
 
 * **Text Color**  
+  *(Available when **Custom Content** is selected as a **Content Source**)*  
+  
   Set the text color of the tab content.
 
 * **Padding**  
   Set a specific padding value in pixels for the tab content. Click the **Link Value** icon to automatically make all four padding values the same.
 
 * **Typography**  
+  *(Available when **Custom Content** is selected as a **Content Source**)*  
+
   Set the font size, family, line-height and more for the tab content. See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
 
 ## Advanced

@@ -70,3 +70,23 @@ When you first add an Tabs module to your layout, a blank item will be created f
 #### Add items
 
 To add more tab items, click the **Add Item** button.
+
+## Display
+
+The Display section is available when **Post** is selected as a **Content Source** and contains the following options:
+
+* **Content Type**  
+  *(Available when [Post](#post) is selected as a Content Source)*  
+
+  * **Post Content** - Show the full content of each post.
+  * **Post Excerpt** - Show the post excerpt.
+
+* **More Link**  
+  *(Available when **Post Excerpt** is selected as the **Content Type**)*   
+
+  Show or hide the Read more link after the post content. If set to Show, you can also customize the default Read more text.
+
+* **More Link Text**  
+  *(Available when **Post Excerpt** is selected as the **Content Type**)*  
+  
+  Customize the default Read more... text.

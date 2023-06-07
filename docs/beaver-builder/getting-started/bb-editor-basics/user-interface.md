@@ -2,7 +2,7 @@
 id: user-interface
 title: User Interface (UI)
 sidebar_label: User Interface (UI)
-description: Description of the the user interface controls when you have a page open for editing in Beaver Builder.
+description: Description of the user interface controls when you have a page open for editing in Beaver Builder.
 ---
 
 <div className="embed-responsive">
