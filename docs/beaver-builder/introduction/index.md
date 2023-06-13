@@ -17,21 +17,6 @@ Welcome to the Beaver Builder documentation. Whether you are new to Beaver Build
 Beaver Builder is a page builder plugin for WordPress that allows you to create custom page layouts using a drag-and-drop interface. With Beaver Builder, you can easily create professional-looking pages without the need for any coding knowledge. The plugin includes a variety of pre-designed templates and modules that you can use to add different types of content to your pages, such as images, videos, buttons, and more.
 
 You can also customize the appearance of your pages using the plugin's built-in design options, including the ability to change colors, fonts, and other design elements. Beaver Builder is a popular choice for creating landing pages, sales pages, and other types of promotional pages on WordPress websites.
-
-## Quick start
-
-1. Purchase a License: Visit the Beaver Builder website and select the appropriate license that suits your needs. Complete the purchase process to obtain your license.
-
-2. Download: After purchasing the license, download the Beaver Builder plugin from your account dashboard. Save the plugin files to your computer.
-
-3. Plugin Installation: Log in to your WordPress website's admin dashboard. Navigate to the "Plugins" section in the WordPress dashboard and click on "Add New." Choose the option to upload a plugin and select the Beaver Builder plugin file you downloaded. Install the plugin.
-
-4. Activate the Plugin: Once the installation is complete, activate the Beaver Builder plugin from the "Plugins" section.
-
-5. Enter Your License: In the WordPress dashboard, go to the Beaver Builder settings page. Locate the license field and enter the license key provided to you during the purchase. Save the settings.
-
-6. Launch Beaver Builder: With the license key entered and saved, you're ready to start using Beaver Builder. Navigate to the page or post where you want to use the page builder. Click on the "Page Builder" button to launch Beaver Builder.
-
 ## Community
 
 * Read and subscribe to the [official Beaver Builder Blog](https://www.wpbeaverbuilder.com/blog/).

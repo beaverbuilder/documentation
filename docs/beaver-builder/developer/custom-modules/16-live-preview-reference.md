@@ -16,7 +16,7 @@ dropped into a layout. As such, your code should never expect that it's
 dealing with user submitted settings as it could be dealing with the default
 settings.
 
-## Important preview
+## Important Preview
 
 You can declare preview rules as important using the `important` param.
 
@@ -33,7 +33,7 @@ You can declare preview rules as important using the `important` param.
 ),
 ```
 
-##  Attribute preview
+## Attribute Preview
 
 Attribute previews allow you to preview an HTML attribute change on an
 element. For example, you can have a text field update the `data-foo`
@@ -52,7 +52,7 @@ attribute on an element as shown below.
 ),
 ```
 
-##  Callback preview
+## Callback Preview
 
 Callback previews allow you to specify the name of a JavaScript function in
 your field config for implementing custom preview logic.
@@ -68,7 +68,7 @@ your field config for implementing custom preview logic.
 ),
 ```
 
-Tthen define your callback function in JavaScript:
+Then define your callback function in JavaScript:
 
 ```php
 function myPreviewCallback( args ) {
@@ -79,7 +79,7 @@ function myPreviewCallback( args ) {
 }
 ```
 
-## Text preview
+## Text Preview
 
 A text preview will insert the text of a field into the element specified by
 the selector value. The selector value for all preview types is scoped to your
@@ -97,7 +97,7 @@ modify.
 ),
 ```
 
-## CSS preview
+## CSS Preview
 
 A CSS preview will use the value of a field combined with the property value
 to change the style of the element specified by the selector value. A unit
@@ -141,7 +141,7 @@ field to affect more than one selector and property.
 ),
 ```
 
-## CSS color preview
+## CSS Color Preview
 
 A CSS color preview is similar to the standard CSS preview except that it only
 applies to color picker fields. The value of the color picker field will be
@@ -181,7 +181,7 @@ your own custom preview functionality in the module's _settings.js_ file.
 ),
 ```
 
-## JavaScript events
+## JavaScript Events
 
 There are two JavaScript events available to you when working with live
 previews that may come in handy:

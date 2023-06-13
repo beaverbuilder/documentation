@@ -24,6 +24,11 @@ module.exports = {
       appId: '30TMM3CYV0',
       indexName: 'bbdocs',
     },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
     prism: {
       additionalLanguages: ['php'],
       theme: require('prism-react-renderer/themes/github'),

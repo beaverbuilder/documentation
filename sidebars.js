@@ -138,6 +138,38 @@
     },
     {
       type: 'category',
+      label: 'Account',
+      link: {
+          type: 'doc',
+          id: 'beaver-builder/account/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'License',
+          link: {
+            type: 'doc',
+            id: "beaver-builder/account/license/index",
+          },
+          items: [
+            "beaver-builder/account/license/renew",
+            "beaver-builder/account/license/downgrade",
+            "beaver-builder/account/license/upgrade",
+            "beaver-builder/account/license/paypal-agreement",
+            "beaver-builder/account/license/transfer",
+            "beaver-builder/account/license/suspension",
+          ],
+        },
+        "beaver-builder/account/billing-info",
+        "beaver-builder/account/domain-manager",
+        "beaver-builder/account/update-email-password",
+        "beaver-builder/account/request-invoice",
+        "beaver-builder/account/suggest-new-features",
+        "beaver-builder/account/affiliate-program",
+      ]
+    },
+    {
+      type: 'category',
       label: 'Getting Started',
       items: [
         "beaver-builder/getting-started", // Index
@@ -1298,6 +1330,7 @@
            "assistant/plugin/apps/libraries",
          ],
        },
+       "assistant/plugin/user-profile",
        "assistant/plugin/app-settings",
        "assistant/plugin/limit-access",
      ],

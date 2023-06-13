@@ -129,6 +129,76 @@ from = "https://docs.wpbeaverbuilder.com/general/gdpr"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/gdpr"
 status = 301
 force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/signup-fee"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/affiliate-agreement"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/payment-options"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/cookie-duration"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/beaver-builder-subscription"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/payment-schedule"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/affiliate-links"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/earnings-potential"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/search-engine-keyword-bids"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/use-of-intellectual-property"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/purchase-using-my-affiliate-link"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/purchase-not-using-affiliate-link"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/license-suspension"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/suspension"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/license-suspension"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/suspension"
+status = 301
+force = true
 
 # Beaver Themer redirects
 [[redirects]]
