@@ -38,8 +38,8 @@ Code  |  Example
 ---|---
 `[fl_year]`  |  2018
 `[fl_year format="y"]`  |  18
-`[fl_year format=“F j, Y”]`  |  May 26, 2018<br/>May 6, 2018
-`[fl_year format=“l, F j, Y”]`  |  Saturday, May 26, 2018<br/>Sunday, May 6, 2018
-`[fl_year format=“m-d-Y”]`  |  05-25-2018<br/>05-06-2018
-`[fl_year format=“n-j-y”]`  |  5-25-18<br/>5-6-18
-`[fl_year format=“d.m.y”]`  |  25.05.18<br/>06.05.18
+`[fl_year format="F j, Y"]`  |  May 26, 2018<br/>May 6, 2018
+`[fl_year format="l, F j, Y"]`  |  Saturday, May 26, 2018<br/>Sunday, May 6, 2018
+`[fl_year format="m-d-Y"]`  |  05-25-2018<br/>05-06-2018
+`[fl_year format="n-j-y"]`  |  5-25-18<br/>5-6-18
+`[fl_year format="d.m.y"]`  |  25.05.18<br/>06.05.18
