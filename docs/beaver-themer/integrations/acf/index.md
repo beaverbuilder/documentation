@@ -18,6 +18,14 @@ The Advanced Custom Fields (ACF) plugin provides a way to add more data to your 
 Field connections are available not only in Beaver Themer layouts, but also in Beaver Builder layouts, provided that Beaver Themer is installed.
 :::
 
+## Preqrequisites
+
+Before you begin, ensure that you have the following installed and activated:
+
+* [Beaver Builder Plugin](https://www.wpbeaverbuilder.com/)
+* [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/)
+* Advanced Custom Fields - [Free](https://wordpress.org/plugins/advanced-custom-fields/) or [Premium](https://www.advancedcustomfields.com/pro/)
+
 ## Supported Field Types
 
 Beaver Themer supports the following ACF field types:
