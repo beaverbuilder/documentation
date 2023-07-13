@@ -60,16 +60,12 @@ module.exports = {
           position: 'left',
           docId: 'beaver-builder/introduction/index',
           label: 'Beaver Builder',
-          // to: '/beaver-builder',
-          // label: 'Beaver Builder',
-          // position: 'left',
-          // activeBasePath: 'beaver-builder',
         },
         {
-          to: '/beaver-themer',
-          label: 'Beaver Themer',
+          type: 'doc',
           position: 'left',
-          activeBasePath: 'beaver-themer',
+          docId: 'beaver-themer/introduction/index',
+          label: 'Beaver Themer',
         },
         {
           to: '/bb-theme',
@@ -177,8 +173,8 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleAnalytics: {
-          trackingID: 'UA-15399878-10',
+        gtag: {
+          trackingID: 'G-X18SJZNXS8',
           anonymizeIP: true,
         },
         sitemap: {
