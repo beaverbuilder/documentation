@@ -50,12 +50,6 @@ module.exports = {
       },
       items: [
         {
-          to: '/general',
-          label: 'General',
-          position: 'left',
-          activeBasePath: 'general',
-        },
-        {
           type: 'doc',
           position: 'left',
           docId: 'beaver-builder/introduction/index',
