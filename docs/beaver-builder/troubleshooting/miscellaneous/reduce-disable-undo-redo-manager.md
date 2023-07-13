@@ -14,6 +14,12 @@ In some environments, the History Manager can cause the editor to act sluggish a
 
 In these cases, it can be helpful to reduce the number of states stored in the History Manager or disable it entirely, using one of the following methods.
 
+:::tip
+You can change the number of states the History Manager remembers by enabling the **Limit the amount of undo/redo history in Builder UI** setting and entering a new number in the **History Limit** field.
+
+See the [Advanced Settings](beaver-builder/management-migration/advanced-settings.md#limit-the-amount-of-undoredo-history-in-builder-ui) article for more information.
+:::
+
 ## Disable the History Manager while editing a single page
 
 You can add a parameter to the URL of the page you're editing to erase the current history and block the History Manager from saving undo states until the parameter is removed.
@@ -38,7 +44,7 @@ define( 'FL_BUILDER_HISTORY_STATES', 20 );
 ```  
 Change the number of states from `20` (the default number of states) to a smaller number, or change the number to `0` to disable the History Manager entirely.
 
-:::tip **Tip**
+:::tip
 Try reducing the number of stored History Manager states to 10 and check performance, then tweak up or down.
 :::
 

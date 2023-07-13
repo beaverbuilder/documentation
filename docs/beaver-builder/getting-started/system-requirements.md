@@ -12,6 +12,15 @@ Beaver Builder is compatible with WordPress 4.6 and above.
 
 We recommend a [WP Memory limit](https://wordpress.org/support/article/editing-wp-config-php/#increasing-memory-allocated-to-php) of 128 MB or greater (256 MB or higher is preferred).
 
+## Server
+
+To ensure smooth functionality of the Beaver Builder user-interface (UI), it is important to configure the server with the following settings, as failure to do so may lead to issues:
+
+* Set `X-Frame-Options` to `SAMEORIGIN`.
+* Configure Content-Security-Policy (CSP) with the directive [`frame-ancestors`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) to `self`.
+
+Contact your web host provider for assistance with configuring these settings.
+
 ## PHP
 
 We follow WordPress minimum requirements for PHP version. See the [wordpress.org requirements page](https://wordpress.org/support/article/requirements/) for current recommendations.

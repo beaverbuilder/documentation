@@ -10,7 +10,7 @@ This article describes the features for the upcoming release of the Beaver Build
 :::info
 **Developer Preview Currently Unavailable!**
 
-Documentation will be added as soon as a developer preview for Beaver Builder is released.
+Information will be added as soon as a developer preview for Beaver Builder is released.
 :::
 
 <!-- :::info Provide Feedback

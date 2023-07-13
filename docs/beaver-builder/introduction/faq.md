@@ -11,11 +11,14 @@ Frequently asked questions for the Beaver Builder page builder plugin.
 
 Whether you have a tiny website or a big agency, we've got you covered with a lite or premium version of the Beaver Builder plugin.
 
+:::info
+See our [Pricing page](https://www.wpbeaverbuilder.com/pricing/) for a comparison of the features available in each version.
+:::
+
 <div className="embed-responsive">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/xw9F_qJY4FA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 
-See our [Pricing page](https://www.wpbeaverbuilder.com/pricing/) for a comparison of the features available in each version.
 
 ## What Modules are included in the Lite version?
 
@@ -89,7 +92,7 @@ See our [Template Author](templates/template-authors) article for more informati
 
 ## What's your refund policy?
 
-Although we hope you’ll never want a refund, we'll be happy to provide one if it’s requested within 30 days of purchase, upgrade, or renewal of any product. Just submit a Support ticket and let us know what you want to change.
+Although we hope you'll never want a refund, we'll be happy to provide one if it's requested within 30 days of purchase, upgrade, or renewal of any product. No refunds will be given after 30 days from the initial purchase or for repeat purchases. Just submit a Support ticket and let us know what you want to change. 
 
 For complete refund policy, [please visit this link](https://www.wpbeaverbuilder.com/terms-and-conditions/).
 
@@ -123,9 +126,9 @@ We accept payment via PayPal and Stripe (Visa, MasterCard, JCB, Discover, Diner�
 
 ## What happens if I don't renew my license?
 
-Once your Beaver Builder license expires, you will no longer be able to download Beaver Builder products or receive support from Beaver Builder team.
+Upon the expiration of your Beaver Builder license, you will lose the ability to download Beaver Builder products, receive updates, and access support.
 
-Additionally, we cannot guarantee that older versions of Beaver Builder will continue to work, particularly if you update other components of your website, such as WordPress, PHP, or third-party extensions.
+Furthermore, we cannot assure the continued functionality of older versions of Beaver Builder, especially if you update other elements of your website, such as WordPress, PHP, or third-party extensions.
 
 See the [Renew License](account/license/renew.md#what-happens-if-i-dont-renew) article for more information.
 

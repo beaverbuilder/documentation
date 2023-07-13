@@ -17,6 +17,7 @@ Welcome to the Beaver Builder documentation. Whether you are new to Beaver Build
 Beaver Builder is a page builder plugin for WordPress that allows you to create custom page layouts using a drag-and-drop interface. With Beaver Builder, you can easily create professional-looking pages without the need for any coding knowledge. The plugin includes a variety of pre-designed templates and modules that you can use to add different types of content to your pages, such as images, videos, buttons, and more.
 
 You can also customize the appearance of your pages using the plugin's built-in design options, including the ability to change colors, fonts, and other design elements. Beaver Builder is a popular choice for creating landing pages, sales pages, and other types of promotional pages on WordPress websites.
+
 ## Community
 
 * Read and subscribe to the [official Beaver Builder Blog](https://www.wpbeaverbuilder.com/blog/).
@@ -32,7 +33,7 @@ In order to maintain a positive and respectful environment within the Beaver Bui
 
 ## What's New
 
-The [About this Release](about-this-release.md) article offers an overview and insight into the recent enhancements introduced in the current stable version of Beaver Builder.
+The [About this Release](about-release.md) article offers an overview and insight into the recent enhancements introduced in the current stable version of Beaver Builder.
 
 ## Changelog
 
