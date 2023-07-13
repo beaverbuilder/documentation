@@ -231,6 +231,31 @@ from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connect
 to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/relationship"
 status = 301
 force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/beaver-themer-and-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/getting-started"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-an-archive-themer-layout-for-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/archive-layout"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-a-singular-themer-layout-for-the-events-calendar-plugin"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/singular-layout"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-calendar-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/modules/event-calendar"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-posts-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/modules/event-posts"
+status = 301
+force = true
 
 # Custom Module Redirects
 [[redirects]]
@@ -329,7 +354,6 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/l
 status = 301
 force = true
 
-
 # Redirect Contact Form module doc link
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/how-to-tips/use-smtp-to-send-form-notifications"
@@ -341,20 +365,6 @@ force = true
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/common-beaver-builder-filter-examples"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/common-beaver-builder-plugin-filter-examples"
-status = 301
-force = true
-
-# Redirect from deleted text editor tips article to Text Editor article
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/change-fonts-and-colors-in-the-text-editor-module"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
-status = 301
-force = true
-
-# Redirect from deleted text editor category to standalone Text Editor article
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text-editor/text"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/text"
 status = 301
 force = true
 
