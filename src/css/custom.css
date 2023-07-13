@@ -98,6 +98,11 @@ html[data-theme='dark'] .DocSearch {
 /* Forces list items into two columns
  * beaver-themer/acf/index.md
  */
+
+.docs-doc-id-beaver-themer\/integrations\/acf\/index .ul-col-2 .markdown ul:first-of-type {
+  column-count: 1;
+}
+
 .ul-col-2 .markdown ul {
   column-count: 2;
 }
