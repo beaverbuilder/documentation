@@ -5,143 +5,32 @@
  * LICENSE file in the root directory of this source tree.
  */
 
- module.exports = {
-   general: [
-    {
-      type: 'doc',
-      id: 'general', // Index
-    },
-    {
-      type: 'category',
-      label: 'Pre Sales',
-      items: [
-        "general/pre-sales", // Index
-        "general/pre-sales/difference-between-free-and-premium-versions",
-        "general/pre-sales/can-i-use-beaver-builder-with-any-theme",
-        "general/pre-sales/does-beaver-builder-work-with-other-cmss",
-        "general/pre-sales/is-our-pricing-monthly-annually-or-one-time",
-        "general/pre-sales/which-beaver-builder-packages-include-beaver-themer",
-        "general/pre-sales/what-payment-methods-do-you-accept",
-        "general/pre-sales/can-i-upgrade-a-license-after-i-have-already-purchased-one",
-        "general/pre-sales/what-happens-if-i-dont-renew-my-license-will-beaver-builder-still-work",
-        "general/pre-sales/can-i-use-beaver-builder-to-create-websites-for-clients",
-        "general/pre-sales/do-you-provide-hosting",
-        "general/pre-sales/do-you-provide-a-design-service",
-        "general/pre-sales/can-i-include-beaver-builder-with-my-theme",
-        "general/pre-sales/do-you-offer-a-trial-version",
-        "general/pre-sales/can-i-edit-my-blog-page-with-beaver-builder",
-        "general/pre-sales/upgrade-from-free-to-premium-version-of-beaver-buidler",
-        "general/pre-sales/what-is-the-difference-between-unlimited-sites",
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Account & Billing',
-      items: [
-        "general/account-billing", // Index
-        "general/account-billing/my-account-page-overview",
-        "general/account-billing/view-your-license",
-        "general/account-billing/change-email-address-or-password-for-your-beaver-builder-account",
-        "general/account-billing/manage-your-credit-card-information",
-        "general/account-billing/manage-plugin-activations-centrally",
-        "general/account-billing/restore-a-removed-domain-in-domain-manager",
-        "general/account-billing/my-beaver-builder-license-was-deactivated",
-        "general/account-billing/renew-your-beaver-builder-subscription",
-        "general/account-billing/upgrade-your-premium-license",
-        "general/account-billing/subscription-cancel",
-        "general/account-billing/cancel-your-automatic-renewal",
-        "general/account-billing/downgrade-to-a-lower-version-of-beaver-builder",
-        "general/account-billing/request-an-invoice",
-        "general/account-billing/suggest-new-features",
-      ]
-    },
-    {
-      type: 'category',
-      label: 'FAQ',
-      items: [
-        "general/faq", // Index
-        "general/faq/can-i-modify-my-themes-header-and-footer-with-beaver-builder",
-        "general/faq/whats-the-difference-between-beaver-builder-theme-and-beaver-themer",
-        "general/faq/is-beaver-builder-compatible-with-gutenberg",
-        "general/faq/do-i-lose-my-work-if-i-dont-renew-my-subscription",
-        "general/faq/is-beaver-builder-a-plugin-or-a-theme",
-        "general/faq/is-there-an-easy-way-to-convert-my-website-to-beaver-builder",
-        "general/faq/do-i-need-to-use-the-beaver-builder-theme-with-beaver-builder-plugin",
-        "general/faq/can-i-create-my-own-modules-for-beaver-builder",
-        "general/faq/does-beaver-builder-work-with-posts-and-custom-post-types",
-        "general/faq/how-does-beaver-builders-white-labeling-feature-work",
-        "general/faq/can-i-include-beaver-builder-as-part-of-a-premium-or-free-wordpress-theme",
-        "general/faq/what-modules-are-included-in-beaver-builder",
-        "general/faq/how-many-sites-can-i-use-beaver-builder-on",
-        "general/faq/difference-between-multisite-support-and-network-wide-settings",
-        "general/faq/does-beaver-builder-work-with-e-commerce-plugins",
-        "general/faq/is-beaver-builder-compatible-with-x-theme-or-y-plugin",
-        "general/faq/does-beaver-builder-support-shortcodes",
-        "general/faq/whats-your-refund-policy",
-        "general/faq/transfer-license",
-        "general/faq/can-i-include-beaver-builder-as-part-of-my-hosted-website-builder-platform",
-        "general/faq/can-you-build-my-website-for-me",
-        "general/faq/does-beaver-builder-support-third-party-widgets",
-        "general/faq/is-there-a-marketplace-for-selling-our-custom-modules-or-extensions",
-        "general/faq/can-i-try-beaver-builder-before-i-buy-it",
-        "general/faq/i-tried-the-demo-but-what-other-settings-are-there",
-        "general/faq/can-i-upgrade-my-subscription-after-signing-up",
-        "general/faq/how-do-i-find-out-whats-changed-in-each-release",
-      ]
-    },
-    "general/glossary",
-    {
-      type: 'category',
-      label: 'Affiliate Program',
-      items: [
-        "general/affiliate-program", // Index
-        "general/affiliate-program/signup-fee",
-        "general/affiliate-program/affiliate-agreement",
-        "general/affiliate-program/payment-options",
-        "general/affiliate-program/cookie-duration",
-        "general/affiliate-program/beaver-builder-subscription",
-        "general/affiliate-program/payment-schedule",
-        "general/affiliate-program/affiliate-links",
-        "general/affiliate-program/earnings-potential",
-        "general/affiliate-program/search-engine-keyword-bids",
-        "general/affiliate-program/use-of-intellectual-property",
-        "general/affiliate-program/purchase-using-my-affiliate-link",
-        "general/affiliate-program/purchase-not-using-affiliate-link",
-      ]
-    },
-    "general/license-suspension",
-    "general/software-releases-and-versioning",
-    "general/alpha-and-beta-releases",
-    "general/accessibility",
-    "general/support-policy",
-    "general/translations",
-    "general/gdpr",
-  ],
+module.exports = {
   beaverbuilder: [
     {
       type: 'category',
       label: 'Introduction',
       link: {
-          type: 'doc',
-          id: 'beaver-builder/introduction/index',
+        type: 'doc',
+        id: 'beaver-builder/introduction/index',
       },
       items: [
-          "beaver-builder/introduction/faq",
-          "beaver-builder/introduction/dev-preview",
-          "beaver-builder/introduction/about-release",
-          "beaver-builder/introduction/releases-versioning",
-          "beaver-builder/introduction/accessibility",
-          "beaver-builder/introduction/translations",
-          "beaver-builder/introduction/gdpr",
-          "beaver-builder/introduction/support-policy",
+        "beaver-builder/introduction/faq",
+        "beaver-builder/introduction/dev-preview",
+        "beaver-builder/introduction/about-release",
+        "beaver-builder/introduction/releases-versioning",
+        "beaver-builder/introduction/accessibility",
+        "beaver-builder/introduction/translations",
+        "beaver-builder/introduction/gdpr",
+        "beaver-builder/introduction/support-policy",
       ],
     },
     {
       type: 'category',
       label: 'Account',
       link: {
-          type: 'doc',
-          id: 'beaver-builder/account/index',
+        type: 'doc',
+        id: 'beaver-builder/account/index',
       },
       items: [
         {
@@ -175,7 +64,7 @@
         "beaver-builder/getting-started", // Index
         "beaver-builder/getting-started/what-can-i-do-with-beaver-builder",
         "beaver-builder/getting-started/system-requirements",
-        "beaver-builder/getting-started/install-beaver-builder",
+        "beaver-builder/getting-started/install",
         {
           type: 'category',
           label: 'BB Editor Basics',
@@ -205,21 +94,21 @@
       items: [
         "beaver-builder/layouts", // Index
         {
-         type: 'category',
-         label: 'The Advanced Tab',
-         link: {
+          type: 'category',
+          label: 'The Advanced Tab',
+          link: {
             type: "doc",
             id: "beaver-builder/layouts/advanced-tab/index",
-         },
-         items: [
+          },
+          items: [
             "beaver-builder/layouts/advanced-tab/spacing",
             "beaver-builder/layouts/advanced-tab/visibility",
             "beaver-builder/layouts/advanced-tab/animation",
             "beaver-builder/layouts/advanced-tab/html-element",
             "beaver-builder/layouts/advanced-tab/copy-paste",
             "beaver-builder/layouts/advanced-tab/css-js",
-         ],
-       },
+          ],
+        },
         {
           type: 'category',
           label: 'Templates',
@@ -281,12 +170,12 @@
           ]
         },
         {
-        type: 'category',
-        label: 'Modules',
-        link: {
-          type: 'doc',
-          id: 'beaver-builder/layouts/modules/index',
-        },
+          type: 'category',
+          label: 'Modules',
+          link: {
+            type: 'doc',
+            id: 'beaver-builder/layouts/modules/index',
+          },
           items: [
             {
               type: 'category',
@@ -307,7 +196,7 @@
                     'beaver-builder/layouts/modules/accordion/settings/items',
                     'beaver-builder/layouts/modules/accordion/settings/style',
                   ],
-                },        
+                },
                 'beaver-builder/layouts/modules/accordion/link-specific-item',
                 'beaver-builder/layouts/modules/accordion/css-customization',
               ]
@@ -441,8 +330,8 @@
           type: 'category',
           label: 'Responsive Design',
           link: {
-             type: "doc",
-             id: "beaver-builder/layouts/responsive-design/index",
+            type: "doc",
+            id: "beaver-builder/layouts/responsive-design/index",
           },
           items: [
             "beaver-builder/layouts/responsive-design/editor",
@@ -688,7 +577,7 @@
             "beaver-builder/developer/custom-modules/17-partial-refresh-reference",
             "beaver-builder/developer/custom-modules/18-override-modules",
             "beaver-builder/developer/custom-modules/19-localization",
-         ],
+          ],
         },
         "beaver-builder/developer/iframe-ui",
         "beaver-builder/developer/acf-blocks",
@@ -741,467 +630,514 @@
     },
   ],
   beaverthemer: [
-   {
-     type: 'doc',
-     id: 'beaver-themer', // Index
-   },
-   {
-     type: 'doc',
-     id: 'beaver-themer/about-this-release',
-   },
-   {
-     type: 'category',
-     label: 'Getting Started',
-     items: [
-       "beaver-themer/getting-started", // Index
-       "beaver-themer/getting-started/what-can-i-do-with-beaver-themer",
-       "beaver-themer/getting-started/beaver-themer-requirements-for-installation",
-       "beaver-themer/getting-started/install-beaver-themer",
-       "beaver-themer/getting-started/i-installed-beaver-themer-now-what",
-       "beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Layout Types & Modules',
-     items: [
-       "beaver-themer/layout-types-modules", // Index
-       {
-         type: 'category',
-         label: 'Header layout type',
-         items: [
-           "beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type",
-           "beaver-themer/layout-types-modules/header-layout-type/tutorial-create-a-header-layout-themer",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Footer layout type',
-         items: [
-           "beaver-themer/layout-types-modules/footer-layout-type/themer-footer-layout-type",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Archive layout type',
-         items: [
-           "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-type",
-           "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-title-module",
-           "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-description-module",
-           "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-post-columns-gallery-list-masonry-modules",
-           "beaver-themer/layout-types-modules/archive-layout-type/example-themer-archive-layout-for-custom-post-type-categories",
-           "beaver-themer/layout-types-modules/archive-layout-type/tutorial-create-an-author-archive-themer-layout",
-           "beaver-themer/layout-types-modules/archive-layout-type/create-a-card-layout-for-posts-themer",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Singular layout type',
-         items: [
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-attached-images-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-author-bio-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-comments-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-featured-image-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-content-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-info-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-navigation-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-title-module",
-           "beaver-themer/layout-types-modules/singular-layout-type/use-the-posts-module-to-create-related-posts",
-           "beaver-themer/layout-types-modules/singular-layout-type/add-a-singular-themer-layout-to-the-wordpress-page-template-field",
-         ]
-       },
-       {
-         type: 'category',
-         label: '404 layout type',
-         items: [
-           "beaver-themer/layout-types-modules/404-layout-type/themer-404-layout-type",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Part layout type',
-         items: [
-           "beaver-themer/layout-types-modules/part-layout-type/themer-part-layout-type",
-           "beaver-themer/layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer",
-         ]
-       },
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Integrations',
-     items:  [
-       "beaver-themer/integrations",
-      {
-        type: 'category',
-        label: 'Advanced Custom Fields',
-        link: {
-          type: 'doc',
-          id: 'beaver-themer/integrations/acf/index',
-        },
-        items:  [
-          "beaver-themer/integrations/acf/getting-started",
-          "beaver-themer/integrations/acf/options-page",
-          {
+    {
+      type: 'category',
+      label: 'Introduction',
+      link: {
+        type: 'doc',
+        id: 'beaver-themer/introduction/index',
+      },
+      items: [
+        "beaver-themer/introduction/faq",
+        "beaver-themer/introduction/dev-preview",
+        "beaver-themer/introduction/about-release",
+      ],
+    },
+    {
+      type: 'doc',
+      id: 'beaver-themer/about-this-release',
+    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        "beaver-themer/getting-started", // Index
+        "beaver-themer/getting-started/what-can-i-do-with-beaver-themer",
+        "beaver-themer/getting-started/beaver-themer-requirements-for-installation",
+        "beaver-themer/getting-started/install-beaver-themer",
+        "beaver-themer/getting-started/i-installed-beaver-themer-now-what",
+        "beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Layout Types & Modules',
+      items: [
+        "beaver-themer/layout-types-modules", // Index
+        {
           type: 'category',
-            label: 'Field Types',
-            link: {
-              type: 'doc',
-              id: 'beaver-themer/integrations/acf/field-types/index',
-            },
-            items:  [
-              "beaver-themer/integrations/acf/field-types/button-group",
-              "beaver-themer/integrations/acf/field-types/checkbox",
-              "beaver-themer/integrations/acf/field-types/date-picker",
-              "beaver-themer/integrations/acf/field-types/date-time-picker",
-              "beaver-themer/integrations/acf/field-types/email",
-              "beaver-themer/integrations/acf/field-types/file",
-              "beaver-themer/integrations/acf/field-types/flexible-content",
-              "beaver-themer/integrations/acf/field-types/gallery",
-              "beaver-themer/integrations/acf/field-types/google-map",
-              "beaver-themer/integrations/acf/field-types/group",
-              "beaver-themer/integrations/acf/field-types/image",
-              "beaver-themer/integrations/acf/field-types/number",
-              "beaver-themer/integrations/acf/field-types/oembed",
-              "beaver-themer/integrations/acf/field-types/page-link",
-              "beaver-themer/integrations/acf/field-types/password",
-              "beaver-themer/integrations/acf/field-types/post-object",
-              "beaver-themer/integrations/acf/field-types/radio-button",
-              "beaver-themer/integrations/acf/field-types/relationship",
-              "beaver-themer/integrations/acf/field-types/repeater",
-              "beaver-themer/integrations/acf/field-types/select",
-              "beaver-themer/integrations/acf/field-types/smart-slider",
-              "beaver-themer/integrations/acf/field-types/taxonomy",
-              "beaver-themer/integrations/acf/field-types/text-area",
-              "beaver-themer/integrations/acf/field-types/text",
-              "beaver-themer/integrations/acf/field-types/time-picker",
-              "beaver-themer/integrations/acf/field-types/true-false",
-              "beaver-themer/integrations/acf/field-types/url",
-              "beaver-themer/integrations/acf/field-types/user",
-              "beaver-themer/integrations/acf/field-types/wysiwyg",
-            ],
-          },
-        ],
+          label: 'Header layout type',
+          items: [
+            "beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type",
+            "beaver-themer/layout-types-modules/header-layout-type/tutorial-create-a-header-layout-themer",
+          ]
         },
-       {
-         type: 'category',
-         label: 'WooCommerce',
-         items: [
-           "beaver-themer/integrations/woocommerce", // Index
-           "beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce",
-           "beaver-themer/integrations/woocommerce/create-a-singular-themer-layout-for-woocommerce",
-           "beaver-themer/integrations/woocommerce/breadcrumb-module-for-woocommerce-singular-and-archive-themer-layouts",
-           "beaver-themer/integrations/woocommerce/products-module-for-woocommerce-archive-themer-layouts",
-           "beaver-themer/integrations/woocommerce/add-to-cart-button-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-description-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-images-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-meta-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-price-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-rating-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-tabs-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-title-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/product-upsells-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/related-products-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts",
-           "beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'BigCommerce',
-         items: [
-           "beaver-themer/integrations/bigcommerce", // Index
-           "beaver-themer/integrations/bigcommerce/beaver-themer-layouts-for-bigcommerce",
-           "beaver-themer/integrations/bigcommerce/create-an-archive-themer-layout-for-bigcommerce",
-           "beaver-themer/integrations/bigcommerce/create-a-themer-layout-to-display-a-single-bigcommerce-product",
-           "beaver-themer/integrations/bigcommerce/products-posts-module-for-bigcommerce",
-         ]
-       },
-         {
-         type: 'category',
-         label: 'Easy  Digital Downloads',
-         items: [
-           "beaver-themer/integrations/easy-digital-downloads", // Index
-           "beaver-themer/integrations/easy-digital-downloads/beaver-themer-and-the-edd-plugin",
-           "beaver-themer/integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets",
-           "beaver-themer/integrations/easy-digital-downloads/create-a-singular-themer-layout-for-edd-download-items-themer",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'The Events Calendar',
-         items: [
-           "beaver-themer/integrations/the-events-calendar", // Index
-           "beaver-themer/integrations/the-events-calendar/beaver-themer-and-the-events-calendar-plugin",
-           "beaver-themer/integrations/the-events-calendar/create-an-archive-themer-layout-for-the-events-calendar-plugin",
-           "beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-calendar-module",
-           "beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-posts-module",
-           "beaver-themer/integrations/the-events-calendar/create-a-singular-themer-layout-for-the-events-calendar-plugin",
-         ]
-       },
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Field Connections',
-     items: [
-       "beaver-themer/field-connections", // Index
-       "beaver-themer/field-connections/field-connection-basics-themer",
-       "beaver-themer/field-connections/field-connection-shortcodes-overview-themer",
-       "beaver-themer/field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer",
-       "beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer",
-       "beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer",
-       "beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer",
-       "beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer",
-       "beaver-themer/field-connections/field-connection-shortcode-index-themer",
-       "beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer",
-       {
-         type: 'category',
-         label: 'Field Connections to WP custom fields',
-         items: [
-           "beaver-themer/field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout",
-           "beaver-themer/field-connections/connections-to-wp-custom-fields/test-for-values-in-wordpress-custom-field-shortcode",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Field Connections to Pods custom fields',
-         items: [
-           "beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content",
-         ]
-       },
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Locations',
-     items: [
-       "beaver-themer/locations", // Index
-       "beaver-themer/locations/themer-locations-reference",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Conditional Logic',
-     items: [
-       "beaver-themer/conditional-logic", // Index
-       "beaver-themer/conditional-logic/beaver-themer-conditional-logic",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Management/Compatibility',
-     items: [
-       "beaver-themer/management-compatibility", // Index
-       "beaver-themer/management-compatibility/beaver-themer-supported-themes",
-       "beaver-themer/management-compatibility/full-width-layouts-on-third-party-themes-themer",
-       "beaver-themer/management-compatibility/export-beaver-themer-layouts",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Troubleshooting',
-     items: [
-       "beaver-themer/troubleshooting", // Index
-       "beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu",
-       "beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported",
-       "beaver-themer/troubleshooting/message-this-post-has-a-themer-layout-assigned",
-       "beaver-themer/troubleshooting/troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Developer',
-     items: [
-       "beaver-themer/developer", // Index
-       "beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer",
-       "beaver-themer/developer/conditional-logic-apis",
-       "beaver-themer/developer/customize-field-connections-themer",
-       "beaver-themer/developer/add-custom-attributes-to-themer-layouts",
-       "beaver-themer/developer/customize-themer-modules",
-       "beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer",
-       "beaver-themer/developer/hooks-reference-themer",
-       "beaver-themer/developer/wp-cli-for-beaver-themer",
-     ]
-   },
- ],
- bbtheme: [
-   {
-     type: 'doc',
-     id: 'bb-theme',
-   },
-   {
-     type: 'category',
-     label: 'Getting Started',
-     items: [
-       "bb-theme/getting-started", // Index
-       "bb-theme/getting-started/install-the-bb-theme-and-child-theme",
-       "bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme",
-       "bb-theme/getting-started/manually-reinstall-bb-theme-child-theme",
-       "bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts",
-       "bb-theme/getting-started/open-the-wordpress-customizer",
-       "bb-theme/getting-started/responsive-previews",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Site Settings',
-     items: [
-       "bb-theme/site-settings", // Index
-       "bb-theme/site-settings/create-a-site-title-and-tagline",
-       "bb-theme/site-settings/header-logo",
-       "bb-theme/site-settings/add-a-site-icon-favicon",
-       "bb-theme/site-settings/set-whether-the-home-page-is-a-page-or-post",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Defaults for Layouts & Content',
-     items: [
-       "bb-theme/defaults-for-layouts-content", // Index
-       {
-         type: 'category',
-         label: 'One-click Presets',
-         items: [
-           "bb-theme/defaults-for-layouts-content/presets/preset-tips",
-           "bb-theme/defaults-for-layouts-content/presets/convert-the-premier-or-deluxe-preset-to-entirely-full-width",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Full-Width & Boxed Layouts',
-         items: [
-           "bb-theme/defaults-for-layouts-content/full-width-boxed/overview-of-full-width-and-boxed-pages-and-rows",
-           "bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-or-boxed-layout",
-           "bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-header-with-boxed-content",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Headers/Navigation/Menus',
-         items: [
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/set-header-layout-and-style",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/fixed-header-types",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/align-the-top-bar-columns-with-content-margins",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/change-size-of-fade-in-fixed-header-logo-text",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/merge-page-content-into-the-header",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-the-site-tagline-to-the-header",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/change-header-logo-size-in-nav-bottom-layout",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/remove-the-header-and-footer",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/hide-the-header-nav-menu",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/create-menus-and-set-menu-locations",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/set-up-a-mega-menu",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-buttons-to-your-navigation-menu",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-css-classes-to-individual-menu-items",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-shortcodes-or-html-to-your-nav-menu",
-           "bb-theme/defaults-for-layouts-content/headers-nav-menus/center-the-nav-menu-with-nav-bottom-layout",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Footers',
-         items: [
-           "bb-theme/defaults-for-layouts-content/footers/set-footer-layout-and-style-options",
-           "bb-theme/defaults-for-layouts-content/footers/customize-the-default-theme-footer",
-           "bb-theme/defaults-for-layouts-content/footers/force-footer-to-bottom-on-short-pages",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Blog Layouts',
-         items: [
-           "bb-theme/defaults-for-layouts-content/blog-settings/configure-how-wordpress-handles-your-blog",
-           "bb-theme/defaults-for-layouts-content/blog-settings/remove-website-field-url-from-post-comments",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Sidebars',
-         items: [
-           "bb-theme/defaults-for-layouts-content/sidebars/use-the-beaver-builder-themes-sidebar-in-posts-and-pages",
-           "bb-theme/defaults-for-layouts-content/sidebars/position-left-sidebar-below-content-in-mobile",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Widgets',
-         items: [
-           "bb-theme/defaults-for-layouts-content/widgets/configure-the-widgets-in-the-primary-sidebar",
-           "bb-theme/defaults-for-layouts-content/widgets/set-options-for-footer-widgets",
-           "bb-theme/defaults-for-layouts-content/widgets/change-the-width-of-footer-widgets",
-           "bb-theme/defaults-for-layouts-content/widgets/add-a-widget-area-after-the-beaver-builder-theme-top-bar",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Icons',
-         items: [
-           "bb-theme/defaults-for-layouts-content/icons/where-can-i-add-social-icons",
-           "bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme",
-           "bb-theme/defaults-for-layouts-content/icons/adjust-the-size-of-the-social-icons",
-         ]
-       },
-       "bb-theme/defaults-for-layouts-content/shortcode-for-current-date",
-       "bb-theme/defaults-for-layouts-content/set-woocommerce-layout",
-       "bb-theme/defaults-for-layouts-content/add-yoast-breadcrumbs-to-the-beaver-builder-theme",
-       "bb-theme/defaults-for-layouts-content/integrate-sensei-with-the-beaver-builder-theme",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Defaults for Styles',
-     items: [
-       "bb-theme/defaults-for-styles", // Index
-       {
-         type: 'category',
-         label: 'Colors',
-         items: [
-           "bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-the-browser-window",
-           "bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-content-area",
-           "bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from",
-           "bb-theme/defaults-for-styles/colors/change-menu-link-and-icon-colors-on-small-devices",
-           "bb-theme/defaults-for-styles/colors/change-menu-background-color-on-small-devices",
-           "bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Links & Buttons',
-         items: [
-           "bb-theme/defaults-for-styles/links/change-the-default-color-for-buttons-and-links",
-           "bb-theme/defaults-for-styles/links/set-global-default-button-styles",
-           "bb-theme/defaults-for-styles/links/add-underlines-to-link-text-beaver-builder-theme",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Typography',
-         items: [
-           "bb-theme/defaults-for-styles/typography/set-sitewide-style-options-for-headings-and-text",
-           "bb-theme/defaults-for-styles/typography/set-responsive-default-text-styles-for-beaver-builder-layouts",
-           "bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui",
-           "bb-theme/defaults-for-styles/typography/use-a-google-font-in-headings-and-text",
-           "bb-theme/defaults-for-styles/typography/add-web-fonts-to-your-theme-and-the-beaver-builder-plugin",
-           "bb-theme/defaults-for-styles/typography/add-web-fonts-complex-example",
-           "bb-theme/defaults-for-styles/typography/load-and-use-adobe-fonts",
-           "bb-theme/defaults-for-styles/typography/load-and-use-google-fonts-not-available-in-beaver-builder",
-         ]
-       },
-       {
-         type: 'category',
-         label: 'Images',
-         items: [
-           "bb-theme/defaults-for-styles/images/enable-or-disable-whether-images-appear-in-a-lightbox",
-         ]
-       },
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Customizer Settings',
-     items: [
+        {
+          type: 'category',
+          label: 'Footer layout type',
+          items: [
+            "beaver-themer/layout-types-modules/footer-layout-type/themer-footer-layout-type",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Archive layout type',
+          items: [
+            "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-type",
+            "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-title-module",
+            "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-archive-description-module",
+            "beaver-themer/layout-types-modules/archive-layout-type/themer-archive-layout-post-columns-gallery-list-masonry-modules",
+            "beaver-themer/layout-types-modules/archive-layout-type/example-themer-archive-layout-for-custom-post-type-categories",
+            "beaver-themer/layout-types-modules/archive-layout-type/tutorial-create-an-author-archive-themer-layout",
+            "beaver-themer/layout-types-modules/archive-layout-type/create-a-card-layout-for-posts-themer",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Singular layout type',
+          items: [
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-attached-images-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-author-bio-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-comments-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-featured-image-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-content-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-info-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-navigation-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-title-module",
+            "beaver-themer/layout-types-modules/singular-layout-type/use-the-posts-module-to-create-related-posts",
+            "beaver-themer/layout-types-modules/singular-layout-type/add-a-singular-themer-layout-to-the-wordpress-page-template-field",
+          ]
+        },
+        {
+          type: 'category',
+          label: '404 layout type',
+          items: [
+            "beaver-themer/layout-types-modules/404-layout-type/themer-404-layout-type",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Part layout type',
+          items: [
+            "beaver-themer/layout-types-modules/part-layout-type/themer-part-layout-type",
+            "beaver-themer/layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer",
+          ]
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Integrations',
+      items: [
+        "beaver-themer/integrations",
+        {
+          type: 'category',
+          label: 'Advanced Custom Fields',
+          link: {
+            type: 'doc',
+            id: 'beaver-themer/integrations/acf/index',
+          },
+          items: [
+            "beaver-themer/integrations/acf/getting-started",
+            "beaver-themer/integrations/acf/options-page",
+            {
+              type: 'category',
+              label: 'Field Types',
+              link: {
+                type: 'doc',
+                id: 'beaver-themer/integrations/acf/field-types/index',
+              },
+              items: [
+                "beaver-themer/integrations/acf/field-types/button-group",
+                "beaver-themer/integrations/acf/field-types/checkbox",
+                "beaver-themer/integrations/acf/field-types/date-picker",
+                "beaver-themer/integrations/acf/field-types/date-time-picker",
+                "beaver-themer/integrations/acf/field-types/email",
+                "beaver-themer/integrations/acf/field-types/file",
+                "beaver-themer/integrations/acf/field-types/flexible-content",
+                "beaver-themer/integrations/acf/field-types/gallery",
+                "beaver-themer/integrations/acf/field-types/google-map",
+                "beaver-themer/integrations/acf/field-types/group",
+                "beaver-themer/integrations/acf/field-types/image",
+                "beaver-themer/integrations/acf/field-types/number",
+                "beaver-themer/integrations/acf/field-types/oembed",
+                "beaver-themer/integrations/acf/field-types/page-link",
+                "beaver-themer/integrations/acf/field-types/password",
+                "beaver-themer/integrations/acf/field-types/post-object",
+                "beaver-themer/integrations/acf/field-types/radio-button",
+                "beaver-themer/integrations/acf/field-types/relationship",
+                "beaver-themer/integrations/acf/field-types/repeater",
+                "beaver-themer/integrations/acf/field-types/select",
+                "beaver-themer/integrations/acf/field-types/smart-slider",
+                "beaver-themer/integrations/acf/field-types/taxonomy",
+                "beaver-themer/integrations/acf/field-types/text-area",
+                "beaver-themer/integrations/acf/field-types/text",
+                "beaver-themer/integrations/acf/field-types/time-picker",
+                "beaver-themer/integrations/acf/field-types/true-false",
+                "beaver-themer/integrations/acf/field-types/url",
+                "beaver-themer/integrations/acf/field-types/user",
+                "beaver-themer/integrations/acf/field-types/wysiwyg",
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'WooCommerce',
+          items: [
+            "beaver-themer/integrations/woocommerce", // Index
+            "beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce",
+            "beaver-themer/integrations/woocommerce/create-a-singular-themer-layout-for-woocommerce",
+            "beaver-themer/integrations/woocommerce/breadcrumb-module-for-woocommerce-singular-and-archive-themer-layouts",
+            "beaver-themer/integrations/woocommerce/products-module-for-woocommerce-archive-themer-layouts",
+            "beaver-themer/integrations/woocommerce/add-to-cart-button-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-description-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-images-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-meta-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-price-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-rating-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-tabs-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-title-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/product-upsells-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/related-products-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts",
+            "beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'BigCommerce',
+          items: [
+            "beaver-themer/integrations/bigcommerce", // Index
+            "beaver-themer/integrations/bigcommerce/beaver-themer-layouts-for-bigcommerce",
+            "beaver-themer/integrations/bigcommerce/create-an-archive-themer-layout-for-bigcommerce",
+            "beaver-themer/integrations/bigcommerce/create-a-themer-layout-to-display-a-single-bigcommerce-product",
+            "beaver-themer/integrations/bigcommerce/products-posts-module-for-bigcommerce",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Easy  Digital Downloads',
+          items: [
+            "beaver-themer/integrations/easy-digital-downloads", // Index
+            "beaver-themer/integrations/easy-digital-downloads/beaver-themer-and-the-edd-plugin",
+            "beaver-themer/integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets",
+            "beaver-themer/integrations/easy-digital-downloads/create-a-singular-themer-layout-for-edd-download-items-themer",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'The Events Calendar',
+          link: {
+            type: 'doc',
+            id: 'beaver-themer/integrations/tec/index',
+          },
+          items: [
+            "beaver-themer/integrations/tec/getting-started",
+            "beaver-themer/integrations/tec/field-connections",
+            "beaver-themer/integrations/tec/archive-layout",
+            "beaver-themer/integrations/tec/singular-layout",
+            {
+              type: 'category',
+              label: 'Modules',
+              link: {
+                 type: 'doc',
+                 id: "beaver-themer/integrations/tec/modules/index",
+              },
+              items: [
+                 "beaver-themer/integrations/tec/modules/event-calendar",
+                 "beaver-themer/integrations/tec/modules/event-posts",
+                 "beaver-themer/integrations/tec/modules/event-cost",
+                 "beaver-themer/integrations/tec/modules/event-countdown",
+                 "beaver-themer/integrations/tec/modules/event-date-time",
+                 "beaver-themer/integrations/tec/modules/event-description",
+                 "beaver-themer/integrations/tec/modules/event-details",
+                 "beaver-themer/integrations/tec/modules/event-export-links",
+                 "beaver-themer/integrations/tec/modules/event-map",
+                 "beaver-themer/integrations/tec/modules/event-navigation",
+                 "beaver-themer/integrations/tec/modules/event-notices",
+                 "beaver-themer/integrations/tec/modules/event-organizer",
+                 "beaver-themer/integrations/tec/modules/event-related-events",
+                 "beaver-themer/integrations/tec/modules/event-tickets",
+                 "beaver-themer/integrations/tec/modules/event-title",
+                 "beaver-themer/integrations/tec/modules/event-venue",
+                 "beaver-themer/integrations/tec/modules/event-website",
+              ],
+           },
+          ]
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Field Connections',
+      items: [
+        "beaver-themer/field-connections", // Index
+        "beaver-themer/field-connections/field-connection-basics-themer",
+        "beaver-themer/field-connections/field-connection-shortcodes-overview-themer",
+        "beaver-themer/field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer",
+        "beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer",
+        "beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer",
+        "beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer",
+        "beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer",
+        "beaver-themer/field-connections/field-connection-shortcode-index-themer",
+        "beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer",
+        {
+          type: 'category',
+          label: 'Field Connections to WP custom fields',
+          items: [
+            "beaver-themer/field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout",
+            "beaver-themer/field-connections/connections-to-wp-custom-fields/test-for-values-in-wordpress-custom-field-shortcode",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Field Connections to Pods custom fields',
+          items: [
+            "beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content",
+          ]
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Locations',
+      items: [
+        "beaver-themer/locations", // Index
+        "beaver-themer/locations/themer-locations-reference",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Conditional Logic',
+      items: [
+        "beaver-themer/conditional-logic", // Index
+        "beaver-themer/conditional-logic/beaver-themer-conditional-logic",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Management/Compatibility',
+      items: [
+        "beaver-themer/management-compatibility", // Index
+        "beaver-themer/management-compatibility/beaver-themer-supported-themes",
+        "beaver-themer/management-compatibility/full-width-layouts-on-third-party-themes-themer",
+        "beaver-themer/management-compatibility/export-beaver-themer-layouts",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Troubleshooting',
+      items: [
+        "beaver-themer/troubleshooting", // Index
+        "beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu",
+        "beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported",
+        "beaver-themer/troubleshooting/message-this-post-has-a-themer-layout-assigned",
+        "beaver-themer/troubleshooting/troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Developer',
+      items: [
+        "beaver-themer/developer", // Index
+        "beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer",
+        "beaver-themer/developer/conditional-logic-apis",
+        "beaver-themer/developer/customize-field-connections-themer",
+        "beaver-themer/developer/add-custom-attributes-to-themer-layouts",
+        "beaver-themer/developer/customize-themer-modules",
+        "beaver-themer/developer/hide-row-or-module-when-field-connection-is-empty-themer",
+        "beaver-themer/developer/hooks-reference-themer",
+        "beaver-themer/developer/wp-cli-for-beaver-themer",
+      ]
+    },
+  ],
+  bbtheme: [
+    {
+      type: 'category',
+      label: 'Introduction',
+      link: {
+        type: 'doc',
+        id: 'bb-theme/introduction/index',
+      },
+      items: [
+        "bb-theme/introduction/faq",
+        "bb-theme/introduction/dev-preview",
+        // "bb-theme/introduction/about-release",
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        "bb-theme/getting-started", // Index
+        "bb-theme/getting-started/install-the-bb-theme-and-child-theme",
+        "bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme",
+        "bb-theme/getting-started/manually-reinstall-bb-theme-child-theme",
+        "bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts",
+        "bb-theme/getting-started/open-the-wordpress-customizer",
+        "bb-theme/getting-started/responsive-previews",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Site Settings',
+      items: [
+        "bb-theme/site-settings", // Index
+        "bb-theme/site-settings/create-a-site-title-and-tagline",
+        "bb-theme/site-settings/header-logo",
+        "bb-theme/site-settings/add-a-site-icon-favicon",
+        "bb-theme/site-settings/set-whether-the-home-page-is-a-page-or-post",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Defaults for Layouts & Content',
+      items: [
+        "bb-theme/defaults-for-layouts-content", // Index
+        {
+          type: 'category',
+          label: 'One-click Presets',
+          items: [
+            "bb-theme/defaults-for-layouts-content/presets/preset-tips",
+            "bb-theme/defaults-for-layouts-content/presets/convert-the-premier-or-deluxe-preset-to-entirely-full-width",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Full-Width & Boxed Layouts',
+          items: [
+            "bb-theme/defaults-for-layouts-content/full-width-boxed/overview-of-full-width-and-boxed-pages-and-rows",
+            "bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-or-boxed-layout",
+            "bb-theme/defaults-for-layouts-content/full-width-boxed/set-a-full-width-header-with-boxed-content",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Headers/Navigation/Menus',
+          items: [
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/set-header-layout-and-style",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/fixed-header-types",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/align-the-top-bar-columns-with-content-margins",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/change-size-of-fade-in-fixed-header-logo-text",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/merge-page-content-into-the-header",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-the-site-tagline-to-the-header",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/change-header-logo-size-in-nav-bottom-layout",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/remove-the-header-and-footer",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/hide-the-header-nav-menu",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/create-menus-and-set-menu-locations",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/set-up-a-mega-menu",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-buttons-to-your-navigation-menu",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-css-classes-to-individual-menu-items",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/add-shortcodes-or-html-to-your-nav-menu",
+            "bb-theme/defaults-for-layouts-content/headers-nav-menus/center-the-nav-menu-with-nav-bottom-layout",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Footers',
+          items: [
+            "bb-theme/defaults-for-layouts-content/footers/set-footer-layout-and-style-options",
+            "bb-theme/defaults-for-layouts-content/footers/customize-the-default-theme-footer",
+            "bb-theme/defaults-for-layouts-content/footers/force-footer-to-bottom-on-short-pages",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Blog Layouts',
+          items: [
+            "bb-theme/defaults-for-layouts-content/blog-settings/configure-how-wordpress-handles-your-blog",
+            "bb-theme/defaults-for-layouts-content/blog-settings/remove-website-field-url-from-post-comments",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Sidebars',
+          items: [
+            "bb-theme/defaults-for-layouts-content/sidebars/use-the-beaver-builder-themes-sidebar-in-posts-and-pages",
+            "bb-theme/defaults-for-layouts-content/sidebars/position-left-sidebar-below-content-in-mobile",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Widgets',
+          items: [
+            "bb-theme/defaults-for-layouts-content/widgets/configure-the-widgets-in-the-primary-sidebar",
+            "bb-theme/defaults-for-layouts-content/widgets/set-options-for-footer-widgets",
+            "bb-theme/defaults-for-layouts-content/widgets/change-the-width-of-footer-widgets",
+            "bb-theme/defaults-for-layouts-content/widgets/add-a-widget-area-after-the-beaver-builder-theme-top-bar",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Icons',
+          items: [
+            "bb-theme/defaults-for-layouts-content/icons/where-can-i-add-social-icons",
+            "bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme",
+            "bb-theme/defaults-for-layouts-content/icons/adjust-the-size-of-the-social-icons",
+          ]
+        },
+        "bb-theme/defaults-for-layouts-content/shortcode-for-current-date",
+        "bb-theme/defaults-for-layouts-content/set-woocommerce-layout",
+        "bb-theme/defaults-for-layouts-content/add-yoast-breadcrumbs-to-the-beaver-builder-theme",
+        "bb-theme/defaults-for-layouts-content/integrate-sensei-with-the-beaver-builder-theme",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Defaults for Styles',
+      items: [
+        "bb-theme/defaults-for-styles", // Index
+        {
+          type: 'category',
+          label: 'Colors',
+          items: [
+            "bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-the-browser-window",
+            "bb-theme/defaults-for-styles/colors/set-a-background-color-or-image-for-content-area",
+            "bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from",
+            "bb-theme/defaults-for-styles/colors/change-menu-link-and-icon-colors-on-small-devices",
+            "bb-theme/defaults-for-styles/colors/change-menu-background-color-on-small-devices",
+            "bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Links & Buttons',
+          items: [
+            "bb-theme/defaults-for-styles/links/change-the-default-color-for-buttons-and-links",
+            "bb-theme/defaults-for-styles/links/set-global-default-button-styles",
+            "bb-theme/defaults-for-styles/links/add-underlines-to-link-text-beaver-builder-theme",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Typography',
+          items: [
+            "bb-theme/defaults-for-styles/typography/set-sitewide-style-options-for-headings-and-text",
+            "bb-theme/defaults-for-styles/typography/set-responsive-default-text-styles-for-beaver-builder-layouts",
+            "bb-theme/defaults-for-styles/typography/customizer-font-family-setting-system-ui",
+            "bb-theme/defaults-for-styles/typography/use-a-google-font-in-headings-and-text",
+            "bb-theme/defaults-for-styles/typography/add-web-fonts-to-your-theme-and-the-beaver-builder-plugin",
+            "bb-theme/defaults-for-styles/typography/add-web-fonts-complex-example",
+            "bb-theme/defaults-for-styles/typography/load-and-use-adobe-fonts",
+            "bb-theme/defaults-for-styles/typography/load-and-use-google-fonts-not-available-in-beaver-builder",
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Images',
+          items: [
+            "bb-theme/defaults-for-styles/images/enable-or-disable-whether-images-appear-in-a-lightbox",
+          ]
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Customizer Settings',
+      items: [
         "bb-theme/customizer-settings", // Index
         "bb-theme/customizer-settings/presets",
         "bb-theme/customizer-settings/general",
@@ -1217,197 +1153,197 @@
         "bb-theme/customizer-settings/woocommerce",
         "bb-theme/customizer-settings/additional-css",
         "bb-theme/customizer-settings/export-import",
-     ],
-   },
-   {
-     type: 'category',
-     label: 'Code',
-     items: [
-       "bb-theme/code", // Index
-       "bb-theme/code/insert-site-wide-css-or-javascript-code",
-       "bb-theme/code/insert-google-analytics-code",
-       "bb-theme/code/beaver-builder-theme-customizer-settings-mapped-to-css",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Management/Migration',
-     items: [
-       "bb-theme/management-migration", // Index
-       "bb-theme/management-migration/choose-bootstrap-3-or-4",
-       "bb-theme/management-migration/export-or-import-customizer-settings",
-       "bb-theme/management-migration/move-parent-theme-customizer-settings-to-a-child-theme",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Troubleshooting',
-     items: [
-       "bb-theme/troubleshooting", // Index
-       "bb-theme/troubleshooting/fix-ubermenu-mobile-navigation-duplication",
-       "bb-theme/troubleshooting/cannot-reset-color-to-default",
-       "bb-theme/troubleshooting/background-color-in-customizer-doesnt-match-the-preview",
-       "bb-theme/troubleshooting/jquery-modal-incompatibility",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'White Labeling',
-     items: [
-       "bb-theme/white-labeling", // Index
-       "bb-theme/white-labeling/white-label-your-child-theme",
-     ]
-   },
-   {
-     type: 'category',
-     label: 'Developer',
-     items: [
-       "bb-theme/developer", // Index
-       "bb-theme/developer/add-a-page-post-or-custom-post-type-template",
-       "bb-theme/developer/insert-beaver-builder-shortcode-into-a-theme-template-file",
-       "bb-theme/developer/theme-action-reference",
-       "bb-theme/developer/theme-filter-reference",
-       "bb-theme/developer/theme-css-reference",
-       "bb-theme/developer/remove-a-customizer-tab",
-       "bb-theme/developer/disable-schema-markup-bb-theme",
-       {
-         type: 'category',
-         label: 'Custom Theme Presets',
-         items: [
-           "bb-theme/developer/custom-theme-preset/add-a-custom-theme-preset",
-           "bb-theme/developer/custom-theme-preset/add-theme-preset-general-tab-options",
-           "bb-theme/developer/custom-theme-preset/add-theme-preset-header-tab-options",
-           "bb-theme/developer/custom-theme-preset/add-theme-preset-content-tab-options",
-           "bb-theme/developer/custom-theme-preset/add-theme-preset-footer-tab-options",
-           "bb-theme/developer/custom-theme-preset/remove-an-existing-or-custom-preset",
-         ]
-       },
-     ]
-   },
- ],
- assistant: [
-   "assistant/overview",
-   {
-     type: 'category',
-     label: 'Getting Started',
-     link: {
-       type: 'generated-index',
-       title: 'Getting Started',
-       slug: '/assistant/getting-started/',
-     },
-     items: [
-       "assistant/getting-started/what-can-i-do",
-       "assistant/getting-started/create-account",
-       "assistant/getting-started/install",
-       "assistant/getting-started/connect",
-     ],
-   },
-   {
-     type: 'category',
-     label: 'Assistant Plugin',
-     link: {
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Code',
+      items: [
+        "bb-theme/code", // Index
+        "bb-theme/code/insert-site-wide-css-or-javascript-code",
+        "bb-theme/code/insert-google-analytics-code",
+        "bb-theme/code/beaver-builder-theme-customizer-settings-mapped-to-css",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Management/Migration',
+      items: [
+        "bb-theme/management-migration", // Index
+        "bb-theme/management-migration/choose-bootstrap-3-or-4",
+        "bb-theme/management-migration/export-or-import-customizer-settings",
+        "bb-theme/management-migration/move-parent-theme-customizer-settings-to-a-child-theme",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Troubleshooting',
+      items: [
+        "bb-theme/troubleshooting", // Index
+        "bb-theme/troubleshooting/fix-ubermenu-mobile-navigation-duplication",
+        "bb-theme/troubleshooting/cannot-reset-color-to-default",
+        "bb-theme/troubleshooting/background-color-in-customizer-doesnt-match-the-preview",
+        "bb-theme/troubleshooting/jquery-modal-incompatibility",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'White Labeling',
+      items: [
+        "bb-theme/white-labeling", // Index
+        "bb-theme/white-labeling/white-label-your-child-theme",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Developer',
+      items: [
+        "bb-theme/developer", // Index
+        "bb-theme/developer/add-a-page-post-or-custom-post-type-template",
+        "bb-theme/developer/insert-beaver-builder-shortcode-into-a-theme-template-file",
+        "bb-theme/developer/theme-action-reference",
+        "bb-theme/developer/theme-filter-reference",
+        "bb-theme/developer/theme-css-reference",
+        "bb-theme/developer/remove-a-customizer-tab",
+        "bb-theme/developer/disable-schema-markup-bb-theme",
+        {
+          type: 'category',
+          label: 'Custom Theme Presets',
+          items: [
+            "bb-theme/developer/custom-theme-preset/add-a-custom-theme-preset",
+            "bb-theme/developer/custom-theme-preset/add-theme-preset-general-tab-options",
+            "bb-theme/developer/custom-theme-preset/add-theme-preset-header-tab-options",
+            "bb-theme/developer/custom-theme-preset/add-theme-preset-content-tab-options",
+            "bb-theme/developer/custom-theme-preset/add-theme-preset-footer-tab-options",
+            "bb-theme/developer/custom-theme-preset/remove-an-existing-or-custom-preset",
+          ]
+        },
+      ]
+    },
+  ],
+  assistant: [
+    "assistant/overview",
+    {
+      type: 'category',
+      label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+        title: 'Getting Started',
+        slug: '/assistant/getting-started/',
+      },
+      items: [
+        "assistant/getting-started/what-can-i-do",
+        "assistant/getting-started/create-account",
+        "assistant/getting-started/install",
+        "assistant/getting-started/connect",
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Assistant Plugin',
+      link: {
         type: 'generated-index',
         title: 'Assistant Plugin',
         slug: '/assistant/plugin/',
       },
-     items: [
-       "assistant/plugin/launch-assistant",
-       {
-         type: 'category',
-         label: 'Apps',
-         link: {
-           type: 'generated-index',
-           title: 'Apps',
-           slug: '/assistant/plugin/apps/',
-         },
-         items: [
-           "assistant/plugin/apps/home",
-           "assistant/plugin/apps/community",
-           "assistant/plugin/apps/content",
-           "assistant/plugin/apps/media",
-           "assistant/plugin/apps/comments",
-           "assistant/plugin/apps/updates",
-           "assistant/plugin/apps/libraries",
-         ],
-       },
-       "assistant/plugin/user-profile",
-       "assistant/plugin/app-settings",
-       "assistant/plugin/limit-access",
-     ],
-   },
-   {
-     type: 'category',
-     label: 'Assistant Pro Cloud',
-     link: {
+      items: [
+        "assistant/plugin/launch-assistant",
+        {
+          type: 'category',
+          label: 'Apps',
+          link: {
+            type: 'generated-index',
+            title: 'Apps',
+            slug: '/assistant/plugin/apps/',
+          },
+          items: [
+            "assistant/plugin/apps/home",
+            "assistant/plugin/apps/community",
+            "assistant/plugin/apps/content",
+            "assistant/plugin/apps/media",
+            "assistant/plugin/apps/comments",
+            "assistant/plugin/apps/updates",
+            "assistant/plugin/apps/libraries",
+          ],
+        },
+        "assistant/plugin/user-profile",
+        "assistant/plugin/app-settings",
+        "assistant/plugin/limit-access",
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Assistant Pro Cloud',
+      link: {
         type: 'generated-index',
         title: 'Assistant Pro Cloud',
         slug: '/assistant/cloud/',
       },
-     items: [
-       {
-         type: 'category',
-         label: 'Account & Settings',
-         link: {
+      items: [
+        {
+          type: 'category',
+          label: 'Account & Settings',
+          link: {
             type: 'doc',
             id: 'assistant/cloud/account-settings/index',
           },
-         items: [
-           "assistant/cloud/account-settings/profile-settings",
-           "assistant/cloud/account-settings/change-password",
-           "assistant/cloud/account-settings/seller",
-           "assistant/cloud/account-settings/transfer-ownership",
-           "assistant/cloud/account-settings/delete-account",
-         ],
-       },
-       {
-         type: 'category',
-         label: 'Libraries',
-         link: {
-           type: 'doc',
-           id: 'assistant/cloud/libraries/index',
-            },
-         items: [
-           "assistant/cloud/libraries/create-library",
-           "assistant/cloud/libraries/add-creative-assets",
-           "assistant/cloud/libraries/view-edit-assets",
-           "assistant/cloud/libraries/share-library",
-           "assistant/cloud/libraries/delete-library",
-         ],
-       },
-       {
+          items: [
+            "assistant/cloud/account-settings/profile-settings",
+            "assistant/cloud/account-settings/change-password",
+            "assistant/cloud/account-settings/seller",
+            "assistant/cloud/account-settings/transfer-ownership",
+            "assistant/cloud/account-settings/delete-account",
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Libraries',
+          link: {
+            type: 'doc',
+            id: 'assistant/cloud/libraries/index',
+          },
+          items: [
+            "assistant/cloud/libraries/create-library",
+            "assistant/cloud/libraries/add-creative-assets",
+            "assistant/cloud/libraries/view-edit-assets",
+            "assistant/cloud/libraries/share-library",
+            "assistant/cloud/libraries/delete-library",
+          ],
+        },
+        {
           type: 'category',
           label: 'Collections',
           link: {
-             type: 'generated-index',
-             title: 'Collections',
-             slug: '/assistant/cloud/collections/',
-             description: 'Overview of Library Collections and how to create collections, assign assets and sort by collection.'
-           },
+            type: 'generated-index',
+            title: 'Collections',
+            slug: '/assistant/cloud/collections/',
+            description: 'Overview of Library Collections and how to create collections, assign assets and sort by collection.'
+          },
           items: [
             "assistant/cloud/collections/create-collection",
             "assistant/cloud/collections/assign-collections",
             "assistant/cloud/collections/sort-collections",
           ],
         },
-       "assistant/cloud/teams",
-       "assistant/cloud/community",
-       {
-        type: 'category',
-        label: 'Integrations',
-        link: {
-          type: 'generated-index',
-          title: 'Integrations',
-          slug: '/assistant/cloud/integrations/',
+        "assistant/cloud/teams",
+        "assistant/cloud/community",
+        {
+          type: 'category',
+          label: 'Integrations',
+          link: {
+            type: 'generated-index',
+            title: 'Integrations',
+            slug: '/assistant/cloud/integrations/',
+          },
+          items: [
+            "assistant/cloud/integrations/beaver-builder",
+            "assistant/cloud/integrations/gutenberg",
+            "assistant/cloud/integrations/third-party-builders",
+            "assistant/cloud/integrations/woocommerce",
+          ],
         },
-        items: [
-          "assistant/cloud/integrations/beaver-builder",
-          "assistant/cloud/integrations/gutenberg",
-          "assistant/cloud/integrations/third-party-builders",
-          "assistant/cloud/integrations/woocommerce",
-        ],
-       },
-     ],
-   },
-   "assistant/known-incompatibilities",
- ],
+      ],
+    },
+    "assistant/known-incompatibilities",
+  ],
 };
