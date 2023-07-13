@@ -11,11 +11,13 @@ This article explains precisely what Beaver Builder licenses do, how to find the
 When you purchase a Beaver Builder premium license (Standard, Pro, Agency, or Ultimate), you receive a license key that is unique to your account. Your license is valid for one year and allows you access to support and all updates released during that time.
 
 :::info
-License keys for Beaver Builder are product-specific.
 
-As an example, if you purchase Beaver Builder Standard, your license key is only valid for the version you purchased, and cannot be used with other Beaver Builder versions (Ultimate, Agency, or Pro).
+License keys for Beaver Builder are specific to each product.
 
-See the [Downgrade](downgrade.md) and [Upgrade](upgrade.md) articles for more information.
+For instance, if you buy Beaver Builder Standard, your license key will only work for the version you purchased. It cannot be used with other versions of Beaver Builder such as Ultimate, Agency, or Pro.
+
+For more details, please refer to the [Downgrade](downgrade.md) and [Upgrade](upgrade.md) articles.
+
 :::
 
 ## View License Key

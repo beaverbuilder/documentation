@@ -20,7 +20,7 @@ You will receive the following error when visiting Beaver Builder's [My Account 
 
 > The key associated with this account has been blocked. Your downloads may be unavailable.
 
-![](/img/general-license-suspended-1.png)
+![My Account license key blocked message](/img/beaver-builder/account--license-suspended--1.jpg)
 
 ### Entering License Key
 
@@ -28,9 +28,4 @@ The following error will appear when you attempt to enter your license key on a 
 
 > Key has been blocked
 
-![](/img/general-license-suspended-2.png)
-
-
-
-
-
+![WordPress Admin Dashboard license key blocked message](/img/beaver-builder/account--license-suspended--2.jpg)

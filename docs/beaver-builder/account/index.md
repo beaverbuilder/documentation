@@ -10,7 +10,7 @@ Beaver Builder’s [My Account](https://www.wpbeaverbuilder.com/my-account/) pag
 
 ## Create Account
 
-You can only create a Beaver Builder account by purchasing a Beaver Builder license. Your first and last name as well as your email address will be required during the purchase process. A password will be emailed to your email address once you have completed your Beaver Builder license purchase.
+You can only create a Beaver Builder account by purchasing a Beaver Builder license. During the purchase process, you will need to provide your first and last name, as well as your email address. Once you have completed the Beaver Builder license purchase, a password will be sent to the email address you provided.
 
 ## Access My Account
 
