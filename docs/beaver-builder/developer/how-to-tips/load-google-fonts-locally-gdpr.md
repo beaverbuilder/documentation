@@ -34,7 +34,7 @@ Google Webfonts Helper site, which we’ve included in the steps here.
 
   ```php
   // takes care of theme enqueues
-  add_action( 'wp_enqueue_scripts', function() {
+  add_action( 'wp_head', function() {
       global $wp_styles;
       if ( isset( $wp_styles->queue ) ) {
           foreach ( $wp_styles->queue as $key => $handle ) {
