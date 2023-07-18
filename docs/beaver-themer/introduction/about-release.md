@@ -7,7 +7,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-Beaver Builder 2.7 includes the following new features and improvements.
+Beaver Themer 1.4 includes the following new features and improvements.
 ## Layout enhancements
 
 ### Singular layouts can have Beaver Builder layouts in the post content area

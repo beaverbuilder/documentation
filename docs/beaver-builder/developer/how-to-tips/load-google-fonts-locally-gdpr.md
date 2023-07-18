@@ -38,7 +38,7 @@ The easiest way to generate both the CSS and the web fonts is to use the Google 
   
   ```php
   // BB Theme enqueued Google Fonts
-  add_action( 'wp_enqueue_scripts', function() {
+  add_action( 'wp_head', function() {
       global $wp_styles;
       if ( isset( $wp_styles->queue ) ) {
           foreach ( $wp_styles->queue as $key => $handle ) {
@@ -83,7 +83,7 @@ The easiest way to generate both the CSS and the web fonts is to use the Google 
 
 
 
-11. Extract the .zip file you downloaded and upload the individual font files (eot, svg, ttf, woff, woff2) to your fonts folder.  
+11. To complete the process, extract the downloaded .zip file and upload the individual font files (eot, svg, ttf, woff, woff2) to your fonts folder, following the example tree structure provided as a reference.
 
   ```bash {5}
   /my-website
