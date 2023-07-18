@@ -34,6 +34,11 @@ module.exports = {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     announcementBar: {
       id: 'announcement-bar',
       content:
@@ -44,11 +49,18 @@ module.exports = {
     },
     navbar: {
         logo: {
-        alt: 'Beaver Builder',
-        src: 'img/bb-logo-light.png',
-        srcDark: 'img/bb-logo-dark.png',
+        alt: 'Return to Beaver Builder',
+        src: 'bb-logo-inline.png',
+        href: 'https://www.wpbeaverbuilder.com/',
+        target: '_self',
       },
       items: [
+        {
+          href: '/',
+          position: 'left',
+          className: 'header-home-icon',
+          'aria-label': 'Docs Home',
+        },
         {
           type: 'doc',
           position: 'left',
