@@ -60,16 +60,22 @@ module.exports = {
     {
       type: 'category',
       label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+        title: 'Getting Started',
+      },
       items: [
-        "beaver-builder/getting-started", // Index
         "beaver-builder/getting-started/what-can-i-do-with-beaver-builder",
         "beaver-builder/getting-started/system-requirements",
         "beaver-builder/getting-started/install",
         {
           type: 'category',
           label: 'BB Editor Basics',
+          link: {
+            type: 'generated-index',
+            title: 'BB Editor Basics',
+          },
           items: [
-            "beaver-builder/getting-started/bb-editor-basics",
             "beaver-builder/getting-started/bb-editor-basics/launch-builder",
             "beaver-builder/getting-started/bb-editor-basics/user-interface",
             "beaver-builder/getting-started/bb-editor-basics/tools-menu",
@@ -91,8 +97,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Layouts',
+      link: {
+        type: 'generated-index',
+        title: 'Layouts',
+      },
       items: [
-        "beaver-builder/layouts", // Index
         {
           type: 'category',
           label: 'The Advanced Tab',
@@ -358,8 +367,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Styles',
+      link: {
+        type: 'generated-index',
+        title: 'Styles',
+      },
       items: [
-        "beaver-builder/styles", // Index
         {
           type: 'category',
           label: 'Colors',
@@ -405,8 +417,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Advanced Builder Techniques',
+      link: {
+        type: 'generated-index',
+        title: 'Advanced Builder Techniques',
+      },
       items: [
-        "beaver-builder/advanced-builder-techniques", // Index
         "beaver-builder/advanced-builder-techniques/css-length-height-units",
         "beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module",
         "beaver-builder/advanced-builder-techniques/add-a-pdf-file-to-your-layout",
@@ -435,8 +450,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Management/Migration',
+      link: {
+        type: 'generated-index',
+        title: 'Management & Migration',
+      },
       items: [
-        "beaver-builder/management-migration", // Index
         "beaver-builder/management-migration/settings-overview",
         "beaver-builder/management-migration/advanced-settings",
         "beaver-builder/management-migration/import-export-settings",
@@ -457,8 +475,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Troubleshooting',
+      link: {
+        type: 'generated-index',
+        title: 'Troubleshooting',
+      },
       items: [
-        "beaver-builder/troubleshooting", // Index
         {
           type: 'category',
           label: 'Debugging ',
@@ -537,8 +558,11 @@ module.exports = {
     {
       type: 'category',
       label: 'White Label (Agency)',
+      link: {
+        type: 'generated-index',
+        title: 'White Label (Agency)',
+      },
       items: [
-        "beaver-builder/white-labeling", // Index
         "beaver-builder/white-labeling/white-labeling-beaver-builder",
         "beaver-builder/white-labeling/replace-built-in-layout-templates-with-your-own",
         "beaver-builder/white-labeling/customize-the-help-button",
@@ -548,8 +572,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Developer',
+      link: {
+        type: 'generated-index',
+        title: 'Developer',
+      },
       items: [
-        "beaver-builder/developer", // Index
         {
           type: 'category',
           label: 'Custom Modules',
@@ -584,8 +611,11 @@ module.exports = {
         {
           type: 'category',
           label: "How to's & Tips",
+          link: {
+            type: 'generated-index',
+            title: "How to's & Tips",
+          },
           items: [
-            "beaver-builder/developer/how-to-tips", // Index
             "beaver-builder/developer/how-to-tips/map-module-filter-google",
             "beaver-builder/developer/how-to-tips/display-subset-typography-controls",
             "beaver-builder/developer/how-to-tips/data-storage",
@@ -604,8 +634,11 @@ module.exports = {
         {
           type: 'category',
           label: 'Tutorials & Guides',
+          link: {
+            type: 'generated-index',
+            title: 'Tutorials & Guides',
+          },
           items: [
-            "beaver-builder/developer/tutorials-guides", // Index
             "beaver-builder/developer/tutorials-guides/install-beaver-builder-via-composer",
             "beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme",
             "beaver-builder/developer/tutorials-guides/remove-rename-tools-menu-items",
@@ -644,14 +677,13 @@ module.exports = {
       ],
     },
     {
-      type: 'doc',
-      id: 'beaver-themer/about-this-release',
-    },
-    {
       type: 'category',
       label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+        title: 'Getting Started',
+      },
       items: [
-        "beaver-themer/getting-started", // Index
         "beaver-themer/getting-started/what-can-i-do-with-beaver-themer",
         "beaver-themer/getting-started/beaver-themer-requirements-for-installation",
         "beaver-themer/getting-started/install-beaver-themer",
@@ -662,8 +694,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Layout Types & Modules',
+      link: {
+        type: 'generated-index',
+        title: 'Layout Types & Modules',
+      },
       items: [
-        "beaver-themer/layout-types-modules", // Index
         {
           type: 'category',
           label: 'Header layout type',
@@ -729,8 +764,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Integrations',
+      link: {
+        type: 'generated-index',
+        title: 'Integrations',
+      },
       items: [
-        "beaver-themer/integrations",
         {
           type: 'category',
           label: 'Advanced Custom Fields',
@@ -785,8 +823,11 @@ module.exports = {
         {
           type: 'category',
           label: 'WooCommerce',
+          link: {
+            type: 'generated-index',
+            title: 'WooCommerce',
+          },
           items: [
-            "beaver-themer/integrations/woocommerce", // Index
             "beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce",
             "beaver-themer/integrations/woocommerce/create-a-singular-themer-layout-for-woocommerce",
             "beaver-themer/integrations/woocommerce/breadcrumb-module-for-woocommerce-singular-and-archive-themer-layouts",
@@ -808,8 +849,11 @@ module.exports = {
         {
           type: 'category',
           label: 'BigCommerce',
+          link: {
+            type: 'generated-index',
+            title: 'BigCommerce',
+          },
           items: [
-            "beaver-themer/integrations/bigcommerce", // Index
             "beaver-themer/integrations/bigcommerce/beaver-themer-layouts-for-bigcommerce",
             "beaver-themer/integrations/bigcommerce/create-an-archive-themer-layout-for-bigcommerce",
             "beaver-themer/integrations/bigcommerce/create-a-themer-layout-to-display-a-single-bigcommerce-product",
@@ -818,9 +862,12 @@ module.exports = {
         },
         {
           type: 'category',
-          label: 'Easy  Digital Downloads',
+          label: 'Easy Digital Downloads',
+          link: {
+            type: 'generated-index',
+            title: 'Easy Digital Downloads',
+          },
           items: [
-            "beaver-themer/integrations/easy-digital-downloads", // Index
             "beaver-themer/integrations/easy-digital-downloads/beaver-themer-and-the-edd-plugin",
             "beaver-themer/integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets",
             "beaver-themer/integrations/easy-digital-downloads/create-a-singular-themer-layout-for-edd-download-items-themer",
@@ -872,8 +919,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Field Connections',
+      link: {
+        type: 'generated-index',
+        title: 'Field Connections',
+      },
       items: [
-        "beaver-themer/field-connections", // Index
         "beaver-themer/field-connections/field-connection-basics-themer",
         "beaver-themer/field-connections/field-connection-shortcodes-overview-themer",
         "beaver-themer/field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer",
@@ -904,7 +954,6 @@ module.exports = {
       type: 'category',
       label: 'Locations',
       items: [
-        "beaver-themer/locations", // Index
         "beaver-themer/locations/themer-locations-reference",
       ]
     },
@@ -912,15 +961,17 @@ module.exports = {
       type: 'category',
       label: 'Conditional Logic',
       items: [
-        "beaver-themer/conditional-logic", // Index
         "beaver-themer/conditional-logic/beaver-themer-conditional-logic",
       ]
     },
     {
       type: 'category',
       label: 'Management/Compatibility',
+      link: {
+        type: 'generated-index',
+        title: 'Management & Compatibility',
+      },
       items: [
-        "beaver-themer/management-compatibility", // Index
         "beaver-themer/management-compatibility/beaver-themer-supported-themes",
         "beaver-themer/management-compatibility/full-width-layouts-on-third-party-themes-themer",
         "beaver-themer/management-compatibility/export-beaver-themer-layouts",
@@ -929,8 +980,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Troubleshooting',
+      link: {
+        type: 'generated-index',
+        title: 'Troubleshooting',
+      },
       items: [
-        "beaver-themer/troubleshooting", // Index
         "beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu",
         "beaver-themer/troubleshooting/why-does-my-themer-layout-say-unsupported",
         "beaver-themer/troubleshooting/message-this-post-has-a-themer-layout-assigned",
@@ -940,8 +994,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Developer',
+      link: {
+        type: 'generated-index',
+        title: 'Developer',
+      },
       items: [
-        "beaver-themer/developer", // Index
         "beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer",
         "beaver-themer/developer/conditional-logic-apis",
         "beaver-themer/developer/customize-field-connections-themer",
@@ -970,8 +1027,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+        title: 'Getting Started',
+      },
       items: [
-        "bb-theme/getting-started", // Index
         "bb-theme/getting-started/install-the-bb-theme-and-child-theme",
         "bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme",
         "bb-theme/getting-started/manually-reinstall-bb-theme-child-theme",
@@ -983,8 +1043,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Site Settings',
+      link: {
+        type: 'generated-index',
+        title: 'Site Settings',
+      },
       items: [
-        "bb-theme/site-settings", // Index
         "bb-theme/site-settings/create-a-site-title-and-tagline",
         "bb-theme/site-settings/header-logo",
         "bb-theme/site-settings/add-a-site-icon-favicon",
@@ -994,8 +1057,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Defaults for Layouts & Content',
+      link: {
+        type: 'generated-index',
+        title: 'Defaults for Layouts & Content',
+      },
       items: [
-        "bb-theme/defaults-for-layouts-content", // Index
         {
           type: 'category',
           label: 'One-click Presets',
@@ -1088,8 +1154,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Defaults for Styles',
+      link: {
+        type: 'generated-index',
+        title: 'Defaults for Styles',
+      },
       items: [
-        "bb-theme/defaults-for-styles", // Index
         {
           type: 'category',
           label: 'Colors',
@@ -1137,8 +1206,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Customizer Settings',
+      link: {
+        type: 'generated-index',
+        title: 'Customizer Settings',
+      },
       items: [
-        "bb-theme/customizer-settings", // Index
         "bb-theme/customizer-settings/presets",
         "bb-theme/customizer-settings/general",
         "bb-theme/customizer-settings/header",
@@ -1158,8 +1230,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Code',
+      link: {
+        type: 'generated-index',
+        title: 'Code',
+      },
       items: [
-        "bb-theme/code", // Index
         "bb-theme/code/insert-site-wide-css-or-javascript-code",
         "bb-theme/code/insert-google-analytics-code",
         "bb-theme/code/beaver-builder-theme-customizer-settings-mapped-to-css",
@@ -1168,8 +1243,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Management/Migration',
+      link: {
+        type: 'generated-index',
+        title: 'Management & Migration',
+      },
       items: [
-        "bb-theme/management-migration", // Index
         "bb-theme/management-migration/choose-bootstrap-3-or-4",
         "bb-theme/management-migration/export-or-import-customizer-settings",
         "bb-theme/management-migration/move-parent-theme-customizer-settings-to-a-child-theme",
@@ -1178,8 +1256,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Troubleshooting',
+      link: {
+        type: 'generated-index',
+        title: 'Troubleshooting',
+      },
       items: [
-        "bb-theme/troubleshooting", // Index
         "bb-theme/troubleshooting/fix-ubermenu-mobile-navigation-duplication",
         "bb-theme/troubleshooting/cannot-reset-color-to-default",
         "bb-theme/troubleshooting/background-color-in-customizer-doesnt-match-the-preview",
@@ -1190,15 +1271,17 @@ module.exports = {
       type: 'category',
       label: 'White Labeling',
       items: [
-        "bb-theme/white-labeling", // Index
         "bb-theme/white-labeling/white-label-your-child-theme",
       ]
     },
     {
       type: 'category',
       label: 'Developer',
+      link: {
+        type: 'generated-index',
+        title: 'Developer',
+      },
       items: [
-        "bb-theme/developer", // Index
         "bb-theme/developer/add-a-page-post-or-custom-post-type-template",
         "bb-theme/developer/insert-beaver-builder-shortcode-into-a-theme-template-file",
         "bb-theme/developer/theme-action-reference",
