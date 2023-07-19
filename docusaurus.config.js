@@ -85,6 +85,12 @@ module.exports = {
           position: 'left',
           activeBasePath: 'assistant',
         },
+        {
+          href: 'https://courses.wpbeaverbuilder.com/',
+          label: 'Courses',
+          position: 'right',
+          target: '_blank',
+        },
       ],
     },
     footer: {
@@ -93,10 +99,6 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'General',
-              to: '/general',
-            },
             {
               label: 'Beaver Builder',
               to: '/beaver-builder',
@@ -108,11 +110,15 @@ module.exports = {
             {
               label: 'BB Theme',
               to: '/bb-theme',
+            },
+            {
+              label: 'Assistant',
+              to: '/assistant',
             }
           ],
         },
         {
-          title: 'Beaver Builder',
+          title: 'Resources',
           items: [
             {
               label: 'Blog',
@@ -123,9 +129,13 @@ module.exports = {
               to: 'https://www.wpbeaverbuilder.com/pricing/',
             },
             {
-              label: 'FAQs',
-              to: '/general/faq',
+              label: 'Courses',
+              href: 'https://courses.wpbeaverbuilder.com/',
             },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/c/BeaverBuilderWP',
+            }
           ],
         },
         {
@@ -142,6 +152,10 @@ module.exports = {
             {
               label: 'Forums',
               href: 'https://community.wpbeaverbuilder.com/',
+            },
+            {
+              label: 'Discord',
+              href: 'https://www.wpbeaverbuilder.com/discord/',
             },
           ],
         },

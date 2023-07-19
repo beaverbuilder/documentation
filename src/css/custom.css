@@ -7,13 +7,13 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #dc5d33;
-  --ifm-color-primary-dark: #d04f24;
-  --ifm-color-primary-darker: #c54a22;
-  --ifm-color-primary-darkest: #a23d1c;
-  --ifm-color-primary-light: #e06f4a;
-  --ifm-color-primary-lighter: #e27956;
-  --ifm-color-primary-lightest: #e89478;
+  --ifm-color-primary: #006ad4;
+  --ifm-color-primary-dark: #005fbf;
+  --ifm-color-primary-darker: #005ab4;
+  --ifm-color-primary-darkest: #004a94;
+  --ifm-color-primary-light: #0075e9;
+  --ifm-color-primary-lighter: #007af4;
+  --ifm-color-primary-lightest: #158aff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --bb-details-border: #e1e1e1;
@@ -341,11 +341,18 @@ video {
 
 
 /* Homepage */
-section.submit-ticket {
+
+section.community {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+section.submit-ticket,
+section.community {
   border-top: 2px solid var(--ifm-color-emphasis-200);
   text-align: center;
 }
 
+.community-heading .col,
 .submit-ticket .col {
   max-width: 800px;
   align-items: center;
@@ -355,19 +362,20 @@ section.submit-ticket {
   margin: 0 auto;
 }
 
-section.community h2,
+.community-heading h2,
 .submit-ticket h2 {
   font-size: 3rem;
   text-align: center;
 }
 
-@media (max-width: 996px) {
-  section.community h2,
+@media screen and (max-width: 996px) {
+  .community-heading h2,
   .submit-ticket h2 {
     font-size: var(--ifm-h2-font-size);
   }
 }
 
+.community-heading p,
 .submit-ticket p {
   font-size: var(--ifm-h3-font-size);
   color: var(--ifm-color-gray-800);
@@ -401,7 +409,7 @@ section.community h2,
   z-index: -1;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 996px) {
   .hero .container {
     background-position: -70px 0px !important;
   }
@@ -436,7 +444,7 @@ html[data-theme='dark'] .hero__title {
   outline: none;
 }
 
-@media only screen and (max-width: 750px) {
+@media screen and (max-width: 996px) {
   .hero__search {
     display: none;
     visibility: hidden;
@@ -540,7 +548,7 @@ html[data-theme='dark'] .hero__title {
   border-color: var(--bb-assistant-color);
 }
 
-@media (max-width: 996px) {
+@media screen and (max-width: 996px) {
   .bb-docs-home-box:hover {
     transform: none;
   }
@@ -567,7 +575,7 @@ section.community .community-icons {
   padding-top: 0;
 }
 
-@media (max-width: 996px) {
+@media screen and (max-width: 996px) {
   .col.community-icon {
     padding-bottom: 2rem !important;
     flex-basis: 33.33%;
@@ -579,7 +587,7 @@ section.community .community-icons {
     margin-top: var(--ifm-leading);
     margin-bottom: 0;
 }
-.community-icons .fab {
+.community-icons i {
     font-size: 3rem;
 }
 

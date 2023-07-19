@@ -93,6 +93,16 @@ const products = [
 
 const community = [
   {
+    title: <>Courses</>,
+    url: 'https://courses.wpbeaverbuilder.com',
+    icon: <><i className="fa-solid fa-graduation-cap"></i></>,
+  },
+  {
+    title: <>YouTube</>,
+    url: 'https://www.youtube.com/c/BeaverBuilderWP',
+    icon: <><i className="fab fa-youtube"></i></>,
+  },
+  {
     title: <>Facebook</>,
     url: 'https://www.facebook.com/groups/beaverbuilders/',
     icon: <><i className="fab fa-facebook-f"></i></>,
@@ -102,7 +112,7 @@ const community = [
     url: 'https://www.wpbeaverbuilder.com/go/slack/',
     icon: <><i className="fab fa-slack"></i></>,
   },
-  {
+   {
     title: <>Discord</>,
     url: 'https://www.wpbeaverbuilder.com/discord/',
     icon: <><i className="fab fa-discord"></i></>,
@@ -111,11 +121,6 @@ const community = [
     title: <>Forum</>,
     url: 'https://community.wpbeaverbuilder.com/',
     icon: <><i className="fab fa-discourse"></i></>,
-  },
-  {
-    title: <>YouTube</>,
-    url: 'https://www.youtube.com/c/BeaverBuilderWP',
-    icon: <><i className="fab fa-youtube"></i></>,
   },
 ];
 
@@ -191,9 +196,10 @@ function Home() {
         {community && community.length && (
           <section className="community">
             <div className="container">
-              <div className="row">
+              <div className="row community-heading">
                 <div className="col">
-                  <h2>More Resources</h2>
+                  <h2>Resources & Communities</h2>
+                  <p>Expand your horizons with Beaver Builder's additional resources and communities. Connect with like-minded individuals, access a treasure trove of knowledge, and freely share ideas.</p>
                 </div>
               </div>
               <div className="row community-icons">
