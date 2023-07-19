@@ -15,7 +15,7 @@ The Events Tickets module displays an event's ticket information and fees for an
 
 ## Availability
 
-The Event Tickets module appears in **The Events Calendar** section of the **Themer modules** group in the [Content panel](/beaver-builder/getting-started/bb-editor-basics/content-panel) when you're editing a [Singular-type](/layout-types-modules/singular/overview.md) Themer layout.
+The Event Tickets module appears in **The Events Calendar** section of the **Themer modules** group in the [Content panel](/beaver-builder/getting-started/bb-editor-basics/content-panel) when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
 
 ## Style tab
 
