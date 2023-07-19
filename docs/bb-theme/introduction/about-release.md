@@ -8,5 +8,3 @@ toc_max_heading_level: 2
 draft: true
 ---
 
-Beaver Builder 2.7 includes the following new features and improvements.
-

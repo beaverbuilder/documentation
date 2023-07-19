@@ -18,9 +18,9 @@ The Beaver Builder theme, also known as the BB Theme, is a WordPress theme speci
 
 By combining the power of the BB Theme with the Beaver Builder plugin, users can enjoy a streamlined website building experience.
 
-## What's New
+<!-- ## What's New
 
-The [About this Release](about-release.md) article offers an overview and insight into the recent enhancements introduced in the current stable version of Beaver Builder.
+The [About this Release](about-release.md) article offers an overview and insight into the recent enhancements introduced in the current stable version of the BB Theme. -->
 
 ## Changelog
 
