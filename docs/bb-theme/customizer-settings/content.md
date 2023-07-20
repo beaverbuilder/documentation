@@ -96,7 +96,7 @@ Hide the WooCommerce sidebar or place it on the left or right.
 
 #### Number of columns
 
-On WooCommerce category pages, you can configure the number of columns displayed per [column group](/general/glossary.md/#column-group-bb), from 1-6. The default is 4 columns per group. This setting is at **Customize > Content > WooCommerce layout > Number of columns**.
+On WooCommerce category pages, you can configure the number of columns displayed per column group, from 1-6. The default is 4 columns per group. This setting is at **Customize > Content > WooCommerce layout > Number of columns**.
 
 #### Product Gallery
 

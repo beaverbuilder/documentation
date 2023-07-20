@@ -24,17 +24,17 @@ See our [Pricing page](https://www.wpbeaverbuilder.com/pricing/) for a compariso
 
 The lite (free) version of Beaver Builder contains the following subset of modules:
 
-* [Audio](modules/audio.md)
-* [Button](modules/button.md)
-* [Heading](modules/heading.md)
-* [HTML](modules/html.md)
-* [Icon](modules/icon.md)
-* [Photo](modules/photo.md)
-* [Sidebar](modules/sidebar.md)
-* [Text Editor](modules/text.md)
-* [Video](modules/video.md)
+* [Audio](../layouts/modules/audio.md)
+* [Button](../layouts/modules/button/button.md)
+* [Heading](../layouts/modules/heading.md)
+* [HTML](../layouts/modules/html.md)
+* [Icon](../layouts/modules/icon-and-icon-group.md)
+* [Photo](../layouts/modules/photo/photo.md)
+* [Sidebar](../layouts/modules/sidebar.md)
+* [Text Editor](../layouts/modules/text.md)
+* [Video](../layouts/modules/video/video.md)
 
-See the [Modules](modules/index.md) section for a complete list of all available modules in the premium versions of Beaver Builder.
+See the [Modules](../layouts/modules/index.md) section for a complete list of all available modules in the premium versions of Beaver Builder.
 
 ## Multisite vs Unlimited Sites
 
@@ -50,8 +50,6 @@ Normally, you install WordPress on each site you build so it's a standalone inst
 
 :::tip
 Beaver Builder can be configured network-wide for all sub-sites in the WordPress Multisite installation in the Ultimate and Agency licenses.
-
-See the [Settings](settings/index.md) article for more information.
 :::
 
 ### Unlimited Sites
@@ -78,8 +76,6 @@ You're free to fork the Beaver Builder lite version available from [WordPress.or
 
 Beaver Builder doesn't work on archive pages like the Posts page (blog), categories, tags etc. If you want to use Beaver Builder to design your archive pages you will need to use a combination of Beaver Builder and Beaver Themer.
 
-See the [How it works](getting-started/how-it-works) article for more information.
-
 ## Can I use Beaver Builder to create websites for clients?
 
 You must use your license on websites that you own or manage. You may use your license on a client site in situations in which you maintain an ongoing relationship with your client as a consultant. By using your license on a client site, you acknowledge and agree that your client will come to you for support.
@@ -87,8 +83,6 @@ You must use your license on websites that you own or manage. You may use your l
 ## Can I include Beaver Builder with my theme?
 
 As a license holder of our products, you cannot distribute, freely give away, or resell your license key. You may not transfer the license key to a new owner. However, you may include the lite version.
-
-See our [Template Author](templates/template-authors) article for more information.
 
 ## What's your refund policy?
 
@@ -130,31 +124,25 @@ Upon the expiration of your Beaver Builder license, you will lose the ability to
 
 Furthermore, we cannot assure the continued functionality of older versions of Beaver Builder, especially if you update other elements of your website, such as WordPress, PHP, or third-party extensions.
 
-See the [Renew License](account/license/renew.md#what-happens-if-i-dont-renew) article for more information.
+See the [Renew License](../account/license/renew.md#what-happens-if-i-dont-renew) article for more information.
 
 ## Upgrade from Lite to Premium
 
 Yes, of course, you can upgrade from the free version to a premium version and keep your content intact.
 
-See the [Upgrade License](account/license/upgrade.md) article for more information.
+See the [Upgrade License](../account/license/upgrade.md) article for more information.
 
 ## Is Beaver Builder compatible with Gutenberg?
 
 The Beaver Builder plugin is compatible with the [WordPress block editor (Gutenberg)](https://wordpress.org/gutenberg/) in the same way that it's compatible with the ["classic" WordPress text editor](https://wordpress.org/plugins/classic-editor/). Depending on whether you set WordPress to prefer the block editor or use a plugin to maintain the classic editor, you can move text and images between Beaver Builder and the WordPress editor on a limited scale.
 
-See the [How it works](getting-started/how-it-works.md#gutenberg--classic-editor) article for more information.
-
 ## Can I use Beaver Builder with any theme?
 
 Beaver Builder has been developed to work with almost any theme. However, there are some exceptions to this rule.
 
-See the [How it works](getting-started/how-it-works#wordpress-themes) article for more information.
-
 ## Can I modify the header and footer with Beaver Builder?
 
-Beaver Builder works within the [WordPress content area](getting-started/how-it-works.md#content-area) and does not interact with the header or footer of the theme. Even though you can replace the theme's header and footer using saved content such as rows and custom code, we recommend using Beaver Themer, which does not require any custom coding on your part.
-
-See the [Using Shortcodes in PHP](shortcode/using-php-files.md) article for more information.
+Beaver Builder works within the WordPress content area and does not interact with the header or footer of the theme. Even though you can replace the theme's header and footer using saved content such as rows and custom code, we recommend using Beaver Themer, which does not require any custom coding on your part.
 
 ## Convert my website to Beaver Builder?
 
@@ -166,23 +154,21 @@ If the old site had pages created using the standard WordPress text editor, the 
 
 ## Can I create my own modules for Beaver Builder?
 
-Yes! See our [custom module developer guide](/developer/custom-modules) article to get started. The guide contains a example plugin with a custom module that you can download.
+Yes! See our [custom module developer guide](../developer/custom-modules/index.md) article to get started. The guide contains a example plugin with a custom module that you can download.
 
 ## Does Beaver Builder work with Posts and Custom Post Types?
 
 Yes! By default, Beaver Builder is only enabled for pages, but you can easily enable it for posts and custom post types from the Beaver Builder settings by going to **Settings > Beaver Builder > Post Types** from the WordPress admin panel.
 
-See the [Settings - Post Types](settings/post-types.md) article for more information.
-
 ## How does White Labeling work?
 
-The [Agency and Ultimate packages](https://www.wpbeaverbuilder.com/pricing/) allows you to [“white label” Beaver Builder](settings/branding.md) and give your clients a truly white-glove experience. White labeling allows you to replace the words Beaver Builder and the Beaver Builder logo with your own company's name or logo in the Beaver Builder and WordPress UI.
+The [Agency and Ultimate packages](https://www.wpbeaverbuilder.com/pricing/) allows you to white label Beaver Builder and give your clients a truly white-glove experience. White labeling allows you to replace the words Beaver Builder and the Beaver Builder logo with your own company's name or logo in the Beaver Builder and WordPress UI.
 
 ## Can I include Beaver Builder as part of a premium or free WordPress theme?
 
 We don't support bundling or redistributing the premium versions of Beaver Builder with a theme, but you're free to do this with [the free version](https://wordpress.org/plugins/beaver-builder-lite-version/).
 
-For more information, see this [blog post about bundling the free version](https://www.wpbeaverbuilder.com/integrating-a-page-builder-with-your-wordpress-themes/) of Beaver Builder or [Template Author](templates/template-authors.md).
+For more information, see this [blog post about bundling the free version](https://www.wpbeaverbuilder.com/integrating-a-page-builder-with-your-wordpress-themes/) of Beaver Builder or Template Authors.
 
 ## Does Beaver Builder support shortcodes?
 
@@ -190,11 +176,9 @@ If you add the shortcode to a HTML module, you should be able to use shortcodes 
 
 Additionally, Beaver Builder comes with its own shortcode that lets you insert templates, rows, columns, and modules directly into your layout.
 
-See [the shortcodes article](shortcode/index.md) for more information.
+See [the shortcodes article](../advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md) for more information.
 
 ## Can I include Beaver Builder as part of my hosted website builder platform?
 
 Yes! The features included in our Ultimate, and Agency licenses are geared towards those
 that wish to create their own DIY hosted website publishing business (like SquareSpace).
-
-See the [DIY Website Builder Platform](advanced/diy-website-builder-platform.md) article for more information.

@@ -21,7 +21,7 @@ way these words are used.
 :::
 
 Here are the types of WordPress-generated archives and how to find an example
-of each. In all cases, you must have at least one [post](/general/glossary.md/#post-wp) created to see an archive.
+of each. In all cases, you must have at least one post created to see an archive.
 
 ### Blog posts index and Posts page
 
@@ -30,7 +30,7 @@ chronological order on the front page of your site if you accept the default
 selection to display your latest posts in **Settings > Reading**, as shown in
 the screenshot below. A website can have at most one blog posts index.
 
-The Posts page setting is optional, used only in the case where your home page is static and you want a list of your posts to appear on another [static page](/general/glossary.md/#page-wp) besides the home page. You select the static front page and the Posts page in **Settings > Reading**. The following screenshot shows that the
+The Posts page setting is optional, used only in the case where your home page is static and you want a list of your posts to appear on another static page besides the home page. You select the static front page and the Posts page in **Settings > Reading**. The following screenshot shows that the
 site's front page is set to a static page called Home, and the Posts page is a
 static page that was created with no content and titled Blog.
 

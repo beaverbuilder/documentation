@@ -4,7 +4,7 @@ title: Add Yoast breadcrumbs to your site
 sidebar_label: Add Yoast breadcrumbs
 ---
 
-You can easily add a breadcrumb provided by the Yoast SEO plugin to your Beaver Builder child theme. There are two versions of the code. The first displays the breadcrumb on all pages and posts on your site. The second displays the breadcrumb everywhere except a [static home page](/general/glossary.md/#static-page-wp).
+You can easily add a breadcrumb provided by the Yoast SEO plugin to your Beaver Builder child theme. There are two versions of the code. The first displays the breadcrumb on all pages and posts on your site. The second displays the breadcrumb everywhere except a static home page.
 
 <div className="embed-responsive">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VZ_ntbMt2pw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

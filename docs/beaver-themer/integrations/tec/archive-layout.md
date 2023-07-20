@@ -9,7 +9,7 @@ Use an Archive layout to design the following types of archive pages for The Eve
   * A page that displays the event calendar or lists a set of events
   * A page that lists events for a specific category or tag
 
-For an introduction to how Themer layouts work with The Events Calendar plugin, see the [overview article](/beaver-themer/integrations/the-events-calendar/beaver-themer-and-the-events-calendar-plugin.md).
+For an introduction to how Themer layouts work with The Events Calendar plugin, see the [overview article](/beaver-themer/integrations/tec/getting-started.md).
 
 Here's how to create and design a Themer layout for an Events archive page.
 

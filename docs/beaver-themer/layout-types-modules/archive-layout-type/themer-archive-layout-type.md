@@ -58,7 +58,7 @@ Choose **Post tag archive** in the **Location** field to make the Themer layout 
 
 If you create a custom post type, the name will show up as a separate group in the **Location** list on the Themer layout editing page. If you create categories or tags for your custom post type, the custom category archive or tag archive also appears in the list.
 
-This also applies to plugins that create their own custom post types, such as the [WooCommerce plugin](/beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce.md), [The Events Calendar plugin](/beaver-themer/integrations/the-events-calendar/create-an-archive-themer-layout-for-the-events-calendar-plugin.md), and the [Easy Digital Downloads plugin](/beaver-themer/integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets.md). 
+This also applies to plugins that create their own custom post types, such as the [WooCommerce plugin](/beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce.md), [The Events Calendar plugin](/beaver-themer/integrations/tec/archive-layout.md), and the [Easy Digital Downloads plugin](/beaver-themer/integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets.md). 
 
 ###  Locations that Archive layouts don't apply to
 

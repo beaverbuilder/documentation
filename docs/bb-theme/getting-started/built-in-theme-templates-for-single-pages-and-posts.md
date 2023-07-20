@@ -4,15 +4,15 @@ title: Built-in theme templates for single pages and posts
 sidebar_label: Built-in theme templates for single pages and posts
 ---
 
-The Beaver Builder Theme adds a few templates to [WordPress page templates](/general/glossary.md/#page-template-wp) to give you options to change the look of the theme areas of single pages or posts.
+The Beaver Builder Theme adds a few templates to WordPress page templates to give you options to change the look of the theme areas of single pages or posts.
 
-:::note **Note**
+:::info
 The page templates described in this article are only available with the Beaver Builder Theme. If you're using another theme, you may have other template choices, or you might not see the **Template** field at all.
 :::
 
 ## What templates are we talking about?
 
-There are many different kinds of templates in WordPress and Beaver Builder. Here we're referring to the **Template** field you see on the WordPress editing page for individual pages and posts. These options affect the parts of the page or post that lie outside the [content area](/general/glossary.md/#content-area-wp), such as header footer, sidebar, featured image, and post info.
+There are many different kinds of templates in WordPress and Beaver Builder. Here we're referring to the **Template** field you see on the WordPress editing page for individual pages and posts. These options affect the parts of the page or post that lie outside the content area, such as header footer, sidebar, featured image, and post info.
 
 On a page, the **Template** field appears as a selection in the **Page attributes** panel when editing a page in the WordPress editor, as in the following screenshot:
 
