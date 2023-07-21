@@ -12,7 +12,7 @@ To get started, create your [User field](https://www.advancedcustomfields.com/re
 
 ## Field Connection List Panel
 
-To use the User field to output a user in a page or post, after you click the plus **(+)** icon to [connect or insert](../../work-with-field-connections.md#connect-vs-insert) the field connection shortcode, select **ACF Relational** in the [Field Connection list panel](../../work-with-field-connections.md#add-a-field-connection).
+To use the User field to output a user in a page or post, after you click the plus **(+)** icon to connect or insert the field connection shortcode, select **ACF Relational** in the Field Connection list panel.
 
 ![](/img/beaver-themer/integrations--acf--user-field--1.jpg)
 

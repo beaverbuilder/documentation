@@ -15,7 +15,7 @@ Here's a screenshot of the **User access** tab, with a description below.
 
 Each of four WordPress user roles -- Administrator, Editor, Author, Contributor -- can independently be granted or denied access to two Beaver Builder areas in the front end and two areas in the admin area, as described below.
 
-:::note **Note**
+:::info
 If other plugins add custom roles or you create your own roles, the custom roles that match the built-in WordPress role of Contributor or higher will also appear in the Beaver Builder user access lists.
 :::
 
@@ -53,7 +53,7 @@ If a user with the role of Editor clicks **Edit**, which would normally bring up
 
 If Beaver Themer is installed, a user with Editor role who's denied Builder access won't see an option to edit Themer layouts in Beaver Builder, but if they click **Edit**, they'll see the typical WordPress editing screen and will be able to edit Themer layout information on that page, such as location and user access. To prevent them from doing that, change access in the **Themer layout editing** field on the **User access** tab at **Settings > Beaver Builder**.
 
-:::note **Note**
+:::info
 Removing a user role in the **Builder access** field removes access to the Beaver Builder editor entirely. In contrast, restricting access in the **Unrestricted editing** field allows the user to open the Beaver Builder
 editor but only change content and settings for an existing module. See the next section for more information.
 :::
@@ -117,7 +117,7 @@ Having access means the following:
 * You can see the Builder menu in the WordPress admin panel
 * You can edit and save templates, rows, and modules
 
-  :::note **Note**
+  :::info
   Enabling a user role in this field depends on unrestricted frontend  access for that user role. See the User access hierarchy section below.
   :::
 

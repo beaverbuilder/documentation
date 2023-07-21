@@ -12,7 +12,7 @@ description: Here's how to create an anchor for a specific part of the page and 
 You can add a menu item whose link goes to a specific section on the same page
 or a section on a different page. This works both with menus you set up in your theme and menus in the Beaver Builder Menu module. It's particularly useful for single-page websites where you have a menu for the various sections on that  page.
 
-:::note **Note**
+:::info
 If the section is on the same page as the link, there's a smooth scroll to the
 linked section. If the link goes to a section on a different page, there's an
 immediate jump to that section on the other page.

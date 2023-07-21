@@ -6,14 +6,6 @@ sidebar_label: Getting Started
 
 This article covers how to get started using Beaver Themer with The Events Calendar plugin.
 
-## Preqrequisites
-
-Before you begin, ensure that you have the following installed and activated:
-
-* [Beaver Builder Plugin](https://www.wpbeaverbuilder.com/)
-* [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/)
-* The Events Calendar - [Free](https://wordpress.org/plugins/the-events-calendar/) or [Premium](https://theeventscalendar.com/product/wordpress-events-calendar-pro/)
-
 ## Basics of The Events Calendar plugin
 
 The Events Calendar is really a custom post type. By default, events are posted on a page called events (_mysite.com/events_). This page is a custom WordPress index page, and by default, it displays events in three views:

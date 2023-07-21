@@ -24,7 +24,7 @@ file, as shown in the following screenshot.
 If you choose more than one audio file, additional options are displayed in
 the settings, as shown in the following screenshot and described below.
 
-:::note **Tip:**
+:::info
 If the module content disappears when you add an audio file or edit
 the Audio module settings, save the module and reload the page in your
 browser. You can do this even before you publish the page as long as you have
@@ -90,7 +90,7 @@ The Audio module is a wrapper for WordPress’ core
 the links to the WordPress codex for more information. If you prefer, you can
 embed these shortcodes into HTML modules instead of using the Audio module.
 
-The Beaver Builder Custom Module Developer Guide describes a [Multiple Audios field](/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference#multiple-audios-field), which can display a WordPress media lightbox that lets users select
+The Beaver Builder Custom Module Developer Guide describes a [Multiple Audios field](../../developer/custom-modules/10-setting-fields-reference.md#multiple-audios-field), which can display a WordPress media lightbox that lets users select
 multiple audio files.
 
 ## Advanced tab

@@ -32,7 +32,7 @@ Here are some things that presets control. For a diagram of the portions of the 
 
 The first decision to make about a preset is whether you want a full-width, boxed, or hybrid layout. If you try to change this layout setting in **Customize > General > Layout**, the preset will change it back, so it's a good idea to decide if you want a full-width or boxed layout before you choose a preset.
 
-:::note **Note**
+:::info
 If you customize a preset and then choose a different preset, you'll probably lose some of your Customizer settings.
 :::
 
@@ -63,7 +63,7 @@ These hybrid presets use CSS to achieve their hybrid layout, so this can be a ti
 
 The preset sets initial colors in all of the page layout areas: page background, header, footer, and content area background, text, and link colors, You can change any of these colors in the Customizer. On the other hand, if you plan to customize, it's also easy to start with the **Default** preset and set your own layout and colors in the Customizer.
 
-:::note **Note**
+:::info
 Whether or not you use a preset, nav bar color can only be different from the header logo area for two of the header layouts: **Nav centered** or **Nav bottom**. You can change the header layout of any preset, either adding or removing the ability to change the nav bar colors, using **Customize > Header > Nav Style**.
 :::
 

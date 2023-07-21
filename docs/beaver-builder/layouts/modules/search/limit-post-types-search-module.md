@@ -24,7 +24,7 @@ add_filter( 'fl_builder_loop_query_args', function( $args ){
 });
 ```
 
-:::note **Note**
+:::info
 The code affects all Search modules on your site.
 :::
 

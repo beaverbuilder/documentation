@@ -8,6 +8,6 @@ If you have the [BigCommerce plugin](https://www.bigcommerce.com/essentials/word
 
 These settings are controlled by the BigCommerce plugin. See the [Big Commerce plugin documentation for the Customizer settings](https://support.bigcommerce.com/s/article/BigCommerce-for-WordPress-Plugin-Settings#theme-customizer) for more information about the settings on this tab.
 
-:::note **Note**
+:::info
 If you set a custom global button style for Beaver Builder in **Customizer > General > Buttons**, it will override the custom button color and button text color set in **Customizer > BigCommerce > Color & Theme**.
 :::

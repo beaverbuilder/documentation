@@ -12,6 +12,6 @@ In the Beaver Builder Theme, non-blog-related widgets can only appear in the foo
 
 You can [set options for footer widgets](/bb-theme/customizer-settings/footer.md) in **Customize > Footer > Footer Widget Layout** and **Customize > Footer > Footer Widget Style**.
 
-:::note **Note**
+:::info
 If you enable footer widgets, [set up the widget content](/bb-theme/customizer-settings/widgets.md) in **Customize > Widgets**.
 :::

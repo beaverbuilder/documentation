@@ -49,5 +49,3 @@ Please note that we cannot guarantee that older versions of Beaver Builder will 
 
 For these reasons, if you decide not to renew your license, we advise you to start thinking about moving your content to another solution.
 :::
-
-If you want to stop using Beaver Builder entirely, see the [Uninstall](settings/tools.md#uninstall) section on the [Tools](settings/tools.md) article.

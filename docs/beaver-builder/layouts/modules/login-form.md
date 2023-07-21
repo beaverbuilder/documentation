@@ -7,7 +7,7 @@ description: The Login Form module adds a login form to your layout. This is use
 
 The Login Form module lets you add a login to Beaver Builder layouts. A typical use of this module is to provide a login for registered members to access restricted areas of the site.
 
-:::note **Note**
+:::info
 If you have two-factor authentication enabled for some user roles, for example by using a security plugin, this module may not work for those user roles because the plugin hooks into/replaces the standard WordPress login form. If you find the login is hanging at "Please wait," check your security settings. You could consider disabling two-factor authentication for the roles you want to be able to log in.
 :::
 
@@ -15,7 +15,7 @@ The default settings of the Login module are shown in this screenshot:
 
 ![](/img/button-group-fef47f3d.png)
 
-:::note **Note**
+:::info
 If you're using the Beaver Builder Theme, the buttons' initial style comes from the settings at **Customize > General > Buttons**. The button's default text color
 is white text for darker accent colors and black text for lighter colors. The
 default font family for the button text depends on the font family set for the

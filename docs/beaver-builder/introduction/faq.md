@@ -62,7 +62,7 @@ See our [Terms and Conditions](https://www.wpbeaverbuilder.com/terms-and-conditi
 
 ## Is Beaver Builder a plugin or a theme?
 
-Beaver Builder is a WordPress page builder plugin and can be installed using the [WordPress plugin installer](getting-started/install.md). However, some of our premium packages includes the [BB Theme](/bb-theme/).
+Beaver Builder is a WordPress page builder plugin and can be installed using the WordPress plugin installer. However, some of our premium packages includes the [BB Theme](/bb-theme/).
 
 See our [Pricing page](https://www.wpbeaverbuilder.com/pricing/) for more information.
 

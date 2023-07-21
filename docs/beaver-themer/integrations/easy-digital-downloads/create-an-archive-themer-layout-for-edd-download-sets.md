@@ -58,6 +58,6 @@ The Downloads module is a "shortcut" module. It's actually a Posts module with s
 
 That's why you can add a Downloads module from the EDD modules group in the Content panel, but when you mouse over the wrench icon in the layout, you'll see the label **Posts settings**.
 
-:::note **Note**
+:::info
 The **Download Image** section in the EDD **Edit download** screen is the featured image with a different label, so it is treated as a featured image in Beaver Builder. If you show or hide the featured image in the Posts module, it will show or hide this download image.
 :::

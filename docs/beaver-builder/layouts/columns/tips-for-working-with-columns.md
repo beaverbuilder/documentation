@@ -24,7 +24,7 @@ Make sure the **Group** name is **Columns**. You'll see a selection of column la
 2. Drag the column layout you want into your layout.  
 A new row is created if you drop the column layout outside of an existing row. If you drop the column layout inside an existing column, a child column layout is created.
 
-:::note **Note**
+:::info
 If you are unable to drop the column layout where you want it, most likely you have exceeded the [column limits](/beaver-builder/layouts/columns/column-layouts-overview.md#c#basic-column-rules-and-limits) in that location.
 :::
 

@@ -10,7 +10,7 @@ Beaver Themer has the following requirements.
 
   * Beaver Builder plugin (premium - it is not compatible with Beaver Builder Lite Version), version 1.10 or higher, though the latest version is recommended.
 
-:::note **Note**
+:::info
 Beaver Themer runs on multisite installations if you have the Pro or Agency version of Beaver Builder plugin installed.
 :::
 

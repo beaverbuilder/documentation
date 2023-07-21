@@ -11,7 +11,7 @@ The Event Export Links module displays an event's two export links. One link let
 
 ## Availability
 
-The Event Export Links module appears in **The Events Calendar** section of the **Themer modules** group in the [Content panel](/beaver-builder/getting-started/bb-editor-basics/content-panel) when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
+The Event Export Links module appears in **The Events Calendar** section of the **Themer modules** group in the Content Panel when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
 
 ## Style tab
 

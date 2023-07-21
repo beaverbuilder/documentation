@@ -427,7 +427,7 @@ username: {
 },
 ```
 
-:::note **Note**
+:::info
 The `{search}` string will be replaced with the user’s current search string.
 :::
 

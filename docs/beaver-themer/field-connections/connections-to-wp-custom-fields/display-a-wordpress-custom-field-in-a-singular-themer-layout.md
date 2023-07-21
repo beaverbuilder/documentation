@@ -40,6 +40,6 @@ It's easy to do this by creating a custom field in WordPress and then using the 
 If you want to add some static text on the same line as the custom field, you can use a field connection shortcode instead.
 :::
 
-:::note **Note**
+:::info
 To remove a custom field, you'll need to edit your database using a plugin tool or phpMyAdmin in cPanel.
 :::

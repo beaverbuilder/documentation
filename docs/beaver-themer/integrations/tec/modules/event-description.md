@@ -9,7 +9,7 @@ The Event Description module is a basic module which has no configuration or sty
 
 ## Availability
 
-The Event Description module appears in **The Events Calendar** section of the **Themer modules** group in the [Content panel](/beaver-builder/getting-started/bb-editor-basics/content-panel) when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
+The Event Description module appears in **The Events Calendar** section of the **Themer modules** group in the Content Panel when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
 
 ## The Advanced tab
 

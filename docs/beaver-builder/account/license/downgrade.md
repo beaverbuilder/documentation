@@ -36,7 +36,7 @@ If you're downgrading, you can get your new version on the [My Account](https://
 
 ## Downgrade to another Premium Version
 
-Follow the [standard installation instructions](getting-started/install.md) to install the new version.
+Follow the [standard installation instructions](../../getting-started/install.md) to install the new version.
 
 When you downgrade, you'll lose the features from the higher version. No matter which premium version you use, you'll have access to the entire set of Beaver Builder plugin rows, columns, modules, and templates, both on the rendered pages and in the Beaver Builder editor.
 

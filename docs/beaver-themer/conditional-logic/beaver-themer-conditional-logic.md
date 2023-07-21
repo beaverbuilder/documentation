@@ -25,7 +25,7 @@ You can apply conditional logic in two different locations:
 * In the **Display** setting on the **Advanced** tab of any row, column, or module in a Beaver Builder layout:  
   ![](/img/conditional-logic-module_800.png)  
 
-:::note **Note**
+:::info
 The **Display** setting is always available in Beaver Builder layouts, but the **Conditional Logic** choice only appears when Beaver Themer is installed.
 :::
 
@@ -66,7 +66,7 @@ While the difference is subtle, the column group containing the custom field for
 
 The solution is to set a normal field connection to the custom field in the module and then add conditional logic to the row or column containing it to display the row or column only when the custom field value exists. Here's how.
 
-:::note **Note**
+:::info
 With this procedure, if you have any other content in the row or column in addition to the custom field, it will also be hidden when the custom field has no value. Plan your rows, columns, and modules so you'll be showing and hiding what you want.
 :::
 
@@ -129,7 +129,7 @@ With Beaver Themer installed, in either a standard Beaver Builder layout or a Th
 
 The rules you set there determine the conditions under which the row, column, or module is visible.
 
-:::note **Note**
+:::info
 You can use conditional logic in any Beaver Builder layout, but conditional logic is only available when Beaver Themer is installed.
 :::
 
@@ -139,43 +139,43 @@ Rows, columns, and modules have the following conditional logic selections for r
 
 #### Posts
 
-  * Post
-  * Post parent
-  * Post type
-  * Post title
-  * Post excerpt
-  * Post content
-  * Post featured image
-  * Post comments number
-  * Post template
-  * Post taxonomy term
-  * Post status
-  * Post custom field
+* Post
+* Post parent
+* Post type
+* Post title
+* Post excerpt
+* Post content
+* Post featured image
+* Post comments number
+* Post template
+* Post taxonomy term
+* Post status
+* Post custom field
 
 #### Archive
 
-  * Archive
-  * Archive title
-  * Archive description
-  * Archive taxonomy term
-  * Archive term meta
+* Archive
+* Archive title
+* Archive description
+* Archive taxonomy term
+* Archive term meta
 
 #### Author
 
-  * Author
-  * Author bio
-  * Author meta
-  * Author login status
+* Author
+* Author bio
+* Author meta
+* Author login status
 
 #### User
 
-  * User
-  * User bio
-  * User meta
-  * User login status
-  * User role
-  * User capability
-  * User registered
+* User
+* User bio
+* User meta
+* User login status
+* User role
+* User capability
+* User registered
 
 #### Browser
 
@@ -192,25 +192,25 @@ The following conditional rules appear when the following third-party plugins ar
 
 #### WooCommerce
 
-  * Customer products purchased
-  * Customer first ordered
-  * Customer last ordered
-  * Customer total orders
-  * Customer total products
-  * Customer total spent
-  * Customer billing address
-  * Customer shipping address
-  * Cart
-  * Cart products
-  * Cart total
+* Customer products purchased
+* Customer first ordered
+* Customer last ordered
+* Customer total orders
+* Customer total products
+* Customer total spent
+* Customer billing address
+* Customer shipping address
+* Cart
+* Cart products
+* Cart total
 
 #### Advanced Custom Fields
 
-These choices refer to the source or destination of the ACF field on your site. For more information, see [the article about ACF field connections](/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer.md).
+These choices refer to the source or destination of the ACF field on your site. For more information, see [the article about ACF field connections](../integrations/acf/index.md).
 
-  * ACF Archive field
-  * ACF Post field
-  * ACF Post Author field
-  * ACF User field
-  * ACF Option field
+* ACF Archive field
+* ACF Post field
+* ACF Post Author field
+* ACF User field
+* ACF Option field
 

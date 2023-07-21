@@ -17,7 +17,7 @@ The Font Awesome 5 icon set is huge, so in **Settings > Beaver Builder > Icons**
 
 These choices match the choices available on the [Font Awesome website](https://fontawesome.com/icons?d=gallery). Each subset has a basic set for the free version and an extra set for the Pro version, except for the Light and Duotone subsets, which have Pro icons only. See [how to enable the Font Awesome Pro sets](/beaver-builder/styles/icons/enable-font-awesome-pro-icon-sets.md).
 
-:::note **Note**
+:::info
 Beaver Builder supports the Font Awesome plugin. When it's activated, you can use that plugin's shortcodes in your Beaver Builder layouts, improve search in Beaver Builder editor's icon picker, and make it easier to add Font Awesome Pro icons. When the plugin is not activated, or for icon sets other than Font Awesome, only the icon slugs are searched.
 :::
 

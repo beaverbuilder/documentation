@@ -13,7 +13,7 @@ You can move both main columns and child columns and preserve the column style s
 
 ![](/img/move-column-1.jpg)
 
-:::note **Note**
+:::info
 If the column is narrow, you'll see a **More** icon in the menu instead of the normal set. Click **More**, then **Edit
 column**.
 :::

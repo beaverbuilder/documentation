@@ -11,7 +11,7 @@ The Event Map module displays an event's address using Google Maps with an optio
 
 ## Availability
 
-The Event Map module appears in **The Events Calendar** section of the **Themer modules** group in the [Content panel](/beaver-builder/getting-started/bb-editor-basics/content-panel) when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
+The Event Map module appears in **The Events Calendar** section of the **Themer modules** group in the Content Panel when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
 
 ## Style tab
 

@@ -46,7 +46,7 @@ This template adds the Beaver Builder Theme's primary sidebar to your page, as s
 
 ![](/img/built-in-theme-templates-for-single-pages-and-posts-7c1d3b25.jpg)
 
-:::note **Note**
+:::info
 The Beaver Builder Theme only has one sidebar, called **Primary**, so that's the one inserted.
 :::
 

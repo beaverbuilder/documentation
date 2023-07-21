@@ -55,7 +55,7 @@ choose the correct file.
 
   3. Replace the hex values in the code with the hex value for each color you want to define. Add or remove `$colors[]` lines accordingly.
 
-:::note **Note**
+:::info
 Don't use the hashtag (#) symbol with the hex values in this Beaver Builder code.
 :::
 

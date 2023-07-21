@@ -11,7 +11,7 @@ background image in the slide (unless you select the option to hide it), with
 post info and content overlaid on the slide. See examples of Posts Slider
 layouts in [this article](/beaver-builder/layouts/modules/posts/posts-slider.md).
 
-:::note **Note**
+:::info
 Some features are distributed across more than one tab. For example,
 you can set the featured image to display as a thumbnail instead of a
 background on the **Layout** tab. On the **Style** tab, you can then set the

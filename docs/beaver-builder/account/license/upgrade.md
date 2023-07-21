@@ -27,7 +27,7 @@ version.
 
 1. Download the Beaver Builder .zip file from your [My Account](https://www.wpbeaverbuilder.com/my-account/).
 
-2. [Install](getting-started/install.md) the Beaver Builder .zip file and replace the current version of Beaver Builder.  
+2. [Install](../../getting-started/install.md) the Beaver Builder .zip file and replace the current version of Beaver Builder.  
   
   :::info
   If you don't install the upgraded version immediately, your previous premium version of the plugin will continue to notify you of updates on the WordPress **Plugins** menu.

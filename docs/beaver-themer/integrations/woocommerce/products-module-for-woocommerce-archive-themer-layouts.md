@@ -37,7 +37,7 @@ On the **Content** tab, if you leave the query set to **Main query**, the produc
 
 On the other hand, if you choose **Custom query** for the query type, you can change how products are ordered, or in the **Filters** section you can include or exclude particular products, product categories, or product tags. To specify which products, categories, or tags, start typing the name, and the autocomplete will let you select the one you want.
 
-:::note **Note**
+:::info
 If you use a custom query in a Themer layout, you will get the same products displayed on every type of archive page. For example, suppose you exclude the product category of hoodies in your custom query filter. If your Themer layout applies to product category archive pages, you'll get a listing of every product except hoodies, even on the Hoodies category archive page. In other words, the products no longer depend on the type of archive page they appear in, they only depend on the custom query in the Themer layout. 
 
 This means that in most cases, a custom query will only work well when the Themer layout applies to one particular page. For example, you might want to exclude a few specific hoodies from the Hoodies product archive page, so you could create a Themer archive layout that applies only to the Hoodies product category archive, then use a custom query with a filter that excludes the particular hoodies you don't want to display.

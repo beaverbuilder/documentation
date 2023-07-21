@@ -43,7 +43,7 @@ padding, the column and the module are 800px wide and centered horizontally on
 the page. In the example shown in the screenshot above, the heading and text
 are left-justified within that content width.
 
-:::note **Note**
+:::info
 When you set a fixed width, you are actually setting the max width.
 A fixed-width setting of 800px means the width will never be more than 800px
 wide, but it will shrink as screen size decreases, to ensure the layout is

@@ -13,7 +13,7 @@ Technically, true archive pages have some type of filter applied to them
 (date, author, category), but the blog posts index and Posts page are often
 included under the term *archive*.
 
-:::note **Note**
+:::info
 There's a certain amount of confusion in WordPress itself over
 terminology. Different terms are sometimes used in the WordPress UI versus the
 names of template files. It's good to be aware of possible variations in the

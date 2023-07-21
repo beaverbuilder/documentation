@@ -7,7 +7,7 @@ sidebar_label: Edit or delete saved layout templates
 You can edit or delete your saved layout templates either through the **Beaver
 Builder** admin panel or from within the Beaver Builder editor.
 
-:::note **Note**
+:::info
 Editing or deleting a saved layout template has no effect on any
 pages using that template.
 :::
@@ -22,7 +22,7 @@ If you moved the template to the trash, you're done at this point.
 
   3. If you're editing the template, make any changes in the Beaver Builder editor, then click **Done > Publish**.
 
-:::note **Note**
+:::info
 Deleted templates remain available in the trash until you
 permanently delete them.
 :::

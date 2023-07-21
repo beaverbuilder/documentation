@@ -8,7 +8,7 @@ slug: create-custom-fields
 In addition to creating custom modules, developers can also define custom
 fields for use in settings forms using their own HTML.
 
-:::note **Note**
+:::info
 The custom fields in settings forms are purely JavaScript-based.
 :::
 
@@ -20,7 +20,7 @@ WordPress core uses for wp.template. If you're not familiar with those type of
 templates, read up on [Underscores templates](http://underscorejs.org/#template) and
 [wp.template](https://codex.wordpress.org/Javascript_Reference/wp.template).
 
-:::note **Note**
+:::info
 You do not need to wrap your template in `<script></script>` tags
 with an ID. Beaver Builder will handle that for you.
 :::
@@ -60,7 +60,7 @@ array to your callback function with the array keys being the field types and
 the array values being the paths to the fields. The field type you enter will
 be what you need to use in your module's form config to use that field.
 
-:::note **Note**
+:::info
 Your field type should be prefixed so it doesn't clash with core
 field types or other custom fields. For example, if you have a field type
 `toggle`, it should be `my-toggle` in case the core plugin ever introduces a

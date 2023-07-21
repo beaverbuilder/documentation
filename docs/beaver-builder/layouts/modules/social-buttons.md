@@ -5,7 +5,7 @@ sidebar_label: Social Buttons
 description: The Social Buttons module is a legacy module that displays social icons. There are a number of social icon plugins that can replace this module.
 ---
 
-:::note **Note**
+:::info
 The Social Buttons module is no longer displayed in the content
 panel by default in the Beaver Builder editor. We recommend a plugin such as
 [Scriptless Social Sharing](https://wordpress.org/plugins/scriptless-social-sharing/) to display social icons in content layouts. If you're using the Social Buttons module in a layout, it will continue to work. If you want to add the Social Buttons module to a layout, go to **Settings > Beaver Builder > Modules** and select the **Social buttons** checkbox to enable it in the

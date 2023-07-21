@@ -6,7 +6,7 @@ sidebar_label: Menus tab
 
 To display a new menu, you have to create a menu, choose what it will contain, and associate the menu with one or more locations in the Beaver Builder Theme's layout. You can create up to three separate menus.
 
-:::note **Note**
+:::info
 You can also create or edit the menu and specify menu locations by going to **Appearance > Menus** from the WordPress admin panel.
 :::
 

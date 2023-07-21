@@ -112,7 +112,7 @@ If you have WooCommerce, The Events Calendar, or Easy Digital Downloads (EDD) in
 
 In addition to specialized modules for Archives, you can use standard Beaver Builder modules in your Archive-type Themer layouts and add field connections, so the content adjusts according to the page the layout applies to. All of the following field connections can be used in standard Beaver Builder modules with text fields (such as Heading and Text Editor).
 
-:::note **Note**
+:::info
 All of the items in this list work as field connections but not as field connection shortcodes.
 :::
 

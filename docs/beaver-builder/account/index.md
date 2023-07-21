@@ -22,7 +22,7 @@ You can only create a Beaver Builder account by purchasing a Beaver Builder lice
 In the My Downloads section, you will find all product .zip files included with your license. It is also possible to download previously released versions in case you encounter a problem with the current release, as well as developer previews, alphas, and beta versions if they are available.
 
 :::info
-By enabling the [Prerelease Updates](settings/tools.md##prerelease-updates) option in Beaver Builder settings, you can easily install Beaver Builder product alpha and beta releases.
+By enabling the Prerelease Updates option in Beaver Builder settings, you can easily install Beaver Builder product alpha and beta releases.
 :::
 
 ### Domain Manager

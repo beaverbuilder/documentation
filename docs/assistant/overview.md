@@ -5,9 +5,12 @@ sidebar_label: Introduction
 slug: /assistant/
 ---
 
-<div className="docs-lead">
+<head>
+  <body className="introduction-article" />
+</head>
+
 Welcome to the Assistant Pro Cloud documentation. This is a comprehensive guide to the Assistant plugin and Assistant Pro Cloud. We’ll cover topics such as installation, how to manage your WordPress assets, and tutorials to speed up your workflow.
-</div>
+
 
 <div className="embed-responsive margin-top--lg">
   <iframe

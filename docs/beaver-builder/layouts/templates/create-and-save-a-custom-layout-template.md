@@ -33,7 +33,7 @@ If you don't see **Beaver Builder** in the admin panel, see [this article](/beav
   4. Click **Launch Beaver Builder** and construct the layout.
   5. To save the layout template, click **Done > Publish**.
 
-:::note **Note**
+:::info
 Layout templates are not public pages on your site and are not available for indexing by search engines.
 :::
 

@@ -46,7 +46,7 @@ Typography font size (multiple modules)  |  ✓  |  |  ✓  |  ✓  | ✓ |
 Typography font line height (multiple modules)  |  ✓  |  |  ✓  |  |  |  
 Icon size (modules with icons)  |  ✓  |  |  ✓  |  ✓  |  |  
 
-:::note **Note**
+:::info
 If you don't see a setting here, chances are the unit is **px** only.
 :::
 

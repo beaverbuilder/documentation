@@ -21,6 +21,6 @@ If you have the WooCommerce plugin installed, you'll see a **WooCommerce** tab i
   * Enter text for a privacy policy that will appear on the Checkout page.
   * Enter text for terms and conditions that will appear on the Checkout page.
 
-:::note **Note**
+:::info
 If you have custom button settings at **Customize > General > Buttons**, they apply to WooCommerce buttons as well.
 :::

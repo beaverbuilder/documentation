@@ -73,7 +73,7 @@ Depending on the ACF field type and Beaver Builder settings, additional options 
 
 ## Automatic Field Detection & Population
 
-Beaver Themer automatically detects any custom fields created in Advanced Custom Fields. When you select any ACF field category from the [Field Connection Panel List](../work-with-field-connections.md#add-a-field-connection) as a field connection, the Detected Fields dropdown lists all ACF fields available.
+Beaver Themer automatically detects any custom fields created in Advanced Custom Fields. When you select any ACF field category from the Field Connection Panel List as a field connection, the Detected Fields dropdown lists all ACF fields available.
 
 The detected fields in the dropdown have the following format:
 

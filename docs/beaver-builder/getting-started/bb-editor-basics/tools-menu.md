@@ -41,7 +41,7 @@ Edit your layout directly in a medium or small device view, as shown in this scr
 
 Display the previously published revisions available to revert to. The number of revisions available is displayed in brackets. This menu item uses the core WordPress revision feature but makes it more convenient to view and access revisions. See [this article](/beaver-builder/advanced-builder-techniques/restore-a-previous-version.md) for more information about restoring previous versions.
 
-:::note **Note** 
+:::info 
 Only published pages count as revisions. Saved drafts of pages are not available as revisions. 
 :::
 
@@ -57,7 +57,7 @@ Beaver Builder editor settings that apply as defaults. Most of these settings ca
 
 A green dot displays if any custom CSS or JavaScript has been added to this menu item. Since CSS and JavaScript added here applies to all Beaver Builder pages, after you add the custom code to one page, that code and this green dot will be visible on every page.
 
-:::note **Note** 
+:::info 
 Use this CSS and JavaScript tab for page content layouts only. If the CSS or JavaScript applies to parts of the page controlled by the theme or a Beaver Themer layout, use **Customize > Additional CSS**.
 :::
 

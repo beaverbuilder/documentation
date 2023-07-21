@@ -6,7 +6,7 @@ sidebar_label: Choose how Font Awesome icons load in Beaver Builder Theme
 
 Font Awesome Version 5 is not backwards-compatible with Font Awesome 4, so the Beaver Builder Theme has a **Font Awesome Icons** field on the **Customize > General > Layout** tab to aid the transition by letting you control whether Font Awesome loads on your website pages and which version loads.
 
-:::note **Note**
+:::info
 In **Settings > Beaver Builder > Icons** you can no longer enable the Font Awesome 4 icon set in order to select FA4 icons. If you have Font Awesome 4 icons in your existing layouts, a shim loads automatically to convert those icons to Font Awesome 5.
 :::
 

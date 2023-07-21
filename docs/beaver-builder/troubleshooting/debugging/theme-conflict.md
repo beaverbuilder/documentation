@@ -98,6 +98,6 @@ function fix_bb_jquery() {
 add_action('wp_enqueue_scripts', 'fix_bb_jquery', 11, 1);
 ```
 
-:::note **Note**
+:::info
 If the theme has hard-coded the jQuery version, there's no workaround.
 :::

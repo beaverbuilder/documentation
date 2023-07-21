@@ -81,7 +81,7 @@ If you choose a **Photo** background and set **Position** to **Custom position**
 
 See this[ tip for determining column scope](/beaver-builder/layouts/columns/tips-for-working-with-columns.md#tip-3-figure-out-column-structure-for-existing-columns) to see where the background effect will apply.
 
-:::note **Note**
+:::info
 You can't add dynamic backgrounds to columns, such as videos,
 slideshows, or parallax.
 :::

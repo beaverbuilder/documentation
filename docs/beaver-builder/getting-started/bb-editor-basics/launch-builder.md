@@ -11,7 +11,7 @@ This article contains both video and written instructions for accessing the Beav
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zpAnDlIUbio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-:::note **Note**
+:::info
 By default, the Beaver Builder editor is enabled for page layouts only. You can [enable posts and custom post types in the Beaver Builder settings](/beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder.md).
 :::
 
@@ -30,7 +30,7 @@ Create a new page  and click the **Beaver Builder** tab or open an existing page
 
 ![](/img/the-basics-open-builder-editor-2.png)
 
-:::note **Note**
+:::info
 If you're using the Classic Editor plugin and don't see the **Beaver Builder** tab, one way to make it
 appear is to force the use of Classic editor rather than the WordPress block editor.
 On the WordPress admin panel, go to **Settings > Writing** and select **No**

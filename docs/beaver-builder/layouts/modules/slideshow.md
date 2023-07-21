@@ -139,7 +139,7 @@ There are six sections on this tab: an unnamed top section, **Control bar**, **C
 Choose whether or not to display larger arrows that appear on each side of the slides, shown in Figure 1. If the image is wide enough, they are overlaid on the image.  
 The actual color of the arrows depends on whether you set **Light** or **Dark** as the **Skin color** on the **General** tab. These arrows may appear inside or outside of the image, depending on image width and the **Crop** setting on the **General** tab.
 
-:::note **Note**
+:::info
 The navigation arrows in the control bar are controlled in the **Control bar** section.
 :::
 

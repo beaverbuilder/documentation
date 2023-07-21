@@ -58,7 +58,7 @@ Beaver Builder when a module is being deleted. Developers should override this
 method in their module class if they need to work with a module before it is
 deleted.
 
-:::note **Note**
+:::info
 This method is called when a module is updated and when it's removed
 from the page and should be used for things like clearing photo cache from
 Beaver Builder's cache directory. If you only need to run logic when a module

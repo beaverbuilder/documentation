@@ -20,7 +20,7 @@ The **Layout** tab has the following settings.
 
 Choose whether you want a full-width or boxed layout, as described below.
 
-:::note **Note**
+:::info
 You need to set rows to full width in your Beaver Builder content layouts to take advantage of full-width layout in the theme.
 :::
 
@@ -42,7 +42,7 @@ See the [overview of full-width and boxed layouts](/bb-theme/defaults-for-layout
 
 Sets the maximum width of the header and footer text within the full-width or boxed layout.
 
-:::note **Note**
+:::info
 The default maximum content width for header and footer content is **1100 pixels**. Setting the **Content width** value higher can result in header and footer margin problems when resizing the browser window--make sure to test.
 :::
 

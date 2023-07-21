@@ -15,7 +15,7 @@ You can use the classic text editor to add text, HTML, or shortcodes before or a
 
 ## Availability
 
-The Event Cost module appears in **The Events Calendar** section of the **Themer modules** group in the [Content panel](/beaver-builder/getting-started/bb-editor-basics/content-panel) when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
+The Event Cost module appears in **The Events Calendar** section of the **Themer modules** group in the Content Panel when you're editing a [Singular-type](../../../layout-types-modules/singular-layout-type/themer-singular-layout-type.md) Themer layout.
 
 ## Style tab
 

@@ -7,7 +7,7 @@ description: If you have the WooCommerce plugin installed, you can use the Beave
 
 Use the WooCommerce module to insert WooCommerce content into any page.
 
-:::note **Note**
+:::info
 You must have the WooCommerce plugin installed and activated for
 this module to appear.
 :::
@@ -91,7 +91,7 @@ You can display multiple products in any of the following ways:
   * Best selling
   * Top rated
 
-:::note **Note**
+:::info
 These categories are determined by WooCommerce and cannot be
 individualized. If you want to display a different set of items, follow the
 procedure above for inserting a custom list of IDs for multiple products.
@@ -143,7 +143,7 @@ If you have a hierarchical system of categories, you can display all the child c
   * In the **Layout** field, choose **Categories**, then in the **Parent category ID** field add the ID for the parent category. Mouse over the question mark in the **Parent category ID** field for how to find the category ID.  
   Leave the **Product category IDs to include** field blank. Leave **Autoselect parent** set to **No**.
 
-:::note **Note**
+:::info
 WooCommerce doesn't handle the display of subsubcategories well
 without a plugin or custom coding. However, by using Beaver Builder's WooCommerce module, it's possible to display a subcategory's subategories by entering the ID of the subcategory in the **Parent category ID** field.
 :::

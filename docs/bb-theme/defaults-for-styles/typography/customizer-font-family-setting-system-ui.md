@@ -6,7 +6,7 @@ sidebar_label: The system-ui font family
 
 When you select a font family in Customizer, in the **System fonts** section of the fonts list there's a **system-ui** option. This option uses the system font of the user's operating system (or the operating system plus browser).
 
-:::note **Note**
+:::info
 The system-ui font is available only in Customizer, not in Beaver Builder modules.
 :::
 
@@ -31,6 +31,6 @@ Here's a [great article on the system font stack](https://woorkup.com/system-fon
 
 The weights in the code above appear as the **Light**, **Normal**, and **Bold** choices in the **Font weight** field in Customizer.
 
-:::note **Note**
+:::info
 When you use a system font stack, you give up some control over the style of your site, in that the font is controlled by the user's system. You should test your site carefully on a number of platforms, particularly languages with non-Latin scripts.
 :::

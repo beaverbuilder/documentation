@@ -64,7 +64,7 @@ You can show or hide the product rating, and if you click the link to edit the p
 
 ![](/img/products-posts-module-for-bigcommerce-d8ed1aab.png)
 
-:::note **Note**
+:::info
 You may not see changes in the layout until you save the **Product Ratings** screen.
 :::
 
@@ -74,7 +74,7 @@ You can show or hide the product price, including the sale price. If you click t
 
 ![](/img/products-posts-module-for-bigcommerce-8d0f6d7f.png)
 
-:::note **Note**
+:::info
 You may not see changes in the layout until you save the  Product Price screen.
 :::
 
@@ -90,6 +90,6 @@ The **Product Options Form** tab has settings to show/hide the product options a
 
 ![](/img/products-posts-module-for-bigcommerce-0daaa9b4.png)
 
-:::Note **Note**
+:::info
 You may not see changes in the layout until you save the **Add to Cart Form** screen.
 :::

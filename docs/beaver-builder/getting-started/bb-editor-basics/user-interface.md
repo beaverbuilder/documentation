@@ -31,7 +31,7 @@ See below for more information about the **Tools** menu.
 ### 3. Notifications icon  
 Click the bell icon to open notifications of news from Beaver Builder.
 
-:::note **Note**
+:::info
 If you have and Agency license and have white-labeled Beaver Builder,
 this icon won't be displayed.
 :::
@@ -51,7 +51,7 @@ See [the article about the Outline panel](outline-panel.md) for more information
 ### 6. The Content panel show/hide icon  
 Click **+** to expand and **x** to close.
 
-:::note **Note**
+:::info
 This icon does not appear when the panel is pinned to the left or
 right side of the screen. Instead, there's a show or hide icon at the bottom
 of the panel.

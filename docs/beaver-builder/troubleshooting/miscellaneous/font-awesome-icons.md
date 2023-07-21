@@ -64,7 +64,7 @@ Solid icons use the `.fas` class and require a font weight of 900. Here's
 
 If you have written custom CSS that uses pseudo elements (`::before` or `::after`) and it’s not working, see [this Font Awesome article](https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements) about writing rules that include pseudo-elements. Be sure to use the correct font weight for your icon set, as listed in that article.
 
-:::note **Note**
+:::info
 Some ad blocker browser extensions will block certain icon fonts from loading.
 If you're using an ad blocker, try whitelisting the site.
 :::

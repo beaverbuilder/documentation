@@ -37,7 +37,7 @@ This manual update process ensures that any bugs or issues can be resolved befor
 
 ### Major Update
 
-Contain enhancements (such as new settings or new actions and filters for developers) plus bug fixes. Beaver Builder major releases also go through [alpha and beta testing](/general/alpha-and-beta-releases.md), and the production release date depends on the point at which the product is considered stable enough to use and support.
+Contain enhancements (such as new settings or new actions and filters for developers) plus bug fixes. Beaver Builder major releases also go through [alpha and beta testing](#alpha-beta--dev-releases), and the production release date depends on the point at which the product is considered stable enough to use and support.
 
 ### Minor Updates
 
@@ -88,7 +88,7 @@ There will typically be a post on our blog announcing the first beta release.
 
 ### Install Alpha or Beta Releases
 
-Beaver Builder alpha or beta releases can be installed by enabling the [Prerelease Updates](settings/tools.md#prerelease-updates) option in the Beaver Builder settings.
+Beaver Builder alpha or beta releases can be installed by enabling the Prerelease Updates option in the Beaver Builder settings.
 
 :::tip Install via FTP
 1. Download the alpha/beta zip file from your [My Account](https://www.wpbeaverbuilder.com/my-account/) page via Alpha/Beta Testing Downloads section.

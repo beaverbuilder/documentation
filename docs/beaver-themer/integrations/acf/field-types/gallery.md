@@ -4,7 +4,7 @@ title: Gallery field
 sidebar_label: Gallery
 ---
 
-The Advanced Custom Fields (ACF) Gallery field is supported in Beaver Themer via a field connection to a [Gallery module](/beaver-builder/modules/gallery/).
+The Advanced Custom Fields (ACF) Gallery field is supported in Beaver Themer via a field connection to a [Gallery module](/beaver-builder/layouts/modules/gallery/).
 
 ## Getting started
 

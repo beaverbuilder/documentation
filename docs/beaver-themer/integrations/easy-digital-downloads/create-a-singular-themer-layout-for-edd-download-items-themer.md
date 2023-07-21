@@ -47,7 +47,7 @@ When you edit a Singular Themer layout and have the EDD plugin installed, there'
 
 These modules can be used to display the custom fields that you may have filled in when you created the download item. Ifyou added the Download template to your Themer layout when you created it, you will see these modules in use.
 
-:::note **Note**
+:::info
 The **Download Image** section in the EDD **Edit download** screen is the featured image with a different label, so it is treated as a featured image in Beaver Builder. If you use the **Download** template with the Singular layout, you'll notice that the download image is a Photo module with a field connection to **Post featured image**, as shown in this screenshot.
 
 ![](/img/create-a-singular-themer-layout-for-edd-download-items-themer-967680ea.png)

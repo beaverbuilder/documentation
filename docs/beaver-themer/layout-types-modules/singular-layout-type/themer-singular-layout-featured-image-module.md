@@ -12,6 +12,6 @@ The Featured images module displays the featured image that you set on an indivi
 
 The Featured image module is a "shortcut" module. It's actually a Photo module with a field connection set to **Post featured image** in the **Photo** field. When you open this module for editing, you'll have the regular Photo module settings for cropping, alignment, captioning, and linking.
 
-:::note **Note**
+:::info
 The field connection requires that the **Photo source** field be set to **Media Library** because that's where WordPress featured images come from.
 :::

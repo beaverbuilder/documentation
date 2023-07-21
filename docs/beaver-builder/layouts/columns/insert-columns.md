@@ -25,6 +25,6 @@ There are times when dragging a module into the layout doesn't create the column
 
 ![](/img/row-columns-insert-cols-1.png)
 
-:::note **Note**
+:::info
 If you're unable to insert new columns, check to see if you've reached the [column limit](/beaver-builder/layouts/columns/column-layouts-overview.md/#basic-column-rules-and-limits). 
 :::

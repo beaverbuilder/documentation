@@ -56,7 +56,7 @@ For more information about these types and how they work, see the [Google
 developer reCAPTCHA
 documentation](https://developers.google.com/recaptcha/intro).
 
-:::note **Note**
+:::info
 If you change your mind about which type of reCAPTCHA to use, you'll
 have to get a new key pair for that type.
 :::

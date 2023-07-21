@@ -22,17 +22,17 @@ For more details, please refer to the [Downgrade](downgrade.md) and [Upgrade](up
 
 ## View License Key
 
-On the Beaver Builder [My Account page](account/index.md), you can view the license key and all associated downloads in the Downloads section. 
+On the Beaver Builder [My Account page](../index.md), you can view the license key and all associated downloads in the Downloads section.
 
 ## Activate License Key
 
 You will need to copy and paste the license key into Beaver Builder settings in order to activate the license and enable automatic updates.
 
-1. Log into your Beaver Builder [My Account page](account/index.md).
+1. Log into your Beaver Builder [My Account page](../index.md).
 2. Copy the license key to your clipboard by clicking it.
 3. Access your site's WordPress Admin Dashboard.
-4. Navigate to [Settings > Beaver Builder](settings/index.md).
-5. Click the [License](settings/license.md) tab and paste your license key.
+4. Navigate to **Settings > Beaver Builder**.
+5. Click the **License** tab and paste your license key.
 
 ## In this Section
 

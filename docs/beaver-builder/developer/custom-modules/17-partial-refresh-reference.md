@@ -14,7 +14,7 @@ not support partial refresh will trigger a full layout refresh when edited.
 
 ### Partial refresh compatibility
 
-:::note **Note**
+:::info
 If your module doesn't use JavaScript, you can skip this section and
 enable partial refresh.
 :::

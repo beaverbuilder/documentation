@@ -12,7 +12,7 @@ In this example, we'll add a Singular Themer layout to the **Template** field fo
 
 Once you've completed this procedure, you can choose the new template to change any single page or post.
 
-:::note **Note**
+:::info
 The name in the **Template** field dropdown list comes from the information you add to a file in the following procedure. The Themer layout is related by its ID, not by its title.
 :::
 

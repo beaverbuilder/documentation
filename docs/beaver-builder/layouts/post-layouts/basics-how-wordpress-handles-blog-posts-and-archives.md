@@ -14,7 +14,7 @@ website. A blog in WordPress consists of two types of pages:
   * Posts, which contain the blog content topics. Each Post produces a separate blog post.
   * Index (Posts page) and archive pages, which WordPress generates to organize and display lists of Posts.
 
-:::note **Note**
+:::info
 In the WordPress admin panel, Posts are located in a different
 section from Pages, so we'll refer to those formal categories by using a
 capital P.
@@ -73,7 +73,7 @@ and a sidebar with various WordPress Post widgets.
 
 ![](/img/post-layouts-wordpress-handles-posts-3.png)
 
-:::note **Note**
+:::info
 In the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/), you configure the sidebars, metadata, and other aspects of how these Post and archive pages are displayed in **Appearance >
 Customize > Content.**
 :::
@@ -95,7 +95,7 @@ following screenshot.
 
 ![](/img/post-layouts-wordpress-handles-posts-5.png)
 
-:::note **Note**
+:::info
 Content from shortcodes inserted into posts that weren't edited
 with Beaver Builder will also not appear in index and archive summaries.
 :::

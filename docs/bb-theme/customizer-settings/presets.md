@@ -11,7 +11,7 @@ sidebar_label: Presets tab
 
 You can set a basic layout and color scheme for your site with one click. Selecting a preset configures many of the settings in Customizer automatically to follow the preset color scheme, but you can customize any or all of them, by selecting the other tabs and adding your own settings.
 
-:::note **Note**
+:::info
 Changing a preset can delete other Customizer settings you have made.
 :::
 

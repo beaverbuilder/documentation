@@ -45,7 +45,7 @@ way. The easy way works for all Beaver Builder layouts. The hard way works for
 all Beaver Builder layouts as well as native WordPress content and most custom
 post types.
 
-:::note **Note** 
+:::info 
 A revision is created for Beaver Builder layouts each time you click
 **Done > Publish**. Only the most recent 25 revisions are maintained. If you
 use database optimization, such as a plugin that removes revisions, you may

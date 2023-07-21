@@ -179,7 +179,7 @@ In this example, the standard offset is 100px, so when the admin bar is present 
 
 Depending on where you add the code, you can make these smooth scrolling tweaks specific to one page or apply them globally across your site.
 
-:::note **Note**
+:::info
 When you add JavaScript to any of the following locations, you don't have to wrap it in a `<script>` tag. 
 :::
 

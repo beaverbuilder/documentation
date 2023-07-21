@@ -7,7 +7,7 @@ description: Describes how to set a custom default color specifically for button
 
 You can set a custom global button style in Customizer that applies as the default button style in Beaver Builder layouts. 
 
-:::note **Note**
+:::info
 These custom default button styles apply to WooCommerce buttons if the WooCommerce plugin is installed.
 :::
 
@@ -18,6 +18,6 @@ The custom global button settings are at **Customize > General > Buttons**. If *
   Font size and font weight can be set for each device size. Use the [responsive previewer](/bb-theme/getting-started/responsive-previews.md) at the bottom of the Customizer to change the device size for each setting.
   * Button border style and radius (corner rounding).
 
-:::note **Note**
+:::info
 Settings for individual buttons on the **Style** tab of the **Button** module in Beaver Builder override these global default settings. 
 :::
