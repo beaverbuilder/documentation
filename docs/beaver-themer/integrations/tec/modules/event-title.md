@@ -16,7 +16,7 @@ The Event Related Events module appears in **The Events Calendar** section of th
 The General tab contains the following fields.
 
 * **Heading**  
-The `[wpbb post:title]` field connection is automatically [connected](../../../field-connections/work-with-field-connections.md#connect-vs-insert) to the Heading setting to display the event title. You can [disconnect](../../../field-connections/work-with-field-connections.md#edit-or-delete-field-connections) the field connection and insert if you want to enter text, basic HTML tags (such as a `<br>` tag), or a Beaver Builder shortcode.
+The `[wpbb post:title]` field connection is automatically connected to the Heading setting to display the event title. You can disconnect the field connection and insert if you want to enter text, basic HTML tags (such as a `<br>` tag), or a Beaver Builder shortcode.
 
 * **HTML tag**  
 Select the heading level (H1, H2, etc.). This automatically inserts the
@@ -35,7 +35,7 @@ Default heading color is usually specified in the theme, but you can choose a
 custom color here.
 
 * **Typography** section  
-This is the [standard Beaver Builder **Typography** section](/beaver-builder/styles/typography/overview), with settings for the font family, weight, size, spacing, and so on.
+This is the [standard Beaver Builder **Typography** section](/beaver-builder/styles/typography/typography.md), with settings for the font family, weight, size, spacing, and so on.
 
 ## The Advanced tab
 

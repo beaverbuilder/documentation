@@ -58,7 +58,7 @@ There is a new Woo Notices module for Singular layouts that displays standard Wo
 
 This module lets you style the text and background color of the notices and place them in any position in your Themer Singular product layout.
 
-For more information see the article about the [Woo Notices module](integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts.md).
+For more information see the article about the [Woo Notices module](../integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts.md).
 
 ### WooCommerce Add to Cart Button module enhancements
 
