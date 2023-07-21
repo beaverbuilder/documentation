@@ -6,7 +6,7 @@ sidebar_label: CSS for Theme areas
 
 The following diagram of a boxed layout shows each of the Beaver Builder Theme's header, content, footer, and page areas mapped to Customizer setting and CSS class.
 
-:::note **Note**
+:::info
 This diagram also applies to full-width layout, but the page background color (set at **General > Background**) will only appear in a thin band at the bottom of the browser page under certain viewing conditions.
 :::
 

@@ -16,7 +16,7 @@ Here are some of the options with the Photo module:
 
 * You can crop the photo into several geometric shapes: Landscape, Panorama (longer and shorter than landscape), Portrait, Square, Circle.
 
-  :::note **Note**
+  :::info
   Cropping will cut off parts of your photo, depending on the shape of
   the original photo and the shape of the crop.
   :::

@@ -22,7 +22,7 @@ You can turn standard drop-down menus into mega menus in the [Beaver Builder The
 All of the menu items nested below the top-level item will be converted into a mega menu instead of a standard drop-down list.  
   ![](/img/set-up-a-mega-menu-46f22036.jpg)
 
-:::note **Note**
+:::info
 The mega menu is automatically disabled with the `mega-menu-disabled` class if the mega menu width exceeds that of the menu container. For full Bootstrap 4, the container width limit is 960px.
 :::
 

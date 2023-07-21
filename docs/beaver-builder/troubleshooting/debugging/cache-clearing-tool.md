@@ -28,7 +28,7 @@ There is also a setting that enables automatic clearing of proxy caches, such
 as Varnish and Litespeed. If you're not sure whether your site is subject to a
 proxy cache, leave that setting disabled.
 
-:::note **Note**
+:::info
 This tool was formerly available as a plugin in GitHub. If you have
 that plugin installed, called Beaver Builder Cache Helper, you can deactivate and
 delete it.

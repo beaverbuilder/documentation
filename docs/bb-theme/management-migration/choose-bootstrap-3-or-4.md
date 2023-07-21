@@ -7,7 +7,7 @@ description: Describes the bootstrap settings in the Beaver Builder Theme Custom
 
 Beaver Builder Theme is built on the Bootstrap framework, and Bootstrap is transitioning from Version 3 to Version 4. Here's a [good technical summary of the changes in Bootstrap 4](https://getbootstrap.com/docs/4.0/migration/). Note in particular the change in browser support.
 
-:::note **Note**
+:::info
 The Beaver Builder Theme Version 1.7.9 upgraded to Bootstrap Version 4.6.0.
 :::
 

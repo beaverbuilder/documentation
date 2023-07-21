@@ -22,7 +22,7 @@ again in Standard or Classic Editor, you'll lose the previous edits that you
 made in the Standard or Classic Editor.
 :::
 
-:::note **Note**
+:::info
 Unless you enable Posts in **Settings > Beaver Builder > Post
 types**, you will only see the option to launch Beaver Builder for Pages, not
 Posts.

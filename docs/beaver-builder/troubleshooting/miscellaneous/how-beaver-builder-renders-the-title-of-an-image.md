@@ -16,7 +16,7 @@ Not sure of the difference between the HTML `<img title="">` and `<img alt="">`
 attributes? [This article](https://www.wpromote.com/blog/image-alt-vs-title-using-alt-title-attributes-in-image-tags/) has a nice summary.
 :::
 
-:::note **Note**
+:::info
 Usually browsers display the image title in a yellow box when users
 mouse over the image. When Beaver Builder renders the HTML `<img title="">`
 attribute, it suppresses this popup display, but the `title` attribute is

@@ -10,7 +10,7 @@ This can be confusing because of vague semantic boundaries of terms used for web
 
 The following information uses lower case "page" when referring to any website page, regardless of WordPress type, and it uses title case "Page" and "Post" when referring to specific WordPress post types. The acronym CPT refers to Custom Post Type, and it includes both CPTs that you create yourself and CPTs created by plugins such as WooCommerce.
 
-:::note **Note** 
+:::info 
 The 404 layout type has no **Location** options, because it always applies to the page that appears for 404 Page Not Found errors.
 :::
 

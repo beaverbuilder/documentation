@@ -4,10 +4,10 @@ title: Field connection shortcode reference
 sidebar_label: Field connection shortcode reference
 ---
 
-:::tip **Tips**
-  * If you can't find any of these shortcodes in the UI as a field connection with an **Insert** button, try [using the HTML module](/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer.md).
-  * For Advanced Custom Fields (ACF) shortcodes, see [this article](/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer.md).
-  * For the WooCommerce shortcode index, see [this article](/beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index).
+:::tip
+* If you can't find any of these shortcodes in the UI as a field connection with an **Insert** button, try [using the HTML module](/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer.md).
+* For Advanced Custom Fields (ACF) shortcodes, see [this article](../integrations/acf/getting-started.md).
+* For the WooCommerce shortcode index, see [this article](/beaver-themer/integrations/woocommerce/woocommerce-field-connection-shortcode-index).
 :::
 
 ## Archive
@@ -329,7 +329,7 @@ Outputs the post's [featured image](https://wordpress.org/support/article/settin
 
 Outputs any [images attached to the post](https://wordpress.org/support/article/using-image-and-file-attachments/#attachment-to-a-post). 
 
-:::note **Note**
+:::info
 This field connection only appears in modules that have a gallery field setting, such as the Gallery or Slideshow modules.
 :::
 
@@ -352,7 +352,7 @@ Outputs the post's terms assigned to the post type you are editing.
   
   * **Layout** - Choose how the terms are displayed from Separator, Unordered List (`<ul>`), Ordered List (`<ol>`), Div/Span (`<span>`).
   
-    :::note **Note**
+    :::info
     The list layouts are not hierarchical. For example, if you have both parent and child categories selected for posts, they will appear at the same level in the list layout.
     :::
 

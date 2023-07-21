@@ -12,7 +12,7 @@ Any standard WordPress custom field can be connected using the **Post Custom Fie
 
 Since custom fields are essentially the same thing as [post meta](https://developer.wordpress.org/reference/functions/add_post_meta/), any post meta stored in the database can be connected by using the **Post Custom Field** field connection.
 
-:::note **Note**
+:::info
 Currently, only string values will be returned as objects, and arrays are not currently supported by field connections.
 :::
 
@@ -28,4 +28,4 @@ Use the [Pods Beaver Themer Add-On](https://wordpress.org/plugins/pods-beaver-bu
 
 ## Advanced Custom Fields
 
-The Advanced Custom Fields plugin (free or Pro version) can be used to create custom fields that appear in the field connection list just like the other types of custom fields. See [this article for an overview](/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer.md).
+The Advanced Custom Fields plugin (free or Pro version) can be used to create custom fields that appear in the field connection list just like the other types of custom fields. See [this article for an overview](../integrations/acf/index.md).

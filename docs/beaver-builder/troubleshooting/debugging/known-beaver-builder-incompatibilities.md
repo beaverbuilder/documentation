@@ -223,3 +223,9 @@ Anything that uses `document.write()` will break the Beaver Builder interface,
 because Beaver Builder content is loaded via AJAX when you make updates.
 Calling `document.write()` after the page loads will cause it to overwrite all
 of the page content with the content passed to `document.write()`.
+
+### Old jQuery/jQuery UI Versions
+
+Beaver Builder is dependent on the jQuery version that comes pre-packaged with WordPress, and it is designed to work exclusively with that specific version. 
+
+However, if you or any third-party plugin or theme happens to load an outdated jQuery/jQuery UI version, it can lead to compatibility problems with Beaver Builder. Consequently, you may encounter difficulties in dragging and dropping rows, columns, or modules onto your layouts in such instances.

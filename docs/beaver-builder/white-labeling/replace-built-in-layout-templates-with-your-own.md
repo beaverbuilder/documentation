@@ -15,7 +15,7 @@ templates to be displayed.
 
 ![](/img/replace-built-in-layouts-1.jpg)
 
-:::note **Note**
+:::info
 Replacing the core templates with your own means that your clients
 will no longer be able to save layout templates. This functionality was
 created with the assumption that you want clients to choose only from the

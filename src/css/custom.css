@@ -18,6 +18,14 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --bb-details-border: #e1e1e1;
   --bb-details-background: #ffffff;
+  --bb-markdown-h2: 2.25rem;
+  --bb-markdown-h3: 1.75rem;
+  --bb-markdown-h4: 1.5rem;
+  --bb-card-h2: 1.2rem;
+  --bb-beaverbuilder-color: #7e2b0f;
+  --bb-beaverthemer-color: #387296;
+  --bb-bbtheme-color: #f46828;
+  --bb-assistant-color: #ffb202;
 }
 
 html[data-theme='dark'] {
@@ -33,6 +41,25 @@ html[data-theme='dark'] {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --bb-details-border: #545454;
   --bb-details-background: #313131;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #dc5d33;
+  border: 0;
+  padding-top: 18px;
+  padding-right: 28px;
+  padding-bottom: 18px;
+  padding-left: 28px;
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.button:hover {
+  background-color: #64cb91;
 }
 
 html[data-theme='dark'] .admonition.alert a {
@@ -62,6 +89,31 @@ html[data-theme='dark'] .DocSearch {
   );
 }
 
+section .row {
+  padding: 3rem 0;
+}
+
+.col {
+  padding: 0 var(--ifm-spacing-horizontal) !important;
+  width: 100%;
+}
+
+.markdown h2 {
+  font-size: var(--bb-markdown-h2);
+}
+
+.markdown h3 {
+  font-size: var(--bb-markdown-h3);
+}
+
+.markdown h4 {
+  font-size: var(--bb-markdown-h4);
+}
+
+.card h2 {
+  font-size: var(--bb-card-h2);
+}
+
 /* Size Device SVGs in lists
  * beaver-builder/advanced-tab/visibility.md
  */
@@ -75,6 +127,41 @@ html[data-theme='dark'] .DocSearch {
   vertical-align: sub;
 }
 
+.plugin-pages .header-home-icon {
+  color: var(--ifm-color-primary);
+}
+
+html:not(plugin-pages) .header-home-icon {
+  color: var(--ifm-font-color-base);
+}
+
+.header-home-icon::before {
+  content: "\f015";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.navbar .navbar__item {
+  font-size: 15px;
+}
+
+
+
+
+
+/* Forces list items into two columns
+ * beaver-themer/acf/index.md
+ */
+
+.docs-doc-id-beaver-themer\/integrations\/acf\/index .ul-col-2 .markdown ul:first-of-type {
+  column-count: 1;
+}
+
+.ul-col-2 .markdown ul {
+  column-count: 2;
+}
+
 /* Announcement Bar */
 div[class^=announcementBar_] {
   background: #1b7497;
@@ -84,15 +171,50 @@ div[class^=announcementBar_] {
 	height: auto;
 }
 
-.docs-lead {
+/* Mermaid Stylings */
+.markdown .docusaurus-mermaid-container {
+  margin-top: var(--ifm-leading);
+  margin-bottom: var(--ifm-leading);
+  text-align: center;
+  border: 3px solid var(--ifm-color-emphasis-200);
+  padding-top: 2rem;
+  padding-bottom: 2rem
+}
+
+.markdown .docusaurus-mermaid-container svg {
+  max-width: 75% !important;
+}
+
+@media (max-width: 996px) {
+  .markdown .docusaurus-mermaid-container svg {
+    max-width: 100% !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Styling for Mermaid Module diagram
+ * beaver-builder/layouts/module/index.md
+ */
+.mermaid-module-diagram .edgeLabel {
+  background-color: var(--bb-details-background) !important;
+  outline: 8px solid var(--bb-details-background) !important;
+}
+
+html[data-theme='dark'] .mermaid-module-diagram .edgeLabel {
+  background-color: var(--ifm-background-color) !important;
+  outline: 8px solid var(--ifm-background-color) !important;
+}
+
+.introduction-article .markdown header + p {
   font-size: var(--ifm-h3-font-size);
   border-bottom: 2px solid var(--ifm-toc-border-color);
   padding-bottom: 2rem;
-  color: var(--ifm-color-gray-700);
+  color: var(--ifm-color-gray-800);
 }
 
-html[data-theme='dark'] .docs-lead {
-  color: var(--ifm-color-gray-600);
+html[data-theme='dark'] .introduction-article .markdown header + p {
+  color: var(--ifm-color-gray-500);
 }
 
 .docusaurus-highlight-code-line {
@@ -142,6 +264,10 @@ html[data-theme='dark'] .markdown .lead {
   font-size: 0.9rem;
 }
 
+.menu__caret::before {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+}
+
 .menu__link--sublist:after {
   background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
 }
@@ -154,87 +280,7 @@ html[data-theme='dark'] .markdown .lead {
   font-size: 0.9rem;
 }
 
-/* Hide category index sidebar items */
-a[href="/general/pre-sales"].menu__link,
-a[href="/next/general/pre-sales"].menu__link,
-a[href="/general/account-billing"].menu__link,
-a[href="/next/general/account-billing"].menu__link,
-a[href="/general/faq"].menu__link,
-a[href="/next/general/faq"].menu__link,
-a[href="/general/affiliate-program"].menu__link,
-a[href="/beaver-builder/getting-started"].menu__link,
-a[href="/next/beaver-builder/getting-started"].menu__link,
-a[href="/beaver-builder/getting-started/bb-editor-basics"].menu__link,
-a[href="/next/beaver-builder/getting-started/bb-editor-basics"].menu__link,
-a[href="/beaver-builder/layouts"].menu__link,
-a[href="/next/beaver-builder/layouts"].menu__link,
-a[href="/beaver-builder/styles"].menu__link,
-a[href="/next/beaver-builder/styles"].menu__link,
-a[href="/beaver-builder/advanced-builder-techniques"].menu__link,
-a[href="/next/beaver-builder/advanced-builder-techniques"].menu__link,
-a[href="/beaver-builder/management-migration"].menu__link,
-a[href="/next/beaver-builder/management-migration"].menu__link,
-a[href="/beaver-builder/troubleshooting"].menu__link,
-a[href="/next/beaver-builder/troubleshooting"].menu__link,
-a[href="/beaver-builder/white-labeling"].menu__link,
-a[href="/next/beaver-builder/white-labeling"].menu__link,
-a[href="/beaver-builder/developer"].menu__link,
-a[href="/next/beaver-builder/developer"].menu__link,
-a[href="/beaver-builder/developer/how-to-tips"].menu__link,
-a[href="/next/beaver-builder/developer/how-to-tips"].menu__link,
-a[href="/beaver-builder/developer/tutorials-guides"].menu__link,
-a[href="/next/beaver-builder/developer/tutorials-guides"].menu__link,
-a[href="/beaver-themer/getting-started"].menu__link,
-a[href="/next/beaver-themer/getting-started"].menu__link,
-a[href="/beaver-themer/layout-types-modules"].menu__link,
-a[href="/next/beaver-themer/layout-types-modules"].menu__link,
-a[href="/beaver-themer/integrations"].menu__link,
-a[href="/next/beaver-themer/integrations"].menu__link,
-a[href="/beaver-themer/integrations/woocommerce"].menu__link,
-a[href="/next/beaver-themer/integrations/woocommerce"].menu__link,
-a[href="/beaver-themer/integrations/bigcommerce"].menu__link,
-a[href="/next/beaver-themer/integrations/bigcommerce"].menu__link,
-a[href="/beaver-themer/integrations/easy-digital-downloads"].menu__link,
-a[href="/next/beaver-themer/integrations/easy-digital-downloads"].menu__link,
-a[href="/beaver-themer/integrations/the-events-calendar"].menu__link,
-a[href="/next/beaver-themer/integrations/the-events-calendar"].menu__link,
-a[href="/beaver-themer/field-connections"].menu__link,
-a[href="/next/beaver-themer/field-connections"].menu__link,
-a[href="/beaver-themer/field-connections/connections-to-acf"].menu__link,
-a[href="/next/beaver-themer/field-connections/connections-to-acf"].menu__link,
-a[href="/beaver-themer/locations"].menu__link,
-a[href="/next/beaver-themer/locations"].menu__link,
-a[href="/beaver-themer/conditional-logic"].menu__link,
-a[href="/next/beaver-themer/conditional-logic"].menu__link,
-a[href="/beaver-themer/management-compatibility"].menu__link,
-a[href="/next/beaver-themer/management-compatibility"].menu__link,
-a[href="/beaver-themer/troubleshooting"].menu__link,
-a[href="/next/beaver-themer/troubleshooting"].menu__link,
-a[href="/beaver-themer/developer"].menu__link,
-a[href="/next/beaver-themer/developer"].menu__link,
-a[href="/bb-theme/getting-started"].menu__link,
-a[href="/next/bb-theme/getting-started"].menu__link,
-a[href="/bb-theme/site-settings"].menu__link,
-a[href="/next/bb-theme/site-settings"].menu__link,
-a[href="/bb-theme/defaults-for-layouts-content"].menu__link,
-a[href="/next/bb-theme/defaults-for-layouts-content"].menu__link,
-a[href="/bb-theme/defaults-for-styles"].menu__link,
-a[href="/next/bb-theme/defaults-for-styles"].menu__link,
-a[href="/bb-theme/customizer-settings"].menu__link,
-a[href="/next/bb-theme/customizer-settings"].menu__link,
-a[href="/bb-theme/code"].menu__link,
-a[href="/next/bb-theme/code"].menu__link,
-a[href="/bb-theme/management-migration"].menu__link,
-a[href="/next/bb-theme/management-migration"].menu__link,
-a[href="/bb-theme/troubleshooting"].menu__link,
-a[href="/next/bb-theme/troubleshooting"].menu__link,
-a[href="/bb-theme/white-labeling"].menu__link,
-a[href="/next/bb-theme/white-labeling"].menu__link,
-a[href="/bb-theme/developer"].menu__link,
-a[href="/next/bb-theme/developer"].menu__link {
-  display: none;
-  visibility: hidden;
-}
+
 
 .markdown a:not(.button) {
   text-decoration: var(--ifm-link-hover-decoration);
@@ -247,10 +293,10 @@ a[href="/next/bb-theme/developer"].menu__link {
 }
 
 /* Images */
-.markdown img {
+/* .markdown img {
   margin-top: var(--ifm-paragraph-margin-bottom);
   margin-bottom: var(--ifm-paragraph-margin-bottom);
-}
+} */
 
 /* Image/Video */
 .markdown img, video {
@@ -291,9 +337,86 @@ video {
 
 
 
+
+
+
+/* Homepage */
+
+section.community {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+section.submit-ticket,
+section.community {
+  border-top: 2px solid var(--ifm-color-emphasis-200);
+  text-align: center;
+}
+
+.community-heading .col,
+.submit-ticket .col {
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.community-heading h2,
+.submit-ticket h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .community-heading h2,
+  .submit-ticket h2 {
+    font-size: var(--ifm-h2-font-size);
+  }
+}
+
+.community-heading p,
+.submit-ticket p {
+  font-size: var(--ifm-h3-font-size);
+  color: var(--ifm-color-gray-800);
+}
+
 /* Hero */
-.hero {
-  overflow: visible;
+.hero .container {
+  background-image: url(/docs-home-shape-1.png);
+  background-position: -5px 0px !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: var(--ifm-color-gray-900);
+  position: relative;
+  padding: 8rem 0 !important;
+  text-align: center;
+  position: relative;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.hero .container::after {
+  width: 260px;
+  height: 300px;
+  background: url(/docs-home-shape-2.png) no-repeat;
+  background-size: 260px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  z-index: -1;
+}
+
+@media screen and (max-width: 996px) {
+  .hero .container {
+    background-position: -70px 0px !important;
+  }
+
+  .hero .container::after {
+    right: -80px;
+  }
 }
 
 html[data-theme='dark'] .hero__title {
@@ -302,8 +425,6 @@ html[data-theme='dark'] .hero__title {
 
 /* Hero Search */
 .hero__search {
-  background: transparent;
-  box-shadow: none;
   height: auto;
   padding: 10px 0 0 0;
   position: relative;
@@ -314,52 +435,120 @@ html[data-theme='dark'] .hero__title {
 .hero__search .DocSearch-Button {
   width: 100%;
   height: 50px;
-  background-color: var(--docsearch-searchbox-focus-background);
 }
 
-@media only screen and (max-width: 750px) {
+.hero__search .DocSearch-Button {
+  background: var(--docsearch-searchbox-focus-background);
+  box-shadow: inset 0 0 0 2px var(--ifm-color-emphasis-500);
+  color: var(--docsearch-text-color);
+  outline: none;
+}
+
+@media screen and (max-width: 996px) {
   .hero__search {
     display: none;
     visibility: hidden;
   }
 }
 
+.products-row {
+  gap: 3rem 0;
+  padding: 2rem;
+}
+
 .bb-docs-home-box {
-  color: var(--ifm-navbar-link-color);
-  background-color: #fff;
-  background-color: var(--ifm-card-background-color);
-  border: 2px solid var(--ifm-color-emphasis-300);
-  border-radius: var(--ifm-pagination-nav-border-radius);
-  box-shadow: var(--ifm-global-shadow-lw);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  padding: 3rem;
-  height: 100%;
-}
-
-.bb-docs-home-box:hover {
-  color: var(--ifm-navbar-link-color);
-  background: rgba(0, 106, 212, 0.08);
-  border-color: var(--ifm-color-primary);
-  box-shadow: var(--ifm-panel-box-shadow-active);
-}
-
-.bb-docs-home-box img {
-  margin-bottom: 0.4rem;
+  display: block;
+  border: 2px solid #ffffff;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  transition: 0.3s;
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
 }
 
 .bb-docs-home-box h3 {
-  margin-bottom: 0.4rem;
+  position: relative;
+  margin: -42px 0 15px 0;
+  padding: 0;
+  color: #4f2826;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: none !important;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0 !important;
+}
+
+.beaver-builder .bb-docs-home-box h3 span {
+  background-image: url(/docs-home--ribbon-burgundy.svg);
+}
+
+.beaver-themer .bb-docs-home-box h3 span {
+  background-image: url(/docs-home--ribbon-blue.svg);
+}
+
+.bb-theme .bb-docs-home-box h3 span {
+  background-image: url(/docs-home--ribbon-orange.svg);
+}
+
+.assistant .bb-docs-home-box h3 span {
+  background-image: url(/docs-home--ribbon-yellow.svg);
+}
+
+.bb-docs-home-box h3 span {
+  position: relative;
+  top: -0;
+  display: inline-block;
+  width: 214px;
+  height: 30px;
+  margin: 0 10px 0 0;
+  padding: 9px 0 8px 0;
+  color: #fff;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-size: 214px 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: ease-in-out 0.3s;
 }
 
 .bb-docs-home-box p {
-  font-size: 0.9rem;
-  margin-bottom: 0;
-  opacity: 0.6;
+  margin: 0;
+  padding: 0;
+  color: #4f2826;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-@media (max-width: 996px) {
+.bb-docs-home-box:hover {
+  border: 2px solid transparent;
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.2);
+  text-decoration: none !important;
+}
+
+.bb-docs-home-box:hover h3 span {
+  margin: 0 15px 0 0;
+}
+
+.beaver-builder .bb-docs-home-box:hover {
+  border-color: var(--bb-beaverbuilder-color);
+}
+.beaver-themer .bb-docs-home-box:hover {
+  border-color: var(--bb-beaverthemer-color);
+}
+.bb-theme .bb-docs-home-box:hover {
+  border-color: var(--bb-bbtheme-color);
+}
+.assistant .bb-docs-home-box:hover {
+  border-color: var(--bb-assistant-color);
+}
+
+@media screen and (max-width: 996px) {
   .bb-docs-home-box:hover {
     transform: none;
   }
@@ -370,86 +559,41 @@ html[data-theme='dark'] .hero__title {
   margin-top: var(--ifm-leading) !important;
 }
 
-.jump-to, .jump-to--category {
-  background-color: var(--ifm-panel-background-color);
-  border: 2px solid var(--ifm-color-emphasis-300);
-  border-radius: var(--ifm-pagination-nav-border-radius);
-  box-shadow: var(--ifm-global-shadow-lw);
+.community-link {
   color: var(--ifm-heading-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 1rem;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-weight: 500;
-  margin-bottom: var(--ifm-spacing-vertical);
-  text-align: left;
-  text-decoration: none !important;
-  flex-basis: 100%;
 }
 
-.jump-to:last-of-type {
-  margin-bottom: calc(var(--ifm-leading) *2);
+.community-link:hover {
+  text-decoration: none;
 }
 
-.jump-to:hover{
-  background: rgba(0, 106, 212, 0.08);
-  border-color: var(--ifm-color-primary);
-  box-shadow: var(--ifm-panel-box-shadow-active);
-  text-decoration: none !important;
-}
-
-.jump-to--main {
-  flex: 1 1 auto;
-}
-
-.jump-to--icon {
-  width: 20px;
-  margin: 0 10px;
-  transition: margin 0.3s ease;
-}
-
-.jump-to:hover .jump-to--icon {
-  width: 20px;
-  margin-right: 0;
-}
-
-.jump-to.integrations-box {
-    padding: 0;
-    overflow: hidden;
-}
-
-.jump-to.integrations-box:hover {
-    opacity: .8;
-}
-
-.markdown .category {
-  display: flex;
-}
-
-.category .jump-to {
-  padding: 2rem;
-  display: flex;
-  align-items: flex-start;
-}
-
-.social-icons .jump-to {
-  padding: 2rem;
+.community-content {
   text-align: center;
 }
 
-.social-icons h3 {
+section.community .community-icons {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 996px) {
+  .col.community-icon {
+    padding-bottom: 2rem !important;
+    flex-basis: 33.33%;
+    width: 33.33%;
+  }
+}
+
+.community-icons h3 {
     margin-top: var(--ifm-leading);
     margin-bottom: 0;
 }
-.social-icons .fab {
+.community-icons i {
     font-size: 3rem;
 }
+
+
+
+
 
 /* Tabs active color * border */
 .tabs {
@@ -459,6 +603,11 @@ html[data-theme='dark'] .hero__title {
 .tabs__item--active {
   background-color: var(--ifm-hover-overlay);
 }
+
+
+
+
+
 
 /* Details markup styling */
 details {

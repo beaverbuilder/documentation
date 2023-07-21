@@ -23,7 +23,7 @@ a history, recorded at the following level of granularity:
   * Move
   * Duplicate
 
-:::note **Note**
+:::info
 The initial state of the history when you open the editor is **Draft
 created**. When you publish or save the layout, the history is erased and the
 next time you open the Beaver Builder editor, the status is once again **Draft
@@ -71,7 +71,7 @@ You can also see an example of items in the history.
 You can keep clicking in the history at various points to undo or restore
 layout.
 
-:::note **Note**
+:::info
 You can't pick and choose which items to keep: whatever item you
 select, that item and the ones lower on the list remain in the layout, while
 the higher ones are removed.

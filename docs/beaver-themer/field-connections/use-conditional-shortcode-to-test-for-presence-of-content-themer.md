@@ -48,7 +48,7 @@ The exclamation mark `!` functions as the logical operator **NOT**:
 [/wpbb-if]
 ```
 
-:::note **Note**
+:::info
 `[wpbb-else]` doesn't have an end tag.
 :::
 
@@ -99,7 +99,7 @@ You could add an *else* clause to the featured image code to display the text "N
 
 In this example, you might need to write a CSS rule for the `no-featured-image` class to position the text properly.
 
-:::note **Note**
+:::info
 The reason there is a field connection shortcode for an image is that the field  contains the image's URL as its value. The `[wpbb post:featured_image]` shortcode has a special status, in that the URL is automatically embedded in an HTML `<img>` tag. If you have a custom image field, the field's URL value must be embedded in the `<src>` attribute of an `<img>` tag, like the following example for an ACF Image field:
 
 ```markup

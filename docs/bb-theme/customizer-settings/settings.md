@@ -12,7 +12,7 @@ Set your site title, tagline, and site icon.
 
 Site title and tagline are important because they are displayed in search results.
 
-:::note **Note**
+:::info
 Site title and tagline can also be set in **Settings > General**, accessed from the WordPress admin panel.
 :::
 

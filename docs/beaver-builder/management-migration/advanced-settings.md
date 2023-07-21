@@ -168,7 +168,7 @@ Enable or disable Google Fonts. When disabled, Google Fonts will **not** be enqu
 
 ### Font Awesome
 
-Enable or disable Google Fonts. When disabled, Font Awesome will **not** be enqueued, even if modules require it.
+Enable or disable Font Awesome. When disabled, Font Awesome will **not** be enqueued, even if modules require it.
 
 :white_check_mark: Enabled by default.
 

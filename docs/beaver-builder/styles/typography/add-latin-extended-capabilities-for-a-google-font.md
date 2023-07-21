@@ -20,7 +20,7 @@ function my_font_subset($subset, $name) {
 add_filter("fl_font_subset", "my_font_subset", 10, 2);
 ```
 
-:::note **Note**
+:::info
 Not all Google fonts have Latin-extended characters, so make sure
 the Google font you choose has them.
 :::

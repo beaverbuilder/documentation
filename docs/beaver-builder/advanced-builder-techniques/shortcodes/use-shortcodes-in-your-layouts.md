@@ -35,8 +35,8 @@ The screenshot shows a Pricing Table module in which the first feature in the fi
 
 Here are a couple of other examples of how you can use shortcodes:
 
-  * Add a button to a cell in a Pricing Table module.
-  * Embed a contact form from Beaver Builder or another plugin into a tab in a Tabs module.
+* Add a button to a cell in a Pricing Table module.
+* Embed a contact form from Beaver Builder or another plugin into a tab in a Tabs module.
 
 :::tip **Tip**
 If you have Beaver Themer, it can sometimes be used more efficiently than Beaver Builder shortcodes. See advanced examples of shortcodes and Themer alternatives below.
@@ -46,14 +46,13 @@ If you have Beaver Themer, it can sometimes be used more efficiently than Beaver
 
 You can create shortcodes for any Beaver Builder content that has an ID or a slug:
 
-  * Posts, pages, or custom post types with Beaver Builder layouts
-  * Saved rows, columns, or modules
-  * Saved [layout templates](/./general/glossary#layout-template-bb)
+* Posts, pages, or custom post types with Beaver Builder layouts.
+* Saved rows, columns, or modules.
+* Saved layout templates.
 
-:::tip **Tips**
-
-  * If you use the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/), there's a special `[fl_year]` shortcode, which you can use to insert the current date both into both Beaver Builder layouts and into text areas of the theme, such as the top bar and footer. For more information, see the [article on the Beaver Builder Theme date shortcode](/bb-theme/defaults-for-layouts-content/shortcode-for-current-date.md).
-  * With the Pro and Agency versions of Beaver Builder, you can use Beaver Builder shortcodes anywhere on a multisite installation. See the [shortcodes article](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md).
+:::tip
+* If you use the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/), there's a special `[fl_year]` shortcode, which you can use to insert the current date both into both Beaver Builder layouts and into text areas of the theme, such as the top bar and footer. For more information, see the [article on the Beaver Builder Theme date shortcode](/bb-theme/defaults-for-layouts-content/shortcode-for-current-date.md).
+* With the Pro and Agency versions of Beaver Builder, you can use Beaver Builder shortcodes anywhere on a multisite installation. See the [shortcodes article](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md).
 :::
 
 ## Create a Beaver Builder shortcode
@@ -72,7 +71,7 @@ This screenshot shows the shortcode location for a saved row.
 1. Get the ID or slug of the saved item.   
 See [this article for instructions](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode.md).  
 
-:::note **Note**
+:::info
 The ID of a WordPress object is always a number. The slug is more
 usually a text string.
 :::
@@ -102,13 +101,13 @@ standard WordPress editor.
 In a Beaver Builder module, insert the shortcode into any text field. Here are
 some examples of text fields in Beaver Builder modules:
 
-  * HTML module
-  * Text editor module
-  * **Heading** field of any module, such as the Heading or Callout module
-  * **Label** field of a Tabs module
-  * Text editor area in any module, such as the Icon module
+* HTML module
+* Text editor module
+* **Heading** field of any module, such as the Heading or Callout module
+* **Label** field of a Tabs module
+* Text editor area in any module, such as the Icon module
 
-:::tip **Tips**
+:::tip
 * If the shortcode you add to a Beaver Builder module isn't rendered properly, try putting the shortcode into an HTML module.
 
 * See [why there can be a performance hit](/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-performance.md) with the use of too many Beaver Builder shortcodes.

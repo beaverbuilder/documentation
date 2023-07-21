@@ -18,7 +18,7 @@ There's a special Related Products module that's available for Singular Themer l
 
 Here's the basic procedure, with examples in the next section.
 
-:::note **Note**
+:::info
 The **Match all related categories except** option comes with the Beaver Builder plugin. You don't need to have Beaver Themer installed to use it but it's particularly useful for Themer layouts. The [third example](#example-3-related-items-in-a-saved-layout-template-for-pages) shows how it can also be useful for saved layout templates.
 :::
 
@@ -87,7 +87,7 @@ For the Related Projects section, the Posts module's **Filter** section includes
 
 When the layout template is applied to each new page, the Related Projects section, as well as the News and Related Documents sections, show the correct content without the need to make further modifications to the page layout.
 
-:::note **Note**
+:::info
 Beaver Themer must be installed to make use of the field connections and custom post layouts in standard Beaver Builder layouts, including layout templates. 
 :::
 

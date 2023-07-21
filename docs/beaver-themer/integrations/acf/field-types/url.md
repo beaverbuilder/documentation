@@ -1,0 +1,29 @@
+---
+id: url
+title: URL field
+sidebar_label: URL
+---
+
+The Advanced Custom Fields (ACF) URL field is supported in Beaver Themer via a field connection shortcode.
+
+## Getting started
+
+To get started, create your URL field in ACF and use the shortcode to display the URL field on your pages or posts. You can use the shortcode inside any module that supports HTML such as a Text or HTML module.
+
+## Shortcode
+
+Here is an example of the Beaver Themer URL field connection shortcode.
+
+```markup
+[wpbb post:acf type='url' name='']
+```
+
+The `name=''` attribute is where you enter your URL field name.
+
+## Options Page
+
+The Beaver Themer URL field connection shortcode also supports URL fields added to the ACF [Options page](../options-page.md) by adding `site:acf_option` to the field connection shortcode.
+
+```markup
+[wpbb site:acf_option type='url' name='']
+```

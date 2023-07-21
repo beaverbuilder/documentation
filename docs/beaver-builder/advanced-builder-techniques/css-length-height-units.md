@@ -46,7 +46,7 @@ Typography font size (multiple modules)  |  ✓  |  |  ✓  |  ✓  | ✓ |
 Typography font line height (multiple modules)  |  ✓  |  |  ✓  |  |  |  
 Icon size (modules with icons)  |  ✓  |  |  ✓  |  ✓  |  |  
 
-:::note **Note**
+:::info
 If you don't see a setting here, chances are the unit is **px** only.
 :::
 
@@ -56,7 +56,7 @@ The **vw** unit refers to viewport width, where viewport is usually the browser 
 
 To use this **vw** unit, check the **Base font size** setting in **Global Settings**. Base font size must be set in pixels, and the default is **16px**. As the tooltip for that setting explains, this global setting only applies when vw is used in the **Typography** section of modules.
 
-When you set a font size in **vw** units in a module's **Typography** section, the the actual font size in pixels is calculated using the [CSS `calc()` function](https://www.w3schools.com/cssref/func_calc.asp), with the formula `calc( base-font-size + 1vw)`. If the global **Base font size** is **16px**, the calculation is `calc( 16px + 1vw )`.
+When you set a font size in **vw** units in a module's **Typography** section, the actual font size in pixels is calculated using the [CSS `calc()` function](https://www.w3schools.com/cssref/func_calc.asp), with the formula `calc( base-font-size + 1vw)`. If the global **Base font size** is **16px**, the calculation is `calc( 16px + 1vw )`.
 
 By using a base font size in this calculation, the font size scales more slowly as viewport width decreases, producing a better result at all device sizes. For more information and more explanation of the CSS calc() function, see [this CSS-Tricks article](https://css-tricks.com/fun-viewport-units/#article-header-id-1) on viewport units.
 

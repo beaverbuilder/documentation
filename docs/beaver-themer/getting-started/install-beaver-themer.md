@@ -14,7 +14,7 @@ See the [requirements for installation](/beaver-themer/getting-started/beaver-th
 
 Download the Beaver Themer plugin zip from the [My Account](https://www.wpbeaverbuilder.com/my-account/) page. The download file is named *bb-theme-builder.zip*.
 
-:::note **Note**
+:::info
 On the [My Account](https://www.wpbeaverbuilder.com/my-account/) page there's a **Subscriptions** section that shows which Beaver Builder products are included in your license. All Beaver Builder products use the same subscription license key, as described in the section below on activating your license after installation.
 :::
 
@@ -24,7 +24,7 @@ On the [My Account](https://www.wpbeaverbuilder.com/my-account/) page there's a 
   2. Select the Beaver Themer plugin on your local system and activate it after it has uploaded.  
   The plugin is listed as **Beaver Builder - Themer Add-On** in the WordPress plugins list.
 
-:::note **Note**
+:::info
 If you activate the Beaver Themer plugin without having the Beaver Builder plugin installed, you'll see a warning. Also, you won't be able to see the license activation without having the Beaver Builder Plugin installed.
 :::
 

@@ -10,7 +10,7 @@ You can use the Archive-type Themer layout to design the following WooCommerce a
   * A Shop page that displays products
   * A page that lists products for a specific category or tag
 
-:::note **Note**
+:::info
 Themer layouts created in Beaver Themer can only display lists of products, not lists of categories or subcategories. In other words, if your WooCommerce product display settings are set to **Categories** or **Subcategories** (as shown in the following screenshot), a Themer layout that applies to those pages will override those settings and show products instead.
 
 ![](/img/create-an-archive-themer-layout-for-woocommerce-9d809e4b.png)
@@ -60,6 +60,6 @@ When you edit an Archive-type Themer layout and have the WooCommerce plugin inst
 
 ![](/img/create-an-archive-themer-layout-for-woocommerce-5de76f05.png)
 
-:::note **Note**
+:::info
 The WooCommerce modules that you use in Beaver Themer to lay out archive pages have standard WooCommerce functionality because Beaver Builder uses the WooCommerce API. The advantage of the WooCommerce modules is that they provide a convenient way to style the page and show or hide various WooCommerce components.
 :::

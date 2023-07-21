@@ -7,7 +7,7 @@ sidebar_label: Font Awesome Pro Duotone icons
 If you've enabled Font Awesome Pro and the Duotone Icon set, you can customize
 the two colors of Duotone icons.
 
-:::note **Note**
+:::info
 The secondary icon's color will automatically have reduced opacity.
 Also, Duotone icons don't have different hover colors.
 :::

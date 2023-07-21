@@ -4,23 +4,11 @@
  */
 
 .heroBanner {
-  padding: 8rem 0;
+  padding: 0;
   text-align: center;
   position: relative;
-}
-
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.heroBanner {
-  background-image: url(/img/hero.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: var(--ifm-color-gray-900);
+  z-index: 1;
+  overflow: hidden;
 }
 
 html[data-theme="dark"] .heroBanner::before {
@@ -35,7 +23,7 @@ html[data-theme="dark"] .heroBanner::before {
   height: 100%;
 }
 
-.general,
+/* .general,
 .products,
 .popular,
 .developers,
@@ -44,9 +32,11 @@ html[data-theme="dark"] .heroBanner::before {
 .alphaproducts {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding: 3rem 0;
   width: 100%;
-}
+} */
+
+
 
 .popular, .developers {
   flex-wrap: wrap;

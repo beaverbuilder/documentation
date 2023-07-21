@@ -56,7 +56,7 @@ assign categories and add featured images to your saved layout templates. See
 You’ll see a screen similar to the screenshot below.  
 ![](/img/theme-author-templates-2.jpg)
 
-  2. Select all templates or the specific layout templates, rows, and modules you want to export and click **Export template data**. A _templates.dat_ file will download to your computer.
+2. Select all templates or the specific layout templates, rows, and modules you want to export and click **Export template data**. A _templates.dat_ file will download to your computer.
 
 ## 5. Register your templates
 
@@ -96,7 +96,7 @@ as follows.
 The templates will be loaded the next time you open Beaver Builder for
 editing.
 
-##  6. Install and test your plugin or theme
+## 6. Install and test your plugin or theme
 
 Make sure your plugin (or theme) is installed and active and then open a page
 for editing in Beaver Builder. If you got everything right, your templates
@@ -134,7 +134,7 @@ be rendered.
 
 For this reason, we recommend third-party theme authors create custom modules
 for their themes and templates if they need something that isn’t available in
-the lite version. See [the custom module guide](/beaver-builder/developer/custom-modules.mdx).
+the lite version. See [the custom module guide](/beaver-builder/developer/custom-modules/index.md).
 
 ### Global rows and modules are exported as standard templates
 

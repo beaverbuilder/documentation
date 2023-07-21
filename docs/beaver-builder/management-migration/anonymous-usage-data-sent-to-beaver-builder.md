@@ -14,7 +14,7 @@ This data is used by the Beaver Builder team to get an understanding of the
 range of environments in which Beaver Builder is being used, for purposes laid
 out in our [privacy policy](https://www.wpbeaverbuilder.com/privacy-policy/).
 
-:::note **Note**
+:::info
 Personal data such as email and IP addresses are not collected, so
 we can't notify contact you or identify you in any other way based on this
 data.

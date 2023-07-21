@@ -28,7 +28,7 @@ The Search button appears to the right of the search field at all device sizes. 
 
 Only the Search button appears, and clicking the button expands to display the input field according to the option set in the *Action* field. When the action is **Expand on click**, the search input field appears to the left of the button. The user enters the search terms and presses Return on the keyboard.
 
-:::note **Note**
+:::info
 Clicking the Search button when the input field is expanded serves to collapse the input field to show only the button again. In this configuration, you might consider changing the placeholder text to indicate that the user should enter text and hit Return.
 :::
 

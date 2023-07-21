@@ -15,8 +15,8 @@ In WP admin lists of pages, posts, and custom post types in the back end, there'
 
 ![Screenshot of Beaver Builder filter link in WP lists of pages and posts](/img/beaver-builder--bb-common-filter-examples-1.png)
 
-:::note **Note**
-This Beaver Builder display filter link appears only for post types that have Beaver Builder enabled at **Settings > Beaver Builder > Post types**.
+:::info
+The link for the Beaver Builder display filter will only be visible on post types where Beaver Builder has been enabled under **WordPress Admin Dashboard > Settings > Beaver Builder > Post types**.
 :::
 
 If you'd like to remove this Beaver Builder display filter link, add the following line of code to the _functions.php_ file in your child theme.
@@ -25,6 +25,31 @@ If you'd like to remove this Beaver Builder display filter link, add the followi
 add_filter( 'fl_builder_admin_edit_sort_bb_enabled', '__return_false' );
 ```
 
+## Adding SVG & Other File Type Support
+
+**Filter:** `fl_module_upload_regex`
+
+The `fl_module_upload_regex` filter allows developers to modify the regular expression used to validate the file types that can be uploaded to Beaver Builder image fields. These fields are used for incorporating background images in rows and adding images to modules, such as the Photo module. You can also add support for multiple file types by listing each file extension separated by the pipe symbol (`|`).
+
+:::tip
+The [Regex101](https://regex101.com/) website is a valuable resource for obtaining assistance with regular expressions.
+:::
+
+:::caution
+The `fl_module_upload_regex` filter only provides support for Beaver Builder and not for WordPress as a whole. In order for it to function, support must also be added to WordPress, which can be achieved through custom code or a third-party plugin. Failing to add support to WordPress will prevent the `fl_module_upload_regex` filter from functioning properly.
+:::
+
+The example code demonstrates how to enable support for SVG files in Beaver Builder image fields. To add support for more file types, you can adjust the code by substituting `svg` with the extension of the desired file type.
+
+```php
+add_filter( 'fl_module_upload_regex', function( $regex, $type, $ext, $file ) {
+  
+  $regex['photo'] = '#(jpe?g|png|gif|bmp|tiff?|webp|svg)#i';
+  
+  return $regex;
+
+}, 10, 4 );
+```
 ## Filter to add a mail service to the Subscribe module
 
 **Filter:** `fl_builder_subscribe_form_services`
@@ -33,13 +58,13 @@ The fl_builder_subscribe_form_services filter lets you add a service to the list
 
 ```php
 function bb_subscribe_form_custom_service( $services ) {
-	$services['convertkit_custom'] = array(
-		'type'  => 'autoresponder',
-		'name'  => 'ConvertKitCustom',
-		'class' => 'FLBuilderServiceConvertKitCustom',
-		'file' 	=> FL_CHILD_THEME_DIR.'/classes/class-fl-builder-service-convertkit.php',
-	);
-	return $services;
+  $services['convertkit_custom'] = array(
+    'type'  => 'autoresponder',
+    'name'  => 'ConvertKitCustom',
+    'class' => 'FLBuilderServiceConvertKitCustom',
+    'file' 	=> FL_CHILD_THEME_DIR.'/classes/class-fl-builder-service-convertkit.php',
+  );
+  return $services;
 }
 add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
 ```
@@ -60,7 +85,7 @@ add_filter('fl_photocaptionregex', function( $regex ) {
 ```
 
 :::tip
-`$` Dollar is a regex control character, so it must be escaped.
+The `$` Dollar symbol is a regex control character, so it must be escaped (`\$`).
 :::
 
 ## Always open first tab in row/column/module settings
@@ -89,7 +114,7 @@ To display these module counts, add the following line of code to the _functions
 add_filter( 'is_module_disable_enabled', '__return_true' );
 ```
 
-:::important **Important**
+:::info
 If you uncheck modules on this tab with this filter applied, it will prevent them from being displayed on the front end of your site. See the following section about [preventing modules from loading site-wide](#prevent-modules-from-loading-site-wide).
 :::
 
@@ -103,7 +128,7 @@ If you apply the `is_module_disable_enabled` filter, then when you clear a check
 
 This filter is the same one [described in the previous section about displaying module counts](#show-which-modules-are-in-use-in-a-website). After you apply the filter as shown there, go to **Settings > Beaver Builder** and click the **Modules** tab to view which modules are used where, then uncheck the box for any modules that you don't want to display either on the front end or in the editor. 
 
-:::important **Important**
+:::caution
 The Slideshow module is required for row background slideshows to function.
 :::
 
@@ -140,7 +165,7 @@ Use this filter to enable double opt-in for MailChimp integrations. Returning `t
 add_filter( 'fl_builder_mailchimp_double_option', '__return_true' );
 ```
 
-##  Filter front-end AJAX actions in Beaver Builder
+## Filter front-end AJAX actions in Beaver Builder
 
 **Filters:** `fl_ajax_*` , appended with an AJAX action listed in *classes/class-fl-builder-ajax.php* 
 
@@ -380,7 +405,7 @@ function my_builder_render_css( $css, $nodes, $global_settings ) {
 add_filter( 'fl_builder_render_css', 'my_builder_render_css', 10, 3 );
 ```
 
-:::tip **Tip**
+:::tip
 This filter can also be used to solve a [403 error when CloudFlare or another CDN is used to serve images](/beaver-builder/troubleshooting/common-issues/cloudflare-and-403-errors-when-loading-background-images.md/#add-a-filter).
 :::
 

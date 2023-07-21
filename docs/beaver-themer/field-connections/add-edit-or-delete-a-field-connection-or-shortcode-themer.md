@@ -6,7 +6,7 @@ sidebar_label: Work with a field connection or shortcode
 
 Here's how to add, edit, or delete a field connection or field connection shortcode in a row or module setting.
 
-:::note **Note**
+:::info
 To use field connections in Beaver Builder in locations other than Themer layouts, you must still have Beaver Themer installed.
 :::
 

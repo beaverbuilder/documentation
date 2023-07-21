@@ -11,7 +11,7 @@ How you configure your blog in WordPress in **Customize > Settings > Static fron
 
 If you're not sure what WordPress-generated index and archive pages are, see the article about  [how WordPress handles blogs](/beaver-builder/layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives.md).
 
-:::note **Note**
+:::info
 These options are only concerned with whether you use WordPress-generated index page or one of the Beaver Builder Posts modules to display a summary of your Posts. The choice is not affected by whether you plan to use Beaver Builder layouts in your blog posts.
 :::
 

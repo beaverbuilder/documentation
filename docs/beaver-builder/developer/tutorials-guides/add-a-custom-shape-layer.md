@@ -4,16 +4,16 @@ title: Add a custom shape layer
 sidebar_label: Add a custom shape layer
 ---
 
-This tutorial gives you all the details of how to register a custom shape so
-that you can choose it from the list of available shapes when you set a top or
-bottom shape in row settings. You should be able to complete this tutorial
-even if you're not a developer. See the article on custom shape
-art for more information about SVG art, an overview of the process of
-registering shape art in Beaver Builder, and a screenshot of the final result.
+This tutorial provides instructions on how to register a custom shape programmatically, allowing you to select it from the list of available shapes when configuring top or bottom shapes in row settings.
 
-:::tip **Tip**
-If you've never created a WordPress plugin before, this is a basic
-procedure for how to construct a simple one.
+Even if you don't have a background in development, you should be able to follow this tutorial successfully. For further details on SVG art and an overview of the process involved in registering shape art in Beaver Builder, along with a screenshot showcasing the final outcome, refer to the article on custom shape art.
+
+:::tip
+
+Another way to include Custom Row Shapes is by copying and pasting your shape's SVG code into the Custom Row Shape user interface (UI) within the Beaver Builder Global Settings.
+
+For additional details, please refer to the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#custom-row-shapes) article.
+
 :::
 
 ## 1. Copy the SVG shape markup

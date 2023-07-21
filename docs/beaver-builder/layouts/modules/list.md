@@ -40,7 +40,7 @@ Here's an example of an ordered list with just headings and markers, no content.
 
 In this example, the  icon size was increased. By default, the icon is vertically centered with the heading, but you can change the position by adjusting the icon padding setting.
 
-:::note **Note**
+:::info
 Ordered list item markers do not include a period after the number.
 :::
 

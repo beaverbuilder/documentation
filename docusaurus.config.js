@@ -7,6 +7,10 @@ module.exports = {
   organizationName: 'beaverbuilder',
   projectName: 'docs',
   onBrokenLinks: 'warn',
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   scripts: [
     {
       src: 'https://kit.fontawesome.com/71592fd01a.js',
@@ -20,10 +24,20 @@ module.exports = {
       appId: '30TMM3CYV0',
       indexName: 'bbdocs',
     },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
     prism: {
       additionalLanguages: ['php'],
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     announcementBar: {
       id: 'announcement-bar',
@@ -35,28 +49,29 @@ module.exports = {
     },
     navbar: {
         logo: {
-        alt: 'Beaver Builder',
-        src: 'img/bb-logo-light.png',
-        srcDark: 'img/bb-logo-dark.png',
+        alt: 'Return to Beaver Builder',
+        src: 'bb-logo-inline.png',
+        href: 'https://www.wpbeaverbuilder.com/',
+        target: '_self',
       },
       items: [
         {
-          to: '/general',
-          label: 'General',
+          href: '/',
           position: 'left',
-          activeBasePath: 'general',
+          className: 'header-home-icon',
+          'aria-label': 'Docs Home',
         },
         {
-          to: '/beaver-builder',
+          type: 'doc',
+          position: 'left',
+          docId: 'beaver-builder/introduction/index',
           label: 'Beaver Builder',
-          position: 'left',
-          activeBasePath: 'beaver-builder',
         },
         {
-          to: '/beaver-themer',
-          label: 'Beaver Themer',
+          type: 'doc',
           position: 'left',
-          activeBasePath: 'beaver-themer',
+          docId: 'beaver-themer/introduction/index',
+          label: 'Beaver Themer',
         },
         {
           to: '/bb-theme',
@@ -70,6 +85,12 @@ module.exports = {
           position: 'left',
           activeBasePath: 'assistant',
         },
+        {
+          href: 'https://courses.wpbeaverbuilder.com/',
+          label: 'Courses',
+          position: 'right',
+          target: '_blank',
+        },
       ],
     },
     footer: {
@@ -78,10 +99,6 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'General',
-              to: '/general',
-            },
             {
               label: 'Beaver Builder',
               to: '/beaver-builder',
@@ -93,11 +110,15 @@ module.exports = {
             {
               label: 'BB Theme',
               to: '/bb-theme',
+            },
+            {
+              label: 'Assistant',
+              to: '/assistant',
             }
           ],
         },
         {
-          title: 'Beaver Builder',
+          title: 'Resources',
           items: [
             {
               label: 'Blog',
@@ -108,9 +129,13 @@ module.exports = {
               to: 'https://www.wpbeaverbuilder.com/pricing/',
             },
             {
-              label: 'FAQs',
-              to: '/general/faq',
+              label: 'Courses',
+              href: 'https://courses.wpbeaverbuilder.com/',
             },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/c/BeaverBuilderWP',
+            }
           ],
         },
         {
@@ -127,6 +152,10 @@ module.exports = {
             {
               label: 'Forums',
               href: 'https://community.wpbeaverbuilder.com/',
+            },
+            {
+              label: 'Discord',
+              href: 'https://www.wpbeaverbuilder.com/discord/',
             },
           ],
         },
@@ -164,8 +193,8 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleAnalytics: {
-          trackingID: 'UA-15399878-10',
+        gtag: {
+          trackingID: 'G-X18SJZNXS8',
           anonymizeIP: true,
         },
         sitemap: {

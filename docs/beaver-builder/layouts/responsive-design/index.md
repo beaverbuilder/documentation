@@ -60,9 +60,6 @@ Beaver Builder provides the following features to fine-tune your responsive layo
 
 ## In this section
 
-```mdx-code-block
 import DocCardList from '@theme/DocCardList';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
-<DocCardList items={useCurrentSidebarCategory().items}/>
-```
+<DocCardList />

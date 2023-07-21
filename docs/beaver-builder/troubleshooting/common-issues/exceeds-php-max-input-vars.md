@@ -31,7 +31,7 @@ If you're able to set it yourself, we recommend the first method for standard us
 
 This method may not work in your hosting situation. In that case, contact your hosting provider for help.
 
-:::note **Note**
+:::info
 Make sure to back up your _.htaccess_ file before editing.
 :::
 

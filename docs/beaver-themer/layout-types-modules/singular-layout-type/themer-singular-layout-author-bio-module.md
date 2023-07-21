@@ -24,6 +24,6 @@ profile, specifically the following fields:
   * **Profile picture**  
   The post author's photo come from the **Profile picture** field in that author's user profile. By default, WordPress uses the user's Gravatar as the profile picture. If you use a plugin that lets users upload their own image or use one from the Media Library for their profile picture, that image is used.
 
-:::note **Note** 
+:::info 
 If any of this information is missing from the user profile, the bio box still displays, but without that object.
 :::

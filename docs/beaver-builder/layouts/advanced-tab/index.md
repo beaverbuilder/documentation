@@ -1,10 +1,10 @@
 ---
 id: index
 title: Advanced tab
-sidebar_label: Getting Started
+sidebar_label: Advanced tab
 ---
 
-The **Advanced** tab offers nearly identical settings on all Beaver Builder rows, columns, and modules.
+The Advanced tab provides advanced settings for rows, columns, and modules, including options for spacing, animations, visibility, and custom code.
 
 ![Advanced tab](/img/beaver-builder/advanced-tab--getting-started--1.jpg)
 
@@ -23,9 +23,6 @@ The Advanced tab can be found in all row, column, and module settings.
 
 ## In this section
 
-```mdx-code-block
 import DocCardList from '@theme/DocCardList';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
-<DocCardList items={useCurrentSidebarCategory().items}/>
-```
+<DocCardList />

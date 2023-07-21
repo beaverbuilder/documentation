@@ -50,7 +50,7 @@ panel, as shown in this screenshot.
 
 ![](/img/row-columns-save-row-reuse-1.png)
 
-:::note **Note**
+:::info
 At this time, you can edit saved columns in the Beaver Builder menu
 but you can't create new ones. Instead, use the procedure in the previous
 section to create the column you want to save in a page or post layout and

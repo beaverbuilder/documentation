@@ -7,51 +7,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import SearchBar from '@theme/SearchBar';
 
-const general = [
-  {
-    title: <>Pre-Sales</>,
-    imageUrl: 'img/kb-home-pre-sales.png',
-    url: '/general/pre-sales',
-    description: (
-      <>
-        Thinking about purchasing Beaver Builder? See the commonly asked
-        pre-purchase questions here.
-      </>
-    ),
-  },
-  {
-    title: <>FAQ</>,
-    imageUrl: 'img/kb-home-faq.png',
-    url: '/general/faq',
-    description: (
-      <>
-        We answer questions you didn’t know you had about how Beaver Builder
-        works and what it works with.
-      </>
-    ),
-  },
-  {
-    title: <>Account & Billing</>,
-    imageUrl: 'img/kb-home-account-billing.png',
-    url: '/general/account-billing',
-    description: (
-      <>
-        How to renew or cancel your subscription, download your products,
-        manage websites that use your license.
-      </>
-    ),
-  },
-];
-
 const products = [
   {
     title: <>Beaver Builder</>,
     imageUrl: 'img/kb-home-beaver-builder.png',
     url: '/beaver-builder',
+    classname: 'beaver-builder',
+    productsname: 'Beaver Builder',
     description: (
       <>
-        All the basics about building Beaver Builder layouts, plus tips for
-        power users and developers.
+        The Beaver Builder docs offer a valuable resource to unlock the full potential 
+        of Beaver Builder whether you're a beginner or an experienced user.
       </>
     ),
   },
@@ -59,10 +25,12 @@ const products = [
     title: <>Beaver Themer</>,
     imageUrl: 'img/kb-home-beaver-themer.png',
     url: '/beaver-themer',
+    classname: 'beaver-themer',
+    productsname: 'Beaver Themer',
     description: (
       <>
-        How to use our add-on product to create Beaver Builder layouts to style
-        headers, footers, and more.
+        Explore comprehensive guides on creating dynamic Beaver Themer layouts using field 
+        connections and conditional logic to enhance your website. 
       </>
     ),
   },
@@ -70,173 +38,122 @@ const products = [
     title: <>BB Theme</>,
     imageUrl: 'img/kb-home-bb-theme.png',
     url: '/bb-theme',
+    classname: 'bb-theme',
+    productsname: 'BB Theme',
     description: (
       <>
-        Tips on how to customize theme settings to enhance Beaver Builder
-        layouts, pages, and posts.
+        These guides cover the full range of the BB Themes capabilities, including 
+        customizable options, header layouts, Bootstrap CSS and more.
+      </>
+    ),
+  },
+  {
+    title: <>Assistant</>,
+    imageUrl: 'img/kb-home-bb-theme.png',
+    url: '/assistant',
+    classname: 'assistant',
+    productsname: 'Assistant',
+    description: (
+      <>
+        Our guides for Assistant cover leveraging cloud storage for assets to accelerate your 
+        website creations and how to use the Assistant plugin to perform WordPress admin tasks. 
+        
       </>
     ),
   },
 ];
 
-const popular = [
-  {
-    title: <>Install Beaver Builder</>,
-    url: '/beaver-builder/getting-started/install-beaver-builder',
-  },
-  {
-    title: <>Difference between free and premium versions</>,
-    url: '/general/pre-sales/difference-between-free-and-premium-versions',
-  },
-  {
-    title: <>Upgrade your premium license</>,
-    url: '/general/account-billing/upgrade-your-premium-license',
-  },
-  {
-    title: <>Which Beaver Builder Packages include Beaver Themer?</>,
-    url: '/general/pre-sales/which-beaver-builder-packages-include-beaver-themer',
-  },
-  {
-    title: <>Is Beaver Builder compatible with Gutenberg?</>,
-    url: '/general/faq/is-beaver-builder-compatible-with-gutenberg',
-  },
-];
-
-const developers = [
-  {
-    title: <>Custom Module Guide (Beaver Builder)</>,
-    url: '/beaver-builder/developer/custom-modules',
-  },
-  {
-    title: <>Beaver Builder Developer Docs</>,
-    url: '/beaver-builder/developer',
-  },
-  {
-    title: <>Beaver Themer Developer Docs</>,
-    url: '/beaver-themer/developer',
-  },
-  {
-    title: <>BB Theme Developer Docs</>,
-    url: '/bb-theme/developer',
-  },
-  {
-    title: <>Hooks</>,
-    url: 'https://hooks.wpbeaverbuilder.com/bb-plugin/',
-  }
-];
-
-const integrations = [
-  {
-    title: <>Advanced Custom Fields</>,
-    url: '/beaver-themer/field-connections/connections-to-acf',
-    imageUrl: '/img/home--advanced-custom-fields-logo.png',
-  },
-  {
-    title: <>BigCommerce</>,
-    url: '/beaver-themer/integrations/bigcommerce',
-    imageUrl: 'img/home--bigcommerce-logo.png',
-  },
-  {
-    title: <>Easy Digital Downloads</>,
-    url: '/beaver-themer/integrations/easy-digital-downloads',
-    imageUrl: 'img/home--easy-digital-downloads-logo.png',
-  },
-  {
-    title: <>The Events Calendar</>,
-    url: '/beaver-themer/integrations/the-events-calendar',
-    imageUrl: 'img/home--events-calendar-logo.png',
-  },
-  {
-    title: <>WooCommerce</>,
-    url: '/beaver-themer/integrations/woocommerce/',
-    imageUrl: 'img/home--woocommerce-logo.png',
-  },
-];
+// const integrations = [
+//   {
+//     title: <>Advanced Custom Fields</>,
+//     url: '/beaver-themer/field-connections/connections-to-acf',
+//     imageUrl: '/img/home--advanced-custom-fields-logo.png',
+//   },
+//   {
+//     title: <>BigCommerce</>,
+//     url: '/beaver-themer/integrations/bigcommerce',
+//     imageUrl: 'img/home--bigcommerce-logo.png',
+//   },
+//   {
+//     title: <>Easy Digital Downloads</>,
+//     url: '/beaver-themer/integrations/easy-digital-downloads',
+//     imageUrl: 'img/home--easy-digital-downloads-logo.png',
+//   },
+//   {
+//     title: <>The Events Calendar</>,
+//     url: '/beaver-themer/integrations/the-events-calendar',
+//     imageUrl: 'img/home--events-calendar-logo.png',
+//   },
+//   {
+//     title: <>WooCommerce</>,
+//     url: '/beaver-themer/integrations/woocommerce/',
+//     imageUrl: 'img/home--woocommerce-logo.png',
+//   },
+// ];
 
 const community = [
   {
-    title: <>Facebook Group</>,
+    title: <>Courses</>,
+    url: 'https://courses.wpbeaverbuilder.com',
+    icon: <><i className="fa-solid fa-graduation-cap"></i></>,
+  },
+  {
+    title: <>YouTube</>,
+    url: 'https://www.youtube.com/c/BeaverBuilderWP',
+    icon: <><i className="fab fa-youtube"></i></>,
+  },
+  {
+    title: <>Facebook</>,
     url: 'https://www.facebook.com/groups/beaverbuilders/',
     icon: <><i className="fab fa-facebook-f"></i></>,
   },
   {
     title: <>Slack</>,
-    url: 'https://beaverbuilders.slack.com/join/shared_invite/zt-p4cb3bl0-gACU3QD8r25RPlaIoh3YAA#/shared-invite/email',
+    url: 'https://www.wpbeaverbuilder.com/go/slack/',
     icon: <><i className="fab fa-slack"></i></>,
   },
+   {
+    title: <>Discord</>,
+    url: 'https://www.wpbeaverbuilder.com/discord/',
+    icon: <><i className="fab fa-discord"></i></>,
+  },
   {
-    title: <>Community Forum</>,
+    title: <>Forum</>,
     url: 'https://community.wpbeaverbuilder.com/',
     icon: <><i className="fab fa-discourse"></i></>,
   },
 ];
 
-function General({imageUrl, title, url, description}) {
+function Products({imageUrl, title, classname, productsname, url, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('col col--4', styles.general)}>
-      <a className="bb-docs-home-box" href={url}>
-        {imgUrl && (
-            <img className={styles.featureImage} src={imgUrl} alt={title} />
-        )}
-        <h3>{title}</h3>
+    <div className={classnames('col col--6', styles.products, classname)}>
+      <a className="bb-docs-home-box" href={url} title={`${productsname} Docs`}>
+        <h3><span>{title}</span></h3>
         <p>{description}</p>
       </a>
     </div>
   );
 }
 
-function Products({imageUrl, title, url, description}) {
+function SubmitTicket({imageUrl, title, classname, url, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('col col--4', styles.products)}>
-      <a className="bb-docs-home-box" href={url}>
-        {imgUrl && (
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        )}
-        <h3>{title}</h3>
+    <div className={classnames('col col--6', styles.products, classname)}>
+        <h3><span>{title}</span></h3>
         <p>{description}</p>
-      </a>
-    </div>
-  );
-}
-
-function Popular({title, url}) {
-  return (
-    <a className="jump-to" href={url}>
-      <div className="jump-to--main">{title}</div>
-      <div className="jump-to--icon"><i className="fas fa-chevron-right" aria-hidden="true"></i></div>
-    </a>
-  );
-}
-
-function Developers({title, url}) {
-  return (
-    <a className="jump-to" href={url}>
-      <div className="jump-to--main">{title}</div>
-      <div className="jump-to--icon"><i className="fas fa-chevron-right" aria-hidden="true"></i></div>
-    </a>
-  );
-}
-
-function Integrations({title, url, imageUrl}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={classnames('col col--2', styles.products)}>
-      <a className="jump-to integrations-box" href={url} title={title}>
-      {imgUrl && (
-        <img className={styles.integrationsImage} src={imgUrl} alt={title} />
-      )}
-      </a>
+        <a className="bb-docs-home-box" href={url}>
+          <button className="button button--primary button--lg">Submit a Ticket</button>
+        </a>
     </div>
   );
 }
 
 function Community({title, url, icon}) {
   return (
-    <div className={classnames('col col--4 social-icons', styles.community)}>
-      <a className="jump-to" href={url} target="_blank" rel="noopener noreferrer">
-        <div className="jump-to--main">
+    <div className={classnames('col community-icon', styles.community)}>
+      <a className="community-link" href={url} target="_blank" rel="noopener noreferrer">
+        <div className="community-content">
           {icon}
           <h3>{title}</h3>
         </div>
@@ -254,8 +171,7 @@ function Home() {
       description="Frequently asked questions and support documentation for Beaver Builder products.">
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">How can we help?</h1>
           <div className="hero__search">
               <SearchBar
                   handleSearchBarToggle={setIsSearchBarExpanded}
@@ -266,21 +182,10 @@ function Home() {
         </div>
       </header>
       <main>
-        {general && general.length && (
-          <section className={styles.general}>
-            <div className="container">
-              <div className="row">
-                {general.map((props, idx) => (
-                  <General key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
         {products && products.length && (
           <section className={styles.products}>
             <div className="container">
-              <div className="row">
+              <div className="row products-row">
                 {products.map((props, idx) => (
                   <Products key={idx} {...props} />
                 ))}
@@ -288,60 +193,16 @@ function Home() {
             </div>
           </section>
         )}
-        <section className="popular_src-pages- developer_src-pages-">
-          <div className="container">
-            <div className="row">
-              <div className="col col--6">
-              <h2>Popular Articles</h2>
-                {popular && popular.length && (
-                  <div className={styles.popular}>
-                    {popular.map((props, idx) => (
-                      <Popular key={idx} {...props} />
-                    ))}
-                  </div>
-                )}
-              </div>
-              <div className="col col--6">
-              <h2>Developer Guides</h2>
-                {developers && developers.length && (
-                  <div className={styles.developers}>
-                    {developers.map((props, idx) => (
-                      <Developers key={idx} {...props} />
-                    ))}
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        </section>
-        {integrations && integrations.length && (
-          <section className={styles.integrations}>
-            <div className="container">
-              <div className="row">
-                <div className="col">
-                  <h2>Beaver Themer Integrations</h2>
-                </div>
-              </div>
-              <div className="row">
-                  {integrations.map((props, idx) => (
-                    <Integrations key={idx} {...props} />
-                  ))}
-              </div>
-            </div>
-          </section>
-        )}
         {community && community.length && (
-          <section className={styles.community}>
+          <section className="community">
             <div className="container">
-              <div className="row">
+              <div className="row community-heading">
                 <div className="col">
-                  <h2>Community!</h2>
-                  <p>You can also get information and help at any of our thriving community.<br/>
-                  <strong>Note:</strong> That the Beaver Builder team monitors these community sites but doesn't
-                  provide direct support there. You'll get lots of advice and help from other Beaver Builder users, but if you need real troubleshooting, <a href="https://www.wpbeaverbuilder.com/beaver-builder-support/" target="_blank" rel="noopener noreferrer">submit a Beaver Builder Support ticket</a>.</p>
+                  <h2>Resources & Communities</h2>
+                  <p>Expand your horizons with Beaver Builder's additional resources and communities. Connect with like-minded individuals, access a treasure trove of knowledge, and freely share ideas.</p>
                 </div>
               </div>
-              <div className="row">
+              <div className="row community-icons">
                   {community.map((props, idx) => (
                     <Community key={idx} {...props} />
                   ))}
@@ -349,6 +210,18 @@ function Home() {
             </div>
           </section>
         )}
+        <section className="submit-ticket">
+          <div className="container">
+            <div className="row">
+              <div className="col">
+                <h2>Need some help?</h2>
+                <p>If you're unable to find a solution in our knowledge base, don't worry! Visit our 
+                support page, and we'll guide you on how to get in touch with our friendly support team.</p>
+                <a className="button button--primary" href="https://www.wpbeaverbuilder.com/beaver-builder-support/" target="_blank" rel="noopener noreferrer">Submit Ticket</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );

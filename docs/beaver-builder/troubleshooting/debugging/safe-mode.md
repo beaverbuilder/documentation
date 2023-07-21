@@ -28,7 +28,7 @@ To enable safe mode when opening a page for editing in Beaver Builder:
 2. When the page fails to open, append `&safemode` to the end of the URL.  
   
   ```markup title='Example'
-  https://my-website.com/?fl_builder&safemode
+  https://my-website.com/?fl_builder&fl_builder_ui&safemode
   ```
 
 3. Check each module, looking especially for any custom HTML or JavaScript. Custom HTML can be inserted into any field that accepts text. JavaScript is more likely to have been placed in an HTML or Text Editor module.

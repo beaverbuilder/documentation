@@ -63,7 +63,7 @@ The code example below showcases a row with four columns that have Reversed Colu
 
 When designing for accessibility, as a best practice, it's recommended to design web pages in a way that avoids the need for changing stacking order.
 
-For further details, refer to the [Device-Specific Column Layouts Instead of Reverse Column Order](#device-specific-column-layouts-instead-of-reverse-order) section.
+For further details, refer to the [Alternative to Reverse Column Order](#alternative-to-reverse-column-order) section.
 :::
 
 ### Custom Column Widths

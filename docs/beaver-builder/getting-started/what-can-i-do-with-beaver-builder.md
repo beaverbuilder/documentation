@@ -68,7 +68,7 @@ Choose a different template type in the **Group** field for more choices. [See t
 
 ![](/img/what-can-i-do-with-beaverbuilder-6.png)
 
-* Design your content from scratch by dragging individual modules into the content area. Click the **Modules** tab and drag a module into the layout. See [descriptions of each module](/beaver-builder/layouts/modules/module-overview.md) and see the next section for more information about designing layout structrure.
+* Design your content from scratch by dragging individual modules into the content area. Click the **Modules** tab and drag a module into the layout. See [descriptions of each module](/beaver-builder/layouts/modules/index.md) and see the next section for more information about designing layout structrure.
 
 ![](/img/what-can-i-do-with-beaverbuilder-7.png)
 
@@ -114,7 +114,7 @@ For more information about responsive editing settings, start with this
 You can save rows and modules globally, so that any change you make in one
 place is reflected everywhere, or you can save the rows and modules so you can
 reuse them but can modify them differently in each location. Or you can save
-the entire layout as a [*layout template*](/general/glossary.md#layout-template-bb), which you can [use on any other page of your site](/beaver-builder/layouts/templates/add-a-layout-template-to-your-page.md) or [export for use on another site](/beaver-builder/layouts/templates/export-import-content.md).
+the entire layout as a layout template, which you can [use on any other page of your site](/beaver-builder/layouts/templates/add-a-layout-template-to-your-page.md) or [export for use on another site](/beaver-builder/layouts/templates/export-import-content.md).
 
 If you have the Agency edition of the Beaver Builder plugin, you can white-
 label the Beaver Builder UI. And with any edition of Beaver Builder, you can
@@ -128,11 +128,8 @@ When you enable posts or custom post types, you can use Beaver Builder to lay
 out the content area of single posts or custom post types. See the article on
 [using Beaver Builder with Posts](/beaver-builder/layouts/post-layouts/how-beaver-builder-works-with-blogs-and-custom-post-types-start-here/) for more information.
 
-:::note **Note**
-Because WordPress [*index*](/general/glossary.md#blog-posts-index-wp) and
-[*archive*](/general/glossary.md#archives-wp) pages are generated on the fly, you cannot use Beaver Builder to lay out those pages, though you can create Beaver
-Builder layouts that simulate the generated WordPress pages. For more
-information, see the article on [generated WordPress archives vs. Beaver Builder layouts](/beaver-builder/layouts/post-layouts/generated-wordpress-archives-versus-beaver-builder-layouts.md). Or, you can use the add-on Beaver Themer plugin to create custom WordPress index, archive, and search result layouts.
+:::info
+Because WordPress index and archive pages are generated on the fly, you cannot use Beaver Builder to lay out those pages, though you can create Beaver Builder layouts that simulate the generated WordPress pages. For more information, see the article on [generated WordPress archives vs. Beaver Builder layouts](/beaver-builder/layouts/post-layouts/generated-wordpress-archives-versus-beaver-builder-layouts.md). Or, you can use the add-on Beaver Themer plugin to create custom WordPress index, archive, and search result layouts.
 :::
 
 ## Beaver Builder Theme
@@ -173,7 +170,7 @@ Here's a diagram showing the header and footer subareas.
 ![](/img/what-can-i-do-with-beaverbuilder-11.png)
 
 The sidebar is optional but if enabled, it will appear on every archive and
-post page, and also on any individual page when you set the [*WordPress template setting*](/general/glossary.md#page-template-wp) to display it.
+post page, and also on any individual page when you set the WordPress template setting to display it.
 
 Note that by default there is only one sidebar in Beaver Builder Theme, whose widget
 content will appear wherever you enable it (all Posts or individual Pages).

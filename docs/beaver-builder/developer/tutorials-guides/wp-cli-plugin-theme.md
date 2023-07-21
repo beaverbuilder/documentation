@@ -116,5 +116,5 @@ wp beaver global-update --id=default_heading_selector --value=.fl-post-header
 ```
 This command assigns the value `.fl-post-header` to the **CSS selector** field in **Tools > Global Settings**.
 
-:::note **Note**
+:::info
 `.fl-post-header` is the selector for the Beaver Builder Theme and is the default **CSS selector** value. [Follow this article](/beaver-builder/getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title.md) to find the selector for your theme.

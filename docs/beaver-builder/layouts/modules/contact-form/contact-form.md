@@ -21,7 +21,7 @@ explicitly accept terms and conditions.
   * You can choose whether the person who submits the form sees a confirmation message or is redirected to a URL you specify.
   * Email notifications are automatically sent to the designated recipient upon form submission.
 
-:::note **Note**
+:::info
 Entries from this form are not stored in the database or added to your website files. If you need a
 more central or permanent record of contacts than the email notifications, use a third-party form
 plugin.

@@ -12,7 +12,7 @@ If you don't need to hide entire rows or modules, you can use conditional shortc
 
 You can use the following code to hide rows or modules that have empty field connections. Add it to your child theme's _functions.php_ file.
 
-:::note **Note**
+:::info
 This code is just a starting point and will not work in every situation. Use your knowledge of PHP to extend this code, using the `$node` variable to choose which rows, columns or modules are hidden based on a number of circumstances such as `$node->type` or `$node->settings`.
 :::
 

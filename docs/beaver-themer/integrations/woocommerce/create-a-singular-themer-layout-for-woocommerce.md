@@ -6,7 +6,7 @@ sidebar_label: Singular layout for WooCommerce
 
 You can use the Singular Themer layout to design WooCommerce single product pages.
 
-:::note **Note** 
+:::info 
 The WooCommerce modules that you use in Beaver Themer to lay out single product pages have standard WooCommerce functionality. The WooCommerce modules provide a convenient way to style the page and show or hide various WooCommerce components.
 :::
 

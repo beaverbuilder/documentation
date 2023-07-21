@@ -195,7 +195,7 @@ The **Edit Themer layout** screen has the following settings for Header layouts:
 * The [locations](/beaver-themer/locations/themer-locations-reference.md) on your site where the header applies.
 * Optional [conditional logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md) rules.
 
-:::note **Note**
+:::info
     If you set the WordPress edit page's [Page Template](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts.md) to a template that has no header for a particular post or page, it will not remove the header produced by a Themer layout. You must control where the Themer header occurs through the **Location** settings here.
 :::
 

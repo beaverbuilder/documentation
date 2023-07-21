@@ -6,7 +6,7 @@ sidebar_label: Create a filter to customize the display of post data
 
 If you want to display a custom set of posts and custom post types (CPTs) in a Posts or Search module, you can create a filter to override query args in the `FLBuilderLoop` class.
 
-:::note **Note**
+:::info
 This code applies to custom queries only and doesn't work with the main query. If you want to override the main query, see [this WordPress codex article.](https://developer.wordpress.org/reference/hooks/pre_get_posts/)
 :::
 
@@ -26,7 +26,7 @@ add_filter( 'fl_builder_loop_query_args', 'fl_builder_loop_query_args_filter' );
 
 In Line 2, replace the post types in the array with the posts types that you want the custom query to display. In this example, the Posts or Search module will display three post types: standard posts, the posts belonging to a CPT called "another-post-type," and the posts from another CPT called "or-another-post-type".
 
-:::note **Note**
+:::info
 In the Custom Query list on the **Content** tab in the Posts or Search module,
 you'll still see the list of post types (Posts Pages, and any CPTs that you
 have), but it won't matter which one you choose because this custom query is

@@ -20,6 +20,6 @@ Here's a concrete example. Suppose that besides the using the **Post Title** fie
 
 After you add the **Post Title** shortcode to the Heading module, type the word "by," and add the **Author Name** shortcode.
 
-:::note **Note**
+:::info
 Field connection shortcodes always substitute a text string, so they can only be used for module settings where you'd normally enter text. For example, a **Heading**  text field can use a **Post title** shortcode, but you can only add a field connection, not a shortcode, in a Photo module's **Select photo** field.
 :::

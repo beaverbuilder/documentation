@@ -68,6 +68,6 @@ If you chose **Post featured image** in a Photo module, you'd see the image, but
 
 ![](/img/field-connection-basics-themer-2becafae.png)
 
-:::note **Note**
+:::info
 You might be wondering why there's no field connection to the header logo that's set in the Beaver Builder Theme Customizer. Currently, there are no field connections to Customizer settings. This is because each theme does customizer settings differently, so the field connections would have to be set up on a per-theme basis. Instead, if you want to add a logo to a header layout, for example, use a Photo module with a link to a logo image in your media library.
 :::

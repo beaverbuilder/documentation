@@ -7,7 +7,7 @@ sidebar_label: Ideas for using background colors and effects
 There are many ways to add color and color effects to backgrounds. Here are
 some ideas. 
 
-:::note **Note**
+:::info
 All of these colors and effects except shape overlays are also
 available for column backgrounds. Background color and border effects are
 available in specific modules, such as the Call to Action module.

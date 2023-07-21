@@ -71,7 +71,7 @@ By default, the tooltips are displayed with a question mark, shown in Figure 3 Y
 
 The **Style** tab has three sections: **General style**, **Border**, and **Feature list style**.
 
-:::note **Note**
+:::info
 Style settings in individual pricing boxes override the corresponding general settings.
 :::
 

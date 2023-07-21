@@ -30,9 +30,9 @@ following message:
 
 > UPDATES UNAVAILABLE! Your subscription is active but this domain has been
 deactivated. Please reactivate this domain in your account to enable automatic
-updates.   [Visit Account »](https://www.wpbeaverbuilder.com/my-account/?utm_medium=bb-pro&utm_source=license-settings-page&utm_campaign=license-deactivated)
+updates.   [Visit Account »](https://www.wpbeaverbuilder.com/my-account/)
 
-See [how to fix a deactivated license](/general/account-billing/my-beaver-builder-license-was-deactivated.md).
+See the [Domain Manager](../../account/domain-manager.md) article for more information.
 
 ### Removed domain
 
@@ -40,7 +40,7 @@ It could be that you removed a domain from Domain Manager on your  [My Account](
 **Settings > Beaver Builder** on your site, but the domain no longer appears in
 Domain Manager.
 
-See [how to add a removed domain back into Domain Manager](/general/account-billing/restore-a-removed-domain-in-domain-manager.md).
+See the [Domain Manager](../../account/domain-manager.md) article for more information.
 
 ## 3. Update hasn't propagated yet
 

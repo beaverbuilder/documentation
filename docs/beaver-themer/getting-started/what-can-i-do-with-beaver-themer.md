@@ -22,7 +22,7 @@ Themer layouts work for custom post types as well as standard WordPress pages an
 
 ![](/img/what-can-i-do-with-beaver-themer-d4ba41cd.png)
 
-:::note **Note**
+:::info
 You could think of Themer layouts as overriding the theme's control of a particular area of the page. This means that for any page to which a Themer layout does NOT apply, the standard theme options you have set take over. For example, if you have a Header-type Themer layout applied to the home page only, your theme's header will apply on every other page of your site.
 :::
 

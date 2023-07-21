@@ -30,7 +30,7 @@ increase the spread to change the size of the shadow.
 
 ![](/img/the-basics-set-border-5.png)
 
-:::note **Note**
+:::info
 Box shadows extend outside the row width. This means that for full-
 width rows with margins set to **0**, the shadow will extend outside of the
 browser window.

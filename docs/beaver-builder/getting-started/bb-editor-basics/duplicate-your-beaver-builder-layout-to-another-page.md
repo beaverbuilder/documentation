@@ -42,7 +42,7 @@ You can change the page title and slug from within the Beaver Builder editor. Fr
 
 ## Method 2: Duplicate a page from within the Beaver Builder editor
 
-:::note **Note**
+:::info
 Publish or save your current Beaver Builder layout before you duplicate it. If you've made editing changes to the layout and then duplicate it before saving the page, the duplicated page will not show the changes and the changes may be lost on the source page as well.
 :::
 

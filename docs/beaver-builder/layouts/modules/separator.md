@@ -19,7 +19,7 @@ The width of the line relative to row width. You can choose a **%**, **px**, or 
 * **Style**  
 The choices are **Solid**, **Dashed**, **Dotted**, **Double**.
 
-:::note **Note**
+:::info
 The **Double** line style must have a height of at least 3px set to display as a double line.
 :::
 

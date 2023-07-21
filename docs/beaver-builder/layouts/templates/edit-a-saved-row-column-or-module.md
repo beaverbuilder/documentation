@@ -35,7 +35,7 @@ The saved item opens in a new browser tab.
 
   3. Make your edits, then click **Done** and choose whether to publish, save, or discard the edits. See Section 2 below about what happens with each choice.
 
-:::note **Note**
+:::info
 If you edit a globally saved column, you need to publish, save, or
 discard the changes before you can get back to your page and see the entire
 set of saved rows, columns, and modules on the **Saved** tab.

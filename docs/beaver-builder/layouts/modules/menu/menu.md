@@ -11,13 +11,13 @@ The Menu module displays items from [a WordPress menu that you designate](#menu)
 
 ## Ideas for using a Menu module
 
-  * Use special menus in your Beaver Builder page layouts. For example, if you have one group of static pages on your site related to a particular topic, you could create a special menu for the pages in that particular group and display the links in a Menu module on the main page in that group.
-  * Save a Menu module and [use it in a shortcode in a text widget](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md#add-beaver-builder-shortcode-to-a-wordpress-text-widget). There's a Custom Menu widget in WordPress, but the menu module gives you more control over styling without resorting to CSS.
-  * If you have FAQs that contain fairly long answers, create a separate post for each individual FAQ, then create a menu item for each post, then use that menu in a Menu module embedded in your page content. That menu serves as a table of contents linking to the post that contains the answer. The following screenshot shows an example of a menu used as an FAQ table of contents.
+* Use special menus in your Beaver Builder page layouts. For example, if you have one group of static pages on your site related to a particular topic, you could create a special menu for the pages in that particular group and display the links in a Menu module on the main page in that group.
+* Save a Menu module and [use it in a shortcode in a text widget](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md#add-beaver-builder-shortcode-to-a-wordpress-text-widget). There's a Custom Menu widget in WordPress, but the menu module gives you more control over styling without resorting to CSS.
+* If you have FAQs that contain fairly long answers, create a separate post for each individual FAQ, then create a menu item for each post, then use that menu in a Menu module embedded in your page content. That menu serves as a table of contents linking to the post that contains the answer. The following screenshot shows an example of a menu used as an FAQ table of contents.
 
 ![Menu module used to display an FAQ](/img/menu-module-1.jpg)
 
-##  General tab
+## General tab
 
 ### Menu
 
@@ -77,7 +77,7 @@ The Accordion layout is a vertical layout that expands the menu to display subme
 
 ![Menu module, submenu items in an accordion layout](/img/menu-module-accordion-layout-submenu-flush.png)
 
-:::tip **Tip**
+:::tip
 You can see from the screenshot that the submenu is left-aligned with the main menu items, so it's a good idea to change the submenu background color at **Style > Dropdown**.
 :::
 
@@ -87,7 +87,7 @@ The Expanded layout is similar to the [WordPress Navigation Menu widget](https:/
 
 ![Menu module, expanded layout](/img/menu-module-expanded-layout.png)
 
-:::tip **Tip**
+:::tip
 * You can distinguish submenu items from main menu items with different background colors. The hover color shown in the screenshot comes from the **Style > Dropdowns > Link hover background color**.  The **Style > Dropdowns > Dropdown background color** is ignored.
 :::
 
@@ -101,13 +101,11 @@ The **Submenu icon** option is available for **Horizontal**, **Vertical**, and *
 ### Menu name
 The value you set for **Menu name** appears in two places:
 * The responsive Menu button, if you have chosen that in the [**Responsive Toggle** section](#responsive-toggle).
-*  The [ARIA label](/general/accessibility.md#the-wai-aria-standard) in the HTML output, to help accessibility tools identify the menu.  
-For example, if you change the default value  **Menu** to **primary menu**, the  HTML included with the Menu module appears like this:
+*  The ARIA label in the HTML output, to help accessibility tools identify the menu.  
+For example, if you change the default value **Menu** to **primary menu**, the  HTML included with the Menu module appears like this:
 
 ```html
-<nav aria-label="primary menu" itemscope="itemscope"
-        itemtype="https://schema.org/SiteNavigationElement"
-        class="focus">
+<nav aria-label="primary menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" class="focus">
 ```
 
 ### Centered + inline logo
@@ -125,7 +123,7 @@ When there's an odd number of menu items, the logo cannot appear exactly in the 
 
 ![Menu module centered inline logo Right](/img/menu-module-centered-inline-logo-right.png)
 
-:::tip **Tip**
+:::tip
 Horizontal menu items wrap onto a second line as screen size decreases, so be sure to test responsive behavior. The alignment of the wrapped line follows the alignment setting in the **Style > Menu** section.
 :::
 
@@ -222,7 +220,7 @@ Set the color of the menu items that are either active (displaying that page), o
 * **Link hover background color**
 You can optionally set a background color for the menu items that are either active (displaying that page), on hover with a mouse, or immediately after being tapped.
 
-:::note **Note**
+:::info
 If you're using the Beaver Builder Theme, the default menu link colors appear in the color you defined in **Appearance > Customize > General > Accent Color**, and you can customize this color.
 :::
 

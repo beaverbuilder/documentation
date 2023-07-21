@@ -16,7 +16,7 @@ All of the Beaver Builder Theme settings are made through the WordPress Customiz
   2. Click **Export** to export your customizer settings as a _.dat_ file to your local system, or use the **Import** section if you already have an exported _.dat_ file on your local system.  
   When you import, you shouldn't need to select the checkbox to download and import image files, because they should already be in your Media Library, but if you can't see (for example) your custom header logo after your import, try importing the  _.dat_  file again and select that checkbox.
 
-:::note **Note**
+:::info
 Most themes use the WordPress Customizer for all of their custom
 settings, but not all do. This plugin exports only Customizer settings.
 :::

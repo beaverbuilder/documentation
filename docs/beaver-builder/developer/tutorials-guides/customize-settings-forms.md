@@ -9,7 +9,7 @@ description: Information about using a Beaver Builder filter to customize Beaver
 It is possible to customize any of the settings forms in Beaver Builder,
 including the ones built in.
 
-You'll need a solid grasp of how settings forms are created to understand how to customize them, so If you haven't already, see our [custom module guide](/beaver-builder/developer/custom-modules.mdx) before continuing. That guide has everything you'll need.
+You'll need a solid grasp of how settings forms are created to understand how to customize them, so If you haven't already, see our [custom module guide](/beaver-builder/developer/custom-modules/index.md) before continuing. That guide has everything you'll need.
 
 To customize a settings form, use `fl_builder_register_settings_form`, as shown in the following code.
 

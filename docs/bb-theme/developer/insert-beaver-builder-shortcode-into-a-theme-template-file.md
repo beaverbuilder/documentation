@@ -14,6 +14,6 @@ Add the following line of code to the theme template file that you're modifying:
 
 Then insert the Beaver Builder shortcode where you want it.
 
-:::note **Note**
+:::info
 Depending on which file and where you insert this code, you may or may not need the `<?php` open and close tags.
 :::

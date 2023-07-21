@@ -56,6 +56,6 @@ With this procedure you can reset column widths to evenly divided widths for the
 * Mouse over a module to display its toolbar, then click **Edit Column > Reset column widths**.  
 If the options display a hamburger icon, click that, then mouse over **Edit column**  to reveal the  settings.
 
-:::note **Note**
+:::info
 If you have custom widths set for medium and small devices on the **Advanced** tab, you must change those manually.
 :::

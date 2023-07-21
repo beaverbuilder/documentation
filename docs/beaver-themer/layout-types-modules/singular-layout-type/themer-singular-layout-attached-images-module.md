@@ -12,6 +12,6 @@ The Attached Images module displays all of the images from your media library th
 
 The Attached Images module is a "shortcut" module. It's actually a Gallery module with a field connection set to **Post attached images** in the **Photos** field. When you open this module for editing, you can change the settings for layout, image size, and spacing, just like a regular Gallery module.
 
-:::note **Note**
+:::info
 The field connection requires that the **Source** field be set to Media Library because that's where WordPress attachments come from.
 :::

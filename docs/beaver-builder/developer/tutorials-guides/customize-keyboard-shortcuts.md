@@ -7,7 +7,7 @@ sidebar_label: Customize keyboard shortcuts
 The [keyboard shortcut system](/beaver-builder/advanced-builder-techniques/keyboard-shortcuts.md) in the Beaver Builder editor offers many keyboard shortcuts, and they are customizable. You can remove keyboard
 shortcuts, modify them, or register your own.
 
-:::note **Note**
+:::info
 Some browsers or operating systems may override particular keyboard
 combinations with actions of their own. Be sure to test! Also, if your
 keyboard shortcut does override a browser or operating system's keyboard
@@ -45,7 +45,7 @@ This produces a list of all of the currently registered keyboard shortcuts.
 
   6. If you plan to modify the shortcut, inspect the `keyCode` values for the entire set of shortcuts to make sure that the key combination you want to use isn't already registered for another keyboard shortcut.
 
-:::note **Note**
+:::info
 The word `mod` in some of the `keyCode` values is a special token
 used to signify the current platform’s standard modifier key. On <i class="fab fa-windows"></i> Windows,
 `mod` will be translated to <kbd>Ctrl</kbd> for the control key, while on <i class="fab fa-apple"></i> macOS, mod

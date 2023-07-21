@@ -17,7 +17,7 @@ This article shows how to add a widget area under the top bar with some PHP code
 
 ![](/img/add-a-widget-area-after-the-beaver-builder-theme-top-bar-60a26ea9.png)
 
-:::note **Note**
+:::info
 This tutorial requires that you have both Beaver Builder Theme and the child theme installed. [See this article for why you need a child theme](/bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme.md).
 :::
 

@@ -18,7 +18,7 @@ For example, suppose you want to replace an existing menu item labeled
 
 ![](/img/how-to-tips-add-icon-menu-1.png)
 
-:::note **Note**
+:::info
 The Font Awesome site has instructions to use fonts that require
 inserting code with a link to their Content Delivery Network (CDN) into the
 `<head>` tag of your site. That step is not necessary with Beaver Builder

@@ -53,7 +53,7 @@ You can [save the Beaver Builder layout of any page or post as a template](/beav
 * You want to use the same layout or content on another site. In this case, you can export the saved template and import it in the other site.
 * You want to share a layout with another person, or they want to share one with you. Exported layouts can be used by anyone else with a premium version of Beaver Builder.
 
-:::note **Note**
+:::info
 Layout templates are NOT global. That means if you modify a
 saved template, it will not affect any pages that you've already added the template to. Nor will a change to any particular page with a template affect the saved template or other instances of it.
 :::
