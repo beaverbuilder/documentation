@@ -3,7 +3,7 @@ id: index
 title: Beaver Builder Introduction
 sidebar_label: Beaver Builder Introduction
 description: Welcome to the Beaver Builder documentation. Whether you are new to Beaver Builder or an experienced user, this documentation offers a wealth of information and guidance.
-slug: /beaver-builder
+slug: /introduction
 ---
 
 <head>

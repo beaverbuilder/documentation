@@ -55,6 +55,9 @@ The following are the different module subgroups available.
 * **Standard Modules**  
   All modules included with Beaver Builder are listed in the Standard Modules group. If you disable modules via the Beaver Builder settings, they do not appear in the Standard Modules group.
 
+* **ACF Blocks**  
+  If you have the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin installed, any ACF blocks you create will appear in the ACF Blocks group.
+
 * **Reusable Blocks**  
   Any [WordPress reusable blocks](https://wordpress.org/support/article/reusable-blocks/) created will appear in the Reuable Blocks group.
 

@@ -12,18 +12,19 @@ After you've installed WP-CLI, you can enter the following command to get a list
 
 The on-screen information will tell you what commands are available and the syntax of each command, with options and examples.
 
-Currently, the following commands are available for Beaver Themer. To see a description of the Beaver Builder Plugin and Theme commands, see [this article](/beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme.md).
+Currently, the following commands are available for Beaver Themer. To see a description of the Beaver Builder Plugin and Theme commands, see [this article](/beaver-builder/developer/tutorials-guides/wp-cli-plugin-theme).
 
 ## List all Themer layouts
 
 The following command lists all of the Themer layouts with the following values:
 
-  * ID of the Themer layout
-  * Name of the Themer layout
-  * Status of the Themer layout (Publish or Draft)
-  * Type of Themer layout (part, footer, etc.)
-  * Hook where the Part will appear, if the Themer layout is of type Part.
-  * Locations to which the Themer layout applies  
+* ID of the Themer layout
+* Name of the Themer layout
+* Status of the Themer layout (Publish or Draft)
+* Type of Themer layout (part, footer, etc.)
+* Hook where the Part will appear, if the Themer layout is of type Part.
+* Locations to which the Themer layout applies  
+  
   ```
     wp beaver themer list
   ```  
