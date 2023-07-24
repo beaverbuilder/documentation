@@ -13,7 +13,7 @@ See [this article](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-com
 **To change the color of the small device menu icon or links:**
 
 1. Paste in the following CSS code.  
-  See the article on [where to put CSS code](/beaver-builder/styles/custom-code.md).  
+  See the article on [where to put CSS code](/beaver-builder/styles/custom-code).  
 
   ```css
   /* mobile menu color hamburger */

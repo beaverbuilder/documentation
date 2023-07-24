@@ -10,9 +10,9 @@ Transparent headers are very popular in web page design. The header "transparenc
 
 Here's an overview of how it can be done in Beaver Builder Theme and the Beaver Builder editor, with details in the procedures below:
 
-  * Create your header in Beaver Builder Theme.
-  * Create a content row with a background image or video in the Beaver Builder editor.
-  * Move the content rowup and the header down.
+* Create your header in Beaver Builder Theme.
+* Create a content row with a background image or video in the Beaver Builder editor.
+* Move the content rowup and the header down.
 
 ## 1 Create your header in Beaver Builder Theme
 
@@ -29,8 +29,8 @@ The header transparency will be controlled by the CSS, so this version of the he
   You'll probably need to tweak this number later. In the example here, it's 300px. Test and adjust after superimposing the header onto the content area in the next procedure.
   4. Add the content you want to the row.
 
-:::tip **Tip**
-If you plan to apply a transparent header to every page, you might want to [save this row](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md), so you can easily add it to the new pages on your site and change the content as you like.
+:::tip
+If you plan to apply a transparent header to every page, you might want to [save this row](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse), so you can easily add it to the new pages on your site and change the content as you like.
 :::
 
 ## 3 Add CSS to move the page content up and the header down
@@ -38,7 +38,7 @@ If you plan to apply a transparent header to every page, you might want to [save
 The following code will apply these CSS rules to every page. See the tweaks in the next section for other options.
 
   1. Copy and paste the CSS below.  
-  Refer to the article on [where to put CSS code](/beaver-builder/styles/custom-code.md).  
+  Refer to the article on [where to put CSS code](/beaver-builder/styles/custom-code).  
 
   ```css
   .fl-page-bar {

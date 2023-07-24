@@ -50,5 +50,5 @@ The procedure adds code to your child theme's functions.php file. Unless you hav
   4. Save the file.
 
 :::tip
-You can also [add color presets programmatically to the Beaver Builder plugin editor](/beaver-builder/styles/colors/add-a-color-palette-to-the-beaver-builder-editor.md).
+You can also [add color presets programmatically to the Beaver Builder plugin editor](/beaver-builder/styles/colors/add-a-color-palette-to-the-beaver-builder-editor).
 :::

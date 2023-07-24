@@ -14,7 +14,7 @@ For these two mixed-layout presets, the layout under  **Customize > General > La
 
 * Add the following CSS code.  
   Add the first rule for the Premier preset; add both rules for the Deluxe preset.  
-  See the [article on where to put CSS code](/beaver-builder/styles/custom-code.md).  
+  See the [article on where to put CSS code](/beaver-builder/styles/custom-code).  
 
   ```css
   /* Add the following rule for to make the Premier and Deluxe preset's content area full width */

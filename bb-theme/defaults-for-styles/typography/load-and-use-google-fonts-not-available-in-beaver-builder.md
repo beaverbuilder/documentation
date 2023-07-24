@@ -36,7 +36,7 @@ Be careful about using too many different fonts if you're trying to pare down pa
   ```
 
 2. Add the following CSS code, substituting the name of your Google font.    
-See the [article on where to add custom CSS code](/beaver-builder/styles/custom-code.md).   
+See the [article on where to add custom CSS code](/beaver-builder/styles/custom-code).   
 
   ```css
   /* Add Cormorant Google font */

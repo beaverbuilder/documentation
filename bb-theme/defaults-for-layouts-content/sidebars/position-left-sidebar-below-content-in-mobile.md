@@ -6,8 +6,8 @@ sidebar_label: Position left sidebar below content in mobile
 
 If you use the Beaver Builder Theme and enable the Primary Sidebar on the left or right in your blog posts or on static pages, the mobile view changes as follows:
 
-  * Sidebar on the left: in mobile view, sidebar is displayed above content.
-  * Sidebar on the right: in mobile view, content is displayed above sidebar.
+* Sidebar on the left: in mobile view, sidebar is displayed above content.
+* Sidebar on the right: in mobile view, content is displayed above sidebar.
 
 If you want your left sidebar to display _below_ the content in mobile view, use the following CSS snippet. It sets up a CSS flexbox and assigns the page content a higher ordinal number than the sidebar so the content will appear
 first.
@@ -16,7 +16,7 @@ first.
 The `max-width` setting in the first line is 767px, which reflects the default Beaver Builder breakpoint of 768 px for small devices. If you have set a custom breakpoint, the `max-width` value must be changed to reflect that.
 :::
 
-See the article on [where to put CSS code](/beaver-builder/styles/custom-code.md).
+See the article on [where to put CSS code](/beaver-builder/styles/custom-code).
 
 ```css
 @media (max-width: 767px) {

@@ -13,7 +13,7 @@ See how to set up the social icons in the [header](/bb-theme/customizer-settings
 **To adjust the size of the social icons:**
 
   1. Add one of the CSS rules below, depending on where your social icons appear.  
-  See the [article on where to add CSS code](/beaver-builder/styles/custom-code.md).
+  See the [article on where to add CSS code](/beaver-builder/styles/custom-code).
   2. Click **Save & Publish**.
 
 :::info
