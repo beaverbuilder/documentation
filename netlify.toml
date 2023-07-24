@@ -200,6 +200,48 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/suspension
 status = 301
 force = true
 
+# General Redirects
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/account-billing/renew-your-beaver-builder-subscription/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/renew/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/faq/transfer-license/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/transfer/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/account-billing/upgrade-your-premium-license/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/upgrade/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/account-billing/subscription-cancel/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/paypal-agreement/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/account-billing/cancel-your-automatic-renewal/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/renew#cancel-automatic-renewal/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/faq/whats-the-difference-between-beaver-builder-theme-and-beaver-themer/"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/introduction/faq#difference-between-beaver-themer--bb-theme/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/account-billing/manage-plugin-activations-centrally/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/domain-manager/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/general/faq/whats-your-refund-policy/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq#whats-your-refund-policy/"
+status = 301
+force = true
+
 # Beaver Themer redirects
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer"
