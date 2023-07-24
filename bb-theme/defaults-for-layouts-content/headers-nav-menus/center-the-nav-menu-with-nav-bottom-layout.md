@@ -4,7 +4,7 @@ title: Center the nav menu with Nav Bottom layout
 sidebar_label: Center the nav menu with Nav Bottom layout
 ---
 
-By default, when you choose **Nav Bottom** header layout, the navigation menu is left-aligned. If you want to center it, you can add the following CSS rules. See the article on [where to put CSS code](/beaver-builder/styles/custom-code.md).
+By default, when you choose **Nav Bottom** header layout, the navigation menu is left-aligned. If you want to center it, you can add the following CSS rules. See the article on [where to put CSS code](/beaver-builder/styles/custom-code).
 
 ```css
 .fl-page-nav-bottom {

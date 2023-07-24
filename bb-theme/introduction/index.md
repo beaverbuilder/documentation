@@ -3,7 +3,7 @@ id: index
 title: BB Theme Introduction
 sidebar_label: BB Theme Introduction
 description: Welcome to the Beaver Themer documentation. Whether you are new to The BB Theme or an experienced user, this documentation offers a wealth of information and guidance.
-slug: /bb-theme
+slug: /
 ---
 
 <head>

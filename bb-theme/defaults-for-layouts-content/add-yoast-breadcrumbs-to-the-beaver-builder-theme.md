@@ -44,6 +44,6 @@ See [this article about why you need the child theme](/bb-theme/getting-started/
       add_action( 'fl_content_open', 'bbtheme_yoast_breadcrumbs' );
       ```
 
-:::tip **Tip**
-You can get [more control over where the breadcrumb appears on a page and in your site](/beaver-themer/layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer.md) by using Beaver Themer.
+:::tip
+You can get [more control over where the breadcrumb appears on a page and in your site](/beaver-themer/layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer) by using Beaver Themer.
 :::

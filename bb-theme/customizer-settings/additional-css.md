@@ -10,7 +10,7 @@ WordPress 4.7 introduced the **Customize > Additional CSS** tab. Any CSS code ad
 The **Additional CSS** tab contents are theme-specific. If you activate a different theme, the CSS rules will disappear from the **Additional CSS**  tab, but they'll reappear if you reactivate the theme in which you added the rules. If you have CSS rules in **Additional CSS** that you want to migrate to a new theme, copy the rules manually.
 :::
 
-CSS rules placed in **Additional CSS** are stored in the database. See  the article about [where to put custom CSS](/beaver-builder/styles/custom-code.md).
+CSS rules placed in **Additional CSS** are stored in the database. See  the article about [where to put custom CSS](/beaver-builder/styles/custom-code).
 
 ## Updating from old versions of Beaver  Builder Theme
 

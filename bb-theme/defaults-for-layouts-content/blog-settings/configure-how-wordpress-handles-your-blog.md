@@ -9,7 +9,7 @@ How you configure your blog in WordPress in **Customize > Settings > Static fron
   * Whether you plan to display a Post index (a summary list of your blog posts) on the home page of your site or not.
   * Whether you plan to use WordPress-generated index and archive summary pages or regular Pages with Beaver Builder Post modules.
 
-If you're not sure what WordPress-generated index and archive pages are, see the article about  [how WordPress handles blogs](/beaver-builder/layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives.md).
+If you're not sure what WordPress-generated index and archive pages are, see the article about  [how WordPress handles blogs](/beaver-builder/layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives).
 
 :::info
 These options are only concerned with whether you use WordPress-generated index page or one of the Beaver Builder Posts modules to display a summary of your Posts. The choice is not affected by whether you plan to use Beaver Builder layouts in your blog posts.
@@ -19,14 +19,14 @@ These options are only concerned with whether you use WordPress-generated index 
 
 Use this procedure when you plan to put your blog on your home page and have WordPress generate the Posts index on that page. In other words, your home page will have no physical Page; WordPress will generate it when the home page loads.
 
-:::tip **Tip**
+:::tip
 Don't use this procedure if you plan to use any of the Beaver Builder Posts modules on your home page.
 :::
 
-  1. Go to  **Customize > Settings > Static front page**.
-  2. Select **Your latest post**.  
-  This setting instructs WordPress to generate your Posts index as your home page.
-  3. Save and publish.
+1. Go to  **Customize > Settings > Static front page**.
+2. Select **Your latest post**.  
+This setting instructs WordPress to generate your Posts index as your home page.
+3. Save and publish.
 
 ## Option 2: Set up a WordPress-generated index page somewhere besides your home page
 

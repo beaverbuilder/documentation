@@ -3,7 +3,7 @@ id: index
 title: Beaver Themer Introduction
 sidebar_label: Beaver Themer Introduction
 description: Welcome to the Beaver Themer documentation. Whether you are new to Beaver Themer or an experienced user, this documentation offers a wealth of information and guidance.
-slug: /introduction
+slug: /
 ---
 
 <head>

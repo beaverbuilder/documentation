@@ -18,7 +18,7 @@ The header area includes:
 See the header descriptions below and the article on [where menu colors come from](/bb-theme/defaults-for-styles/colors/where-do-menu-colors-come-from.md)  for more information about the color sources of header layout types.
 
 :::tip **Troubleshooting tip**
-[Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/) Header-type layouts override these Customizer settings on the pages to which they apply. If you have the Beaver Themer plugin installed and your Customizer settings don't seem to be working, check to see if there is a Themer [Header layout](/beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type.md) applied to that page.
+[Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/) Header-type layouts override these Customizer settings on the pages to which they apply. If you have the Beaver Themer plugin installed and your Customizer settings don't seem to be working, check to see if there is a Themer [Header layout](/beaver-themer/layout-types-modules/header-layout-type/themer-header-layout-type) applied to that page.
 :::
 
 ## Top bar layout
@@ -37,8 +37,8 @@ The maximum width of the content is controlled by the [Content width setting](/b
 
 You can set the following styles in the top bar:
 
-  * A background color or image in the top bar, with all the usual settings for positioning and sizing the background image.
-  * Top bar text font color, link color, and hover color.
+* A background color or image in the top bar, with all the usual settings for positioning and sizing the background image.
+* Top bar text font color, link color, and hover color.
 
 ## Header layout
 

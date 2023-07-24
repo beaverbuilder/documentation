@@ -18,7 +18,7 @@ If the **min-width** value is larger than the **width** value, the behavior is m
 
 1. Go to **Customize > General > Layout**, then set the **Layout** to be **Full width**. Click **Save & Publish**.
 2. Add the following CSS code, adjusting the **min-width** and **width** values.  
-See the [article on where to add CSS code](/beaver-builder/styles/custom-code.md).  
+See the [article on where to add CSS code](/beaver-builder/styles/custom-code).  
 
   ```css
   @media (min-width: 1200px) { /* Min-width preferably greater than or equal to width below */

@@ -46,8 +46,8 @@ Sets the maximum width of the header and footer text within the full-width or bo
 The default maximum content width for header and footer content is **1100 pixels**. Setting the **Content width** value higher can result in header and footer margin problems when resizing the browser window--make sure to test.
 :::
 
-:::tip **Tip**
-If you want row content in your content layout to have the same width as your header and footer content width, set the same width as a global setting for rows in the Beaver Builder editor. See [the article on setting global row widths](/beaver-builder/layouts/rows/set-global-site-wide-default-row-widths.md) for instructions.
+:::tip
+If you want row content in your content layout to have the same width as your header and footer content width, set the same width as a global setting for rows in the Beaver Builder editor. See [the article on setting global row widths](/beaver-builder/layouts/rows/set-global-site-wide-default-row-widths) for instructions.
 :::
 
 ### Spacing (boxed layouts only)
@@ -92,7 +92,7 @@ For [theme headers](/bb-theme/customizer-settings/header.md#header-layout), the 
 
 For [navigation layouts](/bb-theme/customizer-settings/header.md#nav-layout), the Nav menu collapses to a Hamburger icon or MENU link on small devices. 
 
-The Beaver Builder plugin also has default breakpoints to control responsive behavior in content areas and in Themer layouts, which differ by one pixel. For a description of the difference, see [the article on Beaver Builder breakpoints](/beaver-builder/layouts/responsive-design/breakpoints.md). See also the sections on [how to use the mobile nav icon instead of a full menu at all device sizes](/beaver-builder/layouts/responsive-design/breakpoints.md#use-the-mobile-nav-for-larger-devices) and [how to keep the theme's header layout the same on large and medium devices](/beaver-builder/layouts/responsive-design/breakpoints.md#preserve-the-themes-header-layout-on-medium-devices).
+The Beaver Builder plugin also has default breakpoints to control responsive behavior in content areas and in Themer layouts, which differ by one pixel. For a description of the difference, see [the article on Beaver Builder breakpoints](/beaver-builder/layouts/responsive-design/breakpoints).
 
 ## Background
 

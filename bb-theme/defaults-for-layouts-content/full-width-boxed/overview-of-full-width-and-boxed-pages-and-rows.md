@@ -28,11 +28,11 @@ Boxed layouts give you a couple extra settings in **Customize > General > Layout
 
 Row and content width in the content area of the page is set in the Beaver Builder editor, either in Global Settings or in individual rows. The screenshots in the previous sections show a content area with various row and content widths so you can see how they compare to the Customizer layout settings in the header and footer areas.
 
-:::tip **Tip**
+:::tip
 If you want content width in your Beaver Builder layouts to match the theme's header and footer content width, use the same width in **Customize > General > Layout > Width** and the row **Max width** setting in the Beaver Builder editor's global settings.
 :::
 
-The [article about full-width and fixed-width row layouts](/beaver-builder/layouts/rows/full-width-and-fixed-width.md) provides more information about these layout settings.
+The [article about full-width and fixed-width row layouts](/beaver-builder/layouts/rows/full-width-and-fixed-width) provides more information about these layout settings.
 
 :::info
 If you use Beaver Themer to design layouts for headers and footers, use the Beaver Builder editor to choose the row and content width. These settings will override the Customizer layout settings on the pages in which the Themer layout appears.
