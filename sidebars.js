@@ -63,6 +63,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Getting Started',
+        slug: '/beaver-builder/getting-started/',
       },
       items: [
         "beaver-builder/getting-started/what-can-i-do-with-beaver-builder",
@@ -74,6 +75,7 @@ module.exports = {
           link: {
             type: 'generated-index',
             title: 'BB Editor Basics',
+            slug: '/beaver-builder/getting-started/bb-editor-basics/',
           },
           items: [
             "beaver-builder/getting-started/bb-editor-basics/launch-builder",
@@ -100,6 +102,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Layouts',
+        slug: '/beaver-builder/layouts/',
       },
       items: [
         {
@@ -370,6 +373,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Styles',
+        slug: '/beaver-builder/styles/',
       },
       items: [
         {
@@ -420,6 +424,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Advanced Builder Techniques',
+        slug: '/beaver-builder/advanced-builder-techniques/',
       },
       items: [
         "beaver-builder/advanced-builder-techniques/css-length-height-units",
@@ -453,6 +458,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Management & Migration',
+        slug: '/beaver-builder/management-migration/',
       },
       items: [
         "beaver-builder/management-migration/settings-overview",
@@ -478,6 +484,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Troubleshooting',
+        slug: '/beaver-builder/troubleshooting/',
       },
       items: [
         {
@@ -561,6 +568,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'White Label (Agency)',
+        slug: '/beaver-builder/white-labeling/',
       },
       items: [
         "beaver-builder/white-labeling/white-labeling-beaver-builder",
@@ -575,6 +583,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Developer',
+        slug: '/beaver-builder/developer/',
       },
       items: [
         {
@@ -614,6 +623,7 @@ module.exports = {
           link: {
             type: 'generated-index',
             title: "How to's & Tips",
+            slug: '/beaver-builder/developer/how-to-tips/',
           },
           items: [
             "beaver-builder/developer/how-to-tips/map-module-filter-google",
@@ -637,6 +647,7 @@ module.exports = {
           link: {
             type: 'generated-index',
             title: 'Tutorials & Guides',
+            slug: '/beaver-builder/developer/tutorials-guides/',
           },
           items: [
             "beaver-builder/developer/tutorials-guides/install-beaver-builder-via-composer",
@@ -682,6 +693,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Getting Started',
+        slug: '/beaver-themer/getting-started/',
       },
       items: [
         "beaver-themer/getting-started/what-can-i-do-with-beaver-themer",
@@ -697,6 +709,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Layout Types & Modules',
+        slug: '/beaver-themer/layout-types-modules/',
       },
       items: [
         {
@@ -767,6 +780,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Integrations',
+        slug: '/beaver-themer/integration/',
       },
       items: [
         {
@@ -826,6 +840,7 @@ module.exports = {
           link: {
             type: 'generated-index',
             title: 'WooCommerce',
+            slug: '/beaver-themer/integrations/woocommerce/',
           },
           items: [
             "beaver-themer/integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce",
@@ -852,6 +867,7 @@ module.exports = {
           link: {
             type: 'generated-index',
             title: 'BigCommerce',
+            slug: '/beaver-themer/integrations/bigcommerce/',
           },
           items: [
             "beaver-themer/integrations/bigcommerce/beaver-themer-layouts-for-bigcommerce",
@@ -866,6 +882,7 @@ module.exports = {
           link: {
             type: 'generated-index',
             title: 'Easy Digital Downloads',
+            slug: '/beaver-themer/integrations/easy-digital-downloads/',
           },
           items: [
             "beaver-themer/integrations/easy-digital-downloads/beaver-themer-and-the-edd-plugin",
@@ -922,6 +939,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Field Connections',
+        slug: '/beaver-themer/field-connections/',
       },
       items: [
         "beaver-themer/field-connections/field-connection-basics-themer",
@@ -970,6 +988,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Management & Compatibility',
+        slug: '/beaver-themer/management-compatibility/',
       },
       items: [
         "beaver-themer/management-compatibility/beaver-themer-supported-themes",
@@ -983,6 +1002,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Troubleshooting',
+        slug: '/beaver-themer/troubleshooting/',
       },
       items: [
         "beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu",
@@ -997,6 +1017,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Developer',
+        slug: '/beaver-themer/developer/',
       },
       items: [
         "beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer",
@@ -1030,6 +1051,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Getting Started',
+        slug: '/bb-theme/getting-started/',
       },
       items: [
         "bb-theme/getting-started/install-the-bb-theme-and-child-theme",
@@ -1046,6 +1068,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Site Settings',
+        slug: '/bb-theme/site-settings/',
       },
       items: [
         "bb-theme/site-settings/create-a-site-title-and-tagline",
@@ -1060,6 +1083,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Defaults for Layouts & Content',
+        slug: '/bb-theme/defaults-for-layouts-content/',
       },
       items: [
         {
@@ -1157,6 +1181,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Defaults for Styles',
+        slug: '/bb-theme/defaults-for-styles/',
       },
       items: [
         {
@@ -1209,6 +1234,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Customizer Settings',
+        slug: '/bb-theme/customizer-settings/',
       },
       items: [
         "bb-theme/customizer-settings/presets",
@@ -1233,6 +1259,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Code',
+        slug: '/bb-theme/code/',
       },
       items: [
         "bb-theme/code/insert-site-wide-css-or-javascript-code",
@@ -1246,6 +1273,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Management & Migration',
+        slug: '/bb-theme/management-migration/',
       },
       items: [
         "bb-theme/management-migration/choose-bootstrap-3-or-4",
@@ -1259,6 +1287,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Troubleshooting',
+        slug: '/bb-theme/troubleshooting/',
       },
       items: [
         "bb-theme/troubleshooting/fix-ubermenu-mobile-navigation-duplication",
@@ -1280,6 +1309,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Developer',
+        slug: '/bb-theme/developer/',
       },
       items: [
         "bb-theme/developer/add-a-page-post-or-custom-post-type-template",
