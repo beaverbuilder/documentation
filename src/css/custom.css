@@ -153,7 +153,7 @@ html:not(plugin-pages) .header-home-icon {
 /* Forces list items into two columns
  * beaver-themer/acf/index.md
  */
-
+.docs-doc-id-integrations\/acf\/index .ul-col-2 .markdown ul:first-of-type,
 .docs-doc-id-beaver-themer\/integrations\/acf\/index .ul-col-2 .markdown ul:first-of-type {
   column-count: 1;
 }

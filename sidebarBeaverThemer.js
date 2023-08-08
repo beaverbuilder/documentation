@@ -260,40 +260,40 @@ module.exports = {
         },
       ]
     },
+
     {
       type: 'category',
       label: 'Field Connections',
       link: {
-        type: 'generated-index',
-        title: 'Field Connections',
+         type: 'doc',
+         id: 'field-connections/index',
       },
       items: [
-        "field-connections/field-connection-basics-themer",
-        "field-connections/field-connection-shortcodes-overview-themer",
-        "field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer",
-        "field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer",
-        "field-connections/conditional-shortcodes-for-field-connections-overview-themer",
-        "field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer",
-        "field-connections/find-the-full-list-of-field-connection-and-parameters-themer",
-        "field-connections/field-connection-shortcode-index-themer",
-        "field-connections/troubleshoot-field-connection-shortcodes-themer",
-        {
-          type: 'category',
-          label: 'Field Connections to WP custom fields',
-          items: [
-            "field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout",
-            "field-connections/connections-to-wp-custom-fields/test-for-values-in-wordpress-custom-field-shortcode",
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Field Connections to Pods custom fields',
-          items: [
-            "field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content",
-          ]
-        },
+         "field-connections/getting-started",
+         "field-connections/syntax",
+         "field-connections/conditionals",
+         "field-connections/expressions",
+         "field-connections/wordpress-data",
+         "field-connections/wordpress-custom-fields",
+         "field-connections/third-party",
+         {
+            type: 'category',
+            label: 'Shortcode Examples',
+            link: {
+               type: 'doc',
+               id: 'field-connections/examples/index',
+            },
+            items: [
+               "field-connections/examples/conditional",
+               "field-connections/examples/expressions",
+               "field-connections/examples/combining",
+            ]
+         },     
       ]
-    },
+   },
+    
+    
+    
     {
       type: 'category',
       label: 'Locations',
