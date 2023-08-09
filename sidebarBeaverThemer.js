@@ -188,6 +188,7 @@ module.exports = {
             "integrations/woocommerce/related-products-module-for-woocommerce-singular-themer-layouts",
             "integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts",
             "integrations/woocommerce/woocommerce-field-connection-shortcode-index",
+            "integrations/woocommerce/field-connections",
           ]
         },
         {
@@ -202,6 +203,7 @@ module.exports = {
             "integrations/bigcommerce/create-an-archive-themer-layout-for-bigcommerce",
             "integrations/bigcommerce/create-a-themer-layout-to-display-a-single-bigcommerce-product",
             "integrations/bigcommerce/products-posts-module-for-bigcommerce",
+            "integrations/bigcommerce/field-connections",
           ]
         },
         {
@@ -215,6 +217,7 @@ module.exports = {
             "integrations/easy-digital-downloads/beaver-themer-and-the-edd-plugin",
             "integrations/easy-digital-downloads/create-an-archive-themer-layout-for-edd-download-sets",
             "integrations/easy-digital-downloads/create-a-singular-themer-layout-for-edd-download-items-themer",
+            "integrations/easy-digital-downloads/field-connections",
           ]
         },
         {
@@ -229,6 +232,7 @@ module.exports = {
             "integrations/tec/field-connections",
             "integrations/tec/archive-layout",
             "integrations/tec/singular-layout",
+            "integrations/tec/field-connections",
             {
               type: 'category',
               label: 'Modules',
