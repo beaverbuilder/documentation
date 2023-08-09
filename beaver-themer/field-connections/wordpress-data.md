@@ -339,7 +339,7 @@ Outputs the post's [featured image](https://wordpress.org/support/article/settin
 
 Outputs any [images attached to the post](https://wordpress.org/support/article/using-image-and-file-attachments/#attachment-to-a-post). 
 
-:::note **Note**
+:::info
 This field connection only appears in modules that have a gallery field setting, such as the Gallery or Slideshow modules.
 :::
 
@@ -405,11 +405,19 @@ Outputs the site's URL.
 
 ### Current Year
 
-Outputs the site's year. Useful for adding a dynamic year in footer layouts. Example: `Copyright © 2010 - [wpbb site:year format='Y'] My Company Name.`
+Outputs the site's year. Useful for adding a dynamic year in footer layouts.  
 
 ```markup
 [wpbb site:year format='Y']
 ```
+
+* Example:  
+
+  `Copyright © 2010 - [wpbb site:year format='Y'] My Company Name.`  
+  
+  * Output:  
+
+    > © 2010 - 2023 My Company Name.
 
 ## User
 

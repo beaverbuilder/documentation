@@ -90,7 +90,11 @@ In this example, the [Post Term List]((../shortcodes.md#post-terms-list)) field 
 
 ## Featured Image as Background Image
 
-In this example, the [Featured Image](../wordpress-date.md#featured-image) field connection is applied as an inline CSS value for the CSS `background-image` property. This allows you to set the post's featured image as a background image, which can be conveniently overlaid with additional content, like the post title. This serves as an excellent demonstration of utilizing field connections as inline CSS values.
+In this example, the [Featured Image](../wordpress-date.md#featured-image) field connection is applied as an inline CSS value for the CSS `background-image` property. This allows you to set the post's featured image as a background image, which can be conveniently overlaid with additional content, like the post title. This provides a great example of how to use field connections as inline CSS values.
+
+:::info
+Some custom CSS is required to make this display the featured image correctly. The CSS code is not included in this example.
+:::
 
 ```markup
 <div class="featured-image-bg" style="background-image: url([wpbb post:featured_image size='large' display='url'])">

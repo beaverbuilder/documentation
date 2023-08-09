@@ -41,4 +41,4 @@ not remove core settings.
 ## $id (string)
 This is the ID for the form that was passed to the register method when it was created. For modules, this is the module's folder slug.
 
-See also the Beaver Themer information about [adding settings forms](/beaver-themer/developer/customize-field-connections-themer.md/#add-a-settings-form).
+See also the Beaver Themer information about [adding settings forms](/beaver-themer/developer/customize-field-connections-themer#add-a-settings-form).

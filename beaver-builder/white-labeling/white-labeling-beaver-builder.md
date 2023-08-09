@@ -52,5 +52,5 @@ In **Settings > Beaver Builder > Branding**, add information to any of the field
 
 :::info
 This procedure white labels the Beaver Builder parent theme. If you
-have the child theme installed, [you can brand it manually](/bb-theme/white-labeling/white-label-your-child-theme.md).
+have the child theme installed, [you can brand it manually](/bb-theme/white-labeling/white-label-your-child-theme).
 :::

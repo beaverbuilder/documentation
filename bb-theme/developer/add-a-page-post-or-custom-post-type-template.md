@@ -7,7 +7,7 @@ sidebar-label: Add a page, post, or custom post template
 You can create a custom WordPress template for a page, post, or custom post type and make it appear in the **Template** dropdown list on page, post, or custom post type editing screens.
 
 :::tip **Tip**
-Singular templates that you create with Beaver Themer use a slightly different procedure. See the article on [adding a Singular Themer layout to the Template field](/beaver-themer/layout-types-modules/singular-layout-type/add-a-singular-themer-layout-to-the-wordpress-page-template-field.md).
+Singular templates that you create with Beaver Themer use a slightly different procedure. See the article on [adding a Singular Themer layout to the Template field](/beaver-themer/layout-types-modules/singular-layout-type/add-a-singular-themer-layout-to-the-wordpress-page-template-field).
 :::
 
 ## Add a custom page template to the Template list

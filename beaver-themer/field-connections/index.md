@@ -8,7 +8,7 @@ Field connections enable you to seamlessly retrieve data from your website's Wor
 
 The versatility of these connections allows data extraction from a multitude of sources, including WordPress data, WordPress custom fields, and popular plugins like Advanced Custom Fields, Big Commerce, Easy Digital Downloads, The Events Calendar, and WooCommerce.
 
-Furthermore, field connections extend their support to [shortcodes](syntax.md), granting you the flexibility to apply them not only within row, column, or module options but also throughout your entire layout wherever text can be inserted. This includes areas like within an HTML module or the custom layout option for the Post module.
+Furthermore, field connections extend their support to [shortcodes](syntax.md), granting you the flexibility to apply them not only within row, column, or module options but also throughout your entire layout wherever text can be inserted. This includes HTML modules or the custom layout option for the Post module.
 
 ```mermaid
 flowchart LR
@@ -42,14 +42,12 @@ Field Connections natively support the following data sources and plugins.
 * [The Events Calendar](../integrations/tec/field-connections.md)
 * [WooCommerce](../integrations/woocommerce/field-connections.md)
 
-Toolset custom fields are fully compatible and function in a manner similar to WordPress custom fields. However, to utilize Toolset custom fields effectively, it is necessary to prefix your field's name (key) with `wpcf-`.
-
-* [Toolset](third-party-integrations.md#toolset)
+[Toolset](third-party.md#toolset) custom fields are fully compatible and function in a manner similar to WordPress custom fields. However, to utilize Toolset custom fields effectively, it is necessary to prefix your field's name (key) with `wpcf-`.
 
 Additionally, third-party plugins like Pods, and Meta Box have integrated their own field connections, ensuring smooth compatibility with Beaver Themer.
 
-* [Meta Box](third-party-integrations.md#metabox)
-* [Pods](third-party-integrations.md#pods)
+* [Meta Box](third-party.md#meta-box)
+* [Pods](third-party.md#pods)
 
 ## Data Types
 

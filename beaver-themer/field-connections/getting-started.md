@@ -48,7 +48,7 @@ When you opt for "Insert," the field connection is applied to the option as a fi
 
 Some field connections, such as Post Date or Post Excerpt, have parameters (options) that you can configure. For example, you can choose the date format for the Post Date field connection or the number of words for the Post Excerpt field connection.
 
-These parameters (options) are available when you first add the field connection to the option, and they can be edited later.
+These parameters (options) are available when you first apply the field connection to the option, and they can be edited later.
 
 ![Field Connection Parameters](/img/beaver-themer/field-connections--getting-started--6.png)
 
