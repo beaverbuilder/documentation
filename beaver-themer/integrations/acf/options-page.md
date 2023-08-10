@@ -33,4 +33,4 @@ You can also display fields that are added to the ACF Options Page by connecting
 
 For instance, you can add a Photo module to your Beaver Themer header layout and connect or insert the Site Logo image field, which is added to an ACF Options Page, into the **Photo** option as shown in the screenshot below.
 
-![Options Page image field connected to Photo module](/img/beaver-themer/integrations--acf--options-page--3.jpg)
+![Options Page image field connected to Photo module](/img/beaver-themer/integrations--acf--options-page--2.jpg)

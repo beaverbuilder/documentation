@@ -4,7 +4,7 @@ title: WordPress Custom Fields
 sidebar_label: WordPress Custom Fields
 ---
 
-[WordPress Custom Fields](https://wordpress.org/support/article/custom-fields/) is a feature in WordPress which allows you to add additional information to your pages, posts, and custom post types. You do this by adding a `key` which is the custom field name and a value which is the information you want to display on your page or post. You can then use Beaver Themer field connections to either [connect or insert](work-with-field-connections.md#connect-vs-insert) this data into your layout.
+[WordPress Custom Fields](https://wordpress.org/support/article/custom-fields/) is a feature in WordPress which allows you to add additional information to your pages, posts, and custom post types. You do this by adding a `key` which is the custom field name and a value which is the information you want to display on your page or post. You can then use Beaver Themer field connections to display this data into your layout.
 
 ## Enable WordPress Custom Fields
 
@@ -28,7 +28,7 @@ To enable WordPress custom fields while utilizing the Block editor, follow these
 
 To enable WordPress custom fields while using the Classic Editor plugin, follow these steps:
 
-1. On the **WordPress Edit Screen** for pages or posts and access the **Screen Options** panel located in the upper right corner.
+1. On the **WordPress Edit Screen** for pages or posts, access the **Screen Options** panel located in the upper right corner.
 2. Mark the checkbox for **Custom Fields**.
 3. The **Custom Fields** panel will now become visible beneath the Classic Editor.
 
@@ -42,7 +42,7 @@ To add a WordPress custom field:
 2. Apply the changes by clicking **Publish**.
 
 :::info
-If you have previously added WordPress custom fields, you'll notice a dropdown menu that presents a list of all existing custom fields. To add a new custom field, simply click on the **Enter New** button.
+If you have previously added WordPress custom fields, you'll notice a dropdown menu that presents a list of all existing custom fields. To add a new custom field, click on the **Enter New** button.
 :::
 
 ![Add a WordPress Custom Field](/img/beaver-themer/field-connections--wp-custom-fields--3.jpg)
@@ -52,14 +52,14 @@ If you have previously added WordPress custom fields, you'll notice a dropdown m
 A WordPress custom field can be assigned to a row, column, or module option using the following steps:
 
 1. Access the specific row, column, or module to which you intend to apply the WordPress custom field.
-2. Click the [Field Connection toggle](getting-started.md#access-field-connections) and within the [Field Connection menu](getting-started.md#field-connection-menu), choose Post Custom Field.
+2. Click the [Field Connection toggle](getting-started.md#access-field-connections) and within the [Field Connection menu](getting-started.md#field-connection-menu), choose **Post Custom Field**.
 3. Select either [Connect](getting-started.md#connect) or [Insert](getting-started.md#insert) to apply the WordPress custom field onto the chosen option.
 
 ![Apply a WordPress Custom Field](/img/beaver-themer/field-connections--wp-custom-fields--4.jpg)
 
 ## WordPress Custom Field Shortcode
 
-WordPress custom fields can also be displayed on your layouts using the Field Connection shortcode by selecting **Post Custom Field**.
+You also have the option to display WordPress custom fields within your layouts using the Field Connection shortcode. This can be accomplished by choosing **Post Custom Field** and then inputting the field name (key).
 
 ```markup
 [wpbb post:custom_field key='FIELD_NAME']
