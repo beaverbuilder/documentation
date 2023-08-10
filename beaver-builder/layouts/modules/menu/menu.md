@@ -168,13 +168,13 @@ The expanded menu falls below the hamburger. This works for centered menus but d
 * **Below row**  
 This option removes the menu in the markup and puts it below the column that the menu is in. This means that expanded menus in small columns still appear inline but don’t get squished.
 * **Overlay**  
-See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md/#responsive-menu-dropdown) for an example.
+See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively#responsive-menu-dropdown) for an example.
 * **Flyout overlay**  
-See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md/##flyout-overlay) for an example.
+See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively#flyout-overlay) for an example.
 * **Flyout push**  
-See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md/#flyout-push) for an example.
+See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively#flyout-push) for an example.
 * **Flyout push with opacity**  
-See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively.md/#flyout-push-with-opacity) for an example.
+See [this Beaver Builder Theme article](/bb-theme/defaults-for-layouts-content/headers-nav-menus/choose-how-menus-open-responsively#flyout-push-with-opacity) for an example.
 
 #### Responsive breakpoint
 

@@ -100,4 +100,4 @@ Use [conditional logic](/beaver-themer/conditional-logic/beaver-themer-condition
 
 Make use of custom post types and [custom fields](/beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer.md) to take your website to the next level.
 
-If you're a developer, have a look at the articles on how to customize [Themer modules](/beaver-themer/developer/customize-themer-modules.md) and [field connections](/beaver-themer/developer/customize-field-connections-themer.md).
+If you're a developer, have a look at the articles on how to customize [Themer modules](/beaver-themer/developer/customize-themer-modules.md) and [field connections](/beaver-themer/developer/customize-field-connections-themer).

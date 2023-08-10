@@ -9,7 +9,7 @@ The Themer Header layout in Beaver Themer overrides the theme's top bar, header,
 
 ![Diagram of a typical web page structure, highlighting the header area](/img/themer-header-layout-type-7fc6ca05.png)
 
-:::tip **Tip**
+:::tip
 For more information about working with WordPress headers, see [this blog post](https://www.wpbeaverbuilder.com/wordpress-website-header/).
 :::
 
@@ -19,7 +19,7 @@ After you create a new Header-type Themer layout and launch Beaver Builder, the 
 
 ![Screenshot of the default Themer Header 1 layout template](/img/themer--layout-types-modules--header-layout-type--1.png)
 
-One advantage of starting with a Themer layout template is that some of the common [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) are built in. For example, shown in the next screenshot, the Heading module's **Heading** setting, where you'd normally enter the text for the heading, contains the **Site title** field connection. On the front end, this field connection is replaced with the setting in the **Site title** field on the **General** tab in your WordPress settings. This means that if you ever change your site title, you only need to change it in one place. 
+One advantage of starting with a Themer layout template is that some of the common [field connections](../../field-connections/index.md) are built in. For example, shown in the next screenshot, the Heading module's **Heading** setting, where you'd normally enter the text for the heading, contains the **Site title** field connection. On the front end, this field connection is replaced with the setting in the **Site title** field on the **General** tab in your WordPress settings. This means that if you ever change your site title, you only need to change it in one place. 
 
 ![Themer Header layout template's Heading module field connection to Site Title](/img/themer--layout-types-modules--header-layout-type--2.png)
 
@@ -196,7 +196,7 @@ The **Edit Themer layout** screen has the following settings for Header layouts:
 * Optional [conditional logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md) rules.
 
 :::info
-    If you set the WordPress edit page's [Page Template](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts.md) to a template that has no header for a particular post or page, it will not remove the header produced by a Themer layout. You must control where the Themer header occurs through the **Location** settings here.
+If you set the WordPress edit page's [Page Template](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts) to a template that has no header for a particular post or page, it will not remove the header produced by a Themer layout. You must control where the Themer header occurs through the **Location** settings here.
 :::
 
 ### Sticky, Shrink, and Overlay settings

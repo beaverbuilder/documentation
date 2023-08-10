@@ -23,12 +23,12 @@ responsive so you could control the spacing at different device sizes.
 
 * You have more control over the margins of the heading and so can control where the heading appears in relation to the text that follows.
 * You can use HTML markup (such as the `<br>` tag for a line break) or even shortcodes in the **Heading** field of the Heading module.
-* If you use [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/), you can also use [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) for several Heading module settings, in both Beaver Builder and Themer layouts.  
+* If you use [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/), you can also use [field connections](/beaver-themer/field-connections) for several Heading module settings, in both Beaver Builder and Themer layouts.  
 **Examples of field connections in the Heading module:**
 
   * You could connect the **Heading** field to the site title that is defined in your WordPress settings ( **Settings > General** from the WordPress admin panel), so if the name of the site changed, the name would also change anywhere that field connection was used.
-  * You could add the current year to your heading text as a [field connection shortcode](/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer.md), such as keeping the year current in a copyright statement that you insert into a layout.
-  * You could create a custom field for the color value for headings, then specify the color value for each page or post on the WordPress editing screen, then [add a field connection to that custom field](/beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer.md) from the **Color** field on the **Style** tab in each Heading module. To change the color, you only have to change it once in the custom field on each page or post, not individually in each Heading module with a custom color. You can use a WordPress custom field, the Advanced Custom Fields plugin, or the Pods plugin to create custom fields.
+  * You could add the current year to your heading text as a [field connection shortcode](/beaver-themer/field-connections/syntax), such as keeping the year current in a copyright statement that you insert into a layout.
+  * You could create a custom field for the color value for headings, then specify the color value for each page or post on the WordPress editing screen, then [add a field connection to that custom field](/beaver-themer/field-connections/getting-started#connect-vs-insert) from the **Color** field on the **Style** tab in each Heading module. To change the color, you only have to change it once in the custom field on each page or post, not individually in each Heading module with a custom color. You can use a WordPress custom field, the Advanced Custom Fields plugin, or the Pods plugin to create custom fields.
 
 ## Heading module settings
 

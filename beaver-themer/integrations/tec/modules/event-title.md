@@ -35,12 +35,8 @@ Default heading color is usually specified in the theme, but you can choose a
 custom color here.
 
 * **Typography** section  
-This is the [standard Beaver Builder **Typography** section](/beaver-builder/styles/typography/typography.md), with settings for the font family, weight, size, spacing, and so on.
+This is the [standard Beaver Builder **Typography** section](/beaver-builder/styles/typography), with settings for the font family, weight, size, spacing, and so on.
 
 ## The Advanced tab
 
 There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab) settings for margins, visibility, animations, and advanced HTML settings.
-
-
-
-

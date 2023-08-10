@@ -92,7 +92,7 @@ A reference to a function or class method that is used to retrieve the data for 
 
 ## Add a Settings Form
 
-Creating custom forms for field connections is very similar to [creating custom modules](/beaver-builder/developer/custom-modules/index.md). There are three main methods for adding settings, the choice of which depends on the type of connection:
+Creating custom forms for field connections is very similar to [creating custom modules](/beaver-builder/developer/custom-modules). There are three main methods for adding settings, the choice of which depends on the type of connection:
 
 * `FLPageData::add_post_property_settings_fields( $key, $config )`  
 Adds settings to a post connection.

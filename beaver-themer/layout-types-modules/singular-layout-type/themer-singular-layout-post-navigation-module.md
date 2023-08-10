@@ -34,14 +34,14 @@ The Style tab is divided into two sections: **Container style** and **Text style
 
 The container refers to the container surrounding both navigation links.
 
-See the [Margins and Padding](/beaver-builder/layouts/advanced-tab/spacing.md) article for a refresher on the relationship between margins, borders, and padding.
+See the [Margins and Padding](/beaver-builder/layouts/advanced-tab/spacing) article for a refresher on the relationship between margins, borders, and padding.
 
 * **Container padding** (responsive)  
 Sets the padding for the container.
 * **Container margins** (responsive)  
 Sets the margins for the container.
 * **Container border** (responsive)  
-This is the standard [Border section](/beaver-builder/styles/effects/borders.md).
+This is the standard [Border section](/beaver-builder/styles/effects/borders).
 
 ### Text Style section
 
@@ -52,8 +52,8 @@ Controls the color of the navigation text plus any symbols.
 * **Text background color**  
 Sets a text background color.
 * **Text typography** (responsive)  
-The standard Beaver Builder [Typography section](/beaver-builder/styles/typography/typography.md) for setting font family, weight, spacing, and so on.
+The standard Beaver Builder [Typography section](/beaver-builder/styles/typography) for setting font family, weight, spacing, and so on.
 
 ### Advanced tab
 
-There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab/index.md) for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [**Advanced** tab settings](/beaver-builder/layouts/advanced-tab) for margins, visibility, animations, and advanced HTML settings.

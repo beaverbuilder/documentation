@@ -43,7 +43,7 @@ To make a Themer layout apply to a post or page with a Beaver Builder layout, yo
 ****To set a page or post with Beaver Builder content to accept or override a Themer layout:**
 
 1. Add a new page or post or open an existing page or post in the Beaver Builder editor.  
-  A choice box appears when the editor opens. If you don't see the choice box, open the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md) and click **Themer override** to open the choice box.
+  A choice box appears when the editor opens. If you don't see the choice box, open the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu) and click **Themer override** to open the choice box.
 2. Choose one of the following options:  
     * **Override layout**  
     Block the Singular Themer layout and use Beaver Builder in the content area only.  
@@ -82,9 +82,9 @@ This template has the following modules:
     * **Terms**  
     By default the Taxonomy is **Categories**, but you can also choose **Tags**.
 * The [Post Content module](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-content-module.md) contains the post's content.
-* The [HTML module](/beaver-builder/layouts/modules/html.md) is a standard Beaver Builder module. In this template, it contains a field connection shortcode to display the Post terms list, which for standard posts are either categories or tags. The template contains the following string in the HTML module:  
+* The [HTML module](/beaver-builder/layouts/modules/html) is a standard Beaver Builder module. In this template, it contains a field connection shortcode to display the Post terms list, which for standard posts are either categories or tags. The template contains the following string in the HTML module:  
   `Posted in [wpbb post:terms_list taxonomy="category" separator=", "]`  
-  There is an additional **Layout** option for the Post Terms List shortcode, which can be used to display the post terms as an unordered or ordered list, rather than a list separated by commas. Note that hierarchical categories are displayed as a flat list. See the [Post Terms List entry in the Themer shortcode reference](/beaver-themer/field-connections/field-connection-shortcode-index-themer.md) for how to code this option.
+  There is an additional **Layout** option for the Post Terms List shortcode, which can be used to display the post terms as an unordered or ordered list, rather than a list separated by commas. Note that hierarchical categories are displayed as a flat list. See the [Post Terms List entry in the Themer shortcode reference](../../field-connections/index.md) for how to code this option.
 * The [Author Bio module](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-author-bio-module.md)  
   This module pulls the information from the **Biographical Info** and **Profile Picture** fields in the post author's profile.
 * The [Post Navigation module](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-post-navigation-module.md) displays links to the previous and next posts.

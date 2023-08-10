@@ -6,8 +6,8 @@ sidebar_label: Hide a row or module when a field connection is empty
 
 There may be times when you don't want entire rows or modules to show up when a field connection is empty.
 
-:::tip **Tip**
-If you don't need to hide entire rows or modules, you can use conditional shortcodes instead of PHP code to [display field connections only when they return content](/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer.md).
+:::tip
+If you don't need to hide entire rows or modules, you can use conditional shortcodes instead of PHP code to [display field connections only when they return content](/beaver-themer/field-connections/conditionals/).
 :::
 
 You can use the following code to hide rows or modules that have empty field connections. Add it to your child theme's _functions.php_ file.
@@ -19,15 +19,15 @@ This code is just a starting point and will not work in every situation. Use you
 ```php
 function check_field_connections( $is_visible, $node ) {
 
-	if ( isset( $node->settings->connections ) ) {
-		foreach ( $node->settings->connections as $key => $connection ) {
-			if ( ! empty( $connection ) && empty( $node->settings->$key ) ) {
-				return false;
-			}
-		}
-	}
+  if ( isset( $node->settings->connections ) ) {
+    foreach ( $node->settings->connections as $key => $connection ) {
+      if ( ! empty( $connection ) && empty( $node->settings->$key ) ) {
+        return false;
+      }
+    }
+  }
 
-	return $is_visible;
+  return $is_visible;
 }
 
 add_filter( 'fl_builder_is_node_visible', 'check_field_connections', 10, 2 );
@@ -39,7 +39,7 @@ The examples below are common use cases on how to hide rows, columns and modules
 
 ### Hide Row
 
-The example below removes a row if row has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md/#about-the-class-selector) of `my-target-row`.
+The example below removes a row if row has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module#about-the-class-selector) of `my-target-row`.
 
 ```php
 add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
@@ -54,7 +54,7 @@ add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
 
 ### Hide Column
 
-The example below removes a column if column has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md/#about-the-class-selector) of `my-target-column`.
+The example below removes a column if column has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module#about-the-class-selector) of `my-target-column`.
 
 ```php
 add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
@@ -69,7 +69,7 @@ add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
 
 ### Hide Module
 
-The example below removes a module if module has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module.md/#about-the-class-selector) of `my-target-module`.
+The example below removes a module if module has a [class](/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module#about-the-class-selector) of `my-target-module`.
 
 ```php
 add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
@@ -84,7 +84,7 @@ add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
 
 ### Hide on specific pages
 
-Hide row on a specific page if row has class of `my-target-row` and [page id](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode.md) is `123`. You can refactor this code to work on other WordPress pages such as archives or the front page. To do this you will need to use [WordPress conditionals](https://developer.wordpress.org/themes/basics/conditional-tags/).
+Hide row on a specific page if row has class of `my-target-row` and [page id](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode) is `123`. You can refactor this code to work on other WordPress pages such as archives or the front page. To do this you will need to use [WordPress conditionals](https://developer.wordpress.org/themes/basics/conditional-tags/).
 
 You can also replace the row with a column or module by changing the `$node->type`:
 * `if ( 'column' === $node->type )` for column
@@ -100,4 +100,3 @@ add_filter( 'fl_builder_is_node_visible', function( $is_visible, $node ) {
 	return $is_visible;
 }, 10, 2);
 ```
-

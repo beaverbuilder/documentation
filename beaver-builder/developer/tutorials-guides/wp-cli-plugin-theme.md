@@ -8,7 +8,7 @@ description: Description of Beaver Builder's commands to use with WP-CLI.
 [WP-CLI](https://wp-cli.org/) is a set of command-line tools for managing
 WordPress installations without using a web browser. You can perform WordPress tasks such as updating plugins and configuring multisite installs. 
 
-You can also use WP-CLI to perform certain tasks in Beaver Builder. This article describes the commands available for the Beaver Builder plugin and theme. To see a description of the Beaver Themer commands, see [this article](/beaver-themer/developer/wp-cli-for-beaver-themer.md).
+You can also use WP-CLI to perform certain tasks in Beaver Builder. This article describes the commands available for the Beaver Builder plugin and theme. To see a description of the Beaver Themer commands, see [this article](/beaver-themer/developer/wp-cli-for-beaver-themer).
 
 ## Accessing WP-CLI
 
@@ -118,3 +118,4 @@ This command assigns the value `.fl-post-header` to the **CSS selector** field i
 
 :::info
 `.fl-post-header` is the selector for the Beaver Builder Theme and is the default **CSS selector** value. [Follow this article](/beaver-builder/getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title.md) to find the selector for your theme.
+:::

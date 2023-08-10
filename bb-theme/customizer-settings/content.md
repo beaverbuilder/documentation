@@ -21,7 +21,7 @@ If you have any blog posts, set layout options for the post and archive pages. T
 
 * Sidebar  
 If and where it appears, size, which devices it appears on.  
-Note that by default, the sidebar appears on Posts only, not Pages. You can enable the sidebar for individual Pages using the **Templates** field when you edit the page. If this sidebar is enabled for Posts, it appears by default on Posts, but you can suppress it on individual Posts by choosing **Full width** in the **Templates** field when you edit the post. See [the article about page templates](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts.md) for more information.  
+Note that by default, the sidebar appears on Posts only, not Pages. You can enable the sidebar for individual Pages using the **Templates** field when you edit the page. If this sidebar is enabled for Posts, it appears by default on Posts, but you can suppress it on individual Posts by choosing **Full width** in the **Templates** field when you edit the post. See [the article about page templates](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts) for more information.  
 You can configure what appears in the sidebar by going to the WordPress admin panel and choosing **Appearance > Widgets**.
 * Post meta  
 Show or hide author, date, or comment count.
