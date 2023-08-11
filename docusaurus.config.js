@@ -84,7 +84,7 @@ module.exports = {
         {
           label: 'Assitant',
           type: 'doc',
-          docId: 'overview',
+          docId: 'introduction/index',
           docsPluginId: 'assistant',
           position: 'left',
         },

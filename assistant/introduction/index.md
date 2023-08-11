@@ -1,8 +1,8 @@
 ---
-id: overview
+id: index
 title: Assistant and Assistant Pro Cloud Introduction
 sidebar_label: Introduction
-slug: /assistant/
+slug: /
 ---
 
 <head>

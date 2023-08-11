@@ -7,7 +7,17 @@
 
 module.exports = {
   assistant: [
-    "overview",
+    {
+      type: 'category',
+      label: 'Introduction',
+      link: {
+        type: 'doc',
+        id: 'introduction/index',
+      },
+      items: [
+        "introduction/faq",
+      ],
+    },
     {
       type: 'category',
       label: 'Getting Started',

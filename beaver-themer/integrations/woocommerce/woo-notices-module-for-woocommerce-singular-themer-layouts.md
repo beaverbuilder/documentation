@@ -17,9 +17,7 @@ This module also lets you style the notices with the following settings on the *
 
 * **Text color**
 * **Background color**
-* The [standard **Border** section settings](/beaver-builder/styles/effects/borders.md)
-* The [standard **Typography** section](/beaver-builder/styles/typography/typography.md)
+* The [standard **Border** section settings](/beaver-builder/styles/effects/borders)
+* The [standard **Typography** section](/beaver-builder/styles/typography)
 
-There are also  the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab/index.md).
-
-
+There are also  the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab).
