@@ -55,7 +55,7 @@ Outputs a product’s sales price. Example: $12.00 or $9.99.
 
 ## Product Description
 
-Outputs a product's description. See the [Product Description module](modules/product-description.md) for more information.
+Outputs a product's description.
 
 ```markup
 [wpbb post:bigcommerce_product_description]

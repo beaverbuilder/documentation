@@ -12,10 +12,10 @@ Standard WordPress fields are what make up pages and posts. This includes the ti
 :::info
 Field Connection shortcodes for our third-party integrations can be found using the links below.
 
-* [Advanced Custom Fields (ACF)](advanced-custom-fields/overview.md)
-* [BigCommerce](#)
+* [Advanced Custom Fields (ACF)](../integrations/acf/index.md)
+* [BigCommerce](../integrations/bigcommerce/field-connections.md)
 * [Easy Digital Downloads](../integrations/easy-digital-downloads/field-connections.md)
-* [The Events Calendar](../integrations/the-events-calendar/field-connections.md)
+* [The Events Calendar](../integrations/tec/field-connections.md)
 * [WooCommerce](../integrations/woocommerce/field-connections.md)
 :::
 

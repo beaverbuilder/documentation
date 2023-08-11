@@ -134,7 +134,7 @@ Now it's time to view your handiwork on your site. Because we set this header to
 
 You added a field connection to the site tagline in the header layout. When the field is text-based, you can use a shortcode instead to mix and match field connections or add your own text. For example, instead of just the site tagline in that Header module, you could add the site name _and_ the site tagline in the **Heading** field.
 
-To see how to add field connections as shortcode, see the [field connections article](/beaver-themer/field-connections/field-connection-basics-themer.md).
+To see how to add field connections as shortcode, see the [field connections article](field-connections/syntax.md).
 
 ## Done!
 

@@ -33,8 +33,8 @@ There's a **Beaver Builder** admin panel nested in the WordPress admin panel, an
 
 ![](/img/i-installed-beaver-themer-now-what-84e9b397.png)
 
-:::tip **Tip**
-Can't see **Beaver Builder** in your WordPress admin panel? See the article about [how to enable it](/beaver-builder/troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel.md).
+:::tip
+Can't see **Beaver Builder** in your WordPress admin panel? See the article about [how to enable it](/beaver-builder/troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel).
 :::
 
 ### 2. Identify and edit Themer layouts from the WordPress admin bar
@@ -65,7 +65,7 @@ When you open a module for editing in a Themer layout, you'll notice a plus sign
 
 ![](/img/i-installed-beaver-themer-now-what-34d69222.png)
 
-These plus signs indicate that you can set [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) to add information from your site's database. In the screenshot example above, the field connection was set to display the site title as the heading text and use the site's URL as the link. This means that whenever you change the title of your site or its URL in your WordPress settings, your site automatically reflects the new information.
+These plus signs indicate that you can set [field connections](field-connections/index.md) to add information from your site's database. In the screenshot example above, the field connection was set to display the site title as the heading text and use the site's URL as the link. This means that whenever you change the title of your site or its URL in your WordPress settings, your site automatically reflects the new information.
 
 There are many types of field connections. For example, the following screenshot shows part of a Singular Themer layout, in which the featured image is displayed as the row background, and the title, date, and author's name come  from the post that's being displayed, all by means of field connections. In other words, no matter which post the Themer layout appears on, it displays the content from that post.
 
@@ -79,7 +79,7 @@ For example, the following screenshot shows a single post. In the WordPress admi
 
 ![](/img/i-installed-beaver-themer-now-what-4073ffa6.jpg)
 
-If you want to use Beaver Builder to lay out the content of posts, make sure that [Posts are enabled for editing](/beaver-builder/management-migration/settings-overview.md/#post-types-tab), then navigate to any single post in the back end and open it in the Beaver Builder editor, the same way you'd edit a page layout.. 
+If you want to use Beaver Builder to lay out the content of posts, make sure that [Posts are enabled for editing](/beaver-builder/management-migration/settings-overview#post-types-tab), then navigate to any single post in the back end and open it in the Beaver Builder editor, the same way you'd edit a page layout.. 
 
 ## Got it. What's next?
 
@@ -94,10 +94,8 @@ Have a look at the layout types in Beaver Themer, their special modules, and whe
 * [404](/beaver-themer/layout-types-modules/404-layout-type/themer-404-layout-type.md)
 * [Part](/beaver-themer/layout-types-modules/part-layout-type/themer-part-layout-type.md)
 
-Find out the power of using [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) and [field connection shortcodes](/beaver-themer/field-connections/field-connection-shortcodes-overview-themer.md), both in your Themer layouts and regular Beaver Builder layouts.
+Find out the power of using [field connections](field-connections/index.md) and [field connection shortcodes](field-connections/syntax.md), both in your Themer layouts and regular Beaver Builder layouts.
 
 Use [conditional logic](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md) to fine-tune the locations where your Themer layouts appear.
-
-Make use of custom post types and [custom fields](/beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer.md) to take your website to the next level.
 
 If you're a developer, have a look at the articles on how to customize [Themer modules](/beaver-themer/developer/customize-themer-modules.md) and [field connections](/beaver-themer/developer/customize-field-connections-themer).

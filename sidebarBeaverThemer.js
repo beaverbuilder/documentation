@@ -187,7 +187,6 @@ module.exports = {
             "integrations/woocommerce/product-upsells-module-for-woocommerce-singular-themer-layouts",
             "integrations/woocommerce/related-products-module-for-woocommerce-singular-themer-layouts",
             "integrations/woocommerce/woo-notices-module-for-woocommerce-singular-themer-layouts",
-            "integrations/woocommerce/woocommerce-field-connection-shortcode-index",
             "integrations/woocommerce/field-connections",
           ]
         },

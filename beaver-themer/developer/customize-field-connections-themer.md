@@ -122,9 +122,9 @@ FLPageData::add_post_property_settings_fields( 'my_connection', array(
 ) );
 ```
 
-The config array for adding settings should have field config as discussed in the [custom module documentation](/beaver-builder/developer/custom-modules/index.md). It can also have a `css` and `js` property for defining CSS and JavaScript files that should be loaded along with your settings.
+The config array for adding settings should have field config as discussed in the [custom module documentation](/beaver-builder/developer/custom-modules). It can also have a `css` and `js` property for defining CSS and JavaScript files that should be loaded along with your settings.
 
-See also the Beaver Builder Plugin article about [customizing settings forms](/beaver-builder/developer/tutorials-guides/customize-settings-forms.md).
+See also the Beaver Builder Plugin article about [customizing settings forms](/beaver-builder/developer/tutorials-guides/customize-settings-forms).
 
 ## Adding Custom Groups
 

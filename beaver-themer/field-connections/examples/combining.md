@@ -68,7 +68,7 @@ In this particular example, the [Post Title](../wordpress-data.md#post-title) an
 
 ## Categories or Tag Name as CSS Class
 
-In this example, the [Post Term List]((../shortcodes.md#post-terms-list)) field connection is used to implement the category slug as a CSS class name. This proves beneficial for customizing individual categories, like assigning unique colors or adding category-specific icons.
+In this example, the [Post Term List]((../wordpress-data.md#post-terms-list)) field connection is used to implement the category slug as a CSS class name. This proves beneficial for customizing individual categories, like assigning unique colors or adding category-specific icons.
 
 ```markup
 <h3>
@@ -90,7 +90,7 @@ In this example, the [Post Term List]((../shortcodes.md#post-terms-list)) field 
 
 ## Featured Image as Background Image
 
-In this example, the [Featured Image](../wordpress-date.md#featured-image) field connection is applied as an inline CSS value for the CSS `background-image` property. This allows you to set the post's featured image as a background image, which can be conveniently overlaid with additional content, like the post title. This provides a great example of how to use field connections as inline CSS values.
+In this example, the [Featured Image](../wordpress-data.md#featured-image) field connection is applied as an inline CSS value for the CSS `background-image` property. This allows you to set the post's featured image as a background image, which can be conveniently overlaid with additional content, like the post title. This provides a great example of how to use field connections as inline CSS values.
 
 :::info
 Some custom CSS is required to make this display the featured image correctly. The CSS code is not included in this example.

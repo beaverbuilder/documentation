@@ -12,18 +12,18 @@ The Singular layout includes the parts of the page shown in the following diagra
 
 You can add a sidebar to a Singular layout by adding a second column to the layout.
 
-:::tip **Tip**
+:::tip
 If you'd like a short refresher on the WordPress content area versus other parts of the page, see [this primer](/beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer.md).
 :::
 
-##  Properties of the Singular Themer layout
+## Properties of the Singular Themer layout
 
 Here are the special properties of the Singular Themer layout:
 
 * It has special Themer modules that display post title, author, date, category, comments, post navigation, and featured image, as shown in this screenshot.  
   ![](/img/themer-singular-layout-type-97aeeacd.png)  
   The [template](#singular-themer-layout-template) for the Singular Themer layout already includes most of these modules.
-* These modules use [field connections](/beaver-themer/field-connections/field-connection-basics-themer.md) to display the correct information for each post.
+* These modules use [field connections](field-connections/index.md) to display the correct information for each post.
 * The Post Content module pulls the post's content from the post itself.  
 The post content is pulled from either the WordPress text editor or a Beaver Builder layout. In the following screenshot of a Singular layout, the post content area contains a Beaver Builder layout pulled from a post.  
 ![Singular Themer layout with Beaver Builder post content layout](/img/singular-layout-3.jpg)

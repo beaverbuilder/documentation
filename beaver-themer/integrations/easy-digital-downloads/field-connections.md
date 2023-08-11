@@ -37,7 +37,7 @@ Outputs a product's content i.e. the content added to the [WordPress editor when
 
 ## Product Short Description
 
-Outputs a product's short description (content added to the Excerpt panel on the edit product page). See the [Product Description module](modules/product-description.md) for more information.
+Outputs a product's short description (content added to the Excerpt panel on the edit product page).
 
 ```markup
 [wpbb post:edd_product_short_description]
