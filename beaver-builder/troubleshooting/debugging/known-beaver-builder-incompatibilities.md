@@ -146,7 +146,7 @@ functions such as opening module settings.
 
 ### [Icelander](https://www.webmandesign.eu/project-type/themes/) Theme prior to Version 1.1.8
 
-Icelander Theme Version 1.1.8 or higher is compatible with both Beaver Builder plugin and [Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md).
+Icelander Theme Version 1.1.8 or higher is compatible with both Beaver Builder plugin and [Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes).
 
 ### Kleo Theme
 

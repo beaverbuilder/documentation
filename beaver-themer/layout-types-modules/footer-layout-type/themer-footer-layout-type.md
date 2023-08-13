@@ -39,11 +39,12 @@ In the first row:
 * The second column has a Heading module and a Text Editor module.
 * The third column has a Heading module and a Text Editor module.
 
-In the second row, the single column has a Text Editor module, which contains the copyright symbol plus two [field connection shortcodes](/beaver-themer/field-connections/field-connection-shortcodes-overview-themer.md): one for the current year and the other for the site title. If you look on the **Text** tab of the Text Editor module, it has the following markup:
+In the second row, the single column has a Text Editor module, which contains the copyright symbol plus two [field connection shortcodes](../../field-connections/index.md): one for the current year and the other for the site title. If you look on the **Text** tab of the Text Editor module, it has the following markup:
 
 ```markup
 <p style="text-align: center;">© [wpbb site:year format=Y] [wpbb site:title]. All Rights Reserved.</p>
 ```
+
 ### Footer 2 template
 
 ![Screenshot of Themer Footer 2 layout template with modules identifie2](/img/themer--layout-types-modules--footer-layout-type--5.png)

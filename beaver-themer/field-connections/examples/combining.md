@@ -68,7 +68,7 @@ In this particular example, the [Post Title](../wordpress-data.md#post-title) an
 
 ## Categories or Tag Name as CSS Class
 
-In this example, the [Post Term List]((../wordpress-data.md#post-terms-list)) field connection is used to implement the category slug as a CSS class name. This proves beneficial for customizing individual categories, like assigning unique colors or adding category-specific icons.
+In this example, the [Post Term List](../wordpress-data.md#post-terms-list) field connection is used to implement the category slug as a CSS class name. This proves beneficial for customizing individual categories, like assigning unique colors or adding category-specific icons.
 
 ```markup
 <h3>

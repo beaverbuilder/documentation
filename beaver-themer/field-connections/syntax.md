@@ -35,7 +35,7 @@ The Field Connections shortcode syntax supports conditionals, allowing you to di
 [/wpbb-if]
 ```
 
-See the [Conditionals](conditional.md) article for more information.
+See the [Conditionals](conditionals.md) article for more information.
 
 ## Parameters
 

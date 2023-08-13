@@ -45,7 +45,7 @@ You can replace the administrator role with any other WordPress user role.
 
 ### Display tags for posts that have tags
 
-In this example, the [Post Term List](wordpress-data.md#post-terms-list) field connection is utilized to display all tags assigned to a post. If a post has no tags, then no tags will be shown.
+In this example, the [Post Term List](../wordpress-data.md#post-terms-list) field connection is utilized to display all tags assigned to a post. If a post has no tags, then no tags will be shown.
 
 ```markup
 [wpbb-if post:terms_list taxonomy='post_tag']

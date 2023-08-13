@@ -12,7 +12,7 @@ To get started, create your [Taxonomy field](https://www.advancedcustomfields.co
 
 ## Field Connection List Panel
 
-To use the Taxonomy field in a page or post, after you click the plus **(+)** icon to add the field connection or shortcode, select **ACF Relational** in the [Field Connection list panel](../../../field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer.md#add-a-field-connection).
+To use the Taxonomy field in a page or post, after you click the plus **(+)** icon to add the field connection or shortcode, select **ACF Relational** in the [Field Connection list panel](../../../field-connections/getting-started#field-connection-menu).
 
 ![](/img/beaver-themer/integrations--acf--taxonomy-field--1.jpg)
 
