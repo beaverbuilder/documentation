@@ -39,7 +39,7 @@ The colors are applied as follows to the three button states:
 
 ### Advanced tab
 
-There's are the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab/index.md).
+There's are the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab).
 
 :::info
 The **Advanced** settings apply to the entire module block. Using the screenshot above as an example if you set a **Slide left** animation, the variation (mug color), quantity, and **Add to Cart** button will all slide left as a block.

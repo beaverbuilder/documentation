@@ -22,9 +22,9 @@ languages. Please visit the following links for an overview of which languages
 Beaver Builder is currently translated in and how complete those translations
 are.
 
-  * [Beaver Builder Plugin](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-plugin/)
-  * [Beaver Builder Theme](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-theme/)
-  * [Beaver Themer](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-theme-builder/)
+* [Beaver Builder Plugin](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-plugin/)
+* [Beaver Builder Theme](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-theme/)
+* [Beaver Themer](https://translate.wpbeaverbuilder.com/glotpress/projects/bb-theme-builder/)
 
 We're always looking to increase the number of available translations, so let us know if you're interested in helping and we'll hook you up with a free year of our Pro membership. Please note we cannot comp a higher package of Beaver Builder. If a higher package is necessary, we can comp the Pro membership pricing and you will be responsible for the difference in pricing.
 

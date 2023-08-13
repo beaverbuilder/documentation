@@ -7,10 +7,10 @@ sidebar_label: Theme conflicts
 Some themes can cause conflicts with Beaver Builder plugin, which often
 manifests in the following ways.
 
-  * Can't open a page for editing in Beaver Builder
-  * Beaver Builder editing bar doesn't appear at the top of the page
-  * Module settings boxes don't appear in the editor
-  * Page hangs while editing or trying to save the edited page
+* Can't open a page for editing in Beaver Builder
+* Beaver Builder editing bar doesn't appear at the top of the page
+* Module settings boxes don't appear in the editor
+* Page hangs while editing or trying to save the edited page
 
 ## General test for a theme conflict
 
@@ -21,9 +21,9 @@ If it's not listed, the easiest way to test for a theme conflict is to see if
 your issues go away when you change to a theme known to work with Beaver
 Builder.
 
-:::important **Important**
+:::info
 Before changing to a different theme, it's a good idea to back up
-your theme's Customizer settings by exporting them. See [how to export and import Customizer settings](/bb-theme/customizer-settings/export-import.md).
+your theme's Customizer settings by exporting them. See [how to export and import Customizer settings](/bb-theme/customizer-settings/export-import).
 :::
 
 * From the WordPress admin panel, go to **Appearance > Themes** and switch your active theme to one of the standard WordPress themes, such as Twenty Seventeen.

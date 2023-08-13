@@ -15,7 +15,7 @@ In the following screenshot, there are two custom image size options, labeled "V
 
 ## Code
 
-Add the following code to the *functions.php* file in your [child theme](/bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme.md) and see the tips below for customizing it further.
+Add the following code to the *functions.php* file in your [child theme](/bb-theme/getting-started/do-i-need-to-install-the-beaver-builder-child-theme) and see the tips below for customizing it further.
 
   ```php
   add_image_size('video-gallery', 300, 169, true);

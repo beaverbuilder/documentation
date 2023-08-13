@@ -14,12 +14,14 @@ You can insert Beaver Builder layouts as shortcodes into any text or text editor
 </div>
 
 :::info
-* WordPress shortcodes are macros that can create markup dynamically. For an introduction to WordPress shortcodes, see [the WordPress Codex](https://developer.wordpress.org/plugins/shortcodes/). Shortcodes can be recognized as a bit of code that lives between square brackets, such as `[fl_builder_insert_layout id="123"]`.
+* WordPress shortcodes are macros that can create markup dynamically. For an introduction to WordPress shortcodes, see [the WordPress Codex](https://developer.wordpress.org/plugins/shortcodes/).  
+  Shortcodes can be recognized as a bit of code that lives between square brackets, such as `[fl_builder_insert_layout id="123"]`.
+
 * When you update the source content, the shortcode content is automatically updated.
 * You can use shortcodes in the WordPress editor or in Beaver Builder module settings fields that accept text, such as the **Heading** field of the Heading module.
 :::
 
-##  Why use Beaver Builder shortcode?
+## Why use Beaver Builder shortcode?
 
 The two most common uses for Beaver Builder shortcode are:
 
@@ -38,7 +40,7 @@ Here are a couple of other examples of how you can use shortcodes:
 * Add a button to a cell in a Pricing Table module.
 * Embed a contact form from Beaver Builder or another plugin into a tab in a Tabs module.
 
-:::tip **Tip**
+:::tip
 If you have Beaver Themer, it can sometimes be used more efficiently than Beaver Builder shortcodes. See advanced examples of shortcodes and Themer alternatives below.
 :::
 
@@ -51,8 +53,7 @@ You can create shortcodes for any Beaver Builder content that has an ID or a slu
 * Saved layout templates.
 
 :::tip
-* If you use the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/), there's a special `[fl_year]` shortcode, which you can use to insert the current date both into both Beaver Builder layouts and into text areas of the theme, such as the top bar and footer. For more information, see the [article on the Beaver Builder Theme date shortcode](/bb-theme/defaults-for-layouts-content/shortcode-for-current-date.md).
-* With the Pro and Agency versions of Beaver Builder, you can use Beaver Builder shortcodes anywhere on a multisite installation. See the [shortcodes article](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md).
+If you use the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/), there's a special `[fl_year]` shortcode, which you can use to insert the current date both into both Beaver Builder layouts and into text areas of the theme, such as the top bar and footer. For more information, see the [article on the Beaver Builder Theme date shortcode](/bb-theme/defaults-for-layouts-content/shortcode-for-current-date).
 :::
 
 ## Create a Beaver Builder shortcode

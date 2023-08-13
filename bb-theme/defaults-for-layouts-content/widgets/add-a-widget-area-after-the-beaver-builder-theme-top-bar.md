@@ -6,12 +6,12 @@ sidebar_label: Add a widget area after the top bar
 
 Out of the box, Beaver Builder Theme has the following widget areas.
 
-  * **Primary sidebar**  
-  This widget area is used when you select a left or right sidebar in **Customize > Content > Blog layout**.
-  * **Footer Column 1, Footer Column 2,  Footer Column 3, Footer Column 4**  
-  These widget areas appear when you enable the footer widget in **Customize > Footer > Footer widgets layout**.
-  * **After post widget**  
-  This widget appears after the single post content and comments area but before the post navigation.
+* **Primary sidebar**  
+This widget area is used when you select a left or right sidebar in **Customize > Content > Blog layout**.
+* **Footer Column 1, Footer Column 2,  Footer Column 3, Footer Column 4**  
+These widget areas appear when you enable the footer widget in **Customize > Footer > Footer widgets layout**.
+* **After post widget**  
+This widget appears after the single post content and comments area but before the post navigation.
 
 This article shows how to add a widget area under the top bar with some PHP code and CSS rules to style the widgets you add.
 
@@ -80,8 +80,8 @@ The following CSS rules  make the background color of the widget area purple and
 }
 ```
 
-:::tip **Tips**
+:::tip
 * To change the location of the custom widget area, see [the current list of Beaver Theme hooks on this page](https://hooks.wpbeaverbuilder.com/bb-theme/).  
   You can see a graphic displaying the location of Beaver Theme hooks at the [ProBeaver](https://probeaver.com/beaver-theme-hooks/) site.
-* If you have Beaver Themer, you can [create a Part layout](/beaver-themer/layout-types-modules/part-layout-type/themer-part-layout-type.md) with Widget modules and easily place it in any of a number of locations on your page.
+* If you have Beaver Themer, you can [create a Part layout](/beaver-themer/layout-types-modules/part-layout-type/themer-part-layout-type) with Widget modules and easily place it in any of a number of locations on your page.
 :::

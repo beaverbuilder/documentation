@@ -37,7 +37,7 @@ General > Layout > Font Awesome icons** that can force icons to load on every
 page. Changing this setting may solve the problem if you are seeing blank
 boxes instead of icons.
 
-If you're using the Beaver Builder Theme, can choose how Font Awesome icons load on every page. See [this article](/bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme.md) for details.
+If you're using the Beaver Builder Theme, can choose how Font Awesome icons load on every page. See [this article](/bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme) for details.
 
 
 ## 2. Possible conflicts from other plugins or themes

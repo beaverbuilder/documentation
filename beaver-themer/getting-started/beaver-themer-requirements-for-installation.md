@@ -16,7 +16,7 @@ Beaver Themer runs on multisite installations if you have the Pro or Agency vers
 
 ### WordPress and PHP
 
-See the [system requirements for Beaver Builder](/beaver-builder/getting-started/system-requirements.md) for specific WordPress and PHP versions required for the Beaver Builder Plugin, Theme, and Beaver Themer.
+See the [system requirements for Beaver Builder](/beaver-builder/getting-started/system-requirements) for specific WordPress and PHP versions required for the Beaver Builder Plugin, Theme, and Beaver Themer.
 
 ### WordPress theme
 

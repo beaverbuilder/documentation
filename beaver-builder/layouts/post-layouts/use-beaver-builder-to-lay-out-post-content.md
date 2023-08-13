@@ -104,4 +104,4 @@ everywhere else – save it as global by [selecting the global checkbox](/beaver
 
 If you use the Beaver Builder Theme, you can set single posts to full width or
 no header/footer by changing the WordPress page template for that post. See
-the article on using the [WordPress page template](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts.md) for more information.
+the article on using the [WordPress page template](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts) for more information.

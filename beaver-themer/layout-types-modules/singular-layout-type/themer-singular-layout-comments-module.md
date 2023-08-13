@@ -16,6 +16,6 @@ If the user is not logged in, there are some extra fields to fill in underneath 
 
 The only Comments module settings available are those on the **Advanced** tab, which means you can customize margins, responsive layout, visibility, animation, and assign an ID or class name.
 
-:::tip **Tip**
-It's easy to [use code](/bb-theme/defaults-for-layouts-content/blog-settings/remove-website-field-url-from-post-comments.md) or a URL-removal plugin to remove the **Website** field if you don't want users to be able to enter a URL.
+:::tip
+It's easy to [use code](/bb-theme/defaults-for-layouts-content/blog-settings/remove-website-field-url-from-post-comments) or a URL-removal plugin to remove the **Website** field if you don't want users to be able to enter a URL.
 :::

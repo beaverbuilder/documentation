@@ -12,6 +12,6 @@ To upload media or color settings to a library in Assistant Cloud Pro:
 
 1. Select the library you would like to add items to.
 2. Click the **Plus** (+) icon.
-3. In the **Add Items** section add [media](../../overview.md#media), [colors](../../overview.md#colors) or [code snippets](../../overview.md#code-snippets) to your library.
+3. In the **Add Items** section add [media](introduction/index.md#media), [colors](introduction/index.md#colors) or [code snippets](introduction/index.md#code-snippets) to your library.
 
 ![Add items to library from Assistant cloud](/img/assistant/cloud--libraries--adding-content--1.jpg)

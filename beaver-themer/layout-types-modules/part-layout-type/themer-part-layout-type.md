@@ -24,7 +24,7 @@ The Part layout has an additional field called **Position**, where you can speci
 The list of positions depends on hooks in the Beaver Builder Theme. You don’t need to use the Beaver Builder Theme to get support for Themer Parts, but you do need to use one of the [themes that support Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md). 
 :::
 
-If you’re not sure which position to choose, check the [Theme action reference](/bb-theme/developer/theme-action-reference.md) for more information about where in the rendered page's HTML each position fires. 
+If you’re not sure which position to choose, check the [Theme action reference](/bb-theme/developer/theme-action-reference) for more information about where in the rendered page's HTML each position fires. 
 
 The **Order** field requires an integer from 0 to any number. You only need to change this number if you have two part layouts in the same position. The lower number appears above the higher number. For example, if you have a warning with order 0 and a banner with order one, the warning will appear above the banner in the same position on the page.
 

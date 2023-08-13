@@ -59,6 +59,6 @@ choose the correct file.
 Don't use the hashtag (#) symbol with the hex values in this Beaver Builder code.
 :::
 
-:::tip **Tip**
-You can also [add color presets to the Customizer settings](/bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer.md) in the Beaver Builder child theme.
+:::tip
+You can also [add color presets to the Customizer settings](/bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer) in the Beaver Builder child theme.
 :::

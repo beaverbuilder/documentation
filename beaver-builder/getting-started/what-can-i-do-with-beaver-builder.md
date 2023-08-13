@@ -11,7 +11,7 @@ theme. And maybe you're wondering if you really need to add Beaver Themer, a
 premium add-on plugin.
 
 Here's an overview of the Beaver Builder plugin, Beaver Builder Theme, and a
-little bit about what Beaver Themer adds if you need it. See also the article [What can I do with Beaver Themer?](/beaver-themer/getting-started/what-can-i-do-with-beaver-themer.md)
+little bit about what Beaver Themer adds if you need it. See also the article [What can I do with Beaver Themer?](/beaver-themer/getting-started/what-can-i-do-with-beaver-themer)
 
 ## Plugin vs. Theme vs. Beaver Themer
 
@@ -25,7 +25,7 @@ Here's how Beaver Builder fits into that.
 
 * The Beaver Builder plugin lets you create intricate layouts in the *content area* of the page. Out of the box, Beaver Builder is enabled for pages, but there are settings to enable it for the content area of posts and custom posts.
 
-* A WordPress *theme* is a mandatory component of a WordPress site. It controls the header, footer, and sidebar areas of your site. For a single Post, it also controls the display of post information (post title, author, featured images, categories, and so on). Depending on the theme you choose, you may also be able to configure or suppress these areas on individual pages and posts, using [WordPress page templates](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts.md).
+* A WordPress *theme* is a mandatory component of a WordPress site. It controls the header, footer, and sidebar areas of your site. For a single Post, it also controls the display of post information (post title, author, featured images, categories, and so on). Depending on the theme you choose, you may also be able to configure or suppress these areas on individual pages and posts, using [WordPress page templates](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts).
 
 * The [Beaver Themer plugin](https://www.wpbeaverbuilder.com/beaver-themer/) lets you build layouts in areas outside the content area, which are normally controlled by the theme. You can specify which pages the Themer layouts apply to and which users can see them. Beaver Themer is an add-on that uses the Beaver Builder plugin to build these layouts. See the examples below.
 

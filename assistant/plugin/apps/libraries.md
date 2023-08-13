@@ -108,7 +108,7 @@ To delete a library from the **Libraries App**:
 
 ## Import Content
 
-You can import content and [creative asset](../../overview.md#creative-assets) from a library to a website with the Assistant plugin.
+You can import content and [creative asset](introduction/index.md#creative-assets) from a library to a website with the Assistant plugin.
 
 ### Import Content
 

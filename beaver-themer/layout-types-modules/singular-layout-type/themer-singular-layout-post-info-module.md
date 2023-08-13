@@ -61,7 +61,7 @@ Show or hide the post author.
 
 The Style tab has a variety of settings that apply to all of the text in the module.
 
-* [Typography section](/beaver-builder/styles/typography/typography.md)
+* [Typography section](/beaver-builder/styles/typography)
 
 * **Color** - Sets a text color.
 
@@ -77,4 +77,4 @@ Drag and drop the Post Info module's items into whatever order you like.
 
 ## Advanced
 
-There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) settings for margins, visibility, animations, and advanced HTML settings.
+There are all the usual [Advanced tab](/beaver-builder/layouts/advanced-tab) settings for margins, visibility, animations, and advanced HTML settings.

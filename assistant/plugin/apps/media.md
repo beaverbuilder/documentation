@@ -23,7 +23,7 @@ You can restore the filters to default using the **Reset Filters** button.
 
 ## Upload Media
 
-The Media App allows you to add [graphics in common web formats](../../overview.md#creative-assets) to Assistant. The WordPress media library doesn't support .svg graphics by default, but the Assistant Plugin adds .svg graphics without the need for a third-party plugin or custom code.
+The Media App allows you to add [graphics in common web formats](introduction/index.md#creative-assets) to Assistant. The WordPress media library doesn't support .svg graphics by default, but the Assistant Plugin adds .svg graphics without the need for a third-party plugin or custom code.
 
 1. Open the **Media App**.
 2. Click the **Plus** (+) icon.

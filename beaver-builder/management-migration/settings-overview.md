@@ -51,7 +51,7 @@ areas, see the article about [how Beaver Builder works with blogs and custom pos
 :::info
 * The Beaver Builder plugin applies to layouts in the content area of your page or post. Standard WordPress headers, footers, and sidebars are controlled by your theme, or by using Beaver Themer, which lets you apply Beaver Builder layouts to theme-controlled areas. See the article on [what you can do with Beaver Builder](/beaver-builder/getting-started/what-can-i-do-with-beaver-builder.md/#plugin-vs-theme-vs-beaver-themer) for more information about the content area.
 
-* If you have Beaver Themer installed and create a Singular layout for Posts or Pages, you will not be able to use Beaver Builder to edit the content area of the page. See the [Beaver Themer primer on WordPress content and theme areas](/beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer.md).
+* If you have Beaver Themer installed and create a Singular layout for Posts or Pages, you will not be able to use Beaver Builder to edit the content area of the page. See the [Beaver Themer primer on WordPress content and theme areas](/beaver-themer/getting-started/primer-on-wordpress-content-and-theme-areas-themer).
 :::
 
 ## Templates tab
