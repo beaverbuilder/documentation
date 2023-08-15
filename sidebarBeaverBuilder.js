@@ -93,7 +93,26 @@ module.exports = {
         },
       ]
     },
-
+    {
+      type: 'category',
+      label: 'User Interface (UI)',
+      link: {
+         type: 'doc',
+         id: 'user-interface/index',
+      },
+      items: [
+         "user-interface/top-bar",
+         "user-interface/outline-panel",
+         "user-interface/tools-menu",
+         "user-interface/global-settings",
+         "user-interface/global-styles",
+         "user-interface/layout-css-js",
+         "user-interface/content-panel",
+         "user-interface/settings-window",
+         "user-interface/builder-overlay",
+         "user-interface/link-values",
+      ],
+   },
     {
       type: 'category',
       label: 'Layouts',
