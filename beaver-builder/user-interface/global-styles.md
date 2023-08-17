@@ -15,10 +15,8 @@ Global Styles provide you with the capability to define your styling preferences
 
 To access Global Styles, you can either open the [Tools menu](tools-menu.md) and select "Global Styles," or use the keyboard shortcut:
 
-| Operating System                          | Keyboard Shortcut                                        |
-| ------------------------------------------|----------------------------------------------------------|
-| <i className="fa-brands fa-apple"></i> macOS | <kbd>⌘ command</kbd> + <kbd>G</kbd>                   |
-| <i className="fa-brands fa-windows"></i> Windows | <kbd>Ctrl</kbd> + <kbd>G</kbd>                    |
+* <i className="fa-brands fa-apple"></i> macOS - <kbd>⌘ command</kbd> + <kbd>G</kbd>  
+* <i className="fa-brands fa-windows"></i> Windows - <kbd>Ctrl</kbd> + <kbd>G</kbd>
 
 ## Elements Tab
 
@@ -42,7 +40,7 @@ You can override these styling options on a case-by-case basis using the module 
   The global Link styling options enable you to customize the appearance of HTML links, which also includes an additional color picker for link hover color.
 
 * **Buttons**  
-  The global Button styling options allow you to personalize the style of button tags (`<button>`) as well as any HTML link using the `fl-button` class.
+  The global Button styling options allow you to style button tags (`<button>`) as well as any HTML link using the `fl-button` class.
 
   ```html
   <a href="https://mywebsite.com/" class="fl-button">Some Link</a>
@@ -51,7 +49,9 @@ You can override these styling options on a case-by-case basis using the module 
 
 ## Colors Tab
 
-The Colors tab enables you to create a global color palette that remains consistent across your entire website. These colors can be readily accessed within your Beaver Builder layouts using the color picker tool.
+The Colors tab allows you to generate a universal color palette. These colors can be easily reached within your Beaver Builder layouts through the color picker tool and a color field connection.
+
+While global colors utilize field connections, **Beaver Themer is not required**. You can access your global color field connections with only Beaver Builder installed.
 
 :::info
 You can override these styling options on a case-by-case basis using the row, column, and module color picker options.
@@ -65,8 +65,8 @@ To add a global color:
 2. Assign a name to your color, such as "primary color."
 3. Use the color picker to choose your desired color.
 
-:::caution
-While assigning a color name, it's advisable to use lowercase characters, for instance, "primary color," instead of using uppercase or capital letters, like "Primary Colour."
+:::tip
+While assigning a color name, you have the flexibility to use lowercase, uppercase, or capital letters. If you opt for uppercase or capital letters in your color name, they will be automatically converted to lowercase for the [CSS Variable name](#global-color-css-variables).
 :::
 
 You have the option to include additional global colors by either clicking the **Add Global Colors** button or duplicating a color item using the duplicate icon located in the upper right-hand corner.
@@ -98,9 +98,13 @@ To apply a global color:
 
 ### Global Color CSS Variables
 
-Any Global Color you create is automatically generated as a CSS Variable, which can be utilized in custom CSS. The CSS Variable uses a prefix of `--fl-global-color-`, followed by the name of your assigned global color.
+Any Global Color you create is automatically generated as a CSS Variable, which can be utilized in custom CSS. The CSS Variable uses a prefix of `--fl-global-color-`, followed by the assigned name of your global color.
 
-For example, if you named a global color item as **primary color**, the CSS Variable for that item would be `--fl-global-color-primary-color`.
+For example, if you named a global color item as **primary color**, the CSS Variable for that item would be:
+
+```css
+--fl-global-color-primary-color
+```
 
 You can make use of your global color in custom CSS by using the CSS Variable, as shown in the example below:
 

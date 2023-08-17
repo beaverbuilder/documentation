@@ -23,7 +23,7 @@ The **Default Page Heading** option lets you show or hide the default theme head
 
 * **CSS Selector** allows you to enter the theme's CSS selector for the page title. The default selector `.fl-post-header` is used to hide the page title for the [BB Theme](/bb-theme/).
 
-To learn how to hide the page title for third-party themes, visit the [Show or hide the page title](basics/show-hide-page-title.md) article.
+To learn how to hide the page title for third-party themes, visit the [Show or hide the page title](getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title.md) article.
 
 ## Rows
 
@@ -83,7 +83,7 @@ Enable or Disable the Responsive Layout settings, these include:
 * [Medium Device Breakpoint](#medium-device-breakpoint)
 * [Small Device Breakpoint](#small-device-breakpoint)
 * [Enable Col Max-width](#enable-column-max-width)
-* [Reverse Column Stacking Order](layouts/columns/reverse-column-stacking-order.md)
+* [Reverse Column Stacking Order](layouts/advanced-tab/visibility.md#stacking-order-columns-only)
 
 When **Disabled** only [Base Font Size](#base-font-size) is available.
 
@@ -129,7 +129,7 @@ The **Medium Device Breakpoint** setting lets you configure the `max-width` at w
 The **Small Device Breakpoint** setting lets you configure the `max-width` at which the layout will adjust for small devices. The default value is `768px`.
 
 :::tip
-See the [Breakpoints](responsive/breakpoints.md) article for more information.
+See the [Breakpoints](layouts/responsive-design/breakpoints.md) article for more information.
 :::
 
 ### Use Responsive Settings in Previews?
@@ -144,7 +144,7 @@ When **Enabled**, columns assigned 50% width or less are limited to `max-width: 
 
 ### Base Font Size
 
-If **Font Size** in the [Typography](basics/typography.md) settings is set to the `vh` or `vw` CSS unit the **Base Font Size** will be used to [calculate the font size](basics/typography.md#size).
+If **Font Size** in the [Typography](styles/typography/typography.md) settings is set to the `vh` or `vw` CSS unit the **Base Font Size** will be used to [calculate the font size](styles/typography/typography.md#size).
 
 ## CSS & JavaScript
 
@@ -153,14 +153,14 @@ The CSS and JavaScript tabs allow you to apply custom CSS and JavaScript globall
 ![Global Settings](/img/beaver-builder/user-interface--global-settings--1.jpg)
 
 :::tip
-[Debug Mode](settings/tools.md#debug-mode) lets you access any code you've added to the **Global Settings** and [Layout CSS & JavaScript](layout-css-js.md) options, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
+[Debug Mode](troubleshooting/debugging/enable-beaver-builder-debug-mode.md) lets you access any code you've added to the **Global Settings** and [Layout CSS & JavaScript](layout-css-js.md) options, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
 :::
 
 ### CSS tab
 
-The **CSS** tab allows you add custom CSS that applies globally to your site. You can learn more from the [Custom CSS](basics/custom-code.md#css) article.
+The **CSS** tab allows you add custom CSS that applies globally to your site. You can learn more from the [Custom CSS](styles/custom-code.md#css) article.
 
 ### JavaScript tab
 
-The **JavaScript** tab allows you add custom JavaScript that applies globally to your site. You can learn more from the [Custom JavaScript](basics/custom-code.md#javascript) article.
+The **JavaScript** tab allows you add custom JavaScript that applies globally to your site. You can learn more from the [Custom JavaScript](styles/custom-code.md#javascript) article.
 

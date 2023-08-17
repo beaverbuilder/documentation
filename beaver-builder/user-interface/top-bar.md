@@ -18,7 +18,7 @@ Shows what you're editing (page post, etc.) and its title.
 ![Page or post title](/img/beaver-builder/user-interface--top-bar--2.jpg)
 
 :::caution
-Sometimes users experience issues where the **Title Bar** does not show the correct title information for the post/page they are editing. In this case, please refer to the [Incorrect Title in Top Bar](troubleshooting/common-errors.md#incorrect-title-in-top-bar) article.
+Sometimes users experience issues where the **Title Bar** does not show the correct title information for the post/page they are editing. In this case, please refer to the [Incorrect Title in Top Bar](troubleshooting/common-issues/title-bar-incorrect.md) article.
 :::
 
 ## Access the Tools menu

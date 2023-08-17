@@ -24,8 +24,8 @@ Layout CSS & JavaScript can be accessed via the [Tools menu](tools-menu.md), or 
 
 ## CSS tab
 
-The **CSS** tab allows you add custom CSS that only applies to the page being edited. You can learn more from the [Custom CSS](editor-basics/custom-code.md#css) article.
+The **CSS** tab allows you add custom CSS that only applies to the page being edited. You can learn more from the [Custom CSS](styles/custom-code.md#css) article.
 
 ## JavaScript tab
 
-The **JavaScript** tab allows you add custom JavaScript that only applies to the page being edited. You can learn more from the [Custom JavaScript](editor-basics/custom-code.md#javascript) article.
+The **JavaScript** tab allows you add custom JavaScript that only applies to the page being edited. You can learn more from the [Custom JavaScript](styles/custom-code.md#javascript) article.

@@ -23,11 +23,6 @@ The open and close icons **(+/x)** do not appear when the panel is [pinned](#pin
 
 You can use the Content panel to add content to your pages and posts, such as templates, rows, columns, and modules.
 
-* [Adding templates](templates/index.md)
-* [Adding rows](rows/index.md#add-rows)
-* Adding columns
-* [Adding modules](modules/index.md)
-
 ## Drag Handle
 
 Click and hold the left mouse button on the drag handle icon to move the Content panel anywhere on the screen. You can also pin the Content panel to the left or right of the screen.
@@ -57,23 +52,23 @@ Each tab (modules, rows, templates & saved) are organized into groups. Click the
 
 Modules are categorised into subgroups and can be accessed via the Modules group dropdown menu. Additionally, you can search a module name in the Modules tab by expanding the search box and typing a part of the name.
 
-You can learn more from the [Module tab groups](modules/index.md#module-subgroups) article.
+You can learn more from the [Module tab groups](layouts/modules/index.md#module-subgroups) article.
 
 ### Row tab groups
 
 Rows are categorised into subgroups and can be accessed via the Rows group dropdown menu.
 
-You can learn more from the [Row tab groups](rows/index.md#row-subgroups) article.
+You can learn more from the Row tab groups article.
 
 ### Template tab groups
 
 Templates are categorised into subgroups and can be accessed via the Templates group dropdown menu. 
 
-You can learn more from the [Template tab groups](templates/index.md#template-subgroups) article.
+You can learn more from the [Template tab groups](layouts/templates/layout-templates-overview.md) article.
 
 ### Saved tab group
 
-The Saved Tab group displays all your saved content items grouped into [rows](rows/saved-rows.md), columns, and [modules](modules/saved-modules.md)
+The Saved Tab group displays all your saved content items grouped into rows, columns, and modules.
 
 ![Saved tab group](/img/beaver-builder/user-interface--content-panel--7.jpg)
 

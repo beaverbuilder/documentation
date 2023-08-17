@@ -13,7 +13,7 @@ This article contains both video and written instructions for navigating the Bea
 
 ## User Interface (UI) Overview
 
-When you [launch Beaver Builder](getting-started/launch-builder.md) on a page or post for editing you'll see the Beaver Builder user interface (UI) which consists of four main components. These are the Top Bar, the Content Panel, the Tools Menu, and the Settings Window. All four components are shown in the image below.
+When you [launch Beaver Builder](getting-started/bb-editor-basics/launch-builder.md) on a page or post for editing you'll see the Beaver Builder user interface (UI) which consists of four main components. These are the Top Bar, the Content Panel, the Tools Menu, and the Settings Window. All four components are shown in the image below.
 
 ![Beaver Builder user interface](/img/beaver-builder/user-interface--index--1.jpg)
 

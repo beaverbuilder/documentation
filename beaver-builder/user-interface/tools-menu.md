@@ -33,7 +33,7 @@ Copies the entire page and all metadata from the back end, including Yoast SEO d
 Do not use duplicator plugins to duplicate Beaver Builder layouts.
 :::
 
-To learn more about duplicating layouts, visit the [Duplicate Layout](basics/duplicate-layout.md) article.
+To learn more about duplicating layouts, visit the [Duplicate Layout](getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md) article.
 
 
 ## Preview Layout
@@ -46,7 +46,7 @@ Opens a preview screen, where you can preview as a small, medium, or large devic
 
 Edit your layout directly in a large, medium, or small device view, as shown in this screenshot. Click **Exit** to return to large screen editing.
 
-See the [Responsive](responsive/index.md) section for more information.
+See the [Responsive](layouts/responsive-design/index.md) section for more information.
 
 ![Responsive Editing](/img/beaver-builder/user-interface--tools-menu--3.jpg)
 
@@ -54,7 +54,7 @@ See the [Responsive](responsive/index.md) section for more information.
 
 Display the previously published revisions available to revert to. The number of revisions available is displayed in brackets. This menu item uses the core WordPress revision feature but makes it more convenient to view and access revisions.
 
-See the [Restore Previous Version](basics/restore-previous-version.md) for more information.
+See the [Restore Previous Version](advanced-builder-techniques/restore-a-previous-version.md) for more information.
 
 :::tip 
 Only published pages and posts count as revisions. Saved drafts of pages and posts are not available as revisions. 
@@ -64,7 +64,7 @@ Only published pages and posts count as revisions. Saved drafts of pages and pos
 
 As you edit a post or page, Beaver Builder logs the changes you make. These changes can be viewed in the **History** menu item, which lets you undo or redo any changes you have made.
 
-See the [Undo & Redo](basics/undo-redo.md) article for more information.
+See the [Undo & Redo](getting-started/bb-editor-basics/undo-redo.md) article for more information.
 
 ## Layout CSS & JavaScript
 
@@ -117,7 +117,7 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 <Tabs>
 <TabItem value="macos" label="macOS" attributes={{className: styles.macos}} default>
 
-| Keyboard Shortcut                         | Function                                                 |
+| Action                                    | Keyboard Shortcut                                        |
 | ------------------------------------------|----------------------------------------------------------|
 | Open [Modules Tab](content-panel.md#module-tab-groups) | <kbd>J</kbd>                                |
 | Open [Rows Tab](content-panel.md#row-tab-groups)       | <kbd>K</kbd>                                |
@@ -131,8 +131,8 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Display Module Search                     | <kbd>⌘ command</kbd> + <kbd>I</kbd>                      |
 | Save Layout                               | <kbd>⌘ command</kbd> + <kbd>S</kbd>                      |
 | Publish changes without leaving builder   | <kbd>⌘ command</kbd> + <kbd>P</kbd>                      |
-| [Undo](basics/undo-redo.md)               | <kbd>⌘ command</kbd> + <kbd>Z</kbd>                      |
-| [Redo](basics/undo-redo.md)               | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
+| [Undo](getting-started/bb-editor-basics/undo-redo.md)               | <kbd>⌘ command</kbd> + <kbd>Z</kbd>                      |
+| [Redo](getting-started/bb-editor-basics/undo-redo.md)               | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
 | Toggle [Outline Panel](outline-panel.md) | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>          |
 | Toggle Outline Panel Tree                 | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                        |
 
@@ -153,8 +153,8 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Display Module Search                     | <kbd>Ctrl</kbd> + <kbd>I</kbd>                           |
 | Save Layout                               | <kbd>Ctrl</kbd> + <kbd>S</kbd>                           |
 | Publish changes without leaving builder   | <kbd>Ctrl</kbd> + <kbd>P</kbd>                           |
-| [Undo](basics/undo-redo.md)               | <kbd>Ctrl</kbd> + <kbd>Z</kbd>                           |
-| [Redo](basics/undo-redo.md)               | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd>      |
+| [Undo](getting-started/bb-editor-basics/undo-redo.md) | <kbd>Ctrl</kbd> + <kbd>Z</kbd>               |
+| [Redo](getting-started/bb-editor-basics/undo-redo.md) | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
 | Toggle [Outline Panel](outline-panel.md)  | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                        |
 | Toggle Outline Panel Tree                 | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                        |
 

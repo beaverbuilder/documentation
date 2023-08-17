@@ -68,11 +68,11 @@ Choose a different template type in the **Group** field for more choices. [See t
 
 ![](/img/what-can-i-do-with-beaverbuilder-6.png)
 
-* Design your content from scratch by dragging individual modules into the content area. Click the **Modules** tab and drag a module into the layout. See [descriptions of each module](/beaver-builder/layouts/modules/index.md) and see the next section for more information about designing layout structrure.
+* Design your content from scratch by dragging individual modules into the content area. Click the **Modules** tab and drag a module into the layout.
 
 ![](/img/what-can-i-do-with-beaverbuilder-7.png)
 
-:::tip **Tip**
+:::tip
 After you or your clients open a page for editing, there's a great
 quick-start video that you can access by clicking the down arrow in the Beaver
 Builder admin bar and then in the **Tools** menu click **Help**.

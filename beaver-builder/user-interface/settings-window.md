@@ -5,15 +5,9 @@ sidebar_label: Settings Window
 description: The Settings Window can be used to configure rows, columns, and modules.
 ---
 
-The Settings Window can be used to configure rows, columns, and modules. Furthermore, you can access the [Advanced Tab](advanced-tab/index.md) from the Settings Window to adjust spacing, add animations, change visibility, and add a custom ID or classes.
+The Settings Window can be used to configure rows, columns, and modules. Furthermore, you can access the [Advanced Tab](layouts/advanced-tab/index.md) from the Settings Window to adjust spacing, add animations, change visibility, and add a custom ID or classes.
 
 ![Settings Window](/img/beaver-builder/user-interface--settings-window--1.jpg)
-
-## Access Settings Window
-
-* [Access Row Settings](rows/index.md#row-settings)
-* [Access Column Settings](columns/index.md#column-settings)
-* [Access Module Settings](modules/index.md#module-settings)
 
 ## Pin Settings Window
 

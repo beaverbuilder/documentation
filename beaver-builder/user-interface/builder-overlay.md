@@ -11,7 +11,7 @@ The Overlay Outline helps you visualise your layout's structure and determine wh
 
 ## Overlay Outline
 
-The Overlay Outline appears as a solid border around rows, columns, and modules once you [launch Beaver Builder](getting-started/launch-builder.md). The colour of the outline varies depending on your actions or the type of content in the layout. 
+The Overlay Outline appears as a solid border around rows, columns, and modules once you [launch Beaver Builder](getting-started/bb-editor-basics/launch-builder.md). The colour of the outline varies depending on your actions or the type of content in the layout. 
 
 ### Overlay Outline Colors
 
@@ -19,7 +19,7 @@ The Overlay Outline appears as a solid border around rows, columns, and modules 
 
 * A Gray outline appears around the row for the column or module you're currently editing.
 
-* An Orange Outline appears around global rows, columns, or [modules](modules/saved-modules.md#global-saved-module) in your layout.
+* An Orange Outline appears around global rows, columns, or modules in your layout.
 
 ### Empty Columns
 
@@ -75,8 +75,5 @@ Deletes the row or module, this action requires confirmation via a popup window.
 ## Overlay Drag Handle
 
 Drag handles appear on the outer edge of the overlay and allow you to change the row max-width and column width by moving the drag handle.
-
-* [Resize Rows](rows/index.md#resize-rows) using the drag-handle.
-* [Resize Columns](columns/index.md#resize-columns) using the drag-handle.
 
 ![Resize rows and columns using the drag-handles](/img/beaver-builder/user-interface--builder-overlay--5.jpg)

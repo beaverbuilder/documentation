@@ -29,7 +29,7 @@ The Box module functions much like a row or column, serving as a container. It u
 While we've aimed to make the Box module as user-friendly as possible, having a solid grasp of CSS flexbox and CSS Grid is strongly recommended.
 :::
 
-See the Box module section for more information.
+See the [Box module](layouts/modules/box/index.md) section for more information.
 
 ## Global Styles
 
