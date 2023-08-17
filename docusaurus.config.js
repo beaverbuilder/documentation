@@ -82,7 +82,7 @@ module.exports = {
           position: 'left',
         },
         {
-          label: 'Assitant',
+          label: 'Assistant',
           type: 'doc',
           docId: 'introduction/index',
           docsPluginId: 'assistant',
@@ -226,7 +226,6 @@ module.exports = {
             current: {
               label: 'Beaver Builder 2.8',
               path: '2.8',
-              banner: 'none',
               className: '2.8',
             },
             '2.7': {
