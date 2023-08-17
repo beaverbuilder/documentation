@@ -125,7 +125,7 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Open [Saved Tab](content-panel.md#saved-tab-groups) | <kbd>;</kbd>                                   |
 | Save New Template                         | <kbd>⌘ command</kbd> + <kbd>J</kbd>                      |
 | Toggle [Preview Mode](#preview-layout)    | <kbd>P</kbd>                                             |
-| Toggle [Responsive Editing Mode](responsive/editor.md) | <kbd>R</kbd>                                |
+| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                |
 | Open [Global Settings](global-settings.md) | <kbd>⌘ command</kbd> + <kbd>U</kbd>      |
 | Open [Layout Settings](layout-css-js.md) | <kbd>⌘ command</kbd> + <kbd>Y</kbd>        |
 | Display Module Search                     | <kbd>⌘ command</kbd> + <kbd>I</kbd>                      |
@@ -147,7 +147,7 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Open [Saved Tab](content-panel.md#saved-tab-groups) | <kbd>;</kbd>                                   |
 | Save New Template                         | <kbd>Ctrl</kbd> + <kbd>J</kbd>                           |
 | Toggle [Preview Mode](#preview-layout)    | <kbd>P</kbd>                                             |
-| Toggle [Responsive Editing Mode](responsive/editor.md) | <kbd>R</kbd>                                |
+| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                |
 | Open [Global Settings](global-settings.md)| <kbd>Ctrl</kbd> + <kbd>U</kbd>                           |
 | Open [Layout Settings](layout-css-js.md)  | <kbd>Ctrl</kbd> + <kbd>Y</kbd>                           |
 | Display Module Search                     | <kbd>Ctrl</kbd> + <kbd>I</kbd>                           |
