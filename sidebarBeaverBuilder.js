@@ -233,6 +233,27 @@ module.exports = {
             "layouts/modules/bigcommerce-products",
             {
               type: 'category',
+              label: 'Box',
+              link: {
+                type: 'doc',
+                id: 'layouts/modules/box/index',
+              },
+              items: [
+                // {
+                //   type: 'category',
+                //   label: 'Settings',
+                //   link: {
+                //     type: 'doc',
+                //     id: 'layouts/modules/box/settings/index',
+                //   },
+                //   items: [
+                //     'layouts/modules/box/settings/container',
+                //   ],
+                // },
+              ]
+            },
+            {
+              type: 'category',
               label: 'Button',
               items: [
                 "layouts/modules/button/button",
