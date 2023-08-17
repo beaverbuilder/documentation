@@ -62,28 +62,31 @@ module.exports = {
           'aria-label': 'Docs Home',
         },
         {
-          type: 'doc',
+          type: 'docsVersionDropdown',
           position: 'left',
-          docId: 'beaver-builder/introduction/index',
-          label: 'Beaver Builder',
+          dropdownItemsAfter: [{to: '/versions'}],
+          dropdownActiveClassDisabled: true,
         },
         {
-          type: 'doc',
-          position: 'left',
-          docId: 'beaver-themer/introduction/index',
           label: 'Beaver Themer',
+          type: 'doc',
+          docId: 'introduction/index',
+          docsPluginId: 'beaver-themer',
+          position: 'left',
         },
         {
-          to: '/bb-theme',
           label: 'BB Theme',
+          type: 'doc',
+          docId: 'introduction/index',
+          docsPluginId: 'bb-theme',
           position: 'left',
-          activeBasePath: 'bb-theme',
         },
         {
-          to: '/assistant',
           label: 'Assistant',
+          type: 'doc',
+          docId: 'introduction/index',
+          docsPluginId: 'assistant',
           position: 'left',
-          activeBasePath: 'assistant',
         },
         {
           href: 'https://courses.wpbeaverbuilder.com/',
@@ -181,14 +184,56 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Beaver Builder.`,
     },
   },
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'beaver-themer',
+        path: 'beaver-themer',
+        routeBasePath: 'beaver-themer',
+        sidebarPath: require.resolve('./sidebarBeaverThemer.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'bb-theme',
+        path: 'bb-theme',
+        routeBasePath: 'bb-theme',
+        sidebarPath: require.resolve('./sidebarBBTheme.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'assistant',
+        path: 'assistant',
+        routeBasePath: 'assistant',
+        sidebarPath: require.resolve('./sidebarAssistant.js'),
+      },
+    ],
+  ],
+
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
+      'classic',
+      ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
-          showLastUpdateTime: true,
+          path: 'beaver-builder',
+          routeBasePath: 'beaver-builder',
+          sidebarPath: require.resolve('./sidebarBeaverBuilder.js'),
+          versions: {
+            current: {
+              label: 'Beaver Builder 2.8',
+              path: '2.8',
+              className: '2.8',
+            },
+            '2.7': {
+              label: 'Beaver Builder 2.7',
+              banner: 'none',
+              className: '2.7',
+            },
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -201,7 +246,8 @@ module.exports = {
           changefreq: 'weekly',
           priority: 0.5,
         },
-      },
+      }),
     ],
   ],
+
 };
