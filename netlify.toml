@@ -1,248 +1,54 @@
-# Redirects for BB 2.7
+# Field Connections
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/responsive-behavior-in-beaver-builder"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-basics-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/responsive-settings-icon"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/toggle"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcodes-overview-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/responsive-editing-with-beaver-builder"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/editor"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcodes-overview-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/getting-started"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/breakpoints-for-device-sizes"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/getting-started"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/change-device-breakpoints-site-wide"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/third-party"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab-rows-columns-modules"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditionals"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/margin-padding"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/spacing"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditionals"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/change-individual-margin-and-padding-settings"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/spacing"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/wordpress-data"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/change-default-row-and-module-margins-and-padding"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/global-settings#rows"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcode-index-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/wordpress-data"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/disable-auto-spacing-on-mobile-devices"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/bb-editor-basics/global-settings#auto-spacing"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/"
 status = 301
 force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/margins-padding/troubleshooting-margins-and-padding"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/spacing"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/prevent-column-stacking-with-custom-widths"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/stacking"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/reverse-column-stacking-order"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/columns/stacking"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-import-content"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/disable-responsive-behavior-site-wide"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/responsive-design/disable"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/link-to-specific-item-in-tabs-or-accordion-module"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/link-to-specific-item"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/change-the-accordion-icon-to-an-image"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/css-customization"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/dev-preview"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/dev-preview"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/about-this-release"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/about-release"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/software-releases-and-versioning"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/releases-versioning"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/accessibility"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/accessibility"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/support-policy"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/support-policy"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/translations"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/translations"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/gdpr"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/gdpr"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/gdpr"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/gdpr"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/signup-fee"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/affiliate-agreement"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/payment-options"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/cookie-duration"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/beaver-builder-subscription"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/payment-schedule"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/affiliate-links"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/earnings-potential"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/search-engine-keyword-bids"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/use-of-intellectual-property"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/purchase-using-my-affiliate-link"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/purchase-not-using-affiliate-link"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/license-suspension"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/suspension"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/license-suspension"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/suspension"
-status = 301
-force = true
-
-# General Redirects
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/renew-your-beaver-builder-subscription/"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/renew/"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/transfer-license/"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/transfer/"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/upgrade-your-premium-license/"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/upgrade/"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/subscription-cancel/"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/paypal-agreement/"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/cancel-your-automatic-renewal/"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/renew#cancel-automatic-renewal/"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/whats-the-difference-between-beaver-builder-theme-and-beaver-themer/"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/introduction/faq#difference-between-beaver-themer--bb-theme/"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/manage-plugin-activations-centrally/"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/domain-manager/"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/whats-your-refund-policy/"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq#whats-your-refund-policy/"
-status = 301
-force = true
-
-# Beaver Themer redirects
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer"
 to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/"
@@ -269,139 +75,35 @@ to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-type
 status = 301
 force = true
 [[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/test-for-values-in-shortcodes-for-advanced-custom-fields"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/expressions"
+status = 301
+force = true
+[[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/list-related-posts-using-acf-relationship-field-themer"
 to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/relationship"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/beaver-themer-and-the-events-calendar-plugin"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/getting-started"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/wordpress-custom-fields"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-an-archive-themer-layout-for-the-events-calendar-plugin"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/archive-layout"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/test-for-values-in-wordpress-custom-field-shortcode"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/expressions"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/create-a-singular-themer-layout-for-the-events-calendar-plugin"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/singular-layout"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-calendar-module"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/modules/event-calendar"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-posts-module"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/modules/event-posts"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/third-party"
 status = 301
 force = true
 
-# Custom Module Redirects
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-01-create-a-plugin"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/create-a-plugin"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-02-add-a-module-to-your-plugin"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/add-a-module-to-your-plugin"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-03-define-module-settings"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/define-module-settings"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-04-module-settings-css-and-javascript"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-settings-css-javascript"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-05-module-html"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-html"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-06-module-css"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-css"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-07-module-javascript"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-javascript"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-08-module-property-reference"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-property-reference"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-09-module-method-reference"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/module-method-reference"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-10-setting-fields-reference"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/setting-fields-reference"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-11-responsive-fields-reference"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/responsive-fields-reference"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-12-repeater-fields-reference"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/repeater-fields-reference"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-13-sanitize-field-values"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/sanitize-field-values"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-14-create-custom-fields"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/create-custom-fields"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-15-helpers"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/helpers"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-16-live-preview-reference"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/live-preview-reference"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-17-partial-refresh-reference"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/partial-refresh-reference"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-18-override-built-in-modules"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/override-modules"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-19-localization"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/localization"
-status = 301
-force = true
 
-## Install Redirect
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install-beaver-builder"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install"
-status = 301
-force = true
+
+
+
 
 # Redirect Contact Form module doc link
 [[redirects]]
