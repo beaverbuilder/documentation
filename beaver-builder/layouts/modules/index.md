@@ -52,24 +52,24 @@ Beaver Builder groups modules into different subgroups for better organization. 
 
 The following are the different module subgroups available.
 
-* **Standard Modules**  
+- **Standard Modules**  
   All modules included with Beaver Builder are listed in the Standard Modules group. If you disable modules via the Beaver Builder settings, they do not appear in the Standard Modules group.
 
-* **ACF Blocks**  
+- **ACF Blocks**  
   If you have the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin installed, any ACF blocks you create will appear in the ACF Blocks group.
 
-* **Reusable Blocks**  
-  Any [WordPress reusable blocks](https://wordpress.org/support/article/reusable-blocks/) created will appear in the Reuable Blocks group.
+- **WordPress Patterns** (Reusable Blocks)  
+  Any [WordPress Patterns](https://wordpress.org/support/article/reusable-blocks/) (Reusable Blocks) created will appear in the WordPress Patterns group.
 
-* **Themer Modules**  
-  The **Themer Modules** subgroup displays a list of all Beaver Themer modules that are available when using the builder on a Beaver Themer layout. 
+- **Themer Modules**  
+  The **Themer Modules** subgroup displays a list of all Beaver Themer modules that are available when using the builder on a Beaver Themer layout.
 
-* **WordPress Widgets**  
-  Most WordPress widgets, including third-party ones, can be integrated into your Beaver Builder layout. Third-party widgets, however, may require custom code to work properly. 
+- **WordPress Widgets**  
+  Most WordPress widgets, including third-party ones, can be integrated into your Beaver Builder layout. Third-party widgets, however, may require custom code to work properly.
 
   See the [WordPress Widgets](widgets.md) article for more information.
 
-* **Saved Modules**  
+- **Saved Modules**  
   Any modules [saved for reuse](#saved-modules) will appear in the **Saved Modules group**, this includes [global modules](#global-saved-module) as well.
 
 ## Add Modules

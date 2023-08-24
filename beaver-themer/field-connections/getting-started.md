@@ -56,7 +56,7 @@ These parameters (options) are available when you first apply the field connecti
 
 Field connections applied to row, column, and module options can be edited or modified. The process, however, varies slightly depending on how you initially applied the field connection to the option.
 
-* **Connect**  
+- **Connect**  
   If you selected the **Connect** option while adding your field connection, you can easily modify it by hovering your mouse over the connection and clicking the <i className="fa-solid fa-wrench"></i> Wrench icon. This will provide you with access to the field connection options once again, allowing you to reconfigure it.
 
   However, keep in mind that if you want to switch to a different field connection, you will need to delete the current field connection first before making the switch.
@@ -67,7 +67,7 @@ Field connections applied to row, column, and module options can be edited or mo
   If the field connection has no parameters (options), the <i className="fa-solid fa-wrench"></i> Wrench icon will not appear.
   :::
 
-* **Insert**  
+- **Insert**  
   When adding your field connection using the **Insert** option, the process to modify it differs slightly. Knowing the field connection parameters (options) enables you to add them to the shortcode, replacing the existing ones. However, if you're not familiar with the parameters, you'll have to remove the field connection shortcode from the option and then add the field connection again.
 
 ## Delete Field Connections

@@ -8,11 +8,11 @@
 module.exports = {
   beaverbuilder: [
     {
-      type: 'category',
-      label: 'Introduction',
+      type: "category",
+      label: "Introduction",
       link: {
-        type: 'doc',
-        id: 'introduction/index',
+        type: "doc",
+        id: "introduction/index",
       },
       items: [
         "introduction/faq",
@@ -26,18 +26,18 @@ module.exports = {
       ],
     },
     {
-      type: 'category',
-      label: 'Account',
+      type: "category",
+      label: "Account",
       link: {
-        type: 'doc',
-        id: 'account/index',
+        type: "doc",
+        id: "account/index",
       },
       items: [
         {
-          type: 'category',
-          label: 'License',
+          type: "category",
+          label: "License",
           link: {
-            type: 'doc',
+            type: "doc",
             id: "account/license/index",
           },
           items: [
@@ -55,25 +55,27 @@ module.exports = {
         "account/request-invoice",
         "account/suggest-new-features",
         "account/affiliate-program",
-      ]
+      ],
     },
     {
-      type: 'category',
-      label: 'Getting Started',
+      type: "category",
+      label: "Getting Started",
       link: {
-        type: 'generated-index',
-        title: 'Getting Started',
+        type: "generated-index",
+        title: "Getting Started",
       },
       items: [
         "getting-started/what-can-i-do-with-beaver-builder",
+        "getting-started/how-it-works",
         "getting-started/system-requirements",
         "getting-started/install",
+        "getting-started/launch-builder",
         {
-          type: 'category',
-          label: 'BB Editor Basics',
+          type: "category",
+          label: "BB Editor Basics",
           link: {
-            type: 'generated-index',
-            title: 'BB Editor Basics',
+            type: "generated-index",
+            title: "BB Editor Basics",
           },
           items: [
             "getting-started/bb-editor-basics/launch-builder",
@@ -89,41 +91,42 @@ module.exports = {
             "getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page",
             "getting-started/bb-editor-basics/delete-a-module-or-column",
             "getting-started/bb-editor-basics/save-publish-discard",
-          ]
+          ],
         },
-      ]
+      ],
     },
     {
-      type: 'category',
-      label: 'User Interface (UI)',
+      type: "category",
+      label: "User Interface (UI)",
       link: {
-         type: 'doc',
-         id: 'user-interface/index',
+        type: "doc",
+        id: "user-interface/index",
       },
       items: [
-         "user-interface/top-bar",
-         "user-interface/outline-panel",
-         "user-interface/tools-menu",
-         "user-interface/global-settings",
-         "user-interface/global-styles",
-         "user-interface/layout-css-js",
-         "user-interface/content-panel",
-         "user-interface/settings-window",
-         "user-interface/builder-overlay",
-         "user-interface/link-values",
+        "user-interface/top-bar",
+        "user-interface/outline-panel",
+        "user-interface/tools-menu",
+        "user-interface/global-settings",
+        "user-interface/global-styles",
+        "user-interface/layout-css-js",
+        "user-interface/content-panel",
+        "user-interface/settings-window",
+        "user-interface/builder-overlay",
+        "user-interface/link-values",
       ],
-   },
+    },
+
     {
-      type: 'category',
-      label: 'Layouts',
+      type: "category",
+      label: "Layouts",
       link: {
-        type: 'generated-index',
-        title: 'Layouts',
+        type: "generated-index",
+        title: "Layouts",
       },
       items: [
         {
-          type: 'category',
-          label: 'The Advanced Tab',
+          type: "category",
+          label: "The Advanced Tab",
           link: {
             type: "doc",
             id: "layouts/advanced-tab/index",
@@ -138,8 +141,8 @@ module.exports = {
           ],
         },
         {
-          type: 'category',
-          label: 'Templates',
+          type: "category",
+          label: "Templates",
           items: [
             "layouts/templates/layout-templates-overview",
             "layouts/templates/add-a-layout-template-to-your-page",
@@ -157,11 +160,11 @@ module.exports = {
             "layouts/templates/add-an-image-to-an-item-on-the-saved-tab",
             "layouts/templates/delete-a-saved-row-column-module",
             "layouts/templates/export-import-content",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Rows',
+          type: "category",
+          label: "Rows",
           items: [
             "layouts/rows/add-prebuilt-rows-to-your-content",
             "layouts/rows/work-with-rows",
@@ -171,21 +174,21 @@ module.exports = {
             "layouts/rows/full-width-rows-on-third-party-themes",
             "layouts/rows/customize-the-row-height",
             {
-              type: 'category',
-              label: 'Row effects',
+              type: "category",
+              label: "Row effects",
               items: [
                 "layouts/rows/row-effects/row-shape-overlays",
                 "layouts/rows/row-effects/video-backgrounds-in-rows",
                 "layouts/rows/row-effects/ideas-for-using-background-colors-and-effects",
                 "layouts/rows/row-effects/parallax-row-backgrounds",
                 "layouts/rows/row-effects/create-a-ken-burns-effect-in-a-row-background",
-              ]
+              ],
             },
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Columns',
+          type: "category",
+          label: "Columns",
           items: [
             "layouts/columns/column-layouts-overview",
             "layouts/columns/tips-for-working-with-columns",
@@ -195,48 +198,48 @@ module.exports = {
             "layouts/columns/move-a-column",
             "layouts/columns/duplicate-a-column",
             "layouts/columns/stacking",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Modules',
+          type: "category",
+          label: "Modules",
           link: {
-            type: 'doc',
-            id: 'layouts/modules/index',
+            type: "doc",
+            id: "layouts/modules/index",
           },
           items: [
             {
-              type: 'category',
-              label: 'Accordion',
+              type: "category",
+              label: "Accordion",
               link: {
-                type: 'doc',
-                id: 'layouts/modules/accordion/index',
+                type: "doc",
+                id: "layouts/modules/accordion/index",
               },
               items: [
                 {
-                  type: 'category',
-                  label: 'Settings',
+                  type: "category",
+                  label: "Settings",
                   link: {
-                    type: 'doc',
-                    id: 'layouts/modules/accordion/settings/index',
+                    type: "doc",
+                    id: "layouts/modules/accordion/settings/index",
                   },
                   items: [
-                    'layouts/modules/accordion/settings/items',
-                    'layouts/modules/accordion/settings/style',
+                    "layouts/modules/accordion/settings/items",
+                    "layouts/modules/accordion/settings/style",
                   ],
                 },
-                'layouts/modules/accordion/link-specific-item',
-                'layouts/modules/accordion/css-customization',
-              ]
+                "layouts/modules/accordion/link-specific-item",
+                "layouts/modules/accordion/css-customization",
+              ],
             },
             "layouts/modules/audio",
             "layouts/modules/bigcommerce-products",
             {
-              type: 'category',
-              label: 'Box',
+              type: "category",
+              label: "Box",
               link: {
-                type: 'doc',
-                id: 'layouts/modules/box/index',
+                type: "doc",
+                id: "layouts/modules/box/index",
               },
               items: [
                 // {
@@ -250,35 +253,35 @@ module.exports = {
                 //     'layouts/modules/box/settings/container',
                 //   ],
                 // },
-              ]
+              ],
             },
             {
-              type: 'category',
-              label: 'Button',
+              type: "category",
+              label: "Button",
               items: [
                 "layouts/modules/button/button",
                 "layouts/modules/button/make-a-button-transparent",
-              ]
+              ],
             },
             "layouts/modules/button-group",
             "layouts/modules/callout-and-call-to-action",
             {
-              type: 'category',
-              label: 'Contact Form',
+              type: "category",
+              label: "Contact Form",
               items: [
                 "layouts/modules/contact-form/contact-form",
                 "layouts/modules/contact-form/add-a-google-recaptcha-checkbox-to-a-form",
-              ]
+              ],
             },
             "layouts/modules/content-slider",
             "layouts/modules/countdown",
             {
-              type: 'category',
-              label: 'Gallery',
+              type: "category",
+              label: "Gallery",
               items: [
                 "layouts/modules/gallery/gallery",
                 "layouts/modules/gallery/open-a-gallery-lightbox-on-button-click",
-              ]
+              ],
             },
             "layouts/modules/heading",
             "layouts/modules/html",
@@ -287,97 +290,97 @@ module.exports = {
             "layouts/modules/login-form",
             "layouts/modules/map",
             {
-              type: 'category',
-              label: 'Menu',
+              type: "category",
+              label: "Menu",
               items: [
                 "layouts/modules/menu/menu",
                 "layouts/modules/menu/add-a-menu-item-that-links-to-a-page-section",
-              ]
+              ],
             },
             "layouts/modules/number-counter",
             {
-              type: 'category',
-              label: 'Photo',
+              type: "category",
+              label: "Photo",
               items: [
                 "layouts/modules/photo/photo",
                 "layouts/modules/photo/display-full-captions-under-photos",
                 "layouts/modules/photo/add-hover-effects-to-the-photo-module",
-              ]
+              ],
             },
             {
-              type: 'category',
-              label: 'Posts',
+              type: "category",
+              label: "Posts",
               items: [
                 "layouts/modules/posts/posts",
                 "layouts/modules/posts/posts-carousel",
                 "layouts/modules/posts/posts-slider",
                 "layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples",
                 "layouts/modules/posts/increase-space-between-images-in-posts-module-gallery",
-              ]
+              ],
             },
             "layouts/modules/pricing-table",
-            "layouts/modules/reusable-blocks",
             {
-              type: 'category',
-              label: 'Search',
+              type: "category",
+              label: "Search",
               items: [
                 "layouts/modules/search/search",
                 "layouts/modules/search/limit-post-types-search-module",
-              ]
+              ],
             },
             "layouts/modules/separator",
             "layouts/modules/sidebar",
             "layouts/modules/slideshow",
             "layouts/modules/social-buttons",
             {
-              type: 'category',
-              label: 'Subscribe Form',
+              type: "category",
+              label: "Subscribe Form",
               items: [
                 "layouts/modules/subscribe-form/subscribe-form",
                 "layouts/modules/subscribe-form/configure-subscribe-form-module-for-mailchimp-double-opt-in",
                 "layouts/modules/contact-form/add-a-google-recaptcha-checkbox-to-a-form",
-              ]
+              ],
             },
             {
-              type: 'category',
-              label: 'Tabs',
+              type: "category",
+              label: "Tabs",
               link: {
-                type: 'doc',
-                id: 'layouts/modules/tabs/index',
+                type: "doc",
+                id: "layouts/modules/tabs/index",
               },
               items: [
                 {
-                  type: 'category',
-                  label: 'Settings',
+                  type: "category",
+                  label: "Settings",
                   link: {
-                    type: 'doc',
-                    id: 'layouts/modules/tabs/settings/index',
+                    type: "doc",
+                    id: "layouts/modules/tabs/settings/index",
                   },
                   items: [
-                    'layouts/modules/tabs/settings/items',
-                    'layouts/modules/tabs/settings/style',
+                    "layouts/modules/tabs/settings/items",
+                    "layouts/modules/tabs/settings/style",
                   ],
                 },
                 "layouts/modules/tabs/link-specific-item",
-              ]
+              ],
             },
             "layouts/modules/testimonials",
             "layouts/modules/text",
             {
-              type: 'category',
-              label: 'Video',
+              type: "category",
+              label: "Video",
               items: [
                 "layouts/modules/video/video",
                 "layouts/modules/video/open-a-video-in-a-lightbox",
-              ]
+              ],
             },
             "layouts/modules/woocommerce",
+            "layouts/modules/wordpress-patterns",
             "layouts/modules/widgets",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Responsive Design',
+          type: "category",
+          label: "Responsive Design",
           link: {
             type: "doc",
             id: "layouts/responsive-design/index",
@@ -388,11 +391,11 @@ module.exports = {
             "layouts/responsive-design/toggle",
             "layouts/responsive-design/disable",
             "layouts/responsive-design/responsive-columns",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Post Layouts',
+          type: "category",
+          label: "Post Layouts",
           items: [
             "layouts/post-layouts/how-beaver-builder-works-with-blogs-and-custom-post-types-start-here",
             "layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives",
@@ -400,37 +403,37 @@ module.exports = {
             "layouts/post-layouts/generated-wordpress-archives-versus-beaver-builder-layouts",
             "layouts/post-layouts/use-beaver-builder-to-lay-out-post-content",
             "layouts/post-layouts/add-rows-and-modules-to-index-archive-and-post-pages",
-          ]
+          ],
         },
-      ]
+      ],
     },
     {
-      type: 'category',
-      label: 'Styles',
+      type: "category",
+      label: "Styles",
       link: {
-        type: 'generated-index',
-        title: 'Styles',
+        type: "generated-index",
+        title: "Styles",
       },
       items: [
         {
-          type: 'category',
-          label: 'Colors',
+          type: "category",
+          label: "Colors",
           items: [
             "styles/colors/color-picker",
             "styles/colors/add-a-color-palette-to-the-beaver-builder-editor",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Typography',
+          type: "category",
+          label: "Typography",
           items: [
             "styles/typography/typography",
             "styles/typography/add-latin-extended-capabilities-for-a-google-font",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Effects',
+          type: "category",
+          label: "Effects",
           items: [
             "styles/effects/animations",
             "styles/effects/color-gradients-for-row-and-column-backgrounds-and-overlays",
@@ -438,28 +441,28 @@ module.exports = {
             "styles/effects/borders",
             "styles/effects/radius-shadow",
             "styles/effects/rounded-corners-on-columns-and-photos",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Icons',
+          type: "category",
+          label: "Icons",
           items: [
             "styles/icons/enable-disable-or-delete-icon-sets",
             "styles/icons/enable-font-awesome-pro-icon-sets",
             "styles/icons/font-awesome-pro-duotone-icons",
             "styles/icons/add-an-icon-to-a-menu-item",
             "styles/icons/create-and-import-a-custom-icon-set",
-          ]
+          ],
         },
         "styles/custom-code",
-      ]
+      ],
     },
     {
-      type: 'category',
-      label: 'Advanced Builder Techniques',
+      type: "category",
+      label: "Advanced Builder Techniques",
       link: {
-        type: 'generated-index',
-        title: 'Advanced Builder Techniques',
+        type: "generated-index",
+        title: "Advanced Builder Techniques",
       },
       items: [
         "advanced-builder-techniques/css-length-height-units",
@@ -473,8 +476,8 @@ module.exports = {
         "advanced-builder-techniques/disable-inline-editing",
         "advanced-builder-techniques/disable-columns-in-columns",
         {
-          type: 'category',
-          label: 'Shortcodes',
+          type: "category",
+          label: "Shortcodes",
           items: [
             "advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts",
             "advanced-builder-techniques/shortcodes/shortcode-reference",
@@ -483,16 +486,16 @@ module.exports = {
             "advanced-builder-techniques/shortcodes/shortcode-performance",
             "advanced-builder-techniques/shortcodes/shortcodes-dont-display-for-logged-out-users-bbpress",
             "advanced-builder-techniques/shortcodes/put-thrive-leads-shortcode-into-a-button-module",
-          ]
+          ],
         },
-      ]
+      ],
     },
     {
-      type: 'category',
-      label: 'Management/Migration',
+      type: "category",
+      label: "Management/Migration",
       link: {
-        type: 'generated-index',
-        title: 'Management & Migration',
+        type: "generated-index",
+        title: "Management & Migration",
       },
       items: [
         "management-migration/settings-overview",
@@ -510,19 +513,20 @@ module.exports = {
         "management-migration/disable-specific-modules-sitewide",
         "management-migration/enable-prerelease-updates",
         "management-migration/manually-migrate-a-beaver-builder-site",
-      ]
+      ],
     },
+
     {
-      type: 'category',
-      label: 'Troubleshooting',
+      type: "category",
+      label: "Troubleshooting",
       link: {
-        type: 'generated-index',
-        title: 'Troubleshooting',
+        type: "generated-index",
+        title: "Troubleshooting",
       },
       items: [
         {
-          type: 'category',
-          label: 'Debugging ',
+          type: "category",
+          label: "Debugging ",
           items: [
             "troubleshooting/debugging/cache-clearing-tool",
             "troubleshooting/debugging/issue-fixer-clear-the-cache",
@@ -531,11 +535,11 @@ module.exports = {
             "troubleshooting/debugging/plugin-conflicts",
             "troubleshooting/debugging/theme-conflict",
             "troubleshooting/debugging/enable-beaver-builder-debug-mode",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Common Issues',
+          type: "category",
+          label: "Common Issues",
           items: [
             "troubleshooting/common-issues/403-forbidden-or-blocked-error",
             "troubleshooting/common-issues/404-error-when-trying-to-open-editor",
@@ -557,21 +561,21 @@ module.exports = {
             "troubleshooting/common-issues/im-getting-a-permission-denied-error",
             "troubleshooting/common-issues/i-am-getting-a-blank-screen",
             "troubleshooting/common-issues/error-settings-not-saved",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Updates & License Issues',
+          type: "category",
+          label: "Updates & License Issues",
           items: [
             "troubleshooting/updates-license/not-getting-beaver-builder-updates",
             "troubleshooting/updates-license/uninstall-or-deactivate-the-beaver-builder-plugin",
             "troubleshooting/updates-license/beaver-builder-not-working-after-upgrading",
             "troubleshooting/updates-license/manually-reinstall-beaver-builder",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Miscellaneous',
+          type: "category",
+          label: "Miscellaneous",
           items: [
             "troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel",
             "troubleshooting/miscellaneous/cant-open-page-in-beaver-builder",
@@ -591,38 +595,38 @@ module.exports = {
             "troubleshooting/miscellaneous/uploaded-icon-set-is-blank",
             "troubleshooting/miscellaneous/why-am-i-seeing-an-eye-icon-in-my-module-toolbar",
             "troubleshooting/miscellaneous/limit-on-adding-rows",
-          ]
+          ],
         },
-      ]
+      ],
     },
     {
-      type: 'category',
-      label: 'White Label (Agency)',
+      type: "category",
+      label: "White Label (Agency)",
       link: {
-        type: 'generated-index',
-        title: 'White Label (Agency)',
+        type: "generated-index",
+        title: "White Label (Agency)",
       },
       items: [
         "white-labeling/white-labeling-beaver-builder",
         "white-labeling/replace-built-in-layout-templates-with-your-own",
         "white-labeling/customize-the-help-button",
         "white-labeling/white-label-the-ajax-crash-message",
-      ]
+      ],
     },
     {
-      type: 'category',
-      label: 'Developer',
+      type: "category",
+      label: "Developer",
       link: {
-        type: 'generated-index',
-        title: 'Developer',
+        type: "generated-index",
+        title: "Developer",
       },
       items: [
         {
-          type: 'category',
-          label: 'Custom Modules',
+          type: "category",
+          label: "Custom Modules",
           link: {
-            type: 'doc',
-            id: 'developer/custom-modules/index',
+            type: "doc",
+            id: "developer/custom-modules/index",
           },
           items: [
             "developer/custom-modules/01-create-a-plugin",
@@ -649,10 +653,10 @@ module.exports = {
         "developer/iframe-ui",
         "developer/acf-blocks",
         {
-          type: 'category',
+          type: "category",
           label: "How to's & Tips",
           link: {
-            type: 'generated-index',
+            type: "generated-index",
             title: "How to's & Tips",
           },
           items: [
@@ -669,14 +673,14 @@ module.exports = {
             "developer/how-to-tips/load-google-fonts-locally-gdpr",
             "developer/how-to-tips/prevent-css-and-javascript-from-loading-on-archive-pages",
             "developer/how-to-tips/create-a-video-lightbox-for-an-amazon-s3-video",
-          ]
+          ],
         },
         {
-          type: 'category',
-          label: 'Tutorials & Guides',
+          type: "category",
+          label: "Tutorials & Guides",
           link: {
-            type: 'generated-index',
-            title: 'Tutorials & Guides',
+            type: "generated-index",
+            title: "Tutorials & Guides",
           },
           items: [
             "developer/tutorials-guides/install-beaver-builder-via-composer",
@@ -691,15 +695,15 @@ module.exports = {
             "developer/tutorials-guides/create-a-custom-module-to-compare-images-with-a-slider",
             "developer/tutorials-guides/create-a-filter-to-customize-the-display-of-post-data",
             "developer/tutorials-guides/add-a-custom-shape-layer",
-          ]
+          ],
         },
         "developer/conditionally-hidden-content",
         {
-          type: 'link',
-          label: 'Hooks',
-          href: 'https://hooks.wpbeaverbuilder.com/bb-plugin/'
-        }
-      ]
+          type: "link",
+          label: "Hooks",
+          href: "https://hooks.wpbeaverbuilder.com/bb-plugin/",
+        },
+      ],
     },
   ],
 };

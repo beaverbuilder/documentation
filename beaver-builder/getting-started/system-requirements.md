@@ -3,6 +3,7 @@ id: system-requirements
 title: System Requirements
 sidebar_label: System Requirements
 ---
+
 This article covers the recommended system requirements for installing and using Beaver Builder on your sites.
 
 ## WordPress
@@ -16,20 +17,21 @@ We recommend a [WP Memory limit](https://wordpress.org/support/article/editing-w
 
 To ensure smooth functionality of the Beaver Builder user-interface (UI), it is important to configure the server with the following settings, as failure to do so may lead to issues:
 
-* Set `X-Frame-Options` to `SAMEORIGIN`.
-* Configure Content-Security-Policy (CSP) with the directive [`frame-ancestors`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) to `self`.
+- Set `X-Frame-Options` to `SAMEORIGIN`.
+- Configure Content-Security-Policy (CSP) with the directive [`frame-ancestors`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) to `self`.
 
 Contact your web host provider for assistance with configuring these settings.
 
 ## PHP
 
-We follow WordPress minimum requirements for PHP version. See the [wordpress.org requirements page](https://wordpress.org/support/article/requirements/) for current recommendations.
+Beaver Builder follows the WordPress requirements for PHP version. See the [Wordpress Requirements page](https://wordpress.org/support/article/requirements/) for current recommendations.
 
-* **All Beaver Builder products:**  
-  * PHP 5.6.20 and above
-  * PHP 7.4 is currently recommended by WordPress 
-  * PHP 8 is supported for all Beaver Builder products with some warnings, which are fixed in Beaver Builder 2.5, Beaver Builder Theme 1.7.9, and Beaver Themer 1.4.
-  
+:::info
+
+PHP 8 is supported for all Beaver Builder products with some warnings, which are fixed in Beaver Builder 2.5, Beaver Builder Theme 1.7.9, and Beaver Themer 1.4.
+
+:::
+
 ## jQuery
 
 Beaver Builder enqueues the version of jQuery that is bundled with WordPress core and only supports that version. It is quite possible that other versions of jQuery will work, but use them at your own risk.
@@ -54,4 +56,3 @@ We only support the latest browser version when using the Beaver Builder editor.
 
 The Beaver Builder editor can be used on tablets and smartphones to edit layouts. Note the
 functionality is still subject to limitations inherent on smaller screens.
-

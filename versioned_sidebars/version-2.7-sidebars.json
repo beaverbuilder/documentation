@@ -268,7 +268,6 @@
               ]
             },
             "layouts/modules/pricing-table",
-            "layouts/modules/reusable-blocks",
             {
               "type": "category",
               "label": "Search",
@@ -324,6 +323,7 @@
               ]
             },
             "layouts/modules/woocommerce",
+            "layouts/modules/wordpress-patterns",
             "layouts/modules/widgets"
           ]
         },
