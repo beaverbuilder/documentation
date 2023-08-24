@@ -115,27 +115,7 @@ module.exports = {
         "user-interface/link-values",
       ],
     },
-    // {
-    //   type: "category",
-    //   label: "Builder Basics",
-    //   link: {
-    //     type: "doc",
-    //     id: "basics/index",
-    //   },
-    //   items: [
-    //     "basics/typography",
-    //     "basics/color-picker",
-    //     "basics/border",
-    //     "basics/inline-editing",
-    //     "basics/undo-redo",
-    //     "basics/custom-code",
-    //     "basics/smooth-scrolling",
-    //     "basics/restore-previous-version",
-    //     "basics/show-hide-page-title",
-    //     "basics/display-only-bb-content",
-    //     "basics/duplicate-layout",
-    //   ],
-    // },
+
     {
       type: "category",
       label: "Layouts",
@@ -535,24 +515,7 @@ module.exports = {
         "management-migration/manually-migrate-a-beaver-builder-site",
       ],
     },
-    // {
-    //   type: "category",
-    //   label: "Advanced",
-    //   link: {
-    //     type: "doc",
-    //     id: "advanced/index",
-    //   },
-    //   items: [
-    //     "advanced/performance",
-    //     "advanced/diy-website-builder-platform",
-    //     "advanced/migration",
-    //     "advanced/convert-content",
-    //     "advanced/smooth-scrolling-tweaks",
-    //     "advanced/custom-image-sizes",
-    //     "advanced/adding-pdf",
-    //     "advanced/css-gradients",
-    //   ],
-    // },
+
     {
       type: "category",
       label: "Troubleshooting",
