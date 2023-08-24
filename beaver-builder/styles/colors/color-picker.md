@@ -6,7 +6,7 @@ sidebar_label: Color Picker
 
 Beaver Builder's visual color picker is based on the [WordPress Iris color
 picker](http://automattic.github.io/Iris/). The color picker includes an
-opacity sliderd, shown in the following screenshot. 
+opacity sliderd, shown in the following screenshot.
 
 ![](/img/the-basics-color-picker-in-bb-1.jpg)
 
@@ -16,13 +16,15 @@ color value change to RGBa settings to reflect the requirement of the alpha
 channel. You can also set your own RGBA values instead
 of hex values for colors.
 
-:::tip **Tips**
-  * To add your own RGBa values, move the right-hand opacity slider until the color field converts to RGBa values, then enter your RGBa value.
-  * If you see only gray values in your color picker, move the saturation slider to the right.  
-![](/img/the-basics-color-picker-in-bb-2.gif)
+:::tip
+
+- To add your own RGBa values, move the right-hand opacity slider until the color field converts to RGBa values, then enter your RGBa value.
+- If you see only gray values in your color picker, move the saturation slider to the right.  
+   ![](/img/the-basics-color-picker-in-bb-2.gif)
+
 :::
 
-:::note **Developer note**
+:::info Developer note
 
 Some legacy sites may have been set up to use
 connections to custom fields containing color settings for row backgrounds for older versions of Beaver Builder in which opacity was set separately in the **Opacity** field. In that situation,
@@ -36,4 +38,5 @@ settings in legacy sites, you can try implementing [this code to restore the leg
 Moving forward, if you want to use custom fields to store color settings in
 sites built with Beaver Builder, use RGBa values to encode opacity in the
 alpha channel.
+
 :::

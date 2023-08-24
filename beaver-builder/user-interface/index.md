@@ -15,20 +15,15 @@ This article contains both video and written instructions for navigating the Bea
 
 When you [launch Beaver Builder](getting-started/bb-editor-basics/launch-builder.md) on a page or post for editing you'll see the Beaver Builder user interface (UI) which consists of four main components. These are the Top Bar, the Content Panel, the Tools Menu, and the Settings Window. All four components are shown in the image below.
 
-![Beaver Builder user interface](/img/beaver-builder/user-interface--index--1.jpg)
-
-The following numbers correspond to the screenshot above.
-
 1. [Top Bar](top-bar.md)
 2. [Tools Menu](tools-menu.md)
 3. [Content Panel](content-panel.md)
 4. [Settings Window](settings-window.md)
 
-## In this section
+![Beaver Builder user interface](/img/beaver-builder/user-interface--index--1.jpg)
 
-```mdx-code-block
+## In this Section:
+
 import DocCardList from '@theme/DocCardList';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
-<DocCardList items={useCurrentSidebarCategory().items}/>
-```
+<DocCardList />

@@ -57,13 +57,25 @@ The Reactivate option allows previously deactivated domains to once again receiv
 
 ## Remove a Domain
 
-Removing a domain prevents the site from receiving remote updates from our server. However, the existing version of Beaver Builder will still operate normally.
+The Remove option provides the ability to delete a domain from the Domain Manager.
 
-### Restoring a Removed Domain
+:::warning Warning
 
-To reinstate a domain license, follow these steps:
+The Remove option **does not** result in the removal of the license key from the website. Beaver Builder does not possess the functionality to remotely delete license keys from websites.
 
-1. Visit the **WordPress Admin Dashboard** of the website whose domain license you want to restore.
+If the license key remains active and you choose to proceed with the Remove feature, the specific domain will be reintegrated into the Domain Manager when it performs its subsequent check for Beaver Builder updates.
+
+:::
+
+:::tip
+
+In scenarios where you intend to prevent former clients from utilizing your license key to update their website(s), the recommended course of action involves deleting your license key from the website and then utilizing the Remove option. If you lack access to the website of a former client, the [Deactivate](#deactivate-a-domain) option is more suitable.
+
+:::
+
+## Restore Removed Domain
+
+1. Visit the **WordPress Admin Dashboard** of the website whose domain you want to restore.
 2. Go to **Settings > Beaver Builder > License**.
 3. Enter or paste your license key and click the **Save License Key** button.
 4. Return to the Domain Manager, and the domain should be listed again.

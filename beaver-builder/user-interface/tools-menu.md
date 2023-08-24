@@ -30,11 +30,12 @@ Saves the layout on the current page as a template
 Copies the entire page and all metadata from the back end, including Yoast SEO data. Creates and opens a new page or post with "copy" in the title.
 
 :::warning
+
 Do not use duplicator plugins to duplicate Beaver Builder layouts.
+
 :::
 
 To learn more about duplicating layouts, visit the [Duplicate Layout](getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md) article.
-
 
 ## Preview Layout
 
@@ -56,8 +57,8 @@ Display the previously published revisions available to revert to. The number of
 
 See the [Restore Previous Version](advanced-builder-techniques/restore-a-previous-version.md) for more information.
 
-:::tip 
-Only published pages and posts count as revisions. Saved drafts of pages and posts are not available as revisions. 
+:::tip
+Only published pages and posts count as revisions. Saved drafts of pages and posts are not available as revisions.
 :::
 
 ## History
@@ -90,16 +91,16 @@ Choosing this option opens a submenu with shortcuts to get to the following popu
 
 ![WordPress Admin Shortcut](/img/beaver-builder/user-interface--tools-menu--5.jpg)
 
-* **Edit page**  
-  Opens the WordPress editing page for the page you're currently editing in Beaver Builder.  For example, you could change the title, add a featured image, or enter values for custom properties. 
+- **Edit page**  
+  Opens the WordPress editing page for the page you're currently editing in Beaver Builder. For example, you could change the title, add a featured image, or enter values for custom properties.
 
-* **Dashboard**  
-  An easy way to get to your WordPress admin dashboard to do other things so you can easily return to your Beaver Builder layout. 
+- **Dashboard**  
+  An easy way to get to your WordPress admin dashboard to do other things so you can easily return to your Beaver Builder layout.
 
-* **Manage templates**  
+- **Manage templates**  
   Opens the list of Beaver Builder layout templates you've saved at **Beaver Builder > Templates**. For example, you could make changes to a saved template, then go to your previous browser tab to apply it to your Beaver Builder layout.
 
-* **Customize theme**  
+- **Customize theme**  
   Opens the WordPress Customizer at **Appearance > Customize**.
 
 ## Help
@@ -117,46 +118,50 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 <Tabs>
 <TabItem value="macos" label="macOS" attributes={{className: styles.macos}} default>
 
-| Action                                    | Keyboard Shortcut                                        |
-| ------------------------------------------|----------------------------------------------------------|
-| Open [Modules Tab](content-panel.md#module-tab-groups) | <kbd>J</kbd>                                |
-| Open [Rows Tab](content-panel.md#row-tab-groups)       | <kbd>K</kbd>                                |
-| Open [Templates Tab](content-panel.md#template-tab-groups)  | <kbd>L</kbd>                           |
-| Open [Saved Tab](content-panel.md#saved-tab-groups) | <kbd>;</kbd>                                   |
-| Save New Template                         | <kbd>⌘ command</kbd> + <kbd>J</kbd>                      |
-| Toggle [Preview Mode](#preview-layout)    | <kbd>P</kbd>                                             |
-| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                |
-| Open [Global Settings](global-settings.md) | <kbd>⌘ command</kbd> + <kbd>U</kbd>      |
-| Open [Layout Settings](layout-css-js.md) | <kbd>⌘ command</kbd> + <kbd>Y</kbd>        |
-| Display Module Search                     | <kbd>⌘ command</kbd> + <kbd>I</kbd>                      |
-| Save Layout                               | <kbd>⌘ command</kbd> + <kbd>S</kbd>                      |
-| Publish changes without leaving builder   | <kbd>⌘ command</kbd> + <kbd>P</kbd>                      |
-| [Undo](getting-started/bb-editor-basics/undo-redo.md)               | <kbd>⌘ command</kbd> + <kbd>Z</kbd>                      |
-| [Redo](getting-started/bb-editor-basics/undo-redo.md)               | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
-| Toggle [Outline Panel](outline-panel.md) | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>          |
-| Toggle Outline Panel Tree                 | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                        |
+| Action                                                                | Keyboard Shortcut                                        |
+| --------------------------------------------------------------------- | -------------------------------------------------------- |
+| Open [Modules Tab](content-panel.md#module-tab-groups)                | <kbd>J</kbd>                                             |
+| Open [Rows Tab](content-panel.md#row-tab-groups)                      | <kbd>K</kbd>                                             |
+| Open [Templates Tab](content-panel.md#template-tab-groups)            | <kbd>L</kbd>                                             |
+| Open [Saved Tab](content-panel.md#saved-tab-groups)                   | <kbd>;</kbd>                                             |
+| Save New Template                                                     | <kbd>⌘ command</kbd> + <kbd>J</kbd>                      |
+| Toggle [Preview Mode](#preview-layout)                                | <kbd>P</kbd>                                             |
+| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                             |
+| Open [Global Settings](global-settings.md)                            | <kbd>⌘ command</kbd> + <kbd>U</kbd>                      |
+| Open [Layout Settings](layout-css-js.md)                              | <kbd>⌘ command</kbd> + <kbd>Y</kbd>                      |
+| Display Module Search                                                 | <kbd>⌘ command</kbd> + <kbd>I</kbd>                      |
+| Save Layout                                                           | <kbd>⌘ command</kbd> + <kbd>S</kbd>                      |
+| Publish changes without leaving builder                               | <kbd>⌘ command</kbd> + <kbd>P</kbd>                      |
+| Dismiss Active Panel                                                  | <kbd>Esc</kbd>                                           |
+| [Undo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>⌘ command</kbd> + <kbd>Z</kbd>                      |
+| [Redo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
+| Toggle [Outline Panel](outline-panel.md)                              | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                        |
+| Toggle Outline Panel Tree                                             | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                        |
+| Open [Global Style](global-styles.md) Settings                        | <kbd>⌘ command</kbd> + <kbd>G</kbd>                      |
 
 </TabItem>
 <TabItem value="windows" label="Windows" attributes={{className: styles.windows}}>
 
-| Keyboard Shortcut                         | Function                                                 |
-| ------------------------------------------|----------------------------------------------------------|
-| Open [Modules Tab](content-panel.md#module-tab-groups) | <kbd>J</kbd>                                |
-| Open [Rows Tab](content-panel.md#row-tab-groups) | <kbd>K</kbd>                                      |
-| Open [Templates Tab](content-panel.md#template-tab-groups) | <kbd>L</kbd>                            |
-| Open [Saved Tab](content-panel.md#saved-tab-groups) | <kbd>;</kbd>                                   |
-| Save New Template                         | <kbd>Ctrl</kbd> + <kbd>J</kbd>                           |
-| Toggle [Preview Mode](#preview-layout)    | <kbd>P</kbd>                                             |
-| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                |
-| Open [Global Settings](global-settings.md)| <kbd>Ctrl</kbd> + <kbd>U</kbd>                           |
-| Open [Layout Settings](layout-css-js.md)  | <kbd>Ctrl</kbd> + <kbd>Y</kbd>                           |
-| Display Module Search                     | <kbd>Ctrl</kbd> + <kbd>I</kbd>                           |
-| Save Layout                               | <kbd>Ctrl</kbd> + <kbd>S</kbd>                           |
-| Publish changes without leaving builder   | <kbd>Ctrl</kbd> + <kbd>P</kbd>                           |
-| [Undo](getting-started/bb-editor-basics/undo-redo.md) | <kbd>Ctrl</kbd> + <kbd>Z</kbd>               |
-| [Redo](getting-started/bb-editor-basics/undo-redo.md) | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
-| Toggle [Outline Panel](outline-panel.md)  | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                        |
-| Toggle Outline Panel Tree                 | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                        |
+| Keyboard Shortcut                                                     | Function                                            |
+| --------------------------------------------------------------------- | --------------------------------------------------- |
+| Open [Modules Tab](content-panel.md#module-tab-groups)                | <kbd>J</kbd>                                        |
+| Open [Rows Tab](content-panel.md#row-tab-groups)                      | <kbd>K</kbd>                                        |
+| Open [Templates Tab](content-panel.md#template-tab-groups)            | <kbd>L</kbd>                                        |
+| Open [Saved Tab](content-panel.md#saved-tab-groups)                   | <kbd>;</kbd>                                        |
+| Save New Template                                                     | <kbd>Ctrl</kbd> + <kbd>J</kbd>                      |
+| Toggle [Preview Mode](#preview-layout)                                | <kbd>P</kbd>                                        |
+| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                        |
+| Open [Global Settings](global-settings.md)                            | <kbd>Ctrl</kbd> + <kbd>U</kbd>                      |
+| Open [Layout Settings](layout-css-js.md)                              | <kbd>Ctrl</kbd> + <kbd>Y</kbd>                      |
+| Display Module Search                                                 | <kbd>Ctrl</kbd> + <kbd>I</kbd>                      |
+| Save Layout                                                           | <kbd>Ctrl</kbd> + <kbd>S</kbd>                      |
+| Publish changes without leaving builder                               | <kbd>Ctrl</kbd> + <kbd>P</kbd>                      |
+| Dismiss Active Panel                                                  | <kbd>Esc</kbd>                                      |
+| [Undo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>Ctrl</kbd> + <kbd>Z</kbd>                      |
+| [Redo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
+| Toggle [Outline Panel](outline-panel.md)                              | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                   |
+| Toggle Outline Panel Tree                                             | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                   |
+| Open [Global Style](global-styles.md) Settings                        | <kbd>⇧ Shift</kbd> + <kbd>G</kbd>                   |
 
 </TabItem>
 </Tabs>
