@@ -58,8 +58,8 @@ The following are the different module subgroups available.
 - **ACF Blocks**  
   If you have the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin installed, any ACF blocks you create will appear in the ACF Blocks group.
 
-- **Reusable Blocks**  
-  Any [WordPress reusable blocks](https://wordpress.org/support/article/reusable-blocks/) created will appear in the Reuable Blocks group.
+- **WordPress Patterns** (Reusable Blocks)  
+  Any [WordPress Patterns](https://wordpress.org/support/article/reusable-blocks/) (Reusable Blocks) created will appear in the WordPress Patterns group.
 
 - **Themer Modules**  
   The **Themer Modules** subgroup displays a list of all Beaver Themer modules that are available when using the builder on a Beaver Themer layout.
