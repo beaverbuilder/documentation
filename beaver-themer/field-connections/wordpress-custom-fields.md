@@ -59,8 +59,44 @@ A WordPress custom field can be assigned to a row, column, or module option usin
 
 ## WordPress Custom Field Shortcode
 
-You also have the option to display WordPress custom fields within your layouts using the Field Connection shortcode. This can be accomplished by choosing **Post Custom Field** and then inputting the field name (key).
+You also have the option to display WordPress custom fields within your layouts using the Field Connection shortcode. This can be accomplished by choosing **Post Custom Field** from the [Field Connection Menu](getting-started.md#field-connection-menu) and then inputting the field name (key).
 
 ```markup
 [wpbb post:custom_field key='FIELD_NAME']
 ```
+
+### Conditionals & Expressions Support
+
+WordPress custom fields also have support for [conditionals](conditionals.md) and [expressions](expressions.md).
+
+#### Conditionals
+
+The following code provides a simple example of the syntax used for applying conditionals with your WordPress custom field connection shortcodes.
+
+```html
+[wpbb-if post:custom_field key='FIELD_NAME']
+
+  <p>Show this if TRUE.</p>
+
+[wpbb-else]
+
+  <p>Show this if FALSE.</p>
+
+[/wpbb-if]
+```
+
+Check out the [Conditional](conditionals.md) article to delve deeper into understanding how conditionals work. Also, take a look at the [Conditional Examples](examples/conditional.md) article for more instances that showcase how conditionals can be applied.
+
+#### Expressions
+
+The following code provides a simple example of the syntax used for applying expressions with your WordPress custom field connection shortcodes.
+
+```html
+[wpbb-if post:custom_field key='FIELD_NAME' exp='equal' value='Beaver Builder']
+
+  <p>This content will only display if the field's value is Beaver Builder.</p>
+
+[/wpbb-if]
+```
+
+Check out the [Expressions](expressions.md) article to delve deeper into understanding how expressions work. Also, take a look at the [Expression Examples](examples/expressions.md) article for more instances that showcase how expressions can be applied.

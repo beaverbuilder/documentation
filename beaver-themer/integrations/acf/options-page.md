@@ -15,7 +15,7 @@ See the [Advanced Custom Fields Options Pages](https://www.advancedcustomfields.
 
 ## Output Data
 
-Once you've created your Options Page(s), added your custom fields, and assigned them with your Options Page(s), you can display the data stored in those fields using two methods. One involves utilizing a field connection shortcode within an HTML module, while the other requires connecting or inserting the field connection into a row, column, or module option.
+Once you've created your Options Page(s), added your custom fields, and assigned them to your Options Page(s), you can display the data stored in those fields using two methods. One involves utilizing a field connection shortcode within an HTML module, while the other requires connecting or inserting the field connection into a row, column, or module option.
 
 ### Field Connection Shortcode
 

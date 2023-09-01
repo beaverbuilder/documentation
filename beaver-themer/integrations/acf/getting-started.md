@@ -28,39 +28,38 @@ When selecting options from the Field Connection Panel List for Advanced Custom 
 
 For example, if you create an Image field and assign it to a Post Type using the ACF location rule, then you should choose the ACF Post Field option. Similarly, if you apply a field to an archive or taxonomy, you should select the ACF Archive Field option.
 
-* **ACF Archive Field**  
-The **ACF Archive Field** option pulls data from ACF fields whose Location rule is set to display in Taxonomy edit screens such as categories, tags or custom taxonomy archives.
+- **ACF Archive Field**  
+  The **ACF Archive Field** option pulls data from ACF fields whose Location rule is set to display in Taxonomy edit screens such as categories, tags or custom taxonomy archives.
 
-* **ACF Archive Field - URL**  
-The **ACF Archive Field URL** option allows you to pull the URL from your field. For example, the URL from an Image field used on an archive such as a WordPress post category.
+- **ACF Archive Field - URL**  
+  The **ACF Archive Field URL** option allows you to pull the URL from your field. For example, the URL from an Image field used on an archive such as a WordPress post category.
 
-* **ACF Post Field**  
-The **ACF Post Field** option pulls data from ACF fields whose Location rule is set to display in Post Type edit screens such as pages, posts or custom post types.
+- **ACF Post Field**  
+  The **ACF Post Field** option pulls data from ACF fields whose Location rule is set to display in Post Type edit screens such as pages, posts or custom post types.
 
-* **ACF Post Field URL**  
-The **ACF Post Field URL** option allows you to pull the URL from your field. For example, the URL from an Image field used on a post type such as a WordPress page or post.
+- **ACF Post Field URL**  
+  The **ACF Post Field URL** option allows you to pull the URL from your field. For example, the URL from an Image field used on a post type such as a WordPress page or post.
 
-* **ACF Post Author Field**  
-The **ACF Post Author Field** option pulls data from ACF fields whose Location rule is set to **User Form**. These fields appear on the user profile edit screen (**WordPress Admin Dashboard > Users > Profile**) and can be used to display the data for the author of your page, post or custom post type.
+- **ACF Post Author Field**  
+  The **ACF Post Author Field** option pulls data from ACF fields whose Location rule is set to **User Form**. These fields appear on the user profile edit screen (**WordPress Admin Dashboard > Users > Profile**) and can be used to display the data for the author of your page, post or custom post type.
 
-* **ACF Post Author Field URL**  
-The **ACF Author Field URL** option allows you to pull the URL from your field for the author of the page, post or custom post type. For example, the URL from an Image field used on a user profile.
+- **ACF Post Author Field URL**  
+  The **ACF Author Field URL** option allows you to pull the URL from your field for the author of the page, post or custom post type. For example, the URL from an Image field used on a user profile.
 
-* **ACF Options Field**  
-The **ACF Options Field** option pulls data from ACF fields whose Location rule is set to [Options Page](options-page.md).
+- **ACF Options Field**  
+  The **ACF Options Field** option pulls data from ACF fields whose Location rule is set to [Options Page](options-page.md).
 
-* **ACF Options Field URL**  
-The **ACF Options Field URL** option allows you to pull the URL from your field. For example, the URL from an Image field used on the ACF options page.
+- **ACF Options Field URL**  
+  The **ACF Options Field URL** option allows you to pull the URL from your field. For example, the URL from an Image field used on the ACF options page.
 
-* **ACF User Field**  
-The **ACF User Field** option pulls data from ACF fields whose Location rule is set to **User Form**. These fields appear on the user profile edit screen (**WordPress Admin Dashboard > Users > Profile**) and can be used to display the data for the logged in user.
+- **ACF User Field**  
+  The **ACF User Field** option pulls data from ACF fields whose Location rule is set to **User Form**. These fields appear on the user profile edit screen (**WordPress Admin Dashboard > Users > Profile**) and can be used to display the data for the logged in user.
 
-* **ACF User Field URL**  
-The **ACF User Field URL** option allows you to pull the URL from your field for the logged in user. For example, the URL from an Image field used on a user profile.
+- **ACF User Field URL**  
+  The **ACF User Field URL** option allows you to pull the URL from your field for the logged in user. For example, the URL from an Image field used on a user profile.
 
-* **ACF Relational**  
-The **ACF Relational** option pulls data from ACF relational field types such as [Page Link](field-types/page-link.md), [Post Object](field-types/post-object.md), [Taxonomy](field-types/taxonomy.md) and [User](field-types/user.md), regardless of their location.  
-  
+- **ACF Relational**  
+  The **ACF Relational** option pulls data from ACF relational field types such as [Page Link](field-types/page-link.md), [Post Object](field-types/post-object.md), [Taxonomy](field-types/taxonomy.md) and [User](field-types/user.md), regardless of their location.
   For example, if you create a [Taxonomy field](field-types/taxonomy.md) with a location rule of **Post Type > Is equal to > Post** you would use **ACF Relational** instead of **ACF Post Field** to output the field's data.
 
 ## ACF Options
@@ -88,7 +87,6 @@ Movie Poster (movie_poster) [image]
 ```
 
 Selecting a field from this list automatically populates the Field type and Field name settings.
-
 
 ## Data Types
 
@@ -123,3 +121,47 @@ When using the ACF Color Picker field with a Beaver Builder text option, it will
   Lorem ipsum...
 </p>
 ```
+
+## ACF Field Connection Shortcodes
+
+Most of the [ACF field types](field-types/index.md) can be used with field connection shortcodes, allowing you to display your field data in various areas that can accommodate text, like the HTML module and the custom layout option within the Post module. The syntax of the ACF field connection shortcode can vary depending on the particular field type and the location in which you are using it.
+
+```markup
+[wpbb post:acf type='text' name='ACF_FIELD_NAME']
+```
+
+### Conditionals & Expressions Support
+
+The ACF field connection shortcode also has support for [conditionals](../../field-connections/conditionals.md) and [expressions](../../field-connections/expressions.md).
+
+#### Conditionals
+
+The following code provides a simple example of the syntax used for applying conditionals with your ACF field connection shortcodes.
+
+```html
+[wpbb-if post:acf type='text' name='ACF_FIELD_NAME']
+
+  <p>Show this if TRUE.</p>
+
+[wpbb-else]
+
+  <p>Show this if FALSE.</p>
+
+[/wpbb-if]
+```
+
+Check out the [Conditional](../../field-connections/conditionals.md) article to delve deeper into understanding how conditionals work. Also, take a look at the [Conditional Examples](../../field-connections/examples/conditional.md) article for more instances that showcase how conditionals can be applied.
+
+#### Expressions
+
+The following code provides a simple example of the syntax used for applying expressions with your ACF field connection shortcodes.
+
+```html
+[wpbb-if post:acf type='text' name='ACF_FIELD_NAME' exp='equal' value='Beaver Builder']
+
+  <p>This content will only display if the field's value is Beaver Builder.</p>
+
+[/wpbb-if]
+```
+
+Check out the [Expressions](../../field-connections/expressions.md) article to delve deeper into understanding how expressions work. Also, take a look at the [Expression Examples](../../field-connections/examples/expressions.md) article for more instances that showcase how expressions can be applied.

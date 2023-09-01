@@ -2,23 +2,31 @@
 id: wordpress-data
 title: WordPress Data
 sidebar_label: WordPress Data
-description: The article covers all field connections shortcodes available in Beaver Themer for standard WordPress fields.
 ---
 
-The article covers all field connections shortcodes available in Beaver Themer for standard WordPress fields.
-
-Standard WordPress fields are what make up pages and posts. This includes the title of your page or post, page or post content, publishing date, archive title and so forth. 
+In this article, you'll find a comprehensive list of available WordPress data field connection shortcodes. These shortcodes enable you to retrieve various types of data, including the title of your page or post, page or post content, publishing date, archive title, and more.
 
 :::info
-Field Connection shortcodes for our third-party integrations can be found using the links below.
+
+You can locate Field Connection shortcodes for our third-party integrations by following the links provided below.
 
 * [Advanced Custom Fields (ACF)](../integrations/acf/index.md)
 * [BigCommerce](../integrations/bigcommerce/field-connections.md)
 * [Easy Digital Downloads](../integrations/easy-digital-downloads/field-connections.md)
 * [The Events Calendar](../integrations/tec/field-connections.md)
 * [WooCommerce](../integrations/woocommerce/field-connections.md)
+
 :::
 
+:::tip
+WordPress data field connection shortcodes also support conditionals and expressions. Learn more by visiting the following links:
+
+* [Conditionals](conditionals.md)
+* [Expressions](expressions.md)
+* [Conditional Examples](examples/conditional.md)
+* [Expression Examples](examples/expressions.md)
+
+:::
 
 ## Archive
 
