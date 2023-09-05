@@ -86,7 +86,7 @@ As a license holder of our products, you cannot distribute, freely give away, or
 
 ## What's your refund policy?
 
-Although we don’t think you’ll ever want a refund, we gladly refund your **first** purchase if it’s requested within 30 days. No refunds will be given after 30 days from the initial purchase or for repeat purchases under any circumstances.
+Although we don’t think you’ll ever want a refund, we'll gladly refund your **first** purchase if it’s requested within 30 days. No refunds will be given after 30 days from the initial purchase or for repeat purchases under any circumstances.
 
 For complete refund policy, [please visit this link](https://www.wpbeaverbuilder.com/terms-and-conditions/).
 
