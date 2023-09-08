@@ -99,11 +99,11 @@ from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connect
 to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/third-party"
 status = 301
 force = true
-
-
-
-
-
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install"
+status = 301
+force = true
 
 # Redirect Contact Form module doc link
 [[redirects]]
