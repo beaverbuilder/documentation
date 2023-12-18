@@ -57,7 +57,7 @@ An object that contains the module settings you defined when registering your mo
 }
 ```
 ## Auto CSS
-Auto-css is a system for using a module’s form preview settings to generate the server-side CSS rules for the module rather than needing to create a separate frontend.css.php file. Fields that use preview ’type' ⇒ 'css’ can opt into auto-css by setting the preview configuration's ’auto' ⇒ true. Auto-css works for most simple css scenarios and some compound fields.
+Auto-css is a system for using a module’s form preview settings to generate the server-side CSS rules for the module rather than needing to create a separate frontend.css.php file. Fields that use preview ’type' ⇒ 'css’ can opt into auto-css by setting the preview configuration's ’auto' ⇒ true. Auto-css works for most simple css scenarios and the following compound fields: `border, dimension`
 ```
 'preview' => [
   'type' => 'css',
