@@ -56,3 +56,12 @@ An object that contains the module settings you defined when registering your mo
   background-color: #<?php echo $settings->bg_color; ?>;
 }
 ```
+## Auto CSS
+Auto-css is a system for using a module’s form preview settings to generate the server-side CSS rules for the module rather than needing to create a separate frontend.css.php file. Fields that use preview ’type' ⇒ 'css’ can opt into auto-css by setting the preview configuration's ’auto' ⇒ true. Auto-css works for most simple css scenarios and some compound fields.
+```
+'preview' => [
+  'type' => 'css',
+  'auto' => true,
+  'property' => 'display'
+]
+```
