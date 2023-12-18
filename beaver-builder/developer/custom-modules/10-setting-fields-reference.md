@@ -82,17 +82,6 @@ The button group field displays a group of buttons for selecting a single value 
 
 ![Button Group field](/img/developer/custom-modules--10-settings-fields-reference--2.jpg)
 
-**Config Keys supported**
-
-See Box module layout field as an example.
-
-• icons - takes an array matching the options keys for icon HTML
-
-• align_icons - horizontal by default, but vertical sets icon above label
-
-• appearance - normal by default, but ‘padded’ gives more space around the buttons
-
-• fill_space - causes the button group to take up the entire horizontal area
 
 **Return value**  
 The selected string value.
@@ -109,6 +98,80 @@ The selected string value.
 	),
 ),
 ```
+
+#### Align Icons
+Horizontal by default, but vertical sets icon above label
+
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'default' => 'two',
+	'align_icons' => 'vertical',
+	'options' => array(
+		'one'    => 'One',
+		'two'    => 'Two',
+		'three'  => 'Three',
+	),
+),
+```
+
+#### Custom Icons
+Takes an array matching the options keys for icon HTML.
+
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'options'     => [
+							'flex'    => __( 'Flex', 'fl-builder' ),
+							'grid'    => __( 'Grid', 'fl-builder' ),
+							'z_stack' => __( 'Layers', 'fl-builder' ),
+						],
+	'icons'       => [
+							'flex'    => '<svg width="24" height="10"><use href="#fl-h-stack-icon" /></svg>',
+							'z_stack' => '<svg width="24" height="10"><use href="#fl-z-stack-icon" /></svg>',
+							'grid'    => '<svg width="26" height="10"><use href="#fl-grid-display-icon" /></svg>',
+						],
+
+),
+```
+
+#### More Padding
+Normal by default, but ‘padded’ gives more space around the buttons
+
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'default' => 'two',
+	'appearance' => 'padded',
+	'options' => array(
+		'one'    => 'One',
+		'two'    => 'Two',
+		'three'  => 'Three',
+	),
+),
+```
+
+
+#### Fill Space
+False by Default.  True causes the button group to take up the entire horizontal area
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'default' => 'two',
+	'fill_space' => true,
+	'options' => array(
+		'one'    => 'One',
+		'two'    => 'Two',
+		'three'  => 'Three',
+	),
+),
+```
+
+
 
 ### Code field
 
