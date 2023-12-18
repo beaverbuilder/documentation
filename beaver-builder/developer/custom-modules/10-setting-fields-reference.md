@@ -82,6 +82,18 @@ The button group field displays a group of buttons for selecting a single value 
 
 ![Button Group field](/img/developer/custom-modules--10-settings-fields-reference--2.jpg)
 
+**Config Keys supported**
+
+See Box module layout field as an example.
+
+• icons - takes an array matching the options keys for icon HTML
+
+• align_icons - horizontal by default, but vertical sets icon above label
+
+• appearance - normal by default, but ‘padded’ gives more space around the buttons
+
+• fill_space - causes the button group to take up the entire horizontal area
+
 **Return value**  
 The selected string value.
 
