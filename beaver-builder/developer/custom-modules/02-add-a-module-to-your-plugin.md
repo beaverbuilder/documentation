@@ -49,18 +49,6 @@ class MyModuleClass extends FLBuilderModule {
 }
 ```
 
-### Include Wrapper parameter
-This determines whether the normal Beaver Builder wrapper divs are included when rendering.  This option defaults to false.  If changed to true, it will reduce the output of div wrappers in the DOM.  Although the default is false to preserve backwards compatibility and functionality, it is recommended that new modules be created with the `include_wrapper` parameter set to true.
-
-
-### Accepts parameter
-
-:::warning
-This is an experimental parameter created for the Box module.  It has not been tested with other modules.  Please use at your own risk.
-:::
-
-This parameter determines whether or not modules can be nested inside the module.  It defaults to an empty string. You include an array of module slugs that you want to be able to be nested inside your module or you can set it to `all` and all modules will be allowed to be nested.
-
 Once you've configured your module class, you'll need to include it within your plugin. To do so, open your main plugin file and include it as shown in the following example.
 
 ```php
