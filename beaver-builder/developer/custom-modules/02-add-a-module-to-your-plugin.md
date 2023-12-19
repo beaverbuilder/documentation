@@ -43,7 +43,7 @@ class MyModuleClass extends FLBuilderModule {
       'editor_export'   => true, // Defaults to true and can be omitted.
       'enabled'         => true, // Defaults to true and can be omitted.
       'partial_refresh' => false, // Defaults to false and can be omitted.
-      'include_wrapper' => false, // Default to true but is recommended to be set to true
+      'include_wrapper' => false, // Defaults to true but is recommended to be set to false
     ));
   }
 }
