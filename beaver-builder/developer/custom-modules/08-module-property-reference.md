@@ -70,9 +70,15 @@ If set to false, the module attributes need to be rendered in the frontend.php f
 </div>
 ```
 
+:::info 
+This does not currently work with self-closing tags like `<img />`. A top level element must exist and there must only be one. There cannot be two root elements side by side. 
+:::
+
 ## `$accepts` string or array
 :::caution
 This is experimental.  It was created for the box module and hasn't been tested for other module use. Use at your own risk.
 :::
 
-Accepts an array of module slugs that can be nested inside the module.  Or you can use the string `all` to accept all.  Defaults to an empty string so that no modules can be nested.
+Accepts an array of module slugs that can be nested inside the module.  Or use the string `all` to allow all modules to be nested.  
+
+Defaults to an empty string so that no modules can be nested.
