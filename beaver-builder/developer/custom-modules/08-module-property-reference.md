@@ -58,3 +58,12 @@ Please see the [partial refresh reference](17-partial-refresh-reference.md) befo
 ## `$url` string
 
 The URL path to your module. This should include the trailing slash.
+
+## `include_wrapper` boolean
+This determines whether the normal wrapper divs are included when rendering this module.  Defaults to true for backwards compatibility but is recommended to be set to false.
+
+## `accepts` string or array
+:::caution
+This is experimental.  It was created for the box module and hasn't been tested for other module use. Use at your own risk.
+
+Accepts an array of module slugs that can be nested inside the module.  Or you can use the string `all` to accept all.  Defaults to an empty string so that no modules can be nested.
