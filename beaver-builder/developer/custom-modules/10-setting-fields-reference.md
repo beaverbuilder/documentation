@@ -901,3 +901,41 @@ The attachment id for the selected video.
   'label'         => __( 'Video Field', 'fl-builder' )
 ),
 ```
+
+### Field Modifiers
+
+#### Toggle
+The Toggle array can be used to show or hide other tabs, sections, or fields. If the value selected by the user matches one defined in your toggle array, those tabs, sections and fields will be shown; otherwise, they will be hidden.
+
+The following field types support the toggle array:
+- button group
+- select
+
+```php
+'my_select_field' => array(
+  'type'          => 'select',
+  'label'         => __( 'Select Field', 'fl-builder' ),
+  'default'       => 'option-1',
+  'options'       => array(
+    'option-1'      => __( 'Option 1', 'fl-builder' ),
+    'option-2'      => __( 'Option 2', 'fl-builder' )
+  ),
+  'toggle'        => array(
+    'option-1'      => array(
+      'fields'        => array( 'my_field_1', 'my_field_2' ),
+      'sections'      => array( 'my_section' ),
+      'tabs'          => array( 'my_tab' )
+    ),
+    'option-2'      => array()
+  )
+),
+```
+
+#### Set
+The Set array can be used to set another field's value.
+
+The following field types support the toggle array:
+- button group
+- select
+
+
