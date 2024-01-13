@@ -11,7 +11,7 @@ Registering your Module Alias is done through the `FLBuilder::register_module_al
 
 You can see examples uses of Module Aliases in Beaver Themer and with the Box Module presets in Beaver Builder. 
 
-## Box Module Example
+### Box Module Example
 This creates an alias of the Box Module that to create a module for Horizontal Flex Columns.
 
 ```
@@ -37,7 +37,7 @@ FLBuilder::register_module_alias( 'horizontal-stack', [
 	],
 ] );
 ```
-## Themer Example
+### Themer Example
 This creates a Module alias of the Heading module to create an Archive Title Module without having to write a module from scratch. 
 
 ```
