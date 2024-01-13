@@ -4,9 +4,37 @@ title: '20: Module Aliases'
 sidebar_label: '20: Module Aliases'
 slug: module-aliases
 ---
-Module aliases are a way to create copies of modules with pre-configured settings.  We use them in Beaver Themer and also with the Box Module presets.
+Module aliases are a way to create copies of modules with pre-configured settings without having to completely write a new module from scratch.  
 
+## Registering your Module Alias
+Registering your Module Alias is done through the `FLBuilder::register_module_alias` method call. That method accepts two parameters: the name of your module class and an associative array of information for building your settings form with the pre-configured settings.
 
+You can see examples uses of Module Aliases in Beaver Themer and with the Box Module presets.  
+## Box Module Example
+
+```
+FLBuilder::register_module_alias( 'horizontal-stack', [
+	'module'      => 'box',
+	'name'        => __( 'Flex Columns', 'fl-builder' ),
+	'description' => __( 'A simple flex column', 'fl-builder' ),
+	'category'    => __( 'Box', 'fl-builder' ),
+	'icon'        => 'layout.svg',
+	'settings'    => [
+		'layout'         => 'flex',
+		'flex_direction' => 'row',
+		'child_flex'     => [ 'grow' => '1' ],
+		'margin_top'     => '0',
+		'margin_right'   => '0',
+		'margin_bottom'  => '0',
+		'margin_left'    => '0',
+	],
+	'template'    => [
+		[ 'box', [] ],
+		[ 'box', [] ],
+		[ 'box', [] ],
+	],
+] );
+```
 ## Themer Example
 Here's an example from Themer that creates a Module alias of the Heading module to create an Archive Title Module without having to write a module from scratch. 
 
