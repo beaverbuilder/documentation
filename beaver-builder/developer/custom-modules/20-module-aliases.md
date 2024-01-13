@@ -4,12 +4,12 @@ title: '20: Module Aliases'
 sidebar_label: '20: Module Aliases'
 slug: module-aliases
 ---
-Module aliases are a way to create copies of modules with pre-configured settings without having to completely write a new module from scratch.  
+Module aliases are a way to create copies of modules with pre-configured settings without having to completely write a new module from scratch.   While the module aliases settings are pre-configuring to start, the settings can still be changed by the user. 
 
 ## Registering your Module Alias
 Registering your Module Alias is done through the `FLBuilder::register_module_alias` method call. That method accepts two parameters: the name of your module class and an associative array of information for building your settings form with the pre-configured settings.
 
-You can see examples uses of Module Aliases in Beaver Themer and with the Box Module presets in Beaver Builder. 
+You can see examples uses of Module Aliases in Beaver Themer and with the Box Module preset options in Beaver Builder.  
 
 ### Box Module Example
 This creates an alias of the Box Module that to create a module for Horizontal Flex Columns.
@@ -38,7 +38,7 @@ FLBuilder::register_module_alias( 'horizontal-stack', [
 ] );
 ```
 ### Themer Example
-This creates a Module alias of the Heading module to create an Archive Title Module without having to write a module from scratch. 
+This creates a Module alias of the Heading module to create an Archive Title Module by pre-configuring the Heading field to be connected to the Archive title field connection. 
 
 ```
 FLBuilder::register_module_alias( 'fl-archive-title', array(
@@ -60,4 +60,4 @@ FLBuilder::register_module_alias( 'fl-archive-title', array(
 	),
 ) );
 ```
-This uses the Heading module, to prepopulate the Heading field to be connected to the Archive title.
+
