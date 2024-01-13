@@ -13,7 +13,7 @@ You can see examples uses of Module Aliases in Beaver Themer and with the Box Mo
 ## Examples
 
 ### Box Module Example
-This creates an alias of the Box Module that to create a module for Horizontal Flex Columns.
+This creates an alias of the Box Module that then is a module for Horizontal Flex Columns.
 
 ```php
 FLBuilder::register_module_alias( 'horizontal-stack', [
