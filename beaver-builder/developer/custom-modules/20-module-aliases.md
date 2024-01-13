@@ -15,7 +15,7 @@ You can see examples uses of Module Aliases in Beaver Themer and with the Box Mo
 ### Box Module Example
 This creates an alias of the Box Module that to create a module for Horizontal Flex Columns.
 
-```
+```php
 FLBuilder::register_module_alias( 'horizontal-stack', [
 	'module'      => 'box',
 	'name'        => __( 'Flex Columns', 'fl-builder' ),
@@ -41,7 +41,7 @@ FLBuilder::register_module_alias( 'horizontal-stack', [
 ### Themer Example
 This creates a Module alias of the Heading module to create an Archive Title Module by pre-configuring the Heading field to be connected to the Archive title field connection. 
 
-```
+```php
 FLBuilder::register_module_alias( 'fl-archive-title', array(
 	'module'      => 'heading',
 	'name'        => __( 'Archive Title', 'bb-theme-builder' ),
