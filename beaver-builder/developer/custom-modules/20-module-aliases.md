@@ -10,6 +10,7 @@ Module aliases are a way to create copies of modules with pre-configured setting
 Registering your Module Alias is done through the `FLBuilder::register_module_alias` method call. That method accepts two parameters: the name of your module class and an associative array of information for building your settings form with the pre-configured settings.
 
 You can see examples uses of Module Aliases in Beaver Themer and with the Box Module preset options in Beaver Builder.  
+## Examples
 
 ### Box Module Example
 This creates an alias of the Box Module that to create a module for Horizontal Flex Columns.
