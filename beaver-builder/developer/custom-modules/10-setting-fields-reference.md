@@ -934,8 +934,25 @@ The following field types support the toggle array:
 #### Set
 The Set array can be used to set another field's value.
 
-The following field types support the toggle array:
+The following field types support the set array:
 - button group
 - select
 
+```php
+ 'my_set_field'   => array(
+  'type'          => 'select',
+  'label'         => __('Set Field', 'fl-builder'),
+  'default'       => 'option-1',
+  'description'	=> 'Choose Option 2 and see the Set Text get populated',
+  'options'       => array(
+   'option-1'      => __('Option 1', 'fl-builder'),
+   'option-2'      => __('Option 2', 'fl-builder')
+    ),
+  'set' => [
+    'option-2'    => [
+     'set_text'     => 'Hello',
+     ],
+   ],
+),
+```
 
