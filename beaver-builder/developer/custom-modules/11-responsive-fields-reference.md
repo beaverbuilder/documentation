@@ -11,6 +11,7 @@ The following field types support responsive breakpoints:
 
 * [`align`](10-setting-fields-reference.md#align-field)
 * [`border`](10-setting-fields-reference.md#border-field)
+* [`button-group`](10-setting-fields-reference.md#button-group-field)
 * [`dimension`](10-setting-fields-reference.md#dimension-field)
 * [`photo`](10-setting-fields-reference.md#photo-field)
 * [`select`](10-setting-fields-reference.md#select-field)

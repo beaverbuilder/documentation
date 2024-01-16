@@ -648,6 +648,7 @@ module.exports = {
             "developer/custom-modules/17-partial-refresh-reference",
             "developer/custom-modules/18-override-modules",
             "developer/custom-modules/19-localization",
+            "developer/custom-modules/20-module-aliases",
           ],
         },
         "developer/iframe-ui",
