@@ -43,6 +43,7 @@ class MyModuleClass extends FLBuilderModule {
       'editor_export'   => true, // Defaults to true and can be omitted.
       'enabled'         => true, // Defaults to true and can be omitted.
       'partial_refresh' => false, // Defaults to false and can be omitted.
+      'include_wrapper' => false, // Defaults to true but is recommended to be set to false
     ));
   }
 }
@@ -57,5 +58,6 @@ function my_load_module_examples() {
   }
 }
 ```
+
 
 Now that you've added a module to your plugin, it's time to move on to the next step to register it with Beaver Builder and create the settings form.
