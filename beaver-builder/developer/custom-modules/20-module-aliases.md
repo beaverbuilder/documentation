@@ -4,7 +4,7 @@ title: '20: Module Aliases'
 sidebar_label: '20: Module Aliases'
 slug: module-aliases
 ---
-Module aliases are a way to create copies of modules with pre-configured settings without having to completely write a new module from scratch.   While the module aliases settings are pre-configuring when a user drops the module on the page, the settings can still be changed by the user. 
+Module aliases are a way to create copies of modules with pre-configured settings without having to completely write a new module from scratch.   While the module aliases settings are pre-configured when a user drops the module on the page, the settings can still be changed by the user. 
 
 ## Registering your Module Alias
 Registering your Module Alias is done through the `FLBuilder::register_module_alias` method call. That method accepts two parameters: the name of your module class and an associative array of information for building your settings form with the pre-configured settings.
