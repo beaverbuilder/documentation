@@ -16,7 +16,6 @@ module.exports = {
       },
       items: [
         "introduction/faq",
-        "introduction/dev-preview",
         "introduction/about-release",
         "introduction/releases-versioning",
         "introduction/accessibility",
@@ -116,6 +115,31 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
+      label: 'Settings & Tools',
+      link: {
+         type: 'doc',
+         id: 'settings/index',
+      },
+      items: [
+         "settings/welcome",
+         "settings/license",
+         "settings/modules",
+         "settings/post-types",
+         "settings/templates",
+         "settings/user-access",
+         "settings/icons",
+         "settings/branding",
+         "settings/help-button",
+         "settings/tools",
+         "settings/advanced",
+         "settings/import-export-settings",
+         "settings/template-exporter",
+         "settings/export-import",
+         "settings/layouts-menu",
+      ],
+   },
+    {
       type: "category",
       label: "Builder Basics",
       link: {
@@ -144,22 +168,6 @@ module.exports = {
         title: "Layouts",
       },
       items: [
-        {
-          type: "category",
-          label: "The Advanced Tab",
-          link: {
-            type: "doc",
-            id: "layouts/advanced-tab/index",
-          },
-          items: [
-            "layouts/advanced-tab/spacing",
-            "layouts/advanced-tab/visibility",
-            "layouts/advanced-tab/animation",
-            "layouts/advanced-tab/html-element",
-            "layouts/advanced-tab/copy-paste",
-            "layouts/advanced-tab/css-js",
-          ],
-        },
         {
           type: "category",
           label: "Templates",
@@ -262,17 +270,18 @@ module.exports = {
                 id: "layouts/modules/box/index",
               },
               items: [
-                // {
-                //   type: 'category',
-                //   label: 'Settings',
-                //   link: {
-                //     type: 'doc',
-                //     id: 'layouts/modules/box/settings/index',
-                //   },
-                //   items: [
-                //     'layouts/modules/box/settings/container',
-                //   ],
-                // },
+                {
+                  type: 'category',
+                  label: 'Settings',
+                  link: {
+                    type: 'doc',
+                    id: 'layouts/modules/box/settings/index',
+                  },
+                  items: [
+                    'layouts/modules/box/settings/container',
+                    'layouts/modules/box/settings/children',
+                  ],
+                },
               ],
             },
             {
@@ -318,6 +327,7 @@ module.exports = {
               ],
             },
             "layouts/modules/number-counter",
+            "layouts/modules/north-commerce",
             {
               type: "category",
               label: "Photo",
@@ -400,6 +410,22 @@ module.exports = {
         },
         {
           type: "category",
+          label: "The Advanced Tab",
+          link: {
+            type: "doc",
+            id: "layouts/advanced-tab/index",
+          },
+          items: [
+            "layouts/advanced-tab/spacing",
+            "layouts/advanced-tab/visibility",
+            "layouts/advanced-tab/animation",
+            "layouts/advanced-tab/html-element",
+            "layouts/advanced-tab/copy-paste",
+            "layouts/advanced-tab/css-js",
+          ],
+        },
+        {
+          type: "category",
           label: "Responsive Design",
           link: {
             type: "doc",
@@ -428,122 +454,54 @@ module.exports = {
       ],
     },
     {
-      type: "category",
-      label: "Styles",
+      type: 'category',
+      label: 'Shortcode',
       link: {
-        type: "generated-index",
-        title: "Styles",
+         type: 'doc',
+         id: 'shortcode/index',
       },
       items: [
-        {
-          type: "category",
-          label: "Colors",
-          items: [
-            "styles/colors/color-picker",
-            "styles/colors/add-a-color-palette-to-the-beaver-builder-editor",
-          ],
-        },
-        {
-          type: "category",
-          label: "Typography",
-          items: [
-            "styles/typography/typography",
-            "styles/typography/add-latin-extended-capabilities-for-a-google-font",
-          ],
-        },
-        {
-          type: "category",
-          label: "Effects",
-          items: [
-            "styles/effects/animations",
-            "styles/effects/color-gradients-for-row-and-column-backgrounds-and-overlays",
-            "styles/effects/css-gradients",
-            "styles/effects/borders",
-            "styles/effects/radius-shadow",
-            "styles/effects/rounded-corners-on-columns-and-photos",
-          ],
-        },
-        {
-          type: "category",
-          label: "Icons",
-          items: [
-            "styles/icons/enable-disable-or-delete-icon-sets",
-            "styles/icons/enable-font-awesome-pro-icon-sets",
-            "styles/icons/font-awesome-pro-duotone-icons",
-            "styles/icons/add-an-icon-to-a-menu-item",
-            "styles/icons/create-and-import-a-custom-icon-set",
-          ],
-        },
-        "styles/custom-code",
+         "shortcode/syntax",
+         "shortcode/find-id-slug",
+         "shortcode/using-shortcode",
+         "shortcode/using-php-files",
+         "shortcode/using-css",
       ],
-    },
-    {
-      type: "category",
-      label: "Advanced Builder Techniques",
-      link: {
-        type: "generated-index",
-        title: "Advanced Builder Techniques",
-      },
-      items: [
-        "advanced-builder-techniques/css-length-height-units",
-        "advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module",
-        "advanced-builder-techniques/add-a-pdf-file-to-your-layout",
-        "advanced-builder-techniques/smooth-scrolling-links",
-        "advanced-builder-techniques/smooth-scrolling-tweaks-with-code",
-        "advanced-builder-techniques/restore-a-previous-version",
-        "advanced-builder-techniques/keyboard-shortcuts",
-        "advanced-builder-techniques/display-only-custom-layout-templates-in-beaver-builder",
-        "advanced-builder-techniques/disable-inline-editing",
-        "advanced-builder-techniques/disable-columns-in-columns",
-        {
-          type: "category",
-          label: "Shortcodes",
-          items: [
-            "advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts",
-            "advanced-builder-techniques/shortcodes/shortcode-reference",
-            "advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode",
-            "advanced-builder-techniques/shortcodes/use-shortcodes-in-tools-menu-css-or-js",
-            "advanced-builder-techniques/shortcodes/shortcode-performance",
-            "advanced-builder-techniques/shortcodes/shortcodes-dont-display-for-logged-out-users-bbpress",
-            "advanced-builder-techniques/shortcodes/put-thrive-leads-shortcode-into-a-button-module",
-          ],
-        },
-      ],
-    },
+   },
     {
       type: "category",
       label: "Integrations",
       link: {
-        type: "generated-index",
-        title: "Integrations",
-      },
-      items: ["integrations/font-awesome"],
-    },
-    {
-      type: "category",
-      label: "Management/Migration",
-      link: {
-        type: "generated-index",
-        title: "Management & Migration",
+        type: "doc",
+        id: "integrations/index",
       },
       items: [
-        "management-migration/settings-overview",
-        "management-migration/advanced-settings",
-        "management-migration/import-export-settings",
-        "management-migration/limit-page-post-lists-to-bb-layouts",
-        "management-migration/control-which-post-types-can-use-beaver-builder",
-        "management-migration/control-user-access-by-role",
-        "management-migration/disable-wordpress-comments",
-        "management-migration/add-custom-image-sizes",
-        "management-migration/change-wordpress-screen-options",
-        "management-migration/configure-the-beaver-builder-admin-panel-display-options",
-        "management-migration/convert-content-between-wordpress-5-and-beaver-builder",
-        "management-migration/anonymous-usage-data-sent-to-beaver-builder",
-        "management-migration/disable-specific-modules-sitewide",
-        "management-migration/enable-prerelease-updates",
-        "management-migration/manually-migrate-a-beaver-builder-site",
+        "integrations/font-awesome",
+        "integrations/popup-maker",
+        "integrations/query-monitor",
+        "integrations/rankmath",
+        "integrations/woocommerce",
+        "integrations/yoast",
       ],
     },
+    {
+      type: 'category',
+      label: 'Advanced',
+      link: {
+         type: 'doc',
+         id: 'advanced/index',
+      },
+      items: [
+         "advanced/performance",
+         "advanced/diy-website-builder-platform",
+         "advanced/migration",
+         "advanced/convert-content",
+         "advanced/smooth-scrolling-tweaks",
+         "advanced/custom-image-sizes",           
+         "advanced/adding-pdf",
+         "advanced/css-gradients",
+      ],
+   },
 
     {
       type: "category",
@@ -628,20 +586,7 @@ module.exports = {
         },
       ],
     },
-    {
-      type: "category",
-      label: "White Label (Agency)",
-      link: {
-        type: "generated-index",
-        title: "White Label (Agency)",
-      },
-      items: [
-        "white-labeling/white-labeling-beaver-builder",
-        "white-labeling/replace-built-in-layout-templates-with-your-own",
-        "white-labeling/customize-the-help-button",
-        "white-labeling/white-label-the-ajax-crash-message",
-      ],
-    },
+    
     {
       type: "category",
       label: "Developer",
