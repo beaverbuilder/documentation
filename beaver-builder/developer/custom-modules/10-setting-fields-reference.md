@@ -901,6 +901,28 @@ The attachment id for the selected video.
   'label'         => __( 'Video Field', 'fl-builder' )
 ),
 ```
+### Compound Fields
+Compound fields are fields that are made up of more than one field.  The compound fields are:
+- border
+- box shadow
+- dimension
+- link
+- typography
+
+Because they are compound fields, executing certain things, like setting a default, is a little different than a normal field.
+
+#### Examples
+```php
+'default' => array(
+	'style'  => 'solid',
+	'color'  => 'f2f2f2',
+	'width'  => array(
+		'top'    => '1',
+		'bottom' => '1',
+		'left'   => '1',
+		'right'  => '1',
+),
+```
 
 ### Field Modifiers
 
