@@ -280,6 +280,26 @@ Outputs the post's slug. Example: `hello-world`.
 [wpbb post:slug]
 ```
 
+### Post Type
+
+Outputs the post types name, singular name, or slug. Example: `post`.
+
+```markup
+[wpbb post:post_type display='slug']
+```
+
+**Options**
+
+* **Display** - Choices are Slug, Singular Same, Name, or No Posts Found.
+
+:::tip
+
+This field connection comes in handy when you're utilizing a Post module that's set up to showcase various post types and you wish to apply distinct styling to individual elements based on the post type.
+
+See the [Expression Examples](examples/expressions.md#style-elements-based-on-post-type) article for more details.
+
+:::
+
 ### Post Date
 
 See the [PHP date() document](https://secure.php.net/manual/en/function.date.php) for a list of date formats or use the Insert functionality in the Beaver Builder UI to choose from a list of date formats when you insert this field connection.
@@ -363,28 +383,38 @@ Outputs the post's terms assigned to the post type you are editing.
 [wpbb post:terms_list taxonomy='category' html_list='no' display='name' separator=', ' limit= linked='yes']
 ```
 
-* Options
+**Options**
 
-  * **Taxonomy** - Displays the taxonomy terms assigned to the post type your Themer layout applies to.  
-  Examples: For standard posts, the terms are Categories and Tags. For WooCommerce Products, the terms are Product Categories and Product Tags.
+* **Taxonomy** (`taxonomy=''`)  
+Displays the taxonomy terms assigned to the post type your Themer layout applies to.  
+Examples: For standard posts, the terms are Categories and Tags. For WooCommerce Products, the terms are Product Categories and Product Tags.
+
+* **Layout** (`html_list=''`)  
+Choose how the terms are displayed from Separator, Unordered List (`<ul>`), Ordered List (`<ol>`), Div/Span (`<span>`).  
   
-  * **Layout** - Choose how the terms are displayed from Separator, Unordered List (`<ul>`), Ordered List (`<ol>`), Div/Span (`<span>`).
-  
-    :::note **Note**
-    The list layouts are not hierarchical. For example, if you have both parent and child categories selected for posts, they will appear at the same level in the list layout.
-    :::
+:::info
 
-  * **Separator** - Leave blank or add in something to separate the terms (if Layout is set to Separator). Default is comma (,). 
+The list layouts are not hierarchical. For example, if you have both parent and child categories selected for posts, they will appear at the same level in the list layout.
 
-  * **Limit** - Limit the number of terms returned.
-  
-  * **Linked** - Enable or disable the link to the taxonomy term.
+:::
 
-* Example
+* **Display** (`display=''`)  
+Choose how the terms are displayed from Name, or Slug.
 
-  ```markup
-  [wpbb post:terms_list taxonomy='category' html_list='no' display='name' separator='* ' limit='5' linked='yes']
-  ```
+* **Separator** (`separator=''`)  
+Leave blank or add in something to separate the terms (if Layout is set to Separator). Default is comma (,). 
+
+* **Limit** (`limit=''`)  
+Limit the number of terms returned.
+
+* **Linked** (`linked=''`)  
+Enable or disable the link to the taxonomy term.
+
+**Example**
+
+```markup
+[wpbb post:terms_list taxonomy='category' html_list='no' display='name' separator='* ' limit='5' linked='yes']
+```
 
 ## Site
 
@@ -439,7 +469,7 @@ Outputs the user's name.
 
 * Options
 
-  * **Type** - Choices are display (default), first name, last name, first last, last first, nickname, and username.
+  * **Type** - Choices are Display Name (Default), First Name, Last Name, First & Last Name, Last, First Name, Nickname, and Username.
   * **Link** - Enable/Disable a link to the user's archive or to the website in the user profile.
   * **Link_type** - Post Archive or Profile Website (if Link set to yes).
   * **User** - Current or Specific

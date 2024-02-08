@@ -3,6 +3,7 @@ id: performance
 title: Performance
 sidebar_label: Performance
 description: This article provides suggestions and recommendations for improving your website's performance.
+draft: true
 ---
 
 This article provides recommendations for optimizing your website's performance.

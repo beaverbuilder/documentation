@@ -82,6 +82,7 @@ The button group field displays a group of buttons for selecting a single value 
 
 ![Button Group field](/img/developer/custom-modules--10-settings-fields-reference--2.jpg)
 
+
 **Return value**  
 The selected string value.
 
@@ -97,6 +98,82 @@ The selected string value.
 	),
 ),
 ```
+
+#### Align Icons
+Horizontal by default, but vertical sets icon above label
+
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'default' => 'two',
+	'align_icons' => 'vertical',
+	'options' => array(
+		'one'    => 'One',
+		'two'    => 'Two',
+		'three'  => 'Three',
+	),
+),
+```
+
+#### Custom Icons
+
+Takes an array matching the options keys for icon HTML.
+
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'options'     => [
+							'flex'    => __( 'Flex', 'fl-builder' ),
+							'grid'    => __( 'Grid', 'fl-builder' ),
+							'z_stack' => __( 'Layers', 'fl-builder' ),
+						],
+	'icons'       => [
+							'flex'    => '<svg width="24" height="10"><use href="#fl-h-stack-icon" /></svg>',
+							'z_stack' => '<svg width="24" height="10"><use href="#fl-z-stack-icon" /></svg>',
+							'grid'    => '<svg width="26" height="10"><use href="#fl-grid-display-icon" /></svg>',
+						],
+
+),
+```
+
+#### More Padding
+
+Normal by default, but ‘padded’ gives more space around the buttons
+
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'default' => 'two',
+	'appearance' => 'padded',
+	'options' => array(
+		'one'    => 'One',
+		'two'    => 'Two',
+		'three'  => 'Three',
+	),
+),
+```
+
+#### Fill Space
+
+False by Default.  True causes the button group to take up the entire horizontal area
+```php
+'my_setting' => array(
+	'type'    => 'button-group',
+	'label'   => 'My Setting',
+	'default' => 'two',
+	'fill_space' => true,
+	'options' => array(
+		'one'    => 'One',
+		'two'    => 'Two',
+		'three'  => 'Three',
+	),
+),
+```
+
+
 
 ### Code field
 
@@ -824,5 +901,63 @@ The attachment id for the selected video.
 'my_video_field' => array(
   'type'          => 'video',
   'label'         => __( 'Video Field', 'fl-builder' )
+),
+```
+
+### Field Modifiers
+
+#### Toggle
+
+The Toggle array can be used to show or hide other tabs, sections, or fields. If the value selected by the user matches one defined in your toggle array, those tabs, sections and fields will be shown; otherwise, they will be hidden.
+
+The following field types support the toggle array:
+
+* button group
+* select
+
+```php
+'my_select_field' => array(
+  'type'          => 'select',
+  'label'         => __( 'Select Field', 'fl-builder' ),
+  'default'       => 'option-1',
+  'options'       => array(
+    'option-1'      => __( 'Option 1', 'fl-builder' ),
+    'option-2'      => __( 'Option 2', 'fl-builder' )
+  ),
+  'toggle'        => array(
+    'option-1'      => array(
+      'fields'        => array( 'my_field_1', 'my_field_2' ),
+      'sections'      => array( 'my_section' ),
+      'tabs'          => array( 'my_tab' )
+    ),
+    'option-2'      => array()
+  )
+),
+```
+
+#### Set
+
+The Set array can be used to set another field's value.
+
+The following field types support the set array:
+
+* button group
+* select
+
+```php
+ 'my_set_field'   => array(
+  'type'          => 'select',
+  'label'         => __('Set Field', 'fl-builder'),
+  'default'       => 'option-1',
+  'description'	=> 'Choose Option 2 and see the Set Text get populated',
+  'options'       => array(
+   'option-1'      => __('Option 1', 'fl-builder'),
+   'option-2'      => __('Option 2', 'fl-builder')
+    ),
+  'set' => [
+    'option-2'    => [
+     'set_text'     => 'Hello',
+     ],
+   ],
 ),
 ```

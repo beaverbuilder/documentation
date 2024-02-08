@@ -38,7 +38,7 @@ You can add the unique `ID` to a a link option in a node, link in text within a 
   
   ![](/img/beaver-builder/basics--smooth-scrolling--2.jpg)
 
-### Link within text
+### Link within Text
 
 If the link is created within the [Text](module/text.md) or [HTML](modules/html.md) modules rather than an module with a **Link** option, set up the link the same way, with `#my-unique-id`, as shown in this screenshot.
 
@@ -50,7 +50,7 @@ If you are using the [HTML module](modules/html.md), create your link using HTML
 <a href="#my-unique-id">My link text</a>
 ```
 
-### WordPress menu item
+### WordPress Menu Item
 
 1. In the **WordPress Admin Dashboard**, navigate to **Appearance > Menus**.
 
@@ -65,7 +65,7 @@ If you are using the [HTML module](modules/html.md), create your link using HTML
 
 When your link is clicked, it will go to directly to the target node, with a smooth scrolling effect if both are on the same page.
 
-## Smooth scroll to text
+## Smooth Scroll to Text
 
 By default, Beaver Builder’s scrolling JavaScript only works with links to [nodes](getting-started/how-it-works.md#nodes) (rows, columns, or modules), in which you set the anchor `ID` on the [Advanced tab](advanced-tab/index.md). If you link to a target HTML element inside a Text Editor or HTML module, such as a `<div>` element, the link will jump up or down the page rather than smooth scroll. If you are also linking from a Text Editor or HTML link where you can modify the `<a href>` link, you can set up smooth scrolling.
 
@@ -84,7 +84,7 @@ By default, Beaver Builder’s scrolling JavaScript only works with links to [no
   <a href="#my-div" class="fl-scroll-link">Click Here</a>
   ```
 
-## Customize smooth scrolling
+## Customize Smooth Scrolling
 
 You can [use JavaScript to customize aspects of the smooth scroll](advanced/smooth-scrolling-tweaks.md): duration, scroll pattern, and offset for various devices
 
@@ -107,7 +107,7 @@ Although not related to Beaver Builder smooth scrolling, the issue can also occu
 ```
 :::
 
-## Disable smooth scrolling
+## Disable Smooth Scrolling
 
 You can disable smooth scrolling for a specific target from any link that occurs on the same page using the `fl-no-scroll` class name.
 

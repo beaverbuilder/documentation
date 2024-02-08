@@ -43,7 +43,7 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '🎉 New <a href="https://app.assistant.pro/community" target="_blank" rel="noopener">Beaver Builder template marketplace!</a> Get started for FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
+      '🎉 New <a href="https://app.assistant.pro/community" target="_blank" rel="noopener">Beaver Builder template marketplace!</a> Get started for FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
       backgroundColor: "#1b7497",
       textColor: "#ffffff",
       isCloseable: true,
@@ -224,7 +224,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebarBeaverBuilder.js"),
           versions: {
             current: {
-              label: "Beaver Builder 2.8",
+              label: "Beaver Builder 2.8 🚧",
               path: "2.8",
               className: "2.8",
             },

@@ -17,4 +17,10 @@ You can use [WordPress Patterns](https://wordpress.org/support/article/reusable-
 
 4. Click the **Done** button and Save your changes.
 
+:::info
+
+The WordPress Patterns subgroup becomes available in the COntent Panel after you have created and saved WordPress Patterns.
+
+:::
+
 ![Access WordPress Patterns from the Content Panel](/img/beaver-builder/modules--wordpress-patterns--1.jpg)

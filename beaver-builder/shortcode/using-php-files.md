@@ -19,12 +19,12 @@ WordPress generated pages, such as index and archive pages, are not customizable
 To use this method, you should be familiar with PHP, WordPress [conditional tags](https://developer.wordpress.org/themes/basics/conditional-tags/), and [template hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/). Alternatively, you can use [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/).
 :::
 
-## Create your saved content
-  
+## Create your Saved Content
+
+Before you can use the shortcode in your PHP files, you need to create your saved content. See the following articles for more information:
+
 * [How to create a Saved Template](templates/saved-templates.md).
-* [How to create a Saved Row](rows/saved-rows.md).
-* How to create a Saved Column.
-* [How to create a Saved Module](modules/saved-modules.md).
+* [How to create a Saved Content (rows, columns, & modules)](layouts/saved-content.md).
 
 ## Construct the shortcode
 

@@ -21,6 +21,10 @@ Once you've created your Options Page(s), added your custom fields, and assigned
 
 The Beaver Themer field connection shortcode can be used to pull data from fields assigned to the **Options page** by adding `site:acf_option` to the shortcode.
 
+```markup
+[wpbb site:acf_option type='text' name='FIELD_NAME']
+```
+
 For example, suppose you have created an ACF Image field named **Site Logo** and assigned it to the ACF Options Page. You can use this field to display your website's logo image by adding the field connection shortcode in an HTML module. This will output the image from the **Site Logo** field using an `<img>` tag.
 
 ```markup
