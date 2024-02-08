@@ -19,7 +19,7 @@ slug: '/settings/'
 The Agency license of Beaver Builder allows white labeling to display any other name you choose and a custom logo image. Therefore, the label (Beaver Builder) on the **WordPress Admin Dashboard > Settings > Beaver Builder** may be different.
 :::
 
-## Network-wide settings (Agency only)
+## Network-wide settings (Ultimate & Agency only)
 
 The Network-wide settings are available on the [WordPress Multisite installation](https://wordpress.org/support/article/create-a-network/) main site when accessed as the **Network Admin** and allow you to configure Beaver Builder for all [sub-sites](https://wordpress.org/support/article/network-admin-sites-screen/) on the network.
 
@@ -29,7 +29,7 @@ The Network-wide settings are available on the [WordPress Multisite installation
 You can, for instance, enter your license key on the Network-wide settings and the license key will be used on all sub-sites, allowing the sub-site administrator to update Beaver Builder.
 :::
 
-## Override Network-wide settings (Agency only)
+## Override Network-wide settings (Ultimate & Agency only)
 
 Users with administrator privileges can override Network-wide settings for their sub-sites
 
