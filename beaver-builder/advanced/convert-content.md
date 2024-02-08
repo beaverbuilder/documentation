@@ -5,9 +5,10 @@ sidebar_label: Convert Content
 description: This article explains how to convert content from the Standard (block) or Classic editor in WordPress 5 to Beaver Builder and vice versa.
 ---
 
-This article explains how to convert content from the Standard (block) or Classic editor in WordPress 5 to Beaver Builder and vice versa. It also describes the result of each type of conversion. [Follow this link](/beaver-builder/getting-started/bb-editor-basics/launch-builder.md) for how to install the Classic Editor plugin and how to open the Beaver Builder editor in WordPress 5.
+This article explains how to convert content from the Standard (block) or Classic editor in WordPress 5 to Beaver Builder and vice versa. It also describes the result of each type of conversion. [Follow this link](getting-started/launch-builder.md) for how to install the Classic Editor plugin and how to open the Beaver Builder editor in WordPress 5.
 
 :::warning **Warning:**
+
 You can start editing a new page in either WordPress editor
 (Standard or Classic) and convert to Beaver Builder and vice versa, but beware
 of switching back and forth after that--you may lose data.
@@ -18,19 +19,19 @@ your previous Beaver Builder layout. You won't see the new WordPress edits
 that you made. If you publish the Beaver Builder layout and open the page
 again in Standard or Classic Editor, you'll lose the previous edits that you
 made in the Standard or Classic Editor.
+
 :::
 
 :::tip
+
 Unless you enable Posts in **Settings > Beaver Builder > Post
 types**, you will only see the option to [launch Beaver Builder](getting-started/launch-builder.md) for Pages, not Posts.
+
 :::
 
 ## Standard (block) Editor to Beaver Builder
 
-This section applies when a page has content created with the WordPress
-Standard (block) Editor and you want to convert that content to Beaver
-Builder. You can use [any of the methods for opening a page in Beaver
-Builder](/beaver-builder/getting-started/bb-editor-basics/launch-builder.md), or you can convert directly from within the Standard Editor, as follows. No matter what method you use to open Beaver Builder,
+This section applies when a page has content created with the WordPress Standard (block) Editor and you want to convert that content to Beaver Builder. You can use [any of the methods for opening a page in Beaver Builder](getting-started/launch-builder.md), or you can convert directly from within the Standard Editor, as follows. No matter what method you use to open Beaver Builder,
 the content is automatically converted. Pay attention to the warning above.
 
 **Convert content to Beaver Builder from within the WordPress Standard Editor:**

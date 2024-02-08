@@ -16,19 +16,23 @@ The **History** menu item in the [Tools menu](user-interface/tools-menu.md) allo
   You can keep clicking in the history at various points to undo or restore layout.  
   
   :::info
+
   You can't pick and choose which items to keep: whatever item you select, that item and the ones lower on the list remain in the layout, while the higher ones are removed.
+
   :::
   
 3. When you're done, click **Done** and then **Publish**, **Save as draft**, or **Discard**.  
 
   :::warning
+
   When you publish the page, the history is reset, so you'll no
   longer have access to the items that you chose not to keep. If the **Save as
   Draft** or **Discard** your layout, the history remains and you can undo and
   redo the next time you open the editor. For other implications of saving vs.
   discarding vs. publishing a page, see [this article](user-interface/top-bar.md#done-button).
   
-  Don't forget you can use the [Revisions feature](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md/#revisions) to revert to a previously published version.
+  Don't forget you can use the [Revisions feature](user-interface/tools-menu.md/#revisions) to revert to a previously published version.
+
   :::
 
 ## Keyboard shortcuts

@@ -95,7 +95,9 @@ The following are the different module subgroups available.
 ![Access Module Settings](/img/beaver-builder/modules--index--3.jpg)
 
 :::tip
-You can also access the module settings by [right-clicking on the module in the Outline Panel](../../getting-started/bb-editor-basics/outline-panel.md#right-click).
+
+You can also access the module settings by [right-clicking on the module in the Outline Panel](user-interface/outline-panel.md#right-click).
+
 :::
 
 ## Move modules
@@ -110,10 +112,6 @@ Modules can be moved from one column to another or be used to create a new colum
 
 ![Move modules to different positions in your layout](/img/beaver-builder/modules--index--4.jpg)
 
-:::tip
-The [Outline Panel](../../getting-started/bb-editor-basics/outline-panel.md) also allows you to move modules to different columns.
-:::
-
 ## Delete modules
 
 1. Move your mouse cursor over the module you want to delete.
@@ -121,10 +119,6 @@ The [Outline Panel](../../getting-started/bb-editor-basics/outline-panel.md) als
 2. In the Module overlay actions click the **Close** <i className="fas fa-times"></i> icon to delete the module.
 
 3. Verify that you want to remove the module.
-
-:::tip
-You can also remove modules from the [Outline Panel](../../getting-started/bb-editor-basics/outline-panel.md).
-:::
 
 ## In this section:
 

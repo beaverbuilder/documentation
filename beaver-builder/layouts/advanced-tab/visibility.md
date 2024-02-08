@@ -15,7 +15,7 @@ The **Reverse Stacking Order** option is only available for Columns.
 
 ## Breakpoint
 
-By default, every row, column, and module is visible on every device size. You can use the [Breakpoint](/beaver-builder/layouts/responsive-design/breakpoints.md) setting to hide individual rows, columns, and modules for certain device sizes. In the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#medium-device-breakpoint), you can view the default breakpoints and set custom values.
+By default, every row, column, and module is visible on every device size. You can use the [Breakpoint](/beaver-builder/layouts/responsive-design/breakpoints.md) setting to hide individual rows, columns, and modules for certain device sizes. In the [Global Settings](user-interface/global-settings.md#medium-device-breakpoint), you can view the default breakpoints and set custom values.
 
 ### Device Toggle Icons
 
@@ -88,7 +88,7 @@ The **Display** option lets you display your row, column or module based certain
 When you restrict the display of a row, column, or module, an eye icon will appear in the Beaver Builder UI overlay. The color of the eye icon will change based on the display option you have chosen. This feature provides a visual indication for you to easily identify the visibility status of your content while you are editing your layout.
 
 :::tip
-The display icon indicator is also visible in the [Outline Panel](/beaver-builder/getting-started/bb-editor-basics/outline-panel.md#icon-indicators).
+The display icon indicator is also visible in the [Outline Panel](user-interface/outline-panel.md#icon-indicators).
 :::
 
 * When you limit the display of a row, column, or module using the **Never**, **Logged Out Users**, or **Logged In Users** options, a blue Eye <i className="fa-solid fa-eye" style={{color: "#00A0D2"}}></i> icon will be displayed in the Beaver Builder UI overlay.

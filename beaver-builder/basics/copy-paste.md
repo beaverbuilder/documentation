@@ -37,20 +37,20 @@ settings.
 
 **Copy Styles** copies only a portion of the settings, specifically:
 
-  * Align
-  * Animation
-  * Border
-  * Button group
-  * Color
-  * Dimension
-  * Font
-  * Gradient
-  * Photo sizes
-  * Select
-  * Shadow
-  * Shape transforms
-  * Typography
-  * Unit (for example `px`, `em`, `%`)
+* Align
+* Animation
+* Border
+* Button group
+* Color
+* Dimension
+* Font
+* Gradient
+* Photo sizes
+* Select
+* Shadow
+* Shape transforms
+* Typography
+* Unit (for example `px`, `em`, `%`)
 
 ## Copy/Paste module settings vs. alternatives
 
@@ -62,7 +62,7 @@ Using the **Duplicate** tool in the toolbar is faster.
 ![](/img/the-basics-copy-paste-module-style-2.png)
 
   * If you want to reuse a column or row on another page of your site or export it to another site:  
-[Save the row or column](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) and [use WordPress import/export functionality](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md).
+[Save the row or column](layouts/saved-content.md) and [use WordPress import/export functionality](settings/export-import.md).
 
   * If you want to reuse a module over and over again on the same site:  
 [Creating a saved module](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) is probably faster. In particular, if you
@@ -70,8 +70,10 @@ want to reuse modules on the same site and keep them in synch, save as a
 global module.
 
   * If you want to duplicate your entire layout to another page in the same site:  
-Use the [Duplicate layout](/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md) functionality or [save it as a layout template](/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template.md).
+Use the [Duplicate layout](basics/duplicate-layout.md) functionality or [save it as a layout template](layouts/templates/layout-templates-overview.md).
 
-:::tip **Tip**
-Importing the settings or style appears in [the history](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md) as `<module-name> edited`.
+:::tip
+
+Importing the settings or style appears in [the history](basics/undo-redo.md) as `<module-name> edited`.
+
 :::

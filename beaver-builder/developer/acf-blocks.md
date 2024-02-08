@@ -19,7 +19,7 @@ See the [ACF Blocks documentation](https://www.advancedcustomfields.com/resource
 
 ## Accessing ACF Blocks in Beaver Builder
 
-Blocks created with ACF can be found in [The Content Panel](/beaver-builder/getting-started/bb-editor-basics/user-interface.md#8-14-content-panel) under **Modules > ACF Blocks** subgroup. Any block categories or icons used to organize and display your blocks in Gutenberg will show there as well.
+Blocks created with ACF can be found in [The Content Panel](user-interface/content-panel.md) under **Modules > ACF Blocks** subgroup. Any block categories or icons used to organize and display your blocks in Gutenberg will show there as well.
 
 :::tip
 See the [Defining Custom Groups](#defining-custom-groups) section for customizing the group location of your ACF Blocks.

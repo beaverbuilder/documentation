@@ -19,7 +19,7 @@ You can create new columns by dragging a module into the layout. But sometimes t
 
 The best way to insert columns in a complex layout is to create the column structure before adding content. Here's how to do it.
 
-1. Open the [Content panel](/beaver-builder/getting-started/bb-editor-basics/user-interface.md/#8-14-content-panel) and click the **Rows** tab.  
+1. Open the [Content panel](user-interface/content-panel.md) and click the **Rows** tab.  
 Make sure the **Group** name is **Columns**. You'll see a selection of column layouts.
 2. Drag the column layout you want into your layout.  
 A new row is created if you drop the column layout outside of an existing row. If you drop the column layout inside an existing column, a child column layout is created.
@@ -46,7 +46,7 @@ Here are two methods to determine the difference.
 
 ### Method 1: Use the Outline panel
 
-Using the [Outline panel](/beaver-builder/getting-started/bb-editor-basics/outline-panel.md), it's easy to see whether the row has a parent column with two child columns:
+Using the [Outline panel](user-interface/outline-panel.md), it's easy to see whether the row has a parent column with two child columns:
 
 ![Outline panel shows one column parent with two child columns](/img/layouts--columns--tips-for-working-with-columns--3.png)
 
@@ -74,6 +74,4 @@ When you're deleting a column in a complex column layout, you could end up being
 
 Another idea is to delete the modules first, then delete the empty column structure. 
 
-If you find you've deleted something you want to get back, you can [access the History panel to undo it](/beaver-builder/getting-started/bb-editor-basics/undo-redo.md).
-
-See [the article about deleting columns](/beaver-builder/getting-started/bb-editor-basics/delete-a-module-or-column.md).
+If you find you've deleted something you want to get back, you can [access the History panel to undo it](basics/undo-redo.md).
