@@ -28,7 +28,7 @@ In this article, we're talking about the template choices in this field that are
 
 ### Default
 
-This is the regular setting for pages. With the Beaver Builder Theme, what you'll see on your page besides the content area are what you specify in the Customizer settings: top bar header, nav area, footer widget area, footer. In the default template for pages, any sidebar that you specify in **Customize > Content > Blog layout** is not displayed. The title of your WordPress page is not displayed by default, but you can display it by [changing the global settings of the Beaver Builder plugin](/beaver-builder/getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title).
+This is the regular setting for pages. With the Beaver Builder Theme, what you'll see on your page besides the content area are what you specify in the Customizer settings: top bar header, nav area, footer widget area, footer. In the default template for pages, any sidebar that you specify in **Customize > Content > Blog layout** is not displayed. The title of your WordPress page is not displayed by default, but you can display it by [changing the global settings of the Beaver Builder plugin](/beaver-builder/basics/show-hide-page-title).
 
 Here's an example of a page with a default template. The content area is a Beaver Builder layout, and in the screenshot, there's a row with a photo background and a Heading and Text module in the row.
 

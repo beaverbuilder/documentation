@@ -11,7 +11,7 @@ Themer layouts if you have [Beaver Themer](https://www.wpbeaverbuilder.com/beave
 Restoring refers to several scenarios:
 
   * **Beaver Builder hangs while you're editing a page.**  
-Beaver Builder [autosaves as you work](/beaver-builder/getting-started/bb-editor-basics/save-publish-discard.md), so if your page hangs as you're editing
+Beaver Builder [autosaves as you work](user-interface/top-bar.md#done-button), so if your page hangs as you're editing
 it, usually reloading the page in your browser will get back what you were
 working on.
 

@@ -63,7 +63,7 @@ The Remove option provides the ability to delete a domain from the Domain Manage
 
 The Remove option **does not** result in the removal of the license key from the website. Beaver Builder does not possess the functionality to remotely delete license keys from websites.
 
-If the license key remains active and you choose to proceed with the Remove feature, the specific domain will be reintegrated into the Domain Manager when it performs its subsequent check for Beaver Builder updates.
+If the license key remains active and you choose to proceed with the Remove option, the specific domain will be reintegrated into the Domain Manager when it performs its subsequent check for Beaver Builder updates.
 
 :::
 

@@ -60,23 +60,29 @@ Please see the [partial refresh reference](17-partial-refresh-reference.md) befo
 The URL path to your module. This should include the trailing slash.
 
 ## `$include_wrapper` boolean
+
 This determines whether the normal wrapper divs are included when rendering this module.  Defaults to true for backwards compatibility but is recommended to be set to false.
 
 If set to false, the module attributes need to be rendered in the frontend.php file.
 
-```
+```php
 <div <?php $module->render_attributes(); ?>>
 	<!-- Module Content -->
 </div>
 ```
 
-:::info 
+:::info
+
 This does not currently work with self-closing tags like `<img />`. A top level element must exist and there must only be one. There cannot be two root elements side by side. 
+
 :::
 
 ## `$accepts` string or array
+
 :::caution
+
 This is experimental.  It was created for the box module and hasn't been tested for other module use. Use at your own risk.
+
 :::
 
 Accepts an array of module slugs that can be nested inside the module.  Or use the string `all` to allow all modules to be nested.  

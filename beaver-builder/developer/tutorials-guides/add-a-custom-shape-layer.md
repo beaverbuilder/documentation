@@ -12,7 +12,7 @@ Even if you don't have a background in development, you should be able to follow
 
 Another way to include Custom Row Shapes is by copying and pasting your shape's SVG code into the Custom Row Shape user interface (UI) within the Beaver Builder Global Settings.
 
-For additional details, please refer to the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#custom-row-shapes) article.
+For additional details, please refer to the [Global Settings](user-interface/global-settings.md#custom-row-shapes) article.
 
 :::
 

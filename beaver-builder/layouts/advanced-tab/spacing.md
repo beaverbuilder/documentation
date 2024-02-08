@@ -11,18 +11,20 @@ The **Spacing** section in the Advanced tab lets you change the default margin f
 
 ## Global Defaults
 
-Beaver Builder adds the following default margins and padding via the [Global Settings](/beaver-builder/getting-started/bb-editor-basics/global-settings.md):
+Beaver Builder adds the following default margins and padding via the [Global Settings](user-interface/global-settings.md):
 
 * `0px` margin on each side of all rows and columns.
 * `20px` padding on each side of all rows.
 * `0px` padding for columns.
 * `20px` margin on each side of all modules.  
 
-	:::info
-	Modules **do not** support padding.
+  :::info
+
+  Modules **do not** support padding.
+  
   :::
 
-If you didn't change a single margin or padding anywhere, these defaults would apply on every device, though mobile devices may be different if [Auto Spacing](/beaver-builder/getting-started/bb-editor-basics/global-settings.md#auto-spacing) is enabled, which is enabled by default.
+If you didn't change a single margin or padding anywhere, these defaults would apply on every device, though mobile devices may be different if [Auto Spacing](user-interface/global-settings.md#auto-spacing) is enabled, which is enabled by default.
 
 ## Margin
 

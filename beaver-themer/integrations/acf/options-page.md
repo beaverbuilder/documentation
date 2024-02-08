@@ -15,11 +15,15 @@ See the [Advanced Custom Fields Options Pages](https://www.advancedcustomfields.
 
 ## Output Data
 
-Once you've created your Options Page(s), added your custom fields, and assigned them with your Options Page(s), you can display the data stored in those fields using two methods. One involves utilizing a field connection shortcode within an HTML module, while the other requires connecting or inserting the field connection into a row, column, or module option.
+Once you've created your Options Page(s), added your custom fields, and assigned them to your Options Page(s), you can display the data stored in those fields using two methods. One involves utilizing a field connection shortcode within an HTML module, while the other requires connecting or inserting the field connection into a row, column, or module option.
 
 ### Field Connection Shortcode
 
 The Beaver Themer field connection shortcode can be used to pull data from fields assigned to the **Options page** by adding `site:acf_option` to the shortcode.
+
+```markup
+[wpbb site:acf_option type='text' name='FIELD_NAME']
+```
 
 For example, suppose you have created an ACF Image field named **Site Logo** and assigned it to the ACF Options Page. You can use this field to display your website's logo image by adding the field connection shortcode in an HTML module. This will output the image from the **Site Logo** field using an `<img>` tag.
 

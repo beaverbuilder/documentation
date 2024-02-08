@@ -61,7 +61,7 @@ When  **Width** is **Default** and **Layout** is **Vertical**, the button spans 
 When **Width** is set to **Custom** in either horizontal or vertical layouts, the width of every button is set to the custom width you specify. Text wraps if necessary:
 ![Button group - Custom width setting for horizontal layouts](/img/button-group-4.png)   
 * **Align** (responsive)  
-This setting horizontally aligns the entire button container within its row or column. See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for a description of how the alignment toggle settings work.
+This setting horizontally aligns the entire button container within its row or column.
 * **Container padding** (responsive)  
 Adjusts the padding between the edge of the button group container and the group of buttons.
 * **Button padding** (responsive)  
@@ -139,7 +139,7 @@ This tab has four sections: a top section, **Text**, **Background**, and **Borde
 Adjusts the padding between the edge of the button and the button's content.
 
 * Text align  
-See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for a description of how the alignment toggle settings work.
+See [this article](basics/typography.md#align) for a description of how the alignment toggle settings work.
 
 #### 2 Text section (single)
 

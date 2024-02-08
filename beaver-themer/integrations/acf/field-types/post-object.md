@@ -41,7 +41,17 @@ You can enter your Post Object field name in the `name=''` attribute.
 
 * **List Type** - There are three options available: Regular, which uses the `<div>` tag, Ordered List, which uses the `<ol>` tag, and Unordered List, which uses the `<ul>` tag.
 
-* **Add Post Title Link** - Yes or No.
+* **Wrapper Class** - Add a custom class to the wrapper element.  
+  
+  ```html
+  <ul class="my-wrapper-class"> <!-- Wrapper Class -->
+    <li class="post-123">
+      <a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
+    </li>
+  </ul>
+  ```
+
+* **Add Post Title Link** - You can choose between "Yes" and "No." Selecting "Yes" allows you to add a link to the post, while choosing "No" will result in the post title being displayed as plain text.
 
 ### Markup Output
 
@@ -53,7 +63,7 @@ The following three code examples showcase the distinct HTML markup for each Lis
 <TabItem value="unordered_list" label="Unordered List (<ul>" default>
 
 ```html
-<ul>
+<ul class="my-wrapper-class">
   <li class="post-123">
     <a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
   </li>
@@ -64,7 +74,7 @@ The following three code examples showcase the distinct HTML markup for each Lis
 <TabItem value="ordered_list" label="Ordered List (<ol>)">
 
 ```html
-<ol>
+<ol class="wrapper-class">
   <li class="post-123">
     <a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
   </li>
@@ -75,7 +85,7 @@ The following three code examples showcase the distinct HTML markup for each Lis
 <TabItem value="regular" label="Regular (<div>)">
 
 ```html
-<div>
+<div class="wrapper-class">
   <div class="post-123">
     <a href="https://my-website.com/hello-world" title="Hello World">Hello World</a>
   </div>
