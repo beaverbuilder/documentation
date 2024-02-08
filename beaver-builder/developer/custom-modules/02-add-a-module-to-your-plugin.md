@@ -59,4 +59,5 @@ function my_load_module_examples() {
 }
 ```
 
+
 Now that you've added a module to your plugin, it's time to move on to the next step to register it with Beaver Builder and create the settings form.
