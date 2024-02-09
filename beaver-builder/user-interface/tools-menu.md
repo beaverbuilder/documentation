@@ -58,7 +58,9 @@ Display the previously published revisions available to revert to. The number of
 See the [Restore Previous Version](advanced-builder-techniques/restore-a-previous-version.md) for more information.
 
 :::tip
+
 Only published pages and posts count as revisions. Saved drafts of pages and posts are not available as revisions.
+
 :::
 
 ## History
@@ -79,11 +81,29 @@ Beaver Builder editor settings that apply as defaults. Most of these settings ca
 
 See the [Global settings](user-interface/global-settings.md) article for more information.
 
+## Global Styles
+
+Access global elements and colors through the Global Styling menu. Utilize Global Elements to define styling for elements like text, headings, links, and buttons. Similarly, utilize global colors to create a color palette for your entire website.
+
+See the [Global Styles](user-interface/global-styles.md) article for more information.
+
+## Themer Layouts (requires Beaver Themer)
+
+Provides quick access to the Beaver Themer Layouts menu in the WordPress Admin Dashboard, opening in a new tab and visible only when you have Beaver Themer installed.
+
+## Themer Override (requires Beaver Themer)
+
+The Themer Override menu item becomes visible in the Tools menu when you have Beaver Themer installed, and it indicates that the Beaver Themer layout has been overridden.
+
 ## Change UI Brightness
 
 This option is a toggle that changes the UI skin from light (default) to dark.
 
 ![Change UI Brightness](/img/beaver-builder/user-interface--tools-menu--4.jpg)
+
+## Media Library
+
+Access the WordPress Media Library to easily add images, videos, and other media to your layouts without having to exit builder.
 
 ## WordPress Admin
 

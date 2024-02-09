@@ -6,7 +6,9 @@ slug: setting-fields-reference
 ---
 
 :::caution
+
 Please refrain from using the `type` or `connection` keys within the settings fields, as they have been designated for internal purposes and should not be used.
+
 :::
 
 ### Align field
@@ -82,7 +84,6 @@ The button group field displays a group of buttons for selecting a single value 
 
 ![Button Group field](/img/developer/custom-modules--10-settings-fields-reference--2.jpg)
 
-
 **Return value**  
 The selected string value.
 
@@ -100,6 +101,7 @@ The selected string value.
 ```
 
 #### Align Icons
+
 Horizontal by default, but vertical sets icon above label
 
 ```php
@@ -117,6 +119,7 @@ Horizontal by default, but vertical sets icon above label
 ```
 
 #### Custom Icons
+
 Takes an array matching the options keys for icon HTML.
 
 ```php
@@ -138,6 +141,7 @@ Takes an array matching the options keys for icon HTML.
 ```
 
 #### More Padding
+
 Normal by default, but ‘padded’ gives more space around the buttons
 
 ```php
@@ -156,7 +160,8 @@ Normal by default, but ‘padded’ gives more space around the buttons
 
 
 #### Fill Space
-False by Default.  True causes the button group to take up the entire horizontal area
+
+False by Default. True causes the button group to take up the entire horizontal area
 ```php
 'my_setting' => array(
 	'type'    => 'button-group',
@@ -170,8 +175,6 @@ False by Default.  True causes the button group to take up the entire horizontal
 	),
 ),
 ```
-
-
 
 ### Code field
 
@@ -905,11 +908,13 @@ The attachment id for the selected video.
 ### Field Modifiers
 
 #### Toggle
+
 The Toggle array can be used to show or hide other tabs, sections, or fields. If the value selected by the user matches one defined in your toggle array, those tabs, sections and fields will be shown; otherwise, they will be hidden.
 
 The following field types support the toggle array:
-- button group
-- select
+
+* button group
+* select
 
 ```php
 'my_select_field' => array(
@@ -932,11 +937,13 @@ The following field types support the toggle array:
 ```
 
 #### Set
+
 The Set array can be used to set another field's value.
 
 The following field types support the set array:
-- button group
-- select
+
+* button group
+* select
 
 ```php
  'my_set_field'   => array(
