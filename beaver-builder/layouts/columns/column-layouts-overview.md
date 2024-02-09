@@ -9,7 +9,7 @@ In Beaver Builder, you cannot place rows within rows but you can construct compl
 *Figure 1: An example of a complex column layout in one row*  
 ![An example of a complex column layout in one row](/img/layouts--columns--overview--1.jpg)
 
-The [Outline view](/beaver-builder/getting-started/bb-editor-basics/outline-panel.md) for this layout, shown in Figure 2, shows one row with three main columns and two child columns.
+The [Outline view](user-interface/outline-panel.md) for this layout, shown in Figure 2, shows one row with three main columns and two child columns.
 
 *Figure 2: Outline panel view of the complex column layout in Figure 1*  
 ![Outline panel view of the complex column layout in Figure 1](/img/layouts--columns--overview--2.png)

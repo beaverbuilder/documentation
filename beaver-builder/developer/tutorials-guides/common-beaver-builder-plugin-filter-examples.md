@@ -5,6 +5,9 @@ sidebar_label: Common Beaver Builder filter examples
 description: Beaver Builder has many filters. This article describes how to use some of the common ones.
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 There is a comprehensive [Hook & Filter Reference](https://hooks.wpbeaverbuilder.com/bb-plugin/) but here's a list of some commonly used filters with their potential uses. This article is aimed at developers and assumes that you know where to put the code and how to tweak it.
 
 ## Remove Beaver Builder filter option in WP post lists
@@ -50,6 +53,7 @@ add_filter( 'fl_module_upload_regex', function( $regex, $type, $ext, $file ) {
 
 }, 10, 4 );
 ```
+
 ## Filter to add a mail service to the Subscribe module
 
 **Filter:** `fl_builder_subscribe_form_services`
@@ -395,7 +399,6 @@ add_filter( 'fl_builder_register_settings_form', 'my_builder_register_settings_f
 
 Use this filter to modify the CSS that is compiled and cached for each Beaver Builder layout.
 
-**Example:**
 
 ```php
 function my_builder_render_css( $css, $nodes, $global_settings ) {
@@ -403,6 +406,22 @@ function my_builder_render_css( $css, $nodes, $global_settings ) {
   return $css;
 }
 add_filter( 'fl_builder_render_css', 'my_builder_render_css', 10, 3 );
+```
+
+## Modify Beaver Builder CSS for CDNs
+
+**Filter:** `fl_builder_render_css`
+
+You can utilize the filter to modify URLs, adapting Beaver Builder CSS for CDNs and cloud storage buckets.
+
+```php
+add_filter( 'fl_builder_render_css', function( $css, $nodes, $global_settings, $include_global ) {
+  $site_url = 'https://example.com';
+  $cdn_url  = 'https://123456abcdef.mycdn.net';
+
+  $css = str_replace( $site_url, $cdn_url, $css );
+  return $css;
+}, 10, 4 );
 ```
 
 :::tip
@@ -415,14 +434,28 @@ This filter can also be used to solve a [403 error when CloudFlare or another CD
 
 Use this filter to modify the JavaScript that is compiled and cached for each Beaver Builder layout.
 
-**Example:**
-
 ```php
 function my_builder_render_js( $js, $nodes, $global_settings ) {
   $js .= 'console.log( "Hello World!" );';
   return $js;
 }
 add_filter( 'fl_builder_render_js', 'my_builder_render_js', 10, 3 );
+```
+
+## Modify Beaver Builder JavaScript for CDNs
+
+**Filter:** `fl_builder_render_js`
+
+You can utilize the filter to modify URLs, adapting Beaver Builder JS for CDNs and cloud storage buckets.
+
+```php
+add_filter( 'fl_builder_render_js', function( $js, $nodes, $global_settings, $include_global ) {
+  $site_url = 'https://example.com';
+  $cdn_url  = 'https://123456abcdef.mycdn.net';
+
+  $js = str_replace( $site_url, $cdn_url, $js );
+  return $js;
+}, 10, 4 );
 ```
 
 ## Modify the config array for a field

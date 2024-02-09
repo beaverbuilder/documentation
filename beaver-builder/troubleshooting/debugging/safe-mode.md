@@ -56,3 +56,9 @@ The `[fl-safe]` shortcode allows you to use code known to conflict with Beaver B
 [/fl-safe]
 ```
 :::
+
+:::caution
+
+The `[fl-safe]` shortcode only works in the Beaver Builder editor. It will not work for code added to the WordPress editor, Customizer, or Themes.
+
+:::

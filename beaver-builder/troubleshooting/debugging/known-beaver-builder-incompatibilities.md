@@ -215,6 +215,12 @@ To avoid this issue, wrap the script with the `[fl-safe]` shortcode like the exa
 <div class="elfsight-app-123abc-123-456-789-abcdefgh123456"></div>
 ```
 
+:::caution
+
+The `[fl-safe]` shortcode only works in the Beaver Builder editor. It will not work for code added to the WordPress editor, Customizer, or Themes.
+
+:::
+
 ## Code
 
 ### `document.write()` (JavaScript)

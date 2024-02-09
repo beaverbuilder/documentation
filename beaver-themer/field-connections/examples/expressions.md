@@ -22,6 +22,29 @@ In this example, we're using the `equals` operator to check whether the authors 
 [/wpbb-if]
 ```
 
+### Style elements based on Post Type
+
+In this example, the [Post Type](../wordpress-data.md#post-type) field connection is utilized to style elements based on the post type. In this example, we are styling the post title differently based on the post type when a Post module is set up to showcase multiple post types within the same module.
+
+```markup
+[wpbb-if post:post_type display='slug' exp='equals' value='post']
+
+  <h2 style="color: green;">[wpbb post:title]</h2>
+        
+[wpbb-else]
+    
+  <h2 style="color: black;">[wpbb post:title]</h2>
+        
+[/wpbb-if]
+```
+
+:::tip
+
+
+You can replace `value='post'` with the slug of your chosen post type or custom post type. For instance, `value='movies'`.
+
+:::
+
 ### Style Specific Taxonomy
 
 In this example, we're using the equals operator to check whether the post has a specific taxonomy term assigned to it called **New**. If the statement is `TRUE`, the **New** tag will be styled with a red background and white text. If the statement is `FALSE` meaning the post doesn't have the taxonomy term assigned, then no styling will return.
