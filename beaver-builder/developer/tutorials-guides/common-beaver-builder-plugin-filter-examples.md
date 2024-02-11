@@ -46,9 +46,9 @@ The example code demonstrates how to enable support for SVG files in Beaver Buil
 
 ```php
 add_filter( 'fl_module_upload_regex', function( $regex, $type, $ext, $file ) {
-  
+
   $regex['photo'] = '#(jpe?g|png|gif|bmp|tiff?|webp|svg)#i';
-  
+
   return $regex;
 
 }, 10, 4 );
@@ -73,11 +73,52 @@ function bb_subscribe_form_custom_service( $services ) {
 add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
 ```
 
+## Add Latin-Extended capabilities for a Google font
+
+If you have a Google font that includes Latin Extended characters, you can add
+that capability to your Beaver Builder layouts.
+
+Add the following filter to the *functions.php* file of your child theme and
+replace the font name in Line 2 with the name of your Google font family.
+
+```php {2}
+function my_font_subset($subset, $name) {
+  if ($name == "Acme") {
+    $subset = "&subset=latin,latin-ext";
+  }
+  return $subset;
+}
+add_filter("fl_font_subset", "my_font_subset", 10, 2);
+```
+
+:::info
+
+Not all Google fonts have Latin-extended characters, so make sure the Google font you choose has them.
+
+:::
+
+## White label the Ajax crash message
+
+When Beaver Builder detects a fatal PHP error in AJAX, a popup appears with
+instructions for what to do to troubleshoot, as shown in the following
+screenshot.
+
+![](/img/tutorial-guides-white-label-crash.png)
+
+Add the following filter to your child theme's functions.php file and replace
+the placeholder text in this example with your white-labeled product name.
+
+```php
+add_filter( 'fl_builder_crash_white_label_text', function() {
+	return 'My white-labeled product name';
+});
+```
+
 ## Lightbox & Special Characters
 
 **Filter:** `fl_photocaptionregex`
 
-The Beaver Builder lightbox supports a limited number of special characters as a security measure.  
+The Beaver Builder lightbox supports a limited number of special characters as a security measure.
  Default allowed characters: `'":() !.,-_|`
 
 In the example below, the `$` Dollar and `£` Pound Sterling are added to the list of allowed characters.
@@ -130,7 +171,7 @@ By default, when you disable modules in **Settings > Beaver Builder > Modules**,
 
 If you apply the `is_module_disable_enabled` filter, then when you clear a checkbox to disable a module, it will not be visible in the editor and existing modules of that type will not load or render on the front end either.
 
-This filter is the same one [described in the previous section about displaying module counts](#show-which-modules-are-in-use-in-a-website). After you apply the filter as shown there, go to **Settings > Beaver Builder** and click the **Modules** tab to view which modules are used where, then uncheck the box for any modules that you don't want to display either on the front end or in the editor. 
+This filter is the same one [described in the previous section about displaying module counts](#show-which-modules-are-in-use-in-a-website). After you apply the filter as shown there, go to **Settings > Beaver Builder** and click the **Modules** tab to view which modules are used where, then uncheck the box for any modules that you don't want to display either on the front end or in the editor.
 
 :::caution
 The Slideshow module is required for row background slideshows to function.
@@ -171,7 +212,7 @@ add_filter( 'fl_builder_mailchimp_double_option', '__return_true' );
 
 ## Filter front-end AJAX actions in Beaver Builder
 
-**Filters:** `fl_ajax_*` , appended with an AJAX action listed in *classes/class-fl-builder-ajax.php* 
+**Filters:** `fl_ajax_*` , appended with an AJAX action listed in *classes/class-fl-builder-ajax.php*
 
 Use this set of filters to filter the results of Beaver Builder’s front-end AJAX actions. For example,  for the `save_settings` action, the filter would be `fl_ajax_save_settings`, as shown in this example.
 
@@ -190,7 +231,7 @@ See the *classes/class-fl-builder-ajax.php* file for a complete list of core AJA
 
 **Filter:** `fl_builder_admin_settings_post_types`
 
-Use this filter to modify the post types that are shown at **Settings > Beaver Builder > Post types**, where you can choose which post types have the Beaver Builder editor enabled. 
+Use this filter to modify the post types that are shown at **Settings > Beaver Builder > Post types**, where you can choose which post types have the Beaver Builder editor enabled.
 
 Add the following code  to the _functions.php_ file in your child theme and modify it for the post types you want to filter. In this example, the `unset( $post_types['post'] );` line means that standard posts do not appear in the **Settings > Beaver Builder > Post types** list and cannot have the Beaver Builder editor enabled.
 
