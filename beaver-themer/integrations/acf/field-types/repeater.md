@@ -207,3 +207,19 @@ The Beaver Themer Repeater field connection shortcode also supports repeater fie
 :::caution
 The Repeater field shortcode supports only one nested Repeater field.
 :::
+
+## ACF User Forms
+
+The Beaver Themer Repeater field connection shortcode also supports repeater fields added to User Forms by adding `type='user'` to the repeater shortcode and `site:acf_user` to the fields inside the repeater.
+
+### Repeater
+
+```markup
+[wpbb-acf-repeater type='user' name='repeat']
+  
+  <p>[wpbb site:acf_user type='text' name='firstname']</p>
+  
+  <p>[wpbb site:acf_user type='text' name='lastname']</p>
+  
+[/wpbb-acf-repeater]
+```
