@@ -907,6 +907,52 @@ The attachment id for the selected video.
 
 ### Field Modifiers
 
+#### Default
+The Set array can be used to set a default value for the field.
+
+##### Example
+
+```php
+ 'my_set_field'   => array(
+  'type'          => 'select',
+  'label'         => __('Set Field', 'fl-builder'),
+  'default'       => 'option-1',
+  'description'	=> 'Choose Option 2 and see the Set Text get populated',
+  'options'       => array(
+   'option-1'      => __('Option 1', 'fl-builder'),
+   'option-2'      => __('Option 2', 'fl-builder')
+    ),
+),
+```
+
+
+#### Set
+
+The Set array can be used to set another field's value.
+
+The following field types support the set array:
+
+* button group
+* select
+
+```php
+ 'my_set_field'   => array(
+  'type'          => 'select',
+  'label'         => __('Set Field', 'fl-builder'),
+  'default'       => 'option-1',
+  'description'	=> 'Choose Option 2 and see the Set Text get populated',
+  'options'       => array(
+   'option-1'      => __('Option 1', 'fl-builder'),
+   'option-2'      => __('Option 2', 'fl-builder')
+    ),
+  'set' => [
+    'option-2'    => [
+     'set_text'     => 'Hello',
+     ],
+   ],
+),
+```
+
 #### Toggle
 
 The Toggle array can be used to show or hide other tabs, sections, or fields. If the value selected by the user matches one defined in your toggle array, those tabs, sections and fields will be shown; otherwise, they will be hidden.
@@ -936,30 +982,4 @@ The following field types support the toggle array:
 ),
 ```
 
-#### Set
-
-The Set array can be used to set another field's value.
-
-The following field types support the set array:
-
-* button group
-* select
-
-```php
- 'my_set_field'   => array(
-  'type'          => 'select',
-  'label'         => __('Set Field', 'fl-builder'),
-  'default'       => 'option-1',
-  'description'	=> 'Choose Option 2 and see the Set Text get populated',
-  'options'       => array(
-   'option-1'      => __('Option 1', 'fl-builder'),
-   'option-2'      => __('Option 2', 'fl-builder')
-    ),
-  'set' => [
-    'option-2'    => [
-     'set_text'     => 'Hello',
-     ],
-   ],
-),
-```
 
