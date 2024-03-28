@@ -344,6 +344,95 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guid
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/branding"
 status = 301
 force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-import-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#export--import"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/delete-a-saved-row-column-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#delete-saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/add-an-image-to-an-item-on-the-saved-tab"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#template-thumbnails"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/convert-a-global-row-column-module-to-standard"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content#convert-standard-to-global"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/convert-a-saved-row-column-module-to-global"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content#convert-standard-to-global"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/edit-a-saved-row-column-or-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/manage-saved-rows-columns-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/insert-a-saved-row-column-module-into-your-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/insert-a-saved-row-column-module-into-your-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/categorize-and-add-thumbnails-to-saved-templates-list"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#categorize-saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/rename-title-or-slug-saved-template-row-column-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#rename"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/edit-or-delete-saved-layout-templates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#delete-saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/manage-saved-layout-templates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/add-a-layout-template-to-your-page"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/layout-templates-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
+status = 301
+force = true
+
+
+
+
 
 # Redirect Contact Form module doc link
 [[redirects]]

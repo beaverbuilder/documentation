@@ -155,8 +155,8 @@ Choose a fallback image to appear for posts without featured images.
 
 Set the position of the featured image relative to post title or post content.
 
-* **Columns & Masonry** - Above Post Title or Above Post Content.
-* **List** - Above Title, Above Content, Left, Left Content, Right, and Right Content.
+- **Columns & Masonry** - Above Post Title or Above Post Content.
+- **List** - Above Title, Above Content, Left, Left Content, Right, and Right Content.
 
 :::caution
 Available for all layouts except Gallery.
@@ -178,13 +178,13 @@ Available for all layouts except Gallery.
 
 Adds padding to the around the image. Where the spacing occurs depends on the Image position setting.
 
-* **Above Title** - The number of pixels above, left, and right of the image.
+- **Above Title** - The number of pixels above, left, and right of the image.
 
-* **Above Content** - The number of pixels left and right of the image.
+- **Above Content** - The number of pixels left and right of the image.
 
-* **Left or Left Content** *(List only)* - Spacing between the image and the text to the right.
+- **Left or Left Content** _(List only)_ - Spacing between the image and the text to the right.
 
-* **Right or Right Content** *(List only)* - Spacing between the image and the text to the left.
+- **Right or Right Content** _(List only)_ - Spacing between the image and the text to the left.
 
 ### Image width
 
@@ -252,9 +252,9 @@ Show or hide post content. If set to **Yes**, the post excerpt is displayed, wit
 
 ### Content Type
 
-* **Excerpt** - Show the post excerpt.
+- **Excerpt** - Show the post excerpt.
 
-* **Full Text** - Show the full content of each post.  
+- **Full Text** - Show the full content of each post.
   If **Full Text** is selected, the **Content Length** option is no longer available.
 
 :::caution
@@ -287,47 +287,47 @@ Appears if **More Link** is set to **Show**
 
 The WooCommerce options appear in the [Layout tab](#layout-tab) when WooCommerce is installed.
 
-* **Product Ordering**  
+- **Product Ordering**
   Show or hide product ordering and product results information (Showing 1–16 of 22 results).
 
-* **Sale**  
+- **Sale**
   Show or hide the On Sale label.
 
-* **Rating**  
+- **Rating**
   Show or hide the product rating.
 
-* **Price**  
+- **Price**
   Show or hide the product price.
 
-* **Cart**  
+- **Cart**
   Show or hide the add to cart button.
 
-* **Show Hidden Products**  
+- **Show Hidden Products**
   Show or hide [hidden products](https://woocommerce.com/document/managing-products/#setting-catalog-visibility-options-and-feature-status).
 
 ### Events Calendar
 
 The Events Calendar options appear in the [Layout tab](#layout-tab) when the Events Calendar is installed.
 
-* **Event Date**  
+- **Event Date**
   Show or hide the event date.
 
-* **Event Venue**  
+- **Event Venue**
   Show or hide the event venue.
 
-* **Event Address**  
+- **Event Address**
   Show or hide the event address.
 
-* **Event Cost**  
+- **Event Cost**
   Show or hide the event cost.
 
-* **Events Order By**  
+- **Events Order By**
   The choices are: Default, Start Date, and End Date. Selecting **Default** uses the sorting option via the [Content tab](#content-tab).
 
-* **Events Order**  
+- **Events Order**
   Choose between descending or ascending.
 
-* **Show Events**  
+- **Show Events**
   The choices are: Future Events, Past Events, Todays Events, All Events, and [Featured Events](https://theeventscalendar.com/knowledgebase/k/featured-events/).
 
 ## Style tab
@@ -358,7 +358,7 @@ The Border section has settings for border, radius, and shadow.
 The Post module has a `1px` border by default. To remove the border, set the **Border > Style** option to **None**.
 :::
 
-See the [Borders](/beaver-builder/styles/effects/borders.md) article for more information.
+See the [Borders](../../../basics/border.md) article for more information.
 
 ### Title Color
 
@@ -400,72 +400,72 @@ Sets the hover color of links in full-text post content or custom excerpts.
 
 The following styling options are available for the [Gallery layout](#layout) only.
 
-* **Hover transition**
-  The type of transition when a user mouses over a post in the display: fade, slide up or down, scale up or down.  
+- **Hover transition**
+  The type of transition when a user mouses over a post in the display: fade, slide up or down, scale up or down.
 
-* **Overlay Text Color**  
-  The color of text overlaid on the featured image.  
+- **Overlay Text Color**
+  The color of text overlaid on the featured image.
 
-* **Overlay Background Color**  
-  The color of the overlay placed on the featured image. This setting is generally used to make the overlay text color more legible. Opacity is set in the color picker.  
+- **Overlay Background Color**
+  The color of the overlay placed on the featured image. This setting is generally used to make the overlay text color more legible. Opacity is set in the color picker.
 
-* **Use Icon for Posts**  
-  Choose **Yes** to display an icon on the line above or below the text.  
+- **Use Icon for Posts**
+  Choose **Yes** to display an icon on the line above or below the text.
 
-* **Post Icon**
-  Select the icon you want to display.  
+- **Post Icon**
+  Select the icon you want to display.
 
-* **Post Icon Position**  
-  Above or below the text.  
+- **Post Icon Position**
+  Above or below the text.
 
-* **Post Icon Color**  
+- **Post Icon Color**
   Set the Icon color.
 
-* **Post Icon Size**  
+- **Post Icon Size**
   Icon size in pixels.
 
 ### WooCommerce
 
 The WooCommerce options appear in the [Style tab](#style-tab) when WooCommerce is installed.
 
-* **Product Sale Background**  
+- **Product Sale Background**
   Set the Sale background color.
 
-* **Product Sale Text Color**  
+- **Product Sale Text Color**
   Set the Sale text color.
 
-* **Product Rating Foreground**  
+- **Product Rating Foreground**
   Set the product rating foreground color.
 
-* **Product Rating Background**  
+- **Product Rating Background**
   Set the product rating background color.
 
-* **Product Rating Font Size**  
+- **Product Rating Font Size**
   Set the product rating font size.
 
-* **Product Price Text Color**  
+- **Product Price Text Color**
   Set the product price color.
 
-* **Product Price Font Size**  
+- **Product Price Font Size**
   Set the product price font size.
 
 #### WooCommerce Cart Button
 
-* **Background Color**  
+- **Background Color**
   Set the background color for the add to cart button.
 
-* **Text Color**  
+- **Text Color**
   Set the text color for the add to cart button.
 
-* **Hover Background Color**  
+- **Hover Background Color**
   Set the background hover color for the add to cart button.
 
-* **Hover Text Color**  
+- **Hover Text Color**
   Set the text hover color for the add to cart button.
 
 ## Content tab
 
-The Content tab allows you to control the source of your posts and what content is displayed using the filter options.  
+The Content tab allows you to control the source of your posts and what content is displayed using the filter options.
 
 ### Source
 
@@ -482,7 +482,7 @@ It is recommended to use the main query over the custom query when creating Beav
 :::info Example
 Suppose you create a Beaver Themer archive layout and assign it to all archives on your website with a custom query as the source in the Post module. All archives on your website will display the same posts.
 
-However, when you use the main query as the source and view your archive pages, the posts will display correctly.   
+However, when you use the main query as the source and view your archive pages, the posts will display correctly.
 :::
 
 :::caution
@@ -513,11 +513,11 @@ A featured post could be displayed on your homepage using a Post module configur
 
 The choices are: **Author**, **Comment count**, **Date**, **Date last modified**, **ID**, **Menu order**, **Meta value** (alphabetic or numeric), **Random**, **Title**, **Selection order**.
 
-* **Menu order** can be used with a plugin such as [Post Types Order](https://wordpress.org/plugins/post-types-order/) to order the posts or custom posts in the same way you arrange them in the back end.
+- **Menu order** can be used with a plugin such as [Post Types Order](https://wordpress.org/plugins/post-types-order/) to order the posts or custom posts in the same way you arrange them in the back end.
 
-* **Meta value** option enables ordering by a custom field. If you select either the alphabetic or numeric **Meta value** option, a **Meta key** field appears so you can enter the key (`meta_key`).
+- **Meta value** option enables ordering by a custom field. If you select either the alphabetic or numeric **Meta value** option, a **Meta key** field appears so you can enter the key (`meta_key`).
 
-* **Selection Order** allows you to use drag and drop to reorder posts, pages, or custom post types added to the Filter settings. The order in which your posts, pages, or custom post types appear is reflected in the order of the items that appear on the page.  
+- **Selection Order** allows you to use drag and drop to reorder posts, pages, or custom post types added to the Filter settings. The order in which your posts, pages, or custom post types appear is reflected in the order of the items that appear on the page.
 
   ![Reorder posts, pages, or custom post types using drag and drop](/img/beaver-builder/modules--post-module--4.gif)
 
@@ -551,23 +551,23 @@ If you use [Multi-select Post Types](#post-type), filters from one post type app
 Start typing a word, and the filter options will display any title that matches what you typed. Keep selecting titles until you have the set you want to include or exclude. You can reorder the selections and how they are reflected in the front end. See also Selection Order in Filtering.
 :::
 
-* **Post** - Include or exclude a post or multiple posts, by typing the post title(s).
+- **Post** - Include or exclude a post or multiple posts, by typing the post title(s).
 
-* **Page** - Include or exclude a page or multiple pages, by typing the page title(s)
+- **Page** - Include or exclude a page or multiple pages, by typing the page title(s)
 
-* **Custom Post Type** - Include or exclude a set of posts from the custom post type, by the custom post type title(s).
+- **Custom Post Type** - Include or exclude a set of posts from the custom post type, by the custom post type title(s).
 
-* **Categories** - Include or exclude posts assigned to a specific category.
+- **Categories** - Include or exclude posts assigned to a specific category.
 
-* **Custom Taxonomies** - Include or exclude custom post types assigned to custom taxonomies. For example, if WooCommerce is installed, the Product Categories and Product Tag taxonomies are available.
+- **Custom Taxonomies** - Include or exclude custom post types assigned to custom taxonomies. For example, if WooCommerce is installed, the Product Categories and Product Tag taxonomies are available.
 
   :::info
   **Match related categories except**, is useful in Singular-type Themer layouts when you want to use the Posts module to display a list of related posts, and you want to display the related posts in a family of categories except for the specific categories that you name.
   :::
 
-* **Tags** - Include or exclude posts assigned to a specific tag.
+- **Tags** - Include or exclude posts assigned to a specific tag.
 
-* **Authors** - Include or exclude posts or pages by specific authors.
+- **Authors** - Include or exclude posts or pages by specific authors.
 
 ### Custom Field Filter
 
@@ -579,39 +579,39 @@ The Relation option allows you to apply logic to filter by custom fields. The ru
 
 #### Edit/Add Custom Field
 
-* **Label**  
+- **Label**
   Labels are used to identify custom fields. They appear in the Custom Field Filter section.
 
-* **Meta Key**  
+- **Meta Key**
   Custom field key or field name.
 
-* **Meta Value**  
+- **Meta Value**
   Custom field value.
 
-* **Type**  
+- **Type**
   A list of all available field types supported. Choose between:
 
-  * **Numeric**
-  * **Binary**
-  * **Text**
-  * **Date**
-  * **Date Time**
-  * **Decimal**
-  * **Signed**
-  * **Time**
-  * **Unsigned**
+  - **Numeric**
+  - **Binary**
+  - **Text**
+  - **Date**
+  - **Date Time**
+  - **Decimal**
+  - **Signed**
+  - **Time**
+  - **Unsigned**
 
-* **Compare**  
+- **Compare**
   You can use the Compare option to check whether or not the field value matches, or if it is greater than, less than, or the same as, depending on the comparison operator. Choose from the following operators:
 
-  * **Equals**
-  * **Does not equal**
-  * **Greater than**
-  * **Less than**
-  * **Greater than or equal to**
-  * **Less than or equal to**
-  * **Exists**
-  * **Not Exists**
+  - **Equals**
+  - **Does not equal**
+  - **Greater than**
+  - **Less than**
+  - **Greater than or equal to**
+  - **Less than or equal to**
+  - **Exists**
+  - **Not Exists**
 
 ## Pagination tab
 
@@ -619,20 +619,20 @@ The **Pagination** tab has settings that let you divide a large collection of po
 
 ### Pagination style
 
-* **Numbers**  
+- **Numbers**
   The pagination appears as numbers under the posts, and when a different number is clicked, a new page loads with the new set of posts.
 
-* **Scroll**  
+- **Scroll**
   A new set of posts are loaded into subsequent rows on the same page as the user scrolls down.
 
-* **Load More Button**  
+- **Load More Button**
   The Load More Button appears under the initial set of posts, and when clicked it generates the next set of posts. The user must keep clicking to get each next set of posts. This setting works better than Scroll when you want your users to have more control over the display, or when network bandwidth is low and you don't want to use resources loading more sets of posts unless the user really wants to see them.
 
   :::tip
   You can use the Load More Button style options to control the button's background, text, and icon colors.
   :::
 
-* **None**  
+- **None**
   No Pagination. Use this setting when you want to display only a subset of posts. For example, you might want to display only the three most recent posts.
 
 ### Posts Per Page
@@ -663,49 +663,50 @@ Show or hide a search form when no posts are found. See the screenshot below the
 
 This section appears when [Pagination Style](#pagination-style) is set to **Load More Button**.
 
-* **Button Text**  
+- **Button Text**
   The text that appears on the Load More Button.
 
-* **Button Icon**  
-  Optional icon to appear on the button. If you select an icon, there are two additional fields:  
+- **Button Icon**
+  Optional icon to appear on the button. If you select an icon, there are two additional fields:
 
-  * **Icon position**: Before or after the button text.
-  * **Icon visibility**: The icon can be always visible or appear on hover only.
+  - **Icon position**: Before or after the button text.
+  - **Icon visibility**: The icon can be always visible or appear on hover only.
 
-* **Button Width**  
+- **Button Width**
 
-  * **Auto Width**: Width adjusts to fit the text and icon.
-  * **Full Width**: The width expands to the content area minus the module's margin settings.
+  - **Auto Width**: Width adjusts to fit the text and icon.
+  - **Full Width**: The width expands to the content area minus the module's margin settings.
 
-* **Button Padding**  
+- **Button Padding**
   Set a specific padding value in pixels. Click the Link Value icon to automatically make all four padding values the same.
 
-* **Button Text Color**  
+- **Button Text Color**
   Set the button text color in the resting state.
 
-* **Button Text Hover Color**  
+- **Button Text Hover Color**
   Set the button color on hover. If this setting is left blank, the Text color setting applies for hover also.
 
-* **Button Typography**  
+- **Button Typography**
   See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
 
-* **Button Background Color**  
+- **Button Background Color**
   Set the fill color for the button in the resting state.
 
-* **Button Background Hover Color**  
+- **Button Background Hover Color**
   Set the button's fill color on hover. If this setting is left blank, the Background Color setting applies to hover also.
 
-* **Button Background Style**  
-  * **Flat**: consistent fill color
-  * **Gradient**: gradient of the background color, lighter on top and darker on the bottom.
+- **Button Background Style**
 
-* **Button Background Animation**  
+  - **Flat**: consistent fill color
+  - **Gradient**: gradient of the background color, lighter on top and darker on the bottom.
+
+- **Button Background Animation**
   Disabled by default. If set to Enabled, there's a 0.2-second linear transition from resting state to hover state.
 
-* **Button Border**  
+- **Button Border**
   See the Border article for more information.
 
-* **Button Border Hover Color**  
+- **Button Border Hover Color**
   Set the border hover color for the button.
 
 ## Advanced tab
