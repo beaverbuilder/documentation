@@ -11,7 +11,7 @@ Here's something you can try.
 First, find the ID or class name of your theme’s content wrapper. If you look at the HTML source for a page, the content wrapper is usually a `<div>` tag that occurs after the header block, and it often uses an ID or class with the selector`content`, for example:
 
 ```html
-<div id="content">
+<div id="content"></div>
 ```
 
 Next, write a rule for the CSS class of the type of layout you want full width with that content wrapper ID or class inside it.
@@ -26,13 +26,13 @@ If `id="content"` is the selector for your content wrapper, then the rule would 
 .fl-theme-builder-singular #content,
 .fl-theme-builder-archive #content,
 .fl-theme-builder-404 #content {
-    padding: 0;
-    margin: 0;
-    max-width: none;
-    width: auto;
+  padding: 0;
+  margin: 0;
+  max-width: none;
+  width: auto;
 }
 ```
 
-See the article on [where to put custom CSS code](/beaver-builder/styles/custom-code).
+See the article on [where to put custom CSS code](/beaver-builder/basics/custom-code).
 
 If you cannot get this rule to work, [contact Support](https://www.wpbeaverbuilder.com/beaver-builder-support/) for help.

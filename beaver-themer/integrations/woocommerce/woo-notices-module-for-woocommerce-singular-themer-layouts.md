@@ -15,9 +15,9 @@ The Woo Notices module lets you reposition WooCommerce notices from the default 
 
 This module also lets you style the notices with the following settings on the **Style** tab:
 
-* **Text color**
-* **Background color**
-* The [standard **Border** section settings](/beaver-builder/styles/effects/borders)
-* The [standard **Typography** section](/beaver-builder/styles/typography)
+- **Text color**
+- **Background color**
+- The [standard **Border** section settings](/beaver-builder/basics/border)
+- The [standard **Typography** section](/beaver-builder/basics/typography)
 
-There are also  the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab).
+There are also the standard features on the [**Advanced** tab](/beaver-builder/layouts/advanced-tab).

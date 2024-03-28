@@ -17,14 +17,14 @@ If the **min-width** value is larger than the **width** value, the behavior is m
 **To set the header at full width and the content at a boxed width:**
 
 1. Go to **Customize > General > Layout**, then set the **Layout** to be **Full width**. Click **Save & Publish**.
-2. Add the following CSS code, adjusting the **min-width** and **width** values.  
-See the [article on where to add CSS code](/beaver-builder/styles/custom-code).  
+2. Add the following CSS code, adjusting the **min-width** and **width** values.
 
-  ```css
-  @media (min-width: 1200px) { /* Min-width preferably greater than or equal to width below */
-    .fl-page .fl-page-content {
-      width: 1100px; /* Can be adjusted to preferred width */
-      margin: 0px auto;
-    }
+```css
+@media (min-width: 1200px) {
+  /* Min-width preferably greater than or equal to width below */
+  .fl-page .fl-page-content {
+    width: 1100px; /* Can be adjusted to preferred width */
+    margin: 0px auto;
   }
-  ```
+}
+```

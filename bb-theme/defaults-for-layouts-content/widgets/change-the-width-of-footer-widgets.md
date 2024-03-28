@@ -8,8 +8,8 @@ By default, all of the widgets have equal widths. You can use the snippet below 
 
 **To change the width of footer widgets:**
 
-* Add the CSS rule shown below. Remove parts of the rule to match the number of columns you have, and adjust the width percentages to suit your needs.  
-  See the article on [where to add CSS code](/beaver-builder/styles/custom-code).  
+- Add the CSS rule shown below. Remove parts of the rule to match the number of columns you have, and adjust the width percentages to suit your needs.
+  See the article on [where to add CSS code](/beaver-builder/basics/custom-code).
 
   ```css
   /*Change width of the footer widgets*/

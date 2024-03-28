@@ -3,44 +3,53 @@ id: performance
 title: Performance
 sidebar_label: Performance
 description: This article provides suggestions and recommendations for improving your website's performance.
-draft: true
 ---
 
-This article provides recommendations for optimizing your website's performance.
-
-:::info
-Beaver Builder was developed with performance in mind, and we've taken steps to ensure that it doesn't slow down your site. However, a website's performance is influenced by a number of factors, including the hosting environment, server configuration, images, the number of plugins, and even the theme.
-:::
+Beaver Builder is designed to be fast and efficient, with various measures in place to prevent it from compromising your website's speed. Nonetheless, the overall performance of a website is affected by multiple elements such as the hosting environment, server configuration, image sizes, plugin quantity, and the chosen theme. In this guide, you'll find tips and strategies for enhancing the speed and efficiency of your website.
 
 :::tip
+
 For more tips on optimizing your WordPress site, check out the [WordPress Optimization](https://wordpress.org/support/article/optimization/) article.
+
 :::
+
+## TL;DR
+
+1. **Hosting**: Avoid shared hosting and consider Managed WordPress Hosting or a VPS.
+2. **PHP**: Ensure your server is running the most current version of PHP.
+3. **CDN**: Use a content delivery network (CDN) to deliver assets quickly.
+4. **WordPress, Plugins & Themes**: Keep everything up-to-date and use only maintained plugins and themes.
+5. **Cache Plugins**: Install and configure a cache plugin, such as [WP Rocket](https://www.wpbeaverbuilder.com/go/wprocket).
 
 ## Hosting
 
-The most popular type of WordPress hosting is **shared hosting** and is by far the cheapest option. All shared hosting providers overcrowd their servers, allowing hundreds or even thousands of websites to run on the same server.
+The most economical and widely used WordPress hosting option is shared hosting. Shared hosting providers pack numerous websites onto the same server, resulting in shared resources such as CPU, memory, and disk space among all hosted sites.
 
-All websites on the server share resources (CPU, memory, disk space, etc.) and as a result, your website's performance is adversely affected. It is inevitable that users of this type of hosting will experience poor performance, regardless of how they optimize their website.
+This shared resource allocation adversely impacts the performance of individual websites, leading to inevitable poor performance for users, regardless of optimization efforts.
 
 :::tip
-You can determine whether your website is hosted on a shared server by going to [ViewDNS.Info](https://viewdns.info/reverseip/). This performs a reverse IP lookup using your website's domain and displays all other websites hosted on the server.
 
-Enter your website's domain name only and exclude everything else. If your website URL is `https://my-website.com/`, enter only `my-website.com` and omit the trailing slash `/` and `https://`
+To check if your website is on a shared server, visit [ViewDNS.Info](https://viewdns.info/reverseip/). Use your website's domain for a reverse IP lookup, revealing all other sites sharing the server.
+
+Enter only your website's domain, excluding any additional elements. For instance, if your website URL is `https://my-website.com/`, input only `my-website.com`, excluding the trailing slash (`/`) and `https://`.
+
 :::
 
-We **do not** recommend shared hosting and advise anyone concerned about the performance of their website to migrate to **Managed WordPress Hosting** or a **VPS**.
+We discourage the use of shared hosting and suggest that those concerned about their website's performance consider migrating to Managed WordPress Hosting or a VPS.
 
-The hosting companies listed below specialise in hosting WordPress sites and provide services that standard web hosts do not provide.
+The hosting companies listed below specialize in WordPress hosting, offering services beyond what standard web hosts provide.
 
-* [Cloudways](https://www.wpbeaverbuilder.com/go/cloudways)
-* [Digital Ocean](https://www.wpbeaverbuilder.com/go/digitalocean)
-* [Kinsta](https://www.wpbeaverbuilder.com/go/kinsta)
-* [Linode](https://www.wpbeaverbuilder.com/go/linode)
-* [Page.ly](https://www.wpbeaverbuilder.com/go/pagely)
-* [SiteGround](https://www.wpbeaverbuilder.com/go/siteground)
+- [Cloudways](https://www.wpbeaverbuilder.com/go/cloudways)
+- [Digital Ocean](https://www.wpbeaverbuilder.com/go/digitalocean)
+- [Kinsta](https://www.wpbeaverbuilder.com/go/kinsta)
+- [Linode](https://www.wpbeaverbuilder.com/go/linode)
+- [Page.ly](https://www.wpbeaverbuilder.com/go/pagely)
+- [SiteGround](https://www.wpbeaverbuilder.com/go/siteground)
 
 :::caution
-Although virtual private servers (VPSs), like those offered by Digital Ocean and Linode, give unmatched performance, you are responsible for updating the operating system and PHP.
+
+While virtual private servers (VPS), such as those offered by Digital Ocean and Linode, provide unmatched performance, you are tasked with the responsibility for managing the server, such as updating the operating system and PHP.
+
 :::
 
 ## PHP
@@ -58,7 +67,9 @@ Content delivery networks (CDNs) are networks of servers that provide rapid deli
 Due to the importance of page speed in rankings, CDNs not only improve the performance of your website, but also improve your search engine optimization (SEO).
 
 :::info
+
 By default, Beaver Builder CSS and JavaScript will not use your CDN URL. For example, row background images will use your site URL rather than the CDN URL. You can force Beaver Builder CSS and JavaScript to use your CDN URL using the hooks `fl_builder_render_css` and `fl_builder_render_js`.
+
 :::
 
 ## WordPress, Plugins & Themes
@@ -80,22 +91,11 @@ We strongly discourage against compound caching, which involves the use of multi
 If your website currently utilizes server-side caching, we recommend using either a service like Cloudflare or a cache plugin, but not all three.
 :::
 
-## Optimize Images
+## Optimize Assets
 
-The goal of optimizing your images is to reduce the size of the image files while maintaining image quality. The following tools and plugins can help optimize your images.
+Optimizing your website's assets, such as images and videos, is crucial for improving performance. There are numerous plugins and services available to help with this.
 
-* [ImageOptim](https://imageoptim.com)
-* [Imagify](https://wordpress.org/plugins/imagify/)
-* [JPEGmini](https://www.jpegmini.com/)
-* [Kraken.io](https://kraken.io/)
-* [ShortPixel](https://wordpress.org/plugins/shortpixel-image-optimiser/)
-* [TingPNG](https://tinypng.com/)
-
-## Optimize Videos
-
-Uploading video files to your website's WordPress media library is strongly discouraged. Instead, we recommend uploading your videos to services like YouTube or Vimeo and embedding the video on your website via a [Video module](modules/video.md).
-
-Nevertheless, if you prefer to upload to the WordPress media library, optimizing your videos is necessary and the [HandBrake](https://handbrake.fr/) application can help with this.
+As for videos, uploading video files to your website's WordPress media library is strongly discouraged. Instead, we recommend uploading your videos to services like YouTube or Vimeo and embedding the video on your website via a [Video module](modules/video.md). Nevertheless, if you prefer to upload to the WordPress media library, optimizing your videos is necessary and the [HandBrake](https://handbrake.fr/) application can help with this.
 
 ## WordPress Revisions
 
@@ -140,8 +140,8 @@ If you click **History** in the [Tools menu](user-interface/tools-menu.md), any 
 This method requires access to the **wp-config.php** file in your WordPress installation root. It reduces or disables History for all Beaver Builder layouts site-wide.
 
 1. Open the **wp-config.php** file for editing.
-2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:  
-  
+2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:
+
   ```php
   if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {define( 'FL_BUILDER_HISTORY_STATES', 20 );}
   ```

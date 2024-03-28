@@ -16,31 +16,36 @@ Be careful about using too many different fonts if you're trying to pare down pa
 
 ## Load the font
 
-  1. At fonts.google.com, go to the page listing the font you want to use, and click **Select this font**.
-  2. Click the **Family selected** box in the lower right corner to open the information about how to use the font.
-  3. On the **Embed** tab, copy the `<link>` embed code. In this example, the Cormorant font has this embed code:  
+1. At fonts.google.com, go to the page listing the font you want to use, and click **Select this font**.
+2. Click the **Family selected** box in the lower right corner to open the information about how to use the font.
+3. On the **Embed** tab, copy the `<link>` embed code. In this example, the Cormorant font has this embed code:
 
-  ```html
-  <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
-  ```
+```html
+<link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet" />
+```
 
-  4. Go to **Customize > Code > Head code** and paste in the embed code.
+4. Go to **Customize > Code > Head code** and paste in the embed code.
 
 ## Write the CSS rule
 
-1. Back at the Google font family page, copy the code from the **Specify in CSS** section.  
-  In this example, it's as follows:  
+1. Back at the Google font family page, copy the code from the **Specify in CSS** section.
+   In this example, it's as follows:
 
-  ```css
-  font-family: 'Cormorant', serif;
-  ```
+```css
+font-family: "Cormorant", serif;
+```
 
-2. Add the following CSS code, substituting the name of your Google font.    
-See the [article on where to add custom CSS code](/beaver-builder/styles/custom-code).   
+2. Add the following CSS code, substituting the name of your Google font.
+   See the [article on where to add custom CSS code](/beaver-builder/basics/custom-code).
 
-  ```css
-  /* Add Cormorant Google font */
-  h1, h2, h3, h4, h5, h6 {
-      font-family: 'Cormorant', serif;
-  }
-  ```
+```css
+/* Add Cormorant Google font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant", serif;
+}
+```

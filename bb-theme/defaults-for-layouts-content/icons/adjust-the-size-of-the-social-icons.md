@@ -12,9 +12,9 @@ See how to set up the social icons in the [header](/bb-theme/customizer-settings
 
 **To adjust the size of the social icons:**
 
-  1. Add one of the CSS rules below, depending on where your social icons appear.  
-  See the [article on where to add CSS code](/beaver-builder/styles/custom-code).
-  2. Click **Save & Publish**.
+1. Add one of the CSS rules below, depending on where your social icons appear.
+   See the [article on where to add CSS code](/beaver-builder/basics/custom-code).
+2. Click **Save & Publish**.
 
 :::info
 If you make the icons too large and spaced too far apart, you may exceed the width of the theme column, and the icon row will wrap.
@@ -41,7 +41,7 @@ Change the font size in Line 3 to the size you want, and adjust the spacing betw
 
 ```css
 /* Resize and reposition the Font Awesome social icons in the Nav Bottom header */
-.fl-page-header-primary .fl-social-icons .fa-stack  {
+.fl-page-header-primary .fl-social-icons .fa-stack {
   font-size: 30px;
   width: 80px;
 }

@@ -1,7 +1,7 @@
 ---
 id: event-cost
 title: Event Cost module
-sidebar_label: 'Singular: Event Cost'
+sidebar_label: "Singular: Event Cost"
 description: The article covers the Event Cost module which displays an event's cost.
 ---
 
@@ -19,7 +19,7 @@ The Event Cost module appears in **The Events Calendar** section of the **Themer
 
 ## Style tab
 
-The **Style** tab has a variety of settings that apply to the [`the_event_calendar_cost`](../field-connections.md#event-cost) field connection and any other text in the module, such as text color and the Beaver Builder [Typography section](/beaver-builder/styles/typography), which gives you many choices not available in the text editor, starting with font family.
+The **Style** tab has a variety of settings that apply to the [`the_event_calendar_cost`](../field-connections.md#event-cost) field connection and any other text in the module, such as text color and the Beaver Builder [Typography section](/beaver-builder/basics/typography), which gives you many choices not available in the text editor, starting with font family.
 
 ## The Advanced tab
 

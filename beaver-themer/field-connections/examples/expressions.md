@@ -30,16 +30,15 @@ In this example, the [Post Type](../wordpress-data.md#post-type) field connectio
 [wpbb-if post:post_type display='slug' exp='equals' value='post']
 
   <h2 style="color: green;">[wpbb post:title]</h2>
-        
+
 [wpbb-else]
-    
+
   <h2 style="color: black;">[wpbb post:title]</h2>
-        
+
 [/wpbb-if]
 ```
 
 :::tip
-
 
 You can replace `value='post'` with the slug of your chosen post type or custom post type. For instance, `value='movies'`.
 
@@ -70,7 +69,7 @@ This is a great way to style specific taxonomy terms differently than others.
 In this example, we're using the `equals` expression to check whether the event's end date is the same day as the start date. If the statement is `true`, only the start date displays. If the statement is `false` meaning the start date and end date do not match, both the start date and end date display.
 
 ```markup
-[wpbb-if post:the_events_calendar_start_date exp='equals' value='[wpbb post:the_events_calendar_end_date']
+[wpbb-if post:the_events_calendar_start_date exp='equals' value='[wpbb post:the_events_calendar_end_date']']
 
   <p><strong>Date:</strong> [wpbb post:the_events_calendar_start_date format='']</p>
 
@@ -111,7 +110,7 @@ If the statement is `TRUE`, meaning any post that has a title containing the wor
 
 ```markup
 [wpbb-if post:title exp='contains' value='What’s New']
-    
+
   <h3><i class="fa-solid fa-sparkles"></i> [wpbb post:title]</h3>
 
 [wpbb-else]
@@ -151,7 +150,7 @@ The following example uses the ACF number field along with the `greater` operato
 
 #### Output
 
-> TRUE: The ACF Number field FIELD_NAME value is greater than 500.  
+> TRUE: The ACF Number field FIELD_NAME value is greater than 500.
 > The number field value is 501.
 
 ## Greater Equals
@@ -178,7 +177,7 @@ The following example uses the ACF number field along with the `greaterequals` o
 
 #### Output
 
-> TRUE: The ACF Number field FIELD_NAME value equal to or greater than 100.  
+> TRUE: The ACF Number field FIELD_NAME value equal to or greater than 100.
 > The number field value is 100.
 
 ## Less
@@ -226,11 +225,11 @@ The following example uses the ACF number field along with the `lessequals` oper
 
   FALSE: The ACF FIELD_NAME field isn't equal to or less than 100. .<br>
   The number field value is [wpbb post:acf type='number' name='FIELD_NAME'].
-	
+
 [/wpbb-if]
 ```
 
 #### Output
 
-> True: The ACF number_value field is equal to or less than 100.  
+> True: The ACF number_value field is equal to or less than 100.
 > The number field value is 90.

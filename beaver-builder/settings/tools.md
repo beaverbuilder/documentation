@@ -17,7 +17,7 @@ The **Tools** tab in the Beaver Builder settings lets you control which post typ
 
 ## Cache
 
-A CSS and JavaScript file are dynamically generated and cached whenever you create a new layout. The files are stored in the *`wp-content/uploads/bb-plugin/cache`* directory, where they are used to improve performance. The following actions result in the deletion and creation of these files automatically:
+A CSS and JavaScript file are dynamically generated and minified whenever you create a new layout. The files are stored in the *`wp-content/uploads/bb-plugin/cache`* directory, where they are used to improve performance. The following actions result in the deletion and creation of these files automatically:
 
 * Updates are made to a page, post, or custom post type.
 * The Beaver Builder plugin is updated.
@@ -73,7 +73,7 @@ The cache is cleared under the following conditions:
 
 * When WordPress finishes updating plugins and themes.
 
-* When Beaver Builder editor is active.  
+* When Beaver Builder editor is active.
   This works by defining the `DONOTCACHEPAGE` constant while the page is being edited. This constant is respected by most caching plugins.
 
 * When layouts and templates are saved in the Beaver Builder editor.
@@ -139,7 +139,7 @@ https://my-website.com/?fl_builder&showerrors
 
 ### PHP Info
 
-You can also use Beaver Builder debug mode to display your website's PHP configuration, also known as phpinfo. After enabling Debug Mode, add the parameter `&info` to your debug URL to view your PHP configuration. 
+You can also use Beaver Builder debug mode to display your website's PHP configuration, also known as phpinfo. After enabling Debug Mode, add the parameter `&info` to your debug URL to view your PHP configuration.
 
 ```markup
 https://my-website.com/?fldebug=a12340b6390778c2geg3f832aaf1ae31&info
@@ -168,7 +168,7 @@ We don't encourage this setting, so you will not see it until you have enabled b
 
 2. On the **Tools** tab, scroll to the **Prerelease Updates** section.
 
-3. Select the checkbox **Enable Alpha updates**.  
+3. Select the checkbox **Enable Alpha updates**.
   If you don't see this checkbox, enable Beta updates first and save.
 
 4. Click Save prerelease settings.
@@ -230,7 +230,7 @@ The easiest way to do this is to the the [Post Meta Manager](https://wordpress.o
 
 ![Delete meta keys](/img/beaver-builder/settings--tools--3.jpg)
 
-### What happens after 
+### What happens after
 
 When you remove Beaver Builder using **Uninstall**, here is what happens.
 
