@@ -34,16 +34,16 @@ location.
 
 Both modules offer:
 
-  * A heading and a text editor for optional text.
-  * A button with the ability to configure button style.
-  * An optional icon on the button with the ability to position it relative to the text.
+- A heading and a text editor for optional text.
+- A button with the ability to configure button style.
+- An optional icon on the button with the ability to position it relative to the text.
 
 They differ in the following ways:
 
-  * The Callout module allows an optional image or icon, with the ability to position it above, below, left, or right of the text.
-  * In the Call to Action module, the button is required; in the Callout module it is optional, and there is an option for linked text instead of a button, or neither one.
-  * In the Callout module, the link you specify applies to the heading, the image, and the button. In the Call to Action module, only the button has the link.
-  * There are some minor styling differences. For example, the Call to Action module allows you to adjust the spacing above and below it.
+- The Callout module allows an optional image or icon, with the ability to position it above, below, left, or right of the text.
+- In the Call to Action module, the button is required; in the Callout module it is optional, and there is an option for linked text instead of a button, or neither one.
+- In the Callout module, the link you specify applies to the heading, the image, and the button. In the Call to Action module, only the button has the link.
+- There are some minor styling differences. For example, the Call to Action module allows you to adjust the spacing above and below it.
 
 Here are some more examples of Callout and Call to Action modules with
 buttons. Here's a Callout module with the image on the left and an icon on the
@@ -98,29 +98,29 @@ described below.
 
 #### 1 Top section
 
-  * **Layout**  
-**Stacked** : the heading appears above the text, which appears above the
-button.  
-**Inline** : the heading a text appear to the left of the button.
+- **Layout**
+  **Stacked** : the heading appears above the text, which appears above the
+  button.
+  **Inline** : the heading a text appear to the left of the button.
 
-  * **Background color**  
-Fills the module background with the designated color. If you have Beaver
-Themer, this field has a field connection (the Plus icon) to let you use a
-custom field to assign the color for the particular post or page the layout
-applies to.
+- **Background color**
+  Fills the module background with the designated color. If you have Beaver
+  Themer, this field has a field connection (the Plus icon) to let you use a
+  custom field to assign the color for the particular post or page the layout
+  applies to.
 
-  * **Border** (responsive)  
-This is the standard Border section, to attach a [border](/beaver-builder/styles/effects/borders.md) or [border effect](/beaver-builder/styles/effects/radius-shadow.md).
+- **Border** (responsive)
+  This is the standard Border section, to attach a [border](basics/border.md) or [border effect](basics/border.md).
 
-  * **Alignment**  
-Left, center, or right horizontal alignment, or default alignment if none of
-the three choices are selected. See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for more
-information.
+- **Alignment**
+  Left, center, or right horizontal alignment, or default alignment if none of
+  the three choices are selected. See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for more
+  information.
 
-  * **Padding (responsive)**  
-The distance from the module's border to its content, in **px**, **em**, or
-**%** units. You can enter these values per device size by clicking the device
-icon or entering **Responsive Editing Mode**. See [this article](/beaver-builder/layouts/responsive-design/index.md) for more information about responsive editing.  
+- **Padding (responsive)**
+  The distance from the module's border to its content, in **px**, **em**, or
+  **%** units. You can enter these values per device size by clicking the device
+  icon or entering **Responsive Editing Mode**. See [this article](/beaver-builder/layouts/responsive-design/index.md) for more information about responsive editing.
 
 ![](/img/callout-9.png)
 
@@ -128,10 +128,10 @@ icon or entering **Responsive Editing Mode**. See [this article](/beaver-builder
 
 Settings for the heading portion of the call to action:
 
-* **Heading color**  
-Opacity is set with the right-hand slider in the [Color Picker](/beaver-builder/styles/colors/color-picker.md).
-* [**Heading Typography** section](/beaver-builder/styles/typography/typography.md) (responsive)  
-Includes various font settings and a text shadow effect.
+- **Heading color**
+  Opacity is set with the right-hand slider in the [Color Picker](basics/color-picker.md).
+- [**Heading Typography** section](basics/typography.md) (responsive)
+  Includes various font settings and a text shadow effect.
 
 #### **3 Text** section
 
@@ -158,7 +158,7 @@ etc.). If you want to enter a custom font size, you can do that in the
 The **Style** tab for the Callout module is identical to that for the Call to
 Action module. See the previous section for a description of the fields.
 
-###  Image tab
+### Image tab
 
 On the **Image** tab, the settings are different depending on whether you
 select a photo or an icon in the **Image type** field.
@@ -170,51 +170,51 @@ style**.
 
 The **Photo** section has the following fields:
 
-  * **Photo**  
-Select the photo and the maximum photo size. The photo size can be customized
-in the **Width** field of the **Photo style** section.
+- **Photo**
+  Select the photo and the maximum photo size. The photo size can be customized
+  in the **Width** field of the **Photo style** section.
 
-  * **Position**  
-You can choose for the photo to appear above or below the heading or to the
-left or right of the text and heading. If there's also a button or link, the
-photo is vertically centered to the left or right.
+- **Position**
+  You can choose for the photo to appear above or below the heading or to the
+  left or right of the text and heading. If there's also a button or link, the
+  photo is vertically centered to the left or right.
 
 The **Photo style** section has the following fields:
 
-  * **Photo crop**  
-You can crop the photo into a specific shape.
+- **Photo crop**
+  You can crop the photo into a specific shape.
 
-  * **Width**  
-Choose a custom max width for the photo in **px**, **vw**, or **%**. If you
-don't enter a value here, the max width will be determined by the photo size
-you selected in the **Photo** section.
+- **Width**
+  Choose a custom max width for the photo in **px**, **vw**, or **%**. If you
+  don't enter a value here, the max width will be determined by the photo size
+  you selected in the **Photo** section.
 
-  * **Alignment** (responsive)  
-Sets the [alignment](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for the photo within its column space. If the photo
-placement is over or under, this aligns the photo to the left, center or right
-over the heading and text. If the photo placement is to the left or right,
-this aligns the photo in the left column.   
-**Tip:** To move the left or right photo closer to the heading and text,
-adjust the settings in the **Padding** field on the **Style** tab.
+- **Alignment** (responsive)
+  Sets the [alignment](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for the photo within its column space. If the photo
+  placement is over or under, this aligns the photo to the left, center or right
+  over the heading and text. If the photo placement is to the left or right,
+  this aligns the photo in the left column.
+  **Tip:** To move the left or right photo closer to the heading and text,
+  adjust the settings in the **Padding** field on the **Style** tab.
 
-  * **Border**   
-Standard settings for [border](/beaver-builder/styles/effects/borders.md) and [border effects](/beaver-builder/styles/effects/radius-shadow.md). Setting **Radius** rounds
-the corners of the photo.
+- **Border**
+  Standard settings for [border](basics/border.md) and [border effects](basics/border.md). Setting **Radius** rounds
+  the corners of the photo.
 
-####  Icons
+#### Icons
 
 Setting **Image type** to **Icon** opens three sections: **Icon**, **Icon
 colors**, and **Icon style**.
 
 The **Icon** section has the following fields.
 
-  * **Icon**  
-[Select the icon](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md).
+- **Icon**
+  [Select the icon](settings/icons.md#enable-or-disable-icon-sets).
 
-  * **Position**  
-You can choose for the icon to appear above or below the heading or to the
-left or right of just the heading or the heading and text both. If there's
-also a button or link, the photo is vertically centered to the left or right.
+- **Position**
+  You can choose for the icon to appear above or below the heading or to the
+  left or right of just the heading or the heading and text both. If there's
+  also a button or link, the photo is vertically centered to the left or right.
 
 **Note:**
 
@@ -231,28 +231,28 @@ tab) is set to **Right**.
 
 The **Icon colors** section has the following fields:
 
-  * **Color**  
-If this color is unspecified, the default accent color is used. For Beaver
-Builder Theme, this is set in the Customizer at **General > Accent Color**.
+- **Color**
+  If this color is unspecified, the default accent color is used. For Beaver
+  Builder Theme, this is set in the Customizer at **General > Accent Color**.
 
-  * **Hover color**  
-If this color is unspecified, the default accent color is used. For Beaver
-Builder Theme, this is set in the **Hover colo** r field in Customizer at
-**General > Accent Color**.
+- **Hover color**
+  If this color is unspecified, the default accent color is used. For Beaver
+  Builder Theme, this is set in the **Hover colo** r field in Customizer at
+  **General > Accent Color**.
 
-  * **Background color**  
-Setting a background color adds a circle with a border behind the icon, as
-shown in the screenshot. If this color is unspecified no color is added.  
-![](/img/callout-11.png)
+- **Background color**
+  Setting a background color adds a circle with a border behind the icon, as
+  shown in the screenshot. If this color is unspecified no color is added.
+  ![](/img/callout-11.png)
 
-  * **Background hover color**  
-Sets the background color on hover. If this field is not set, the **Background
-color** setting is used.
+- **Background hover color**
+  Sets the background color on hover. If this field is not set, the **Background
+  color** setting is used.
 
-  * **Gradient**  
-Sets a gradient on the background color, if there is one. The screenshot above
-shows a gradient on the background color, which is lighter at the top and
-darker at the bottom.
+- **Gradient**
+  Sets a gradient on the background color, if there is one. The screenshot above
+  shows a gradient on the background color, which is lighter at the top and
+  darker at the bottom.
 
 ### Link tab
 
@@ -262,22 +262,22 @@ photo or icon, and the button or link text.
 In the **Call to Action** section, the **Type** field has the following
 choices:
 
-  * **None**  
-Does not display either a button or link text. however, if you have set a
-link, that link will still be set on the heading and a photo or icon.
+- **None**
+  Does not display either a button or link text. however, if you have set a
+  link, that link will still be set on the heading and a photo or icon.
 
-  * Link  
-Choosing **Link** opens a **Text** field and a **Link text** section, as shown
-in the following screenshot and described below.  
-![](/img/callout-12.png)  
-The **Link text** section lets you assign link and link hover color, and the
-**Link typography** subsection is the [standard **Typography** section](/beaver-builder/styles/typography/typography.md).
+- Link
+  Choosing **Link** opens a **Text** field and a **Link text** section, as shown
+  in the following screenshot and described below.
+  ![](/img/callout-12.png)
+  The **Link text** section lets you assign link and link hover color, and the
+  **Link typography** subsection is the [standard **Typography** section](basics/typography.md).
 
-  * **Button  
-**This choice opens a **Text** field and a number of button sections, as shown
-in the following screenshot.  
-![](/img/callout-13.png)  
-These button sections have most of the same options of the [Button module](/beaver-builder/layouts/modules/button/button.md).
+- **Button
+  **This choice opens a **Text** field and a number of button sections, as shown
+  in the following screenshot.
+  ![](/img/callout-13.png)
+  These button sections have most of the same options of the [Button module](/beaver-builder/layouts/modules/button/button.md).
 
 ### Advanced tab
 

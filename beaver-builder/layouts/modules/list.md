@@ -126,7 +126,7 @@ This is where you add the content and style for individual list items. Click **E
   Adds padding around the list items themselves, as shown in this screenshot. If you want even more control over padding around list items, use the **List item padding** setting on the **Style** tab for individual list items.
   ![](/img/list-item-padding.png)
 - **Border around list** (responsive)
-  Adds a border, radius, or shadow around the list, using [standard Beaver Builder border settings](/beaver-builder/styles/effects/borders.md).
+  Adds a border, radius, or shadow around the list, using [standard Beaver Builder border settings](basics/border.md).
 
 #### Icon style section
 
@@ -161,7 +161,9 @@ As a workaround, you can use some inline CSS in the text editor to increase the 
 - For the content text of each list item, go to the **Text** tab of the text editor and wrap the content with an HTML tag such as `<p>`, then add a **style** attribute and adjust the number of pixels of padding to indent the content to what you want, as in this example:
 
 ```html
-<p style="padding-left:20px;">This is the content text under the heading, indented by 20px.</p>
+<p style="padding-left:20px;">
+  This is the content text under the heading, indented by 20px.
+</p>
 ```
 
 :::
@@ -171,14 +173,14 @@ As a workaround, you can use some inline CSS in the text editor to increase the 
 - **Heading color**
   The color of the heading text in every list item.
 - **Typography** (responsive)
-  The standard Beaver Builder [Typography section](/beaver-builder/styles/typography/typography.md) for setting font family, weight, spacing, and so on.
+  The standard Beaver Builder [Typography section](basics/typography.md) for setting font family, weight, spacing, and so on.
 
 #### Content style section
 
 - **Content color**
   The color of the content in every list item.
 - **Typography** (responsive)
-  The standard Beaver Builder [Typography section](/beaver-builder/styles/typography/typography.md).
+  The standard Beaver Builder [Typography section](basics/typography.md).
 
 #### Item separator section
 

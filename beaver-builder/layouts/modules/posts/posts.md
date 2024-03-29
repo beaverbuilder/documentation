@@ -366,7 +366,7 @@ Set the color of the post title.
 
 ### Title Typography
 
-You can style the title of the post using the [Typography](/beaver-builder/styles/typography/typography.md) options, including font size, family, line height, and more.
+You can style the title of the post using the [Typography](basics/typography.md) options, including font size, family, line height, and more.
 
 ### Post Info Color
 
@@ -378,7 +378,7 @@ By default the link color in the Post Info is set by the theme's accent color, i
 
 ### Post Info Typography
 
-You can style the post info using the [Typography](/beaver-builder/styles/typography/typography.md) options, including font size, family, line height, and more.
+You can style the post info using the [Typography](basics/typography.md) options, including font size, family, line height, and more.
 
 ### Content Color
 
@@ -386,7 +386,7 @@ Color of post content.
 
 ### Content Typography
 
-You can style the content of the post using the [Typography](/beaver-builder/styles/typography/typography.md) options, including font size, family, line height, and more.
+You can style the content of the post using the [Typography](basics/typography.md) options, including font size, family, line height, and more.
 
 ### Link Color
 
@@ -687,7 +687,7 @@ This section appears when [Pagination Style](#pagination-style) is set to **Load
   Set the button color on hover. If this setting is left blank, the Text color setting applies for hover also.
 
 - **Button Typography**
-  See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
+  See the [Typography](basics/typography.md) article for more information.
 
 - **Button Background Color**
   Set the fill color for the button in the resting state.
@@ -724,11 +724,12 @@ By default, the Post module **ignores** the sticky posts feature and displays th
 You can override this behavior by using the `fl_builder_loop_query_args_filter` filter.
 
 ```php
-function fl_builder_loop_query_args_filter( $query_args ) {
-	$query_args['ignore_sticky_posts'] = false;
-	return $query_args;
+function fl_builder_loop_query_args_filter($query_args)
+{
+  $query_args["ignore_sticky_posts"] = false;
+  return $query_args;
 }
-add_filter( 'fl_builder_loop_query_args', 'fl_builder_loop_query_args_filter' );
+add_filter("fl_builder_loop_query_args", "fl_builder_loop_query_args_filter");
 ```
 
 :::caution

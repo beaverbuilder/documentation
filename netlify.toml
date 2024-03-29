@@ -430,10 +430,6 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-te
 status = 301
 force = true
 
-
-
-
-
 # Redirect Contact Form module doc link
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/how-to-tips/use-smtp-to-send-form-notifications"

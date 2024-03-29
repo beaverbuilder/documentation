@@ -12,7 +12,7 @@ whether the caption is set to **On hover** or **Below photo**.
 ![](/img/how-to-tips-display-full-caption-1.jpg)
 
 If you display the caption below the photo, you can use the following CSS
-snippet to display the full caption. See [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code.
+snippet to display the full caption. See [this article](basics/custom-code.md) about where to add custom CSS code.
 
 ```css
 .fl-photo-caption.fl-photo-caption-below {

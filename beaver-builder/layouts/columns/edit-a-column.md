@@ -7,12 +7,12 @@ description: Information about how to open and edit column settings in Beaver Bu
 
 You can edit a column's style (width, color, background, border) and its advanced settings.
 
-##  Open column settings for editing
+## Open column settings for editing
 
 **To open column settings in an empty column:**
 
 When a column is empty, access **Column Settings** by hovering over the empty
-column and clicking the  **Edit column** icon, as shown in the following
+column and clicking the **Edit column** icon, as shown in the following
 screenshot.
 
 ![](/img/row-columns-edit-column-5.png)
@@ -23,15 +23,15 @@ See [this article](/beaver-builder/layouts/columns/insert-columns.md) for how to
 
 1. Mouse over a module in the column to reveal the toolbar and click **Edit column**, as shown in the following screenshot.
 
-  ![](/img/row-columns-edit-column-6.png)
+![](/img/row-columns-edit-column-6.png)
 
-  If you see a hamburger icon in the module toolbar, click that and mouse over **Edit column**.
+If you see a hamburger icon in the module toolbar, click that and mouse over **Edit column**.
 
-2. Mouse over and then click **Column settings**.   
-    The area that will be affected by the column settings will have a blue overlay when you mouse over it.  
-    ![Parent column menu](/img/edit-column-parent-menu.png)
-  If you mouse over a child column and you want to edit its parent column, click **Parent settings.**  
-    ![Child column menu](/img/tips-for-columns-nested-columns.png)
+2. Mouse over and then click **Column settings**.
+   The area that will be affected by the column settings will have a blue overlay when you mouse over it.
+   ![Parent column menu](/img/edit-column-parent-menu.png)
+   If you mouse over a child column and you want to edit its parent column, click **Parent settings.**
+   ![Child column menu](/img/tips-for-columns-nested-columns.png)
 
 See [this tip](/beaver-builder/layouts/columns/tips-for-working-with-columns.md/#tip-3-figure-out-column-structure-for-existing-columns) for identifying parent and child columns.
 
@@ -55,7 +55,7 @@ Two or more columns must maintain a combined width of 100% on large devices but 
 
 #### Minimum height
 
-You can set a minimum height for any column in the layer. See [this article about the units of measurement](/beaver-builder/advanced-builder-techniques/css-length-height-units.md).
+You can set a minimum height for any column in the layer.
 
 #### Equalize heights
 
@@ -88,7 +88,7 @@ slideshows, or parallax.
 
 ### Border
 
-Columns have the [standard Border section](/beaver-builder/styles/effects/borders.md) that lets you add border lines, rounded corners, and shadows.
+Columns have the [standard Border section](basics/border.md) that lets you add border lines, rounded corners, and shadows.
 
 :::tip **Tip**
 Set individual top, bottom, left, or right border to create horizontal or vertical column separators. Adjust column margins and padding on the **Advanced tab** to fine-tune the border placement.

@@ -9,4 +9,4 @@ value from **icon-** to any other prefix before downloading. The `icon-`
 prefix can interfere with other uploaded icon sets and cause the icons to
 disappear, or other display issues.
 
-See the articles on [enabling, disabling, and uploading icon sets](/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets.md) and [creating custom icon sets](/beaver-builder/styles/icons/create-and-import-a-custom-icon-set.md).
+See the [Settings Icon](settings/icon.md) article on enabling, disabling, and uploading icon sets.

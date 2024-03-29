@@ -35,7 +35,7 @@ In the Style tab, you can customize the color of the text and icons, manage the 
   Set a specific padding value in pixels for the accordion label. Click the Link Value icon to automatically make all four padding values the same.
 
 - **Typography**
-  Set the font size, family, line-height and more for the Accordion label. See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
+  Set the font size, family, line-height and more for the Accordion label. See the [Typography](basics/typography.md) article for more information.
 
 ## Icon
 
@@ -62,4 +62,4 @@ In the Style tab, you can customize the color of the text and icons, manage the 
   Set a specific padding value in pixels for the accordion content. Click the Link Value icon to automatically make all four padding values the same.
 
 - **Typography**
-  Set the font size, family, line-height and more for the Accordion content. See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
+  Set the font size, family, line-height and more for the Accordion content. See the [Typography](basics/typography.md) article for more information.

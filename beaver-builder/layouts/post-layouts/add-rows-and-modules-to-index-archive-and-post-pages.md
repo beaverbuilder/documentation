@@ -58,7 +58,7 @@ Here's the template for constructing the shortcode:
 [fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]
 ```
 
-See the [this article](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode.md) for how to find the page slug for the saved row or
+See the [this article](shortcode/find-id-slug.md) for how to find the page slug for the saved row or
 module you want to use.
 
 ## 3. Insert the shortcode
@@ -67,71 +67,78 @@ You can use any of the following three methods to insert the shortcode.
 
 ### Method 1: Add code to header.php or footer.php
 
-In this method, the code is placed into *header.php* or *footer.php* in your
+In this method, the code is placed into _header.php_ or _footer.php_ in your
 child theme, depending on where on the page you want the content to appear.
 The instructions assume you are using the Beaver Builder Theme, but the code
 itself should work in any theme.
 
 **To add the shortcode below the header or above the footer:**
 
-1. Copy either *header.php* or *footer.php* from the main theme to your child theme.  
-If you're using Beaver Builder Theme, go to *wp-content/themes/bb-theme* ,
-copy *footer.php* , and paste it into *wp-content/themes/bb-theme-child*.
+1. Copy either _header.php_ or _footer.php_ from the main theme to your child theme.
+   If you're using Beaver Builder Theme, go to _wp-content/themes/bb-theme_ ,
+   copy _footer.php_ , and paste it into _wp-content/themes/bb-theme-child_.
 
 2. Open the file in the child theme for editing.
-3. In *header.php* , find the line `<?php do_action('fl_content_open'); ?>`.  
-In *footer.php* , find the line `<?php do_action('fl_content_close'); ?>`. The
-code will be added just above this line in both cases.
+3. In _header.php_ , find the line `<?php do_action('fl_content_open'); ?>`.
+   In _footer.php_ , find the line `<?php do_action('fl_content_close'); ?>`. The
+   code will be added just above this line in both cases.
 
 4. Add this code, making sure that you substitute your own shortcode. See the tips below for how to customize this code.
 
-  ```php
-  <?php
-    if (is_home() || is_single() || is_archive()) :
-      echo do_shortcode('[fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]');
-    endif;
-  ?>
-  ```
+```php
+<?php
+if (is_home() || is_single() || is_archive()):
+  echo do_shortcode('[fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]');
+endif;
+?>
+```
 
-5. Save your *header.php* or *footer.php* file back to your child theme.
+5. Save your _header.php_ or _footer.php_ file back to your child theme.
 
 :::tip **Customization tips:**
-* The code `is_home() || is_single() || is_archive()` inserts the shortcode into the index page (whether it's the front page or another page where you've set the Posts Page in **Settings > Reading**), plus single post pages, plus all archive pages (including custom post type archives). (The double pipe corresponds to the boolean OR.) If you don't want one of those types, remove it from the list of conditionals and adjust the double pipes as necessary.
 
-* To use other conditionals, see the [WordPress codex on conditional tags](https://developer.wordpress.org/themes/basics/conditional-tags/).
-:::
+- The code `is_home() || is_single() || is_archive()` inserts the shortcode into the index page (whether it's the front page or another page where you've set the Posts Page in **Settings > Reading**), plus single post pages, plus all archive pages (including custom post type archives). (The double pipe corresponds to the boolean OR.) If you don't want one of those types, remove it from the list of conditionals and adjust the double pipes as necessary.
+
+- To use other conditionals, see the [WordPress codex on conditional tags](https://developer.wordpress.org/themes/basics/conditional-tags/).
+  :::
 
 ### Method 2: Add code to functions.php
 
-In this method, you add the code to the child theme's *functions.php* file.
+In this method, you add the code to the child theme's _functions.php_ file.
 
-  1. Go to your child theme and open *functions.php* for editing.  
-For Beaver Builder Theme, the location is *wp-content/themes/bb-theme-child*.
+1. Go to your child theme and open _functions.php_ for editing.
+   For Beaver Builder Theme, the location is _wp-content/themes/bb-theme-child_.
 
-  2. Add one of the following code blocks to the end of the file, making sure that you substitute your own shortcode.   
-See the tips in the previous method for changing the conditionals to control
-which types of pages the shortcode appears on.
+2. Add one of the following code blocks to the end of the file, making sure that you substitute your own shortcode.
+   See the tips in the previous method for changing the conditionals to control
+   which types of pages the shortcode appears on.
 
-  **To insert shortcode after the header:**
+**To insert shortcode after the header:**
 
-  ```php
-  function my_page_header() {
-    if (is_home() || is_single() || is_archive()) {
-        echo do_shortcode('[fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]');
-    }
+```php
+function my_page_header()
+{
+  if (is_home() || is_single() || is_archive()) {
+    echo do_shortcode(
+      '[fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]'
+    );
   }
-  add_action('fl_before_content', 'my_page_header');
-  ```
+}
+add_action("fl_before_content", "my_page_header");
+```
 
-  **To insert shortcode before the footer:**
+**To insert shortcode before the footer:**
 
-  ```php
-  function my_page_footer() {
-    if (is_home() || is_single() || is_archive()) {
-        echo do_shortcode('[fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]');
-    }
+```php
+function my_page_footer()
+{
+  if (is_home() || is_single() || is_archive()) {
+    echo do_shortcode(
+      '[fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]'
+    );
   }
-  add_action('fl_after_content', 'my_page_footer');
-  ```
+}
+add_action("fl_after_content", "my_page_footer");
+```
 
-  3. Save _functions.php_ back to your child theme.
+3. Save _functions.php_ back to your child theme.

@@ -26,7 +26,7 @@ section on the module's settings), you can use the Gallery module to:
   You might want to display the gallery as images that are large enough to view
   clearly and really don't need to be expanded to a larger size.
 
-Gallery modules are often used as [shortcodes](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts.md) in other modules or even in posts that use the
+Gallery modules are often used as [shortcodes](user-interface/tools-menu.md#keyboard-shortcuts) in other modules or even in posts that use the
 WordPress Standard editor. For example, you could insert the shortcode for a
 Gallery module into a tab in the Tabs module or an item in the Accordion
 module to show a collection of images on a particular tab or in an expanded
