@@ -144,7 +144,7 @@ When **Enabled**, columns assigned 50% width or less are limited to `max-width: 
 
 ### Base Font Size
 
-If **Font Size** in the [Typography](styles/typography/typography.md) settings is set to the `vh` or `vw` CSS unit the **Base Font Size** will be used to [calculate the font size](styles/typography/typography.md#size).
+If **Font Size** in the [Typography](basics/typography.md) settings is set to the `vh` or `vw` CSS unit the **Base Font Size** will be used to [calculate the font size](basics/typography.md#size).
 
 ## CSS & JavaScript
 

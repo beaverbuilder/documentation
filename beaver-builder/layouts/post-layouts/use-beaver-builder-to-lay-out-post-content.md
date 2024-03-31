@@ -93,7 +93,7 @@ following setup.
 Similar to static pages, if you want to reuse a layout that you create in a
 post, you can save the entire content area as a layout template, or you can
 save individual rows or modules. You can reuse these layouts on both pages and
-posts. See the articles on [how to save modules, columns, rows](layouts/templates/saved-content.md), and [layout templates](/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template.md).
+posts. See the articles on [how to save modules, columns, rows](layouts/saved-content.md), and [layout templates](layouts/templates/saved-templates.md).
 
 :::tip **Tip**
 If you want a row or module to have identical and synched content

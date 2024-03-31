@@ -435,7 +435,7 @@ module.exports = {
         "shortcode/find-id-slug",
         "shortcode/using-shortcode",
         "shortcode/using-php-files",
-        "shortcode/using-css",
+        "shortcode/using-css-js",
       ],
     },
     {
@@ -609,7 +609,6 @@ module.exports = {
             "developer/how-to-tips/display-subset-typography-controls",
             "developer/how-to-tips/data-storage",
             "developer/how-to-tips/html-css-and-javascript-reference",
-            "developer/how-to-tips/theme-author-templates",
             "developer/how-to-tips/load-css-and-javascript-inline",
             "developer/how-to-tips/disable-schema-markup-beaver-builder",
             "developer/how-to-tips/disable-minification-and-caching-with-wpdebug",

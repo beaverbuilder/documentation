@@ -111,7 +111,7 @@ Outline Panel labels are not removed when the Node Labels option is disabled.
 
 When enabled, allows you to use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](user-interface/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
 
-See the [Use shortcodes in CSS or JS](shortcode/using-css.md) article for more information.
+See the [Use shortcodes in CSS or JS](shortcode/using-css-js.md) article for more information.
 
 :x: Disabled by default.
 

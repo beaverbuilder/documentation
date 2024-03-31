@@ -68,7 +68,7 @@ You can learn more from the [WordPress Import](https://wordpress.org/support/art
   Links are not updated automatically in the imported template.
 
 - **Migration**
-  If you're migrating an entire website from one domain to another (for example, you're migrating a development site to production), we recommend either using a migration plugin or following [our instructions to migrate a site to another domain](advanced/migrate.md) instead of moving templates.
+  If you're migrating an entire website from one domain to another (for example, you're migrating a development site to production), we recommend either using a migration plugin or following [our instructions to migrate a site to another domain](advanced/migration.md) instead of moving templates.
 
 ## Assistant
 
