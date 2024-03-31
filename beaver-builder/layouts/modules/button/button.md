@@ -107,7 +107,7 @@ The **Style** tab is shown in the screenshot and described below.
   You can set a custom width in px, vw, or %.
 
 - **Align** (responsive)
-  See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for a description of how the alignment toggle settings work.
+  See [this article](basics/typography.md#align) for a description of how the alignment toggle settings work.
 
 - **Padding** (responsive)
   Set a specific padding value in pixels. Click the **Link** icon to

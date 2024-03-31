@@ -36,7 +36,7 @@ Templates are exported to .dat files, which must be transferred to source reposi
 
 ## 2. Create your layout templates
 
-Create your [custom layout templates](/beaver-builder/layouts/templates/layout-templates-overview.md) and [saved rows or modules](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) for users.
+Create your [custom layout templates](layouts/templates/saved-templates.md) and [saved rows or modules](layouts/templates/saved-content.md) for users.
 
 ## 3. Categorize and add featured images to the layout templates
 
@@ -46,14 +46,14 @@ assign categories and add featured images to your saved layout templates. See
 
 ## 4. Export your template data file
 
-1. In the WordPress admin panel, click **Tools > Template exporter**.  
-  If you don't see that menu option, enable it by doing the following:
+1. In the WordPress admin panel, click **Tools > Template exporter**.
+   If you don't see that menu option, enable it by doing the following:
 
-    * Go to **Settings > Beaver Builder > User Access**.
-    * In the **Admin** section, select the user roles that you want to have access to the Template Data Exporter
-    * Save the settings.
+   - Go to **Settings > Beaver Builder > User Access**.
+   - In the **Admin** section, select the user roles that you want to have access to the Template Data Exporter
+   - Save the settings.
 
-You’ll see a screen similar to the screenshot below.  
+You’ll see a screen similar to the screenshot below.
 ![](/img/theme-author-templates-2.jpg)
 
 2. Select all templates or the specific layout templates, rows, and modules you want to export and click **Export template data**. A _templates.dat_ file will download to your computer.
@@ -75,7 +75,7 @@ plugin. If no, register within a theme. If you choose a plugin, you can
 Pass the full path of your _templates.dat_ file to the `FLBuilder::register_templates` method:
 
 ```php
-FLBuilder::register_templates( '/path/to/your/templates.dat' );
+FLBuilder::register_templates("/path/to/your/templates.dat");
 ```
 
 In order to make sure that your theme or plugin doesn’t throw any errors, hook
@@ -83,15 +83,19 @@ that method into the `after_setup_theme` action, and check to see if the
 builder is installed and the current version supports registering templates,
 as follows.
 
-  ```php
-  function my_plugin_load_bb_templates() {
-    if ( ! class_exists( 'FLBuilder' ) || ! method_exists( 'FLBuilder', 'register_templates' ) ) {
-      return;
-    }
-    FLBuilder::register_templates( '/path/to/your/templates.dat' );
+```php
+function my_plugin_load_bb_templates()
+{
+  if (
+    !class_exists("FLBuilder") ||
+    !method_exists("FLBuilder", "register_templates")
+  ) {
+    return;
   }
-  add_action( 'after_setup_theme', 'my_plugin_load_bb_templates' );
-  ```
+  FLBuilder::register_templates("/path/to/your/templates.dat");
+}
+add_action("after_setup_theme", "my_plugin_load_bb_templates");
+```
 
 The templates will be loaded the next time you open Beaver Builder for
 editing.
@@ -113,7 +117,7 @@ following screenshot.
 
 Your rows and modules are displayed on the **Saved** tab in the Content panel.
 
-##  Things to keep in mind
+## Things to keep in mind
 
 Here are a few things to keep in mind when building templates for Beaver
 Builder.

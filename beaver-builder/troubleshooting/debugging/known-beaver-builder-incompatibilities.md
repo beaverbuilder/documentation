@@ -4,7 +4,6 @@ title: Known Beaver Builder incompatibilities
 sidebar_label: Known Beaver Builder incompatibilities
 ---
 
-
 We try our very best to make Beaver Builder compatible with everything you
 throw at it, but sometimes there’s nothing we can do. Software changes
 rapidly, so if you want to give these plugins and themes a try anyway, let us
@@ -14,7 +13,7 @@ know if the developer made them compatible with Beaver Builder.
 
 See [how to troubleshoot possible plugin conflicts](/beaver-builder/troubleshooting/debugging/plugin-conflicts.md).
 
-###  [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) (Extra Widget Fields only)
+### [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) (Extra Widget Fields only)
 
 Any additional fields added to widgets using ACF will not show up in the
 Beaver Builder interface.
@@ -26,8 +25,8 @@ This is reported by a user, who was in contact with the developer:
 This plugin works with Beaver Builder if both of the following conditions are
 met:
 
-  * jQuery is excluded
-  * *wp-includes/js* is added to the **Async Javascript > Settings > Scripts Exclusion** field.
+- jQuery is excluded
+- _wp-includes/js_ is added to the **Async Javascript > Settings > Scripts Exclusion** field.
 
 ### [Cookie and Consent Solution for the GDPR & ePrivacy](https://wordpress.org/plugins/iubenda-cookie-law-solution/)
 
@@ -43,23 +42,23 @@ The Secondary Engine makes use of a third-party PHP library that is more accurat
 Don't use duplicator plugins to clone pages with Beaver Builder layouts or
 saved layouts. They may look like they work but can cause problems when you
 try to edit the Beaver Builder layout on the new page. Instead, use the
-[Duplicate Layout](/beaver-builder/getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md) functionality on the Tools menu in the Beaver Builder editor.
+[Duplicate Layout](basics/duplicate-layout.md) functionality on the Tools menu in the Beaver Builder editor.
 
 ### [Google Maps Bank](https://wordpress.org/plugins/google-maps-bank/screenshots/) (Shortcodes only)
 
 Shortcodes from this plugin break Beaver Builder because `document.write` is
 used to render them. Everything else about this plugin should be fine.
 
-###  [Jetpack](https://wordpress.org/plugins/jetpack/) (Gallery Widget and VideoPress)
+### [Jetpack](https://wordpress.org/plugins/jetpack/) (Gallery Widget and VideoPress)
 
 The settings panel for Jetpack’s gallery widget doesn’t fully load in Beaver
-Builder because it is only coded to load in *wp-admin/widgets.php* and *wp-
-admin/customizer.php*. VideoPress calls admin-only code that breaks the media
+Builder because it is only coded to load in _wp-admin/widgets.php_ and _wp-
+admin/customizer.php_. VideoPress calls admin-only code that breaks the media
 uploader on the front end.
 
 ### [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache)
 
-If you have CSS Minify enabled in Page Optimization settings, then the Settings Panel can go fullscreen in responsive editing.  A workaround is to exclude the builder.  You can do that in the Tuning tab of Page Optimization.  Scroll down to URI Excludes and enter `?fl_builder` in the box and save and purge all caches.
+If you have CSS Minify enabled in Page Optimization settings, then the Settings Panel can go fullscreen in responsive editing. A workaround is to exclude the builder. You can do that in the Tuning tab of Page Optimization. Scroll down to URI Excludes and enter `?fl_builder` in the box and save and purge all caches.
 
 ### [Post video players, slideshow albums, photo galleries and music / podcast playlist](https://wordpress.org/plugins/video-playlist-and-gallery-plugin/)
 
@@ -81,7 +80,7 @@ The problem is that Timber doesn’t use `the_content`, which is the basic
 WordPress loop. This causes an incompatibility between Timber and any other
 plugin that relies on the WordPress loop.
 
-If your theme allows it, calling `the_post();` in your *page.php* file above
+If your theme allows it, calling `the_post();` in your _page.php_ file above
 the Timber code will enable the loop and allow Beaver Builder to function
 correctly.
 
@@ -92,7 +91,8 @@ causes issues with saving Beaver Builder settings. To fix this issue, either tur
 the Breeze plugin to automatically purge the Varnish cache.
 
 ### [WP External Links](https://wordpress.org/plugins/wp-external-links/)
-This plugin with default settings breaks the BB Editor.  The workaround is to navigate to the Exceptions tab in the plugin settings and change it from applying from the whole page (simply uncheck that setting)
+
+This plugin with default settings breaks the BB Editor. The workaround is to navigate to the Exceptions tab in the plugin settings and change it from applying from the whole page (simply uncheck that setting)
 
 ### [WP Job Manager](https://wpjobmanager.com)
 
@@ -100,10 +100,10 @@ The WP Job Manager plugin is not compatible with Beaver Builder because it
 takes over `the_content`, which doesn't allow Beaver Builder to run.
 
 However, you can solve the problem by adding the following line of code to the
-*functions.php* file in your child theme.
+_functions.php_ file in your child theme.
 
 ```php
-add_filter( 'the_job_description', 'FLBuilder::render_content' );
+add_filter("the_job_description", "FLBuilder::render_content");
 ```
 
 ### [WP Log Viewer](https://wordpress.org/plugins/wp-log-viewer/)
@@ -141,7 +141,7 @@ to be compatible with smooth scrolling.
 
 There are multiple incompatibilities, depending on the Cherry Framework theme
 being used. Of many issues, the one that cannot be fixed by Beaver Builder is
-a hardcoded script in *header.php* that interferes with Beaver Builder
+a hardcoded script in _header.php_ that interferes with Beaver Builder
 functions such as opening module settings.
 
 ### [Icelander](https://www.webmandesign.eu/project-type/themes/) Theme prior to Version 1.1.8
@@ -152,17 +152,17 @@ Icelander Theme Version 1.1.8 or higher is compatible with both Beaver Builder p
 
 The module/row settings windows are blank with this theme active. It appears
 to be caused by one script. To fix it, try adding the code below to your child
-theme's *functions.php* , or incorporate it into a plugin if you know how to
+theme's _functions.php_ , or incorporate it into a plugin if you know how to
 create one.
 
 ```php
-function bb_custom_enqueue_scripts(){  
-
-  if ( class_exists( 'FLBuilderModel' ) && FLBuilderModel::is_builder_active() ) {
-    wp_deregister_script( 'app' );
+function bb_custom_enqueue_scripts()
+{
+  if (class_exists("FLBuilderModel") && FLBuilderModel::is_builder_active()) {
+    wp_deregister_script("app");
   }
 }
-add_action( 'wp_enqueue_scripts', 'bb_custom_enqueue_scripts', 99 );
+add_action("wp_enqueue_scripts", "bb_custom_enqueue_scripts", 99);
 ```
 
 ### Tesseract Theme
@@ -232,6 +232,6 @@ of the page content with the content passed to `document.write()`.
 
 ### Old jQuery/jQuery UI Versions
 
-Beaver Builder is dependent on the jQuery version that comes pre-packaged with WordPress, and it is designed to work exclusively with that specific version. 
+Beaver Builder is dependent on the jQuery version that comes pre-packaged with WordPress, and it is designed to work exclusively with that specific version.
 
 However, if you or any third-party plugin or theme happens to load an outdated jQuery/jQuery UI version, it can lead to compatibility problems with Beaver Builder. Consequently, you may encounter difficulties in dragging and dropping rows, columns, or modules onto your layouts in such instances.

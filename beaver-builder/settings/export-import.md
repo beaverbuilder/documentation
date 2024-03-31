@@ -23,16 +23,16 @@ To export custom templates, saved rows, columns, and modules.
 
 2. Navigate to **Tools > Export**.
 
-3. Select **Templates**, then choose **Export All** or **Export Selected**.   
-  
-   * **Export All** - All Beaver Builder saved content (templates, rows, columns, and modules) will be exported.
-   * **Export Selected** - Lets you choose the templates, saved rows, columns, and modules you want to export.
+3. Select **Templates**, then choose **Export All** or **Export Selected**.
 
-4. Click **Download Export File**.  
-  The downloaded file is an `.xml` file that you can use for any WordPress website containing a premium version of the Beaver Builder plugin.
+   - **Export All** - All Beaver Builder saved content (templates, rows, columns, and modules) will be exported.
+   - **Export Selected** - Lets you choose the templates, saved rows, columns, and modules you want to export.
+
+4. Click **Download Export File**.
+   The downloaded file is an `.xml` file that you can use for any WordPress website containing a premium version of the Beaver Builder plugin.
 
 ![Use Export Tools to export content](/img/beaver-builder/settings--import-export-content--2.jpg)
-  
+
 :::info
 You can learn more from the [WordPress Export](https://wordpress.org/support/article/tools-export-screen/) doc.
 :::
@@ -45,8 +45,8 @@ To import custom templates, saved rows, columns, and modules.
 
 2. Navigate to **Tools > Import**.
 
-3. Scroll down to **WordPress**, and click **Run Importer**.  
-  If this is your first time importing, the link in the WordPress section says **Install Now**. After you click to install the importer, click the **Run importer** link that replaces it.
+3. Scroll down to **WordPress**, and click **Run Importer**.
+   If this is your first time importing, the link in the WordPress section says **Install Now**. After you click to install the importer, click the **Run importer** link that replaces it.
 
 4. On the WordPress Importer page, select the `.xml` file that you exported, then click **Upload file and import**.
 
@@ -58,17 +58,17 @@ You can learn more from the [WordPress Import](https://wordpress.org/support/art
 
 ### Tips
 
-* **Global content**  
+- **Global content**
   If you export a post or page that contains a global row, column, or module, it's a good idea to export the saved row, column, or module as well. That way, when you import the post or page, the global rows, columns, and modules can be relinked to the master template on the new site.
 
-* **Images & icons**  
+- **Images & icons**
   Images and icon sets used by the templates, rows, columns, or modules you're exporting are not migrated with the template. You'll have to add them to the new location after import. Likewise, the theme at the new site will control the default font families, colors, and so on.
 
-* **Links**  
+- **Links**
   Links are not updated automatically in the imported template.
 
-* **Migration**  
-  If you're migrating an entire website from one domain to another (for example, you're migrating a development site to production), we recommend either using a migration plugin or following [our instructions to migrate a site to another domain](/beaver-builder/management-migration/manually-migrate-a-beaver-builder-site/) instead of moving templates.
+- **Migration**
+  If you're migrating an entire website from one domain to another (for example, you're migrating a development site to production), we recommend either using a migration plugin or following [our instructions to migrate a site to another domain](advanced/migrate.md) instead of moving templates.
 
 ## Assistant
 

@@ -11,19 +11,19 @@ Global Settings lets you to configure default values for options such as row max
 
 Global Settings can be accessed via the [Tools menu](tools-menu.md), or using the keyboard shortcut:
 
-* <kbd>command ⌘</kbd> + <kbd>U</kbd> (<i className="fab fa-apple"></i> Mac)
-* <kbd>Ctrl</kbd> + <kbd>U</kbd> (<i className="fab fa-windows"></i> Windows).
+- <kbd>command ⌘</kbd> + <kbd>U</kbd> (<i className="fab fa-apple"></i> Mac)
+- <kbd>Ctrl</kbd> + <kbd>U</kbd> (<i className="fab fa-windows"></i> Windows).
 
 ## Default Page Heading
 
 The **Default Page Heading** option lets you show or hide the default theme heading for the **Page** post type.
 
-* **Show** gives you two choices, these are **Yes** or **No**.  
+- **Show** gives you two choices, these are **Yes** or **No**.
   When **Yes** is chosen, the theme's page title will display on your Beaver Builder layouts. When choosing **No**, you must enter the CSS selector for your active theme's page heading for this feature to work.
 
-* **CSS Selector** allows you to enter the theme's CSS selector for the page title. The default selector `.fl-post-header` is used to hide the page title for the [BB Theme](/bb-theme/).
+- **CSS Selector** allows you to enter the theme's CSS selector for the page title. The default selector `.fl-post-header` is used to hide the page title for the [BB Theme](/bb-theme/).
 
-To learn how to hide the page title for third-party themes, visit the [Show or hide the page title](getting-started/bb-editor-basics/show-or-hide-the-wordpress-page-title.md) article.
+To learn how to hide the page title for third-party themes, visit the [Show or hide the page title](basics/show-hide-page-title.md) article.
 
 ## Rows
 
@@ -31,10 +31,10 @@ To learn how to hide the page title for third-party themes, visit the [Show or h
 
 Configure the default margin and padding value for all directions (top, right, bottom, and left) for rows globally. Use the responsive settings to enter values on a per device basis (large, medium, and small).
 
-* **Margin** accepts `px`, or `%` [CSS units](https://www.w3schools.com/CSSref/css_units.asp).  
+- **Margin** accepts `px`, or `%` [CSS units](https://www.w3schools.com/CSSref/css_units.asp).
   The default value is `0px`.
 
-* **Padding**  access `px`, `em`, or `%` CSS units.  
+- **Padding** access `px`, `em`, or `%` CSS units.
   The default value is `20px`.
 
 ### Max Width
@@ -53,10 +53,10 @@ Choose between **Fixed** or **Full-width** which will be the default for all row
 
 Configure the default margin and padding value for all directions (top, right, bottom, and left) for columns globally. Use the responsive settings to enter values on a per device basis (large, medium, and small).
 
-* **Margin** accepts `px`, or `%` CSS units.   
+- **Margin** accepts `px`, or `%` CSS units.
   The default value is `0px`.
 
-* **Padding**  access `px`, `em`, or `%` CSS units.      
+- **Padding** access `px`, `em`, or `%` CSS units.
   The default value is `0px`.
 
 ## Modules
@@ -65,7 +65,7 @@ Configure the default margin and padding value for all directions (top, right, b
 
 Configure the default margin value for all directions (top, right, bottom, and left) for modules globally. Use the responsive settings to enter values on a per device basis (large, medium, and small).
 
-* **Margin** accepts `px`, or `%` CSS units.    
+- **Margin** accepts `px`, or `%` CSS units.
   The default value is `0px`.
 
 :::info
@@ -78,12 +78,12 @@ Modules do not support **Padding**.
 
 Enable or Disable the Responsive Layout settings, these include:
 
-* [Auto Spacing](#auto-spacing)
-* [Large Device Breakpoint](#large-device-breakpoint)
-* [Medium Device Breakpoint](#medium-device-breakpoint)
-* [Small Device Breakpoint](#small-device-breakpoint)
-* [Enable Col Max-width](#enable-column-max-width)
-* [Reverse Column Stacking Order](layouts/advanced-tab/visibility.md#stacking-order-columns-only)
+- [Auto Spacing](#auto-spacing)
+- [Large Device Breakpoint](#large-device-breakpoint)
+- [Medium Device Breakpoint](#medium-device-breakpoint)
+- [Small Device Breakpoint](#small-device-breakpoint)
+- [Enable Col Max-width](#enable-column-max-width)
+- [Reverse Column Stacking Order](layouts/advanced-tab/visibility.md#stacking-order-columns-only)
 
 When **Disabled** only [Base Font Size](#base-font-size) is available.
 
@@ -91,10 +91,10 @@ When **Disabled** only [Base Font Size](#base-font-size) is available.
 
 Auto Spacing removes the requirement to manually configure margin and padding settings for each row and column on small devices, ensuring consistent spacing throughout the layout. This simplifies the design process and can result in considerable time and effort savings.
 
-* When **enabled** (default), Auto Spacing configures the margin to `0px` for all directions and the padding-left and padding-right to `0px` for both rows and columns on small devices. The padding-top and padding-bottom inherit the values configured in the Global Settings or those defined for the small device size in the row or column settings.
+- When **enabled** (default), Auto Spacing configures the margin to `0px` for all directions and the padding-left and padding-right to `0px` for both rows and columns on small devices. The padding-top and padding-bottom inherit the values configured in the Global Settings or those defined for the small device size in the row or column settings.
 
   The CSS code snippet below displays how the CSS is represented for both rows and columns on small devices.
- 
+
   ```css
   @media (max-width: 768px) {
     .fl-row[data-node] .fl-row-content-wrap {
@@ -109,8 +109,8 @@ Auto Spacing removes the requirement to manually configure margin and padding se
     }
   }
   ```
-  
-* If you **disable** Auto Spacing, the margin and padding values set for desktop will be inherited by the small device size instead.
+
+- If you **disable** Auto Spacing, the margin and padding values set for desktop will be inherited by the small device size instead.
 
 :::info
 If you need more precise control over the spacing of rows and columns on small devices, you can modify the margin and padding options for each row and column individually. These options can be found in the Advanced Tab for the specific row and column that you are currently working on.
@@ -170,14 +170,14 @@ In the Shapes tab, you can upload custom shapes without writing any code. When s
 
 1. Click the **Edit Shape** or **Add New** button.
 
-2. Specify the name of your custom shape, which will appear in the top or bottom shape options in the row settings.  
+2. Specify the name of your custom shape, which will appear in the top or bottom shape options in the row settings.
 
-  :::tip
-  An SVG file defining a shape is required. An application or generator for vector graphics can be used if you need to create one.
-  :::
+:::tip
+An SVG file defining a shape is required. An application or generator for vector graphics can be used if you need to create one.
+:::
 
-3. Paste your SVG code into the **SVG Code** option and save.  
+3. Paste your SVG code into the **SVG Code** option and save.
 
-4. When you open the row settings your custom shape will be available.  
+4. When you open the row settings your custom shape will be available.
 
-  ![Custom Row Shape available in shape options](/img/beaver-builder/user-interface--global-settings--2.jpg)
+![Custom Row Shape available in shape options](/img/beaver-builder/user-interface--global-settings--2.jpg)

@@ -140,7 +140,7 @@ In the **Search** section of the **General** tab, you can show or hide a search 
 
 ![Menu module, search icon clicked](/img/menu-module-vertical-expanded-search-form.jpg)
 
-You can replace the default icon with an icon from the [available icon sets](/beaver-builder/management-migration/settings-overview.md/#icons-tab).
+You can replace the default icon with an icon from the [available icon sets](settings/icons.md).
 
 In the [**Search menu** section of the **Style** tab](#search-menu-section), you can style both the search icon and the search form that appears when you click the icon.
 
@@ -198,7 +198,7 @@ This tab has the following settings.
 - **Menu cart**
   If you choose **Hide**, the word **Cart** appears instead of the dynamic cart.
 - **Cart icon**
-  You can replace the default Cart icon with another icon from your [icon library](/beaver-builder/management-migration/settings-overview.md/#icons-tab).
+  You can replace the default Cart icon with another icon from your [icon library](settings/icons.md).
 - **Show on checkout**
   This setting determines whether the dynamic cart icon appears in the menu on the Checkout page.
 - **Display type**

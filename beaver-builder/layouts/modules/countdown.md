@@ -27,7 +27,7 @@ This tab has a top section of settings, followed by several sections that vary d
     Adds a circle around the numbers that visually shows the time remaining: number of seconds left in a minute, minutes left in an hour, hours left in a day, days, left in a year.
     ![Countdown module, Numbers + Circles layout](/img/countdown-2.png)
 - **Alignment**
-  This is the standard [horizontal alignment toggle](/beaver-builder/getting-started/bb-editor-basics/alignment.md), which can be set to different alignments on large, medium, and small devices.
+  This is the standard [horizontal alignment toggle](basics/typography.md#align), which can be set to different alignments on large, medium, and small devices.
 
 ### **Numbers and Text** section
 

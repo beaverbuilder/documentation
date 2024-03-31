@@ -114,7 +114,7 @@ described below.
 
 - **Alignment**
   Left, center, or right horizontal alignment, or default alignment if none of
-  the three choices are selected. See [this article](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for more
+  the three choices are selected. See [this article](basics/typography.md#align) for more
   information.
 
 - **Padding (responsive)**
@@ -190,7 +190,7 @@ The **Photo style** section has the following fields:
   you selected in the **Photo** section.
 
 - **Alignment** (responsive)
-  Sets the [alignment](/beaver-builder/getting-started/bb-editor-basics/alignment.md) for the photo within its column space. If the photo
+  Sets the [alignment](basics/typography.md#align) for the photo within its column space. If the photo
   placement is over or under, this aligns the photo to the left, center or right
   over the heading and text. If the photo placement is to the left or right,
   this aligns the photo in the left column.

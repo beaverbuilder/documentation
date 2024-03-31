@@ -167,7 +167,7 @@ Available for all layouts except Gallery.
 Choose which image size from the WordPress Media Library to use.
 
 :::tip
-Any [Custom Image Sizes](/beaver-builder/management-migration/add-custom-image-sizes.md) added also become available in the list.
+Any [Custom Image Sizes](advanced/custom-image-sizes.md) added also become available in the list.
 :::
 
 :::caution

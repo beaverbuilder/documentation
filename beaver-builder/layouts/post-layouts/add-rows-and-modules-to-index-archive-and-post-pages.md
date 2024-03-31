@@ -40,7 +40,7 @@ image with borders and a Call to Action module.
 
 ![](/img/how-to-tips-row-module-index-3.jpg)
 
-See the [this article](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse.md) for more information about how to save rows and
+See the [this article](layouts/templates/saved-content.md) for more information about how to save rows and
 modules.
 
 :::tip **Tip**
