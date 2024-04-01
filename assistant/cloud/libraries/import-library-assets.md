@@ -1,5 +1,5 @@
 ---
-id: import-libary-assets
+id: import-library-assets
 title: Import Library Assets
 sidebar_label: Import Library Assets
 ---
