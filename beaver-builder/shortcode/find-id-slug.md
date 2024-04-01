@@ -26,7 +26,7 @@ Using the **slug** from the screenshot above, the shortcode markup would look li
 
 ## ID
 
-1. From the WordPress admin dashboard, click **Beaver Builder**, then click either Templates, Saved Rows, Saved Columns, or [Saved Modules](modules/saved-modules.md).
+1. From the WordPress admin dashboard, click **Beaver Builder**, then click either Templates, Saved Rows, Saved Columns, or Saved Modules.
 
 2. Click **Edit** beneath the template, row, column, or module that you want.
 

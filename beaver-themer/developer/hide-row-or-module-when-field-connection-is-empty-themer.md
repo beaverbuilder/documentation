@@ -112,7 +112,7 @@ add_filter(
 
 ### Hide on specific pages
 
-Hide row on a specific page if row has class of `my-target-row` and [page id](/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode) is `123`. You can refactor this code to work on other WordPress pages such as archives or the front page. To do this you will need to use [WordPress conditionals](https://developer.wordpress.org/themes/basics/conditional-tags/).
+Hide row on a specific page if row has class of `my-target-row` and [page id](/beaver-builder/layouts/advanced-tab/html-element#class) is `123`. You can refactor this code to work on other WordPress pages such as archives or the front page. To do this you will need to use [WordPress conditionals](https://developer.wordpress.org/themes/basics/conditional-tags/).
 
 You can also replace the row with a column or module by changing the `$node->type`:
 
