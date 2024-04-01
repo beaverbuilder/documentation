@@ -160,7 +160,7 @@ You can use this filter to show which Beaver Builder modules and how many of eac
 
 ![Screenshot of the Modules tab in Beaver Builder settings showing which modules are in use](/img/beaver-builder--bb-common-filter-examples-2.png)
 
-You can see how many times each module is used in pages, posts, and "Templates." The "Templates" category applies both to [saved layout templates](/beaver-builder/layouts/templates/layout-templates-overview.md/#saved-layout-templates) and to [saved rows, columns, and modules](layouts/templates/saved-content.md).
+You can see how many times each module is used in pages, posts, and "Templates." The "Templates" category applies both to [saved layout templates](layouts/templates/saved-templates.md) and to [saved rows, columns, and modules](layouts/saved-content.md).
 
 To display these module counts, add the following line of code to the _functions.php_ file in your child theme.
 

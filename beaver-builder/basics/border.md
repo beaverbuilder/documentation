@@ -50,7 +50,7 @@ The Radius & Shadow subsection has the following settings:
 
 Set the [`border-radius`](https://www.w3schools.com/css/css_border_rounded.asp) for each side (top, right, bottom, and left) of a row, column, or module using the `px` CSS unit.
 
-When you click on any of the **Radius** value fields, a slider appears to allow you to quickly adjust the value. You can also type a **Radius** value instead of using the slider. By clicking the [Link Values](link-values.md) icon, you can set all four corners to the same value.
+When you click on any of the **Radius** value fields, a slider appears to allow you to quickly adjust the value. You can also type a **Radius** value instead of using the slider. By clicking the [Link Values](user-interface/link-values.md) icon, you can set all four corners to the same value.
 
 ### Box Shadow
 

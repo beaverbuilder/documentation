@@ -39,7 +39,7 @@ Removing a user role in the **Builder Access** field removes access to the Beave
 
 :::tip
 Default access for **Builder Access** is applied to the Administrator, Editor, Author, and Contributor user roles.
-::: 
+:::
 
 ### Unrestricted Editing
 
@@ -47,15 +47,15 @@ When Beaver Builder editing is restricted for any role, the user will see only t
 
 The selected roles will have unrestricted access to all editing features within the builder. The user roles **without** unrestricted access will be limited to editing existing content (rows, columns, and modules) on the template and will be unable to do the following:
 
-* Access the [Tools Menu](user-interface/tools-menu.md).
-* Access the [Content Panel](user-interface/content-panel.md).
-* Access row or column settings.
-* Resize rows and columns with drag handles.
-* Move or delete content (rows, columns, and modules).
-* Use saved rows and modules.
-* Save templates.
+- Access the [Tools Menu](user-interface/tools-menu.md).
+- Access the [Content Panel](user-interface/content-panel.md).
+- Access row or column settings.
+- Resize rows and columns with drag handles.
+- Move or delete content (rows, columns, and modules).
+- Use saved rows and modules.
+- Save templates.
 
-When Beaver Builder editing is restricted for any role, the user will see only the **Wrench** icon in the [Overlay Actions](user-interface/builder-overlay.md#overlay-actions), as shown in the following screenshot. 
+When Beaver Builder editing is restricted for any role, the user will see only the **Wrench** icon in the [Overlay Actions](user-interface/overlay.md), as shown in the following screenshot.
 
 ![Restricted editing](/img/beaver-builder/settings--user-access--4.jpg)
 
@@ -67,7 +67,7 @@ However, they can use the Photo module and use a URL to an image. For a list of 
 
 :::tip
 Default access for **Unrestricted Editing** is applied to the Administrator, Editor, Author, and Contributor user roles.
-::: 
+:::
 
 ### Global Rows, Columns and Modules Editing
 
@@ -75,15 +75,15 @@ By default, all user roles can save, edit and delete rows and modules globally -
 
 To any role whose access to editing global rows and modules is restricted, the following restrictions apply:
 
-* If a global row or module appears in a layout, it displays a lock icon in the toolbar, as shown in the following screenshot. 
+- If a global row or module appears in a layout, it displays a lock icon in the toolbar, as shown in the following screenshot.
 
   ![Limited access to global rows, columns, and modules](/img/beaver-builder/settings--user-access--5.jpg)
 
-* The user can save standard rows, columns, and modules, but they cannot save them globally since the Global field is missing, as you can see in the following screenshot.  
+- The user can save standard rows, columns, and modules, but they cannot save them globally since the Global field is missing, as you can see in the following screenshot.
 
   ![Global rows, columns, and modules restriction](/img/beaver-builder/settings--user-access--6.jpg)
 
-* Users with unrestricted editing access can drag a global row or module from the Content panel into the layout, but the global row or module will display the lock and can't be deleted. The only option would be to delete the column or row in which it appears.  
+- Users with unrestricted editing access can drag a global row or module from the Content panel into the layout, but the global row or module will display the lock and can't be deleted. The only option would be to delete the column or row in which it appears.
 
   :::info
   Enabling a user role in this field depends on unrestricted frontend access for that user role. See the [User Access Hierarchy](#user-access-hierarchy) section below.
@@ -91,7 +91,7 @@ To any role whose access to editing global rows and modules is restricted, the f
 
 :::tip
 Default access for **Global Rows, Columns and Modules Editing** is applied to the Administrator, Editor, Author, and Contributor user roles.
-::: 
+:::
 
 ## Admin
 
@@ -101,13 +101,13 @@ The **Admin** section lets you limit access to the Beaver Builder admin settings
 
 The selected roles will be able to access the Beaver Builder menu (**WordPress Admin Dashboard > Beaver Builder**) where you can find:
 
-* Themer Layouts (see the [Themer Layout Editing](#themer-layout-editing) section)
-* Templates
-* Saved Rows
-* Saved Columns
-* Saved Modules
-* Categories
-* Add New
+- Themer Layouts (see the [Themer Layout Editing](#themer-layout-editing) section)
+- Templates
+- Saved Rows
+- Saved Columns
+- Saved Modules
+- Categories
+- Add New
 
 :::info
 Enabling a user role in this field depends on unrestricted frontend access for that user role. See the [User Access Hierarchy](#user-access-hierarchy) section below.
@@ -115,7 +115,7 @@ Enabling a user role in this field depends on unrestricted frontend access for t
 
 :::tip
 Default access for **Builder Admin** is applied to the Administrator user role.
-::: 
+:::
 
 ### Themer Layout Editing
 
@@ -147,9 +147,9 @@ By default, no user roles are given access to **Template Data Exporter**.
 
 There is a user access hierarchy to these frontend and admin areas, as follows:
 
-* Users who get global row and module editing access require unrestricted editing access.
-* Users who get Builder admin access must have unrestricted editing access.
-* Users who get Themer layout editing access must have unrestricted editing access and Builder admin access.
+- Users who get global row and module editing access require unrestricted editing access.
+- Users who get Builder admin access must have unrestricted editing access.
+- Users who get Themer layout editing access must have unrestricted editing access and Builder admin access.
 
 Restricted access to either unrestricted frontend editing or the Builder admin removes the Builder menu from the WordPress admin panel, and enabling access at a lower level (Builder admin or Themer layout editing) will not add it back.
 

@@ -10,7 +10,7 @@ files, you can add a saved row or module to a generated index or archive page
 fairly easily. Single post pages are also included in the code examples, but
 you can easily modify the code to include the page types you want.
 
-:::tip **Tip**
+:::tip
 If you're not sure what index and archive pages are in WordPress, see
 the article about [how WordPress handles blog posts and archives](/beaver-builder/layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives.md).
 :::
@@ -40,10 +40,9 @@ image with borders and a Call to Action module.
 
 ![](/img/how-to-tips-row-module-index-3.jpg)
 
-See the [this article](layouts/templates/saved-content.md) for more information about how to save rows and
-modules.
+See the [this article](layouts/saved-content.md) for more information about how to save rows and modules.
 
-:::tip **Tip**
+:::tip
 Global rows or modules are ok but not necessary. The shortcode will
 display the row or module on every page the code tells it to, and if you edit
 that module, the change will be reflected everywhere, so even a standard saved
