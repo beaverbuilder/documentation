@@ -18,7 +18,7 @@ When you duplicate the layout, a new page is automatically created and opens for
 - Slug: _`<original-slug-title>-copy`_
 
 :::tip
-If your purpose is to use one page as a template for a number of other pages in your site, an alternative is to [save your page as a layout as a template](layouts/templates/saved-templates.md). You can apply layout templates to other pages, [export them to other sites](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md), or [make them available for clients to use in themes you deliver to them](settings/template-exporter.md#template-author-guide).
+If your purpose is to use one page as a template for a number of other pages in your site, an alternative is to [save your page as a layout as a template](layouts/templates/saved-templates.md). You can apply layout templates to other pages, [export them to other sites](layouts/templates/saved-templates.md#export--import), or [make them available for clients to use in themes you deliver to them](settings/template-exporter.md#template-author-guide).
 :::
 
 There are two ways to duplicate any page or post that uses a Beaver Builder layout: from the list of all pages or posts in the WordPress admin panel or from the **Tools** menu in the Beaver Builder editor. Both methods have the same result: a duplicate page or post with the same Beaver Builder layout and metadata.

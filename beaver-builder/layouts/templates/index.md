@@ -6,7 +6,7 @@ tags: [Row, Rows, Columns, Modules, Layout, Templates]
 description: Templates are prebuilt Beaver Builder layouts that contain any combination of rows, columns, and modules.
 ---
 
-Templates are layouts that contain any combination of [rows](rows/index.md), [columns](columns/index.md), and [modules](modules/index.md). Beaver Builder includes a variety of prebuilt templates offering a quick route to designing your pages while boosting productivity and creativity. Additionally, you have the flexibility to create and save your own templates for future projects like the example in the image below.
+Templates are layouts that contain any combination of rows, columns, and modules. Beaver Builder includes a variety of prebuilt templates offering a quick route to designing your pages while boosting productivity and creativity. Additionally, you have the flexibility to create and save your own templates for future projects like the example in the image below.
 
 ![Complex layout structure](/img/beaver-builder/templates--index--1.jpg)
 

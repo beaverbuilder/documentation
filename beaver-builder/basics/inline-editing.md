@@ -17,7 +17,7 @@ Inline editing works best if the [Content panel and settings window are pinned](
 ## How To Use Inline Editing
 
 To edit inline, move your cursor into the module you want to edit and click.
-The [overlay actions toolbar](user-interface/builder-overlay.md#overlay-actions-toolbar) will change to editing toolbar that vary depending on the type of module you're editing. The cursor also changes to an editing cursor, so click your cursor where you want and start editing. For a new module, drag the
+The [overlay actions toolbar](user-interface/overlay.md) will change to editing toolbar that vary depending on the type of module you're editing. The cursor also changes to an editing cursor, so click your cursor where you want and start editing. For a new module, drag the
 module into your layout as usual, then click inside the empty module in the layout.
 
 ![Using Inline editing](/img/beaver-builder/basics--inline-editing--1.gif)
@@ -51,7 +51,7 @@ For Text editor fields (fields that use the WordPress classic editor/TinyMCE edi
 
 ### Headings
 
-For basic text fields, such as the **Heading** field in a [Heading module](modules/heading.md) the following formatting actions are available.
+For basic text fields, such as the **Heading** field in a [Heading module](layouts/modules/heading.md) the following formatting actions are available.
 
 ![Text editor toolbar actions](/img/beaver-builder/basics--inline-editing--3.jpg)
 
@@ -69,14 +69,14 @@ Inline editing allows you to see how your content will look while you type and i
 Any module that contains a text field or text editor area can be edited
 inline. Here are some examples:
 
-- [Button module](modules/button.md)  
+- [Button module](layouts/modules/button/button.md)
   You can edit the text in the button.
 
-- [Callout module](modules/callout.md)  
+- [Callout module](layouts/modules/callout-and-call-to-action.md)
   You can edit the heading, the text area, and the call-to-action text if you've
   selected text rather than a button..
 
-- [Number counter module](modules/number-counter.md)  
+- [Number counter module](layouts/modules/number-counter.md)
   You can edit both the text and the number inline.
 
 ## Disable inline editing

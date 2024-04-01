@@ -5,7 +5,7 @@ sidebar_label: CSS Gradients
 description: This article explains how to convert content from the Standard (block) or Classic editor in WordPress 5 to Beaver Builder and vice versa.
 ---
 
-If you want to add a gradient to the background of a row or column, you can do so with the [color gradient background options](rows/background-settings.md#gradient) built into the rows and columns. Alternatively, if you need a gradient effect with more complexity, such as one created using a gradient generator, you can follow the steps below.
+If you want to add a gradient to the background of a row or column, you can do so with the color gradient background options built into the rows and columns. Alternatively, if you need a gradient effect with more complexity, such as one created using a gradient generator, you can follow the steps below.
 
 ## Get the CSS for your Gradient
 
@@ -22,10 +22,10 @@ somewhere.
 
 ## Add a Custom CSS Class to your Row or Column
 
-Adding custom styling is possible by using the [unique node class name](getting-started/how-it-works.md#nodes), however, we recommend that you create your own class.
+Adding custom styling is possible by using the unique node class name, however, we recommend that you create your own class.
 
-1. Open your row or column for editing and click the [Advanced tab](advanced-tab/index.md).
-2. Scroll to the [HTML Element](advanced-tab/html-element.md#class) section and enter a custom name in the **Class** field. _(Do not use a period.)_
+1. Open your row or column for editing and click the [Advanced tab](layouts/advanced-tab/index.md).
+2. Scroll to the [HTML Element](layouts/advanced-tab/html-element.md#class) section and enter a custom name in the **Class** field. _(Do not use a period.)_
 
 :::tip
 It's a best practice to add a custom prefix to your class names to avoid conflict with other class names used by the theme and plugins. In this example, we'll use the class name `bb-gradient`. Repeat this step for any other rows or columns that you want to have the same color gradient background.

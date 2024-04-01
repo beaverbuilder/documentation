@@ -30,7 +30,7 @@ Here's an overview of how it can be done in Beaver Builder Theme and the Beaver 
 4. Add the content you want to the row.
 
 :::tip
-If you plan to apply a transparent header to every page, you might want to [save this row](/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse), so you can easily add it to the new pages on your site and change the content as you like.
+If you plan to apply a transparent header to every page, you might want to [save this row](/beaver-builder/layouts/saved-content), so you can easily add it to the new pages on your site and change the content as you like.
 :::
 
 ## 3 Add CSS to move the page content up and the header down

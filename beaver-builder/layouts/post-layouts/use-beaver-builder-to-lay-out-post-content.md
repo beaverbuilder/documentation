@@ -22,7 +22,7 @@ second column has a Heading and a Text Editor module.
 
 ![](/img/post-layouts-beaver-layout-posts-2.png)
 
-:::tip **Tips**
+:::tip
 
 - You cannot use Beaver Builder to design layouts for generated index or archive pages. (That requires Beaver Themer.)
 
@@ -31,7 +31,8 @@ second column has a Heading and a Text Editor module.
 - The single post's header, footer, sidebar, post title, featured image, post info, and post navigation are outside of the content area and are configured within the Beaver Builder Theme in **Customize > Content**.
 
 - If you use a Singular-type Beaver Themer layout to design the parts of the single post page that are outside the content area, you can no longer use Beaver Builder to edit the content area of the post.
-  :::
+
+:::
 
 ## 2. Archive pages don't preserve post content formatting
 
@@ -50,12 +51,13 @@ HTML formatting, which will be preserved in the archive or index excerpt. This
 lets you add tags such as headings and paragraphs, bold and italics, and
 inline formatting with the style attribute.
 
-:::note **Notes**
+:::info
 
 - Some themes or plugins may affect the way the post excerpt is displayed in archives and indexes, but it does work with all Beaver Builder products.
 
 - If you plan to display the full content of the post in a Posts module with List layout, there is no workaround for WordPress stripping the formatting out of the post content, whether the post's layout is in Beaver Builder or not.
-  :::
+
+:::
 
 ## 3. The featured image is not part of the content layout
 
@@ -69,7 +71,7 @@ Whether and where the featured image is displayed depends on your theme's
 settings. In the Beaver Builder Theme, you can configure it in **Customize >
 Content > Post Layout**.
 
-:::tip **Tip**
+:::tip
 On a single post page, the featured image is not considered part of
 the content area. This means that if the featured image is set to display
 beside the post, it will push the content area to the right, as shown in the
@@ -78,7 +80,7 @@ following screenshot.
 
 ![](/img/post-layouts-beaver-layout-posts-5.png)
 
-:::tip **Tip**
+:::tip
 If you use Beaver Builder Theme and lay out your posts with Beaver
 Builder, you can place the featured image inside the content area with the
 following setup.
@@ -93,12 +95,12 @@ following setup.
 Similar to static pages, if you want to reuse a layout that you create in a
 post, you can save the entire content area as a layout template, or you can
 save individual rows or modules. You can reuse these layouts on both pages and
-posts. See the articles on [how to save modules, columns, rows](layouts/saved-content.md), and [layout templates](layouts/templates/saved-templates.md).
+posts. See the articles on [how to save modules, columns, rows](layouts/saved-content.md), and [layout templates](../templates/saved-templates.md).
 
-:::tip **Tip**
+:::tip
 If you want a row or module to have identical and synched content
 wherever you use it – in other words, updating it in one spot updates it
-everywhere else – save it as global by [selecting the global checkbox](layouts/templates/saved-content.md) during the procedure to save the row, column, or module.
+everywhere else – save it as global by [selecting the global checkbox](../saved-content.md) during the procedure to save the row, column, or module.
 :::
 
 ## 5. You can change single posts to full width or no header/footer
