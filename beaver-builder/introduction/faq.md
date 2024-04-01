@@ -9,7 +9,14 @@ Frequently asked questions for the Beaver Builder page builder plugin.
 
 ## Difference between Lite & Premium
 
-Whether you're managing a small personal website or running a large agency, we offer both a free and premium version of the Beaver Builder plugin to suit your needs. The free version of Beaver Builder is named Beaver Builder Lite and can be found in the [WordPress plugin repository](https://wordpress.org/plugins/beaver-builder-lite-version/).
+Beaver Builder comes in two flavors: Lite and Premium. The Lite version is free and available in the [WordPress plugin repository](https://wordpress.org/plugins/beaver-builder-lite-version/). The Premium version is available from the [Beaver Builder website](https://www.wpbeaverbuilder.com/pricing). The Lite version is a great way to get started with Beaver Builder and see if it's a good fit for your needs.
+
+Here are some of the differences between the Lite and Premium versions:
+
+- Limited Modules in comparison to Premium.
+- Incompatibility with Beaver Themer.
+- Access to only a few pre-made Templates.
+- Inability to save modules/rows/columns for re-use or to save custom Templates.
 
 <details>
 <summary>Comparison Table</summary>
