@@ -100,9 +100,12 @@ module.exports = {
           items: [
             "cloud/libraries/create-library",
             "cloud/libraries/add-creative-assets",
+            "cloud/libraries/reorder-library-assets",
             "cloud/libraries/view-edit-assets",
+            "cloud/libraries/import-library-assets",
             "cloud/libraries/share-library",
             "cloud/libraries/delete-library",
+            "cloud/libraries/download-library",
           ],
         },
         {
