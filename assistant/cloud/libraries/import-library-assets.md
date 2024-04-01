@@ -13,7 +13,7 @@ To import the entire library, when viewing a library in the plugin, click to the
 To import multiple items at a time but not all of the library items, when viewing a library, click and drag to select at least one item. After that, just click other items to select them. 
 Once they are selected, an Import button will appear next to Delete and Clear.  Clicking import will just import the items selected.
 
-:::Tip To deselect an already selected item before import, just click it to deselect it.
+:::Tip To deselect an already selected item before import, just click it to deselect it.:::
 
 ### Importing just one library item
 To import just one item or one item at a time, the steps for importing multiple library assets could be followed or instead of click dragging to select, just click the item you want to import.
