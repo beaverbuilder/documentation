@@ -1,5 +1,5 @@
 ---
-id: reorder-libary-assets
+id: reorder-library-assets
 title: Re-order Library Assets
 sidebar_label: Re-order Library Assets
 ---
