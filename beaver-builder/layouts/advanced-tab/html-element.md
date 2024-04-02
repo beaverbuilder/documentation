@@ -105,7 +105,7 @@ Defines a [header](https://www.w3schools.com/TAGs/tag_header.asp) in your layout
 
 ```markup title="Heading module using the <header> container element"
 <!-- Row markup -->
-  <!-- Column markup -->    
+  <!-- Column markup -->
     <header class="fl-module fl-module-heading fl-node-lrqwuvkn30px" data-node="lrqwuvkn30px">
       <div class="fl-module-content fl-node-content">
         <h2 class="fl-heading">
@@ -135,7 +135,6 @@ Defines a [footer](https://www.w3schools.com/TAGs/tag_footer.asp) in your layout
 </footer>
 ```
 
-
 ## ID
 
 Using the ID option, you can assign a custom [ID](https://www.w3schools.com/htmL/html_id.asp) to a specific node (row, column, or module) on your layout.
@@ -160,11 +159,11 @@ Using the ID option, you can assign a custom [ID](https://www.w3schools.com/htmL
 
 This unique identifier can then be used for various purposes, such as:
 
-* **Styling**: You can use CSS to [target specific elements](#id-css-example) on a web page using their ID. This allows you to apply custom styles to that particular element, which may differ from the rest of the page.
+- **Styling**: You can use CSS to [target specific elements](#id-css-example) on a web page using their ID. This allows you to apply custom styles to that particular element, which may differ from the rest of the page.
 
-* **Identifying**: You can use the ID to identify specific elements in your code. For example, if you are using JavaScript to manipulate the elements on your layout, you can use the ID to reference a specific element and perform actions on it.
+- **Identifying**: You can use the ID to identify specific elements in your code. For example, if you are using JavaScript to manipulate the elements on your layout, you can use the ID to reference a specific element and perform actions on it.
 
-* **Anchoring**: You can use the ID to create [anchor fragments](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web#fragment). This allows you to [create links that jump directly to a specific section of your page or post](/beaver-builder/advanced-builder-techniques/smooth-scrolling-links.md).
+- **Anchoring**: You can use the ID to create [anchor fragments](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web#fragment). This allows you to [create links that jump directly to a specific section of your page or post](basics/smooth-scrolling.md).
 
 :::caution
 An important point to remember is that IDs on a page or post should be unique, meaning that no two elements should share the same ID.
@@ -230,7 +229,6 @@ Adding the period (`.`) to the class option is not necessary, just the name of t
   <li><span className="fa-li"><i className="fa-solid fa-xmark fa-xl" style={{ color: "tomato" }} /></span><code>.text-white</code> <code>.heading-right</code></li>
 </ul>
 :::
-
 
 ### CSS Example {#class-css-example}
 

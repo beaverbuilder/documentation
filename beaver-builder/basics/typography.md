@@ -4,12 +4,12 @@ title: Typography
 sidebar_label: Typography
 ---
 
-The Typography section is available for most modules that support custom text. Typography options can be used to format the text in a particular module, [overriding the theme's default typography](getting-started/how-it-works.md#styling-cascade).
+The Typography section is available for most modules that support custom text. Typography options can be used to format the text in a particular module, overriding the theme's default typography.
 
 ![Typography section in modules](/img/beaver-builder/editor-basics--typography--1.jpg)
 
 :::tip
-The [Responsive Toggle](responsive-design/toggle.md) can be used to adjust the Typography settings on a per-device basis.
+The [Responsive Toggle](layouts/responsive-design/toggle.md) can be used to adjust the Typography settings on a per-device basis.
 
 ![Typography responsive toggle](/img/beaver-builder/editor-basics--typography--2.jpg)
 :::
@@ -69,7 +69,7 @@ the element's font size.
 
 In most cases this is the preferred way to set line
 height, but you can also choose **px** or **em**. If this field is empty, the
-default line height is used.  
+default line height is used.
 
 ![Typography line-height](/img/beaver-builder/editor-basics--typography--4.jpg)
 
@@ -92,7 +92,7 @@ Controls the horizontal spacing between letters, in pixels. It corresponds to th
 ### Transform
 
 Allows you to change the case of the text string without retyping. It
-corresponds to the CSS `text-transform` property.  
+corresponds to the CSS `text-transform` property.
 
 The choices are, from left to right: Normal (as typed), capitalize the first
 letter of every word, convert all letters to uppercase, and convert all
@@ -113,10 +113,10 @@ italic or oblique), **Italic**, or **Oblique**.
 
 :::info
 
-* If you set **Style** to **Italic**, Beaver Builder loads the italic version of the font family you selected, if one exists. If not, the browser provides a computer-generated italic version of the font.
+- If you set **Style** to **Italic**, Beaver Builder loads the italic version of the font family you selected, if one exists. If not, the browser provides a computer-generated italic version of the font.
 
-* Here's a good article on the difference between italic and oblique fonts and the difference between glyphs designed by a typographer and computer-generated versions: [TypeTalk: Italic vs. Oblique](https://creativepro.com/typetalk-italic-vs-oblique/).
-:::
+- Here's a good article on the difference between italic and oblique fonts and the difference between glyphs designed by a typographer and computer-generated versions: [TypeTalk: Italic vs. Oblique](https://creativepro.com/typetalk-italic-vs-oblique/).
+  :::
 
 ### Variant
 

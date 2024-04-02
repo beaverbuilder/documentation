@@ -14,8 +14,8 @@ You can increase the size of the header logo wrapper to allow more room for the 
 
 **To adjust the header logo wrapper width:**
 
-* Add the following CSS code.  
-  See the article on [where to add CSS code](/beaver-builder/styles/custom-code).  
+- Add the following CSS code.
+  See the article on [where to add CSS code](/beaver-builder/basics/custom-code).
 
   ```css
   @media (min-width: 768px) {
@@ -29,6 +29,5 @@ You can increase the size of the header logo wrapper to allow more room for the 
     }
   }
   ```
-
 
 See [this article for more information about Nav Bottom layout](/bb-theme/customizer-settings/header.md/#nav-bottom), which is set in **Customize > Header > Header Layout**.

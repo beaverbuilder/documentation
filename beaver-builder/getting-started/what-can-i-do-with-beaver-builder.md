@@ -23,11 +23,11 @@ diagram:
 
 Here's how Beaver Builder fits into that.
 
-* The Beaver Builder plugin lets you create intricate layouts in the *content area* of the page. Out of the box, Beaver Builder is enabled for pages, but there are settings to enable it for the content area of posts and custom posts.
+- The Beaver Builder plugin lets you create intricate layouts in the _content area_ of the page. Out of the box, Beaver Builder is enabled for pages, but there are settings to enable it for the content area of posts and custom posts.
 
-* A WordPress *theme* is a mandatory component of a WordPress site. It controls the header, footer, and sidebar areas of your site. For a single Post, it also controls the display of post information (post title, author, featured images, categories, and so on). Depending on the theme you choose, you may also be able to configure or suppress these areas on individual pages and posts, using [WordPress page templates](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts).
+- A WordPress _theme_ is a mandatory component of a WordPress site. It controls the header, footer, and sidebar areas of your site. For a single Post, it also controls the display of post information (post title, author, featured images, categories, and so on). Depending on the theme you choose, you may also be able to configure or suppress these areas on individual pages and posts, using [WordPress page templates](/bb-theme/getting-started/built-in-theme-templates-for-single-pages-and-posts).
 
-* The [Beaver Themer plugin](https://www.wpbeaverbuilder.com/beaver-themer/) lets you build layouts in areas outside the content area, which are normally controlled by the theme. You can specify which pages the Themer layouts apply to and which users can see them. Beaver Themer is an add-on that uses the Beaver Builder plugin to build these layouts. See the examples below.
+- The [Beaver Themer plugin](https://www.wpbeaverbuilder.com/beaver-themer/) lets you build layouts in areas outside the content area, which are normally controlled by the theme. You can specify which pages the Themer layouts apply to and which users can see them. Beaver Themer is an add-on that uses the Beaver Builder plugin to build these layouts. See the examples below.
 
 The following sections show you the basic concepts underlying content layouts
 with the Beaver Builder plugin, the parts of the page controlled by the theme,
@@ -59,16 +59,16 @@ On the editing page, you'll see the Beaver Builder admin bar at the top of the
 screen. Click the Plus icon on the upper right side, and do any of the
 following to get started.
 
-* Start with a content layout for the page and modify it. Click the **Templates** tab and click any template to insert it.  
-Choose a different template type in the **Group** field for more choices. [See this article on layout templates](/beaver-builder/layouts/templates/layout-templates-overview.md) for more information.
+- Start with a content layout for the page and modify it. Click the **Templates** tab and click any template to insert it.
+  Choose a different template type in the **Group** field for more choices. [See this article on layout templates](layouts/templates/index.md) for more information.
 
 ![](/img/what-can-i-do-with-beaverbuilder-5.png)
 
-* Add one or more prebuilt row layouts and modify them. Click the **Rows** tab, in the **Group** field select **Prebuilt rows**, then choose a category and drag your selection into the layout. [See this article on prebuilt rows.](/beaver-builder/layouts/rows/add-prebuilt-rows-to-your-content.md)
+- Add one or more prebuilt row layouts and modify them. Click the **Rows** tab, in the **Group** field select **Prebuilt rows**, then choose a category and drag your selection into the layout. [See this article on prebuilt rows.](/beaver-builder/layouts/rows/add-prebuilt-rows-to-your-content.md)
 
 ![](/img/what-can-i-do-with-beaverbuilder-6.png)
 
-* Design your content from scratch by dragging individual modules into the content area. Click the **Modules** tab and drag a module into the layout.
+- Design your content from scratch by dragging individual modules into the content area. Click the **Modules** tab and drag a module into the layout.
 
 ![](/img/what-can-i-do-with-beaverbuilder-7.png)
 
@@ -80,9 +80,9 @@ Builder admin bar and then in the **Tools** menu click **Help**.
 
 ### The basics of content area layouts
 
-When you drag content modules from the Content panel to the layout, the rows and columns are automatically created. As your layouts become more complex, with child columns, sometimes it's easier to drag in row layouts first, then drag content modules into them. 
+When you drag content modules from the Content panel to the layout, the rows and columns are automatically created. As your layouts become more complex, with child columns, sometimes it's easier to drag in row layouts first, then drag content modules into them.
 
-For example, here is a single row with three *column groups*, which can be thought of as rows within rows.
+For example, here is a single row with three _column groups_, which can be thought of as rows within rows.
 
 ![](/img/what-can-i-do-with-beaverbuilder-8.png)
 
@@ -114,7 +114,7 @@ For more information about responsive editing settings, start with this
 You can save rows and modules globally, so that any change you make in one
 place is reflected everywhere, or you can save the rows and modules so you can
 reuse them but can modify them differently in each location. Or you can save
-the entire layout as a layout template, which you can [use on any other page of your site](/beaver-builder/layouts/templates/add-a-layout-template-to-your-page.md) or [export for use on another site](/beaver-builder/layouts/templates/export-import-content.md).
+the entire layout as a layout template, which you can [use on any other page of your site](layouts/templates/index.md) or [export for use on another site](layouts/templates/saved-templates.md#export--import).
 
 If you have the Agency edition of the Beaver Builder plugin, you can white-
 label the Beaver Builder UI. And with any edition of Beaver Builder, you can
@@ -146,24 +146,24 @@ Customizer, which you can access from the **Appearance** menu in the WordPress
 admin panel. The Beaver Builder Theme has customizations for the following
 general categories:
 
-  * Presets, which apply built-in styling to the page if you don't want to customize all the theme settings yourself.
-  * Layout and styling of the header (top bar, header, nav bar), footer (widgets and footer bar), and sidebar.
-  * Layout and options for blog archives, single posts, and WooCommerce.
-  * Default style settings for Beaver Builder, such as accent color, heading and text fonts, and buttons.
-  * A section where you can add code to the head or body of your pages.
+- Presets, which apply built-in styling to the page if you don't want to customize all the theme settings yourself.
+- Layout and styling of the header (top bar, header, nav bar), footer (widgets and footer bar), and sidebar.
+- Layout and options for blog archives, single posts, and WooCommerce.
+- Default style settings for Beaver Builder, such as accent color, heading and text fonts, and buttons.
+- A section where you can add code to the head or body of your pages.
 
 ### Header, footer, sidebar areas in the Beaver Builder Theme
 
 The header contains two separate areas:
 
-  * The top bar, an optional strip above the header, which can contain one or two columns.
-  * The main header, which includes the logo and the nav area with a number of choices of layout.  
-Some header choices allows separate styling of the nav area.
+- The top bar, an optional strip above the header, which can contain one or two columns.
+- The main header, which includes the logo and the nav area with a number of choices of layout.
+  Some header choices allows separate styling of the nav area.
 
 The footer also contains two separate areas, each optional:
 
-  * The main footer, similar to the top bar in allowing one or two columns.
-  * The footer widgets area, which appears above the footer.
+- The main footer, similar to the top bar in allowing one or two columns.
+- The footer widgets area, which appears above the footer.
 
 Here's a diagram showing the header and footer subareas.
 
@@ -188,24 +188,24 @@ layouts site-wide unless you choose to override that behavior.
 Here are some Beaver Builder Theme settings that apply to Beaver Builder
 layouts:
 
-  * Accent color  
-Sets the default color of both Theme and Beaver Builder links and buttons.
+- Accent color
+  Sets the default color of both Theme and Beaver Builder links and buttons.
 
-  * Headings  
-Sets the default font family, size, and other font properties of headings in
-the content area.
+- Headings
+  Sets the default font family, size, and other font properties of headings in
+  the content area.
 
-  * Text  
-Sets the default font family, size, and other font properties of non-heading
-text in the content area.
+- Text
+  Sets the default font family, size, and other font properties of non-heading
+  text in the content area.
 
-  * Background  
-Sets a background color or image for the entire content area.
+- Background
+  Sets a background color or image for the entire content area.
 
-  * Lightbox  
-Controls the default behavior or whether images open in a lightbox when
-clicked.
+- Lightbox
+  Controls the default behavior or whether images open in a lightbox when
+  clicked.
 
-  * Current year shortcode  
-The theme has a shortcode that automatically inserts the current year, both in
-theme areas of the page and in Beaver Builder and Beaver Themer layouts.
+- Current year shortcode
+  The theme has a shortcode that automatically inserts the current year, both in
+  theme areas of the page and in Beaver Builder and Beaver Themer layouts.

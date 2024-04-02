@@ -27,7 +27,7 @@ If you don't see the **Cancel Renewal** button, it means you're not in the autor
 :::
 
 :::caution
-We cannot reinstate auto-renewal if you cancel it later, but you can still renew manually. 
+We cannot reinstate auto-renewal if you cancel it later, but you can still renew manually.
 :::
 
 If you do not renew your Beaver Builder license, please refer to the [What happens if I don't renew?](#what-happens-if-i-dont-renew) section for more information.
@@ -42,10 +42,12 @@ If for some reason you don’t receive these emails, [contact us](https://www.wp
 
 ## What happens if I don't renew?
 
-In the event that your Beaver Builder license expires, you will no longer be able to download products from your account page. However, any copy that you have already downloaded can still be installed and used. Essentially, you are limited to using the Beaver Builder version that was released at the time your license expired. Additionally, Beaver Builder Support will not be available to you.
+If your Beaver Builder license expires, you won't have access to updates or the ability to download products from your account page. However, you can still install and use any copy you've already downloaded. Essentially, you're restricted to the Beaver Builder version available at the time your license expired. Furthermore, Beaver Builder Support won't be accessible to you in such a case.
 
 :::caution
-Please note that we cannot guarantee that older versions of Beaver Builder will continue to work if you update other components on your site, such as WordPress, PHP, or third-party plugins.
 
-For these reasons, if you decide not to renew your license, we advise you to start thinking about moving your content to another solution.
+Keep in mind that we can't assure the compatibility of older versions of Beaver Builder with updated components like WordPress, PHP, or third-party plugins on your site.
+
+Given these considerations, if you opt not to renew your license, we recommend considering migrating your content to an alternative solution.
+
 :::

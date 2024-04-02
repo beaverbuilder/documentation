@@ -1,7 +1,7 @@
 ---
 id: event-website
 title: Event Website module
-sidebar_label: 'Singular: Event Website'
+sidebar_label: "Singular: Event Website"
 description: The article covers the Event Website module which displays an event's website link.
 ---
 
@@ -19,7 +19,7 @@ The Event Website module appears in **The Events Calendar** section of the **The
 
 ## Style tab
 
-The **Style** tab has a variety of settings that apply to the [`the_events_calendar_website_link`](../field-connections.md#event-website-link) field connection and any other text in the module, such as text color and the Beaver Builder [Typography section](/beaver-builder/styles/typography/), which gives you many choices not available in the text editor, starting with font family.
+The **Style** tab has a variety of settings that apply to the [`the_events_calendar_website_link`](../field-connections.md#event-website-link) field connection and any other text in the module, such as text color and the Beaver Builder [Typography section](/beaver-builder/basics/typography/), which gives you many choices not available in the text editor, starting with font family.
 
 ## The Advanced tab
 

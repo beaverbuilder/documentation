@@ -14,13 +14,13 @@ The **CSS & JavaScript** sections are available for all nodes (rows, columns, an
 
 ## Enable & Disable
 
-CSS and JavaScript are the only sections found in the Advanced tab that are enabled by default, but can be disabled if needed. You can disable the CSS & JavaScripts section by disabling the [Enable Code Settings](/beaver-builder/management-migration/advanced-settings.md#enable-code-settings) option in Beaver Builder [Advanced settings](/beaver-builder/management-migration/advanced-settings.md).
+CSS and JavaScript are the only sections found in the Advanced tab that are enabled by default, but can be disabled if needed. You can disable the CSS & JavaScripts section by disabling the [Enable Code Settings](settings/advanced.md#enable-code-settings) option in Beaver Builder [Advanced settings](settings/advanced.md).
 
 ## CSS Section
 
-The CSS section can be found in the [Advanced tab](/beaver-builder/layouts/advanced-tab/index.md) and is available for all nodes (rows, columns, and modules). By using the CSS section, you can add custom CSS that will only be applied to that specific node.
+The CSS section can be found in the [Advanced tab](index.md) and is available for all nodes (rows, columns, and modules). By using the CSS section, you can add custom CSS that will only be applied to that specific node.
 
-For example, suppose you have a [Text module](/beaver-builder/layouts/modules/text.md) with a node id class name of `fl-node-1d43q3gf56s` and you add custom CSS to style the `<p>` tags with a specific color or font size. The following CSS rule will only affect paragraph (`<p>`) tags for that Text module.
+For example, suppose you have a [Text module](layouts/modules/text.md) with a node id class name of `fl-node-1d43q3gf56s` and you add custom CSS to style the `<p>` tags with a specific color or font size. The following CSS rule will only affect paragraph (`<p>`) tags for that Text module.
 
 ```css
 p {
@@ -61,8 +61,8 @@ In order for your JavaScript to be scoped to the specific node, you must either 
 
 ### Assign Custom ID or Class Name
 
-* Add a [custom ID](html-element.md#id).
-* Add a [custom class](html-element.md#class).
+- Add a [custom ID](html-element.md#id).
+- Add a [custom class](html-element.md#class).
 
 ### Identify the Node ID
 
@@ -80,10 +80,10 @@ You can find the unique class name of a node in two ways: by checking the page s
 
 Learn more about your browser's developer tools by clicking on the links below.
 
-* [Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
-* [FireFox](https://firefox-dev.tools/)
-* [Google Chrome](https://developer.chrome.com/docs/devtools/overview/)
-* [Safari](https://support.apple.com/guide/safari/use-the-developer-tools-in-the-develop-menu-sfri20948/mac)
+- [Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
+- [FireFox](https://firefox-dev.tools/)
+- [Google Chrome](https://developer.chrome.com/docs/devtools/overview/)
+- [Safari](https://support.apple.com/guide/safari/use-the-developer-tools-in-the-develop-menu-sfri20948/mac)
 
 ## Outline Panel Indicator
 

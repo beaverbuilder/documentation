@@ -20,4 +20,4 @@ By default, no user roles are given access to **Template Data Exporter**. To gra
 
 The Template Exporter lets you export all Beaver Builder saved content (templates, saved rows, columns, and modules) and Beaver Themer layouts.
 
-See the [Template Author](../developer/how-to-tips/theme-author-templates/) article for more information.
+See the [Template Author](layouts/templates/theme-template-authors.md) article for more information.

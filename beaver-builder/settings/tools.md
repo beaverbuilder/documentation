@@ -17,12 +17,12 @@ The **Tools** tab in the Beaver Builder settings lets you control which post typ
 
 ## Cache
 
-A CSS and JavaScript file are dynamically generated and cached whenever you create a new layout. The files are stored in the *`wp-content/uploads/bb-plugin/cache`* directory, where they are used to improve performance. The following actions result in the deletion and creation of these files automatically:
+A CSS and JavaScript file are dynamically generated and minified whenever you create a new layout. The files are stored in the _`wp-content/uploads/bb-plugin/cache`_ directory, where they are used to improve performance. The following actions result in the deletion and creation of these files automatically:
 
-* Updates are made to a page, post, or custom post type.
-* The Beaver Builder plugin is updated.
-* Site URLs change, such as when [migrating a site to another location](advanced/migration.md).
-* Enabling Beaver Builder [Debug mode](#debug-mode) or setting `WP_DEBUG` to **true** in your *wp-config.php* file.
+- Updates are made to a page, post, or custom post type.
+- The Beaver Builder plugin is updated.
+- Site URLs change, such as when [migrating a site to another location](advanced/migration.md).
+- Enabling Beaver Builder [Debug mode](#debug-mode) or setting `WP_DEBUG` to **true** in your _wp-config.php_ file.
 
 ### Manually clear cache
 
@@ -33,7 +33,7 @@ Even though these cache-clearing triggers occur for most cases, you can manually
 
 :::tip
 
-As an alternative, you can delete the contents of the Beaver Builder caching directory by deleting all of the files in the folder *`wp-content/uploads/bb-plugin/cache`*.
+As an alternative, you can delete the contents of the Beaver Builder caching directory by deleting all of the files in the folder _`wp-content/uploads/bb-plugin/cache`_.
 
 :::
 
@@ -47,36 +47,36 @@ On [WordPress Multisite](https://wordpress.org/support/article/create-a-network/
 
 Beaver Builder has a built-in cache clearing tool that automatically clears caches created by popular cache plugins and services.
 
-* [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
-* [AutoOptimize](https://wordpress.org/plugins/autoptimize/)
-* [Breeze](https://wordpress.org/plugins/breeze/)
-* [Cache Enabler](https://wordpress.org/plugins/cache-enabler/)
-* [Cloudflare](https://wordpress.org/plugins/cloudflare/)
-* [Godaddy Hosting](https://www.godaddy.com/)
-* [Hummingbird](https://wordpress.org/plugins/hummingbird-performance/)
-* [Kinsta Hosting](https://kinsta.com/)
-* [Nginx Helper](https://wordpress.org/plugins/nginx-helper/)
-* Object Caching
-* [Pagely Hosting](https://pagely.com/plans-pricing/)
-* [Pantheon Hosting](https://pantheon.io/)
-* [SiteGround Hosting](https://wordpress.org/plugins/sg-cachepress/)
-* [SpinupWP](https://spinupwp.com/)
-* [Swift Performance](https://wordpress.org/plugins/swift-performance-lite/)
-* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
-* [WP Fastest Cache](https://wordpress.org/plugins/wp-fastest-cache/)
-* [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
-* [WPEngine Hosting](https://wpengine.com/)
+- [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
+- [AutoOptimize](https://wordpress.org/plugins/autoptimize/)
+- [Breeze](https://wordpress.org/plugins/breeze/)
+- [Cache Enabler](https://wordpress.org/plugins/cache-enabler/)
+- [Cloudflare](https://wordpress.org/plugins/cloudflare/)
+- [Godaddy Hosting](https://www.godaddy.com/)
+- [Hummingbird](https://wordpress.org/plugins/hummingbird-performance/)
+- [Kinsta Hosting](https://kinsta.com/)
+- [Nginx Helper](https://wordpress.org/plugins/nginx-helper/)
+- Object Caching
+- [Pagely Hosting](https://pagely.com/plans-pricing/)
+- [Pantheon Hosting](https://pantheon.io/)
+- [SiteGround Hosting](https://wordpress.org/plugins/sg-cachepress/)
+- [SpinupWP](https://spinupwp.com/)
+- [Swift Performance](https://wordpress.org/plugins/swift-performance-lite/)
+- [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
+- [WP Fastest Cache](https://wordpress.org/plugins/wp-fastest-cache/)
+- [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
+- [WPEngine Hosting](https://wpengine.com/)
 
 :::info
 
 The cache is cleared under the following conditions:
 
-* When WordPress finishes updating plugins and themes.
+- When WordPress finishes updating plugins and themes.
 
-* When Beaver Builder editor is active.  
+- When Beaver Builder editor is active.
   This works by defining the `DONOTCACHEPAGE` constant while the page is being edited. This constant is respected by most caching plugins.
 
-* When layouts and templates are saved in the Beaver Builder editor.
+- When layouts and templates are saved in the Beaver Builder editor.
 
 :::
 
@@ -106,8 +106,8 @@ If you have the Beaver Builder Theme active, you can also edit any code you have
 
 Entering Debug Mode produces a URL that contains a debug report. You can do any of the following things with the URL:
 
-* Copy it into your browser to view the debug report.
-* Add the URL when you submit a support ticket.
+- Copy it into your browser to view the debug report.
+- Add the URL when you submit a support ticket.
 
 ### Enable Debug Mode
 
@@ -139,7 +139,7 @@ https://my-website.com/?fl_builder&showerrors
 
 ### PHP Info
 
-You can also use Beaver Builder debug mode to display your website's PHP configuration, also known as phpinfo. After enabling Debug Mode, add the parameter `&info` to your debug URL to view your PHP configuration. 
+You can also use Beaver Builder debug mode to display your website's PHP configuration, also known as phpinfo. After enabling Debug Mode, add the parameter `&info` to your debug URL to view your PHP configuration.
 
 ```markup
 https://my-website.com/?fldebug=a12340b6390778c2geg3f832aaf1ae31&info
@@ -147,7 +147,7 @@ https://my-website.com/?fldebug=a12340b6390778c2geg3f832aaf1ae31&info
 
 ## Prerelease Updates
 
-Enabling prerelease updates applies to all Beaver Builder products that you have installed. If you want updates to apply to only one product, follow the instructions on the [Alpha & Beta releases](/faq/alpha-and-beta-releases) article.
+Enabling prerelease updates applies to all Beaver Builder products that you have installed. If you want updates to apply to only one product, follow the instructions on the [Alpha & Beta releases](introduction/releases-versioning.md) article.
 
 :::warning
 There is no support provided for alpha or beta releases and it is strongly discouraged to use them in production environments. There is a high risk of bugs and features can be changed or removed based on testing and feedback.
@@ -168,8 +168,8 @@ We don't encourage this setting, so you will not see it until you have enabled b
 
 2. On the **Tools** tab, scroll to the **Prerelease Updates** section.
 
-3. Select the checkbox **Enable Alpha updates**.  
-  If you don't see this checkbox, enable Beta updates first and save.
+3. Select the checkbox **Enable Alpha updates**.
+   If you don't see this checkbox, enable Beta updates first and save.
 
 4. Click Save prerelease settings.
 
@@ -195,21 +195,21 @@ On [WordPress Multisite](https://wordpress.org/support/article/create-a-network/
 
 The following data will be deleted from your `wp_options` table:
 
-* `_fl_builder_settings`
-* `_fl_builder_enabled_modules`
-* `_fl_builder_enabled_templates`
-* `_fl_builder_templates_override`
-* `_fl_builder_templates_override_rows`
-* `_fl_builder_templates_override_columns`
-* `_fl_builder_templates_override_modules`
-* `_fl_builder_post_types`
-* `_fl_builder_enabled_icons`
-* `_fl_builder_branding`
-* `_fl_builder_branding_icon`
-* `_fl_builder_theme_branding`
-* `_fl_builder_user_access`
-* `_fl_builder_help_button`
-* `_fl_builder_color_presets`
+- `_fl_builder_settings`
+- `_fl_builder_enabled_modules`
+- `_fl_builder_enabled_templates`
+- `_fl_builder_templates_override`
+- `_fl_builder_templates_override_rows`
+- `_fl_builder_templates_override_columns`
+- `_fl_builder_templates_override_modules`
+- `_fl_builder_post_types`
+- `_fl_builder_enabled_icons`
+- `_fl_builder_branding`
+- `_fl_builder_branding_icon`
+- `_fl_builder_theme_branding`
+- `_fl_builder_user_access`
+- `_fl_builder_help_button`
+- `_fl_builder_color_presets`
 
 The **Uninstall** process will also remove `_fl_builder_launched` from the `wp_usermeta` table.
 
@@ -223,19 +223,19 @@ Even if you **Uninstall** the Beaver Builder plugin, there are some `wp_postmeta
 
 The easiest way to do this is to the the [Post Meta Manager](https://wordpress.org/plugins/post-meta-manager/) plugin. After installing, go to **WordPress Admin Dashboard > Tools > Post Meta Manager** and enter the following keys one by one in the **Delete Meta Keys** section to completely wipe all builder data:
 
-* `_fl_builder_data`
-* `_fl_builder_data_settings`
-* `_fl_builder_draft`
-* `_fl_builder_draft_settings`
+- `_fl_builder_data`
+- `_fl_builder_data_settings`
+- `_fl_builder_draft`
+- `_fl_builder_draft_settings`
 
 ![Delete meta keys](/img/beaver-builder/settings--tools--3.jpg)
 
-### What happens after 
+### What happens after
 
 When you remove Beaver Builder using **Uninstall**, here is what happens.
 
-* A stripped-down HTML version of your layout is copied to the native WordPress editor.
-* Your content layouts may not look exactly the same as when the plugin was active, but you won't lose your content.
-* Your settings under **WordPress Admin Dashboard > Settings > Beaver Builder** are deleted, and the cache is cleared.
-* In technical terms, uninstalling with this method deletes the cache files and options from the `wp_options` table, but it doesn’t delete any layout data in the `wp_postmeta` table.
-* If you reactivate the plugin, your content layouts are restored and available for editing in Beaver Builder, but you must manually add information back to **WordPress Admin Dashboard > Settings > Beaver Builder**.
+- A stripped-down HTML version of your layout is copied to the native WordPress editor.
+- Your content layouts may not look exactly the same as when the plugin was active, but you won't lose your content.
+- Your settings under **WordPress Admin Dashboard > Settings > Beaver Builder** are deleted, and the cache is cleared.
+- In technical terms, uninstalling with this method deletes the cache files and options from the `wp_options` table, but it doesn’t delete any layout data in the `wp_postmeta` table.
+- If you reactivate the plugin, your content layouts are restored and available for editing in Beaver Builder, but you must manually add information back to **WordPress Admin Dashboard > Settings > Beaver Builder**.

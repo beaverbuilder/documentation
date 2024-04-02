@@ -14,11 +14,11 @@ Logo text can be set to display at **Header > Header Logo > Logo type > Text,** 
 
 The good news is that a little CSS can take care of this.
 
-Change the font size to the size you want and paste the following code into the location where you put your custom CSS. For more specific instructions on where to put CSS for your theme, see [Methods 2 and 3 in this article](/beaver-builder/styles/custom-code).
+Change the font size to the size you want and paste the following code into the location where you put your custom CSS. For more specific instructions on where to put CSS for your theme, see [Methods 2 and 3 in this article](/beaver-builder/basics/custom-code).
 
 ```css
 .fl-page-nav-right.fl-page-header-fixed .fl-logo-text,
 .fl-page-header-fixed .fl-logo-text {
-  font-size:20px;
+  font-size: 20px;
 }
 ```

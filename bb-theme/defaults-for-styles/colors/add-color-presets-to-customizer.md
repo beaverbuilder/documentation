@@ -22,33 +22,34 @@ The procedure adds code to your child theme's functions.php file. Unless you hav
 
 **To add custom presets:**
 
-  1. Add the following code to your child theme's _functions.php_ file.  
+1. Add the following code to your child theme's _functions.php_ file.
 
-  ```php
-  //Change the Customizer color palette presets
-  add_action('customize_controls_print_footer_scripts', function () {
-    ?>
-    <script>
-      jQuery(document).ready(function($){
-        $('.wp-picker-container').iris({
-          mode: 'hsl',
-          controls: {
-          horiz: 'h', // square horizontal displays hue
-          vert: 's', // square vertical displays saturdation
-          strip: 'l' // slider displays lightness
-        },
-          palettes: ['#91472c', '#6d775f', '#f9fffb', '#546a76']
-        })
-      });
-    </script>
-    <?php
-  });
-  ```
-  2. Change, add to, or delete hex colors in the `palettes` parameter.  
-  The number of boxes displayed in Customizer will match the number of colors you specify here.
-  3. If the color picker square and slider aren't behaving as you want them to, vary the HSL parameters to change where hue, saturation, and lightness are controlled.
-  4. Save the file.
+```php
+//Change the Customizer color palette presets
+add_action('customize_controls_print_footer_scripts', function () {
+  ?>
+  <script>
+    jQuery(document).ready(function($){
+      $('.wp-picker-container').iris({
+        mode: 'hsl',
+        controls: {
+        horiz: 'h', // square horizontal displays hue
+        vert: 's', // square vertical displays saturdation
+        strip: 'l' // slider displays lightness
+      },
+        palettes: ['#91472c', '#6d775f', '#f9fffb', '#546a76']
+      })
+    });
+  </script>
+  <?php
+});
+```
+
+2. Change, add to, or delete hex colors in the `palettes` parameter.
+   The number of boxes displayed in Customizer will match the number of colors you specify here.
+3. If the color picker square and slider aren't behaving as you want them to, vary the HSL parameters to change where hue, saturation, and lightness are controlled.
+4. Save the file.
 
 :::tip
-You can also [add color presets programmatically to the Beaver Builder plugin editor](/beaver-builder/styles/colors/add-a-color-palette-to-the-beaver-builder-editor).
+You can also [add color presets programmatically to the Beaver Builder plugin editor](/beaver-builder/basics/color-picker).
 :::

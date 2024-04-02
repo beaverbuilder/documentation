@@ -18,14 +18,14 @@ In addition, the theme controls display and placement of information about Posts
 
 ![](/img/primer-on-wordpress-content-and-theme-areas-themer-0b6e8cb1.png)
 
-
 The Beaver Builder plugin gives you the ability to lay out and add content to many small pieces of content inside the WordPress content area. Suddenly layouts became much more interesting than adding widgets in a sidebar.
 
-**Beaver Themer** is  an add-on to the Beaver Builder plugin. It lets you use the Beaver Builder editor to create "Themer layouts" in areas that are traditionally handled by themes. While an active theme is still required, Beaver Themer layouts override the active theme's control when necessary.
+**Beaver Themer** is an add-on to the Beaver Builder plugin. It lets you use the Beaver Builder editor to create "Themer layouts" in areas that are traditionally handled by themes. While an active theme is still required, Beaver Themer layouts override the active theme's control when necessary.
 
 :::info
 
-* The header, footer, location of the sidebar, and Post information and metadata are controlled by the active WordPress theme. Beaver Themer overrides this control as appropriate.
-* WordPress allows only one content area on a Post or Page.
-* The [Singular Themer layout](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type.md) lets you create Beaver Builder layouts for the information that lies outside the countent area of a single post. To use Beaver Builder for the content area of a post, use a regular Beaver Builder layout. Be sure to [enable the **Posts** post type in the Beaver Builder settings](/beaver-builder/management-migration/settings-overview#post-types-tab).
+- The header, footer, location of the sidebar, and Post information and metadata are controlled by the active WordPress theme. Beaver Themer overrides this control as appropriate.
+- WordPress allows only one content area on a Post or Page.
+- The [Singular Themer layout](/beaver-themer/layout-types-modules/singular-layout-type/themer-singular-layout-type.md) lets you create Beaver Builder layouts for the information that lies outside the countent area of a single post. To use Beaver Builder for the content area of a post, use a regular Beaver Builder layout. Be sure to [enable the **Posts** post type in the Beaver Builder settings](/beaver-builder/settings/post-types).
+
 :::

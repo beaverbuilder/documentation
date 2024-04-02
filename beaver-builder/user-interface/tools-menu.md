@@ -35,7 +35,7 @@ Do not use duplicator plugins to duplicate Beaver Builder layouts.
 
 :::
 
-To learn more about duplicating layouts, visit the [Duplicate Layout](getting-started/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page.md) article.
+To learn more about duplicating layouts, visit the [Duplicate Layout](basics/duplicate-layout.md) article.
 
 ## Preview Layout
 
@@ -55,7 +55,7 @@ See the [Responsive](layouts/responsive-design/index.md) section for more inform
 
 Display the previously published revisions available to revert to. The number of revisions available is displayed in brackets. This menu item uses the core WordPress revision feature but makes it more convenient to view and access revisions.
 
-See the [Restore Previous Version](advanced-builder-techniques/restore-a-previous-version.md) for more information.
+See the [Restore Previous Version](basics/restore-previous-version.md) for more information.
 
 :::tip
 
@@ -67,7 +67,7 @@ Only published pages and posts count as revisions. Saved drafts of pages and pos
 
 As you edit a post or page, Beaver Builder logs the changes you make. These changes can be viewed in the **History** menu item, which lets you undo or redo any changes you have made.
 
-See the [Undo & Redo](getting-started/bb-editor-basics/undo-redo.md) article for more information.
+See the [Undo & Redo](basics/undo-redo.md) article for more information.
 
 ## Layout CSS & JavaScript
 
@@ -111,16 +111,16 @@ Choosing this option opens a submenu with shortcuts to get to the following popu
 
 ![WordPress Admin Shortcut](/img/beaver-builder/user-interface--tools-menu--5.jpg)
 
-- **Edit page**  
+- **Edit page**
   Opens the WordPress editing page for the page you're currently editing in Beaver Builder. For example, you could change the title, add a featured image, or enter values for custom properties.
 
-- **Dashboard**  
+- **Dashboard**
   An easy way to get to your WordPress admin dashboard to do other things so you can easily return to your Beaver Builder layout.
 
-- **Manage templates**  
+- **Manage templates**
   Opens the list of Beaver Builder layout templates you've saved at **Beaver Builder > Templates**. For example, you could make changes to a saved template, then go to your previous browser tab to apply it to your Beaver Builder layout.
 
-- **Customize theme**  
+- **Customize theme**
   Opens the WordPress Customizer at **Appearance > Customize**.
 
 ## Help
@@ -153,8 +153,8 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Save Layout                                                           | <kbd>⌘ command</kbd> + <kbd>S</kbd>                      |
 | Publish changes without leaving builder                               | <kbd>⌘ command</kbd> + <kbd>P</kbd>                      |
 | Dismiss Active Panel                                                  | <kbd>Esc</kbd>                                           |
-| [Undo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>⌘ command</kbd> + <kbd>Z</kbd>                      |
-| [Redo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
+| [Undo](basics/undo-redo.md)                                           | <kbd>⌘ command</kbd> + <kbd>Z</kbd>                      |
+| [Redo](basics/undo-redo.md)                                           | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
 | Toggle [Outline Panel](outline-panel.md)                              | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                        |
 | Toggle Outline Panel Tree                                             | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                        |
 | Open [Global Style](global-styles.md) Settings                        | <kbd>⌘ command</kbd> + <kbd>G</kbd>                      |
@@ -177,8 +177,8 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Save Layout                                                           | <kbd>Ctrl</kbd> + <kbd>S</kbd>                      |
 | Publish changes without leaving builder                               | <kbd>Ctrl</kbd> + <kbd>P</kbd>                      |
 | Dismiss Active Panel                                                  | <kbd>Esc</kbd>                                      |
-| [Undo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>Ctrl</kbd> + <kbd>Z</kbd>                      |
-| [Redo](getting-started/bb-editor-basics/undo-redo.md)                 | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
+| [Undo](basics/undo-redo.md)                                           | <kbd>Ctrl</kbd> + <kbd>Z</kbd>                      |
+| [Redo](basics/undo-redo.md)                                           | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
 | Toggle [Outline Panel](outline-panel.md)                              | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                   |
 | Toggle Outline Panel Tree                                             | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                   |
 | Open [Global Style](global-styles.md) Settings                        | <kbd>⇧ Shift</kbd> + <kbd>G</kbd>                   |

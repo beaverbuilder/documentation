@@ -63,7 +63,7 @@ Enable or disable the custom row shapes tab from **Tools Menu > Global Settings*
 
 When enabled CSS and JavaScript sections become available in the advanced tab for rows, columns, and modules.
 
-See the [Per-Node CSS & JS ](/beaver-builder/styles/custom-code.md#per-node-css--js) section in the [Custom Code](/beaver-builder/styles/custom-code.md) article for more information.
+See the Per-Node CSS & JS section in the [Custom Code](basics/custom-code.md) article for more information.
 
 :white_check_mark: Enabled by default.
 
@@ -109,9 +109,9 @@ Outline Panel labels are not removed when the Node Labels option is disabled.
 
 ### Render shortcodes in CSS/JS
 
-When enabled, allows you to use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
+When enabled, allows you to use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](user-interface/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
 
-See the [Use shortcodes in CSS or JS](/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-tools-menu-css-or-js.md) article for more information.
+See the [Use shortcodes in CSS or JS](shortcode/using-css-js.md) article for more information.
 
 :x: Disabled by default.
 
@@ -126,6 +126,7 @@ Enable or disable [ACF Block support](/beaver-builder/developer/acf-blocks.md) i
 Enable or disable the Collapse All Settings feature, which collapses all tabs in the Settings Window for rows, columns, and modules.
 
 :x: Disabled by default.
+
 ## WP Admin
 
 The WP Admin section allows you to enable or disable Beaver Builder features from the WordPress user interface.
