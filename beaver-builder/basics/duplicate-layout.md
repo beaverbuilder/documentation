@@ -14,11 +14,11 @@ Do not use duplicator plugins to duplicate Beaver Builder layouts. Use one of th
 
 When you duplicate the layout, a new page is automatically created and opens for editing. The new page has the following initial title and slug, which you can modify:
 
-* Title: *`Copy of <original page title>`*
-* Slug: *`<original-slug-title>-copy`*
+- Title: _`Copy of <original page title>`_
+- Slug: _`<original-slug-title>-copy`_
 
-:::tip **Tip**
-If your purpose is to use one page as a template for a number of other pages in your site, an alternative is to [save your page as a layout as a template](/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template.md). You can apply layout templates to other pages, [export them to other sites](/beaver-builder/layouts/templates/export-and-import-saved-templates-rows-columns-modules.md), or [make them available for clients to use in themes you deliver to them](settings/template-exporter.md#template-author-guide). 
+:::tip
+If your purpose is to use one page as a template for a number of other pages in your site, an alternative is to [save your page as a layout as a template](layouts/templates/saved-templates.md). You can apply layout templates to other pages, [export them to other sites](layouts/templates/saved-templates.md#export--import), or [make them available for clients to use in themes you deliver to them](settings/template-exporter.md#template-author-guide).
 :::
 
 There are two ways to duplicate any page or post that uses a Beaver Builder layout: from the list of all pages or posts in the WordPress admin panel or from the **Tools** menu in the Beaver Builder editor. Both methods have the same result: a duplicate page or post with the same Beaver Builder layout and metadata.
@@ -31,10 +31,10 @@ Here's a screenshot of where this procedure occurs.
 
 Look for the green or gray dot after **Duplicate page** to know that this functionality is coming from Beaver Builder. Where possible, this feature hides the Duplicate option that comes from other plugins for pages and posts that have Beaver Builder layouts. These other plugins often don't work well with Beaver Builder.
 
-1. From the WordPress admin panel, go to **Pages > All Pages** or **Posts > All Posts** or the equivalent for your custom post type. 
-2.  Mouse over the page or post you want to duplicate to show the options.
-3.  Click **Add Duplicate**.  
-The duplicated page or post opens in the Beaver Builder editor.
+1. From the WordPress admin panel, go to **Pages > All Pages** or **Posts > All Posts** or the equivalent for your custom post type.
+2. Mouse over the page or post you want to duplicate to show the options.
+3. Click **Add Duplicate**.
+   The duplicated page or post opens in the Beaver Builder editor.
 
 :::tip **Tip**
 You can change the page title and slug from within the Beaver Builder editor. From the [Tools menu](user-interface/tools-menu.md#wordpress-admin), click **WordPress admin > Edit page**. A new browser tab opens with the WordPress editor open for that page, where you can change the page title and slug and publish the page, then close that tab.
@@ -56,7 +56,6 @@ Publish or save your current Beaver Builder layout before you duplicate it. If y
 
 1. Open the page you want to duplicate in Beaver Builder.
 2. Click the arrow in the page title bar in the upper left corner to open the **Tools** menu.
-3. Click **Duplicate layout**.   
-  
-The new page opens in the WordPress editor. From there, you can change the page title and slug and launch the Beaver Builder editor.
+3. Click **Duplicate layout**.
 
+The new page opens in the WordPress editor. From there, you can change the page title and slug and launch the Beaver Builder editor.

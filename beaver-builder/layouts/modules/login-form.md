@@ -49,11 +49,13 @@ With both the stacked and inline layout options, you can change the placeholder 
 ## Login Button tab options
 
 This tab has three sections, listed here and described below:
-* The main section
-* **Button icon** section
-* **Button background** section
+
+- The main section
+- **Button icon** section
+- **Button background** section
 
 ### Main section
+
 For **Redirect URL**, provide URL for where to go when the user clicks the **Login** button.
 
 You can also change the login button label.
@@ -84,12 +86,12 @@ You can also customize the button text, add an icon before or after the text, an
 
 You can set options that are applied to both the Login and Logout buttons, namely:
 
-* Button padding
-* Input field padding
-* Button text color
-* Button text hover color
-* Button typography ([all the settings in the standard Typography section](/beaver-builder/styles/typography/typography.md))
-* Input field typography
+- Button padding
+- Input field padding
+- Button text color
+- Button text hover color
+- Button typography ([all the settings in the standard Typography section](basics/typography.md))
+- Input field typography
 
 ## Advanced tab
 

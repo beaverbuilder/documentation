@@ -47,7 +47,6 @@ Each tab (modules, rows, templates & saved) are organized into groups. Click the
 
 ![Group selection for modules, rows, template and saved content](/img/beaver-builder/user-interface--content-panel--6.jpg)
 
-
 ### Module tab groups
 
 Modules are categorised into subgroups and can be accessed via the Modules group dropdown menu. Additionally, you can search a module name in the Modules tab by expanding the search box and typing a part of the name.
@@ -62,13 +61,12 @@ You can learn more from the Row tab groups article.
 
 ### Template tab groups
 
-Templates are categorised into subgroups and can be accessed via the Templates group dropdown menu. 
+Templates are categorised into subgroups and can be accessed via the Templates group dropdown menu.
 
-You can learn more from the [Template tab groups](layouts/templates/layout-templates-overview.md) article.
+You can learn more from the [Template tab groups](layouts/templates/index.md) article.
 
 ### Saved tab group
 
 The Saved Tab group displays all your saved content items grouped into rows, columns, and modules.
 
 ![Saved tab group](/img/beaver-builder/user-interface--content-panel--7.jpg)
-

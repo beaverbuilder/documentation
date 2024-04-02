@@ -1,8 +1,7 @@
 ---
-id: using-css
+id: using-css-js
 title: Using Shortcodes in CSS
 sidebar_label: Using Shortcodes in CSS
-description: Beaver Themer field connection shortcodes can be used in PHP files such as header.php or footer.php to display saved templates, rows, columns, or modules.
 ---
 
 You can use shortcodes in Layout CSS & JavaScript settings, accessed from the Tools menu. Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
@@ -14,11 +13,12 @@ You can use shortcodes in Layout CSS & JavaScript settings, accessed from the To
 3. Then click the **Advanced** tab and toggle the **Render shortcodes in CSS/JS** option which prevents shortcode markup flagging as an error.
 
 :::info
-You can also enable this feature using the `fl_enable_shortcode_css_js` filter in your child theme's *functions.php* file:
+You can also enable this feature using the `fl_enable_shortcode_css_js` filter in your child theme's _functions.php_ file:
 
 ```php
-add_filter( 'fl_enable_shortcode_css_js', '__return_true' );
+add_filter("fl_enable_shortcode_css_js", "__return_true");
 ```
+
 :::
 
 ## Examples
@@ -31,7 +31,7 @@ Suppose you have CSS for a background image for a page, such as:
 
 ```css
 body {
-	background: url("https://my-website.com/wp-content/uploads/2022/10/my-image.jpg");
+  background: url("https://my-website.com/wp-content/uploads/2022/10/my-image.jpg");
 }
 ```
 
@@ -39,7 +39,7 @@ By using the Beaver Themer shortcode [`[wpbb site:url]`](/beaver-themer/field-co
 
 ```css
 body {
-	background: url("[wpbb site:url]/wp-content/uploads/2022/10/my-image.jpg");
+  background: url("[wpbb site:url]/wp-content/uploads/2022/10/my-image.jpg");
 }
 ```
 
@@ -49,15 +49,15 @@ You can use field connection conditional logic in your CSS. In the example below
 
 ```css
 .fl-post-title {
-	
+
 	[wpbb-if post:acf type='text' name='FIELD NAME' exp='equals' value='SOME VALUE']
-	
+
 		color: red;
-	
+
 	[wpbb-else]
-	
+
 		color: yellow;
-	
+
 	[/wpbb-if]
 
 }

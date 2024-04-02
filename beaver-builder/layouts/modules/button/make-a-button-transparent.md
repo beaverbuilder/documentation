@@ -2,7 +2,7 @@
 id: make-a-button-transparent
 title: Make a button transparent
 sidebar_label: Make a button transparent
-description: Here's how to make a button's background color semitransparent or completely transparent. 
+description: Here's how to make a button's background color semitransparent or completely transparent.
 ---
 
 A transparent button means the button's background color is semitransparent or
@@ -14,13 +14,13 @@ be solid, transparent, or semi-transparent.
 
 Make the button's background color transparent by changing the opacity of
 the button's **Background color** setting, using the color picker slider. See
-the [this article about the color picker](/beaver-builder/styles/colors/color-picker.md). Then you can create a button
-border in [the **Border** section](/beaver-builder/styles/effects/borders.md).
+the [this article about the color picker](basics/color-picker.md). Then you can create a button
+border in [the **Border** section](basics/border.md).
 section.
 
 Where the background color and border settings are located depends on the
 module in which the button occurs:
 
-  * In the Button module, the **Background color** setting and **Border** section are on the **Style** tab.
-  * In the Callout module, these settings appear on the **Link** tab when you set **Type** to **Button** in the **Call to Action** section.
-  * In the Call to Action module, Contact Form module, and Subscribe Form module, the settings appear on the **Button** tab.
+- In the Button module, the **Background color** setting and **Border** section are on the **Style** tab.
+- In the Callout module, these settings appear on the **Link** tab when you set **Type** to **Button** in the **Call to Action** section.
+- In the Call to Action module, Contact Form module, and Subscribe Form module, the settings appear on the **Button** tab.

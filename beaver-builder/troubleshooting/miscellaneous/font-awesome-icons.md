@@ -39,16 +39,17 @@ boxes instead of icons.
 
 If you're using the Beaver Builder Theme, can choose how Font Awesome icons load on every page. See [this article](/bb-theme/defaults-for-layouts-content/icons/choose-how-font-awesome-icons-load-in-beaver-builder-theme) for details.
 
-
 ## 2. Possible conflicts from other plugins or themes
 
 We've seen an issue where the way another plugin handles assigning font weight
 to icons has caused a problem with FA5. The free version of FA5 requires a
 font weight of 900. If you're seeing blank boxes and other solutions haven't
-worked, you could try adding this custom rule. See [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code.
+worked, you could try adding this custom rule. See [this article](basics/custom-code.md) about where to add custom CSS code.
 
 ```css
-.fas { font-weight:900 !important; }
+.fas {
+  font-weight: 900 !important;
+}
 ```
 
 The `.fas` class is used for FA5 Solid icons.

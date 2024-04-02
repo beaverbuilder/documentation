@@ -16,7 +16,9 @@ Beaver Builder is equipped with an extensive collection of modules that provide 
 In Beaver Builder, modules are building blocks that contain content and can be added to any column. These modules are similar to WordPress widgets, but provide more advanced customization and styling choices. Each module serves a specific purpose, such as text, images, videos, buttons, and more. You can configure and arrange each module to create unique designs and layouts without requiring any coding experience.
 
 :::tip
+
 You can [override modules](/beaver-builder/developer/custom-modules/18-override-modules.md) to add custom functionality, as well as create custom modules using our API. For more information, refer to the [Custom Module API](/beaver-builder/developer/custom-modules/index.md) developer article.
+
 :::
 
 ### Inherit Styling
@@ -28,20 +30,20 @@ You can override this behavior by using the module styling options. For instance
 The following diagram provides a visual representation of how the process works.
 
 ```mermaid
+
 flowchart LR
     A(WordPress Theme) .-> |Inherits Theme Styling| B(Beaver Builder Modules)
     B ---> |Overrides Theme Styling| A
 
     style A fill:#e2e8f0,stroke:#cbd5e1,stroke-width:0px,color:#373737
     style B fill:#e2e8f0,stroke:#cbd5e1,stroke-width:0px,color:#373737
+
 ```
 
 ## Access Modules
 
 1. Launch Beaver Builder on your page or post.
-
 2. On the **Top bar**, click the Plus symbol **(+)** to open the **Content Panel**.
-
 3. Click the **Modules tab** to access all **Standard Modules**.
 
 ![Module subgroups](/img/beaver-builder/modules--index--1.jpg)
@@ -52,32 +54,30 @@ Beaver Builder groups modules into different subgroups for better organization. 
 
 The following are the different module subgroups available.
 
-- **Standard Modules**  
+- **Standard Modules**
   All modules included with Beaver Builder are listed in the Standard Modules group. If you disable modules via the Beaver Builder settings, they do not appear in the Standard Modules group.
 
-- **ACF Blocks**  
+- **ACF Blocks**
   If you have the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin installed, any ACF blocks you create will appear in the ACF Blocks group.
 
-- **WordPress Patterns** (Reusable Blocks)  
+- **WordPress Patterns** (Reusable Blocks)
   Any [WordPress Patterns](https://wordpress.org/support/article/reusable-blocks/) (Reusable Blocks) created will appear in the WordPress Patterns group.
 
-- **Themer Modules**  
+- **Themer Modules**
   The **Themer Modules** subgroup displays a list of all Beaver Themer modules that are available when using the builder on a Beaver Themer layout.
 
-- **WordPress Widgets**  
+- **WordPress Widgets**
   Most WordPress widgets, including third-party ones, can be integrated into your Beaver Builder layout. Third-party widgets, however, may require custom code to work properly.
 
   See the [WordPress Widgets](widgets.md) article for more information.
 
-- **Saved Modules**  
-  Any modules [saved for reuse](#saved-modules) will appear in the **Saved Modules group**, this includes [global modules](#global-saved-module) as well.
+- **Saved Modules**
+  Any modules [saved for reuse](../saved-content.md) will appear in the **Saved Modules group**, this includes [global modules](#global-saved-module) as well.
 
 ## Add Modules
 
 1. Click the Plus symbol **(+)** to open the **Content Panel**.
-
 2. Click the **Modules tab** to access all modules.
-
 3. Drag and drop the module you want to use into our layout.
 
 ![Drag and drop modules into your layout](/img/beaver-builder/modules--index--2.jpg)
@@ -85,11 +85,8 @@ The following are the different module subgroups available.
 ## Module Settings
 
 1. Move your mouse cursor over the module you want to configure.
-
 2. In the Module overlay actions click the **Wrench** <i className="fas fa-wrench"></i> icon.
-
 3. Configure the module according to your preferences in the module settings window.
-
 4. Click **Save** when you're happy with your changes.
 
 ![Access Module Settings](/img/beaver-builder/modules--index--3.jpg)
@@ -105,9 +102,7 @@ You can also access the module settings by [right-clicking on the module in the 
 Modules can be moved from one column to another or be used to create a new column.
 
 1. Move your mouse cursor over the module you want to move.
-
 2. In the Module overlay actions click and hold the **Move** <i className="fas fa-arrows-alt"></i> icon.
-
 3. Drag the module to move to another position in your layout.
 
 ![Move modules to different positions in your layout](/img/beaver-builder/modules--index--4.jpg)
@@ -115,9 +110,7 @@ Modules can be moved from one column to another or be used to create a new colum
 ## Delete modules
 
 1. Move your mouse cursor over the module you want to delete.
-
 2. In the Module overlay actions click the **Close** <i className="fas fa-times"></i> icon to delete the module.
-
 3. Verify that you want to remove the module.
 
 ## In this section:

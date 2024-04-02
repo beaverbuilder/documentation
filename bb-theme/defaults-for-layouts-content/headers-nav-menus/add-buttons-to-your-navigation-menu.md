@@ -16,25 +16,25 @@ To add a button, first, create a menu item that you want to turn into a button. 
 
 **Add the menu item you want to become a button:**
 
-  1. From the WordPress admin panel, go to **Appearance > Menus** or **Customize > Menus**.
-  2. If you have more than one menu, select the one you want to edit from the list.
-  3. Add the menu item that will become a button.
-  4. Click **Save Menu** or just continue to the next task.
+1. From the WordPress admin panel, go to **Appearance > Menus** or **Customize > Menus**.
+2. If you have more than one menu, select the one you want to edit from the list.
+3. Add the menu item that will become a button.
+4. Click **Save Menu** or just continue to the next task.
 
 **Add a custom class to the menu item:**
 
-  1. Click the arrow on the menu item so it expands to show extra settings.  
-  If you don't see an arrow, click **Screen options** in the upper right corner of the screen. In the section **Show advanced menu properties**, select **CSS classes**.
-  2. In the **CSS Classes** field, enter a class for the menu item.  
-  It's a best practice to prefix the class with a letter string unique to you to avoid conflict with other built-in classes. In this example, we'll use **ss-nav-button** for the class name.
-  3. Click **Save Menu**.
+1. Click the arrow on the menu item so it expands to show extra settings.
+   If you don't see an arrow, click **Screen options** in the upper right corner of the screen. In the section **Show advanced menu properties**, select **CSS classes**.
+2. In the **CSS Classes** field, enter a class for the menu item.
+   It's a best practice to prefix the class with a letter string unique to you to avoid conflict with other built-in classes. In this example, we'll use **ss-nav-button** for the class name.
+3. Click **Save Menu**.
 
 **Add CSS rules for the class:**
 
-See the [article on where to add CSS code](/beaver-builder/styles/custom-code).
+See the [article on where to add CSS code](/beaver-builder/basics/custom-code).
 
-* Add the following CSS rules. Be sure to change the class in these lines to the custom class you used.  
-  Change the other settings for the button layout and style as you like.  
+- Add the following CSS rules. Be sure to change the class in these lines to the custom class you used.
+  Change the other settings for the button layout and style as you like.
 
   ```css
   /* Give the link some padding and some color */

@@ -5,15 +5,15 @@ sidebar_label: Map
 description: The Map module inserts a Google map with a marker pointing to an address you specify.
 ---
 
-The Map module inserts a Google map with a marker pointing to an address you specify. The map automatically adjusts in size to fit in the column, and you can specify map height. The default is 400px. You can also use either `px` or `vh` as units for map height. See [this article](/beaver-builder/advanced-builder-techniques/css-length-height-units.md) for more information about the units.
-
+The Map module inserts a Google map with a marker pointing to an address you specify. The map automatically adjusts in size to fit in the column, and you can specify map height. The default is 400px. You can also use either `px` or `vh` as units for map height.
 
 There's a setting to add a map title. This title is not visible on the web page but rather is placed in a `title` attribute to improve accessibility. Use the same considerations in creating this title as when creating an `alt` tag for images.
 
 :::important **Notes:**
-* Page load times can be affected by this module, because the embedded map is loaded from Google.
-* This module uses Beaver Builder's API key to display the map. You don't need to create your own API key or store credit card information with Google.
-:::
+
+- Page load times can be affected by this module, because the embedded map is loaded from Google.
+- This module uses Beaver Builder's API key to display the map. You don't need to create your own API key or store credit card information with Google.
+  :::
 
 ![](/img/map-module-1.jpg)
 

@@ -14,7 +14,7 @@ open the row's settings.
 If row **Width** is set to **Fixed width**, you can set the maximum width for
 that row, either in absolute
 units (pixels) or in relative units (either percent of viewport width or
-percent of the CSS parent setting). See [this article](/beaver-builder/advanced-builder-techniques/css-length-height-units.md) for the basics of CSS length and height units.
+percent of the CSS parent setting).
 
 ![](/img/row-columns-set-row-content-width-1.png)
 
