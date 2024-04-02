@@ -5,7 +5,7 @@ sidebar_label: Ideas for using background colors and effects
 ---
 
 There are many ways to add color and color effects to backgrounds. Here are
-some ideas. 
+some ideas.
 
 :::info
 All of these colors and effects except shape overlays are also
@@ -25,7 +25,7 @@ Here are a few ideas for variations of the solid-color row background.
 ## Change the opacity
 
 If you're working with a defined color palette, try changing one of the row or
-column backgrounds in your palette to a [slightly lighter opacity](/beaver-builder/styles/colors/color-picker.md). In the
+column backgrounds in your palette to a [slightly lighter opacity](basics/color-picker.md). In the
 following screenshot, the blue color from the previous screenshot is set to
 80% opacity for a subtle difference.
 
@@ -37,16 +37,15 @@ following screenshot.
 
 ## Add a gradient
 
-You can use [color gradients](/beaver-builder/styles/effects/color-gradients-for-row-and-column-backgrounds-and-overlays.md) in row backgrounds. Here's an example of the Call
+You can use color gradients in row backgrounds. Here's an example of the Call
 to Action module surrounded by a radial gradient.
 
 ![](/img/rows-columns-ideas-background-3.png)
 
-You can also [generate sophisticated gradients at third-party sites and add them with CSS](/beaver-builder/styles/effects/css-gradients.md). Here's an
+You can also [generate sophisticated gradients at third-party sites and add them with CSS](advanced/css-gradients.md). Here's an
 example of a gradient with a pattern:
 
 ![](/img/rows-columns-ideas-background-4.jpg)
-
 
 ## Add a row shape overlay
 
@@ -63,10 +62,9 @@ allows the trees to peek through in the halo area as the page is scrolled.
 
 ![](/img/rows-columns-ideas-background-5.jpg)
 
-
 ## Add a border and/or border effects
 
-You can add [a border](/beaver-builder/styles/effects/borders.md) and [round the border corners or add a border shadow](/beaver-builder/styles/effects/radius-shadow.md) to any row, column, or module that has a **Borders** section.
+You can add [a border](basics/border.md) and [round the border corners or add a border shadow](basics/border.md) to any row, column, or module that has a **Borders** section.
 
 Here's an example where the border is made a bit more interesting by using 5px
 on the left and top side and 10px on the right and bottom side.
@@ -106,7 +104,7 @@ to the Call to Action module.
 
 ![](/img/rows-columns-ideas-background-10.png)
 
-If another background like an image completely hides the background color, the color may still be visible briefly while the image is loading. 
+If another background like an image completely hides the background color, the color may still be visible briefly while the image is loading.
 
 ### Color overlays
 

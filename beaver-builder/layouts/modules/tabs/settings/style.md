@@ -9,7 +9,7 @@ In the Style tab, you can change the color of the tab items, such as the text an
 
 ### Layout
 
-* **Layout**  
+- **Layout**
   You can choose a horizontal layout or you can choose a vertical layout.
 
   ![Horizontal or vertical tab layouts](/img/beaver-builder/modules--tabs--3.jpg)
@@ -18,55 +18,55 @@ In the Style tab, you can change the color of the tab items, such as the text an
   As the screen width shrinks, the tabs turn into an accordion layout.
   :::
 
-* **Background Color**  
+- **Background Color**
   Set the background color for the tab.
 
-* **Border Color**  
+- **Border Color**
   Set the border color.
 
-* **Border Width**  
+- **Border Width**
   Set the border width in pixels.
 
-* **Active Tab**  
+- **Active Tab**
   Set which tab should be active. The value should not exceed the total number of tab items.
 
-* **Tab(s) Status on Mobile**  
+- **Tab(s) Status on Mobile**
   Control how the tabs display on mobile devices. You can choose between **Keep Active Tab Open**, and **Close All Tabs**.
 
 ### Label
 
-* **Inactive Label Text Color**  
+- **Inactive Label Text Color**
   Set the text color for the inactive tab(s).
 
-* **Inactive Label Background Color**  
+- **Inactive Label Background Color**
   Set the background color for the inactive tab(s).
 
-* **Active Label Color**  
+- **Active Label Color**
   Set the text color for the active tab.
 
-* **Active Label Background Color**  
+- **Active Label Background Color**
   Set the background color for the active tab.
 
-* **Padding**  
+- **Padding**
   Set a specific padding value in pixels for the tab label. Click the **Link Value** icon to automatically make all four padding values the same.
 
-* **Typography**  
-  Set the font size, family, line-height and more for the tab label. See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
+- **Typography**
+  Set the font size, family, line-height and more for the tab label. See the [Typography](basics/typography.md) article for more information.
 
 ### Content
 
-* **Text Color**  
-  *(Available when **Custom Content** is selected as a **Content Source**)*  
-  
+- **Text Color**
+  _(Available when **Custom Content** is selected as a **Content Source**)_
+
   Set the text color of the tab content.
 
-* **Padding**  
+- **Padding**
   Set a specific padding value in pixels for the tab content. Click the **Link Value** icon to automatically make all four padding values the same.
 
-* **Typography**  
-  *(Available when **Custom Content** is selected as a **Content Source**)*  
+- **Typography**
+  _(Available when **Custom Content** is selected as a **Content Source**)_
 
-  Set the font size, family, line-height and more for the tab content. See the [Typography](/beaver-builder/styles/typography/typography.md) article for more information.
+  Set the font size, family, line-height and more for the tab content. See the [Typography](basics/typography.md) article for more information.
 
 ## Advanced
 

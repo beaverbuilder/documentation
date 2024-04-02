@@ -16,19 +16,19 @@ Shape settings appear below the **Border** section on the row's **Style** tab.
 After you pick a shape (described in the next section), you can make the
 following customizations:
 
-  * Width
-  * Height
-  * Y offset (vertical position)
-  * Alignment within the row (top left, center, etc.)
-  * Color or gradient fill
-  * Orientation (flipped horizontally or vertically)
-  * Skew X (horizontally)
-  * Skew Y (vertically)
-  * Scale horizontally
-  * Rotate on a 360-degree axis
-  * Clip the shape container to the row boundary   
-Enable this setting if the shape spreads out beyond the row boundary and you
-want to contain it.
+- Width
+- Height
+- Y offset (vertical position)
+- Alignment within the row (top left, center, etc.)
+- Color or gradient fill
+- Orientation (flipped horizontally or vertically)
+- Skew X (horizontally)
+- Skew Y (vertically)
+- Scale horizontally
+- Rotate on a 360-degree axis
+- Clip the shape container to the row boundary
+  Enable this setting if the shape spreads out beyond the row boundary and you
+  want to contain it.
 
 The effect of these settings is that you can move the top and bottom shapes
 almost anywhere in the row and skew and modify the shapes.
@@ -41,8 +41,8 @@ them](https://www.w3schools.com/css/css3_2dtransforms.asp).
 
 ## How to access row edge shapes
 
-  1. Open a row for editing in Beaver Builder.
-  2. On the **Style** tab, scroll down to the shape sections, following the **Border** section.
+1. Open a row for editing in Beaver Builder.
+2. On the **Style** tab, scroll down to the shape sections, following the **Border** section.
 
 The following sections show examples of each type of shape.
 
@@ -171,10 +171,10 @@ up rather than down.
 ### Fix for Internet Explorer 11
 
 Row shapes use SVG art, which won't work on IE11. If you want to use row
-shapes and block them only on IE11, use the following CSS code.  See [this article](/beaver-builder/styles/custom-code.md) about where to add custom CSS code. 
+shapes and block them only on IE11, use the following CSS code. See [this article](basics/custom-code.md) about where to add custom CSS code.
 
 ```css
 body.fl-builder-ie-11 div.fl-builder-shape-layer {
-    display:none;
+  display: none;
 }
 ```

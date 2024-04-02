@@ -13,12 +13,12 @@ The Responsive Editing mode allows you to create and edit your layouts in a way 
 
 Enter Responsive Editing mode in any of the following ways:
 
-* Click the [Responsive Toggle](toggle.md) icon next to settings that have it for a row, column, or module.  
+- Click the [Responsive Toggle](toggle.md) icon next to settings that have it for a row, column, or module.
   Your page view will stay in responsive editing mode even if you close the Settings window. Use the **Exit** button to close responsive editing.
 
-* On the [Tools menu](/beaver-builder/getting-started/bb-editor-basics/tools-menu.md), click **Responsive editing**.
+- On the [Tools menu](user-interface/tools-menu.md), click **Responsive editing**.
 
-* Keyboard shortcut <kbd>R</kbd>  
+- Keyboard shortcut <kbd>R</kbd>
   This keyboard shortcut toggles responsive editing mode.
 
 ## Responsive Editor UI
@@ -60,16 +60,16 @@ Using the Drag Handles is another way to adjust the width and height of the layo
 The Responsive Editor provides an accurate preview of the layout you're editing for a variety of devices. You can preview the layout at any size you choose using the [Width and Height](#width--height) options or the [Drag Handles](#drag-handles).
 
 :::caution Legacy Responsive Editor
-It is strongly recommended that you **do not** disable the [Responsive Iframe UI from Beaver Builder Advanced settings](/beaver-builder/management-migration/advanced-settings#responsive-iframe-ui). This will enable Beaver Builder's legacy, non-iframe responsive editing experience which only simulates device previews and provides an approximation of how your website would look on a mobile device.
+It is strongly recommended that you **do not** disable the [Responsive Iframe UI from Beaver Builder Advanced settings](settings/advanced.md#responsive-iframe-ui). This will enable Beaver Builder's legacy, non-iframe responsive editing experience which only simulates device previews and provides an approximation of how your website would look on a mobile device.
 :::
 
 ## Per-device Styling
 
 The Responsive Editor **does not** create separate layouts for each device size. You can, however, adjust your layouts per-device using the Visibility options and Responsive Toggle.
 
-* The [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md#breakpoint) options utilize Beaver Builder [breakpoints](breakpoints.md) and allow you to show or hide row, column, or modules for specific devices.
+- The [Visibility](/beaver-builder/layouts/advanced-tab/visibility.md#breakpoint) options utilize Beaver Builder [breakpoints](breakpoints.md) and allow you to show or hide row, column, or modules for specific devices.
 
-* The [Responsive Toggle](toggle.md) allows you to configure specific settings, such as font size, background image or column width on a per-device basis.
+- The [Responsive Toggle](toggle.md) allows you to configure specific settings, such as font size, background image or column width on a per-device basis.
 
 :::warning Warning
 It is not possible to change the position of a row, column, or module for a specific device size, since the position change will be applied to all devices.

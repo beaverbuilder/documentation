@@ -1,269 +1,432 @@
-# General
+# Redirects for 2.8 changes
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-edit-my-blog-page-with-beaver-builder"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-work-with-posts-and-custom-post-types"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/bb-theme/customizer-settings"
-to = "https://docs.wpbeaverbuilder.com/bb-theme/category/customizer-settings"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/subscription-cancel"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/renew"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/how-does-beaver-builders-white-labeling-feature-work"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/pre-sales/can-i-include-beaver-builder-with-my-theme"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/accessibility"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/accessibility"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/manage-plugin-activations-centrally"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/domain-manager"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-work-with-e-commerce-plugins"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/the-events-calendar/archive-themer-layout-event-calendar-module"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/tec/archive-layout"
-status = 301
-force = true
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/about-this-release"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/dev-preview"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/about-release"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/category/defaults-for-styles"
-to = "https://docs.wpbeaverbuilder.com/bb-theme/category/defaults-for-styles/"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/view-your-license"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/add-custom-image-sizes"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/custom-image-sizes"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/conditional-logic"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/conditional-logic/beaver-themer-conditional-logic"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/advanced-settings"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/advanced"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/restore-a-removed-domain-in-domain-manager"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/domain-manager"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/import-export-settings"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/import-export-settings"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/change-the-accordion-icon-to-an-image"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/accordion/css-customization"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/limit-page-post-lists-to-bb-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/display-only-bb-content"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/is-there-a-marketplace-for-selling-our-custom-modules-or-extensions"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/control-which-post-types-can-use-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/post-types"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/pre-sales/what-is-the-difference-between-unlimited-sites"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/control-user-access-by-role"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/user-access"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/request-an-invoice"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/request-invoice"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/disable-wordpress-comments"
+to = "https://docs.wpbeaverbuilder.com/"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/cancel-your-automatic-renewal"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/renew"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/add-custom-image-sizes"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/custom-image-sizes"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/account-billing/cancel-your-automatic-renewal"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/renew"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/change-wordpress-screen-options"
+to = "https://docs.wpbeaverbuilder.com/"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-03-define-module-settings"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/define-module-settings"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/configure-the-beaver-builder-admin-panel-display-options"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/layouts-menu"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/difference-between-multisite-support-and-network-wide-settings"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/convert-content-between-wordpress-5-and-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/convert-content"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/affiliate-program/purchase-using-my-affiliate-link"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/affiliate-program"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/anonymous-usage-data-sent-to-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/tools#send-usage-data"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/does-beaver-builder-support-shortcodes"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/disable-specific-modules-sitewide"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/modules#disable-or-enable-modules"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/pre-sales/difference-between-free-and-premium-versions"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/enable-prerelease-updates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/tools#prerelease-updates"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/category/bb-editor-basics"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/category/bb-editor-basics"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/management-migration/manually-migrate-a-beaver-builder-site"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/migration"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/transfer-license"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/transfer"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/general/faq/whats-your-refund-policy"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/launch-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/launch-builder"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/cmdg-18-override-built-in-modules"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/custom-modules/override-modules"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/user-interface"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules/module-overview"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/modules"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/tools-menu"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface/tools-menu"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/category/white-label-agency"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/category/white-label-agency"
-status = 301
-force = true
-
-# Field Connections
-[[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-basics-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/outline-panel"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface/outline-panel"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcodes-overview-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/global-settings"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface/global-settings"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcodes-overview-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/getting-started"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/show-or-hide-the-wordpress-page-title"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/show-hide-page-title"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/add-edit-or-delete-a-field-connection-or-shortcode-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/getting-started"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/alignment"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/typography#align"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connect-custom-fields-wordpress-toolset-pods-acf-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/third-party"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/inline-editing"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/inline-editing"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditional-shortcodes-for-field-connections-overview-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditionals"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/undo-redo"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/undo-redo"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/use-conditional-shortcode-to-test-for-presence-of-content-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/conditionals"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/copy-and-paste-modules-or-module-styles"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/copy-paste"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/find-the-full-list-of-field-connection-and-parameters-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/wordpress-data"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/duplicate-your-beaver-builder-layout-to-another-page"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/duplicate-layout"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcode-index-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/wordpress-data"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/delete-a-module-or-column"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface/overlay#actions-toolbar"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/troubleshoot-field-connection-shortcodes-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/save-publish-discard"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface/top-bar#done-button"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/connect-to-acf-fields-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/bb-editor-basics/save-publish-discard"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface/top-bar#done-button"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/acf-radio-button-field-connection-examples"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/radio-button"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/colors/add-a-color-palette-to-the-beaver-builder-editor"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/color-picker"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-flexible-content-field-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/flexible-content"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/typography/typography"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/typography"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-fields-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/repeater"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/typography/add-latin-extended-capabilities-for-a-google-font"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/common-beaver-builder-plugin-filter-examples#add-latin-extended-capabilities-for-a-google-font"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/use-acf-repeater-and-flexible-content-fields-together"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/repeater"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/animations"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/animation"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/test-for-values-in-shortcodes-for-advanced-custom-fields"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/expressions"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/color-gradients-for-row-and-column-backgrounds-and-overlays"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/css-gradients"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-acf/list-related-posts-using-acf-relationship-field-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/integrations/acf/field-types/relationship"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/css-gradients"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/css-gradients"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/display-a-wordpress-custom-field-in-a-singular-themer-layout"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/wordpress-custom-fields"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/borders"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/border"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-wp-custom-fields/test-for-values-in-wordpress-custom-field-shortcode"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/expressions"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/radius-shadow"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/border"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/connections-to-pods-custom-fields/build-this-display-a-pods-custom-field-and-separator-only-when-theres-content"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/third-party"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/effects/rounded-corners-on-columns-and-photos"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/border"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install-beaver-builder"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install"
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/enable-disable-or-delete-icon-sets"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/icons"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/enable-font-awesome-pro-icon-sets"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/icons"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/font-awesome-pro-duotone-icons"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/icons"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/add-an-icon-to-a-menu-item"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/icons"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/icons/create-and-import-a-custom-icon-set"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/icons"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/custom-code"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/custom-code"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/css-length-height-units"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/add-a-css-id-or-class-name-to-a-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/advanced-tab/html-element#id"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/add-a-pdf-file-to-your-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/adding-pdf"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/smooth-scrolling-links"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/smooth-scrolling"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/smooth-scrolling-tweaks-with-code"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced/smooth-scrolling-tweaks"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/restore-a-previous-version"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/restore-previous-version"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/keyboard-shortcuts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/user-interface/tools-menu#keyboard-shortcuts"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/display-only-custom-layout-templates-in-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/disable-inline-editing"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/common-beaver-builder-plugin-filter-examples/#disable-inline-editing"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/disable-columns-in-columns"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-your-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode/using-shortcode"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-reference"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode/syntax"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/get-the-slug-or-id-for-a-shortcode"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode/find-id-slug"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/use-shortcodes-in-tools-menu-css-or-js"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode/using-css"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/shortcode-performance"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/shortcodes-dont-display-for-logged-out-users-bbpress"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/put-thrive-leads-shortcode-into-a-button-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/advanced-builder-techniques/shortcodes/put-thrive-leads-shortcode-into-a-button-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/white-labeling/white-labeling-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/branding"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/white-labeling/replace-built-in-layout-templates-with-your-own"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/branding"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/white-labeling/customize-the-help-button"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/branding"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/common-beaver-builder-plugin-filter-examples#white-label-the-ajax-crash-message"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/branding"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-import-content"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#export--import"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/delete-a-saved-row-column-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#delete-saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/add-an-image-to-an-item-on-the-saved-tab"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#template-thumbnails"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/convert-a-global-row-column-module-to-standard"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content#convert-standard-to-global"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/convert-a-saved-row-column-module-to-global"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content#convert-standard-to-global"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/edit-a-saved-row-column-or-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/manage-saved-rows-columns-modules"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/insert-a-saved-row-column-module-into-your-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/insert-a-saved-row-column-module-into-your-layout"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/save-a-row-column-or-module-for-reuse"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/saved-content"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/categorize-and-add-thumbnails-to-saved-templates-list"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#categorize-saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/rename-title-or-slug-saved-template-row-column-module"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#rename"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/edit-or-delete-saved-layout-templates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#delete-saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/manage-saved-layout-templates"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/create-and-save-a-custom-layout-template"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/add-a-layout-template-to-your-page"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/layout-templates-overview"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
 status = 301
 force = true
 

@@ -8,18 +8,20 @@ If you use the Ubermenu plugin, check to see if mobile navigation is repeated, o
 
 If so, you can use this CSS code below, provided by the Ubermenu developer himself.
 
-**To get rid of  Ubermenu duplication:**
+**To get rid of Ubermenu duplication:**
 
-  1. Add the CSS rules below.  
-  See the article on [where to add CSS code](/beaver-builder/styles/custom-code).  
-  ```css
-  .navbar-toggle {
-      display: none !important;
-  }
-  div.fl-page-nav-collapse.collapse {
-      height: auto !important;
-      display: block;
-      visibility: visible;
-  }
-  ```
-  2. Click **Save & Publish**.
+1. Add the CSS rules below.
+   See the article on [where to add CSS code](/beaver-builder/basics/custom-code).
+
+```css
+.navbar-toggle {
+  display: none !important;
+}
+div.fl-page-nav-collapse.collapse {
+  height: auto !important;
+  display: block;
+  visibility: visible;
+}
+```
+
+2. Click **Save & Publish**.

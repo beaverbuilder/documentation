@@ -122,7 +122,7 @@ For third-party themes, check to see if it has an option to add JavaScript to th
 
 ## Per-Node CSS & JS
 
-The Enable Code Settings option in Beaver Builder [Advanced settings](settings/advanced-settings.md) allows you to add CSS and JavaScript to each node (rows, columns, and modules) individually.
+The Enable Code Settings option in Beaver Builder [Advanced settings](settings/advanced.md) allows you to add CSS and JavaScript to each node (rows, columns, and modules) individually.
 
 See the [CSS & JavaScript](layouts/advanced-tab/css-js.md) article in the [Advanced tab section](layouts/advanced-tab/index.md) for more information.
 

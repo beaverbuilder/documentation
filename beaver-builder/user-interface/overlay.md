@@ -4,7 +4,7 @@ title: Overlay & Actions Toolbar
 sidebar_label: Overlay & Actions Toolbar
 ---
 
-The Beaver Builder user interface provides a overlay that enables you to visualize your layout's structure, assists in identifying relationships between nodes (rows, columns, and modules) and provides convenient access to tools and actions for configuring your rows, columns, and modules. 
+The Beaver Builder user interface provides a overlay that enables you to visualize your layout's structure, assists in identifying relationships between nodes (rows, columns, and modules) and provides convenient access to tools and actions for configuring your rows, columns, and modules.
 
 ![Beaver Builder Overlay Outline](/img/beaver-builder/user-interface--builder-overlay--1.jpg)
 
@@ -38,14 +38,14 @@ Enables you to rearrange the placement of a row or module within the layout thro
 
 Enables you to access the row or module settings. The Settings drop down menu also provides access to the following actions:
 
-* **Reset Row Widths** (row only) reverts all row widths to the default.
-* **Reset Column Widths** (row only) reverts all column widths within that row to the default.
-* [**Copy Settings**](layouts/advanced-tab/copy-paste.md) copies the row or module settings to the clipboard.
-* [**Paste Settings**](layouts/advanced-tab/copy-paste.md) pastes the row or module settings from the clipboard.  
+- **Reset Row Widths** (row only) reverts all row widths to the default.
+- **Reset Column Widths** (row only) reverts all column widths within that row to the default.
+- [**Copy Settings**](layouts/advanced-tab/copy-paste.md) copies the row or module settings to the clipboard.
+- [**Paste Settings**](layouts/advanced-tab/copy-paste.md) pastes the row or module settings from the clipboard.
 
-  :::info
-  The Paste option becomes accessible only after you've copied the settings of a row or module to the clipboard.
-  :::
+:::info
+The Paste option becomes accessible only after you've copied the settings of a row or module to the clipboard.
+:::
 
 ### Duplicate
 

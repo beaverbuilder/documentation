@@ -10,30 +10,30 @@ The **History** menu item in the [Tools menu](user-interface/tools-menu.md) allo
 
 ## Access History
 
-1. Click **History** in the [Tools menu](user-interface/tools-menu.md). 
+1. Click **History** in the [Tools menu](user-interface/tools-menu.md).
 
-2. Click any of the items listed in the history and the layout reverts to the layout at that point.  
-  You can keep clicking in the history at various points to undo or restore layout.  
-  
-  :::info
+2. Click any of the items listed in the history and the layout reverts to the layout at that point.
+   You can keep clicking in the history at various points to undo or restore layout.
 
-  You can't pick and choose which items to keep: whatever item you select, that item and the ones lower on the list remain in the layout, while the higher ones are removed.
+:::info
 
-  :::
-  
-3. When you're done, click **Done** and then **Publish**, **Save as draft**, or **Discard**.  
+You can't pick and choose which items to keep: whatever item you select, that item and the ones lower on the list remain in the layout, while the higher ones are removed.
 
-  :::warning
+:::
 
-  When you publish the page, the history is reset, so you'll no
-  longer have access to the items that you chose not to keep. If the **Save as
-  Draft** or **Discard** your layout, the history remains and you can undo and
-  redo the next time you open the editor. For other implications of saving vs.
-  discarding vs. publishing a page, see [this article](user-interface/top-bar.md#done-button).
-  
-  Don't forget you can use the [Revisions feature](user-interface/tools-menu.md/#revisions) to revert to a previously published version.
+3. When you're done, click **Done** and then **Publish**, **Save as draft**, or **Discard**.
 
-  :::
+:::warning
+
+When you publish the page, the history is reset, so you'll no
+longer have access to the items that you chose not to keep. If the **Save as
+Draft** or **Discard** your layout, the history remains and you can undo and
+redo the next time you open the editor. For other implications of saving vs.
+discarding vs. publishing a page, see [this article](user-interface/top-bar.md#done-button).
+
+Don't forget you can use the [Revisions feature](user-interface/tools-menu.md/#revisions) to revert to a previously published version.
+
+:::
 
 ## Keyboard shortcuts
 
@@ -43,13 +43,13 @@ depend on your operating system, as follows:
 
 ### Undo
 
-* <kbd>command ⌘</kbd> + <kbd>Z</kbd> (<i className="fab fa-apple"></i> Mac)
-* <kbd>Ctrl</kbd> + <kbd>Z</kbd> (<i className="fab fa-windows"></i> Windows)
+- <kbd>command ⌘</kbd> + <kbd>Z</kbd> (<i className="fab fa-apple"></i> Mac)
+- <kbd>Ctrl</kbd> + <kbd>Z</kbd> (<i className="fab fa-windows"></i> Windows)
 
-### Redo 
+### Redo
 
-* <kbd>command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>Z</kbd> (<i className="fab fa-apple"></i> Mac)
-* <kbd>Ctrl</kbd> + <kbd>Shift ⇧</kbd> + <kbd>Z</kbd> (<i className="fab fa-windows"></i> Windows)
+- <kbd>command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>Z</kbd> (<i className="fab fa-apple"></i> Mac)
+- <kbd>Ctrl</kbd> + <kbd>Shift ⇧</kbd> + <kbd>Z</kbd> (<i className="fab fa-windows"></i> Windows)
 
 ## Tracking
 
@@ -57,19 +57,19 @@ The Beaver Builder editor keeps track of editing changes, recorded at the follow
 
 ### Objects tracked
 
-* Rows
-* Columns
-* Modules
-* Templates and prebuilt rows
-* Saved rows, columns, or modules
+- Rows
+- Columns
+- Modules
+- Templates and prebuilt rows
+- Saved rows, columns, or modules
 
 ### Events tracked
 
-* Add
-* Edit
-* Delete
-* Move
-* Duplicate
+- Add
+- Edit
+- Delete
+- Move
+- Duplicate
 
 ### Initial state
 
@@ -79,4 +79,4 @@ The initial state of **History** when you [launch Beaver Builder](getting-starte
 
 You can reduce or disable the Beaver Builder history to improve your website performance.
 
-See the [Performance](advanced/performance.md) article for more information.
+See the [Advanced Settings](settings/advanced.md#limit-the-amount-of-undoredo-history-in-builder-ui) article for more information.
