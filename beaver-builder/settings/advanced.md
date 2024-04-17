@@ -127,6 +127,18 @@ Enable or disable the Collapse All Settings feature, which collapses all tabs in
 
 :x: Disabled by default.
 
+### Load Theme Colors
+
+Enable or disable the loading of theme colors in the color picker.
+
+:x: Disabled by default.
+
+### Load WordPress Colors
+
+Enable or disable the loading of WordPress Core colors in the color picker.
+
+:x: Disabled by default.
+
 ## WP Admin
 
 The WP Admin section allows you to enable or disable Beaver Builder features from the WordPress user interface.

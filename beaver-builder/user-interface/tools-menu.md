@@ -138,50 +138,52 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 <Tabs>
 <TabItem value="macos" label="macOS" attributes={{className: styles.macos}} default>
 
-| Action                                                                | Keyboard Shortcut                                        |
-| --------------------------------------------------------------------- | -------------------------------------------------------- |
-| Open [Modules Tab](content-panel.md#module-tab-groups)                | <kbd>J</kbd>                                             |
-| Open [Rows Tab](content-panel.md#row-tab-groups)                      | <kbd>K</kbd>                                             |
-| Open [Templates Tab](content-panel.md#template-tab-groups)            | <kbd>L</kbd>                                             |
-| Open [Saved Tab](content-panel.md#saved-tab-groups)                   | <kbd>;</kbd>                                             |
-| Save New Template                                                     | <kbd>⌘ command</kbd> + <kbd>J</kbd>                      |
-| Toggle [Preview Mode](#preview-layout)                                | <kbd>P</kbd>                                             |
-| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                             |
-| Open [Global Settings](global-settings.md)                            | <kbd>⌘ command</kbd> + <kbd>U</kbd>                      |
-| Open [Layout Settings](layout-css-js.md)                              | <kbd>⌘ command</kbd> + <kbd>Y</kbd>                      |
-| Display Module Search                                                 | <kbd>⌘ command</kbd> + <kbd>I</kbd>                      |
-| Save Layout                                                           | <kbd>⌘ command</kbd> + <kbd>S</kbd>                      |
-| Publish changes without leaving builder                               | <kbd>⌘ command</kbd> + <kbd>P</kbd>                      |
-| Dismiss Active Panel                                                  | <kbd>Esc</kbd>                                           |
-| [Undo](basics/undo-redo.md)                                           | <kbd>⌘ command</kbd> + <kbd>Z</kbd>                      |
-| [Redo](basics/undo-redo.md)                                           | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
-| Toggle [Outline Panel](outline-panel.md)                              | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                        |
-| Toggle Outline Panel Tree                                             | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                        |
-| Open [Global Style](global-styles.md) Settings                        | <kbd>⌘ command</kbd> + <kbd>G</kbd>                      |
+| Action                                                                                                   |                    Keyboard Shortcut                     |
+| -------------------------------------------------------------------------------------------------------- | :------------------------------------------------------: |
+| Open [Modules Tab](content-panel.md#module-tab-groups)                                                   |                       <kbd>J</kbd>                       |
+| Open [Rows Tab](content-panel.md#row-tab-groups)                                                         |                       <kbd>K</kbd>                       |
+| Open [Templates Tab](content-panel.md#template-tab-groups)                                               |                       <kbd>L</kbd>                       |
+| Open [Saved Tab](content-panel.md#saved-tab-groups)                                                      |                       <kbd>;</kbd>                       |
+| Save New Template                                                                                        |           <kbd>⌘ command</kbd> + <kbd>J</kbd>            |
+| Toggle [Preview Mode](#preview-layout)                                                                   |                       <kbd>P</kbd>                       |
+| Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints                 |                       <kbd>R</kbd>                       |
+| Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints (Reverse Order) |            <kbd>⇧ Shift</kbd> + <kbd>R</kbd>             |
+| Open [Global Settings](global-settings.md)                                                               |           <kbd>⌘ command</kbd> + <kbd>U</kbd>            |
+| Open [Layout Settings](layout-css-js.md)                                                                 |           <kbd>⌘ command</kbd> + <kbd>Y</kbd>            |
+| Display Module Search                                                                                    |           <kbd>⌘ command</kbd> + <kbd>I</kbd>            |
+| Save Layout                                                                                              |           <kbd>⌘ command</kbd> + <kbd>S</kbd>            |
+| Publish changes without leaving builder                                                                  |           <kbd>⌘ command</kbd> + <kbd>P</kbd>            |
+| Dismiss Active Panel                                                                                     |                      <kbd>Esc</kbd>                      |
+| [Undo](basics/undo-redo.md)                                                                              |           <kbd>⌘ command</kbd> + <kbd>Z</kbd>            |
+| [Redo](basics/undo-redo.md)                                                                              | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
+| Toggle [Outline Panel](outline-panel.md)                                                                 |            <kbd>⇧ Shift</kbd> + <kbd>O</kbd>             |
+| Toggle Outline Panel Tree                                                                                |            <kbd>⇧ Shift</kbd> + <kbd>T</kbd>             |
+| Open [Global Style](global-styles.md) Settings                                                           |           <kbd>⌘ command</kbd> + <kbd>G</kbd>            |
 
 </TabItem>
 <TabItem value="windows" label="Windows" attributes={{className: styles.windows}}>
 
-| Keyboard Shortcut                                                     | Function                                            |
-| --------------------------------------------------------------------- | --------------------------------------------------- |
-| Open [Modules Tab](content-panel.md#module-tab-groups)                | <kbd>J</kbd>                                        |
-| Open [Rows Tab](content-panel.md#row-tab-groups)                      | <kbd>K</kbd>                                        |
-| Open [Templates Tab](content-panel.md#template-tab-groups)            | <kbd>L</kbd>                                        |
-| Open [Saved Tab](content-panel.md#saved-tab-groups)                   | <kbd>;</kbd>                                        |
-| Save New Template                                                     | <kbd>Ctrl</kbd> + <kbd>J</kbd>                      |
-| Toggle [Preview Mode](#preview-layout)                                | <kbd>P</kbd>                                        |
-| Toggle [Responsive Editing Mode](layouts/responsive-design/editor.md) | <kbd>R</kbd>                                        |
-| Open [Global Settings](global-settings.md)                            | <kbd>Ctrl</kbd> + <kbd>U</kbd>                      |
-| Open [Layout Settings](layout-css-js.md)                              | <kbd>Ctrl</kbd> + <kbd>Y</kbd>                      |
-| Display Module Search                                                 | <kbd>Ctrl</kbd> + <kbd>I</kbd>                      |
-| Save Layout                                                           | <kbd>Ctrl</kbd> + <kbd>S</kbd>                      |
-| Publish changes without leaving builder                               | <kbd>Ctrl</kbd> + <kbd>P</kbd>                      |
-| Dismiss Active Panel                                                  | <kbd>Esc</kbd>                                      |
-| [Undo](basics/undo-redo.md)                                           | <kbd>Ctrl</kbd> + <kbd>Z</kbd>                      |
-| [Redo](basics/undo-redo.md)                                           | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
-| Toggle [Outline Panel](outline-panel.md)                              | <kbd>⇧ Shift</kbd> + <kbd>O</kbd>                   |
-| Toggle Outline Panel Tree                                             | <kbd>⇧ Shift</kbd> + <kbd>T</kbd>                   |
-| Open [Global Style](global-styles.md) Settings                        | <kbd>⇧ Shift</kbd> + <kbd>G</kbd>                   |
+| Action                                                                                                   |                  Keyboard Shortcut                  |
+| -------------------------------------------------------------------------------------------------------- | :-------------------------------------------------: |
+| Open [Modules Tab](content-panel.md#module-tab-groups)                                                   |                    <kbd>J</kbd>                     |
+| Open [Rows Tab](content-panel.md#row-tab-groups)                                                         |                    <kbd>K</kbd>                     |
+| Open [Templates Tab](content-panel.md#template-tab-groups)                                               |                    <kbd>L</kbd>                     |
+| Open [Saved Tab](content-panel.md#saved-tab-groups)                                                      |                    <kbd>;</kbd>                     |
+| Save New Template                                                                                        |           <kbd>Ctrl</kbd> + <kbd>J</kbd>            |
+| Toggle [Preview Mode](#preview-layout)                                                                   |                    <kbd>P</kbd>                     |
+| Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints                 |                    <kbd>R</kbd>                     |
+| Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints (Reverse Order) |          <kbd>⇧ Shift</kbd> + <kbd>R</kbd>          |
+| Open [Global Settings](global-settings.md)                                                               |           <kbd>Ctrl</kbd> + <kbd>U</kbd>            |
+| Open [Layout Settings](layout-css-js.md)                                                                 |           <kbd>Ctrl</kbd> + <kbd>Y</kbd>            |
+| Display Module Search                                                                                    |           <kbd>Ctrl</kbd> + <kbd>I</kbd>            |
+| Save Layout                                                                                              |           <kbd>Ctrl</kbd> + <kbd>S</kbd>            |
+| Publish changes without leaving builder                                                                  |           <kbd>Ctrl</kbd> + <kbd>P</kbd>            |
+| Dismiss Active Panel                                                                                     |                   <kbd>Esc</kbd>                    |
+| [Undo](basics/undo-redo.md)                                                                              |           <kbd>Ctrl</kbd> + <kbd>Z</kbd>            |
+| [Redo](basics/undo-redo.md)                                                                              | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
+| Toggle [Outline Panel](outline-panel.md)                                                                 |          <kbd>⇧ Shift</kbd> + <kbd>O</kbd>          |
+| Toggle Outline Panel Tree                                                                                |          <kbd>⇧ Shift</kbd> + <kbd>T</kbd>          |
+| Open [Global Style](global-styles.md) Settings                                                           |          <kbd>⇧ Shift</kbd> + <kbd>G</kbd>          |
 
 </TabItem>
 </Tabs>
