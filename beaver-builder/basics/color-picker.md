@@ -121,10 +121,12 @@ Please be aware that the name of the CSS variable will function as the color pre
 
 ### Theme Colors
 
-Block themes in WordPress or themes that register colors using the Block theme JSON API, such as BB Theme, Astra, GeneratePress, and others, will automatically have their colors added to the color picker presets.
+Theme Colors support are disabled by default and can be enabled by visiting the Beaver Builder settings page in the WordPress admin area and enabling the **Load Theme Colors** option in the [Advanced tab](settings/advanced.md#load-theme-colors).
 
-Theme Colors support is disabled by default and can be enabled by visiting the Beaver Builder settings page in the WordPress admin area and enabling the **Load Theme Colors** option in the Advanced tab.
+When enabled, the color picker presets will automatically include the colors defined in Block themes or themes that register colors using the Block theme JSON API, such as BB Theme.
 
 ### WordPress Core Colors
 
-WordPress Core Colors can be automatically added to the color picker presets. This feature is disabled by default and can be enabled by visiting the Beaver Builder settings page in the WordPress admin area and enabling the **Load WordPress Colors** option in the Advanced tab.
+WordPress Core Colors are disabled by default and can be enabled by visiting the Beaver Builder settings page in the WordPress admin area and enabling the **Load WordPress Colors** option in the [Advanced tab](settings/advanced.md#load-wordpress-colors).
+
+When enabled, the color picker presets will automatically include the WordPress Core colors.
