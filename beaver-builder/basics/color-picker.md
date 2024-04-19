@@ -53,13 +53,13 @@ These two procedures will not replace existing colors in existing modules, but i
 
 2. Click on any **Color** setting for a row, columns, or module to open the Color Picker.
 
-3. Select a color in the Color Picker or type/paste in a hex or RGBA color value for one of your colors.  
+3. Select a color in the Color Picker or type/paste in a hex or RGBA color value for one of your colors.
    **#1** in the screenshot below.
 
-4. Click the **Plus** symbol (+) in the upper right corner of the Color Picker to create a preset.  
+4. Click the **Plus** symbol (+) in the upper right corner of the Color Picker to create a preset.
    **#2** in the screenshot below.
 
-5. Review your color presets by clicking the **Color Presets** at the bottom of the Color Picker.  
+5. Review your color presets by clicking the **Color Presets** at the bottom of the Color Picker.
    **#3** in the screenshot below.
 
 ![Add colors manually](/img/beaver-builder/basics--color-picker--5.jpg)
@@ -70,45 +70,46 @@ You can register custom colors programmatically by using the `fl_builder_color_p
 
 1. Check your current color presets by opening a module for editing in Beaver Builder, then choose a color field and click **Color presets**. Delete any presets that you don't want to keep by clicking the **X** icon next to the color.
 
-2. Add the following code to your child theme's _functions.php_ file.  
-  
-  :::tip
+2. Add the following code to your child theme's _functions.php_ file.
 
-  You can edit this file in **Appearance > Editor**, but make sure you choose the correct file.
+:::tip
 
-  :::
+You can edit this file in **Appearance > Editor**, but make sure you choose the correct file.
 
-  ```php
-  //Add color presets for Beaver Builder
-  function my_builder_color_presets( $colors ) {
-    $colors = array();
+:::
 
-      $colors[] = '8E181B';
-      $colors[] = 'D11C23';
-      $colors[] = '1A4688';
-      $colors[] = 'D6E1EE';
-      $colors[] = 'fdfffc';
-      $colors[] = 'f1d302';
+```php
+//Add color presets for Beaver Builder
+function my_builder_color_presets($colors)
+{
+  $colors = [];
 
-    return $colors;
-  }
+  $colors[] = "8E181B";
+  $colors[] = "D11C23";
+  $colors[] = "1A4688";
+  $colors[] = "D6E1EE";
+  $colors[] = "fdfffc";
+  $colors[] = "f1d302";
 
-  add_filter( 'fl_builder_color_presets', 'my_builder_color_presets' );
-  ```
+  return $colors;
+}
 
-3. Replace the hex values in the code with the hex value for each color you want to define. Add or remove `$colors[]` lines accordingly.  
-  
-  :::caution
+add_filter("fl_builder_color_presets", "my_builder_color_presets");
+```
 
-  Do not include the hash symbol (`#`) when specifying hex values.
+3. Replace the hex values in the code with the hex value for each color you want to define. Add or remove `$colors[]` lines accordingly.
 
-  :::
+:::caution
 
-  :::tip
+Do not include the hash symbol (`#`) when specifying hex values.
 
-  You can also [add color presets to the Customizer settings](/bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer) in the Beaver Builder child theme.
+:::
 
-  :::
+:::tip
+
+You can also [add color presets to the Customizer settings](/bb-theme/defaults-for-styles/colors/add-color-presets-to-customizer) in the Beaver Builder child theme.
+
+:::
 
 ### CSS Variable Preset
 
@@ -116,5 +117,14 @@ You can also include CSS Variables as color presets. To do this, [input the name
 
 Please be aware that the name of the CSS variable will function as the color preset's name, and it cannot be altered.
 
-
 ![CSS Variable Preset](/img/beaver-builder/basics--color-picker--6.jpg)
+
+### Theme Colors
+
+Block themes in WordPress or themes that register colors using the Block theme JSON API, such as BB Theme, Astra, GeneratePress, and others, will automatically have their colors added to the color picker presets.
+
+Theme Colors support is disabled by default and can be enabled by visiting the Beaver Builder settings page in the WordPress admin area and enabling the **Load Theme Colors** option in the Advanced tab.
+
+### WordPress Core Colors
+
+WordPress Core Colors can be automatically added to the color picker presets. This feature is disabled by default and can be enabled by visiting the Beaver Builder settings page in the WordPress admin area and enabling the **Load WordPress Colors** option in the Advanced tab.

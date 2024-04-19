@@ -4,6 +4,9 @@ title: Box Module
 sidebar_label: Box
 tags:
   - 2.8
+  - flexbox
+  - css grid
+  - layout
 ---
 
 The Box Module allows users to add Flexbox and CSS Grid layouts to Beaver Builder Page Builder Layouts.
@@ -15,6 +18,10 @@ The Box Module allows users to add Flexbox and CSS Grid layouts to Beaver Builde
 While we’ve aimed to make the Box module as user-friendly as possible, having a solid grasp of [Flexbox](https://www.w3schools.com/csS/css3_flexbox.asp) and [CSS Grid](https://www.w3schools.com/csS/css_grid.asp) is strongly recommended.
 
 :::
+
+## Requirements
+
+The Box module requires WordPress 5.2 or later; otherwise, it won't appear in the Beaver Builder user interface (UI) due to its dependence on JavaScript code from WordPress Blocks.
 
 ## Usage
 
@@ -62,19 +69,19 @@ To nest boxes within boxes, simply drag a Box module into another Box module. Th
 
 The Box modules comes with several Modules Aliases that can be used to create common layouts. They are included for convenience and to help users get started with the Box module.
 
-- **Flex Columns:**  
+- **Flex Columns:**
   Utilizes flexbox to arrange three boxes horizontally within the parent container.
 
-- **3×2 Grid:**  
+- **3×2 Grid:**
   Establishes a layout with three rows and two columns using grid boxes inside the parent container.
 
-- **4×2 Grid:**  
+- **4×2 Grid:**
   Defines a grid structure with four rows and two columns of grid boxes within the parent container.
 
-- **Split Header:**  
+- **Split Header:**
   Features a grid layout with three columns, creating a distinct header structure.
 
-- **Photo Grid:**  
+- **Photo Grid:**
   Constructs a layout consisting of a 4×3 grid incorporating photo modules within the parent container.
 
 ![Box Module Aliases](/img/beaver-builder/modules--box--2.jpg)
