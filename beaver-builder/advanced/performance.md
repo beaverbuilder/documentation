@@ -3,6 +3,7 @@ id: performance
 title: Performance
 sidebar_label: Performance
 description: This article provides suggestions and recommendations for improving your website's performance.
+draft: true
 ---
 
 Beaver Builder is designed to be fast and efficient, with various measures in place to prevent it from compromising your website's speed. Nonetheless, the overall performance of a website is affected by multiple elements such as the hosting environment, server configuration, image sizes, plugin quantity, and the chosen theme. In this guide, you'll find tips and strategies for enhancing the speed and efficiency of your website.
@@ -76,10 +77,10 @@ By default, Beaver Builder CSS and JavaScript will not use your CDN URL. For exa
 
 The suggestions below can improve the performance of your website, particularly in [shared hosting environments](#hosting).
 
-* Ensure WordPress, all plugins and themes are up-to-date.
-* Only use plugins and themes that are maintained by the developer.
-* Deactivate and delete any unnecessary plugins.
-* Use only [themes](getting-started/how-it-works.md#wordpress-themes) from the [WordPress.org theme directory](https://wordpress.org/themes/) since these themes have been [reviewed by WordPress](https://make.wordpress.org/themes/handbook/review/).
+- Ensure WordPress, all plugins and themes are up-to-date.
+- Only use plugins and themes that are maintained by the developer.
+- Deactivate and delete any unnecessary plugins.
+- Use only [themes](getting-started/how-it-works.md#wordpress-themes) from the [WordPress.org theme directory](https://wordpress.org/themes/) since these themes have been [reviewed by WordPress](https://make.wordpress.org/themes/handbook/review/).
 
 ### Cache Plugins
 
@@ -107,18 +108,18 @@ For example, if you have 50 posts with 5 revisions per post, you have 250 record
 
 WordPress by default doesn't limit revisions. Thus, any limit you impose on WordPress revisions will improve the efficiency of your database.
 
-You can limit revisions, by adding `WP_POST_REVISIONS` to the *wp-config.php* file with a numeric value.
+You can limit revisions, by adding `WP_POST_REVISIONS` to the _wp-config.php_ file with a numeric value.
 
 ```php
-define('WP_POST_REVISIONS', 3);
+define("WP_POST_REVISIONS", 3);
 ```
 
 ### Disable Revisions
 
-You can completely disable revisions, by adding `WP_POST_REVISIONS` to the *wp-config.php* file with a value of `false`.
+You can completely disable revisions, by adding `WP_POST_REVISIONS` to the _wp-config.php_ file with a value of `false`.
 
 ```php
-define('WP_POST_REVISIONS', false);
+define("WP_POST_REVISIONS", false);
 ```
 
 ## Beaver Builder History
@@ -142,16 +143,18 @@ This method requires access to the **wp-config.php** file in your WordPress inst
 1. Open the **wp-config.php** file for editing.
 2. Add the following code before the line that says `/* That's all, stop editing! Happy publishing. */`:
 
-  ```php
-  if ( ! defined( 'FL_BUILDER_HISTORY_STATES' ) ) {define( 'FL_BUILDER_HISTORY_STATES', 20 );}
-  ```
+```php
+if (!defined("FL_BUILDER_HISTORY_STATES")) {
+  define("FL_BUILDER_HISTORY_STATES", 20);
+}
+```
 
 3. Change the number of states from `20` to a smaller number, or change the number to `0` to disable History entirely.
 
 If you click **History** in the [Tools menu](user-interface/tools-menu.md), you'll see the message `Undo/redo history is currently disabled`.
 
 :::tip
-To restore normal **History** functionality, remove this code from the *wp-config.php* file.
+To restore normal **History** functionality, remove this code from the _wp-config.php_ file.
 :::
 
 ## Beaver Builder Shortcode
@@ -166,6 +169,6 @@ If you use Beaver Builder shortcodes, the assets (CSS & JavaScript files) associ
 
 That depends on factors such as what else has to be loaded and how important it is to you to shave off every millisecond of page loading time that you can. As a ballpark, a few shortcodes are ok; a couple dozen are probably going to cause problems. Shortcode alternatives
 
-* Use [global rows](rows/saved-rows.md) or [modules](modules/saved-modules.md) instead of shortcodes when you can. Global rows and modules become part of the main layout, so you don’t need separate queries for the data and separate assets to render them.
+- Use [global rows](rows/saved-rows.md) or [modules](modules/saved-modules.md) instead of shortcodes when you can. Global rows and modules become part of the main layout, so you don’t need separate queries for the data and separate assets to render them.
 
-* [Beaver Themer](/beaver-themer/) is often an easier and better solution to inject content into posts and pages than Beaver Builder shortcodes.
+- [Beaver Themer](/beaver-themer/) is often an easier and better solution to inject content into posts and pages than Beaver Builder shortcodes.
