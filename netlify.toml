@@ -340,11 +340,6 @@ to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/branding"
 status = 301
 force = true
 [[redirects]]
-from = "https://docs.wpbeaverbuilder.com/beaver-builder/developer/tutorials-guides/common-beaver-builder-plugin-filter-examples#white-label-the-ajax-crash-message"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/settings/branding"
-status = 301
-force = true
-[[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/export-import-content"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates#export--import"
 status = 301
