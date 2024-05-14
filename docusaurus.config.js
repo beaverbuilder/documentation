@@ -193,6 +193,17 @@ module.exports = {
         path: "beaver-themer",
         routeBasePath: "beaver-themer",
         sidebarPath: require.resolve("./sidebarBeaverThemer.js"),
+        lastVersion: "1.4",
+        versions: {
+          current: {
+            label: "1.5",
+            path: "",
+          },
+          1.4: {
+            label: "1.4",
+            path: "1.4",
+          },
+        },
       },
     ],
     [
