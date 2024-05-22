@@ -19,7 +19,7 @@ You can use [WordPress Patterns](https://wordpress.org/support/article/reusable-
 
 :::info
 
-The WordPress Patterns subgroup becomes available in the COntent Panel after you have created and saved WordPress Patterns.
+The WordPress Patterns subgroup becomes available in the Content Panel after you have created and saved WordPress Patterns.
 
 :::
 
