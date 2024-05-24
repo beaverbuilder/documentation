@@ -53,10 +53,11 @@ module.exports = {
           },
           items: [
             "plugin/apps/home",
+            "plugin/apps/code",
+            "plugin/apps/comments",
             "plugin/apps/community",
             "plugin/apps/content",
             "plugin/apps/media",
-            "plugin/apps/comments",
             "plugin/apps/updates",
             "plugin/apps/libraries",
           ],
