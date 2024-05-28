@@ -5,7 +5,7 @@ sidebar_label: Code
 description: Create, edit, and enable or disable code snippets
 ---
 
-The Code App lets you create and edit CSS and JS code snippets that you can set to apply to various parts of your website.
+The Code App enables you to create and edit CSS and JS code snippets, which you can assign to different sections of your website.
 
 ![Code app overview](/img/assistant/apps--apps-code--1.jpg)
 
