@@ -33,10 +33,11 @@ To add a snippet from the Code App:
 9. In the dropdown underneath the Status, select where you want your snippet to apply.
 10. In the Actions section, you have the following options:
 
-- Duplicate
-- Save to Library (requires a connection to the Assistant Pro)
-- Export
-- Delete
+
+  - Duplicate
+  - Save to Library (requires a connection to the Assistant Pro)
+  - Export
+  - Delete
 
 11. Once you done, make sure to click the Update button in the top right.
 
