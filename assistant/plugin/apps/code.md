@@ -31,9 +31,8 @@ To add a snippet from the Code App:
 7. Underneath the description is the codebox where you can add your snippet.
 8. Next to status, click enable to Enable your snippet.
 9. In the dropdown underneath the Status, select where you want your snippet to apply.
-10. In the Actions section, you have the following options:
-
-
+10. In the Actions section, you have the following options:  
+  
   - Duplicate
   - Save to Library (requires a connection to the Assistant Pro)
   - Export
