@@ -28,21 +28,33 @@ To add a snippet from the Code App:
 4. Click the **Enter** button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard.
 5. The snippet will then open up.
 6. You can enter an optional description.
-7. Underneath the description is the codebox where you can add your snippet.
+7. Underneath the description is the code box where you can add your snippet.
 8. Next to status, click enable to Enable your snippet.
 9. In the dropdown underneath the Status, select where you want your snippet to apply.
-10. In the Actions section, you have the following options:  
-  
-  - Duplicate
-  - Save to Library (requires a connection to the Assistant Pro)
-  - Export
-  - Delete
+10. In the Actions section, you have the following options:
+
+- Duplicate
+- Save to Library (requires a connection to the Assistant Pro)
+- Export
+- Delete
 
 11. Once you done, make sure to click the Update button in the top right.
 
 ## Edit a Snippet
 
 You can edit a snippet by clicking the code item in the list view for that code type. As you make changes, you will see an Update button at the top of the Code item. Click the Update button to update your snippet.
+
+## Enable or Disable a Snippet
+
+![Code app overview](/img/assistant/apps--apps-code--4.jpg)
+
+### Enable or disable in the List View
+
+In the list view there is an indicator to let you know if a snippet is enabled or disabled. If it is disabled, you will see Inactive and if it's enabled you will see Active with a green dot. You can quickly toggle it by clicking on that indicator.
+
+### Enable or disable while editing a snippet
+
+When you open a snippet for editing, there is also a toggle to enable or disable that snippet.
 
 ## Duplicate a Snippet
 
