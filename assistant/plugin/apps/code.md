@@ -76,4 +76,4 @@ Open the snippet for editing an in the Actions menu, click the Export button. Th
 
 ## Save to a Library
 
-An Assistant Pro connection is required for saving to a library. When you save a library to a snippet, it will not save the location you assigned the snippet to apply to. When you import a snippet from a library, you will then need to assign the snippet to a location.
+An Assistant Pro connection is required for saving to a library. When you save a snippet to a library, it will not save the location you assigned the snippet. When you import a snippet from a library, you will then need to assign the snippet to a location.
