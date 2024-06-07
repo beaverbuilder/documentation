@@ -22,6 +22,8 @@ The Code App enables you to create and edit CSS and JS code snippets, which you 
 
 To add a snippet from the Code App:
 
+![Create a snippet](/img/assistant/apps--apps-code--3.jpg)
+
 1. Open the **Code App**.
 2. Select the content type you want to create.
 3. Enter a name for your content in the **+ Create New** field.
@@ -46,7 +48,7 @@ You can edit a snippet by clicking the code item in the list view for that code 
 
 ## Enable or Disable a Snippet
 
-![Code app overview](/img/assistant/apps--apps-code--4.jpg)
+![Enable or Disable a Snippet](/img/assistant/apps--apps-code--4.jpg)
 
 ### Enable or disable in the List View
 
