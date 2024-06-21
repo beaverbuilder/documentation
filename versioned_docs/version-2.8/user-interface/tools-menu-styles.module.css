@@ -1,0 +1,13 @@
+.macos::before {
+	content: "\f179";
+	font: var(--fa-font-brands) !important;
+	font-size: 24px !important;
+	margin-right: 1rem;
+}
+
+.windows::before {
+	content: "\f17a";
+	font: var(--fa-font-brands) !important;
+	font-size: 24px !important;
+	margin-right: 1rem;
+}
