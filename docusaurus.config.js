@@ -233,6 +233,17 @@ module.exports = {
           path: "beaver-builder",
           routeBasePath: "beaver-builder",
           sidebarPath: require.resolve("./sidebarBeaverBuilder.js"),
+          lastVersion: "2.8",
+          versions: {
+            current: {
+              label: "2.9",
+              path: "",
+            },
+            2.8: {
+              label: "2.8",
+              path: "2.8",
+            },
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
