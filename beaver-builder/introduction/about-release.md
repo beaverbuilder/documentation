@@ -6,7 +6,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-## New Features
+## :rocket: New Features
 
 ### Modules as Blocks
 
@@ -20,7 +20,6 @@ Navigate to Settings > Beaver Builder and click on the new Blocks tab. There you
 
 The current list of supported modules is below but expect this list to grow in the future:
 
-
 - Accordion
 - Box
 - Countdown
@@ -33,9 +32,8 @@ The current list of supported modules is below but expect this list to grow in t
 - Posts Slider
 - Pricing Table
 - Tabs
-  
 
-## Improvements
+## :boom: Improvements
 
 ### Modules without Wrappers
 
@@ -45,8 +43,8 @@ As part of our continued effort to reduce the markup output by Beaver Builder, a
 
 In Beaver Builder 2.8, we introduced a new Container Module, the _Box_ Module. However, it required a container to exist around it. In 2.9, that changes so _Box_ and all future container modules can be top level containers.
 
-## What's Still to Come for 2.9
+## :question: What's Still to Come for 2.9
 
 - Multi-Background field - A new background field that lets you layer different types of backgrounds on an element.
-- An all new color picker has been completely rewritten and now supports any CSS color expression you can throw at it.
-- An all new gradient picker that allows you to create gradients with an unlimited number of color stops in a variety of different color modes.
+- An all new color picker has been completely rewritten and now supports any CSS color expression you can throw at it. While this may not ship in the first version of the new color picker, under the hood, it allows us to enable even more colors beyond the default sRGB color space you are used to. In the future, you'll be able to switch to a color space that suits you and access an even wider spectrum of colors!
+- We've also built a new gradient picker that allows you to create gradients with an unlimited number of color stops and blend between them through different color spaces.
