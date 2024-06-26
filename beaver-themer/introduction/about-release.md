@@ -9,7 +9,7 @@ toc_max_heading_level: 2
 
 Beaver Themer 1.5 includes the following new features and improvements.
 
-::: info
+:::info
 Please note that Themer 1.5 requires Beaver Builder version 2.9+.
 :::
 
@@ -27,6 +27,6 @@ It currently supports the same type of queries as our Posts module and ACF repea
 
 Your Themer layouts will work with Full Site Editing Themes.
 
-## UI for adding Singular Layouts to Post/Page Template Dropdown
+### UI for adding Singular Layouts to Post/Page Template Dropdown
 
 This is already possible with code but a new field will be added for Singular layouts to allow for it to be done without code.
