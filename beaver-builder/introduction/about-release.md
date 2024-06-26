@@ -10,9 +10,9 @@ toc_max_heading_level: 2
 
 ### Modules as Blocks
 
-A selecteion of our modules will be available as Blocks for the Block Editor. This feature is opt-in so it requires enabling in the Beaver Builder settings in the WordPress Admin.
+A selection of our modules will be available as Blocks for the Block Editor. This feature is opt-in so it requires enabling in the Beaver Builder settings in the WordPress Admin.
 
-### Enable Modules as Blocks
+#### Enable Modules as Blocks
 
 Navigate to Settings > Beaver Builder and click on the new Blocks tab. There you can enable select modules to use in the Block Editor.
 
