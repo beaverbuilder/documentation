@@ -20,6 +20,7 @@ Navigate to Settings > Beaver Builder and click on the new Blocks tab. There you
 
 The current list of supported modules is below but expect this list to grow in the future:
 
+
 - Accordion
 - Box
 - Countdown
@@ -32,6 +33,7 @@ The current list of supported modules is below but expect this list to grow in t
 - Posts Slider
 - Pricing Table
 - Tabs
+  
 
 ## Improvements
 
