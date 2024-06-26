@@ -13,7 +13,7 @@ Beaver Themer 1.5 includes the following new features and improvements.
 Please note that Themer 1.5 requires Beaver Builder version 2.9+.
 :::
 
-## New Features
+## :rocket: New Features
 
 ### The Loop Module
 
@@ -21,7 +21,7 @@ The _Loop_ module is a container module that accepts child modules. However, unl
 
 It currently supports the same type of queries as our Posts module and additionally ACF repeaters.
 
-## What's Still to Come For 1.5
+## :question: What's Still to Come For 1.5
 
 ### Full Site Editing Theme Support
 
