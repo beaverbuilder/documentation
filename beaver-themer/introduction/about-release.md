@@ -17,9 +17,9 @@ Please note that Themer 1.5 requires Beaver Builder version 2.9+.
 
 ### The Loop Module
 
-The _Loop_ module is a container module that accepts child modules. However, unlike the _Box_ module, the Loop module will repeat its child modules for each item in the query as defined in the settings, allowing you to build truly custom loop layouts requiring you to build them in the Post Module custom layout section.
+The _Loop_ module is a container module that accepts child modules. However, unlike the _Box_ module, the Loop module will repeat its child modules for each item in the query as defined in the settings, allowing you to build truly custom loop layouts without requiring they be built in the Post Module custom layout section.
 
-It currently supports the same type of queries as our Posts module and ACF repeaters.
+It currently supports the same type of queries as our Posts module and additionally ACF repeaters.
 
 ## What's Still to Come For 1.5
 
