@@ -63,17 +63,17 @@ module.exports = {
           "aria-label": "Docs Home",
         },
         {
-          label: "Beaver Builder",
-          type: "doc",
-          docId: "introduction/index",
+          type: "docsVersionDropdown",
           position: "left",
+          dropdownItemsAfter: [{ to: "/versions" }],
+          dropdownActiveClassDisabled: true,
         },
         {
-          label: "Beaver Themer",
-          type: "doc",
-          docId: "introduction/index",
-          docsPluginId: "beaver-themer",
+          type: "docsVersionDropdown",
           position: "left",
+          dropdownItemsAfter: [{ to: "/versions" }],
+          dropdownActiveClassDisabled: true,
+          docsPluginId: "beaver-themer",
         },
         {
           label: "BB Theme",
@@ -196,11 +196,11 @@ module.exports = {
         lastVersion: "1.4",
         versions: {
           current: {
-            label: "1.5",
+            label: "Beaver Themer 1.5",
             path: "",
           },
           1.4: {
-            label: "1.4",
+            label: "Beaver Themer 1.4",
             path: "1.4",
           },
         },
@@ -233,6 +233,17 @@ module.exports = {
           path: "beaver-builder",
           routeBasePath: "beaver-builder",
           sidebarPath: require.resolve("./sidebarBeaverBuilder.js"),
+          lastVersion: "2.8",
+          versions: {
+            current: {
+              label: "Beaver Builder 2.9",
+              path: "",
+            },
+            2.8: {
+              label: "Beaver Builder 2.8",
+              path: "2.8",
+            },
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
