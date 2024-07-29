@@ -21,12 +21,23 @@ The _Loop_ module is a container module that accepts child modules. However, unl
 
 It currently supports the same type of queries as our Posts module and additionally ACF repeaters.
 
-## :question: What's Still to Come For 1.5
+## :boom: Improvements
 
 ### Full Site Editing Theme Support
 
-Your Themer layouts will work with Full Site Editing Themes.
+Your Themer layouts will now work with Full Site Editing Themes.
 
 ### UI for adding Singular Layouts to Post/Page Template Dropdown
 
 This is already possible with code but a new field will be added for Singular layouts to allow for it to be done without code.
+
+### Conditional Logic Improvements
+
+Drag and drop rules from one section to another. Also, we added the ability to bulk select and delete rules.
+
+### Search added to Preview As section
+
+A search box now makes it easier to find the page/post or archive you'd like to preview.
+
+## :question: What's Still to Come For 1.5
+
