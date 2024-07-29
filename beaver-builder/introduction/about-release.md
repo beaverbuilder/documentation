@@ -30,7 +30,7 @@ We've also built a new gradient picker that allows you to create gradients with 
 It is available in all color fields except:
   - Global Colors
   - Border field
-  - Box Shaow field
+  - Box Shadow field
 
 #### What's Still To Come
 
