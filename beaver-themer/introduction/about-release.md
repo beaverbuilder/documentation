@@ -29,12 +29,16 @@ Your Themer layouts should now work with Full Site Editing Themes.
 
 ### UI for adding Singular Layouts to Post/Page Template Dropdown
 
-This is already possible with code but a new field will be added for Singular layouts to allow for it to be done without code.
+Previously, this required code but a new field was added for Singular layouts to allow for it to be done in our UI without requiring code.
 
 ### Conditional Logic Improvements
 
-Drag and drop rules from one section to another. Also, we added the ability to bulk select and delete rules.
+We've added some new things to make working with conditional logic easier:
+
+- Drag and drop rules from one section to another.
+- Duplicate a rule.
+- Bulk select and edit or duplicate rules.
 
 ### Search added to Preview As section
 
-A search box now makes it easier to find the page/post or archive you'd like to preview.
+A search box now makes it easier to find the page/post or archive you'd like to preview when editing a Themer layout.
