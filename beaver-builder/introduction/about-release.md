@@ -31,6 +31,7 @@ It is available in all color fields except:
   - Global Colors
   - Border field
   - Box Shadow field
+  - Gradient field
 
 #### What's Still To Come
 
