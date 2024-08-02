@@ -75,9 +75,9 @@ As part of our continued effort to reduce the markup output by Beaver Builder, a
 
 In Beaver Builder 2.8, we introduced a new Container Module, the _Box_ Module. However, it required a container to exist around it. In 2.9, that changes so _Box_ and all future container modules can be top level containers.
 
-### Outline Panel Label Inline Editing
+### Outline Panel Improvements
 
-We've added the ability to add and edit your labels inline.
+There is now a search/filter option and Node labels can be added and edited inline.
 
 
   
