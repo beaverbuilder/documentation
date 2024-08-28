@@ -112,7 +112,10 @@ You can import content and [creative asset](introduction/index.md#creative-asset
 
 ### Import Content
 
-1. In the Libraries app, navigate to the **Content** section and select the piece of content you’d like to import to your site.
+First, in the Libraries app, navigate to the library that has the content you want to import and click on it.
+
+#### Import a single library item
+1. Navigate to **Content** section and select the piece of content you’d like to import to your site.
 2. Scroll down and click the **Import** action and select one of the following choices:
     
     * **Create New**  
@@ -120,12 +123,20 @@ You can import content and [creative asset](introduction/index.md#creative-asset
     
     * **Replace current Page/Post**  
       The library item is imported on the current page or post.
-    
-      :::caution
-      This action replaces all content in the posts.
-      :::
 
-![Add single WordPress content](/img/assistant/apps--apps-libraries--7.jpg)
+ :::caution
+ This action replaces all content in the posts.
+ :::
+    
+ ![Add single WordPress content](/img/assistant/apps--apps-libraries--7.jpg)
+
+
+#### Bulk Import of library items
+1. In the library toolbar, click on the **Select** button to enable selection mode.
+2. Navigate to the **Content** section of the library and select the library items you'd like to import to your site.
+3. A blue section will then appear underneath the library toolbar. As you select items, it keeps track of the number of items you have selected.
+4. Once you've selected all library items, click the **Import** button.
+5. Wait for import to complete before navigating away from the page.
 
 ### Import Images
 
