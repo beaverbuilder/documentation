@@ -13,7 +13,7 @@ Beaver Builder comes in two flavors: Lite and Premium. The Lite version is free 
 
 Here are some of the differences between the Lite and Premium versions:
 
-- Limited Modules in comparison to Premium.
+- [Limited Modules in comparison to Premium](#what-modules-are-included-in-the-lite-version).
 - Incompatibility with Beaver Themer.
 - Access to only a few pre-made Templates.
 - Inability to save modules/rows/columns for re-use or to save custom Templates.
@@ -24,634 +24,19 @@ Here are some of the differences between the Lite and Premium versions:
 Here's a table listing differences, and see [pricing page](https://www.wpbeaverbuilder.com/pricing) for the differences
 between the free and premium versions.
 
-<table className="table-comparison">
-  <thead>
-    <tr>
-      <th>
-        {" "}
-        <strong> Features</strong>{" "}
-      </th>
-      <th>
-        {" "}
-        <strong>Free</strong>{" "}
-      </th>
-      <th>
-        {" "}
-        <strong>Standard</strong>{" "}
-      </th>
-      <th>
-        {" "}
-        <strong>Pro</strong>{" "}
-      </th>
-      <th>
-        {" "}
-        <strong>Agency</strong>{" "}
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> Drag &amp; drop page builder </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Mobile-friendly &amp; responsive editor </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Preview changes in realtime </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> User access settings </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Custom post types </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Custom modules </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Basic modules </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Advanced modules </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> 40+ prebuilt templates </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> 100 prebuilt rows </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Save, export &amp; reuse layouts </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Custom icons </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Domain manager for licenses </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        {" "}
-        Beaver Themer support <em>(sold separately)</em>{" "}
-      </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Priority support </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Beaver Builder Theme included </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> WordPress Multisite support </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> Network-wide settings </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-    <tr>
-      <td> White labeling </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i className="fas fa-minus" style={{ color: "#e74c3c" }} />{" "}
-      </td>
-      <td>
-        {" "}
-        <i
-          className="fas fa-check"
-          aria-hidden="true"
-          style={{ color: "#2ecc71" }}
-        />{" "}
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Features                        | Lite      | Starter | Professional | Unlimited |
+| ------------------------------- | --------- | ------- | ------------ | --------- |
+| Site Activations                | Unlimited | 1       | 50           | Unlimited |
+| Beaver Builder                  | ✅        | ✅      | ✅           | ✅        |
+| Beaver Themer                   | ❌        | ✅      | ✅           | ✅        |
+| BB Theme                        | ❌        | ❌      | ✅           | ✅        |
+| WordPress Multisite Network     | ❌        | ❌      | ✅           | ✅        |
+| Network-wide settings           | ❌        | ❌      | ❌           | ✅        |
+| White Labeling                  | ❌        | ❌      | ❌           | ✅        |
+| Advanced Courses                | ❌        | ❌      | ❌           | ✅        |
+| Priority Support                | ❌        | ❌      | ❌           | ✅        |
+| Assistant Pro _(6-Months Free)_ | ❌        | ❌      | ❌           | ✅        |
+
 </details>
 
 The video below offers a comprehensive comparison, and for more details, please visit our [pricing page](https://www.wpbeaverbuilder.com/pricing/).
@@ -670,7 +55,7 @@ The lite (free) version of Beaver Builder contains the following subset of modul
 - [Button](../layouts/modules/button/button.md)
 - [Button-Group](../layouts/modules/button-group.md)
 - [Callout](../layouts/modules/callout-and-call-to-action.md)
-- [Cta](../layouts/modules/callout-and-call-to-action.md)
+- [CTA](../layouts/modules/callout-and-call-to-action.md)
 - [Heading](../layouts/modules/heading.md)
 - [Html](../layouts/modules/html.md)
 - [Icon](../layouts/modules/icon-and-icon-group.md)
@@ -685,30 +70,6 @@ The lite (free) version of Beaver Builder contains the following subset of modul
 - [Widget](../layouts/modules/widgets.md)
 
 See the [Modules](../layouts/modules/index.md) section for a complete list of all available modules in the premium versions of Beaver Builder.
-
-## Multisite vs Unlimited Sites
-
-All Beaver Builder licenses offer unlimited site usage, meaning you can use any Beaver Builder product included with your license on as many sites as you like.
-
-:::info
-Only the Beaver Builder Ultimate, Agency, and Pro licenses are multisite-capable.
-:::
-
-### Multisite-capable
-
-Normally, you install WordPress on each site you build so it's a standalone installation. _Multisite-capable_ refers to a specific WordPress setup that lets you install WordPress once and manage multiple sites under that one installation. This is also referred to as a network. You can read more about network/multisite setups in the [WordPress documentation](https://wordpress.org/support/article/create-a-network/).
-
-:::tip
-Beaver Builder can be configured network-wide for all sub-sites in the WordPress Multisite installation in the Ultimate and Agency licenses.
-:::
-
-### Unlimited Sites
-
-_Unlimited sites_ refers to the number of sites that you can add your license key to. There is no limit on any of our packages, including network sites with multisite setups.
-
-_Unlimited sites_ also means that you can use your license key across servers and even hosts.
-
-See our [Terms and Conditions](https://www.wpbeaverbuilder.com/terms-and-conditions/) for details about the conditions under which you can use your license key.
 
 ## Is Beaver Builder a plugin or a theme?
 
@@ -832,3 +193,40 @@ See [the shortcodes article](../shortcode/index.md) for more information.
 
 Yes! The features included in our Ultimate, and Agency licenses are geared towards those
 that wish to create their own DIY hosted website publishing business (like SquareSpace).
+
+## Multisite vs Unlimited Sites
+
+:::caution
+
+The following information is specific to [Beaver Builder legacy licenses](account/license/types.md) and do not apply to current license types.
+
+:::
+
+<details>
+<summary>Multisite vs Unlimited Sites - Legacy Licenses</summary>
+
+Beaver Builder legacy licenses offered unlimited site usage, meaning you could use any Beaver Builder product included with your license on as many sites as you liked.
+
+:::info
+
+Only the Beaver Builder Ultimate, Agency, and Pro licenses are multisite-capable.
+
+:::
+
+### Multisite-capable
+
+Normally, you install WordPress on each site you build so it's a standalone installation. _Multisite-capable_ refers to a specific WordPress setup that lets you install WordPress once and manage multiple sites under that one installation. This is also referred to as a network. You can read more about network/multisite setups in the [WordPress documentation](https://wordpress.org/support/article/create-a-network/).
+
+:::tip
+Beaver Builder can be configured network-wide for all sub-sites in the WordPress Multisite installation in the Ultimate and Agency licenses.
+:::
+
+### Unlimited Sites
+
+_Unlimited sites_ refers to the number of sites that you can add your license key to. There is no limit on any of our packages, including network sites with multisite setups.
+
+_Unlimited sites_ also means that you can use your license key across servers and even hosts.
+
+See our [Terms and Conditions](https://www.wpbeaverbuilder.com/terms-and-conditions/) for details about the conditions under which you can use your license key.
+
+</details>
