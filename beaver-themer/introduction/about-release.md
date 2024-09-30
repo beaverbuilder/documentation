@@ -48,7 +48,7 @@ Added format parameter for post_custom_field_date shortcode.
 
 ### ACF
 
-Adedd repeater_index support to ACF shortcodes.
+Added repeater_index support to ACF shortcodes.
 
 ### The Events Calendar
 
