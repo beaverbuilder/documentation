@@ -597,6 +597,9 @@ module.exports = {
         },
         "developer/iframe-ui",
         "developer/acf-blocks",
+        "developer/module-blocks",
+        "developer/container-modules",
+        "developer/module-deprecations",
         {
           type: "category",
           label: "How to's & Tips",
