@@ -19,8 +19,7 @@ Please note that Themer 1.5 requires Beaver Builder version 2.9+.
 
 The _Loop_ module is a container module that accepts child modules. However, unlike the _Box_ module, the Loop module will repeat its child modules for each item in the query as defined in the settings, allowing you to build truly custom loop layouts without requiring they be built in the Post Module custom layout section.
 
-It currently supports the same type of queries as our Posts module and additionally ACF repeaters.
-
+It currently supports the same type of queries as our Posts module and additionally Taxonomies and ACF repeaters.
 ## :boom: Improvements
 
 ### Full Site Editing Theme Support
@@ -42,3 +41,16 @@ We've added some new things to make working with conditional logic easier:
 ### Search added to Preview As section
 
 A search box now makes it easier to find the page/post or archive you'd like to preview when editing a Themer layout.
+
+### Format Date
+
+Added format parameter for post_custom_field_date shortcode.
+
+### ACF
+
+Added repeater_index support to ACF shortcodes.
+
+### The Events Calendar
+
+The organizers shortcode will now output all organizers if there are multiple selected.
+
