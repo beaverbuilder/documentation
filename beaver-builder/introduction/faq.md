@@ -57,7 +57,7 @@ The lite (free) version of Beaver Builder contains the following subset of modul
 - [Callout](../layouts/modules/callout-and-call-to-action.md)
 - [CTA](../layouts/modules/callout-and-call-to-action.md)
 - [Heading](../layouts/modules/heading.md)
-- [Html](../layouts/modules/html.md)
+- [HTML](../layouts/modules/html.md)
 - [Icon](../layouts/modules/icon-and-icon-group.md)
 - [Menu](../layouts/modules/menu/menu.md)
 - [North-Commerce](../layouts/modules/north-commerce.md)
@@ -70,6 +70,16 @@ The lite (free) version of Beaver Builder contains the following subset of modul
 - [Widget](../layouts/modules/widgets.md)
 
 See the [Modules](../layouts/modules/index.md) section for a complete list of all available modules in the premium versions of Beaver Builder.
+
+## What is Multisite Capable?
+
+Multisite capable refers to a feature of WordPress that allows you to install WordPress once and manage multiple sites under that one installation. This is also referred to as a network. You can read more about network/multisite setups in the [WordPress documentation](https://wordpress.org/support/article/create-a-network/).
+
+:::info
+
+Please note, that in WordPress Multisite network installations, subsites are not considered separate sites and do not count towards your license site activation limit.
+
+:::
 
 ## Is Beaver Builder a plugin or a theme?
 
@@ -173,7 +183,7 @@ Yes! By default, Beaver Builder is only enabled for pages, but you can easily en
 
 ## How does White Labeling work?
 
-The [Agency and Ultimate packages](https://www.wpbeaverbuilder.com/pricing/) allows you to white label Beaver Builder and give your clients a truly white-glove experience. White labeling allows you to replace the words Beaver Builder and the Beaver Builder logo with your own company's name or logo in the Beaver Builder and WordPress UI.
+The [Unlimited license](https://www.wpbeaverbuilder.com/pricing/) allows you to white label Beaver Builder and give your clients a truly white-glove experience. White labeling allows you to replace the words Beaver Builder and the Beaver Builder logo with your own company's name or logo in the Beaver Builder and WordPress UI.
 
 ## Can I include Beaver Builder as part of a premium or free WordPress theme?
 
@@ -191,42 +201,4 @@ See [the shortcodes article](../shortcode/index.md) for more information.
 
 ## Can I include Beaver Builder as part of my hosted website builder platform?
 
-Yes! The features included in our Ultimate, and Agency licenses are geared towards those
-that wish to create their own DIY hosted website publishing business (like SquareSpace).
-
-## Multisite vs Unlimited Sites
-
-:::caution
-
-The following information is specific to [Beaver Builder legacy licenses](account/license/types.md) and do not apply to current license types.
-
-:::
-
-<details>
-<summary>Multisite vs Unlimited Sites - Legacy Licenses</summary>
-
-Beaver Builder legacy licenses offered unlimited site usage, meaning you could use any Beaver Builder product included with your license on as many sites as you liked.
-
-:::info
-
-Only the Beaver Builder Ultimate, Agency, and Pro licenses are multisite-capable.
-
-:::
-
-### Multisite-capable
-
-Normally, you install WordPress on each site you build so it's a standalone installation. _Multisite-capable_ refers to a specific WordPress setup that lets you install WordPress once and manage multiple sites under that one installation. This is also referred to as a network. You can read more about network/multisite setups in the [WordPress documentation](https://wordpress.org/support/article/create-a-network/).
-
-:::tip
-Beaver Builder can be configured network-wide for all sub-sites in the WordPress Multisite installation in the Ultimate and Agency licenses.
-:::
-
-### Unlimited Sites
-
-_Unlimited sites_ refers to the number of sites that you can add your license key to. There is no limit on any of our packages, including network sites with multisite setups.
-
-_Unlimited sites_ also means that you can use your license key across servers and even hosts.
-
-See our [Terms and Conditions](https://www.wpbeaverbuilder.com/terms-and-conditions/) for details about the conditions under which you can use your license key.
-
-</details>
+Yes! The features included in our Unlimited license are geared towards those that wish to create their own [DIY hosted website publishing business](advanced/diy-website-builder-platform.md) (like SquareSpace).
