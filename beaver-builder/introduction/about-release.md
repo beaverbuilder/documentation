@@ -10,18 +10,14 @@ toc_max_heading_level: 2
 
 ### Multi-Layer Background Field
 
-A new background field that lets you layer different types of backgrounds on an element.
-
-#### Limitations
-
-For now, it is only supported in the Box module.
+A new background field that lets you layer different types of backgrounds on an element.  You will see this in the Box Module, Rows and Columns.
 
 #### What's Still To Come
-We will expand where you will see this field in future releases.
+Saving layers for re-use.
 
 ### Brand New Color/Gradient Pickers
 
-Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it. 
+Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  You can select Global Colors in the color picker.
 
 We've also built a new gradient picker that allows you to create gradients with an unlimited number of color stops and blend between them through different color spaces.
 
@@ -35,7 +31,7 @@ It is available in all color fields except:
 
 #### What's Still To Come
 
-Eventually all color fields will be supported.  While colors can be saved now for re-use, we still have to hook up field connections and selecting your Global Colors from the color picker.
+Eventually all color fields will be supported.  While colors can be saved now for re-use, we still have to hook up field connections.
 
 In the future, you'll be able to switch to a color space that suits you and access an even wider spectrum of colors!
 
@@ -80,5 +76,24 @@ In Beaver Builder 2.8, we introduced a new Container Module, the _Box_ Module. H
 
 There is now a search/filter option and Node labels can be added and edited inline.
 
+### Subscribe Module
 
+Support was added for Active Campaign tags.
+
+### Google Fonts
+
+The Google Font list should be current.  Previously, the list would only be updated at the time of release.  The list will now be updated each time WordPress checks to update the plugin.
+
+### Accessibility Improvements
+
+We are committed to accessibility.  Added are several enhancements:
+ 
+- Menu Module: Separated menu item and sub-menu icon
+- Accordion: Select HTML tag for Label
+- Tabs Module: Add focus missing on selected tab
+- Various improvements for the magnific pop-up script used
+
+### Performance
+
+Always looking at ways to improve performance, we've optimized some queries relating to Themer and debug mode.
   
