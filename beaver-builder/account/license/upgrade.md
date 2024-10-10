@@ -11,29 +11,26 @@ For example, if you buy a license on January 1 and upgrade on July 1, you will b
 
 ## 1. Purchase Upgrade
 
-1. Go to your [My Account](https://www.wpbeaverbuilder.com/my-account/) page and scroll to the **My Subscriptions** section.  
-  
-  ![My Subscriptions section](/img/beaver-builder/account--upgrade--1.jpg)
+1. Go to your [My Account](https://www.wpbeaverbuilder.com/my-account/) page and scroll to the **My Subscriptions** section.
 
-2. Click the **Upgrade** button and on the pricing page select the package that you want. 
-Only eligible upgrades are shown in this section. If you already have the
-Agency version, you won't see any upgrade options.
+![My Subscriptions section](/img/beaver-builder/account--upgrade--1.jpg)
 
-3.  Complete the checkout process.  
-Your license number remains the same but is now associated with the upgrade
-version.
+2. Click the **Upgrade** button and on the pricing page select the package that you want.
+   Only eligible upgrades are shown in this section. If you already have the
+   Ultimate license, you won't see any upgrade options.
+
+3. Complete the checkout process.
+   Your license number remains the same but is now associated with the upgrade
+   version.
 
 ## 2. Download and Install the Upgrade
 
 1. Download the Beaver Builder .zip file from your [My Account](https://www.wpbeaverbuilder.com/my-account/).
 
-2. [Install](../../getting-started/install.md) the Beaver Builder .zip file and replace the current version of Beaver Builder.  
-  
-  :::info
-  If you don't install the upgraded version immediately, your previous premium version of the plugin will continue to notify you of updates on the WordPress **Plugins** menu.
-  :::
+2. [Install](../../getting-started/install.md) the Beaver Builder .zip file and replace the current version of Beaver Builder.
 
-3. Activate the plugin and [enter your license key](index.md#activate-license-key). 
+:::info
+If you don't install the upgraded version immediately, your previous premium version of the plugin will continue to notify you of updates on the WordPress **Plugins** menu.
+:::
 
-
-
+3. Activate the plugin and [enter your license key](index.md#activate-license-key).

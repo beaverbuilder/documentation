@@ -40,7 +40,7 @@ See the [Find ID or Slug](find-id-slug.md) article for tips on how to identify t
 Enter a comma-separated list of `IDs` to insert multiple layouts.
 
 :::caution
-Shortcodes used too frequently on the same page or post may affect performance. For more information, see our [Performance](advanced/performance.md#beaver-builder-shortcode) article. 
+Shortcodes used too frequently on the same page or post may affect performance. For more information, see our [Performance](advanced/performance.md#beaver-builder-shortcode) article.
 :::
 
 ```markup
@@ -52,7 +52,7 @@ Shortcodes used too frequently on the same page or post may affect performance. 
 In WordPress Multisite installations, you can specify the `site` attribute to enter the `ID` of a subsite to pull saved content from one subsite to another.
 
 :::info
-The `site` attribute is only available in Pro and Agency versions of Beaver Builder.
+The `site` attribute is only available in Unlimited and Professional license versions of Beaver Builder.
 :::
 
 ```markup

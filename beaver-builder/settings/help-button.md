@@ -1,7 +1,7 @@
 ---
 id: help-button
 title: Help Button Tab
-sidebar_label: Help Button (Ultimate & Agency)
+sidebar_label: Help Button (Unlimited license)
 description: The Help tab in the Beaver Builder settings lets you enable or disable the Help button in the Tools Menu, or you can fine-tune which help options are available and add links to your own help services.
 ---
 
@@ -32,4 +32,3 @@ Enables or disables the knowledge base link. If enabled, you can add a link to y
 ## Contact Support
 
 Enables or disables the contact support base link. If enabled, you can add a link to your own contact page.
-

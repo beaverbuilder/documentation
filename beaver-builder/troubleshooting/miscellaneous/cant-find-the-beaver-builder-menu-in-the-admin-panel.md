@@ -4,7 +4,7 @@ title: Can't find the Beaver Builder menu in the admin panel
 sidebar_label: Can't find the Beaver Builder menu in the admin panel
 ---
 
- If you don't see **Beaver Builder** in the
+If you don't see **Beaver Builder** in the
 WordPress admin panel, it means that that it is disabled. Follow the
 instructions below to enable it.
 
@@ -15,10 +15,11 @@ organize your templates, rows, and modules.
 
 ![](/img/troubleshooting-cant-find-bb-menu-in-admin.png)
 
-:::note **Notes**
-* The **Themer layouts** option only appears when you have the Beaver Builder - Themer Add-On plugin installed.
-* If Beaver Builder has been renamed under an Agency license at **Settings > _custom-name_ > Branding**, the **Beaver Builder** menu appears as **Builder**.
-:::
+:::info
+
+- The **Themer layouts** option only appears when you have the Beaver Builder - Themer Add-On plugin installed.
+- If Beaver Builder has been renamed under an Unlimited license at **Settings > _custom-name_ > Branding**, the **Beaver Builder** menu appears as **Builder**.
+  :::
 
 **To enable the Beaver Builder menu:**
 

@@ -4,12 +4,6 @@ title: What can I do with Beaver Builder?
 sidebar_label: What can I do with Beaver Builder?
 ---
 
-OK, you've installed the Beaver Builder plugin on your WordPress site. And
-you've installed a WordPress theme – if you have the Pro or Agency version of
-Beaver Builder, maybe you've installed the Beaver Builder Theme and child
-theme. And maybe you're wondering if you really need to add Beaver Themer, a
-premium add-on plugin.
-
 Here's an overview of the Beaver Builder plugin, Beaver Builder Theme, and a
 little bit about what Beaver Themer adds if you need it. See also the article [What can I do with Beaver Themer?](/beaver-themer/getting-started/what-can-i-do-with-beaver-themer)
 
@@ -116,9 +110,7 @@ place is reflected everywhere, or you can save the rows and modules so you can
 reuse them but can modify them differently in each location. Or you can save
 the entire layout as a layout template, which you can [use on any other page of your site](layouts/templates/index.md) or [export for use on another site](layouts/templates/saved-templates.md#export--import).
 
-If you have the Agency edition of the Beaver Builder plugin, you can white-
-label the Beaver Builder UI. And with any edition of Beaver Builder, you can
-create custom editing environments for your clients by controlling which
+If you have the Unlimited license version of the Beaver Builder plugin, you can white-label the Beaver Builder UI. And with any edition of Beaver Builder, you can create custom editing environments for your clients by controlling which
 layout templates, rows, and modules are available to them.
 
 ### Use Beaver Builder layouts for posts
