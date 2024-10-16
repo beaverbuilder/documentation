@@ -5,10 +5,6 @@ sidebar_label: Domain Manager
 description: Learn what the Domain Manager is, and how to use it.
 ---
 
-In this article, we will provide a comprehensive explanation of the Domain Manager and its usage.
-
-## What is the Domain Manager?
-
 The Domain Manager is a tool that displays a list of all domains utilizing your license key, along with the products installed on those domains and their respective versions.
 
 With this feature, you can remotely deactivate and remove a domain, effectively preventing it from using your license key or receiving updates. Additionally, you have the ability to reactivate any previously deactivated domain.
@@ -24,6 +20,23 @@ To access the Domain Manager, follow these steps:
 ## Notifications
 
 By enabling the Notifications option, you will receive an email notification whenever a new website is added to the Domain Manager.
+
+## Site Limit Checker
+
+The Site Limit Checker is a useful tool for determining whether a domain will count against your site limit before adding it to the Domain Manager.
+
+To use the Site Limit Checker:
+
+1. Enter the domain name (e.g., `dev.example.com`) in the provided field.
+2. Click the **Submit** button.
+
+The Site Limit Checker will verify the domain against our [ruleset](license/activations.md) and provide you with the result.
+
+:::info
+
+The Site Limit Checker is only available to users with a Starter or Professional license. Unlimited license holders and legacy license holders are not subject to site limits.
+
+:::
 
 ## Product & PHP Version
 
