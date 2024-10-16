@@ -33,7 +33,7 @@ By enabling the Prerelease Updates option in Beaver Builder settings, you can ea
 
 ### Domain Manager
 
-The Domain Manager provides a list of all domains that are using your license key as well as the products that are being used on those domains and their versions.
+The Domain Manager displays a comprehensive list of all domains utilizing your license key, along with detailed information on the products being used on each domain, including their versions.
 
 See the [Domain Manager](domain-manager.md) article for more information.
 

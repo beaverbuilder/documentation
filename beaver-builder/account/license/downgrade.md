@@ -14,7 +14,7 @@ For more information, please refer to our refund policy in the [Terms and Condit
 
 ### Request a Downgrade
 
-To request a downgrade, simply submit a support ticket and specify the plan you'd like to switch to. Please include the email address associated with your purchase or your subscription number to help us locate your account efficiently.
+To request a downgrade, simply [submit a support ticket](https://www.wpbeaverbuilder.com/beaver-builder-support/) and specify the plan you'd like to switch to. Please include the email address associated with your purchase or your subscription number to help us locate your account efficiently.
 
 :::caution
 
