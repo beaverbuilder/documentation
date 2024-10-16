@@ -28,7 +28,7 @@ We've already used this new API in Beaver Builder 2.9 to remove the wrapper divs
 
 ### How Does it Work?
 
-The module deprecations API works by sticking a version number on each module when added to the layout. If no deprecated versions are defined, the version will 1. If deprecated versions are defined, the highest version number + 1 will be used as the latest instead.
+The module deprecations API works by sticking a version number on each module when added to the layout. If no deprecated versions are defined, the version will be 1. If deprecated versions are defined, the highest version number + 1 will be used as the latest instead.
 
 That version number is used to load the code associated with it. For example, let's say you deprecated a module's `frontend.php` file and are now on version 2 of the module. For any modules on version 1, `my-module/deprecated/v1/includes/frontend.php` will be loaded instead of the latest at `my-module/includes/frontend.php`.
 

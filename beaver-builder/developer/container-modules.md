@@ -4,13 +4,13 @@ title: Container Modules
 sidebar_label: Container Modules
 ---
 
-Container modules are modules that can accept other modules as children, similar to rows and columns. The Box and Loop modules in Beaver Builder are examples of container modules.
+Container modules are modules that can accept other modules as children, similar to rows and columns. The Box module in Beaver Builder and Loop module in Beaver Themer are examples of container modules.
 
 Creating a container module is very similar to creating a regular module, with a few additional things you need to do.
 
 ### Excluding Wrappers
 
-While this isn't necessary for container modules, it's often desired. By default, the builder will include legacy wrapper divs on modules. To exclude those, you need to set `'include_wrapper' => false` in the module config and render the module attributes on the top-level element in the `frontend.php` file.
+While this isn't necessary for container modules, it's often desired. By default, the builder will include legacy wrapper divs on modules. To exclude those, you need to set [`'include_wrapper' => false`](custom-modules/08-module-property-reference.md#include_wrapper-boolean) in the module config and render the module attributes on the top-level element in the `frontend.php` file.
 
 ```php
 <?php
