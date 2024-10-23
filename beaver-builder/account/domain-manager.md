@@ -19,7 +19,7 @@ To access the Domain Manager, follow these steps:
 
 ## Notifications
 
-By enabling the Notifications option, you will receive an email notification whenever a new website is added to the Domain Manager.
+Enabling notifications means you will receive an email whenever a new website is added to the Domain Manager through the activation of your license key on the new website.
 
 ## Site Limit Checker
 
@@ -30,7 +30,7 @@ To use the Site Limit Checker:
 1. Enter the domain name (e.g., `dev.example.com`) in the provided field.
 2. Click the **Submit** button.
 
-The Site Limit Checker will verify the domain against our [ruleset](license/activations.md) and provide you with the result.
+After submitting, the Site Limit Checker evaluates the domain against our [ruleset](license/activations.md) and displays the result.
 
 :::info
 
