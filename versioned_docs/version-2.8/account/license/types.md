@@ -28,4 +28,16 @@ The following license types are considered legacy licenses:
 - Agency License
 - Ultimate License
 
-For those customers who had previously purchased these licenses, we do allow upgrades to current licenses, as well as permitting them to continue maintaining an active legacy license by keeping up to date with all renewal payments.
+You can continue to use your legacy license as long as you maintain an active subscription.
+
+### Can I Switch to a New License?
+
+If your legacy license was purchased or renewed more than 30 days ago, you will have the option to switch to one of our new plans at your next renewal.
+
+:::caution
+
+Please note that any renewal discounts associated with your legacy license will not transfer to the new license, and some of the new licenses may have site usage limits.
+
+You can explore the new licenses and their features on our pricing page before making your decision.
+
+:::

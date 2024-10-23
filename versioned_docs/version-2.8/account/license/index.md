@@ -10,11 +10,15 @@ The articles in this section explain what Beaver Builder licenses are, why you n
 
 Licenses are used to activate premium versions of Beaver Builder products on your website by connecting them to our update server. Activating your license on a site enables automatic updates and support for that domain.
 
+## License Key
+
 After purchasing a Beaver Builder license, you will receive a unique license key that can be found in [your account page](https://www.wpbeaverbuilder.com/my-account) on the Beaver Builder website.
 
 :::danger
 
 We recommend not sharing your license key with others. This may lead to unauthorized use of your license and may require the creation of a new license key. Please note that issuing a new license key is not an automated process, may take time, and will only be performed a limited number of times.
+
+When a license key is regenerated, the previous key becomes invalid. It is necessary to update the new key on all sites where the original key was previously utilized.
 
 :::
 
