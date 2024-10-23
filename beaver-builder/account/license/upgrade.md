@@ -9,6 +9,14 @@ You can upgrade your license from one premium version to another at any time. Wh
 
 For example, if you buy a license on January 1 and upgrade on July 1, you will be charged for a half year of the difference between the two licenses' annual prices. The license expiration date remains the same, so on the following January 1, your license expires and you can renew at the price of your current package.
 
+:::warning Legacy License Upgrades
+
+When customers who are eligible for a renewal discount on their legacy plan choose to upgrade to one of our new plans, they should be aware that this discount eligibility will be lost.
+
+Our new plans have a different pricing structure that doesn't include renewal discounts. After upgrading, any renewal discounts that were previously available under the legacy plan cannot be carried over to the new plan. We encourage customers to take this into consideration when evaluating whether to upgrade, since the pricing structures between legacy and new plans are different.
+
+:::
+
 ## 1. Purchase Upgrade
 
 1. Go to your [My Account](https://www.wpbeaverbuilder.com/my-account/) page and scroll to the **My Subscriptions** section.
@@ -26,11 +34,10 @@ For example, if you buy a license on January 1 and upgrade on July 1, you will b
 ## 2. Download and Install the Upgrade
 
 1. Download the Beaver Builder .zip file from your [My Account](https://www.wpbeaverbuilder.com/my-account/).
-
-2. [Install](../../getting-started/install.md) the Beaver Builder .zip file and replace the current version of Beaver Builder.
-
-:::info
-If you don't install the upgraded version immediately, your previous premium version of the plugin will continue to notify you of updates on the WordPress **Plugins** menu.
-:::
+2. [Install](../../getting-started/install.md) the Beaver Builder .zip file and replace the current version of Beaver Builder.  
+  
+  :::info
+  If you don't install the upgraded version immediately, your previous premium version of the plugin will continue to notify you of updates on the WordPress **Plugins** menu.
+  :::
 
 3. Activate the plugin and [enter your license key](index.md#activate-license-key).
