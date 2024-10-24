@@ -37,20 +37,20 @@ Disables all Beaver Builder prebuilt templates and user-created templates. When 
 
 ![Disable all templates](/img/beaver-builder/settings--templates--2.jpg)
 
-## Override Core Templates (Agency)
+## Override Core Templates (Unlimited license)
 
 Use this setting to override Beaver Builder prebuilt templates with your own templates. When selected, Beaver Builder prebuilt templates will be removed from the **Templates** tab in the [Content Panel](user-interface/content-panel.md) and replaced with user-created templates.
 
 If you choose to **Override Core Templates**, you’ll also see options to show or remove saved row, column, and modules categories in the [Content Panel](user-interface/content-panel.md)
 
-* Show Saved Row Categories
-* Show Saved Column Categories
-* Show Saved Module Categories
+- Show Saved Row Categories
+- Show Saved Column Categories
+- Show Saved Module Categories
 
 ![Show Saved Module Category](/img/beaver-builder/settings--templates--3.jpg)
 
 :::info
-The **Override Core Templates** option requires an agency license.
+The **Override Core Templates** option requires an Unlimited license.
 :::
 
 ## WordPress Multisite

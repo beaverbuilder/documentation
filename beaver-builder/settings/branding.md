@@ -1,7 +1,7 @@
 ---
 id: branding
 title: Branding Tab
-sidebar_label: Branding (Ultimate & Agency)
+sidebar_label: Branding (Unlimited license)
 description: The Branding tab in the Beaver Builder settings lets you white label the Beaver Builder plugin and BB Theme with your own brand and logo.
 ---
 
@@ -12,7 +12,7 @@ The **Branding** tab in the Beaver Builder settings lets you white label the Bea
 </div>
 
 :::info
-The **Branding** tab is only available for users with the Ultimate and Agency license. 
+The **Branding** tab is only available for users with the Unlimited license.
 :::
 
 :::caution
@@ -47,7 +47,7 @@ The default URL points to the `beaver.png` icon which is located in the followin
 http://my-website.com/wp-content/plugins/bb-plugin/img/
 ```
 
-Leave the Plugin icon field blank if you don't want any icon to appear. 
+Leave the Plugin icon field blank if you don't want any icon to appear.
 
 ## Theme Branding
 
@@ -55,13 +55,13 @@ Theme Branding lets you white label the **"BB Theme"** (parent) name, descriptio
 
 The changed title will appear in the following locations:
 
-* **WordPress Admin Dashboard > Appearance > Themes** (WordPress Themes).
-* **WordPress Admin Dashboard > Appearance > Themes > Theme Details** (WordPress Theme Details)
-* **WordPress Admin Dashboard > Appearance > Customize** (WordPress Customizer).
-* **WordPress Admin Dashboard > Appearance > Themes File Editor** (WordPress Themes File Editor).
+- **WordPress Admin Dashboard > Appearance > Themes** (WordPress Themes).
+- **WordPress Admin Dashboard > Appearance > Themes > Theme Details** (WordPress Theme Details)
+- **WordPress Admin Dashboard > Appearance > Customize** (WordPress Customizer).
+- **WordPress Admin Dashboard > Appearance > Themes File Editor** (WordPress Themes File Editor).
 
 If you're using the BB Child Theme and view the [WordPress Theme Details](https://wordpress.org/support/article/appearance-themes-screen/#current-theme) the parent theme notification will use the custom Theme Name option, as shown in this screenshot.
- 
+
 ![WordPress Theme Details child theme's parent name](/img/beaver-builder/settings--branding--2.jpg)
 
 ### Theme Name
@@ -90,7 +90,7 @@ Enter a URL to white label the BB Theme default screenshot.
 
 ### Child Theme
 
-**Theme Branding** only white labels the Beaver Builder Theme (parent). You can brand the child theme manually by editing the *style.css* file and replacing the screenshot image with your own.
+**Theme Branding** only white labels the Beaver Builder Theme (parent). You can brand the child theme manually by editing the _style.css_ file and replacing the screenshot image with your own.
 
 ### File Paths
 
@@ -98,9 +98,9 @@ Enter a URL to white label the BB Theme default screenshot.
 
 The paths remain as:
 
-* **Beaver Builder** - `/wp-content/plugins/bb-plugin/`
-* **Beaver Themer** - `/wp-content/plugins/bb-theme-builder/`
-* **BB Theme** - `/wp-content/themes/bb-theme/`
+- **Beaver Builder** - `/wp-content/plugins/bb-plugin/`
+- **Beaver Themer** - `/wp-content/plugins/bb-theme-builder/`
+- **BB Theme** - `/wp-content/themes/bb-theme/`
 
 :::warning
 

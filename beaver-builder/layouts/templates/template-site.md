@@ -8,10 +8,10 @@ This article explains how you can create your own template site that users in th
 
 ## Prerequisite
 
-A Template Site is only possible with WordPress Multisite installations and Beaver Builder Ultimate or Agency licenses.
+A Template Site is only possible with WordPress Multisite installations and Beaver Builder Unlimited license.
 
 - [WordPress Multisite Installation](https://wordpress.org/support/article/create-a-network/)
-- [Beaver Builder Ultimate or Agency License](https://www.wpbeaverbuilder.com/pricing/)
+- [Beaver Builder Unlimited License](https://www.wpbeaverbuilder.com/pricing/)
 
 ## Usage
 

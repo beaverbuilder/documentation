@@ -33,7 +33,7 @@ Click the bell icon to open notifications from the Beaver Builder blog.
 
 :::info
 
-If you have the Ultimate or Agency license installed with white labeling enabled, the icon will not be visible in the Beaver Builder UI. Alternatively, you can deactivate it by utilizing the [`fl_disable_notifications`](developer/tutorials-guides/common-beaver-builder-plugin-filter-examples.md#disable-notifications-from-beaver-builder-in-the-ui) filter.
+If you have the Unlimited license installed with white labeling enabled, the icon will not be visible in the Beaver Builder UI. Alternatively, you can deactivate it by utilizing the [`fl_disable_notifications`](developer/tutorials-guides/common-beaver-builder-plugin-filter-examples.md#disable-notifications-from-beaver-builder-in-the-ui) filter.
 
 :::
 
