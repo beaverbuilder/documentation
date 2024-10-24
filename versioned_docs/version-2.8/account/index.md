@@ -10,7 +10,13 @@ Beaver Builder’s [My Account](https://www.wpbeaverbuilder.com/my-account/) pag
 
 ## Create Account
 
-You can only create a Beaver Builder account by purchasing a Beaver Builder license. During the purchase process, you will need to provide your first and last name, as well as your email address. Once you have completed the Beaver Builder license purchase, a password will be sent to the email address you provided.
+To create a Beaver Builder account, you must first purchase a Beaver Builder license. During the purchase, you'll need to provide your first and last name, along with your email address. After completing the purchase, a password will be sent to the email address you provided.
+
+:::info
+
+If you have not received an email with your password, check your spam folder. If you still can't find it, you can reset your password by visiting the [password reset page](https://www.wpbeaverbuilder.com/my-account/lost-password/).
+
+:::
 
 ## Access My Account
 
@@ -27,13 +33,13 @@ By enabling the Prerelease Updates option in Beaver Builder settings, you can ea
 
 ### Domain Manager
 
-The Domain Manager provides a list of all domains that are using your license key as well as the products that are being used on those domains and their versions.
+The Domain Manager displays a comprehensive list of all domains utilizing your license key, along with detailed information on the products being used on each domain, including their versions.
 
 See the [Domain Manager](domain-manager.md) article for more information.
 
 ### My Subscriptions
 
-In the My Subscriptions section, you can view, upgrade, or cancel your subscription, and change your payment method. 
+In the My Subscriptions section, you can view, upgrade, or cancel your subscription, and change your payment method.
 
 See the [License](license/index.md) section and [Billing Info](billing-info.md) article for more information.
 

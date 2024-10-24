@@ -35,10 +35,8 @@ In the event that you forget your account password, you can reset your password 
 3. Click the **Lost your password?** link on the login form and enter the email address associated with your account.
 4. An email with instructions on how to reset your password should be sent to you.
 
-:::tip
-Check your junk or spam folder if you don't receive the email within 5 minutes.
-:::
-
 :::info
-Please [contact our support team](https://www.wpbeaverbuilder.com/beaver-builder-support/) if you cannot locate the reset password email in your inbox, spam, or junk folders.
+
+Check your junk or spam folder if you don't receive the email within 5 minutes. If you still don't receive the email, please [contact our support team](https://www.wpbeaverbuilder.com/beaver-builder-support/).
+
 :::

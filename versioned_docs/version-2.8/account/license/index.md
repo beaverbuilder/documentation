@@ -4,35 +4,51 @@ title: License
 sidebar_label: License
 ---
 
-This article explains precisely what Beaver Builder licenses do, how to find them, and how to activate them.
+The articles in this section explain what Beaver Builder licenses are, why you need one, how they work, and how to obtain one. They also detail the different types of Beaver Builder licenses, what each one offers, and how to manage and use your license keys effectively.
 
 ## What is a License?
 
-When you purchase a Beaver Builder premium license (Standard, Pro, Agency, or Ultimate), you receive a license key that is unique to your account. Your license is valid for one year and allows you access to support and all updates released during that time.
+Licenses are used to activate premium versions of Beaver Builder products on your website by connecting them to our update server. Activating your license on a site enables automatic updates and support for that domain.
 
-:::info
+## License Key
 
-License keys for Beaver Builder are specific to each product.
+After purchasing a Beaver Builder license, you will receive a unique license key that can be found in [your account page](https://www.wpbeaverbuilder.com/my-account) on the Beaver Builder website.
 
-For instance, if you buy Beaver Builder Standard, your license key will only work for the version you purchased. It cannot be used with other versions of Beaver Builder such as Ultimate, Agency, or Pro.
+:::danger
 
-For more details, please refer to the [Downgrade](downgrade.md) and [Upgrade](upgrade.md) articles.
+We recommend not sharing your license key with others. This may lead to unauthorized use of your license and may require the creation of a new license key. Please note that issuing a new license key is not an automated process, may take time, and will only be performed a limited number of times.
+
+When a license key is regenerated, the previous key becomes invalid. It is necessary to update the new key on all sites where the original key was previously utilized.
 
 :::
 
-## View License Key
+## License Length
 
-On the Beaver Builder [My Account page](../index.md), you can view the license key and all associated downloads in the Downloads section.
+All Beaver Builder licenses work on an annual subscription basis. After the first year, you can [renew your license](renew.md) to continue receiving updates and support. Your existing installations will continue to work even if you don't renew, but you won't receive new features or support.
 
-## Activate License Key
+:::info
 
-You will need to copy and paste the license key into Beaver Builder settings in order to activate the license and enable automatic updates.
+Lifetime licenses **are not** available for purchase. In order to continue receiving updates and support, you must renew your license annually. If you choose not to renew, you can still use the software, but you will not receive updates or support.
 
-1. Log into your Beaver Builder [My Account page](../index.md).
-2. Copy the license key to your clipboard by clicking it.
-3. Access your site's WordPress Admin Dashboard.
-4. Navigate to **Settings > Beaver Builder**.
-5. Click the **License** tab and paste your license key.
+See our [License Renewal](renew.md) article for more information on how to renew your license.
+
+:::
+
+## Benefits of a License?
+
+While there is a [free version of Beaver Builder](https://wordpress.org/plugins/beaver-builder-lite-version/) available, a premium license offers several benefits:
+
+1. Access to advanced features and modules.
+2. Premium templates and pre-built layouts.
+3. Access to dedicated support from the Beaver Builder team.
+4. Regular updates and improvements.
+5. Use on multiple websites (depending on the license tier).
+
+## Obtain a License
+
+A Beaver Builder license **can only** be obtained by purchasing one from the official Beaver Builder website. There are different license tiers available, each offering different features, support levels, and the number of sites where Beaver Builder products can be installed and used.
+
+Visit the [Beaver Builder pricing page](https://www.wpbeaverbuilder.com/pricing/) to view the available license options and choose the one that best suits your needs.
 
 ## In this Section
 

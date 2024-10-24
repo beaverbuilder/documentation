@@ -30,5 +30,5 @@ The **Themer Layouts** menu item only appears when you have the Beaver Themer in
    - Add New
 
 :::info
-The Agency and Ultimate licenses of Beaver Builder allows white labeling to display any other name you choose and a custom logo image. Therefore, the label (Beaver Builder) on the **WordPress Admin Dashboard > Beaver Builder** may be different.
+The Unlimited license of Beaver Builder allows white labeling to display any other name you choose and a custom logo image. Therefore, the label (Beaver Builder) on the **WordPress Admin Dashboard > Beaver Builder** may be different.
 :::
