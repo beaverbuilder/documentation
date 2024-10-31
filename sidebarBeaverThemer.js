@@ -50,9 +50,7 @@ module.exports = {
         {
           type: "category",
           label: "Footer layout type",
-          items: [
-            "layout-types-modules/footer-layout-type/themer-footer-layout-type",
-          ],
+          items: ["layout-types-modules/footer-layout-type/themer-footer-layout-type"],
         },
         {
           type: "category",
@@ -87,9 +85,7 @@ module.exports = {
         {
           type: "category",
           label: "404 layout type",
-          items: [
-            "layout-types-modules/404-layout-type/themer-404-layout-type",
-          ],
+          items: ["layout-types-modules/404-layout-type/themer-404-layout-type"],
         },
         {
           type: "category",
@@ -164,8 +160,8 @@ module.exports = {
           type: "category",
           label: "WooCommerce",
           link: {
-            type: "generated-index",
-            title: "WooCommerce",
+            type: "doc",
+            id: "integrations/woocommerce/index",
           },
           items: [
             "integrations/woocommerce/create-an-archive-themer-layout-for-woocommerce",

@@ -1,3 +1,75 @@
+# Broken links from wpbewaverbuilder.com
+[[redirects]]
+from = "http://docs.wpbeaverbuilder.com/general/faq"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+status = 301
+force = true
+[[redirects]]
+from = "http://docs.wpbeaverbuilder.com/general/faq/*"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+status = 301
+force = true
+[[redirects]]
+from = "http://docs.wpbeaverbuilder.com/beaver-builder/styles"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/about-this-release"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/introduction/about-release"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/typography/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/typography"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/styles/code/custom-css"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/basics/custom-code"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode/advanced/performance.md"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/shortcode"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/versions"
+to = "https://docs.wpbeaverbuilder.com/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/next/*"
+to = "https://docs.wpbeaverbuilder.com/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-basics-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcode-index-themer/"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/syntax"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/field-connection-shortcode-index-themer/"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/field-connections/syntax"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types-modules/"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types--modules/"
+status = 301
+force = true
+[[redirects]]
+from = "http://docs.wpbeaverbuilder.com/article/332-can-i-include-beaver-builder-as-part-of-a-premium-or-free-wordpress-theme"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq/#can-i-include-beaver-builder-as-part-of-a-premium-or-free-wordpress-theme"
+status = 301
+force = true
+
 # Redirects for 2.8 changes
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/dev-preview"
