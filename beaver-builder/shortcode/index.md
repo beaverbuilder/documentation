@@ -15,7 +15,7 @@ Any saved templates, rows, columns, or modules that are deleted and being used i
 
 :::caution
 
-Shortcodes used too frequently on the same page or post may affect performance. For more information, see our [Performance](advanced/performance.md) article.
+Shortcodes used too frequently on the same page or post may affect performance.
 
 :::
 
