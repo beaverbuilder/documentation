@@ -1,7 +1,6 @@
 module.exports = {
   title: "Beaver Builder Knowledge Base",
-  tagline:
-    "Frequently asked questions and support documentation for Beaver Builder products.",
+  tagline: "Frequently asked questions and support documentation for Beaver Builder products.",
   url: "https://docs.wpbeaverbuilder.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
@@ -43,7 +42,7 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '🎉 New <a href="https://app.assistant.pro/community" target="_blank" rel="noopener">Beaver Builder template marketplace!</a> Get started for FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
+        '🎉 25% Off All Beaver Builder Products! Hurry Sale Ends Soon... <a href="https://www.wpbeaverbuilder.com/holiday-sale/" target="_blank" rel="noopener">Learn more!</a>',
       backgroundColor: "#1b7497",
       textColor: "#ffffff",
       isCloseable: true,
