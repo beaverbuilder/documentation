@@ -1,5 +1,5 @@
 ---
-id: using-css-js
+id: using-css
 title: Using Shortcodes in CSS
 sidebar_label: Using Shortcodes in CSS
 ---
