@@ -21,16 +21,22 @@ following code. Replace KEY with your key from your [My Account](https://www.wpb
     }
   },
   "require": {
-    "beaver-builder/bb-plugin-pro": "*",
+    "beaver-builder/bb-plugin-starter": "*",
     "beaver-builder/bb-theme": "*",
     "beaver-builder/bb-theme-builder": "*"
   }
 }
 ```
 
+:::info
+
+Substitute `-starter` for your license type, for example `-professional` or `-unlimited`.
+
+:::
+
 Run `composer install` in CLI to install the latest versions of all three
 packages in their correct plugin and theme folders. To install specific
-versions, substitute the * in the JSON file with the version you require.
+versions, substitute the `*` in the JSON file with the version you require.
 
 ## Using a global config
 
@@ -45,19 +51,28 @@ composer config --global repositories.beaver-builder composer https://composer.w
 After the global config is added you can then install any version of any
 package with a single-line command. Here are a few examples:
 
-`composer require beaver-builder/bb-plugin-pro` installs the latest
-available Pro version of Beaver Builder. Substitute the following for your
-version of the plugin:
+- `composer require beaver-builder/bb-plugin-starter`
+  Installs the latest available Starter plan of Beaver Builder.
 
-* Standard version: `bb-plugin-standard`
-* Pro version: `bb-plugin-pro`
-* Agency version: `bb-plugin-agency`
+Substitute `starter` for your license type:
 
-`composer require beaver-builder/bb-plugin-pro:2.3.1` installs the Pro
-version 2.3.1 of Beaver Builder.
+- Starter license: `bb-plugin-starter`
+- Professional license: `bb-plugin-professional`
+- Unlimited license: `bb-plugin-unlimited`
 
-`composer require beaver-builder/bb-theme` will install the latest version of
-the Beaver Builder Theme.
+Legacy license types
 
-`composer require beaver-builder/bb-theme-builder` will install the latest
-version of Beaver Themer.
+- Standard license: `bb-plugin-standard`
+- Pro license: `bb-plugin-pro`
+- Agency license: `bb-plugin-agency`
+
+You can also install specific versions of Beaver Builder, BB Theme, or Beaver Themer specific versions:
+
+- `composer require beaver-builder/bb-plugin-starter:2.8.4.1`
+  Installs the Starter plan 2.8.4.1 version of Beaver Builder.
+
+- `composer require beaver-builder/bb-theme`
+  Installsthe latest version of the Beaver Builder Theme.
+
+- `composer require beaver-builder/bb-theme-builder`
+  Ininstall the latest version of Beaver Themer.
