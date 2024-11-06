@@ -64,8 +64,8 @@ Legacy license types
 
 You can also install specific versions of Beaver Builder, BB Theme, or Beaver Themer specific versions:
 
-- `composer require beaver-builder/bb-plugin-pro:2.3.1`  
-  Installs the Pro version 2.3.1 of Beaver Builder.
+- `composer require beaver-builder/bb-plugin-starter:2.8.4.1`  
+  Installs the Starter plan 2.8.4.1 version of Beaver Builder.
 
 - `composer require beaver-builder/bb-theme`  
   Installsthe latest version of the Beaver Builder Theme.
