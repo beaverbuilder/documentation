@@ -33,8 +33,8 @@ By using persistent storage, the Outline Panel keeps track of what sections have
 
 Using the Outline Panel's keyboard shortcuts, you can open and close the Outline Panel as well as expand and collapse the tree view.
 
-* **Toggle Outline Panel** - <kbd>Shift</kbd> & <kbd>O</kbd>
-* **Expand or Collapse the Tree View** - <kbd>Shift</kbd> & <kbd>T</kbd>
+- **Toggle Outline Panel** - <kbd>Shift</kbd> & <kbd>O</kbd>
+- **Expand or Collapse the Tree View** - <kbd>Shift</kbd> & <kbd>T</kbd>
 
 ## Navigate
 
@@ -48,8 +48,8 @@ You can quickly move content such as rows, columns (except for child columns), a
 
 Right-click any row, column, or module to see a list of available options. This action will also result in a blue outline appearing around the selected item within the builder.
 
-* Rows and Columns have **Open settings** and **Remove** options.
-* Modules have **Open settings**, **Duplicate**, and **Remove** options.
+- Rows and Columns have **Open settings** and **Remove** options.
+- Modules have **Open settings**, **Duplicate**, and **Remove** options.
 
 ![Right-Click Outline Panel](/img/beaver-builder/user-interface--outline-panel--2.jpg)
 
@@ -63,8 +63,12 @@ To help identify the purpose of a row, column, or module in the Outline Panel tr
 
 In the Outline Panel, icons will appear when the display visibility settings for a row, column, or module have been modified or when custom CSS or JavaScript has been added to them using the CSS or JavaScript sections in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
 
-* The <i className="fa-solid fa-eye"></i> Eye icon indicates that the display visibility settings for that row, column, or module have been changed from the default state, which is "Always."
+- The <i className="fa-solid fa-eye" style={{color: '#00a0d1'}} /> Blue Eye icon indicates a row, column, or module visibility display state is no longer using the default state of "Always".
 
-* The <i className="fa-solid fa-code"></i> Code icon indicates that custom CSS or JavaScript has been added to the row, column, or module through the CSS or JavaScript sections found in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
+- The <i className="fa-solid fa-eye" style={{color: '#ff0404'}} /> Red Eye icon indicates a row, column, or module visibility display state is now using the Conditional Logic option which is available when you have Beaver Themer installed.
+
+- The <i class="fa-regular fa-triangle-exclamation" style={{color: '#af7406'}} /> Exclamation icon indicates that a module is missing from the layout. This can happen when a module has been disabled or in the case of a third-party module, the plugin providing the module has been deactivated or uninstalled.
+
+- The <i className="fa-solid fa-code" style={{color: '#00a0d1'}} /> Code icon indicates that custom CSS or JavaScript has been added to that specific row, column, or module through the CSS or JavaScript sections found in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
 
 ![Right-Click Outline Panel](/img/beaver-builder/user-interface--outline-panel--4.jpg)
