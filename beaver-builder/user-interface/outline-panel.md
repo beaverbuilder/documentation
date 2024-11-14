@@ -55,7 +55,15 @@ Right-click any row, column, or module to see a list of available options. This 
 
 ## Labels
 
-To help identify the purpose of a row, column, or module in the Outline Panel tree view, you can add a [label through the Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md#label). The screenshot below shows an example where a label "Hero Heading" was added to a Heading module and is displayed in the Outline Panel.
+To help identify the purpose of a row, column, or module in the Outline Panel tree view, you can add a label. You can add a label in two ways:
+
+### Adding a Label Inline
+
+You can add a label inline by opening the Outline Panel, moving your mouse cursor to the **"type a label"** field, and typing your label. When you're done typing, either click the <i className="fa-solid fa-check" /> checkmark icon or press the <kbd>Enter</kbd> key to save your label.
+
+### Adding a Label Through the Advanced Tab
+
+YOu can also add a label through the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md#label). The screenshot below shows an example where a label "Hero Heading" was added to a Heading module and is displayed in the Outline Panel.
 
 ![Labels displayed in Outline panel](/img/beaver-builder/user-interface--outline-panel--3.jpg)
 
