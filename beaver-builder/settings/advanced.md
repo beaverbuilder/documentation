@@ -5,6 +5,9 @@ sidebar_label: Advanced Settings
 description: The Advanced tab in the Beaver Builder settings is where you can enable and disable settings.
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 The Advanced tab within Beaver Builder's settings provides options to enable or disable settings that typically require custom coding to achieve specific outcomes.
 
 ## Access Advanced
@@ -202,3 +205,30 @@ Enable or disable rendering of Beaver Builder assets inline. When enabled, inste
 This can be a solution to some rare caching issues, but in most cases you don’t need this enabled.
 
 :x: Disabled by default.
+
+### Force Module Wrapper Divs
+
+Enable or disable the rendering of module wrapper divs. When enabled, this setting forces modules to render their legacy wrapper divs, even if those divs have been removed from the module's markup.
+
+<Tabs>
+  <TabItem value="no-wrapper" label="No Wrapper (Default)">
+
+```markup
+<h2 class="fl-module fl-module-heading fl-heading">Hello World</h2>
+```
+
+  </TabItem>
+  <TabItem value="wrapper" label="Wrappers Enabled">
+
+```markup
+<div class="fl-module fl-module-heading">
+  <div class="fl-module-content fl-node-content">
+    <h2 class="fl-heading">
+      <span class="fl-heading-text">Hello World</span>
+    </h2>
+  </div>
+</div>
+```
+
+  </TabItem>
+</Tabs>
