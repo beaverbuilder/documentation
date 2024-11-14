@@ -182,6 +182,12 @@ Enable or disable Google Fonts. When disabled, Google Fonts will **not** be enqu
 
 :white_check_mark: Enabled by default.
 
+### Google Fonts Auto Update
+
+Enable or disable Google Fonts auto update.
+
+:white_check_mark: Enabled by default.
+
 ### Font Awesome
 
 Enable or disable Font Awesome. When disabled, Font Awesome will **not** be enqueued, even if modules require it.
