@@ -47,7 +47,7 @@ On [WordPress Multisite](https://wordpress.org/support/article/create-a-network/
 
 Beaver Builder has a built-in cache clearing tool that automatically clears caches created by popular cache plugins and services.
 
-- [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
+- [Advanced Custom Fields](https://www.advancedcustomfields.com/)
 - [AutoOptimize](https://wordpress.org/plugins/autoptimize/)
 - [Breeze](https://wordpress.org/plugins/breeze/)
 - [Cache Enabler](https://wordpress.org/plugins/cache-enabler/)
