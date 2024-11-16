@@ -105,6 +105,7 @@ module.exports = {
         "settings/welcome",
         "settings/license",
         "settings/modules",
+        "settings/blocks",
         "settings/post-types",
         "settings/templates",
         "settings/user-access",
@@ -128,7 +129,9 @@ module.exports = {
       },
       items: [
         "basics/typography",
+        "basics/multiple-backgrounds",
         "basics/color-picker",
+        "basics/color-picker-legacy",
         "basics/border",
         "basics/inline-editing",
         "basics/undo-redo",
@@ -223,7 +226,10 @@ module.exports = {
                     type: "doc",
                     id: "layouts/modules/accordion/settings/index",
                   },
-                  items: ["layouts/modules/accordion/settings/items", "layouts/modules/accordion/settings/style"],
+                  items: [
+                    "layouts/modules/accordion/settings/items",
+                    "layouts/modules/accordion/settings/style",
+                  ],
                 },
                 "layouts/modules/accordion/link-specific-item",
                 "layouts/modules/accordion/css-customization",
@@ -246,7 +252,10 @@ module.exports = {
                     type: "doc",
                     id: "layouts/modules/box/settings/index",
                   },
-                  items: ["layouts/modules/box/settings/container", "layouts/modules/box/settings/children"],
+                  items: [
+                    "layouts/modules/box/settings/container",
+                    "layouts/modules/box/settings/children",
+                  ],
                 },
                 // 'layouts/modules/box/using-align-options',
               ],
@@ -254,7 +263,10 @@ module.exports = {
             {
               type: "category",
               label: "Button",
-              items: ["layouts/modules/button/button", "layouts/modules/button/make-a-button-transparent"],
+              items: [
+                "layouts/modules/button/button",
+                "layouts/modules/button/make-a-button-transparent",
+              ],
             },
             "layouts/modules/button-group",
             "layouts/modules/callout-and-call-to-action",
@@ -281,12 +293,35 @@ module.exports = {
             "layouts/modules/icon-and-icon-group",
             "layouts/modules/list",
             "layouts/modules/login-form",
+            {
+              type: "category",
+              label: "Loop",
+              link: {
+                type: "doc",
+                id: "layouts/modules/loop/index",
+              },
+              items: [
+                {
+                  type: "category",
+                  label: "Settings",
+                  link: {
+                    type: "doc",
+                    id: "layouts/modules/loop/settings/index",
+                  },
+                  items: ["layouts/modules/loop/settings/container"],
+                },
+              ],
+            },
             "layouts/modules/map",
             {
               type: "category",
               label: "Menu",
-              items: ["layouts/modules/menu/menu", "layouts/modules/menu/add-a-menu-item-that-links-to-a-page-section"],
+              items: [
+                "layouts/modules/menu/menu",
+                "layouts/modules/menu/add-a-menu-item-that-links-to-a-page-section",
+              ],
             },
+            "layouts/modules/module-blocks",
             "layouts/modules/number-counter",
             "layouts/modules/north-commerce",
             {
@@ -313,7 +348,10 @@ module.exports = {
             {
               type: "category",
               label: "Search",
-              items: ["layouts/modules/search/search", "layouts/modules/search/limit-post-types-search-module"],
+              items: [
+                "layouts/modules/search/search",
+                "layouts/modules/search/limit-post-types-search-module",
+              ],
             },
             "layouts/modules/separator",
             "layouts/modules/sidebar",
@@ -343,7 +381,10 @@ module.exports = {
                     type: "doc",
                     id: "layouts/modules/tabs/settings/index",
                   },
-                  items: ["layouts/modules/tabs/settings/items", "layouts/modules/tabs/settings/style"],
+                  items: [
+                    "layouts/modules/tabs/settings/items",
+                    "layouts/modules/tabs/settings/style",
+                  ],
                 },
                 "layouts/modules/tabs/link-specific-item",
               ],
@@ -353,7 +394,10 @@ module.exports = {
             {
               type: "category",
               label: "Video",
-              items: ["layouts/modules/video/video", "layouts/modules/video/open-a-video-in-a-lightbox"],
+              items: [
+                "layouts/modules/video/video",
+                "layouts/modules/video/open-a-video-in-a-lightbox",
+              ],
             },
             "layouts/modules/woocommerce",
             "layouts/modules/wordpress-patterns",
