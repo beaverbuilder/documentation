@@ -13,7 +13,7 @@ know if the developer made them compatible with Beaver Builder.
 
 See [how to troubleshoot possible plugin conflicts](/beaver-builder/troubleshooting/debugging/plugin-conflicts.md).
 
-### [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) (Extra Widget Fields only)
+### [Advanced Custom Fields](https://www.advancedcustomfields.com/) (Extra Widget Fields only)
 
 Any additional fields added to widgets using ACF will not show up in the
 Beaver Builder interface.
