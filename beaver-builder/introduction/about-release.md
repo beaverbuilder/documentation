@@ -17,7 +17,7 @@ Saving layers for re-use.
 
 ### Brand New Color/Gradient Pickers
 
-Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  You can select Global Colors in the color picker.
+Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  In most cases, you can also select any Global Colors you've created in the color picker but it is not yet available on some fields (Typography, Border, Box Shadow, Text Shadow and other similar complex fields).
 
 We've also built a new gradient picker that allows you to create gradients with an unlimited number of color stops and blend between them through different color spaces.
 
@@ -25,13 +25,11 @@ We've also built a new gradient picker that allows you to create gradients with 
 
 It is available in all color fields except:
   - Global Colors
-  - Border field
-  - Box Shadow field
-  - Gradient field
+  - Pricing Table features
 
 #### What's Still To Come
 
-Eventually all color fields will be supported.  While colors can be saved now for re-use, we still have to hook up field connections.
+Eventually all color fields will be supported.  While colors can be saved now for re-use, we also still have to hook up field connections.
 
 In the future, you'll be able to switch to a color space that suits you and access an even wider spectrum of colors!
 
@@ -88,7 +86,6 @@ The Google Font list should be current.  Previously, the list would only be upda
 
 We are committed to accessibility.  Added are several enhancements:
  
-- Menu Module: Separated menu item and sub-menu icon
 - Accordion: Select HTML tag for Label
 - Tabs Module: Add focus missing on selected tab
 - Various improvements for the magnific pop-up script used
