@@ -17,7 +17,7 @@ Saving layers for re-use.
 
 ### Brand New Color/Gradient Pickers
 
-Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  In most cases, you can also select any Global Colors you've created in the color picker but it is not yet available on some fields (Typography, Border, Box Shadow, Text Shadow and other similar complex fields).
+Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  In most cases, you can also select any Global Colors you've created in the color picker but it is not yet available on some fields (Border, Box Shadow, Text Shadow and other similar complex fields).
 
 We've also built a new gradient picker that allows you to create gradients with an unlimited number of color stops and blend between them through different color spaces.
 
