@@ -12,28 +12,14 @@ toc_max_heading_level: 2
 
 A new background field that lets you layer different types of backgrounds on an element.  You will see this in the Box Module, Rows and Columns.
 
-#### What's Still To Come
-Saving layers for re-use.
+#### What's Still To Come in Future Versions
+The ability to save layers for re-use.
 
 ### Brand New Color/Gradient Pickers
 
 Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  You can select Global Colors in the color picker.
 
 We've also built a new gradient picker that allows you to create gradients with an unlimited number of color stops and blend between them through different color spaces.
-
-#### Limitations
-
-It is available in all color fields except:
-  - Global Colors
-  - Border field
-  - Box Shadow field
-  - Gradient field
-
-#### What's Still To Come
-
-Eventually all color fields will be supported.  While colors can be saved now for re-use, we still have to hook up field connections.
-
-In the future, you'll be able to switch to a color space that suits you and access an even wider spectrum of colors!
 
 ### Modules as Blocks
 
@@ -66,7 +52,7 @@ The current list of supported modules is below but expect this list to grow in t
 
 ### Modules without Wrappers
 
-As part of our continued effort to reduce the markup output by Beaver Builder, all of the _Basic_ modules have been reworked to exclude their wrapper divs. To ensure backwards compatibility, wrappers will still render for existing modules on layouts, but anything new dropped on the page will exclude them.
+As part of our continued effort to reduce the markup output by Beaver Builder, all of the _Basic_ modules have been reworked to exclude their wrapper divs. To ensure backwards compatibility, wrappers will still render for existing modules on layouts, but anything new dropped on the page will exclude them.  There is a toggle in the Advanced options in the WP Admin to disable this and force module wrappers.
 
 ### Container Modules as Top Level Containers
 
@@ -74,7 +60,7 @@ In Beaver Builder 2.8, we introduced a new Container Module, the _Box_ Module. H
 
 ### Outline Panel Improvements
 
-There is now a search/filter option and Node labels can be added and edited inline.
+There is now a search/filter option and Node labels can be added and edited inline. Additionally, when the content panel is pinned right, the Outline Panel panel and the content panel are merged so you can still access the content panel tabs to add content instead of switching back and forth.
 
 ### Subscribe Module
 
@@ -83,6 +69,9 @@ Support was added for Active Campaign tags.
 ### Google Fonts
 
 The Google Font list should be current.  Previously, the list would only be updated at the time of release.  The list will now be updated each time WordPress checks to update the plugin.
+
+### Rows
+The fixed width option is now responsive.
 
 ### Accessibility Improvements
 
@@ -96,4 +85,7 @@ We are committed to accessibility.  Added are several enhancements:
 ### Performance
 
 Always looking at ways to improve performance, we've optimized some queries relating to Themer and debug mode.
+
+### Developer
+A new filter was added to disable minification `fl_builder_minify`
   
