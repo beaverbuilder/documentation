@@ -549,6 +549,15 @@ The post type slug, such as post or page.
   'default'       => 'post'
 ),
 ```
+You can also make a post type field that has the ability to select multiple values by setting the multi-select config value to true as shown below. If that is set, this field will return an array of selected values.
+```php
+'my_post_type_field' => array(
+  'type'          => 'post-type',
+  'label'         => __('Post Type', 'fl-builder'),
+  'default'       => 'post',
+  'multi-select'  => true
+),
+```
 
 ### Raw HTML field
 
