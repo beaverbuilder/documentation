@@ -13,7 +13,7 @@ toc_max_heading_level: 2
 A new background field that lets you layer different types of backgrounds on an element.  You will see this in the Box Module, Rows and Columns.
 
 #### What's Still To Come in Future Versions
-The ability to save layers for re-use.
+The ability to save layers for re-use and selecting Global Colors in the background field.
 
 ### Brand New Color/Gradient Pickers
 
@@ -77,7 +77,6 @@ The fixed width option is now responsive.
 
 We are committed to accessibility.  Added are several enhancements:
  
-- Menu Module: Separated menu item and sub-menu icon
 - Accordion: Select HTML tag for Label
 - Tabs Module: Add focus missing on selected tab
 - Various improvements for the magnific pop-up script used
