@@ -129,9 +129,8 @@ module.exports = {
       },
       items: [
         "basics/typography",
-        "basics/multiple-backgrounds",
+        "basics/multi-layer-backgrounds",
         "basics/color-picker",
-        "basics/color-picker-legacy",
         "basics/border",
         "basics/inline-editing",
         "basics/undo-redo",
