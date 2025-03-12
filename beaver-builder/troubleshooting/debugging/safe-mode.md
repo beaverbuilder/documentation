@@ -39,7 +39,7 @@ https://my-website.com/?fl_builder&fl_builder_ui&safemode
 
 ## `[fl-safe]` shortcode
 
-The [fl-safe] shortcode enables you to include code that might conflict with Beaver Builder or disrupt its user interface (UI). When the Beaver Builder editor is active on a page or post, any code wrapped within the [fl-safe] shortcode will not render. Once published, the page is automatically refreshed.
+The `[fl-safe]` shortcode enables you to include code that might conflict with Beaver Builder or disrupt its user interface (UI). When the Beaver Builder editor is active on a page or post, any code wrapped within the [fl-safe] shortcode will not render. Once published, the page is automatically refreshed.
 
 :::caution
 
