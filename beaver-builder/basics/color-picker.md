@@ -112,8 +112,13 @@ The Eyedropper tool uses the Eyedropper API, which is currently only supported i
 
 Version 2.9 of Beaver Builder introduces a redesigned color picker, offering users greater flexibility, precision, and ease of use when working with colors. This update includes several new features, such as support for multiple color spaces.
 
+:::info
+
 The information below pertains to the legacy color picker, for users who are still using Beaver Builder version 2.8 or earlier.
 
+We recommend upgrading to version 2.9 for improved color picker functionality.
+
+:::
 ![Beaver Builder color picker](/img/beaver-builder/basics--color-picker--1.jpg)
 
 <details><summary>Legacy Color Picker Features</summary>
