@@ -1,90 +1,59 @@
 ---
 id: index
 title: Loop Module
-sidebar_label: Box
+sidebar_label: Loop
 tags:
-  - 2.8
-  - flexbox
-  - css grid
+  - 2.9
+  - loop
   - layout
+  - posts
+  - beaver themer
 ---
 
-The Box Module allows users to add Flexbox and CSS Grid layouts to Beaver Builder Page Builder Layouts.
+The Loop module is a powerful container module that enables you to build custom layouts for queried content using modules, without needing to write any custom HTML or CSS. You can freely position these modules and assign field connections to dynamically pull in the relevant data, ensuring accurate content for each item within the loop.
 
-![Box Module](/img/beaver-builder/modules--loop--index--1.jpg)
+:::caution
 
-:::info
-
-While we’ve aimed to make the Box module as user-friendly as possible, having a solid grasp of [Flexbox](https://www.w3schools.com/csS/css3_flexbox.asp) and [CSS Grid](https://www.w3schools.com/csS/css_grid.asp) is strongly recommended.
+The Loop module requires Beaver Builder version 2.9 or later and Beaver Themer version 1.5 or later.
 
 :::
-
-## Requirements
-
-The Box module requires WordPress 5.2 or later; otherwise, it won't appear in the Beaver Builder user interface (UI) due to its dependence on JavaScript code from WordPress Blocks.
 
 ## Usage
 
-The Box module operates similarly to a row or column, acting as a versatile container. It utilizes either flexbox or CSS grid, enabling the creation of intricate, fluid, and adaptable layouts. Boxes can be nested, stacked, and organized in both horizontal and vertical orientations, as well as within a grid system.
+You can use the Loop module to create custom layouts for various types of content—not only posts or custom post types. Here are just a few examples of how you can leverage the Loop module to showcase your content:
 
-Flexbox and CSS Grid are distinct CSS layout models, each offering its own strengths and purposes:
+- **WooCommerce Categories or Tags** – Use the Taxonomies query source to dynamically display WooCommerce product categories or tags on individual product pages.
+- **Custom Content Grid** – Utilize the Advanced Custom Field's Repeater query source to dynamically present custom content, such as team members on a dedicated team page.
+- **Related Posts** – Use the Advanced Custom Field's Relationship query source to dynamically feature related posts on single post pages.
 
-- **Flexbox** excels in one-dimensional layouts, perfect for arranging items in rows or columns with flexibility in sizing and alignment.
-- **CSS Grid**, on the other hand, is tailored for two-dimensional layouts, providing precise control over rows and columns, facilitating more elaborate designs.
+## Building a Loop
 
-These layout models often complement each other. For example, flexbox can be utilized within individual grid items to manage their internal structure, capitalizing on the combined benefits of both models for comprehensive layout solutions.
+When you first add a Loop module to your page, you will be presented with a variety of preset layouts to choose from: List, Columns, Categories, and Product Categories. These layouts are designed to help you quickly create visually appealing content displays without having to manually configure each module within the loop.
 
-### Usage Examples
+![Loop module ready-made layouts](/img/beaver-builder/modules--loop--index--1.jpg)
 
-The Box module can be used to create a wide variety of layouts. Here are just a few examples:
+Using a preset layout, you can customize the loop settings according to your preferences and refine the layout by rearranging existing modules, removing those you don’t need, or adding new modules of your choice.
 
-- Effortlessly center content both vertically and horizontally.
-- Nest boxes within boxes to create intricate layouts.
-- Create a responsive grid of boxes that wraps automatically without utilizing the Responsive Toggle.
-- Design complex grid-based layouts for overall page structure.
-- Create a card layout by using the Link option in the Box module.
-- Reduce the amount of HTML markup in the DOM which can improve page load times and SEO.
-- Stack modules on top of each other without the need for custom CSS.
+Alternatively, you can build a loop from scratch by selecting the Blank layout. Once chosen, you’ll be presented with a blank canvas to create your custom loop layout. To get started, follow these steps:
 
-## Add a Box Module
+1. Add the Loop module to your page or post.
+2. Choose the Blank layout.
+3. Customize the loop settings according to your preferences.
+4. Add modules to the loop container and use field connections to display the dynamic content.
+5. Refine the loop layout by arranging your modules in a way that suits your design needs.
 
-To add a Box module to your layout:
+You can enhance your layout further by integrating a Box module within the Loop to act as a container for your content modules. This setup allows you to take advantage of the Box module’s advanced layout options—such as CSS Grid or Flexbox—providing precise control over the structure and presentation of your loop content.
 
-1. Launch Beaver Builder on the page where you want to add the Box module.
-2. Click the **+** icon to open the Content Panel.
-3. Access the modules library by clicking the **Modules** tab.
-4. Scroll down to the **Box** module and drag it to the desired location on the page.
+## Loop Module vs Posts Module
 
-:::info
+Both the Loop and Posts modules enable you to display content from various sources, such as posts and custom post types, but they serve different purposes and offer varying levels of customization.
 
-Note that the Box module should be placed inside a row. If you try to drag the Box module onto the page without first placing it inside a row, a row will be automatically created for you.
+|                            | **Loop Module**                                                                                                                                                                                          | **Posts Module**                                                                                                                                                                               |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Content Sources**        | - Posts, custom post types, taxonomies (categories, tags, WooCommerce product categories) <br /> - Advanced Custom Fields repeater or relationship field types                                           | - Posts and custom post types <br /> - Advanced Custom Fields relationship field type                                                                                                          |
+| **Customization & Layout** | - Build layouts using individual modules for each piece of content <br /> - Extensive customization without needing HTML or CSS <br /> - Capable of creating complex layouts (e.g., with the Box module) | - Provides ready-made layouts with options to select displayed content <br /> - Additional customization is possible, but advanced adjustments require custom HTML, CSS, and field connections |
 
-:::
-
-### Nest Boxes
-
-To nest boxes within boxes, simply drag a Box module into another Box module. This makes it easy to create intricate layouts. Moreover, you can seamlessly combine both flexbox and CSS grid to design sophisticated layouts.
-
-## Module Aliases
-
-The Box modules comes with several Modules Aliases that can be used to create common layouts. They are included for convenience and to help users get started with the Box module.
-
-- **Flex Columns:**
-  Utilizes flexbox to arrange three boxes horizontally within the parent container.
-
-- **3×2 Grid:**
-  Establishes a layout with three rows and two columns using grid boxes inside the parent container.
-
-- **4×2 Grid:**
-  Defines a grid structure with four rows and two columns of grid boxes within the parent container.
-
-- **Split Header:**
-  Features a grid layout with three columns, creating a distinct header structure.
-
-- **Photo Grid:**
-  Constructs a layout consisting of a 4×3 grid incorporating photo modules within the parent container.
-
-![Box Module Aliases](/img/beaver-builder/modules--box--2.jpg)
+Choose the Loop module when you need maximum flexibility and complete control over your design. Opt for the Posts module if you prefer a streamlined, out-of-the-box solution with some additional customization options.
 
 ## In this Section
 

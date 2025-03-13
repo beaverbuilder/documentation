@@ -299,17 +299,7 @@ module.exports = {
                 type: "doc",
                 id: "layouts/modules/loop/index",
               },
-              items: [
-                {
-                  type: "category",
-                  label: "Settings",
-                  link: {
-                    type: "doc",
-                    id: "layouts/modules/loop/settings/index",
-                  },
-                  items: ["layouts/modules/loop/settings/container"],
-                },
-              ],
+              items: ["layouts/modules/loop/settings"],
             },
             "layouts/modules/map",
             {
