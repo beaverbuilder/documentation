@@ -174,17 +174,24 @@ Any [Custom Image Sizes](advanced/custom-image-sizes.md) added also become avail
 Available for all layouts except Gallery.
 :::
 
+### Equal Height Images
+
+Choose whether all featured images should have the same height. You can select from the following options:
+
+- **Disabled:** Featured images will display at their natural height.
+- **Fixed Height:** All featured images will have a consistent, fixed height.
+- **Aspect Ratio:** All featured images will maintain the same aspect ratio.
+
+When selecting **Fixed Height** or **Aspect Ratio**, the CSS property `object-fit` will be set to `cover` to maintain each image's aspect ratio.
+
 ### Image Spacing
 
 Adds padding to the around the image. Where the spacing occurs depends on the Image position setting.
 
-- **Above Title** - The number of pixels above, left, and right of the image.
-
-- **Above Content** - The number of pixels left and right of the image.
-
-- **Left or Left Content** _(List only)_ - Spacing between the image and the text to the right.
-
-- **Right or Right Content** _(List only)_ - Spacing between the image and the text to the left.
+- **Above Title**: The number of pixels above, left, and right of the image.
+- **Above Content**: The number of pixels left and right of the image.
+- **Left or Left Content** _(List only)_: Spacing between the image and the text to the right.
+- **Right or Right Content** _(List only)_: Spacing between the image and the text to the left.
 
 ### Image width
 
@@ -253,7 +260,6 @@ Show or hide post content. If set to **Yes**, the post excerpt is displayed, wit
 ### Content Type
 
 - **Excerpt** - Show the post excerpt.
-
 - **Full Text** - Show the full content of each post.
   If **Full Text** is selected, the **Content Length** option is no longer available.
 
@@ -289,19 +295,14 @@ The WooCommerce options appear in the [Layout tab](#layout-tab) when WooCommerce
 
 - **Product Ordering**
   Show or hide product ordering and product results information (Showing 1–16 of 22 results).
-
 - **Sale**
   Show or hide the On Sale label.
-
 - **Rating**
   Show or hide the product rating.
-
 - **Price**
   Show or hide the product price.
-
 - **Cart**
   Show or hide the add to cart button.
-
 - **Show Hidden Products**
   Show or hide [hidden products](https://woocommerce.com/document/managing-products/#setting-catalog-visibility-options-and-feature-status).
 
@@ -311,22 +312,16 @@ The Events Calendar options appear in the [Layout tab](#layout-tab) when the Eve
 
 - **Event Date**
   Show or hide the event date.
-
 - **Event Venue**
   Show or hide the event venue.
-
 - **Event Address**
   Show or hide the event address.
-
 - **Event Cost**
   Show or hide the event cost.
-
 - **Events Order By**
   The choices are: Default, Start Date, and End Date. Selecting **Default** uses the sorting option via the [Content tab](#content-tab).
-
 - **Events Order**
   Choose between descending or ascending.
-
 - **Show Events**
   The choices are: Future Events, Past Events, Todays Events, All Events, and [Featured Events](https://theeventscalendar.com/knowledgebase/k/featured-events/).
 
@@ -402,25 +397,18 @@ The following styling options are available for the [Gallery layout](#layout) on
 
 - **Hover transition**
   The type of transition when a user mouses over a post in the display: fade, slide up or down, scale up or down.
-
 - **Overlay Text Color**
   The color of text overlaid on the featured image.
-
 - **Overlay Background Color**
   The color of the overlay placed on the featured image. This setting is generally used to make the overlay text color more legible. Opacity is set in the color picker.
-
 - **Use Icon for Posts**
   Choose **Yes** to display an icon on the line above or below the text.
-
 - **Post Icon**
   Select the icon you want to display.
-
 - **Post Icon Position**
   Above or below the text.
-
 - **Post Icon Color**
   Set the Icon color.
-
 - **Post Icon Size**
   Icon size in pixels.
 
@@ -430,22 +418,16 @@ The WooCommerce options appear in the [Style tab](#style-tab) when WooCommerce i
 
 - **Product Sale Background**
   Set the Sale background color.
-
 - **Product Sale Text Color**
   Set the Sale text color.
-
 - **Product Rating Foreground**
   Set the product rating foreground color.
-
 - **Product Rating Background**
   Set the product rating background color.
-
 - **Product Rating Font Size**
   Set the product rating font size.
-
 - **Product Price Text Color**
   Set the product price color.
-
 - **Product Price Font Size**
   Set the product price font size.
 
@@ -453,13 +435,10 @@ The WooCommerce options appear in the [Style tab](#style-tab) when WooCommerce i
 
 - **Background Color**
   Set the background color for the add to cart button.
-
 - **Text Color**
   Set the text color for the add to cart button.
-
 - **Hover Background Color**
   Set the background hover color for the add to cart button.
-
 - **Hover Text Color**
   Set the text hover color for the add to cart button.
 
@@ -552,13 +531,9 @@ Start typing a word, and the filter options will display any title that matches 
 :::
 
 - **Post** - Include or exclude a post or multiple posts, by typing the post title(s).
-
 - **Page** - Include or exclude a page or multiple pages, by typing the page title(s)
-
 - **Custom Post Type** - Include or exclude a set of posts from the custom post type, by the custom post type title(s).
-
 - **Categories** - Include or exclude posts assigned to a specific category.
-
 - **Custom Taxonomies** - Include or exclude custom post types assigned to custom taxonomies. For example, if WooCommerce is installed, the Product Categories and Product Tag taxonomies are available.
 
   :::info
@@ -566,7 +541,6 @@ Start typing a word, and the filter options will display any title that matches 
   :::
 
 - **Tags** - Include or exclude posts assigned to a specific tag.
-
 - **Authors** - Include or exclude posts or pages by specific authors.
 
 ### Custom Field Filter
@@ -581,13 +555,10 @@ The Relation option allows you to apply logic to filter by custom fields. The ru
 
 - **Label**
   Labels are used to identify custom fields. They appear in the Custom Field Filter section.
-
 - **Meta Key**
   Custom field key or field name.
-
 - **Meta Value**
   Custom field value.
-
 - **Type**
   A list of all available field types supported. Choose between:
 
@@ -621,10 +592,8 @@ The **Pagination** tab has settings that let you divide a large collection of po
 
 - **Numbers**
   The pagination appears as numbers under the posts, and when a different number is clicked, a new page loads with the new set of posts.
-
 - **Scroll**
   A new set of posts are loaded into subsequent rows on the same page as the user scrolls down.
-
 - **Load More Button**
   The Load More Button appears under the initial set of posts, and when clicked it generates the next set of posts. The user must keep clicking to get each next set of posts. This setting works better than Scroll when you want your users to have more control over the display, or when network bandwidth is low and you don't want to use resources loading more sets of posts unless the user really wants to see them.
 
@@ -665,47 +634,32 @@ This section appears when [Pagination Style](#pagination-style) is set to **Load
 
 - **Button Text**
   The text that appears on the Load More Button.
-
 - **Button Icon**
   Optional icon to appear on the button. If you select an icon, there are two additional fields:
-
   - **Icon position**: Before or after the button text.
   - **Icon visibility**: The icon can be always visible or appear on hover only.
-
 - **Button Width**
-
   - **Auto Width**: Width adjusts to fit the text and icon.
   - **Full Width**: The width expands to the content area minus the module's margin settings.
-
 - **Button Padding**
   Set a specific padding value in pixels. Click the Link Value icon to automatically make all four padding values the same.
-
 - **Button Text Color**
   Set the button text color in the resting state.
-
 - **Button Text Hover Color**
   Set the button color on hover. If this setting is left blank, the Text color setting applies for hover also.
-
 - **Button Typography**
   See the [Typography](basics/typography.md) article for more information.
-
 - **Button Background Color**
   Set the fill color for the button in the resting state.
-
 - **Button Background Hover Color**
   Set the button's fill color on hover. If this setting is left blank, the Background Color setting applies to hover also.
-
 - **Button Background Style**
-
   - **Flat**: consistent fill color
   - **Gradient**: gradient of the background color, lighter on top and darker on the bottom.
-
 - **Button Background Animation**
   Disabled by default. If set to Enabled, there's a 0.2-second linear transition from resting state to hover state.
-
 - **Button Border**
   See the Border article for more information.
-
 - **Button Border Hover Color**
   Set the border hover color for the button.
 
