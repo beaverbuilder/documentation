@@ -90,7 +90,7 @@ Due to the shortcode not accepting attributes, outputting specific Repeater row 
 
 ## `repeater_index`
 
-The `repeater_index` shortcode allows you to output the current row index number of the repeater field.
+The `repeater_index` shortcode allows you to output the current row index number.
 
 ```markup
 [wpbb post:acf type='repeater_index']
