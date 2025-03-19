@@ -6,6 +6,8 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
+Beaver Builder 2.9 includes the following new features and improvements.
+
 ## :rocket: New Features
 
 The following features have been added:
