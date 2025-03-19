@@ -31,7 +31,7 @@ A selection of our modules will be available as Blocks for the Block Editor. Thi
 See the articles below for more information:
 
 - [Blocks Tab Settings](settings/blocks.md)
-- [Using Module Blocks](modules/blocks.md)
+- [Using Module Blocks](layouts/modules/module-blocks.md)
 
 ## :boom: Improvements
 
