@@ -42,7 +42,13 @@ Alternatively, you can build a loop from scratch by selecting the Blank layout. 
 4. Add modules to the loop container and use field connections to display the dynamic content.
 5. Refine the loop layout by arranging your modules in a way that suits your design needs.
 
-You can enhance your layout further by integrating a Box module within the Loop to act as a container for your content modules. This setup allows you to take advantage of the Box module’s advanced layout options—such as CSS Grid or Flexbox—providing precise control over the structure and presentation of your loop content.
+:::tip
+
+You can enhance your layout further by integrating multiple Box modules. You can add your Loop module into a Box module and use the Box modules to control the width of your loop container as well as give it some styling, such as a background color.
+
+You can also use a Box module within the Loop module to create a container for your content modules. This setup allows you to take advantage of the Box module's advanced layout options—such as CSS Grid or Flexbox—providing precise control over the structure and presentation of your loop content.
+
+:::
 
 ## Loop Module vs Posts Module
 
