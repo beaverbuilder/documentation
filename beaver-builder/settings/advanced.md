@@ -214,7 +214,9 @@ This can be a solution to some rare caching issues, but in most cases you don’
 
 ### Force Module Wrapper Divs
 
-Enable or disable the rendering of module wrapper divs. When enabled, this setting forces modules to render their legacy wrapper divs, even if those divs have been removed from the module's markup.
+Enable or disable the rendering of module wrapper `<div>` elements. When enabled, this setting forces modules to include their legacy wrapper `<div>` elements, even if they have been removed from the module’s markup.
+
+We recommend keeping this option disabled, as it offers several benefits, such as cleaner markup output. The example below demonstrates the updated markup for the Heading module, which now uses only the heading tag (e.g., `<h2>`).
 
 <Tabs>
   <TabItem value="no-wrapper" label="No Wrapper (Default)">
