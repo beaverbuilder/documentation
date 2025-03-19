@@ -8,92 +8,62 @@ toc_max_heading_level: 2
 
 ## :rocket: New Features
 
+The following features have been added:
+
+### Color & Gradient Picker
+
+The Color & Gradient Pickers have been completely redesigned, making it easier than ever to select your preferred colors. You can now switch between different color spaces and take advantage of the powerful `color-mix()` function for even more control.
+
+See the [Color Picker](basics/color-picker.md) article for more information.
+
 ### Multi-Layer Background Field
 
-A new background field that lets you layer different types of backgrounds on an element.  You will see this in the Box Module, Rows and Columns.
+We've introduced a new background field that lets you layer different types of backgrounds on an element. You will see this in the Box Module, Rows and Columns.
 
-#### What's Still To Come
-Saving layers for re-use.
+See the [Multi-Layer Background Field](basics/multi-layer-backgrounds.md) article for more information.
 
-### Brand New Color/Gradient Pickers
+### Module Blocks
 
-Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  You can select Global Colors in the color picker.
+A selection of our modules will be available as Blocks for the Block Editor. This feature is opt-in, so it requires enabling in the Beaver Builder settings in the WordPress Admin.
 
-We've also built a new gradient picker that allows you to create gradients with an unlimited number of color stops and blend between them through different color spaces.
+See the articles below for more information:
 
-#### Limitations
-
-It is available in all color fields except:
-  - Global Colors
-  - Border field
-  - Box Shadow field
-  - Gradient field
-
-#### What's Still To Come
-
-Eventually all color fields will be supported.  While colors can be saved now for re-use, we still have to hook up field connections.
-
-In the future, you'll be able to switch to a color space that suits you and access an even wider spectrum of colors!
-
-### Modules as Blocks
-
-A selection of our modules will be available as Blocks for the Block Editor. This feature is opt-in so it requires enabling in the Beaver Builder settings in the WordPress Admin.
-
-#### Enable Modules as Blocks
-
-Navigate to Settings > Beaver Builder and click on the new Blocks tab. There you can enable select modules to use in the Block Editor.
-
-#### Supported Modules
-
-The current list of supported modules is below but expect this list to grow in the future:
-
-
-- Accordion
-- Box
-- Countdown
-- Icon
-- Icon Group
-- Map
-- Number Counter
-- Posts
-- Posts Carousel
-- Posts Slider
-- Pricing Table
-- Tabs
-  
+- [Blocks Tab Settings](settings/blocks.md)
+- [Using Module Blocks](modules/blocks.md)
 
 ## :boom: Improvements
 
+The following improvements have been made:
+
 ### Modules without Wrappers
 
-As part of our continued effort to reduce the markup output by Beaver Builder, all of the _Basic_ modules have been reworked to exclude their wrapper divs. To ensure backwards compatibility, wrappers will still render for existing modules on layouts, but anything new dropped on the page will exclude them.
+All basic modules now have reduced markup output.
 
-### Container Modules as Top Level Containers
+See the [Advanced Tab Settings](settings/advanced.md#force-module-wrapper-divs) article for more information.
 
-In Beaver Builder 2.8, we introduced a new Container Module, the _Box_ Module. However, it required a container to exist around it. In 2.9, that changes so _Box_ and all future container modules can be top level containers.
+### Top Level Container Modules
 
-### Outline Panel Improvements
+Container modules, such as the Box and Loop modules, can now serve as top-level containers without requiring a row. You can also nest container modules within each other—for example, placing a Loop module inside a Box module or vice versa.
 
-There is now a search/filter option and Node labels can be added and edited inline.
+### Outline Panel
+
+The Outline Panel has been improved with a search/filter option and Node labels can be added and edited inline.
+
+See the [Outline Panel](user-interface/outline-panel.md) article for more information.
+
+### Google Fonts Library
+
+The Google Fonts library is now updated automatically whenever WordPress checks to update the plugin.
 
 ### Subscribe Module
 
 Support was added for Active Campaign tags.
 
-### Google Fonts
-
-The Google Font list should be current.  Previously, the list would only be updated at the time of release.  The list will now be updated each time WordPress checks to update the plugin.
-
 ### Accessibility Improvements
 
-We are committed to accessibility.  Added are several enhancements:
- 
-- Menu Module: Separated menu item and sub-menu icon
-- Accordion: Select HTML tag for Label
-- Tabs Module: Add focus missing on selected tab
+The following accessibility improvements have been made:
+
+- **Menu Module:** Separated menu item and sub-menu icon
+- **Accordion:** Select HTML tag for Label
+- **Tabs Module:** Add focus missing on selected tab
 - Various improvements for the magnific pop-up script used
-
-### Performance
-
-Always looking at ways to improve performance, we've optimized some queries relating to Themer and debug mode.
-  
