@@ -10,11 +10,11 @@ Multi-Layer Backgrounds enables you to add multiple backgrounds to an individual
 
 ## Background Types
 
-You can choose from three background types: Color, Photo, and Gradient.
+You can choose from three background types: Color, Photo, and Gradient. Other background types, such as video, are not available because videos cannot be added as a background using CSS.
 
 :::info
 
-Please note that other background types, such as video, are not available. As videos can not be added as a background using CSS.
+Please note that Field Connections and Global Colors are not currently supported.
 
 :::
 
@@ -65,7 +65,7 @@ If you want to remove a color from the gradient:
 
 </details>
 
-<details><summary>Distrubte Gradient Items</summary>
+<details><summary>Distribute Gradient Items</summary>
 
 If your gradient has multiple color stops, you can easily distribute them evenly across the gradient. Simply click the Distribute button, and all color stops will be spaced out evenly.
 
@@ -96,7 +96,13 @@ The Photo background type offers the following options:
 
 <details><summary>SVG</summary>
 
-- **SVG Code** - Enter or paste the SVG code into the SVG Code field for the SVG you want to use.
+- **SVG Code** - Enter or paste the SVG code into the SVG Code field for the SVG you want to use. For best results, use simple SVG code, such as:
+
+  ```html
+  <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="40" fill="blue" />
+  </svg>
+  ```
 
 </details>
 

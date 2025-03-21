@@ -14,7 +14,7 @@ The Loop module is a powerful container module that enables you to build custom 
 
 :::caution
 
-The Loop module requires Beaver Builder version 2.9 or later and Beaver Themer version 1.5 or later.
+The Loop module is a Beaver Themer module available in version 1.5 and requires Beaver Builder version 2.9 or later.
 
 :::
 
