@@ -214,13 +214,16 @@ This can be a solution to some rare caching issues, but in most cases you don’
 
 ### Force Module Wrapper Divs
 
-Enable or disable the rendering of module wrapper `<div>` elements. When enabled, this setting forces modules to include their legacy wrapper `<div>` elements, even if they have been removed from the module’s markup. This option only applies to new modules added to the layout. Any modules that existed on the layout prior to version 2.9 will retain their original wrappers.
+Enable or disable the rendering of module wrapper `<div>` elements.
 
-We recommend keeping this option disabled, as it offers several benefits, such as cleaner markup output. The example below demonstrates the updated markup for the Heading module, which now uses only the heading tag (e.g., `<h2>`).
+- When **Enabled**, this setting forces modules to include their legacy wrapper `<div>` elements, even if those wrappers have been removed from the module’s default markup.
+- When **Disabled** _(default)_, modules use the updated markup without the wrapper `<div>`. This change only affects modules added to the layout after version 2.9.
+
+We recommend keeping this option disabled, as it provides several benefits, including cleaner and more streamlined markup. The example below shows the updated markup for the Heading module, which now includes only the heading tag (e.g., `<h2>`).
 
 :::info
 
-Consider enabling this option if you’re using custom CSS to modify modules, as some class names you rely on may not be present when the Force Module Wrapper Divs option is disabled.
+Consider enabling this option if you’re using CSS to style modules, as certain class names—such as `fl-module-content` —may be missing when the **Force Module Wrapper Divs** option is **disabled**.
 
 :::
 
