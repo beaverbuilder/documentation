@@ -21,6 +21,10 @@ Click the Outline icon in the **Top Bar** to open the Outline panel, which lets 
 The Outline panel doesn't have a drag handle, but you can remove its overlap on the layout with this trick. First display the Content panel and the use the drag handle to pin it to the right of the layout, then click the Outline panel icon. It then overlays the Content panel.
 :::
 
+## Search
+
+You can search for a specific node—whether it’s a row, column, or module—by clicking the <i className="fa-solid fa-magnifying-glass" /> magnifying glass icon and typing part of its name (e.g., “Box” or “Loop”). Any node that matches your search term will be highlighted in the Outline Panel. You can also search by [label](#labels), ID, or classname if you know them.
+
 ## Expand/Collapse
 
 You can Expand (show) and Collapse (hide) all items using the Outline Panel actions menu item (<i className="fas fa-ellipsis-h"></i> Ellipsis icon).
@@ -55,7 +59,15 @@ Right-click any row, column, or module to see a list of available options. This 
 
 ## Labels
 
-To help identify the purpose of a row, column, or module in the Outline Panel tree view, you can add a [label through the Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md#label). The screenshot below shows an example where a label "Hero Heading" was added to a Heading module and is displayed in the Outline Panel.
+To help identify the purpose of a row, column, or module in the Outline Panel tree view, you can add a label. You can add a label in two ways:
+
+### Adding a Label Inline
+
+You can add a label inline by opening the Outline Panel, moving your mouse cursor to the **"type a label"** field, and typing your label. When you're done typing, either click the <i className="fa-solid fa-check" /> checkmark icon or press the <kbd>Enter</kbd> key to save your label.
+
+### Adding a Label Through the Advanced Tab
+
+YOu can also add a label through the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md#label). The screenshot below shows an example where a label "Hero Heading" was added to a Heading module and is displayed in the Outline Panel.
 
 ![Labels displayed in Outline panel](/img/beaver-builder/user-interface--outline-panel--3.jpg)
 

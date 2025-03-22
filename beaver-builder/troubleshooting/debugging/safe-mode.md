@@ -25,11 +25,11 @@ To enable safe mode when opening a page for editing in Beaver Builder:
 
 1. Try to open the page in Beaver Builder in the normal fashion.
 
-2. When the page fails to open, append `&safemode` to the end of the URL.  
-  
-  ```markup title='Example'
-  https://my-website.com/?fl_builder&fl_builder_ui&safemode
-  ```
+2. When the page fails to open, append `&safemode` to the end of the URL.
+
+```markup title='Example'
+https://my-website.com/?fl_builder&fl_builder_ui&safemode
+```
 
 3. Check each module, looking especially for any custom HTML or JavaScript. Custom HTML can be inserted into any field that accepts text. JavaScript is more likely to have been placed in an HTML or Text Editor module.
 
@@ -39,7 +39,13 @@ To enable safe mode when opening a page for editing in Beaver Builder:
 
 ## `[fl-safe]` shortcode
 
-The `[fl-safe]` shortcode allows you to use code known to conflict with Beaver Builder or break the Beaver Builder user-interface (UI). While the Beaver Builder editor is active on a page or post, any code wrapped within the shortcode `[fl-safe]` will not render. When published, the page is automatically refreshed.
+The `[fl-safe]` shortcode enables you to include code that might conflict with Beaver Builder or disrupt its user interface (UI). When the Beaver Builder editor is active on a page or post, any code wrapped within the [fl-safe] shortcode will not render. Once published, the page is automatically refreshed.
+
+:::caution
+
+The `[fl-safe]` shortcode only works within the Beaver Builder editor. It will not work for code that has been added to the WordPress editor, Customizer, or Themes.
+
+:::
 
 ```markup
 [fl-safe]
@@ -47,18 +53,21 @@ The `[fl-safe]` shortcode allows you to use code known to conflict with Beaver B
 [/fl-safe]
 ```
 
+The shortcode also accepts a `msg` parameter to display a custom message replacing the default message "Content not rendered while builder is active".
+
+```markup
+[fl-safe msg="Custom message"]
+  // Your code here...
+[/fl-safe]
+```
+
 :::tip
-`[fl_safe]` also supports wrapping third-party or custom shortcodes that may conflict with Beaver Builder.
+The [fl-safe] shortcode also supports wrapping third-party or custom shortcodes that may conflict with Beaver Builder.
 
 ```markup
 [fl-safe]
   [my_shortcode]
 [/fl-safe]
 ```
-:::
-
-:::caution
-
-The `[fl-safe]` shortcode only works in the Beaver Builder editor. It will not work for code added to the WordPress editor, Customizer, or Themes.
 
 :::

@@ -21,6 +21,16 @@ You can [override modules](/beaver-builder/developer/custom-modules/18-override-
 
 :::
 
+### Module Types
+
+There are three types of modules available:
+
+- **Content Modules:** These are standard modules that add content to the layout, such as Heading or Photo modules.
+
+- **Container Modules:** These modules act as containers, do not require rows or columns for structure, and offer specific layout controls. Examples include [Box](box/index.md) and [Loop](loop/index.md) modules.
+
+- **Block Modules:** These modules are available in the [WordPress Block editor](module-blocks.md).
+
 ### Inherit Styling
 
 In order to ensure consistent color and typography, Beaver Builder modules follow a cascading inheritance model whereby they inherit the styling provided by the current theme. This means that when users add headings or text to layouts using modules such as the Heading or Text modules, they will automatically adopt the heading and text styling of the theme.

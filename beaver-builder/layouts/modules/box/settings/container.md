@@ -173,19 +173,15 @@ These settings allow you to control how this box fits within its parent containe
 
 The Appearance settings allow you to control the text color, background color, border, and box shadow of the box.
 
-- **Text Color**
+- **Text Color**  
   The Text Color setting allows you to specify the color of the text within the box. The text color can be specified using the color picker, by entering a hex color code, or using a global color.
 
-- **Background Color**
-  The Background Color setting allows you to specify the background color of the box. The background color can be specified using the color picker, by entering a hex color code or using a global color.
+- **Background**  
+  The Background settings allow you to specify the background color, image, or gradient for the box.
 
-  :::info
+  See the [Multi-layerBackgrounds](/basics/multi-layer-backgrounds.md) article for more information.
 
-  The Box module currently supports background color only with more complex background options becoming available in a future release.
-
-  :::
-
-- **Border**
+- **Border**  
   The Border settings allow you to specify the border width, border style, and border color of the box.
 
   See the [Borders](basics/border.md) article for more information.

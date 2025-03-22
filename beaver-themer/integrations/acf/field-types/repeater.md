@@ -88,6 +88,41 @@ By utilizing the Repeater field name, row index number, Nested Repeater field na
 Due to the shortcode not accepting attributes, outputting specific Repeater row fields works best with text fields.
 :::
 
+## `repeater_index`
+
+The `repeater_index` shortcode allows you to output the current row index number.
+
+```markup
+[wpbb post:acf type='repeater_index']
+```
+
+This can be useful in helping you style specific rows, such as using the `repeater_index` shortcode to apply the row index number as a class name.
+
+```markup
+<div class="my-repeater">
+    [wpbb-acf-repeater name='repeat']
+
+    <p class="my-repeater-row-[wpbb post:acf type='repeater_index']">
+      [wpbb post:acf type='text' name='repeat_text']
+    </p>
+
+    [/wpbb-acf-repeater]
+</div>
+```
+
+**HTML Output**
+
+```html
+<div class="my-repeater">
+  <p class="my-repeater-row-1">This is Row 1 of my Repeater field</p>
+  <p class="my-repeater-row-2">This is Row 2 of my Repeater field</p>
+  <p class="my-repeater-row-3">This is Row 3 of my Repeater field</p>
+  <p class="my-repeater-row-4">This is Row 4 of my Repeater field</p>
+</div>
+```
+
+You can also use the `repeater_index` shortcode with conditionals and expressions to output specific fields based on the row index number.
+
 ## Conditional Fields
 
 This example demonstrates how to use Beaver Themer conditional shortcodes with a Repeater field to handle cases when one of the fields is empty. The example code works in the case where the repeater has a text field and image field.

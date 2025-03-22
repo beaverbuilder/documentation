@@ -35,8 +35,8 @@ module.exports = {
       type: "category",
       label: "Layout Types & Modules",
       link: {
-        type: "generated-index",
-        title: "Layout Types & Modules",
+        type: "doc",
+        id: "layout-types-modules/index",
       },
       items: [
         {
@@ -50,7 +50,9 @@ module.exports = {
         {
           type: "category",
           label: "Footer layout type",
-          items: ["layout-types-modules/footer-layout-type/themer-footer-layout-type"],
+          items: [
+            "layout-types-modules/footer-layout-type/themer-footer-layout-type",
+          ],
         },
         {
           type: "category",
@@ -85,7 +87,9 @@ module.exports = {
         {
           type: "category",
           label: "404 layout type",
-          items: ["layout-types-modules/404-layout-type/themer-404-layout-type"],
+          items: [
+            "layout-types-modules/404-layout-type/themer-404-layout-type",
+          ],
         },
         {
           type: "category",
