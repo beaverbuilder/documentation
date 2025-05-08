@@ -1,7 +1,12 @@
-# Broken links from wpbewaverbuilder.com
+# Broken links from wpbeaverbuilder.com
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/general/faq"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install/"
 status = 301
 force = true
 [[redirects]]
