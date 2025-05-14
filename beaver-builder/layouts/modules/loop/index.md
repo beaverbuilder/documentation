@@ -3,18 +3,24 @@ id: index
 title: Loop Module
 sidebar_label: Loop
 tags:
-  - 2.9
-  - loop
-  - layout
-  - posts
-  - beaver themer
+    - 2.9
+    - loop
+    - layout
+    - posts
+    - beaver themer
 ---
 
 The Loop module is a powerful container module that enables you to build custom layouts for queried content using modules, without needing to write any custom HTML or CSS. You can freely position these modules and assign field connections to dynamically pull in the relevant data, ensuring accurate content for each item within the loop.
 
-:::caution
+:::info
 
 The Loop module is a Beaver Themer module available in version 1.5 and requires Beaver Builder version 2.9 or later.
+
+:::
+
+:::caution
+
+You can not nest loops within each other, meaning you can not add a Loop module within another Loop module.
 
 :::
 

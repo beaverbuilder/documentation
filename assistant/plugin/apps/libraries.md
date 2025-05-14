@@ -9,7 +9,7 @@ The Libraries App allows you to connect your WordPress site to Assistant Pro Clo
 
 ![Libraries app overview](/img/assistant/apps--apps-libraries--1.jpg)
 
-## ​Create a Library
+## Create a Library
 
 To create a new library from the Assistant Plugin:
 
@@ -17,6 +17,12 @@ To create a new library from the Assistant Plugin:
 2. Click the **Plus** (+) icon.
 3. Enter a name for your library.
 4. Click the **Enter** button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard.
+
+:::info
+
+Please note that free users can create one library. Existing free accounts will retain access to any libraries they currently have, but if they have more than one, they won’t be able to create additional libraries. To access unlimited libraries, upgrading to a Personal or Team plan is required. Premium users can also make their libraries private by clicking the lock icon or adjusting the privacy settings within the library.
+
+:::
 
 ![Create library via Assistant plugin](/img/assistant/apps--apps-libraries--2.jpg)
 

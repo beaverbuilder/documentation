@@ -1,14 +1,14 @@
 ---
-id: add-header-footer-and-parts-support-to-your-theme-themer
-title: Add Themer support to your theme
-sidebar_label: Add Themer support to your theme
+id: add-themer-support
+title: Add Themer Support
+sidebar_label: Add Themer Support
 ---
 
-Most themes support Archive, Singular, and 404 Themer layouts out of the box. However, to support the [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/) Header, Footer, and Part layouts, the theme must allow its header, footer, and parts to be removed using hooks.
+Most themes support Archive, Singular, and 404 layout types out of the box. However, to support the Header, Footer, and Part layout types, the theme must allow its header, footer, and parts to be removed using hooks.
 
 See the [list of themes that are currently supported](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md). If your theme isn't currently supported, you can add support for headers, footers, and parts by following the instructions below.
 
-##  Add header and footer support to your theme
+## Add Header & Footer Support
 
 There are other ways than using hooks to remove the theme's headers and footers, but using hooks is the easiest and cleanest. For example, in Genesis you can remove the header with the following code.
 
@@ -53,15 +53,17 @@ function my_theme_header_footer_render() {
 }
 ```
 
-:::tip **Tip**
+:::tip
+
 If you're interested in an object-oriented approach to theme support, check out how we implemented Genesis support in the _extensions/themes/class-fl-theme-builder-support-genesis.php_ file.
+
 :::
 
-##  Add parts support
+## Add Parts Support
 
-Theme parts are references to actions in your theme that a layout can be hooked into. For example, if your theme has a  `before_header` action, you can register that so theme parts can be rendered there.
+Theme parts are references to actions in your theme that a layout can be hooked into. For example, if your theme has a `before_header` action, you can register that so Part layout types can be rendered there.
 
-Adding support for theme parts is basically the same as adding support for headers and footers. In fact, you can declare support for headers, footers, and parts at the same time:
+Adding support for part layout types is basically the same as adding support for headers and footers layout types. In fact, you can declare support for headers, footers, and parts at the same time:
 
 ```php
 add_action( 'after_setup_theme', 'my_theme_header_footer_support' );

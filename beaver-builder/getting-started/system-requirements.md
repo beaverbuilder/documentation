@@ -8,10 +8,8 @@ This article covers the recommended system requirements for installing and using
 
 ## WordPress
 
-Beaver Builder is compatible with WordPress 4.6 and above.  
-**Note:** WordPress 4.9.6 requires Beaver Builder Version 2.1.1.3 or higher.
-
-We recommend a [WP Memory limit](https://wordpress.org/support/article/editing-wp-config-php/#increasing-memory-allocated-to-php) of 128 MB or greater (256 MB or higher is preferred).
+- Beaver Builder is compatible with WordPress 5.2 and above.
+- We recommend a [WP Memory limit](https://wordpress.org/support/article/editing-wp-config-php/#increasing-memory-allocated-to-php) of 128 MB or greater (256 MB or higher is preferred).
 
 ## Server
 
@@ -21,6 +19,12 @@ To ensure smooth functionality of the Beaver Builder user-interface (UI), it is 
 - Configure Content-Security-Policy (CSP) with the directive [`frame-ancestors`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) to `self`.
 
 Contact your web host provider for assistance with configuring these settings.
+
+:::caution
+
+Setting `script-src` to `none` in your Content Security Policy (CSP) will break the Beaver Builder UI, as it prevents all JavaScript from running—including the scripts essential for the builder's functionality. Since CSP configurations can be highly complex and vary widely depending on your setup, it's crucial to thoroughly test your website after making any changes to ensure that the Beaver Builder UI continue to work as expected.
+
+:::
 
 ## PHP
 
@@ -45,7 +49,9 @@ Beaver Builder supports all modern browsers (Chrome, FireFox, Safari and Edge).
 To view content added by Beaver Builder to your pages, posts, or custom post types we support the latest three versions of Chrome, Firefox, Safari, and Edge. For example, if the latest version is 66, then any release of versions 64-66 is supported.
 
 :::info
+
 As of [WordPress 5.8](https://wordpress.org/news/2021/05/dropping-support-for-internet-explorer-11/), Internet Explorer 11 is no longer supported.
+
 :::
 
 ### Working with the Beaver Builder editor
@@ -54,5 +60,4 @@ We only support the latest browser version when using the Beaver Builder editor.
 
 ## Mobile Devices
 
-The Beaver Builder editor can be used on tablets and smartphones to edit layouts. Note the
-functionality is still subject to limitations inherent on smaller screens.
+The Beaver Builder editor can be used on tablets and smartphones to edit layouts. Note the functionality is still subject to limitations inherent on smaller screens.
