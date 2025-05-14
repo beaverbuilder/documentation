@@ -14,7 +14,7 @@ To create a new library directly in Assistant Pro Cloud:
 
 :::info
 
-Free users can create a single library. To unlock unlimited libraries, upgrade to a Personal or Team plan. Premium users can also set their libraries to private by clicking the lock icon or updating the privacy settings within the library.
+Please note that free users can create one library. Existing free accounts will retain access to any libraries they currently have, but if they have more than one, they won’t be able to create additional libraries. To access unlimited libraries, upgrading to a Personal or Team plan is required. Premium users can also make their libraries private by clicking the lock icon or adjusting the privacy settings within the library.
 
 :::
 
