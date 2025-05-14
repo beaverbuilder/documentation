@@ -1,7 +1,7 @@
 ---
-id: full-width-layouts-on-third-party-themes-themer
-title: "Full-width layouts with third-party themes"
-sidebar_label: "Full-width layouts with third-party themes"
+id: full-width-layout-types
+title: "Full Width Layout Types"
+sidebar_label: "Full Width Layout Types"
 ---
 
 If you use a third-party theme with Beaver Themer you may need to add some additional CSS to get your layouts to be full width. A full-width layout spans the entire width of the page from edge to edge.

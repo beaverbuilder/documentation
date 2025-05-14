@@ -12,8 +12,10 @@ To create a new library directly in Assistant Pro Cloud:
 2. In the sidebar, enter a library name.
 3. Click the **Enter** button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard.
 
-:::note
-Premium users can also make the library private by clicking the lock icon (or you can make libraries private under library settings).
+:::info
+
+Free users can create a single library. To unlock unlimited libraries, upgrade to a Personal or Team plan. Premium users can also set their libraries to private by clicking the lock icon or updating the privacy settings within the library.
+
 :::
 
 <video autoPlay loop>

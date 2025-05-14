@@ -38,6 +38,12 @@ The Site Limit Checker is only available to users with a Starter or Professional
 
 :::
 
+## Staging Label
+
+A **"Staging"** label will appear next to the domain name if it is a staging or development domain. This label helps identify domains that are not intended for production use.
+
+You can also enter the term **"staging"** into the search field to filter all staging domains. This is especially useful if you have many domains using your license key and want to quickly exclude all production websites.
+
 ## Product & PHP Version
 
 Within the Domain Manager, you can obtain information about the products currently installed on each domain, including their version numbers and the PHP version being used.

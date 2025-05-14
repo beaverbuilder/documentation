@@ -18,6 +18,12 @@ To create a new library from the Assistant Plugin:
 3. Enter a name for your library.
 4. Click the **Enter** button or hit <kbd>Enter</kbd> / <kbd>Return</kbd> on your keyboard.
 
+:::info
+
+Free users can create a single library. To unlock unlimited libraries, upgrade to a Personal or Team plan. Premium users can also set their libraries to private by clicking the lock icon or updating the privacy settings within the library.
+
+:::
+
 ![Create library via Assistant plugin](/img/assistant/apps--apps-libraries--2.jpg)
 
 ## Add Content to libraries

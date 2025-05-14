@@ -36,11 +36,13 @@ You will receive an email notification one week before your subscription expires
 
 ## Renewal Discount
 
-You're eligible to a 40% discount if you purchased Beaver Builder **before October 13, 2022**. Your subscription discount pricing will remain unchanged as long as you renew within 2 weeks of the expiration date.
+You're eligible for a 40% discount if you purchased Beaver Builder **before October 13, 2022**. Your subscription discount pricing will remain unchanged as long as you renew within 2 weeks of the expiration date.
+
+In addition, licenses can be renewed up to 30 days early without changing the renewal date. So in total, you have 44 days to renew and still receive the renewal discount.
 
 You'll receive an email the day your subscription expires with a reminder to renew. You can renew your subscription after logging into your Beaver Builder account area. We will also send out a reminder email one week from the day your subscription expires.
 
-If for some reason you don’t receive these emails, [contact us](https://www.wpbeaverbuilder.com/contact/) and we’ll get you fixed right up!
+If for some reason you don't receive these emails, [contact us](https://www.wpbeaverbuilder.com/contact/) and we'll get you fixed right up!
 
 ### Legacy Plans
 

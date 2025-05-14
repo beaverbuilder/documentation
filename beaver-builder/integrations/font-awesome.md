@@ -4,7 +4,7 @@ title: Font Awesome
 sidebar_label: Font Awesome
 ---
 
-The official Font Awesome WordPress plugin seamlessly integrates with Beaver Builder. This integration enables you to utilize the latest Font Awesome version within Beaver Builder, gain access to Font Awesome Pro Kits, and leverage DuoTone icons in your Beaver Builder layouts.
+The official Font Awesome WordPress plugin seamlessly integrates with Beaver Builder. This integration enables you to utilize the latest Font Awesome version within Beaver Builder, gain access to Font Awesome Pro Kits, use custom icons and leverage DuoTone icons in your Beaver Builder layouts.
 
 ## Getting Started
 
@@ -18,10 +18,10 @@ To utilize the most up-to-date free version of Font Awesome with Beaver Builder:
 2. Navigate to the Font Awesome plugin's settings page within your WordPress admin dashboard **(Settings > Font Awesome)**.
 3. On the settings page, make the following configurations:
 
-   * **Use CDN**.
-   * Under Icons, select **Free**.
-   * For Technology, choose **Web Font**.
-   * For version, select **Latest**.
+    - **Use CDN**.
+    - Under Icons, select **Free**.
+    - For Technology, choose **Web Font**.
+    - For version, select **Latest**.
 
 4. Save Changes.
 
@@ -32,11 +32,11 @@ To utilize the most up-to-date Font Awesome Pro version with Beaver Builder:
 1. Install and activate the [Font Awesome WordPress plugin](https://wordpress.org/plugins/font-awesome/).
 2. Log into your [Font Awesome account](https://fontawesome.com/account) and create a kit.
 
-   :::caution
+    :::caution
 
-   While setting up your Kit, ensure that it is configured for **Webfont** usage rather than SVG.
+    While setting up your Kit, ensure that it is configured for **Webfont** usage rather than SVG.
 
-   :::
+    :::
 
 3. Copy your [API token](https://fontawesome.com/account#api-tokens) and paste into **WordPress Admin Dashboard > Settings > Font Awesome > API Token**.
 4. Select a kit from the dropdown menu and click **Save Changes**.
@@ -78,3 +78,15 @@ The **DuoTone Icon Secondary Color** automatically has reduced opacity. Also, Du
 :::
 
 ![Duo-Tone icons](/img/beaver-builder/integrations--font-awesome--3.jpg)
+
+## Custom Icons
+
+Any custom icons you upload to Font Awesome can be accessed through any Beaver Builder module that supports icons, such as the Icon or Button modules. Simply upload your custom icons to your kit, then [enable the kit within Beaver Builder](#font-awesome-pro).
+
+To confirm that your kit includes custom icons, navigate to the [Font Awesome Integration section](#confirm-integration--enable-font-awesome-icons) on the Beaver Builder [Icon Settings](settings/icons.md) page. There, you'll see the message: **"Custom Icons: Kit contains X custom icons,"** where **X** represents the number of custom icons you've added to your kit.
+
+:::tip
+
+Be sure to follow the [Font Awesome custom icon guidelines](https://docs.fontawesome.com/web/add-icons/upload-icons) to ensure your custom icons are compatible.
+
+:::

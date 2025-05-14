@@ -10,15 +10,10 @@ Beaver Themer layout types let you replace your WordPress theme’s default layo
 Each layout type serves a specific purpose, giving you full control over different areas of your site:
 
 - **Singular** – Defines the layout for individual content items such as single posts, pages, or custom post types.
-
 - **Archive** – Controls how lists of posts, pages, or custom post types appear, including blog archives, category pages, search results, and author archives.
-
 - **404** – Customizes the “Page Not Found” (404) page, allowing you to provide helpful messages or alternative navigation.
-
 - **Header** – Replaces the default theme header with a custom design, typically including logos, navigation menus, and call-to-action buttons.
-
 - **Footer** – Replaces the default theme footer with a custom design, often containing links, copyright information, and social media icons.
-
 - **Part** – A reusable layout that can be inserted anywhere on your site using your theme’s hooks, commonly used for calls to action, subscription forms, testimonials, or banners.
 
 ## Theme Compatibility
