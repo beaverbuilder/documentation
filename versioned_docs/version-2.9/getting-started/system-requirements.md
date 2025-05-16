@@ -8,7 +8,7 @@ This article covers the recommended system requirements for installing and using
 
 ## WordPress
 
-- Beaver Builder is compatible with WordPress version 6.6 or higher.
+- Beaver Builder is compatible with WordPress version 5.2 or higher.
 - The WordPress REST API must be enabled: Beaver Builder relies on the REST API for key features. You can verify it’s active by visiting `/wp-json/` on your site (e.g., `https://yourwebsite.com/wp-json/`).
 
 We recommend a [WP memory limit](https://wordpress.org/support/article/editing-wp-config-php/#increasing-memory-allocated-to-php) of at least 128 MB, with 256 MB or more preferred for optimal performance.
