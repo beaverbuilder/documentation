@@ -1,6 +1,7 @@
 module.exports = {
   title: "Beaver Builder Knowledge Base",
-  tagline: "Frequently asked questions and support documentation for Beaver Builder products.",
+  tagline:
+    "Frequently asked questions and support documentation for Beaver Builder products.",
   url: "https://docs.wpbeaverbuilder.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
@@ -68,11 +69,11 @@ module.exports = {
           dropdownActiveClassDisabled: true,
         },
         {
-          type: "docsVersionDropdown",
-          position: "left",
-          dropdownItemsAfter: [{ to: "/versions" }],
-          dropdownActiveClassDisabled: true,
+          label: "Beaver Themer",
+          type: "doc",
+          docId: "introduction/index",
           docsPluginId: "beaver-themer",
+          position: "left",
         },
         {
           label: "BB Theme",
@@ -192,17 +193,6 @@ module.exports = {
         path: "beaver-themer",
         routeBasePath: "beaver-themer",
         sidebarPath: require.resolve("./sidebarBeaverThemer.js"),
-        lastVersion: "1.4",
-        versions: {
-          current: {
-            label: "Beaver Themer 1.5",
-            path: "",
-          },
-          1.4: {
-            label: "Beaver Themer 1.4",
-            path: "1.4",
-          },
-        },
       },
     ],
     [
@@ -232,15 +222,15 @@ module.exports = {
           path: "beaver-builder",
           routeBasePath: "beaver-builder",
           sidebarPath: require.resolve("./sidebarBeaverBuilder.js"),
-          lastVersion: "2.8",
+          lastVersion: "2.9",
           versions: {
             current: {
-              label: "Beaver Builder 2.9",
+              label: "Beaver Builder 2.10",
               path: "",
             },
-            2.8: {
-              label: "Beaver Builder 2.8",
-              path: "2.8",
+            2.9: {
+              label: "Beaver Builder 2.9",
+              path: "2.9",
             },
           },
         },

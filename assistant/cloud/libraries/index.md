@@ -10,6 +10,9 @@ This article explains what a library is and what the differences between public 
 
 Libraries are collections of page builder templates and creative assets, such as images, code, and colors. You can use libraries to organize content, and import them into any WordPress website with a single click.
 
+- Free users can create up to one library.
+- Premi users can create unlimited libraries.
+
 ## Public vs Private Libraries
 
 If you upgrade to a Personal or Team account, you will have the option to make the Library **"Private"**.
