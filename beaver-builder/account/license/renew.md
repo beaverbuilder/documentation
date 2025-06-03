@@ -50,6 +50,6 @@ If a customer is currently eligible for a renewal discount on their legacy plan 
 
 :::warning Important
 
-The new plans do not include renewal discounts, and once the upgrade is made, any previously applied renewal discounts from the legacy plan will not transfer to the new plan. Customers should carefully consider this when deciding whether to upgrade, as the pricing structure differs between the legacy and new plans.
+The new plans do not include renewal discounts, and once the upgrade is made, any previously applied renewal discounts from the legacy plan will not carry over. Switching from your legacy license is permanent and cannot be reversed, so customers should carefully consider this when deciding whether to upgrade, as the pricing structure differs between the legacy and new plans.
 
 :::
