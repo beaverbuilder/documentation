@@ -30,14 +30,18 @@ The following license types are considered legacy licenses:
 
 You can continue to use your legacy license as long as you maintain an active subscription.
 
-### Can I Switch to a New License?
+### Switching License Plans
 
-If your legacy license was purchased or renewed more than 30 days ago, you will have the option to switch to one of our new plans at your next renewal.
+If your legacy license was purchased or renewed more than 30 days ago, you’ll have the option to switch to one of our new plans at your next renewal.
 
 :::caution
 
-Please note that any renewal discounts associated with your legacy license will not transfer to the new license, and some of the new licenses may have site usage limits.
+Before switching to one of our new license plans, please consider the following:
 
-You can explore the new licenses and their features on our pricing page before making your decision.
+- Renewal discounts associated with your legacy license will not carry over to the new plan.
+- Some new license plans include site usage limits.
+- Switching from your legacy license is permanent and cannot be reversed.
+  
+We recommend reviewing the new license options and their features on our pricing page before making your decision.
 
 :::
