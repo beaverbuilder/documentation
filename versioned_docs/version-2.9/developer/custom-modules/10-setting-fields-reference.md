@@ -197,7 +197,7 @@ The color field displays a color picker that can be used to pick a custom color.
 to show the alpha slider in the picker.
 
 **Return value**  
-The hexadecimal color value.
+The hexadecimal color value excluding the hash (#) sign.
 
 ```php
 'my_color_field' => array(
@@ -226,8 +226,6 @@ FLBuilderCSS::rule( array(
 	),
 ) );
 ```
-
-
 
 ### Date field
 
