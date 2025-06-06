@@ -11,7 +11,7 @@ Beaver Themer's conditional logic feature gives you the power to fine-tune when 
 
 The basic logic is an if-then statement, but with Beaver conditional logic, you only specify the if-expression. The form of the statement is always:
 
-*If {my expression is true} then display this item*
+_If {my expression is true} then display this item_
 
 The if-expression can contain both rules and rule groups. Rules in the same group use AND logic, while rules groups use OR logic. See the examples in the following section and more details further below.
 
@@ -19,11 +19,11 @@ The if-expression can contain both rules and rule groups. Rules in the same grou
 
 You can apply conditional logic in two different locations:
 
-* In the **Rules** section of the Beaver Themer editing panel:  
-   ![](/img/conditional-logic-themer-edit-panel_800.png)
-  This screenshot shows the editing panel for a Part layout. In addition to the **Position** and the **Location** of the part, there's a **Rules** section where you can set up a complex conditional logic rule. See the first example in the next section.  
-* In the **Display** setting on the **Advanced** tab of any row, column, or module in a Beaver Builder layout:  
-  ![](/img/conditional-logic-module_800.png)  
+- In the **Rules** section of the Beaver Themer editing panel:
+  ![](/img/conditional-logic-themer-edit-panel_800.png)
+  This screenshot shows the editing panel for a Part layout. In addition to the **Position** and the **Location** of the part, there's a **Rules** section where you can set up a complex conditional logic rule. See the first example in the next section.
+- In the **Display** setting on the **Advanced** tab of any row, column, or module in a Beaver Builder layout:
+  ![](/img/conditional-logic-module_800.png)
 
 :::info
 The **Display** setting is always available in Beaver Builder layouts, but the **Conditional Logic** choice only appears when Beaver Themer is installed.
@@ -36,15 +36,15 @@ There are a huge number of ways that you can use conditional logic, but here are
 ### Display a Themer layout only when users are Editors
 
 Suppose you want to display a banner at the top of the page with special instructions to editors when they are logged in, showing how to open a page for editing in Beaver Builder, as in this screenshot:
- 
+
 ![](/img/conditional-logic-themer-editing-banner_800.png)
- 
+
 This is easy to accomplish with a Part-type Themer layout and conditional logic, following the steps here.
 
 1. Create a Part-type Themer layout.
 2. In the editor panel for the Themer layout, set **Position** to **Before header**.
 3. Set **Location** to **Page > All pages**.
-4. In the **Rules** section, create a rule for **User Role** **equals** **Editor**, as shown in the following screenshot.  
+4. In the **Rules** section, create a rule for **User Role** **equals** **Editor**, as shown in the following screenshot.
    ![](/img/conditional-logic-themer-banner-setup_800.png)
 5. Click **Update** to save the edits.
 
@@ -72,16 +72,16 @@ With this procedure, if you have any other content in the row or column in addit
 
 **To hide a row or column containing an ACF custom field that doesn't have a value:**
 
-1. Create a module to display your ACF custom field.  
+1. Create a module to display your ACF custom field.
    For example, add a Heading module, and in the **Heading** field, add a field connection to the ACF field.
 2. Open the settings for the row or column containing that module and go to the **Advanced** tab.
 3. Go to the **Visibility** section, and in the **Display** field, choose **Conditional logic**, then click **Open Conditional logic settings.**
 4. Click **Choose**, scroll down to the **Advanced Custom Fields** section, and choose **ACF post field**.
 5. In the second column, enter the field name of your custom field.
-6. In the third column, scroll down and choose **is set**.  
+6. In the third column, scroll down and choose **is set**.
    This means that this row or column will display when this custom field has a value.
 7. Click **Save**.
-  
+
 ## Conditional logic details
 
 ### Rules and rule groups
@@ -90,18 +90,28 @@ You can add one or more rules to form a rule group. You can add as many rule gro
 
 For example, you could have two rule groups with two rules each for the following conditions:
 
->  Display this module if a particular ACF custom field isn't empty AND the post category is "news"  
->  OR  
->  Display this module if a particular ACF custom field isn't empty AND the post category is "events"
+> Display this module if a particular ACF custom field isn't empty AND the post category is "news"
+> OR
+> Display this module if a particular ACF custom field isn't empty AND the post category is "events"
+
+#### Bulk Options
+
+Bulk options are available for the conditional logic for nodes (rows, columns, modules) and allow you to quickly duplicate or delete rules, saving valuable time. This is especially useful when you need to create a similar rule with only minor differences; you can duplicate an existing rule and then modify the condition to your preference, rather than creating a new rule from scratch.
+
+:::tip
+
+Bulk options become available only when you have more than one rule and are limited to individual rule groups, meaning you can only duplicate or delete rules within the same group. You cannot apply bulk actions across different rule groups.
+
+:::
 
 ### Comparison operators
 
 You can set rules for various aspects of posts, archives, authors, users, and ACF custom fields. The items you choose for the rule determine which comparison operators are available. For example, **Post title**, **Post excerpt**, **Post featured image** have some or all of the following comparison operators:
 
-* **is set** or **exists**, **is not set** or **doesn't exist**  
-Used to show or hide rows, columns, or modules if the value is set (such as a featured image) or exists (such as a custom field)
-* **equals** or **does not equal**, **starts with**, **ends with**, **contains**, **doesn't contain**  
-Used to evaluate text values for a particular item.
+- **is set** or **exists**, **is not set** or **doesn't exist**
+  Used to show or hide rows, columns, or modules if the value is set (such as a featured image) or exists (such as a custom field)
+- **equals** or **does not equal**, **starts with**, **ends with**, **contains**, **doesn't contain**
+  Used to evaluate text values for a particular item.
 
 ### Conditional logic for Themer layouts
 
@@ -139,52 +149,52 @@ Rows, columns, and modules have the following conditional logic selections for r
 
 #### Posts
 
-* Post
-* Post parent
-* Post type
-* Post title
-* Post excerpt
-* Post content
-* Post featured image
-* Post comments number
-* Post template
-* Post taxonomy term
-* Post status
-* Post custom field
+- Post
+- Post parent
+- Post type
+- Post title
+- Post excerpt
+- Post content
+- Post featured image
+- Post comments number
+- Post template
+- Post taxonomy term
+- Post status
+- Post custom field
 
 #### Archive
 
-* Archive
-* Archive title
-* Archive description
-* Archive taxonomy term
-* Archive term meta
+- Archive
+- Archive title
+- Archive description
+- Archive taxonomy term
+- Archive term meta
 
 #### Author
 
-* Author
-* Author bio
-* Author meta
-* Author login status
+- Author
+- Author bio
+- Author meta
+- Author login status
 
 #### User
 
-* User
-* User bio
-* User meta
-* User login status
-* User role
-* User capability
-* User registered
+- User
+- User bio
+- User meta
+- User login status
+- User role
+- User capability
+- User registered
 
 #### Browser
 
-* Cookie  
+- Cookie
   You can base the visibility on a particular key in your cookie.
-* Referer  
-**Referer** means the page that contains a link that the user follows to get to the page containing the conditional logic, such as a link from the layout or a menu link. [Here's some more information about HTTP Referers.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)  
-**Note:** This misspelling of `referer` is built into WordPress.
-* URL variable
+- Referer
+  **Referer** means the page that contains a link that the user follows to get to the page containing the conditional logic, such as a link from the layout or a menu link. [Here's some more information about HTTP Referers.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)
+  **Note:** This misspelling of `referer` is built into WordPress.
+- URL variable
 
 ### 3rd party integrations
 
@@ -192,25 +202,24 @@ The following conditional rules appear when the following third-party plugins ar
 
 #### WooCommerce
 
-* Customer products purchased
-* Customer first ordered
-* Customer last ordered
-* Customer total orders
-* Customer total products
-* Customer total spent
-* Customer billing address
-* Customer shipping address
-* Cart
-* Cart products
-* Cart total
+- Customer products purchased
+- Customer first ordered
+- Customer last ordered
+- Customer total orders
+- Customer total products
+- Customer total spent
+- Customer billing address
+- Customer shipping address
+- Cart
+- Cart products
+- Cart total
 
 #### Advanced Custom Fields
 
 These choices refer to the source or destination of the ACF field on your site. For more information, see [the article about ACF field connections](../integrations/acf/index.md).
 
-* ACF Archive field
-* ACF Post field
-* ACF Post Author field
-* ACF User field
-* ACF Option field
-
+- ACF Archive field
+- ACF Post field
+- ACF Post Author field
+- ACF User field
+- ACF Option field

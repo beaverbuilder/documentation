@@ -57,7 +57,8 @@ Available on archive layouts only.
 
 ## Product Price
 
-Outputs a product’s price. Examples: $12.00 or $9.99 - $14.99 (for variable products).
+Outputs a product’s price.  
+Examples: $12.00 or $9.99 - $14.99 (for variable products) or <del>$45.00</del> $20.00 for products with a sale price.
 
 ```markup
 [wpbb post:woocommerce_product_price]
@@ -85,7 +86,7 @@ Available on archive layouts only.
 
 ## Product Sale
 
-Outputs a sale label if a product has a sale price.
+Outputs a sale label if a product has a sale price e.g. <span style={{backgroundColor: "steelblue", color: "white", padding: "5px"}}>SALE</span>
 
 ```markup
 [wpbb post:woocommerce_sale_flash]
@@ -178,5 +179,3 @@ Available on both archive & singular layouts.
 ```markup
 [wpbb post:woocommerce_breadcrumb]
 ```
-
-
