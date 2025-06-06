@@ -6,85 +6,80 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
+Beaver Builder 2.10 includes the following new features and improvements.
+
 ## :rocket: New Features
 
-### Multi-Layer Background Field
+### Assistant Integration
+Added new cloud icon to the toolbar for connecting to the cloud and saving templates.
 
-A new background field that lets you layer different types of backgrounds on an element.  You will see this in the Box Module, Rows and Columns.
+### Components
+Add the ability to select fields that can be edited per-page for global templates, allowing you to override the global defaults on a per-page basis.  
 
-#### What's Still To Come in Future Versions
-The ability to save layers for re-use and selecting Global Colors in the background field.
+### Pre-built Box Module Templates
+Added 60+ pre-built Box module templates.
 
-### Brand New Color/Gradient Pickers
-
-Our color picker has been completely rewritten and now supports any CSS color expression you can throw at it.  You can select Global Colors in the color picker.
-
-We've also built a new gradient picker that allows you to create gradients with an unlimited number of color stops and blend between them through different color spaces.
-
-### Modules as Blocks
-
-A selection of our modules will be available as Blocks for the Block Editor. This feature is opt-in so it requires enabling in the Beaver Builder settings in the WordPress Admin.
-
-#### Enable Modules as Blocks
-
-Navigate to Settings > Beaver Builder and click on the new Blocks tab. There you can enable select modules to use in the Block Editor.
-
-#### Supported Modules
-
-The current list of supported modules is below but expect this list to grow in the future:
-
-
-- Accordion
-- Box
-- Countdown
-- Icon
-- Icon Group
-- Map
-- Number Counter
-- Posts
-- Posts Carousel
-- Posts Slider
-- Pricing Table
-- Tabs
-  
+### Star Rating Module
+Added a new Star Rating module to easily display ratings to create testimonial sections and more!
 
 ## :boom: Improvements
 
-### Modules without Wrappers
+## UI Changes
 
-As part of our continued effort to reduce the markup output by Beaver Builder, all of the _Basic_ modules have been reworked to exclude their wrapper divs. To ensure backwards compatibility, wrappers will still render for existing modules on layouts, but anything new dropped on the page will exclude them.  There is a toggle in the Advanced options in the WP Admin to disable this and force module wrappers.
+### Content Panel
 
-### Container Modules as Top Level Containers
+#### Pre-built rows and modules
+Reworked the pre-built rows and modules panels to show categories instead of a dropdown.
 
-In Beaver Builder 2.8, we introduced a new Container Module, the _Box_ Module. However, it required a container to exist around it. In 2.9, that changes so _Box_ and all future container modules can be top level containers.
+#### Saved Tab
+Added the ability to collapse the sections in the Saved panel.
 
-### Outline Panel Improvements
+### All Nodes
+Added a "Save As" action to the settings dropdown on overlays. Added a "Type" select in the "Save As" form to include Template, Global, and Component.
 
-There is now a search/filter option and Node labels can be added and edited inline. Additionally, when the content panel is pinned right, the Outline Panel panel and the content panel are merged so you can still access the content panel tabs to add content instead of switching back and forth.
+### Global Templates
+Change the global template overlay and badge color to green for better contrast with white text and icons.
 
-### Subscribe Module
+## Accessibility
+Any changes to markup mentioned here make use of the Deprecation API.
 
-Support was added for Active Campaign tags.
+#### Accordion Module
+Changes to HTML tags used for elements for new modules dropped on the page, increase focus ring size and change key event listener from keypress to keydown.
 
-### Google Fonts
+#### Content Slider Module
+Added various improvements including making sure focus ring shows for links, add support for reduced-motion preference, prevent auto play on focus in or out, add aria-label and role attributes, improvements to keyboard navigation, adding focus to slider dot navigation, adjusting HTML markup in favor of list tags and button tags and more!
 
-The Google Font list should be current.  Previously, the list would only be updated at the time of release.  The list will now be updated each time WordPress checks to update the plugin.
+#### Gallery Module
+Added various improvements including deprecating div tags in favor of list tags and adding ARIA roles for the deprecated div tags. 
 
-### Rows
-The fixed width option is now responsive.
+#### Menu Module
+Added various accessibility improvements including enhancements for keyboard navigation, using appropriate aria attributes and roles, adjusted some markup and sizing of sub-menu icon as well.
 
-### Accessibility Improvements
+#### Photo Module
+Change markup to use figcaption for caption per accessibility recommendations.
 
-We are committed to accessibility.  Added are several enhancements:
- 
-- Accordion: Select HTML tag for Label
-- Tabs Module: Add focus missing on selected tab
-- Various improvements for the magnific pop-up script used
+#### Posts Module
+Added various accessibility improvements including deprecating the div container tag in favor of a unordered list and added a new option in the post container field.
 
-### Performance
+#### Post Slider & Post Carousel
+Added many accessibility improvements including using list tags for slides, button tags for navigation and pagination, proper aria attributes and making sure focus is visible on all controls.
 
-Always looking at ways to improve performance, we've optimized some queries relating to Themer and debug mode.
+#### Tabs Module
+Added arious accessibility fixes including using button tags for any buttons instead of links or divs. 
 
-### Developer
-A new filter was added to disable minification `fl_builder_minify`
-  
+#### Row Shapes
+Add generic title/desc to row shapes for accessibility.
+
+#### Modules that display excerpts
+In modules that display excerpts, change default read more text to provide more context per accessibilityrecommendations.
+
+### WP Admin
+Reworked wp-admin list table to show "Global" or "Component" label.  Reworked user access settings to allow editing per-page component settings but not the component itself. Added new user access setting for enabling or disabling cloud access based on user role.
+
+### Other Changes
+
+#### Performance
+Improved the time it takes for settings to initially render when first opened.
+
+#### Subscribe Module
+Added support for ConvertKit custom fields

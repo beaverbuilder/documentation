@@ -197,7 +197,7 @@ The color field displays a color picker that can be used to pick a custom color.
 to show the alpha slider in the picker.
 
 **Return value**  
-The hexadecimal color value excluding the hash (#) sign.
+The hexadecimal color value.
 
 ```php
 'my_color_field' => array(
@@ -208,6 +208,26 @@ The hexadecimal color value excluding the hash (#) sign.
   'show_alpha'    => true
 ),
 ```
+
+#### Rendering Color Fields
+
+There are helper functions to render color fields.
+
+##### FLBuilderColor::hex_or_rgb
+This function ensures that the right color is rendered no matter the format.
+
+**Example Usage**
+```php
+FLBuilderCSS::rule( array(
+	'enabled'  => 'flat' === $settings->style && ! empty( $settings->bg_hover_color ),
+	'selector' => ".fl-builder-content .fl-node-$id a.fl-button:hover, .fl-page .fl-builder-content .fl-node-$id a.fl-button:hover, .fl-page .fl-builder-content .fl-node-$id a.fl-button:hover, .fl-page .fl-page .fl-builder-content .fl-node-$id a.fl-button:hover",
+	'props'    => array(
+		'background-color' => FLBuilderColor::hex_or_rgb( $settings->bg_hover_color ),
+	),
+) );
+```
+
+
 
 ### Date field
 

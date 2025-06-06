@@ -4,6 +4,30 @@ title: Customize Themer modules
 sidebar_label: Customize Themer modules
 ---
 
-There are some Beaver Builder modules that are specific to Themer layouts, such as the Post Navigation module for Singular layouts. You can modify or add features to these Themer-specific modules by overriding them with modules that you design.
+Beaver Themer includes a set of modules designed specifically for Themer layouts, such as the Post Navigation module used in Singular layout types. You can modify or extend the functionality of these Themer-specific modules by overriding them.
 
-The procedures for doing this are exactly the same as for creating custom modules that override standard modules. See the [Custom Module Developer Guide](/beaver-builder/developer/custom-modules) and specifically [the chapter about overriding built-in modules](/beaver-builder/developer/custom-modules/override-modules).
+The process is the same as [overriding regular Beaver Builder modules](/beaver-builder/developer/custom-modules/override-modules). Simply create a `/fl-builder` directory in your child theme, then add a `/modules` directory inside it. From there, copy the module folder you want to override from the Beaver Themer plugin `/bb-theme-builder/modules/` into the `/modules` directory, as shown in the example below:
+
+```bash
+/bb-theme-child
+├── /fl-builder
+│   └── /modules
+│       └── /fl-post-navigation
+├── functions.php
+└── style.css
+```
+
+:::info
+
+Beaver Themer includes a mix of regular modules and a special type of module called module aliases. Unfortunately, module aliases cannot be overridden. You can use the list below to identify which modules are aliases:
+
+- Archive Title
+- Attached Images
+- Featured Image
+- Post Gallery
+- Post Columns
+- Post List
+- Post Masonry
+- Post Title
+
+:::
