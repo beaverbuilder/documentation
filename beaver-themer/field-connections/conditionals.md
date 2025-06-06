@@ -13,7 +13,7 @@ The conditional shortcode syntax supports three statements: `if`, `if not`, and 
 ### If `[wpbb-if]`
 
 The `[wpbb-if]` statement enables you to display custom content if the statement evaluates to `TRUE`.
-  
+
 ```markup
 [wpbb-if some-field-connection]
 
@@ -52,15 +52,15 @@ The `[wpbb-if !]` statement allows you to display custom content when the statem
 
 ## Limitation
 
-The Field Connection conditional shortcode **does not** support nesting *if* statements. Therefore, using an *if* statement inside another *if* statement, as shown in the example below, is not possible. If you require more complex conditionals, we suggest creating your own shortcode.
+Nested `if` statements are not supported. Meaning you can't place an `if` statement inside another, as shown in the example below. If you need more complex conditional logic, we recommend creating a custom shortcode instead.
 
 ```markup
 [wpbb-if some-field-connection]
-    
+
     If True, show this!
 
     [wpbb-if some-field-connection]
-    
+
         If also True, show this!
 
     [/wpbb-if]

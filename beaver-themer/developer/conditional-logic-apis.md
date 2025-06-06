@@ -1,16 +1,16 @@
 ---
 id: conditional-logic-apis
-title: Conditional logic APIs
-sidebar_label: Conditional logic APIs
+title: Conditional Logic APIs
+sidebar_label: Conditional Logic APIs
 ---
 
 This document covers APIs for writing custom rules for the Beaver Themer conditional logic feature in third-party plugins.
 
-:::note **Notes**
+:::info
 
-  * Add these rules via a plugin as `bb_logic_init` is fired during the `plugins_loaded` WordPress action, which occurs before the theme is loaded.
+- Add these rules via a plugin as `bb_logic_init` is fired during the `plugins_loaded` WordPress action, which occurs before the theme is loaded.
 
-  * Beaver Themer’s conditional logic feature does not currently support dynamic rules that are specific to each unique visitor of your website, such as cookies and geotargeting. Caching prevents those rules from working, because a single cached copy of the page is returned and cannot be modified using conditional logic. In the future, we will be working on making dynamic rules possible with caching.
+- Beaver Themer’s conditional logic feature does not currently support dynamic rules that are specific to each unique visitor of your website, such as cookies and geotargeting. Caching prevents those rules from working, because a single cached copy of the page is returned and cannot be modified using conditional logic. In the future, we will be working on making dynamic rules possible with caching.
 
 :::
 
@@ -24,81 +24,84 @@ A rule is a set of data edited by a simple form and evaluated into a true or fal
 
 There are two steps to adding a custom rule:
 
-  * Frontend rule registration in JavaScript
-  * Server-side rule processing in PHP.
+- Frontend rule registration in JavaScript
+- Server-side rule processing in PHP.
 
 You can follow along by [downloading the example plugin here](https://www.wpbeaverbuilder.com/downloads/beaver-themer-example-rules.zip).
 
-### 1 Frontend Rule Registration
+### 1. Frontend Rule Registration
 
-1. Create a new JavaScript file in your plugin.  
-  In this example, a file called _rules.js_ in the example plugin is created and enqueued on the `bb_logic_enqueue_scripts` action, as follows.  
-  ```php
-  add_action( 'bb_logic_enqueue_scripts', function() {
-    wp_enqueue_script(
-      'bb-logic-example-rules',
-      BB_LOGIC_EXAMPLE_URL . 'js/rules.js',
-      array( 'bb-logic-core' ),
-      '1.0',
-      true
-    );
-  } );
-  ```
-2. Add a new rule type in your _rules.js_ file using the `BBLogic.api.addRuleType` function.   
-  The following example shows a rule created to match the number of posts the current user has authored. See the section below on the Frontend API for more information about using the functions in the API object `BBLogic` for creating new rule types.  
+1. Create a new JavaScript file in your plugin.
+   In this example, a file called _rules.js_ in the example plugin is created and enqueued on the `bb_logic_enqueue_scripts` action, as follows.
 
-  ```javascript
-  // Frontend rule registration step2
-  var addRuleType = BBLogic.api.addRuleType
-  var __ = BBLogic.i18n.__
+```php
+add_action( 'bb_logic_enqueue_scripts', function() {
+  wp_enqueue_script(
+    'bb-logic-example-rules',
+    BB_LOGIC_EXAMPLE_URL . 'js/rules.js',
+    array( 'bb-logic-core' ),
+    '1.0',
+    true
+  );
+} );
+```
 
-  addRuleType( 'bb-logic-example/user-post-count', {
-      label: __( 'User Post Count' ),
-      category: 'user',
-      form: {
+2. Add a new rule type in your _rules.js_ file using the `BBLogic.api.addRuleType` function.
+   The following example shows a rule created to match the number of posts the current user has authored. See the section below on the Frontend API for more information about using the functions in the API object `BBLogic` for creating new rule types.
+
+```javascript
+// Frontend rule registration step2
+var addRuleType = BBLogic.api.addRuleType;
+var __ = BBLogic.i18n.__;
+
+addRuleType("bb-logic-example/user-post-count", {
+    label: __("User Post Count"),
+    category: "user",
+    form: {
         operator: {
-          type: 'operator',
-          operators: [
-            'equals',
-            'does_not_equal',
-            'is_less_than',
-            'is_greater_than',
-          ],
+            type: "operator",
+            operators: [
+                "equals",
+                "does_not_equal",
+                "is_less_than",
+                "is_greater_than",
+            ],
         },
         count: {
-          type: 'number',
-          defaultValue: '0',
+            type: "number",
+            defaultValue: "0",
         },
-      },
-  } )
-  ```
+    },
+});
+```
 
-### 2 Server-side rule processing
+### 2. Server-side rule processing
 
-  1. Create a new PHP file in your plugin. In this example, a file called _rules.php_ in the example plugin is included on the `bb_logic_init` action.  
-  ```php
-  add_action( 'bb_logic_init', function() {
-    require_once BB_LOGIC_EXAMPLE_DIR . 'includes/rules.php';
-  } );
-  ```
+1. Create a new PHP file in your plugin. In this example, a file called _rules.php_ in the example plugin is included on the `bb_logic_init` action.
 
-  2. Register a callback function for processing your rule using `BB_Logic_Rules::register`.  
-  See the section below on the backend API for more information about using the `BB_Logic_Rules` methods for processing rules.
+```php
+add_action( 'bb_logic_init', function() {
+  require_once BB_LOGIC_EXAMPLE_DIR . 'includes/rules.php';
+} );
+```
 
-  ```php
-  BB_Logic_Rules::register( array(
-    'bb-logic-example/user-post-count' => 'bb_logic_example_user_post_count',
-  ) );
+2. Register a callback function for processing your rule using `BB_Logic_Rules::register`.
+   See the section below on the backend API for more information about using the `BB_Logic_Rules` methods for processing rules.
 
-  function bb_logic_example_user_post_count( $rule ) {
-      $user = wp_get_current_user();
-      return BB_Logic_Rules::evaluate_rule( array(
-        'value' => count_user_posts( $user->ID ),
-        'operator' => $rule->operator,
-        'compare' => $rule->count,
-      ) );
-  }
-  ```
+```php
+BB_Logic_Rules::register( array(
+  'bb-logic-example/user-post-count' => 'bb_logic_example_user_post_count',
+) );
+
+function bb_logic_example_user_post_count( $rule ) {
+    $user = wp_get_current_user();
+    return BB_Logic_Rules::evaluate_rule( array(
+      'value' => count_user_posts( $user->ID ),
+      'operator' => $rule->operator,
+      'compare' => $rule->count,
+    ) );
+}
+```
 
 That’s it! You’ve successfully created your first rule.
 
@@ -114,41 +117,38 @@ This API object contains the following functions for working with rules and rule
 
 Adds a new rule to the conditional logic form. It accepts two arguments: a rule ID and a `props` configuration object.
 
-**id** string  
-  A unique value assigned to each rule. The value should follow the format of _namespace_ / _rule_ , where namespace is the name of your plugin, theme, or other identifying information. For example, if my company name was Acme Co. and my rule was for movies, my rule I would be `acme-co/movies`.
+**id** string
+A unique value assigned to each rule. The value should follow the format of _namespace_ / _rule_ , where namespace is the name of your plugin, theme, or other identifying information. For example, if my company name was Acme Co. and my rule was for movies, my rule I would be `acme-co/movies`.
 
-**props** object  
-  The required properties that must be defined on the `props` object for a rule to be added.
+**props** object
+The required properties that must be defined on the `props` object for a rule to be added.
 
-  * **label** string  
+- **label** string
   The human-readable label for each rule that is shown in the conditional logic form.
 
-  * **category** string  
+- **category** string
   The ID of a registered rule category. See the `addRuleTypeCategory` function for information about adding custom rule categories.
 
-  * **form** object | function  
+- **form** object | function
   Specifies the conditional logic form field config for a rule. Each property on the `form` object must be the key for a field as well as an object for the field’s config. This is similar to but much simpler than Beaver Builder’s module form API, written in JavaScript. See the Form Field API section below for details about each type of field that you can register.
 
 Examples of `addRuleType()`:
 
 ```js
 // Example of BBLogic.api.addRuleType()
-BBLogic.api.addRuleType( 'my-plugin/my-rule', {
-  label: BBLogic.i18n.__( 'My Rule' ),
-  category: 'my-category',
-  form: {
-    operator: {
-      type: 'operator',
-        operators: [
-          'equals',
-          'does_not_equal',
-        ],
-      },
-      compare: {
-        type: 'text',
-      },
+BBLogic.api.addRuleType("my-plugin/my-rule", {
+    label: BBLogic.i18n.__("My Rule"),
+    category: "my-category",
+    form: {
+        operator: {
+            type: "operator",
+            operators: ["equals", "does_not_equal"],
+        },
+        compare: {
+            type: "text",
+        },
     },
-} )
+});
 ```
 
 The `form` property may also be a function that returns a form config object, as described above. That function receives an object with the current form’s data, which is useful for modifying your form config based on user input, as in the following example.
@@ -194,8 +194,8 @@ BBLogic.api.addRuleType( 'my-plugin/my-rule', {
 
 Removes a registered rule type with the provided ID. This must be called after the rule has been added. Calling it before will have no effect.
 
-**id** string  
-  The ID of the rule to remove.
+**id** string
+The ID of the rule to remove.
 
 Example of `removeRuleType()`:
 
@@ -207,13 +207,13 @@ BBLogic.api.removeRuleType( 'my-plugin/my-rule' )
 
 The `addRuleTypeCategory` function allows you to add a new rule category to the conditional logic form. It accepts two arguments, a rule category `id` and a `props` configuration object.
 
-**id** string  
-  A value assigned to that must be unique and cannot be defined for another category.
+**id** string
+A value assigned to that must be unique and cannot be defined for another category.
 
-**props** object  
-  The required properties that must be defined on the `props` object for a category.
+**props** object
+The required properties that must be defined on the `props` object for a category.
 
-  * **label** string  
+- **label** string
   The human-readable label for each category that is shown in the conditional logic form.
 
 Example of `addRuleTypeCategory()`:
@@ -229,13 +229,14 @@ BBLogic.api.addRuleTypeCategory( 'my-category', {
 
 Defines the form value of the `props` object for the `addRuleType` function. This function lets you utilize common form configurations without having to define them yourself.
 
-**id** string  
-  The ID for the form preset. The following form presets are currently available as `id` values.
-  * **address** \- for matching the various parts of an address
-  * **date** \- for matching complex date rules such as on, over, before or after
-  * **key-value** \- for matching key/value pairs
-  * **number** \- for matching a specific number
-  * **string** \- for matching a specific string
+**id** string
+The ID for the form preset. The following form presets are currently available as `id` values.
+
+- **address** \- for matching the various parts of an address
+- **date** \- for matching complex date rules such as on, over, before or after
+- **key-value** \- for matching key/value pairs
+- **number** \- for matching a specific number
+- **string** \- for matching a specific string
 
 Example of `getFormPreset()`:
 
@@ -251,7 +252,7 @@ The i18n object contains methods for making your rules available for translation
 
 Makes a string available for translation.
 
-**string** string  
+**string** string
 The string to make available for translation.
 
 Example of `BBLogic.i18n`:
@@ -380,7 +381,8 @@ my_select: {
 In addition to providing an array of predefined options, you can also specify a REST API route that will request the options from the server. This is useful when you need dynamically generated options such as the taxonomies available on a site. See the REST API Routes section for more information about the core routes that are available.
 
 ```js
-// Example of specifying a REST API route that will dynamically generate form options from the server.
+// Example of specifying a REST API route that will
+// dynamically generate form options from the server.
 my_select: {
   type: 'select',
   route: 'bb-logic/v1/wordpress/taxonomies',
@@ -461,7 +463,8 @@ my_time: {
 Using the **visible** property on a field’s configuration object lets you determine if a field should be visible to the user or not. This is useful when you have rules that require an additional field that should only be visible when other fields have a specific value. For example, below we are showing that the `compare` field is only visible when the operator field does not equal `is_set`.
 
 ```js
-// Example showing that the compare field is only visible when the operator field does not equal is_set.
+// Example showing that the compare field is only visible when
+// the operator field does not equal is_set.
 form: function( props ) {
   var operator = props.rule.operator
   return {
@@ -496,8 +499,8 @@ This method registers an array of rule callback functions that will be called to
 
 The callback function receives a rule object (shown below) that contains all of the data from the rule form that was registered on the frontend. You must use that data to decide whether a rule callback function should return true or false. That is typically done with the `evaluate_rule` method, but it doesn’t have to be. You can use any custom logic you want with the provided rule data to decide whether a callback function should return true or false for a rule.
 
-**$rules** array  
-  An array of rule callback functions to register. The key is the rule ID and the value is the callback function.
+**$rules** array
+An array of rule callback functions to register. The key is the rule ID and the value is the callback function.
 
 Example of `BB_Logic_Rules::register()`:
 
@@ -520,19 +523,20 @@ function my_plugin_rule_callback( $rule ) {
 
 Helper method that helps to decide whether a rule is true or false. This method is not required to evaluate a rule. Any custom logic that returns true or false based on rule data will do. However, this method provides logic for common operations such as equals, does not equal, greater than or less than, and it can save you the hassle of having to write that logic yourself.
 
-**$data** array  
-  An array of rule data that will be evaluated as either true or false.
-  * **value** mixed  
+**$data** array
+An array of rule data that will be evaluated as either true or false.
+
+- **value** mixed
   A value to test other data (such as compare) against.
-  * **operator** string  
+- **operator** string
   A registered core operator string from the operator field such as equals, does_not_equal, starts_with or ends_with.
-  * **compare** mixed (optional)  
+- **compare** mixed (optional)
   Used to compare against the provided value. This is only required for operators that use a compare value such as `equals` or `does_not_equal`. Operators such as `is_set` or `is_empty` do not require a compare value.
-  * **isset** boolean (optional)  
+- **isset** boolean (optional)
   Used for the `is_set` and `is_not_set` operators to check if a value is set or not.
-  * **start** integer (optional)  
+- **start** integer (optional)
   Used as the start value for `within`, `not_within`, `between` or `not_between` operators to check if an integer is within a range or not.
-  * **end** integer (optional)  
+- **end** integer (optional)
   Used as the end value for `within`, `not_within`, `between` or `not_between` operators to check if an integer is within a range or not.
 
 Example of `BB_Logic_Rules::evaluate_rule`:
@@ -553,68 +557,72 @@ BB_Logic_Rules::evaluate_rule( array(
 
 The core REST API Routes are available for populating your fields with data for the user to choose from. If one of these routes doesn’t fit your needs, you can create a custom route for your fields.
 
-**Archives**  
-  Returns an array of `select` options for selecting a type of archive.
+**Archives**
+Returns an array of `select` options for selecting a type of archive.
 
 ```js
-    bb-logic/v1/wordpress/archives
+bb - logic / v1 / wordpress / archives;
 ```
 
-**Capabilities**  
-  Returns an array of `select` options for selecting a user capability.
+**Capabilities**
+Returns an array of `select` options for selecting a user capability.
 
 ```js
-bb-logic/v1/wordpress/capabilities
+bb - logic / v1 / wordpress / capabilities;
 ```
 
-**Posts**  
-  Returns an array of `select` options for selecting a post.
+**Posts**
+Returns an array of `select` options for selecting a post.
 
 ```js
 bb-logic/v1/wordpress/posts?post_type=<post_type>
 ```
 
-**Post Stati**  
-  Returns an array of `select` options for selecting a post status.
+**Post Stati**
+Returns an array of `select` options for selecting a post status.
 
 ```js
-bb-logic/v1/wordpress/post-stati
+bb - logic / v1 / wordpress / post - stati;
 ```
 
-**Post Templates**  
-  Returns an array of `select` options for selecting a post template.  
-  ```js
-  bb-logic/v1/wordpress/post-templates
-  ```
-**Post Types**  
-  Returns an array of `select` options for selecting a post type.
+**Post Templates**
+Returns an array of `select` options for selecting a post template.
 
 ```js
-bb-logic/v1/wordpress/post-types
+bb - logic / v1 / wordpress / post - templates;
 ```
 
-**Roles**  
-  Returns an array of `select` options for selecting a user role.
+**Post Types**
+Returns an array of `select` options for selecting a post type.
 
 ```js
-bb-logic/v1/wordpress/roles
+bb - logic / v1 / wordpress / post - types;
 ```
 
-**Taxonomies**  
-  Returns an array of `select` options for selecting a taxonomy.
+**Roles**
+Returns an array of `select` options for selecting a user role.
 
 ```js
-bb-logic/v1/wordpress/taxonomies
+bb - logic / v1 / wordpress / roles;
 ```
 
-**Terms**  
-  Returns an array of `select` options for selecting a taxonomy term.  
-  ```js
+**Taxonomies**
+Returns an array of `select` options for selecting a taxonomy.
+
+```js
+bb - logic / v1 / wordpress / taxonomies;
+```
+
+**Terms**
+Returns an array of `select` options for selecting a taxonomy term.
+
+```js
 bb-logic/v1/wordpress/terms?taxonomy=<taxonomy>
-  ```
+```
 
-**User**  
-  Returns an array of `suggest` options for selecting a username.  
-  ```
+**User**
+Returns an array of `suggest` options for selecting a username.
+
+```
 bb-logic/v1/wordpress/users?suggest=<text>
-  ```
+```

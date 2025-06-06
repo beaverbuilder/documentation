@@ -25,8 +25,9 @@ module.exports = {
       },
       items: [
         "getting-started/what-can-i-do-with-beaver-themer",
-        "getting-started/beaver-themer-requirements-for-installation",
-        "getting-started/install-beaver-themer",
+        "getting-started/requirements",
+        "getting-started/install",
+        "getting-started/supported-themes",
         "getting-started/i-installed-beaver-themer-now-what",
         "getting-started/primer-on-wordpress-content-and-theme-areas-themer",
       ],
@@ -35,8 +36,8 @@ module.exports = {
       type: "category",
       label: "Layout Types & Modules",
       link: {
-        type: "generated-index",
-        title: "Layout Types & Modules",
+        type: "doc",
+        id: "layout-types-modules/index",
       },
       items: [
         {
@@ -50,7 +51,9 @@ module.exports = {
         {
           type: "category",
           label: "Footer layout type",
-          items: ["layout-types-modules/footer-layout-type/themer-footer-layout-type"],
+          items: [
+            "layout-types-modules/footer-layout-type/themer-footer-layout-type",
+          ],
         },
         {
           type: "category",
@@ -85,7 +88,9 @@ module.exports = {
         {
           type: "category",
           label: "404 layout type",
-          items: ["layout-types-modules/404-layout-type/themer-404-layout-type"],
+          items: [
+            "layout-types-modules/404-layout-type/themer-404-layout-type",
+          ],
         },
         {
           type: "category",
@@ -299,26 +304,14 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Management/Compatibility",
-      link: {
-        type: "generated-index",
-        title: "Management & Compatibility",
-      },
-      items: [
-        "management-compatibility/beaver-themer-supported-themes",
-        "management-compatibility/full-width-layouts-on-third-party-themes-themer",
-        "management-compatibility/export-beaver-themer-layouts",
-      ],
-    },
-    {
-      type: "category",
       label: "Troubleshooting",
       link: {
         type: "generated-index",
         title: "Troubleshooting",
       },
       items: [
-        "troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu",
+        "troubleshooting/themer-layouts-menu-missing",
+        "troubleshooting/full-width-layout-types",
         "troubleshooting/why-does-my-themer-layout-say-unsupported",
         "troubleshooting/message-this-post-has-a-themer-layout-assigned",
         "troubleshooting/troubleshooting-singular-layout-appears-in-post-preview-but-not-actual-post-themer",
@@ -332,12 +325,12 @@ module.exports = {
         title: "Developer",
       },
       items: [
-        "developer/add-header-footer-and-parts-support-to-your-theme-themer",
+        "developer/add-themer-support",
         "developer/conditional-logic-apis",
         "developer/customize-field-connections-themer",
         "developer/add-custom-attributes-to-themer-layouts",
         "developer/customize-themer-modules",
-        "developer/hide-row-or-module-when-field-connection-is-empty-themer",
+        "developer/hide-node-when-field-connection-is-empty",
         "developer/hooks-reference-themer",
         "developer/wp-cli-for-beaver-themer",
       ],

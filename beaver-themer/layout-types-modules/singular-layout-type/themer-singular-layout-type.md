@@ -96,4 +96,11 @@ This template has the following modules:
 
 - If you want to revert to this default layout, click the **Templates** tab in the Content panel when you're editing the Singular Themer layout in Beaver Builder.
 - You can [add a Related Posts section with a Posts module](/beaver-themer/layout-types-modules/singular-layout-type/use-the-posts-module-to-create-related-posts.md).
-  :::
+
+:::
+
+## Singular Layouts As Page Templates
+
+Singular layouts can be saved as WordPress Page Templates, which can then be selected from the **Templates** menu for pages, posts, and custom post types. This allows you to create multiple layouts for your website. For example, full-width, sidebar-left, sidebar-right, and more. Your users can then select their preferred layout for each individual post or page.
+
+To enable this feature, simply check the Custom Template option in the Singular Layout’s Themer Settings. After saving your layout as a template, it will become available in the Custom Templates menu when editing pages, posts, or custom post types.

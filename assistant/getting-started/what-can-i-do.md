@@ -30,6 +30,10 @@ The Assistant Pro Cloud storage platform connects to the WordPress sites that ha
 * Manage WordPress content (pages, posts, custom post types, and media), WooCommerce content, Beaver Builder templates, and Beaver Themer layouts.
 * Store supported third-party page builder templates, including Divi, Visual Composer, and Elementor.
 
+:::caution
+Assistant has a file size limit of 5MB. Files larger than this cannot be uploaded. If your images exceed 5MB, please resize them using an image optimization tool before uploading them to the library.
+:::
+
 :::info
 Assistant’s functionality is extended by using other Beaver Builder products, but Assistant works on non-Beaver-Builder sites too.
 :::

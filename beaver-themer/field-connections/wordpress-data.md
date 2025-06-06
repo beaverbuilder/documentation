@@ -10,21 +10,21 @@ In this article, you'll find a comprehensive list of available WordPress data fi
 
 You can locate Field Connection shortcodes for our third-party integrations by following the links provided below.
 
-* [Advanced Custom Fields (ACF)](../integrations/acf/index.md)
-* [BigCommerce](../integrations/bigcommerce/field-connections.md)
-* [Easy Digital Downloads](../integrations/easy-digital-downloads/field-connections.md)
-* [The Events Calendar](../integrations/tec/field-connections.md)
-* [WooCommerce](../integrations/woocommerce/field-connections.md)
+- [Advanced Custom Fields (ACF)](../integrations/acf/index.md)
+- [BigCommerce](../integrations/bigcommerce/field-connections.md)
+- [Easy Digital Downloads](../integrations/easy-digital-downloads/field-connections.md)
+- [The Events Calendar](../integrations/tec/field-connections.md)
+- [WooCommerce](../integrations/woocommerce/field-connections.md)
 
 :::
 
 :::tip
 WordPress data field connection shortcodes also support conditionals and expressions. Learn more by visiting the following links:
 
-* [Conditionals](conditionals.md)
-* [Expressions](expressions.md)
-* [Conditional Examples](examples/conditional.md)
-* [Expression Examples](examples/expressions.md)
+- [Conditionals](conditionals.md)
+- [Expressions](expressions.md)
+- [Conditional Examples](examples/conditional.md)
+- [Expression Examples](examples/expressions.md)
 
 :::
 
@@ -46,9 +46,9 @@ Outputs an archive's description.
 [wpbb archive:description]
 ```
 
-### Archive Count 
+### Archive Count
 
-Outputs an archive's count. Example: *(Showing 1-5 of 25.)*
+Outputs an archive's count. Example: _(Showing 1-5 of 25.)_
 
 ```markup
 [wpbb archive:show_count]
@@ -56,7 +56,7 @@ Outputs an archive's count. Example: *(Showing 1-5 of 25.)*
 
 ### Archive Page Count
 
-Outputs an archive page count. Example: *(Page 1 of 3.)*
+Outputs an archive page count. Example: _(Page 1 of 3.)_
 
 ```markup
 [wpbb archive:show_page_count]
@@ -80,11 +80,12 @@ Outputs the authors name.
 [wpbb post:author_name]
 ```
 
-* Options  
-  * **Type** - Choices are display (default), first name, last name, first last, last first, nickname, and username.
-  * **Link** - Enable/Disable a link to the author's archive or to the website in the author's user profile.
+- Options
 
-* Example  
+  - **Type** - Choices are display (default), first name, last name, first last, last first, nickname, and username.
+  - **Link** - Enable/Disable a link to the author's archive or to the website in the author's user profile.
+
+- Example
 
   ```markup
   [wpbb post:author_name type='first' link='yes' link_type='website']
@@ -106,9 +107,9 @@ Outputs the author's website or archive e.g. `https://my-website.com/author/name
 [wpbb post:author_url type='archive']
 ```
 
-* Options  
+- Options
 
-  * **Type** - Post Archive or Profile Website.
+  - **Type** - Post Archive or Profile Website.
 
 :::tip **Tip**
 You can wrap the field connection shortcode with `<a>` tags to make a link.
@@ -116,6 +117,7 @@ You can wrap the field connection shortcode with `<a>` tags to make a link.
 ```markup
 <a href="[wpbb post:author_url type=archive]" title="Author Website">Author Website</a>
 ```
+
 :::
 
 ### Author Picture
@@ -126,16 +128,17 @@ Outputs the authors profile picture.
 [wpbb post:author_profile_picture link='no' link_type='archive' size='100']
 ```
 
-* Options  
-  * **Type** - Choices are display (default), first name, last name, first last, last first, nickname, and username.
-  * **Link** - Enable/Disable a link to the author's archive or to the website in the author's user profile.
+- Options
 
-* Example  
+  - **Type** - Choices are display (default), first name, last name, first last, last first, nickname, and username.
+  - **Link** - Enable/Disable a link to the author's archive or to the website in the author's user profile.
+
+- Example
 
   ```markup
   [wpbb post:author_name type='first' link='yes' link_type='website']
   ```
-  
+
 ### Author Picture URL
 
 Outputs the authors profile picture URL.
@@ -144,10 +147,10 @@ Outputs the authors profile picture URL.
 [wpbb post:author_profile_picture_url size='100']
 ```
 
-* Options
+- Options
 
-  * **Size** - Set the pixel size of the image e.g. 100px.
-  
+  - **Size** - Set the pixel size of the image e.g. 100px.
+
 ### Author Meta
 
 Outputs the author’s meta term, such as the value of a custom field assigned to the user profile page.
@@ -166,12 +169,12 @@ Outputs a post's comment number. Example: 21 Comments.
 [wpbb post:comments_number link='yes' none_text='No Comments' one_text='1 Comment' more_text='% Comments']
 ```
 
-* Options  
+- Options
 
-  * **Link** - Enable/Disable link.
-  * **No Comments Text** - Set the text for when there are no comments. Default is "No Comments".
-  * **One Comment Text** - Set the text for when there is one comment. Default is "1 Comment".
-  * **Comments Text** - Set the text for when there are multiple comments. Default is "% Comments".
+  - **Link** - Enable/Disable link.
+  - **No Comments Text** - Set the text for when there are no comments. Default is "No Comments".
+  - **One Comment Text** - Set the text for when there is one comment. Default is "1 Comment".
+  - **Comments Text** - Set the text for when there are multiple comments. Default is "% Comments".
 
 ### Comments URL
 
@@ -187,7 +190,7 @@ The Post/Page field connections work for all public post types this includes cus
 
 ### Post Title
 
-Outputs the post's title. 
+Outputs the post's title.
 
 ```markup
 [wpbb post:title]
@@ -209,12 +212,12 @@ Outputs the post excerpt.
 [wpbb post:excerpt length='55' more='']
 ```
 
-* Options
-  
-  * **Length** - Accepts a number (number of words). Default is 55.
-  * **More** - Accepts text to appear after the excerpt
+- Options
 
-* Example
+  - **Length** - Accepts a number (number of words). Default is 55.
+  - **More** - Accepts text to appear after the excerpt
+
+- Example
 
   ```markup
   [wpbb post:excerpt length='100' more='Continue Reading']
@@ -236,15 +239,29 @@ Outputs [WordPress custom fields](https://wordpress.org/support/article/custom-f
 [wpbb post:custom_field key='']
 ```
 
-* Options
-  
-  * **Key** - Your custom field key
+- Options
 
-* Example
+  - **Key** - Your custom field key/name
+
+- Example
 
   ```markup
-  [wpbb post:custom_field key='blue']
+  [wpbb post:custom_field key='my_field_name']
   ```
+
+  - **Format** - Accepts date formats, such as `F j, Y` if the field value is a date.
+
+  - Example
+
+    ```markup
+    [wpbb post:custom_field key='my_field_name' format='F j, Y']
+    ```
+
+    - Output
+
+      ```markup
+      December 25, 2025
+      ```
 
 ### Post Link
 
@@ -254,11 +271,11 @@ Outputs the post's Link.
 [wpbb post:link text='title']
 ```
 
-* Options
+- Options
 
-  * **Link Text** - Choice of Post Title or Custom.
+  - **Link Text** - Choice of Post Title or Custom.
 
-* Example
+- Example
 
   ```markup
   [wpbb post:link text='custom' custom_text='Read More...']
@@ -271,7 +288,7 @@ Outputs the post's URL. Example: `https://my-website.com/hello-world/`.
 ```markup
 [wpbb post:url]
 ```
-  
+
 ### Post Slug
 
 Outputs the post's slug. Example: `hello-world`.
@@ -290,7 +307,7 @@ Outputs the post types name, singular name, or slug. Example: `post`.
 
 **Options**
 
-* **Display** - Choices are Slug, Singular Same, Name, or No Posts Found.
+- **Display** - Choices are Slug, Singular Same, Name, or No Posts Found.
 
 :::tip
 
@@ -308,18 +325,18 @@ See the [PHP date() document](https://secure.php.net/manual/en/function.date.php
 [wpbb post:date format='']
 ```
 
-* Options
+- Options
 
-  * **Format** - Accepts date formats
+  - **Format** - Accepts date formats
 
-* Example
+- Example
 
   ```markup
   [wpbb post:date format='F j, Y']
   ```
-  
-  * Output
-  
+
+  - Output
+
     ```markup
     December 25, 2021
     ```
@@ -332,16 +349,16 @@ See the [PHP date() document](https://secure.php.net/manual/en/function.date.php
 [wpbb post:modified_date format='']
 ```
 
-* Options
+- Options
 
-  * **Format** - Accepts date formats.
+  - **Format** - Accepts date formats.
 
-* Example
+- Example
 
   ```markup
   [wpbb post:modified_date format='F j, Y']
   ```
-  
+
 ### Post Featured Image
 
 Outputs the post's [featured image](https://wordpress.org/support/article/settings-sidebar/#featured-image).
@@ -350,14 +367,14 @@ Outputs the post's [featured image](https://wordpress.org/support/article/settin
 [wpbb post:featured_image size='thumbnail' display='tag' align='left' linked='yes']
 ```
 
-* Options
+- Options
 
-  * **Size** - Thumbnail, Medium, Large, Full Size and any custom sizes you have.
-  * **Display** - Image Tag ([`<img>`](https://www.w3schools.com/tags/tag_img.asp)), URL, Title, Caption, Description or Alt.
-  * **Align** - default, left, center, right.
-  * **Linked** - Enable or disable the link on the featured image.
+  - **Size** - Thumbnail, Medium, Large, Full Size and any custom sizes you have.
+  - **Display** - Image Tag ([`<img>`](https://www.w3schools.com/tags/tag_img.asp)), URL, Title, Caption, Description or Alt.
+  - **Align** - default, left, center, right.
+  - **Linked** - Enable or disable the link on the featured image.
 
-* Example
+- Example
 
   ```markup
   [wpbb post:featured_image size='medium' display='tag' align='center' linked='yes']
@@ -365,7 +382,7 @@ Outputs the post's [featured image](https://wordpress.org/support/article/settin
 
 ### Post Attached Image
 
-Outputs any [images attached to the post](https://wordpress.org/support/article/using-image-and-file-attachments/#attachment-to-a-post). 
+Outputs any [images attached to the post](https://wordpress.org/support/article/using-image-and-file-attachments/#attachment-to-a-post).
 
 :::info
 This field connection only appears in modules that have a gallery field setting, such as the Gallery or Slideshow modules.
@@ -373,7 +390,7 @@ This field connection only appears in modules that have a gallery field setting,
 
 ```markup
 [wpbb post:attached_images]
-``` 
+```
 
 ### Post Terms List
 
@@ -385,30 +402,30 @@ Outputs the post's terms assigned to the post type you are editing.
 
 **Options**
 
-* **Taxonomy** (`taxonomy=''`)  
-Displays the taxonomy terms assigned to the post type your Themer layout applies to.  
-Examples: For standard posts, the terms are Categories and Tags. For WooCommerce Products, the terms are Product Categories and Product Tags.
+- **Taxonomy** (`taxonomy=''`)
+  Displays the taxonomy terms assigned to the post type your Themer layout applies to.
+  Examples: For standard posts, the terms are Categories and Tags. For WooCommerce Products, the terms are Product Categories and Product Tags.
 
-* **Layout** (`html_list=''`)  
-Choose how the terms are displayed from Separator, Unordered List (`<ul>`), Ordered List (`<ol>`), Div/Span (`<span>`).  
-  
+- **Layout** (`html_list=''`)
+  Choose how the terms are displayed from Separator, Unordered List (`<ul>`), Ordered List (`<ol>`), Div/Span (`<span>`).
+
 :::info
 
 The list layouts are not hierarchical. For example, if you have both parent and child categories selected for posts, they will appear at the same level in the list layout.
 
 :::
 
-* **Display** (`display=''`)  
-Choose how the terms are displayed from Name, or Slug.
+- **Display** (`display=''`)
+  Choose how the terms are displayed from Name, or Slug.
 
-* **Separator** (`separator=''`)  
-Leave blank or add in something to separate the terms (if Layout is set to Separator). Default is comma (,). 
+- **Separator** (`separator=''`)
+  Leave blank or add in something to separate the terms (if Layout is set to Separator). Default is comma (,).
 
-* **Limit** (`limit=''`)  
-Limit the number of terms returned.
+- **Limit** (`limit=''`)
+  Limit the number of terms returned.
 
-* **Linked** (`linked=''`)  
-Enable or disable the link to the taxonomy term.
+- **Linked** (`linked=''`)
+  Enable or disable the link to the taxonomy term.
 
 **Example**
 
@@ -429,6 +446,7 @@ Outputs the site's title from the [WordPress Customizer](https://wordpress.org/s
 ### Site Tagline
 
 Outputs the site's tagline from the [WordPress Customizer](https://wordpress.org/support/article/appearance-customize-screen/#site-identity).
+
 ```markup
 [wpbb site:tagline]
 ```
@@ -443,17 +461,17 @@ Outputs the site's URL.
 
 ### Current Year
 
-Outputs the site's year. Useful for adding a dynamic year in footer layouts.  
+Outputs the site's year. Useful for adding a dynamic year in footer layouts.
 
 ```markup
 [wpbb site:year format='Y']
 ```
 
-* Example:  
+- Example:
 
-  `Copyright © 2010 - [wpbb site:year format='Y'] My Company Name.`  
-  
-  * Output:  
+  `Copyright © 2010 - [wpbb site:year format='Y'] My Company Name.`
+
+  - Output:
 
     > © 2010 - 2023 My Company Name.
 
@@ -467,15 +485,15 @@ Outputs the user's name.
 [wpbb site:user_name type='display' link='yes' user='current']
 ```
 
-* Options
+- Options
 
-  * **Type** - Choices are Display Name (Default), First Name, Last Name, First & Last Name, Last, First Name, Nickname, and Username.
-  * **Link** - Enable/Disable a link to the user's archive or to the website in the user profile.
-  * **Link_type** - Post Archive or Profile Website (if Link set to yes).
-  * **User** - Current or Specific
-  * **User ID** Enter the User ID number (if User is set to Specific).
+  - **Type** - Choices are Display Name (Default), First Name, Last Name, First & Last Name, Last, First Name, Nickname, and Username.
+  - **Link** - Enable/Disable a link to the user's archive or to the website in the user profile.
+  - **Link_type** - Post Archive or Profile Website (if Link set to yes).
+  - **User** - Current or Specific
+  - **User ID** Enter the User ID number (if User is set to Specific).
 
-* Example
+- Example
 
   ```markup
   [wpbb site:user_name type='display' link='yes' link_type='archive' user='specific' user_id='1']
@@ -489,12 +507,12 @@ Outputs the user's bio **(WordPress Dashboard > Users > Profile > Biographical I
 [wpbb site:user_bio user=current user_id='']
 ```
 
-* Options
+- Options
 
-  * **User** - Current, Specific
-  * **User ID** - User ID number (if User set to Specific).
+  - **User** - Current, Specific
+  - **User ID** - User ID number (if User set to Specific).
 
-* Example
+- Example
 
   ```markup
   [wpbb site:user_bio user='specific' user_id='2']
@@ -508,33 +526,33 @@ Outputs the user's URL. Example: `https://my-website.com/author/name/`.
 [wpbb site:user_url type='archive' user='current']
 ```
 
-* Options
+- Options
 
-  * **Type** - Post Archive or Profile Website
-  * **User** - Current or Specific
-  * **User ID** Enter the User ID number (if User is set to Specific).
+  - **Type** - Post Archive or Profile Website
+  - **User** - Current or Specific
+  - **User ID** Enter the User ID number (if User is set to Specific).
 
-* Example
+- Example
 
   ```markup
   [wpbb site:user_url type='website' user='specific' user_id='1']
   ```
-  
+
 ### User Picture
 
 ```markup
 [wpbb site:user_profile_picture link='yes' size='300' user='current']
 ```
 
-* Options
+- Options
 
-  * **Link** - Yes or No.
-  * **Link Type** - Post Archive or Users Profile Website 
-  * **Size** - Image Size in pixels (px).
-  * **User** - Current or Specific
-  * **User ID** - User ID number (if User set to Specific).
+  - **Link** - Yes or No.
+  - **Link Type** - Post Archive or Users Profile Website
+  - **Size** - Image Size in pixels (px).
+  - **User** - Current or Specific
+  - **User ID** - User ID number (if User set to Specific).
 
-* Example
+- Example
 
   ```markup
   [wpbb site:user_profile_picture link='yes' link_type='archive' size='300' user='specific' user_id='5']
@@ -548,13 +566,13 @@ Outputs the user's meta term, such as the value of a users profile setting or cu
 [wpbb site:user_meta key=?? user=current user_id=??]
 ```
 
-* Options
+- Options
 
-  * **Key** - User Meta key value
-  * **User** - Current or Specific
-  * **User ID** - User ID number (if User set to Specific).
+  - **Key** - User Meta key value
+  - **User** - Current or Specific
+  - **User ID** - User ID number (if User set to Specific).
 
-* Example
+- Example
 
   This is an example using [WooCommerce meta terms](https://docs.woocommerce.com/document/tutorial-customising-checkout-fields-using-actions-and-filters/#section-2) to output the user's company from the Customer billing address.
 
@@ -570,18 +588,18 @@ This shortcode returns True (1) or False (0) and is used mostly as a conditional
 [wpbb site:logged_in role='' user='current' user_id='']
 ```
 
-* Options
+- Options
 
-  * **Role/Roles** - User role, in lower case. Separate multiple roles with commas.
-  * **User** - Current or Specific
-  * **User ID** - User ID number (if User set to Specific).
+  - **Role/Roles** - User role, in lower case. Separate multiple roles with commas.
+  - **User** - Current or Specific
+  - **User ID** - User ID number (if User set to Specific).
 
-* Example
+- Example
 
   ```markup
   [wpbb-if site:logged_in role='administrator' user='current']
-  
+
     Display this message if currently logged-in user has role Administrator.
-  
+
   [/wpbb-if]
   ```

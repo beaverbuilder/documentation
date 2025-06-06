@@ -1,7 +1,12 @@
-# Broken links from wpbewaverbuilder.com
+# Broken links from wpbeaverbuilder.com
 [[redirects]]
 from = "https://docs.wpbeaverbuilder.com/general/faq"
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install-beaver-builder"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/getting-started/install/"
 status = 301
 force = true
 [[redirects]]
@@ -496,6 +501,47 @@ from = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/layout
 to = "https://docs.wpbeaverbuilder.com/beaver-builder/layouts/templates/saved-templates"
 status = 301
 force = true
+
+# Beaver Themer 1.5 redirects
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/developer/add-themer-support"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/miscellaneous/cant-find-the-beaver-builder-menu-in-the-admin-panel/"
+to = "https://docs.wpbeaverbuilder.com/beaver-builder/troubleshooting/builder-menu-missing/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/themer-layouts-option-doesnt-appear-in-builder-menu"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/themer-layouts-menu-missing/"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/export-beaver-themer-layouts"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/layout-types#export-themer-layout"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/install-beaver-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/install"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/beaver-themer-requirements-for-installation"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/requirements"
+status = 301
+force = true
+[[redirects]]
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/full-width-layouts-on-third-party-themes-themer"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/full-width-layout-types"
+status = 301
+force = true
+
+
+
+
 
 # Redirect Contact Form module doc link
 [[redirects]]
