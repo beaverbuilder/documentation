@@ -209,6 +209,24 @@ The hexadecimal color value excluding the hash (#) sign.
 ),
 ```
 
+#### Rendering Color Fields
+
+There are helper functions to render color fields.
+
+##### FLBuilderColor::hex_or_rgb
+This function ensures that the right color is rendered no matter the format.
+
+**Example Usage**
+```php
+FLBuilderCSS::rule( array(
+	'enabled'  => 'flat' === $settings->style && ! empty( $settings->bg_hover_color ),
+	'selector' => ".fl-builder-content .fl-node-$id a.fl-button:hover, .fl-page .fl-builder-content .fl-node-$id a.fl-button:hover, .fl-page .fl-builder-content .fl-node-$id a.fl-button:hover, .fl-page .fl-page .fl-builder-content .fl-node-$id a.fl-button:hover",
+	'props'    => array(
+		'background-color' => FLBuilderColor::hex_or_rgb( $settings->bg_hover_color ),
+	),
+) );
+```
+
 ### Date field
 
 The date field displays a simple date picker input. This field uses the native browser picker instead of a third-party JavaScript library.
