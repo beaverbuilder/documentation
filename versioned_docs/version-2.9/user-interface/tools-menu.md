@@ -155,7 +155,7 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Publish changes without leaving builder                                                                  |           <kbd>⌘ command</kbd> + <kbd>P</kbd>            |
 | Dismiss Active Panel                                                                                     |                      <kbd>Esc</kbd>                      |
 | [Undo](basics/undo-redo.md)                                                                              |           <kbd>⌘ command</kbd> + <kbd>Z</kbd>            |
-| [Redo](basics/undo-redo.md)                                                                              | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>S</kbd> |
+| [Redo](basics/undo-redo.md)                                                                              | <kbd>⇧ Shift</kbd> + <kbd>⌘ command</kbd> + <kbd>Z</kbd> |
 | Toggle [Outline Panel](outline-panel.md)                                                                 |            <kbd>⇧ Shift</kbd> + <kbd>O</kbd>             |
 | Toggle Outline Panel Tree                                                                                |            <kbd>⇧ Shift</kbd> + <kbd>T</kbd>             |
 | Open [Global Style](global-styles.md) Settings                                                           |           <kbd>⌘ command</kbd> + <kbd>G</kbd>            |
@@ -180,7 +180,7 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Publish changes without leaving builder                                                                  |           <kbd>Ctrl</kbd> + <kbd>P</kbd>            |
 | Dismiss Active Panel                                                                                     |                   <kbd>Esc</kbd>                    |
 | [Undo](basics/undo-redo.md)                                                                              |           <kbd>Ctrl</kbd> + <kbd>Z</kbd>            |
-| [Redo](basics/undo-redo.md)                                                                              | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd> |
+| [Redo](basics/undo-redo.md)                                                                              | <kbd>⇧ Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Z</kbd> |
 | Toggle [Outline Panel](outline-panel.md)                                                                 |          <kbd>⇧ Shift</kbd> + <kbd>O</kbd>          |
 | Toggle Outline Panel Tree                                                                                |          <kbd>⇧ Shift</kbd> + <kbd>T</kbd>          |
 | Open [Global Style](global-styles.md) Settings                                                           |          <kbd>⇧ Shift</kbd> + <kbd>G</kbd>          |
