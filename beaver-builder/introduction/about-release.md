@@ -24,41 +24,40 @@ Added a new Star Rating module to easily display ratings to create testimonial s
 
 ## :boom: Improvements
 
-## Box Module
+### Box Module
 
-## Grid
+#### Grid
 Added a global setting for applying global row spacing to top-level boxes. This will be enabled by default on new sites and disabled for existing 2.9 sites updating to 2.10 to ensure backward compatibility.
 
-## Spacing
+#### Spacing
 Added a global setting for applying global row spacing to top-level boxes. This will be enabled by default on new sites and disabled for existing 2.9 sites updating to 2.10 to ensure backward compatibility.
 
-## Button Module
+### Button Module
 Enable responsive behavior on additional fields: custom width, text color, background colors and border color.
 
 ## Menu Module
 Added width option for flyout menu.
 
 
-## UI Changes
+### UI Changes
 
-### Content Panel
+#### Content Panel
 
-#### Pre-built rows and modules
+##### Pre-built rows and modules
 Reworked the pre-built rows and modules panels to show categories instead of a dropdown.
 
-#### Saved Tab
-Added the ability to collapse the sections in the Saved panel.
+##### Saved Tab
+Added the ability to collapse the sections in the Saved panel
 
-### All Nodes
+#### Global Templates
+Change the global template overlay and badge color to green for better contrast with white text and icons.
+
+#### All Nodes
 Added a "Save As" action to the settings dropdown on overlays. Added a "Type" select in the "Save As" form to include Template, Global, and Component.
 
 Added copy and paste options to the context menu in the Outline Panel.
 
-
-### Global Templates
-Change the global template overlay and badge color to green for better contrast with white text and icons.
-
-## Accessibility
+### Accessibility
 Any changes to markup mentioned here make use of the Deprecation API.
 
 #### Accordion Module
