@@ -35,7 +35,7 @@ Added a global setting for applying global row spacing to top-level boxes. This 
 ### Button Module
 Enable responsive behavior on additional fields: custom width, text color, background colors and border color.
 
-## Menu Module
+### Menu Module
 Added width option for flyout menu.
 
 
