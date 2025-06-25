@@ -62,7 +62,8 @@ Any changes to markup mentioned here make use of the Deprecation API.
 
 #### Accordion Module
 Changes to HTML tags used for elements for new modules dropped on the page, increase focus ring size and change key event listener from keypress to keydown.
-Ensure proper ARIA attributes are used. Replaced the .fl-menu-mobile-toggle with the generic class .fl-content-ui-button so those buttons are excluded from Global Styles button styling. Implemented closing accordion tabs with Escape key and also ensured event handlers only target interactive buttons. All items close now when focus is outside of the accordion.
+
+Ensure proper ARIA attributes are used. Replaced the `.fl-menu-mobile-toggle` with the generic class `.fl-content-ui-button` so those buttons are excluded from Global Styles button styling. Implemented closing accordion tabs with Escape key and also ensured event handlers only target interactive buttons. All items close now when focus is outside of the accordion.
 
 #### Content Slider Module
 Added various improvements including making sure focus ring shows for links, add support for reduced-motion preference, prevent auto play on focus in or out, add aria-label and role attributes, improvements to keyboard navigation, adding focus to slider dot navigation, adjusting HTML markup in favor of list tags and button tags and more!
@@ -77,7 +78,7 @@ Added various accessibility improvements including enhancements for keyboard nav
 Change markup to use figcaption for caption per accessibility recommendations.
 
 #### Posts Module
-Added various accessibility improvements including deprecating the div container tag in favor of a unordered list and added a new option in the post container field.
+Added various accessibility improvements including deprecating the div container tag in favor of an unordered list and added a new option in the post container field.
 
 #### Post Slider & Post Carousel
 Added many accessibility improvements including using list tags for slides, button tags for navigation and pagination, proper aria attributes and making sure focus is visible on all controls.
@@ -86,9 +87,9 @@ Added many accessibility improvements including using list tags for slides, butt
 Ensured if there are redundant links, they are hidden from screen readers and are not used by keyboard navigation.
 
 #### Tabs Module
-Added arious accessibility fixes including using button tags for any buttons instead of links or divs. This uses the module deprecation API so the markup changes only affect new modules dropped on the page.
+Added various accessibility fixes including using button tags for any buttons instead of links or divs. This uses the module deprecation API so the markup changes only affect new modules dropped on the page.
 
-Ensured proper ARIA attribtes are in place. 
+Ensured proper ARIA attributes are in place. 
 
 #### Testimonials Module
 Changed HTML tag from div to blockquote. This uses the module deprecation API so the markup changes only affect new modules dropped on the page. 
@@ -99,7 +100,7 @@ Also added support for the reduced-motion preference and added an option for sho
 Add generic title/desc to row shapes for accessibility.
 
 #### Modules that display excerpts
-In modules that display excerpts, change default read more text to provide more context per accessibilityrecommendations.
+In modules that display excerpts, change default read more text to provide more context per accessibility recommendations.
 
 ### WP Admin
 Reworked wp-admin list table to show "Global" or "Component" label.  Reworked user access settings to allow editing per-page component settings but not the component itself. Added new user access setting for enabling or disabling cloud access based on user role.
