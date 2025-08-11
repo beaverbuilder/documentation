@@ -83,7 +83,9 @@ Please note, that in WordPress Multisite network installations, subsites are not
 
 ## Is Beaver Builder a plugin or a theme?
 
-Beaver Builder is a WordPress page builder plugin and can be installed using the WordPress plugin installer. However, some of our premium packages includes the [BB Theme](/bb-theme/).
+Beaver Builder is a front-end page builder plugin for WordPress, which can be installed through the WordPress plugin installer.
+
+We also offer the [Beaver Builder Theme](/bb-theme/), included with all premium packages.
 
 See our [Pricing page](https://www.wpbeaverbuilder.com/pricing/) for more information.
 
@@ -133,7 +135,7 @@ All Beaver Builder licenses are billed annually and we do not offer payment plan
 
 ## Which Beaver Builder Packages include Beaver Themer?
 
-Beaver Themer is only included with our Ultimate license. If you own any other Beaver Builder license, you will have to buy Beaver Themer separately.
+Beaver Themer is included in all premium license plans.
 
 ## What payment methods do you accept?
 
