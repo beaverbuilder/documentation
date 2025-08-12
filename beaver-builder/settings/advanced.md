@@ -223,7 +223,7 @@ We recommend keeping this option disabled, as it provides several benefits, incl
 
 :::info
 
-Consider enabling this option if you’re using CSS to style modules, as certain class names—such as `fl-module-content` —may be missing when the **Force Module Wrapper Divs** option is **disabled**.
+Consider enabling this option if you’re using CSS to style modules, as certain class names, such as `fl-module-content` —may be missing when the **Force Module Wrapper Divs** option is **disabled**.
 
 :::
 
@@ -231,7 +231,7 @@ Consider enabling this option if you’re using CSS to style modules, as certain
   <TabItem value="no-wrapper" label="No Wrapper (Default)">
 
 ```markup
-<h2 class="fl-module fl-module-heading fl-heading">Hello World</h2>
+<h2 class="fl-module fl-module-heading fl-heading fl-heading-text">Hello World</h2>
 ```
 
   </TabItem>
