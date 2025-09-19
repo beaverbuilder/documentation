@@ -256,7 +256,6 @@ module.exports = {
                     "layouts/modules/box/settings/children",
                   ],
                 },
-                // 'layouts/modules/box/using-align-options',
               ],
             },
             {
@@ -345,6 +344,7 @@ module.exports = {
             "layouts/modules/separator",
             "layouts/modules/sidebar",
             "layouts/modules/slideshow",
+            "layouts/modules/star-rating",
             "layouts/modules/social-buttons",
             {
               type: "category",
@@ -436,7 +436,19 @@ module.exports = {
             "layouts/post-layouts/add-rows-and-modules-to-index-archive-and-post-pages",
           ],
         },
-        "layouts/saved-content",
+        {
+          type: "category",
+          label: "Reusable Content",
+          link: {
+            type: "doc",
+            id: "layouts/reusable-content/index",
+          },
+          items: [
+            "layouts/reusable-content/templates",
+            "layouts/reusable-content/globals",
+            "layouts/reusable-content/components",
+          ],
+        },
       ],
     },
     {

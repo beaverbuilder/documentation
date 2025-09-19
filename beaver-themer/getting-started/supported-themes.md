@@ -31,7 +31,7 @@ The following theme developers have added full support for Beaver Themer:
 
 If you have a problem with Beaver Themer compatibility with these themes, contact the theme developer.
 
-If you have coding skills, you can [add custom support for header, footer, and parts layouts](/beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer.md) for other themes with some PHP code.
+If you have coding skills, you can [add custom support for header, footer, and parts layouts](/beaver-themer/developer/add-themer-support.md) for other themes with some PHP code.
 
 :::tip
 
