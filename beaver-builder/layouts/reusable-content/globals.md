@@ -82,13 +82,32 @@ You can rename template items in the same way you would rename a page or post.
 
 ## Delete Saved Content
 
-You can delete template items in two ways: from the builder (front end) or through the WordPress Admin Dashboard (back end).  
+You can delete global items in two ways: from the builder (front end) or through the WordPress Admin Dashboard (back end).  
 
-:::caution  
-If you delete a template item, any instances already inserted into layouts will remain unchanged.  
+:::caution
 
-The main exception is when a template item has been inserted as a [shortcode](shortcode/index.md). Any Beaver Builder shortcode that references a deleted template item will no longer display it.  
-:::  
+If you delete a Global item, any instances already placed in layouts will revert to standard rows or modules. For example, if you saved a Button module as a Global, deleting that Global will convert it back into a standard Button module within the layout.
+
+If you used the [Beaver Builder shortcode](shortcode/index.md) to render a Global item and then delete that Global, the shortcode will no longer display any content.
+
+:::
+
+### Front End  
+
+1. [Launch Beaver Builder](getting-started/launch-builder.md).  
+2. Open the [Content Panel](user-interface/content-panel.md) and click the **Saved** tab.  
+3. Hover over the global item you want to delete, then click the **x** (<i className="fas fa-times"></i>) icon.  
+4. A confirmation popup will appear with a warning message.  
+5. Click **OK** to delete the global. All instances on your site will be converted to standard rows or modules.  
+
+### Back End  
+
+1. Log in to your site’s WordPress Admin Dashboard.  
+2. Navigate to the Beaver Builder [Layouts Menu](settings/layouts-menu.md).  
+3. Click **Templates** and locate the global item you want to delete.  
+4. Hover over the item and click **Trash**.  
+5. To permanently remove the item, go to the WordPress Trash by clicking the **Trash** link at the top of the page.  
+6. Hover over the item again and click **Delete Permanently**.
 
 ## Categorize Saved Content
 
