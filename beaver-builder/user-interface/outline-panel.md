@@ -50,10 +50,13 @@ You can quickly move content such as rows, columns (except for child columns), a
 
 ## Right-Click
 
-Right-click any row, column, or module to see a list of available options. This action will also result in a blue outline appearing around the selected item within the builder.
+The **Outline Panel** includes a right-click feature that gives you quick access to common actions for rows, columns, and modules. This makes it easier to manage and customize your layout directly from the panel without navigating through multiple windows. The available actions are:
 
-- Rows and Columns have **Open settings** and **Remove** options.
-- Modules have **Open settings**, **Duplicate**, and **Remove** options.
+- **Open Settings** – Opens the settings window for the selected node (row, column, or module).  
+- **Duplicate** – Creates a duplicate of the selected node.  
+- **Copy Settings** – Copies the settings of the selected node to your computer’s clipboard.  
+- **Paste Settings** – Available after copying settings, this option lets you paste them into a corresponding node (row to row, column to column, or module to module).  
+- **Remove** – Deletes the selected node.  
 
 ![Right-Click Outline Panel](/img/beaver-builder/user-interface--outline-panel--2.jpg)
 
@@ -67,7 +70,7 @@ You can add a label inline by opening the Outline Panel, moving your mouse curso
 
 ### Adding a Label Through the Advanced Tab
 
-YOu can also add a label through the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md#label). The screenshot below shows an example where a label "Hero Heading" was added to a Heading module and is displayed in the Outline Panel.
+You can also add a label through the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md#label). The screenshot below shows an example where a label "Hero Heading" was added to a Heading module and is displayed in the Outline Panel.
 
 ![Labels displayed in Outline panel](/img/beaver-builder/user-interface--outline-panel--3.jpg)
 
