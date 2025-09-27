@@ -93,6 +93,10 @@ To any role whose access to editing global rows and modules is restricted, the f
 Default access for **Global Rows, Columns and Modules Editing** is applied to the Administrator, Editor, Author, and Contributor user roles.
 :::
 
+### Cloud Access
+
+The selected roles will have access to Beaver Builder Cloud and can manage templates and assets in the cloud. For roles without access, the cloud icon in the Top Bar will be unavailable, preventing users in those roles from accessing the Beaver Builder Cloud interface.
+
 ## Admin
 
 The **Admin** section lets you limit access to the Beaver Builder admin settings, Beaver Themer editing and access to the Template Exporter.
