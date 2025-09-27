@@ -25,7 +25,7 @@ The **Default Page Heading** option lets you show or hide the default theme head
 
 To learn how to hide the page title for third-party themes, visit the [Show or hide the page title](basics/show-hide-page-title.md) article.
 
-## Rows
+## Row Spacing
 
 ### Margin/Padding
 
@@ -36,6 +36,12 @@ Configure the default margin and padding value for all directions (top, right, b
 
 - **Padding** access `px`, `em`, or `%` CSS units.
   The default value is `20px`.
+  
+### Apply to Box
+
+When enabled, global row spacing also applies to Box modules within the top-level layout.
+
+## Row Defaults
 
 ### Max Width
 
@@ -45,9 +51,13 @@ The default value is `1100px`.
 
 ### Default Row Width
 
+Choose between **Fixed** or **Full-width** as the default setting for all rows. Selecting Fixed removes the Default Row Content Width option. You can override this setting for individual rows through the row settings.
+
+### Default Row Content Width
+
 Choose between **Fixed** or **Full-width** which will be the default for all rows. You can override this on a per row basis via the row settings.
 
-## Columns
+## Column Spacing
 
 ### Margin/Padding
 
@@ -59,7 +69,7 @@ Configure the default margin and padding value for all directions (top, right, b
 - **Padding** access `px`, `em`, or `%` CSS units.
   The default value is `0px`.
 
-## Modules
+## Module Spacing
 
 ### Margin
 
