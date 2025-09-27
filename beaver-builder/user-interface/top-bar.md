@@ -64,6 +64,18 @@ See the [Outline Panel](outline-panel.md) article for more information.
 
 The Assistant plugin's icon will appear in the **Top Bar** when Assistant is installed and activated on your site. Giving you quick access to [open and close Assistant plugin](/assistant/plugin/launch-assistant).
 
+## Beaver Cloud
+
+The Cloud icon allows you to connect to your Beaver Builder Cloud account and access your saved WordPress assets from any site where you’re using Beaver Builder.
+
+:::info
+
+When the [Assistant by Beaver Builder](#assistant) plugin is installed, the cloud icon is replaced with the Assistant logo.
+
+:::
+
+See the [Beaver Builder Cloud](cloud.md) article for more information.
+
 ## The Content Panel
 
 Click **+** to open and **x** to close. See the [Content panel](content-panel.md) article for more information.
