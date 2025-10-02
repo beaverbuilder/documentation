@@ -3,7 +3,6 @@ id: performance
 title: Performance
 sidebar_label: Performance
 description: This article provides suggestions and recommendations for improving your website's performance.
-draft: true
 ---
 
 Beaver Builder is optimized for speed and efficiency, but your website’s performance depends on more than just the builder. Factors like hosting, server configuration, image optimization, active plugins, and your theme all play a role in how fast your site loads. In this article, we’ll share best practices and recommendations to help you maximize performance and deliver a faster, smoother experience for your visitors.
