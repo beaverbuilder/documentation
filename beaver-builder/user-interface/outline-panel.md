@@ -48,9 +48,9 @@ Click once in any entry in the Outline panel to scroll to that node (row, column
 
 You can quickly move content such as rows, columns (except for child columns), and modules within the Outline Panel using drag-and-drop.
 
-## Right-Click
+## Context Menu _(right-click)_
 
-The **Outline Panel** includes a right-click feature that gives you quick access to common actions for rows, columns, and modules. This makes it easier to manage and customize your layout directly from the panel without navigating through multiple windows. The available actions are:
+The Outline Panel includes a right-click feature that opens the Context Menu, giving you quick access to common actions for rows, columns, and modules. This makes it easier to manage and customize your layout directly from the panel without switching between multiple windows. The available actions include:
 
 - **Open Settings** – Opens the settings window for the selected node (row, column, or module).  
 - **Duplicate** – Creates a duplicate of the selected node.  
@@ -76,7 +76,9 @@ You can also add a label through the [Advanced tab](/beaver-builder/layouts/adva
 
 ## Icon Indicators
 
-In the Outline Panel, icons will appear when the display visibility settings for a row, column, or module have been modified or when custom CSS or JavaScript has been added to them using the CSS or JavaScript sections in the [Advanced tab](/beaver-builder/layouts/advanced-tab/html-element.md).
+In the Outline Panel, each row, column, module, or container module is displayed with a unique icon that makes it easy to identify different content types. These icons also provide visual feedback by changing color when the node is saved as reusable content: **blue** for standard modules and templates, **orange** for Global items, and **purple** for Component items.  
+
+Additional icons appear when certain settings have been applied, such as modified display visibility or custom CSS or JavaScript added through the [Advanced tab](../layouts/advanced-tab/html-element.md). This gives you a quick way to identify special configurations at a glance.
 
 - The <i className="fa-solid fa-eye" style={{color: '#00a0d1'}} /> Blue Eye icon indicates a row, column, or module visibility display state is no longer using the default state of "Always".
 
