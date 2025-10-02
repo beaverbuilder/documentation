@@ -115,7 +115,7 @@ The following improvements have been added for the Beaver Builder user interface
   Added a "Save As" action to the settings dropdown on overlays. Added a "Type" select in the "Save As" form to include Template, Global, and Component.
 
 - **Outline Panel**  
-  Added copy and paste options to the context menu in the Outline Panel.
+  Added [copy and paste options to the context menu](/beaver-builder/user-interface/outline-panel.md#context-menu-right-click) in the Outline Panel.
 
 ### WordPress Admin
 
