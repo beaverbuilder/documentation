@@ -6,23 +6,29 @@ sidebar_label: Overlay & Actions Toolbar
 
 The Beaver Builder user interface provides a overlay that enables you to visualize your layout's structure, assists in identifying relationships between nodes (rows, columns, and modules) and provides convenient access to tools and actions for configuring your rows, columns, and modules.
 
-![Beaver Builder Overlay Outline](/img/beaver-builder/user-interface--builder-overlay--1.jpg)
+![Beaver Builder Overlay Outline](/img/beaver-builder/user-interface--builder-overlay--1.webp)
+
+---
 
 ## Overlay Outline
 
-The Overlay outline appears upon hovering your mouse cursor over any row, column, or module in your layout, exclusively displaying for the element your cursor is currently over. This serves as a visual guide, aiding in understanding the structure of the selected row.
+The **overlay outline** is a visual editing aid in Beaver Builder. It appears when you hover your mouse over a row, column, or module in your layout, highlighting only the element under your cursor. This makes it easier to see the structure of your layout and confirm which part you are about to edit.  
 
-The color of the Overlay Outline changes based on your actions or the type of content in the layout:
+The overlay outline is visible only in the editor and never appears on the published page. The outline helps you quickly distinguish between different nodes (rows, columns, or modules) and prevents mistakes by showing exactly which item will be edited. It also makes reusable content, such as Global and Component types, easy to identify since the outline changes color for these content types. In complex layouts, the overlay outline is especially useful for showing which nodes belong to a container module or row and for clarifying how columns and modules are structured within them.
 
-- A Blue outline signifies the row or module you are presently editing.
-- A Gray outline surrounds the row for the column or module currently being edited.
-- An Orange Outline appears around global rows, columns, or modules in your layout.
+![Overlay Outline Colors](/img/beaver-builder/user-interface--builder-overlay--2.webp)
 
-### Empty Columns
+### Outline Colors
 
-If your layout contains empty columns, the outline will appear dashed.
+The color of the overlay outline changes depending on the type of content or editing context:
 
-![Empty Columns dashed outline](/img/beaver-builder/user-interface--builder-overlay--2.jpg)
+| **Color**       | **Indicates** |
+|------------------|----------------|
+| **Dashed Blue**  | An empty column, meaning a column that does not contain any modules. |
+| **Gray**         | The row that contains the column or module you are currently editing. |
+| **Blue**         | The row or module you are currently editing. Also used for [Reusable Content templates](../layouts/reusable-content/templates.md). |
+| **Orange**       | A [Global Reusable Content](../layouts/reusable-content/globals.md) item, such as a saved row, column, or module. |
+| **Purple**       | A [Component Reusable Content](../layouts/reusable-content/components.md) item, such as a saved row, column, or module. |
 
 ## Actions Toolbar
 
