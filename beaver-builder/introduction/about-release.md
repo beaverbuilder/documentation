@@ -10,108 +10,123 @@ Beaver Builder 2.10 includes the following new features and improvements.
 
 ## :rocket: New Features
 
-### Assistant Integration
-Added new cloud icon to the toolbar for connecting to the cloud and saving templates.
+The following features have been added:
+
+### Beaver Builder Cloud
+
+Powered by Assistant Pro, Beaver Builder Cloud offers cloud storage and template sharing, making it easy to manage creative assets directly within Beaver Builder, without the need to install the Assistant plugin.
+
+See the [Beaver Builder Cloud](../user-interface/cloud.md) article for more information.
 
 ### Components
-Add the ability to select fields that can be edited per-page for global templates, allowing you to override the global defaults on a per-page basis.  
 
-### Pre-built Box Module Templates
-Added 60+ pre-built Box module templates.
+A new Reusable Content type has been added called Components, which allow you to strike a balance between consistency and flexibility. Unlike templates, which are fully independent, or globals, which update universally, Components let you define which options stay fixed and which can be customized per instance.
+
+See the [Components](../layouts/reusable-content/components.md) article for more information.
 
 ### Star Rating Module
-Added a new Star Rating module to easily display ratings to create testimonial sections and more!
+
+Star Rating is a new module that allows you to easily display ratings, making it ideal for building testimonial sections and other content that benefits from visual feedback.
+
+See the [Star Rating Module](../layouts/modules/star-rating.md) article for more information.
+
+### Pre-built Box Module Templates
+
+We’ve added over 60 pre-built layout templates powered by the Box module, including callouts, team member profiles, testimonials, hero sections, and more. You’ll also find Bento Grid layouts that showcase different ways to design grid-based sections with the Box module. These layouts not only give you ready-to-use designs but also serve as hands-on examples to help you learn and create your own Bento Grid layouts.
+
+### Version Control
+
+Version Control is now available, giving you the ability to quickly install any of the last 10 releases of Beaver Builder, Beaver Themer, or the Beaver Builder Theme (BB Theme) without manually downloading files. Designed primarily for troubleshooting and development, it lets you roll back or switch between recent releases directly from your settings panel, making it simple to test, troubleshoot, and manage versions.
+
+See the [Version Control](../settings/version-control.md) article for more information.
 
 ## :boom: Improvements
 
-### Box Module
-
-#### Grid
-Added a global setting for applying global row spacing to top-level boxes. This will be enabled by default on new sites and disabled for existing 2.9 sites updating to 2.10 to ensure backward compatibility.
-
-#### Spacing
-Added a global setting for applying global row spacing to top-level boxes. This will be enabled by default on new sites and disabled for existing 2.9 sites updating to 2.10 to ensure backward compatibility.
-
-### Button Module
-Enable responsive behavior on additional fields: custom width, text color, background colors and border color.
-
-### Menu Module
-Added width option for flyout menu.
-
-
-### UI Changes
-
-#### Content Panel
-
-##### Pre-built rows and modules
-Reworked the pre-built rows and modules panels to show categories instead of a dropdown.
-
-##### Saved Tab
-Added the ability to collapse the sections in the Saved panel
-
-#### Global Templates
-Change the global template overlay and badge color to green for better contrast with white text and icons.
-
-#### All Nodes
-Added a "Save As" action to the settings dropdown on overlays. Added a "Type" select in the "Save As" form to include Template, Global, and Component.
-
-Added copy and paste options to the context menu in the Outline Panel.
+The following improvements have been made:
 
 ### Accessibility
-Any changes to markup mentioned here make use of the Deprecation API.
 
-#### Accordion Module
-Changes to HTML tags used for elements for new modules dropped on the page, increase focus ring size and change key event listener from keypress to keydown.
+We’ve introduced a wide range of accessibility enhancements to improve usability and ensure compliance with modern standards. These updates focus on better keyboard navigation, proper use of ARIA attributes and roles, improved focus management, and more semantic HTML markup across modules. Any markup changes noted here have been implemented using the Deprecation API, ensuring they only affect new modules added to your layouts. The following list highlights the key accessibility improvements included in this release.
 
-Ensure proper ARIA attributes are used. Replaced the `.fl-menu-mobile-toggle` with the generic class `.fl-content-ui-button` so those buttons are excluded from Global Styles button styling. Implemented closing accordion tabs with Escape key and also ensured event handlers only target interactive buttons. All items close now when focus is outside of the accordion.
+<details><summary>Accessibility Enhancements & Improvements</summary>
 
-#### Content Slider Module
-Added various improvements including making sure focus ring shows for links, add support for reduced-motion preference, prevent auto play on focus in or out, add aria-label and role attributes, improvements to keyboard navigation, adding focus to slider dot navigation, adjusting HTML markup in favor of list tags and button tags and more!
+- **Accordion Module**  
+  Updated HTML tags for new modules, increased the focus ring size, and changed the key event listener from `keypress` to `keydown`. Ensured proper ARIA attributes are applied. Replaced the `.fl-menu-mobile-toggle` class with the generic `.fl-content-ui-button` class so these buttons are excluded from Global Styles button styling. Implemented support for closing tabs with the Escape key and ensured event handlers only target interactive buttons. All items now close when focus moves outside the accordion.  
 
-#### Gallery Module
-Added various improvements including deprecating div tags in favor of list tags and adding ARIA roles for the deprecated div tags. 
+- **Content Slider Module**  
+  Improved accessibility by ensuring the focus ring is visible for links, adding support for reduced-motion preferences, preventing autoplay on focus in or out, and including ARIA labels and roles. Enhanced keyboard navigation with focus on slider dot navigation, updated HTML to use list and button tags, and made several other refinements.  
 
-#### Menu Module
-Added various accessibility improvements including enhancements for keyboard navigation, using appropriate aria attributes and roles, adjusted some markup and sizing of sub-menu icon as well.
+- **Gallery Module**  
+  Deprecated `div` tags in favor of list tags and added ARIA roles for any remaining `div` elements.  
 
-#### Photo Module
-Change markup to use figcaption for caption per accessibility recommendations.
+- **Menu Module**  
+  Introduced multiple accessibility enhancements, including improved keyboard navigation, the use of appropriate ARIA attributes and roles, and adjustments to markup and sub-menu icon sizing.  
 
-#### Posts Module
-Added various accessibility improvements including deprecating the div container tag in favor of an unordered list and added a new option in the post container field.
+- **Photo Module**  
+  Updated markup to use `figcaption` for captions, following accessibility best practices.  
 
-#### Post Slider & Post Carousel
-Added many accessibility improvements including using list tags for slides, button tags for navigation and pagination, proper aria attributes and making sure focus is visible on all controls.
+- **Posts Module**  
+  Improved accessibility by replacing the `div` container tag with an unordered list. Added a new option in the post container field.  
 
-#### All Posts Modules
-Ensured if there are redundant links, they are hidden from screen readers and are not used by keyboard navigation.
+- **Post Slider & Post Carousel**  
+  Enhanced accessibility by using list tags for slides, button tags for navigation and pagination, proper ARIA attributes, and ensuring visible focus on all controls.  
 
-#### Tabs Module
-Added various accessibility fixes including using button tags for any buttons instead of links or divs. This uses the module deprecation API so the markup changes only affect new modules dropped on the page.
+- **All Posts Modules**  
+  Ensured redundant links are hidden from screen readers and excluded from keyboard navigation.  
 
-Ensured proper ARIA attributes are in place. 
+- **Tabs Module**  
+  Replaced links and `div` elements with button tags for interactive elements, using the module deprecation API so changes only affect new modules. Ensured proper ARIA attributes are applied.  
 
-#### Testimonials Module
-Changed HTML tag from div to blockquote. This uses the module deprecation API so the markup changes only affect new modules dropped on the page. 
+- **Testimonials Module**  
+  Changed the HTML structure from `div` to `blockquote`, applied through the module deprecation API so it only affects new modules. Added support for the reduced-motion preference and introduced an option to display play/pause buttons.
+  
+- **Row Shapes**  
+  Added generic titles and descriptions to row shapes to improve accessibility.
 
-Also added support for the reduced-motion preference and added an option for showing play/pause buttons.
+- **Modules Displaying Excerpts**  
+  Updated the default “Read More” text to provide clearer context, following accessibility recommendations.
 
-#### Row Shapes
-Add generic title/desc to row shapes for accessibility.
+</details>
 
-#### Modules that display excerpts
-In modules that display excerpts, change default read more text to provide more context per accessibility recommendations.
+### Modules
 
-### WP Admin
-Reworked wp-admin list table to show "Global" or "Component" label.  Reworked user access settings to allow editing per-page component settings but not the component itself. Added new user access setting for enabling or disabling cloud access based on user role.
+The following improvements have been added for the modules listed below.
+
+- **Box Module**   
+  We’ve added a new global setting that applies row spacing to top-level boxes for Grid & Spacing. This setting is enabled by default on new sites, but remains disabled for sites updating from version 2.9 to 2.10 to maintain backward compatibility.
+
+- **Button Module**  
+  Added responsive support for more fields, including custom width, text color, background color, and border color.
+
+- **Menu Module**  
+  Introduced a new width option for the flyout menu.
+
+### User Interface (UI)
+
+The following improvements have been added for the Beaver Builder user interface.
+
+- **Content Panel**  
+  Reworked the pre-built rows and modules panels to show categories instead of a dropdown.
+
+- **Saved Tab**  
+  Added the ability to collapse the sections in the Saved panel.
+
+- **Nodes** _(rows, columns, & modules)_  
+  Added a "Save As" action to the settings dropdown on overlays. Added a "Type" select in the "Save As" form to include Template, Global, and Component.
+
+- **Outline Panel**  
+  Added copy and paste options to the context menu in the Outline Panel.
+
+### WordPress Admin
+
+- Updated the WP Admin list table to display **Global** or **Component** labels.  
+- Refined user access settings to allow editing of per-page component settings without granting access to the component itself.  
+- Added a new user access option to enable or [disable cloud access based on user role](/beaver-builder/settings/user-access.md#cloud-access).  
 
 ### Other Changes
 
-#### Performance
-Improved the time it takes for settings to initially render when first opened.
+- **Performance**  
+  Improved the time it takes for settings to initially render when first opened.
 
-#### Subscribe Module
-Added support for ConvertKit custom fields
-
-#### Debug Mode
-Added version control tab when it is enabled.
+- **Subscribe Module**  
+  Added support for ConvertKit custom fields
