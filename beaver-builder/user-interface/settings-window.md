@@ -45,5 +45,10 @@ As soon as you click the Maximize icon, the <i className="fas fa-window-minimize
 
 ![Expand Settings Window](/img/beaver-builder/user-interface--settings-window--5.jpg)
 
+## Reusable Content Label
 
+When editing Reusable Content saved as a **Component** or **Global** type, the Settings Window displays a label in the top-right corner, next to the **Expand Full Screen** icon.
 
+The label color matches the overlay outline for consistency: **purple** for Components and **orange** for Global content. This label serves as a clear indicator of the content type you are working with, helping you and your team immediately recognize whether the content is global, or component based. 
+
+![Reusable Content Label](/img/beaver-builder/user-interface--settings-window--6.webp)
