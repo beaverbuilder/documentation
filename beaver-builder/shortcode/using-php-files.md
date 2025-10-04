@@ -24,7 +24,7 @@ To use this method, you should be familiar with PHP, WordPress [conditional tags
 Before you can use the shortcode in your PHP files, you need to create your saved content. See the following articles for more information:
 
 - [How to create a Saved Template](layouts/templates/saved-templates.md).
-- [How to create a Saved Content (rows, columns, & modules)](layouts/saved-content.md).
+- [How to create a Reusable Content](layouts/reusable-content/index.md).
 
 ## Construct the shortcode
 
