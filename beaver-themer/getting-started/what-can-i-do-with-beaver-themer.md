@@ -14,7 +14,7 @@ Beaver Themer is an add-on plugin that integrates with the Beaver Builder  plugi
 
 ![](/img/what-can-i-do-with-beaver-themer-424499ee.png)
 
-Beaver Themer is fully integrated with the Beaver Builder Theme and is [fully supported by a number of popular themes](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md).
+Beaver Themer is fully integrated with the Beaver Builder Theme and is [fully supported by a number of popular themes](/beaver-themer/developer/add-themer-support).
 
 Beaver Themer gives you much more flexibility and control in customizations than any theme could ever provide. For example, you can create a custom header layout for your home page and a different header for the other pages on your site. Or on an ecommerce site, you can have one Themer header for regular pages and a different Themer header for store pages. Or you can use [conditional logic ](/beaver-themer/conditional-logic/beaver-themer-conditional-logic.md) to create rules that display a Themer layout only when certain conditions are met. For example, you could display a special header or banner only when users are logged in.
 

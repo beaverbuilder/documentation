@@ -21,7 +21,7 @@ The Part layout has an additional field called **Position**, where you can speci
 ![](/img/themer-part-layout-type-68352acd.png)
 
 :::info
-The list of positions depends on hooks in the Beaver Builder Theme. You don’t need to use the Beaver Builder Theme to get support for Themer Parts, but you do need to use one of the [themes that support Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md). 
+The list of positions depends on hooks in the Beaver Builder Theme. You don’t need to use the Beaver Builder Theme to get support for Themer Parts, but you do need to use one of the [themes that support Beaver Themer](/beaver-themer/developer/add-themer-support). 
 :::
 
 If you’re not sure which position to choose, check the [Theme action reference](/bb-theme/developer/theme-action-reference) for more information about where in the rendered page's HTML each position fires. 

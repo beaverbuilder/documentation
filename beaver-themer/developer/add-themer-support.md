@@ -6,7 +6,7 @@ sidebar_label: Add Themer Support
 
 Most themes support Archive, Singular, and 404 layout types out of the box. However, to support the Header, Footer, and Part layout types, the theme must allow its header, footer, and parts to be removed using hooks.
 
-See the [list of themes that are currently supported](/beaver-themer/management-compatibility/beaver-themer-supported-themes.md). If your theme isn't currently supported, you can add support for headers, footers, and parts by following the instructions below.
+See the [list of themes that are currently supported](/beaver-themer/developer/add-themer-support). If your theme isn't currently supported, you can add support for headers, footers, and parts by following the instructions below.
 
 ## Add Header & Footer Support
 

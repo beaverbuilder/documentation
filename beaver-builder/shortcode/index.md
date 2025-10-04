@@ -23,7 +23,7 @@ Shortcodes used too frequently on the same page or post may affect [performance]
 
 The two most common uses for Beaver Builder shortcode are:
 
-- Insert [Saved Content](layouts/saved-content.md) such as rows, columns, or modules into other Beaver Builder modules where normally only text can occur.
+- Insert [Reusable Content](layouts/reusable-content/index.md) such as rows, columns, or modules into other Beaver Builder modules where normally only text can occur.
 
 - Inserting a Beaver Builder layout, such as a saved row, into a post that does not use Beaver Builder but rather the WordPress editor. For example, you could insert a Subscribe Form module into the middle of a post that is using the WordPress editor.
 
@@ -32,8 +32,8 @@ The two most common uses for Beaver Builder shortcode are:
 You can create shortcodes for any Beaver Builder content that has an [ID](syntax.md#using-an-id) or a [slug](syntax.md#using-a-slug):
 
 - Posts, pages, or custom post types with Beaver Builder layouts.
-- [Saved Content](layouts/saved-content.md) (rows, columns, modules).
-- Saved Templates.
+- [Reusable Content](layouts/reusable-content/index.md).
+- [Saved Templates](layouts/templates/saved-templates.md).
 
 ## Changes automatically reflected
 
