@@ -124,7 +124,7 @@ You can control the number of history records in the [Advanced tab settings](/be
 
 ## Beaver Builder Shortcode
 
-Beaver Builder includes a [layout Shortcodes](../shortcode/index.md) that makes it easy to display reusable content within pages, posts, custom post type layouts, and even inside other modules such as accordions and tabs. However, using too many shortcodes on a single page or post can negatively impact performance. Each shortcode loads the CSS and JavaScript assets required for the content it represents, so the more shortcodes you add, the more assets are loaded. In some cases, this can result in dozens of additional files, slowing down page performance.
+Beaver Builder includes a [layout shortcode](../shortcode/index.md) that makes it easy to display reusable content within pages, posts, custom post type layouts, and even inside other modules such as accordions and tabs. However, using too many shortcodes on a single page or post can negatively impact performance. Each shortcode loads the CSS and JavaScript assets required for the content it represents, so the more shortcodes you add, the more assets are loaded. In some cases, this can result in dozens of additional files, slowing down page performance.
 
 The impact will vary depending on your site’s setup and how important load time optimization is for your needs. As a general rule, using a handful of shortcodes is fine, but adding several dozen or more may lead to noticeable performance issues.
 
