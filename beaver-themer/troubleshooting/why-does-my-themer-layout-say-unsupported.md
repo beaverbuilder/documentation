@@ -13,4 +13,4 @@ You might get a message that a certain type of Themer layout is Unsupported in t
 
 This happens because you're using a theme that doesn't support that type of Themer layout.
 
-If you want to use that Themer layout, you'll have to switch to [a theme that supports it](/beaver-themer/developer/add-themer-support), or in some cases you can [add code so your theme will support it](/beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer.md).
+If you want to use that Themer layout, you'll have to switch to [a theme that supports it](getting-started/supported-themes.md), or in some cases you can [add code so your theme will support it](developer/add-themer-support.md).

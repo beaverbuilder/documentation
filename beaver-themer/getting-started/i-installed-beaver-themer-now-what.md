@@ -21,7 +21,7 @@ For more information about theme-controlled areas, see the [primer on WordPress 
 
 ## Which themes support Beaver Themer?
 
-See [this article](/beaver-themer/developer/add-themer-support) for which themes support Beaver Themer. If your theme isn't on the list, see whether you can [add code to make your theme support Header, Footer, and Part layouts](/beaver-themer/developer/add-header-footer-and-parts-support-to-your-theme-themer.md) in Beaver Themer.
+See [this article](getting-started/supported-themes.md) for which themes support Beaver Themer. If your theme isn't on the list, see whether you can [add code to make your theme support Header, Footer, and Part layouts](developer/add-themer-support.md) in Beaver Themer.
 
 ## Where do I find Beaver Themer after I install it?
 
