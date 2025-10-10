@@ -59,6 +59,9 @@ add_filter(
 
 ## Filter to remove Box module Aliases
 
+**Filter:** `fl_builder_content_elements_data`
+
+
 Use the following code snippet to remove all alias modules, including Flex Columns, 3x2 Grid, 4x2 Grid, Split Header, and Photo Grid, leaving only the main Box module in the Content Panel.
 
 ```php
