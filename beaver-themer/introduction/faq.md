@@ -57,7 +57,9 @@ together. See the [list of themes that are fully supported by Beaver Themer](/be
 
 ## Which Licenses include Beaver Themer?
 
-Beaver Themer is exclusively bundled with the Beaver Builder Ultimate license. If you own or acquire a Beaver Builder Standard, Pro, or Agency license, you will be required to buy a separate Beaver Themer license.
+Beaver Themer is included with all premium licenses (Start, Plus, Professional, and Unlimited).
+
+For Legacy license holders, Beaver Themer was exclusively bundled with the Beaver Builder Ultimate license. If you own or purchase a Beaver Builder Standard, Pro, or Agency license, you’ll need to buy a separate Beaver Themer license.
 
 ## Does Beaver Themer work with the lite version?
 
