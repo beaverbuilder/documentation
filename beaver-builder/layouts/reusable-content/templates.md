@@ -1,7 +1,7 @@
 ---
 id: templates
-title: Templates
-sidebar_label: Templates
+title: Reusable Templates
+sidebar_label: Reusable Templates
 ---
 
 Templates are reusable content with a local scope, meaning each instance in a layout is independent of the original and other instances. When you add a template item, such as a saved row, column, or module, it behaves like a standalone element. Edits apply only to that instance, leaving the original and others unchanged. This makes templates ideal for reusing a design as a base while customizing each instance individually.
