@@ -77,4 +77,4 @@ Yes! Beaver Themer is an add-on to Page Builder and will not function if Page Bu
 
 ## How many sites can I use Beaver Themer on?
 
-You can use Beaver Themer on an unlimited number of sites.
+Beaver Themer follows the same site activation limit as your Beaver Builder license plan. This means the number of websites you can use Beaver Themer on depends on the plan you purchased.
