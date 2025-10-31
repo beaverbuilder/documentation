@@ -40,7 +40,7 @@ See the [Find ID or Slug](find-id-slug.md) article for tips on how to identify t
 Enter a comma-separated list of `IDs` to insert multiple layouts.
 
 :::caution
-Shortcodes used too frequently on the same page or post may affect performance. For more information, see our [Performance](advanced/performance.md#beaver-builder-shortcode) article.
+Shortcodes used too frequently on the same page or post may affect performance. For more information, see our [Performance](../advanced/performance.md#beaver-builder-shortcode) article.
 :::
 
 ```markup
