@@ -29,7 +29,7 @@ Templates are exported to `.dat` files, which must be transferred to source repo
 
 ### 2. Create templates
 
-Create your [custom layout templates](saved-templates.md) and [saved content](../saved-content.md) for users.
+Create your [custom layout templates](saved-templates.md) and [reusable content](layouts/reusable-content/index.md) for users.
 
 ### 3. Categorize templates
 

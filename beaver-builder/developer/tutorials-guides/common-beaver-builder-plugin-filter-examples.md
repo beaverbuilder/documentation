@@ -57,6 +57,25 @@ add_filter(
 );
 ```
 
+## Filter to remove Box module Aliases
+
+**Filter:** `fl_builder_content_elements_data`
+
+
+Use the following code snippet to remove all alias modules, including Flex Columns, 3x2 Grid, 4x2 Grid, Split Header, and Photo Grid, leaving only the main Box module in the Content Panel.
+
+```php
+add_filter( 'fl_builder_content_elements_data', function( $data ) {
+	foreach ( $data['module'] as $key => $config ) {
+		if ( $config->isAlias && 'box' == $config->slug ) {
+			unset( $data['module'][ $key ] );
+		}
+	}
+	$data['module'] = array_values( $data['module'] );
+	return $data;
+} );
+```
+
 ## Filter to add a mail service to the Subscribe module
 
 **Filter:** `fl_builder_subscribe_form_services`
@@ -160,7 +179,7 @@ You can use this filter to show which Beaver Builder modules and how many of eac
 
 ![Screenshot of the Modules tab in Beaver Builder settings showing which modules are in use](/img/beaver-builder--bb-common-filter-examples-2.png)
 
-You can see how many times each module is used in pages, posts, and "Templates." The "Templates" category applies both to [saved layout templates](layouts/templates/saved-templates.md) and to [saved rows, columns, and modules](layouts/saved-content.md).
+You can see how many times each module is used in pages, posts, and "Templates." The "Templates" category applies both to [saved layout templates](layouts/templates/saved-templates.md) and to [saved rows, columns, and modules](layouts/reusable-content/index.md).
 
 To display these module counts, add the following line of code to the _functions.php_ file in your child theme.
 

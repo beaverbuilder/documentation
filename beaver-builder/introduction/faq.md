@@ -81,6 +81,12 @@ Please note, that in WordPress Multisite network installations, subsites are not
 
 :::
 
+## How many sites can I use Beaver Builder on?
+
+All Beaver Builder licenses have a site activation limit, which determines how many websites you can install and activate your license on, depending on your plan.
+
+For more information, visit the [Beaver Builder Pricing page](https://wpbeaverbuilder.com/pricing).
+
 ## Is Beaver Builder a plugin or a theme?
 
 Beaver Builder is a front-end page builder plugin for WordPress, which can be installed through the WordPress plugin installer.

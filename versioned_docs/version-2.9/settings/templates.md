@@ -5,7 +5,7 @@ sidebar_label: Templates
 description: The Spacing section in the Advanced tab lets you change the default margin and padding for rows and columns. For modules, you can change the default margin values only.
 ---
 
-The **Templates** tab in the Beaver Builder settings lets you control which post types can use Beaver Builder.
+The **Templates** tab in the Beaver Builder settings lets you manage which templates are available in the builder, choose from various enablement options, and, for Unlimited license holders, override core templates with your own.
 
 ## Access Templates tab
 

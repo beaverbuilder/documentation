@@ -23,9 +23,7 @@ The **Themer Layouts** menu item only appears when you have the Beaver Themer in
 
    - [Themer Layout](/beaver-themer/category/layout-types--modules) _(requires Beaver Themer)_
    - [Templates](layouts/templates/saved-templates.md)
-   - [Saved Rows](layouts/saved-content.md)
-   - [Saved Columns](layouts/saved-content.md)
-   - [Saved Modules](layouts/saved-content.md)
+   - [Reusable Content](layouts/reusable-content/index.md)
    - Categories
    - Add New
 

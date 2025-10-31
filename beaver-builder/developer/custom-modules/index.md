@@ -19,7 +19,7 @@ We highly recommend taking advantage of our [Custom Module Developer Course](htt
 
 To begin, feel free to download our example plugin below. You can explore the code or refer to the [step-by-step](#step-by-step-guide) guide provided below.
 
-1. [Download the Example Plugin](https://www.wpbeaverbuilder.com/downloads/bb-custom-module-examples-2.0.zip) zip to your computer.
+1. [Download the Example Plugin](https://github.com/beaverbuilder/bb-custom-module-examples/releases/latest/download/bb-custom-module-examples.zip) zip to your computer.
 2. Go to your website's **WordPress Admin Dashboard > Plugins > Add New > Upload Plugin**.
 3. Upload the *`bb-custom-module-examples-2.0.zip`* file.
 4. **Activate** the plugin.
@@ -37,4 +37,3 @@ their own settings panel just like the modules included with the builder.
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList/>
-
