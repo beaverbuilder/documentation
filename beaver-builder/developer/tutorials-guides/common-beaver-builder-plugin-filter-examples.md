@@ -45,16 +45,10 @@ The `fl_module_upload_regex` filter only provides support for Beaver Builder and
 The example code demonstrates how to enable support for SVG files in Beaver Builder image fields. To add support for more file types, you can adjust the code by substituting `svg` with the extension of the desired file type.
 
 ```php
-add_filter(
-  "fl_module_upload_regex",
-  function ($regex, $type, $ext, $file) {
-    $regex["photo"] = "#(jpe?g|png|gif|bmp|tiff?|webp|svg)#i";
-
+add_filter( 'fl_module_upload_regex', function ( $regex, $type, $ext, $file ) {
+    $regex['photo'] = '#(jpe?g|png|gif|bmp|tiff?|webp|svg)#i';
     return $regex;
-  },
-  10,
-  4
-);
+}, 10, 4 );
 ```
 
 ## Filter to remove Box module Aliases
@@ -83,21 +77,18 @@ add_filter( 'fl_builder_content_elements_data', function( $data ) {
 The fl_builder_subscribe_form_services filter lets you add a service to the list displayed in the Subscribe Form module. Here's an example.
 
 ```php
-function bb_subscribe_form_custom_service($services)
-{
-  $services["convertkit_custom"] = [
-    "type" => "autoresponder",
-    "name" => "ConvertKitCustom",
-    "class" => "FLBuilderServiceConvertKitCustom",
-    "file" =>
-      FL_CHILD_THEME_DIR . "/classes/class-fl-builder-service-convertkit.php",
-  ];
-  return $services;
+function bb_subscribe_form_custom_service( $services ) {
+    $services['convertkit_custom'] = [
+        'type'  => 'autoresponder',
+        'name'  => 'ConvertKitCustom',
+        'class' => 'FLBuilderServiceConvertKitCustom',
+        'file'  => FL_CHILD_THEME_DIR . '/classes/class-fl-builder-service-convertkit.php',
+    ];
+
+    return $services;
 }
-add_filter(
-  "fl_builder_subscribe_form_services",
-  "bb_subscribe_form_custom_service"
-);
+
+add_filter( 'fl_builder_subscribe_form_services', 'bb_subscribe_form_custom_service' );
 ```
 
 ## Add Latin-Extended capabilities for a Google font
@@ -109,14 +100,13 @@ Add the following filter to the _functions.php_ file of your child theme and
 replace the font name in Line 2 with the name of your Google font family.
 
 ```php {2}
-function my_font_subset($subset, $name)
-{
-  if ($name == "Acme") {
-    $subset = "&subset=latin,latin-ext";
-  }
-  return $subset;
+function my_font_subset( $subset, $name ) {
+    if ( 'Acme' === $name ) {
+        $subset = '&subset=latin,latin-ext';
+    }
+    return $subset;
 }
-add_filter("fl_font_subset", "my_font_subset", 10, 2);
+add_filter( 'fl_font_subset', 'my_font_subset', 10, 2 );
 ```
 
 :::info
@@ -247,11 +237,11 @@ Use this set of filters to filter the results of Beaver Builder’s front-end AJ
 **Example:**
 
 ```php
-function my_ajax_save_settings($result, $args)
-{
-  return $result;
+function my_ajax_save_settings( $result, $args ) {
+    return $result;
 }
-add_filter("fl_ajax_save_settings", "my_ajax_save_settings");
+
+add_filter( 'fl_ajax_save_settings', 'my_ajax_save_settings' );
 ```
 
 See the _classes/class-fl-builder-ajax.php_ file for a complete list of core AJAX actions that can be appended to the `fl_ajax_*` filter.
@@ -267,15 +257,12 @@ Add the following code to the _functions.php_ file in your child theme and modif
 **Example:**
 
 ```php
-function my_builder_admin_settings_post_types($post_types)
-{
-  unset($post_types["post"]);
-  return $post_types;
+function my_builder_admin_settings_post_types( $post_types ) {
+    unset( $post_types['post'] );
+    return $post_types;
 }
-add_filter(
-  "fl_builder_admin_settings_post_types",
-  "my_builder_admin_settings_post_types"
-);
+
+add_filter( 'fl_builder_admin_settings_post_types', 'my_builder_admin_settings_post_types' );
 ```
 
 ## Modify custom class names for rows
@@ -287,12 +274,12 @@ Use this filter to work with the custom class a user adds to a row under **Row S
 **Example:**
 
 ```php
-function my_builder_row_custom_class($class)
-{
-  $class = str_replace("red", "blue", $class);
-  return $class;
+function my_builder_row_custom_class( $class ) {
+    $class = str_replace( 'red', 'blue', $class );
+    return $class;
 }
-add_filter("fl_builder_row_custom_class", "my_builder_row_custom_class");
+
+add_filter( 'fl_builder_row_custom_class', 'my_builder_row_custom_class' );
 ```
 
 ## Modify custom class names for columns
@@ -304,12 +291,12 @@ Use this filter to work with the custom class a user adds to a column under **Co
 **Example:**
 
 ```php
-function my_builder_column_custom_class($class)
-{
-  $class = str_replace("red", "blue", $class);
-  return $class;
+function my_builder_column_custom_class( $class ) {
+    $class = str_replace( 'red', 'blue', $class );
+    return $class;
 }
-add_filter("fl_builder_column_custom_class", "my_builder_column_custom_class");
+
+add_filter( 'fl_builder_column_custom_class', 'my_builder_column_custom_class' );
 ```
 
 ## Modify custom class names for modules
@@ -321,12 +308,12 @@ Use this filter to work with the custom class a user adds to a module in the **C
 **Example:**
 
 ```php
-function my_builder_module_custom_class($class)
-{
-  $class = str_replace("red", "blue", $class);
-  return $class;
+function my_builder_module_custom_class( $class ) {
+    $class = str_replace( 'red', 'blue', $class );
+    return $class;
 }
-add_filter("fl_builder_module_custom_class", "my_builder_module_custom_class");
+
+add_filter( 'fl_builder_module_custom_class', 'my_builder_module_custom_class' );
 ```
 
 ## Modify the cache directory path
@@ -338,13 +325,13 @@ Use this filter to modify the cache directory path and URL that the Beaver Build
 **Example:**
 
 ```php
-function my_builder_get_cache_dir($dir_info)
-{
-  $dir_info["path"] = "/your/custom/path/cache/";
-  $dir_info["url"] = "http://www.yourdomain.com/your/custom/url/cache/";
-  return $dir_info;
+function my_builder_get_cache_dir( $dir_info ) {
+    $dir_info['path'] = '/your/custom/path/cache/';
+    $dir_info['url']  = 'http://www.yourdomain.com/your/custom/url/cache/';
+    return $dir_info;
 }
-add_filter("fl_builder_get_cache_dir", "my_builder_get_cache_dir");
+
+add_filter( 'fl_builder_get_cache_dir', 'my_builder_get_cache_dir' );
 ```
 
 ## Modify the upload directory path
@@ -356,13 +343,13 @@ Use this filter to modify the upload directory path and URL that the builder use
 **Example:**
 
 ```php
-function my_builder_get_upload_dir($dir_info)
-{
-  $dir_info["path"] = "/your/custom/path/";
-  $dir_info["url"] = "http://www.yourdomain.com/your/custom/url/";
-  return $dir_info;
+function my_builder_get_upload_dir( $dir_info ) {
+    $dir_info['path'] = '/your/custom/path/';
+    $dir_info['url']  = 'http://www.yourdomain.com/your/custom/url/';
+    return $dir_info;
 }
-add_filter("fl_builder_get_upload_dir", "my_builder_get_upload_dir");
+
+add_filter( 'fl_builder_get_upload_dir', 'my_builder_get_upload_dir' );
 ```
 
 ## Specify posts to load CSS and JavaScript assets globally
@@ -374,12 +361,12 @@ Use this filter to specify a post or posts whose CSS and JavaScript assets shoul
 **Example:**
 
 ```php
-function my_global_builder_posts($post_ids)
-{
-  $post_ids[] = "123";
-  return $post_ids;
+function my_global_builder_posts( $post_ids ) {
+    $post_ids[] = '123';
+    return $post_ids;
 }
-add_filter("fl_builder_global_posts", "my_global_builder_posts");
+
+add_filter( 'fl_builder_global_posts', 'my_global_builder_posts' );
 ```
 
 ## Add dependencies to the dependency array
@@ -391,15 +378,12 @@ Use this filter to add dependencies to the dependency array when the main builde
 **Example:**
 
 ```php
-function my_builder_layout_style_dependencies($deps)
-{
-  $deps[] = "font-awesome";
-  return $deps;
+function my_builder_layout_style_dependencies( $deps ) {
+    $deps[] = 'font-awesome';
+    return $deps;
 }
-add_filter(
-  "fl_builder_layout_style_dependencies",
-  "my_builder_layout_style_dependencies"
-);
+
+add_filter( 'fl_builder_layout_style_dependencies', 'my_builder_layout_style_dependencies' );
 ```
 
 ## Add custom module categories before default module categories
@@ -411,12 +395,12 @@ Use this filter to add custom module categories that will show up before the def
 **Example:**
 
 ```php
-function my_builder_module_categories($categories)
-{
-  $categories[] = "My Custom Category";
-  return $categories;
+function my_builder_module_categories( $categories ) {
+    $categories[] = 'My Custom Category';
+    return $categories;
 }
-add_filter("fl_builder_module_categories", "my_builder_module_categories");
+
+add_filter( 'fl_builder_module_categories', 'my_builder_module_categories' );
 ```
 
 ## Modify the post types that can use Beaver Builder
@@ -428,12 +412,12 @@ Use this filter to modify the post types that the Beaver Builder editor works wi
 **Example**
 
 ```php
-function my_builder_post_types($post_types)
-{
-  $post_types[] = "post";
-  return $post_types;
+function my_builder_post_types( $post_types ) {
+    $post_types[] = 'post';
+    return $post_types;
 }
-add_filter("fl_builder_post_types", "my_builder_post_types");
+
+add_filter( 'fl_builder_post_types', 'my_builder_post_types' );
 ```
 
 ## Override modules enabled in Beaver Builder
@@ -445,17 +429,17 @@ Use this filter to override the modules that are enabled in the Beaver Builder e
 **Example:**
 
 ```php
-function my_builder_register_module($enabled, $instance)
-{
-  $disable = ["accordion", "button", "separator"];
+function my_builder_register_module( $enabled, $instance ) {
+    $disable = [ 'accordion', 'button', 'separator' ];
 
-  if (in_array($instance->slug, $disable)) {
-    return false;
-  }
+    if ( in_array( $instance->slug, $disable, true ) ) {
+        return false;
+    }
 
-  return $enabled;
+    return $enabled;
 }
-add_filter("fl_builder_register_module", "my_builder_register_module", 10, 2);
+
+add_filter( 'fl_builder_register_module', 'my_builder_register_module', 10, 2 );
 ```
 
 ## Customize a Beaver Builder settings form
@@ -467,21 +451,16 @@ Use this filter to modify the config array for a settings form when it is regist
 **Example:**
 
 ```php
-function my_builder_register_settings_form($form, $id)
-{
-  if ("row" == $id) {
-    // Modify the row settings $form config array.
-  } elseif ("button" == $id) {
-    // Modify the button settings $form config array.
-  }
-  return $form;
+function my_builder_register_settings_form( $form, $id ) {
+    if ( 'row' === $id ) {
+        // Modify the row settings $form config array.
+    } elseif ( 'button' === $id ) {
+        // Modify the button settings $form config array.
+    }
+    return $form;
 }
-add_filter(
-  "fl_builder_register_settings_form",
-  "my_builder_register_settings_form",
-  10,
-  2
-);
+
+add_filter( 'fl_builder_register_settings_form', 'my_builder_register_settings_form', 10, 2 );
 ```
 
 ## Modify the CSS compiled and cached
@@ -491,12 +470,12 @@ add_filter(
 Use this filter to modify the CSS that is compiled and cached for each Beaver Builder layout.
 
 ```php
-function my_builder_render_css($css, $nodes, $global_settings)
-{
-  $css .= "#my-selector { property:value; }";
-  return $css;
+function my_builder_render_css( $css, $nodes, $global_settings ) {
+    $css .= '#my-selector { property:value; }';
+    return $css;
 }
-add_filter("fl_builder_render_css", "my_builder_render_css", 10, 3);
+
+add_filter( 'fl_builder_render_css', 'my_builder_render_css', 10, 3 );
 ```
 
 ## Modify Beaver Builder CSS for CDNs
@@ -506,18 +485,13 @@ add_filter("fl_builder_render_css", "my_builder_render_css", 10, 3);
 You can utilize the filter to modify URLs, adapting Beaver Builder CSS for CDNs and cloud storage buckets.
 
 ```php
-add_filter(
-  "fl_builder_render_css",
-  function ($css, $nodes, $global_settings, $include_global) {
-    $site_url = "https://example.com";
-    $cdn_url = "https://123456abcdef.mycdn.net";
+add_filter( 'fl_builder_render_css', function ( $css, $nodes, $global_settings, $include_global ) {
+    $site_url = 'https://example.com';
+    $cdn_url  = 'https://123456abcdef.mycdn.net';
 
-    $css = str_replace($site_url, $cdn_url, $css);
+    $css = str_replace( $site_url, $cdn_url, $css );
     return $css;
-  },
-  10,
-  4
-);
+}, 10, 4 );
 ```
 
 :::tip
@@ -531,12 +505,12 @@ This filter can also be used to solve a [403 error when CloudFlare or another CD
 Use this filter to modify the JavaScript that is compiled and cached for each Beaver Builder layout.
 
 ```php
-function my_builder_render_js($js, $nodes, $global_settings)
-{
-  $js .= 'console.log( "Hello World!" );';
-  return $js;
+function my_builder_render_js( $js, $nodes, $global_settings ) {
+    $js .= 'console.log("Hello World!");';
+    return $js;
 }
-add_filter("fl_builder_render_js", "my_builder_render_js", 10, 3);
+
+add_filter( 'fl_builder_render_js', 'my_builder_render_js', 10, 3 );
 ```
 
 ## Modify Beaver Builder JavaScript for CDNs
@@ -546,18 +520,13 @@ add_filter("fl_builder_render_js", "my_builder_render_js", 10, 3);
 You can utilize the filter to modify URLs, adapting Beaver Builder JS for CDNs and cloud storage buckets.
 
 ```php
-add_filter(
-  "fl_builder_render_js",
-  function ($js, $nodes, $global_settings, $include_global) {
-    $site_url = "https://example.com";
-    $cdn_url = "https://123456abcdef.mycdn.net";
+add_filter( 'fl_builder_render_js', function ( $js, $nodes, $global_settings, $include_global ) {
+    $site_url = 'https://example.com';
+    $cdn_url  = 'https://123456abcdef.mycdn.net';
 
-    $js = str_replace($site_url, $cdn_url, $js);
+    $js = str_replace( $site_url, $cdn_url, $js );
     return $js;
-  },
-  10,
-  4
-);
+}, 10, 4 );
 ```
 
 ## Modify the config array for a field
@@ -569,17 +538,12 @@ Use this filter to modify the config array for a field before it is rendered.
 **Example:**
 
 ```php
-function my_builder_render_settings_field($field, $name, $settings)
-{
-  $field["default"] = "My Default Value";
-  return $field;
+function my_builder_render_settings_field( $field, $name, $settings ) {
+    $field['default'] = 'My Default Value';
+    return $field;
 }
-add_filter(
-  "fl_builder_render_settings_field",
-  "my_builder_render_settings_field",
-  10,
-  3
-);
+
+add_filter( 'fl_builder_render_settings_field', 'my_builder_render_settings_field', 10, 3 );
 ```
 
 ## Don't render shortcodes in the Beaver Builder editor
@@ -591,15 +555,16 @@ Use this filter to prevent Beaver Builder from rendering shortcodes in the edito
 **Example:**
 
 ```php
-function my_builder_render_shortcodes($render)
-{
-  if (FLBuilderModel::is_builder_active()) {
-    remove_filter("the_content", "do_shortcode", 11);
-    return false;
-  }
-  return $render;
+function my_builder_render_shortcodes( $render ) {
+    if ( FLBuilderModel::is_builder_active() ) {
+        remove_filter( 'the_content', 'do_shortcode', 11 );
+        return false;
+    }
+
+    return $render;
 }
-add_filter("fl_builder_render_shortcodes", "my_builder_render_shortcodes");
+
+add_filter( 'fl_builder_render_shortcodes', 'my_builder_render_shortcodes' );
 ```
 
 ## Change defaults for editor settings
@@ -611,20 +576,15 @@ Use this filter to change the defaults for any of the settings forms in Beaver B
 **Example:**
 
 ```php
-function my_builder_settings_form_defaults($defaults, $form_type)
-{
-  if ("global" == $form_type) {
-    $defaults->default_heading_selector = ".my-heading-selector";
-  }
+function my_builder_settings_form_defaults( $defaults, $form_type ) {
+    if ( 'global' === $form_type ) {
+        $defaults->default_heading_selector = '.my-heading-selector';
+    }
 
-  return $defaults; // Must be returned!
+    return $defaults; // Must be returned!
 }
-add_filter(
-  "fl_builder_settings_form_defaults",
-  "my_builder_settings_form_defaults",
-  10,
-  2
-);
+
+add_filter( 'fl_builder_settings_form_defaults', 'my_builder_settings_form_defaults', 10, 2 );
 ```
 
 ## Modify the upgrade URL in Beaver Builder Lite
@@ -636,9 +596,9 @@ Use this filter to modify the upgrade URL in Beaver Builder Lite. This is useful
 **Example:**
 
 ```php
-function my_bb_upgrade_link()
-{
-  return "YOUR_LINK_HERE";
+function my_bb_upgrade_link() {
+    return 'YOUR_LINK_HERE';
 }
-add_filter("fl_builder_upgrade_url", "my_bb_upgrade_link");
+
+add_filter( 'fl_builder_upgrade_url', 'my_bb_upgrade_link' );
 ```
