@@ -23,6 +23,12 @@ To access prebuilt templates:
 3. Select the **Templates tab** and select the either [Landing Pages](#landing-page-templates) or [Content Pages](#content-page-templates) from the group down-down menu.
 4. Click a template to add into your layout.
 
+:::caution
+
+Prebuilt Templates are enabled by default but can be disabled if desired. If they don’t appear in the Content Panel, check the **Template Settings tab** under [WordPress Admin Dashboard > Settings > Beaver Builder > Templates](../../settings/templates.md).
+
+:::
+
 ## Landing Page Templates
 
 [Landing page templates](https://www.wpbeaverbuilder.com/landing-page-templates/) are available in the [Landing Pages subgroup](index.md#landing-pages-group) and can be used for a variety of purposes, including home pages, marketing pages, event pages, and even one-page websites.

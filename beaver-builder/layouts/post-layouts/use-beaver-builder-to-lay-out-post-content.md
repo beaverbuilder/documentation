@@ -95,12 +95,12 @@ following setup.
 Similar to static pages, if you want to reuse a layout that you create in a
 post, you can save the entire content area as a layout template, or you can
 save individual rows or modules. You can reuse these layouts on both pages and
-posts. See the articles on [how to save modules, columns, rows](layouts/saved-content.md), and [layout templates](../templates/saved-templates.md).
+posts. See the articles on [how to save modules, columns, rows](layouts/reusable-content/index.md), and [layout templates](../templates/saved-templates.md).
 
 :::tip
 If you want a row or module to have identical and synched content
 wherever you use it – in other words, updating it in one spot updates it
-everywhere else – save it as global by [selecting the global checkbox](../saved-content.md) during the procedure to save the row, column, or module.
+everywhere else – save it as global by [selecting the global checkbox](layouts/reusable-content/index.md) during the procedure to save the row, column, or module.
 :::
 
 ## 5. You can change single posts to full width or no header/footer

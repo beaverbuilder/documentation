@@ -50,7 +50,7 @@ You can quickly move content such as rows, columns (except for child columns), a
 
 ## Context Menu _(right-click)_
 
-The Outline Panel includes a right-click feature that opens the Context Menu, giving you quick access to common actions for rows, columns, and modules. This makes it easier to manage and customize your layout directly from the panel without switching between multiple windows. The available actions include:
+The Outline Panel includes a right-click feature that opens the Context Menu, giving you quick access to common actions for nodes (rows, columns, modules, and container modules. This makes it easier to manage and customize your layout directly from the Outline Panel, without needing to scroll through the layout to find a specific node. The available actions include:
 
 - **Open Settings** – Opens the settings window for the selected node (row, column, or module).  
 - **Duplicate** – Creates a duplicate of the selected node.  

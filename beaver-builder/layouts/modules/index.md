@@ -82,7 +82,7 @@ The following are the different module subgroups available.
   See the [WordPress Widgets](widgets.md) article for more information.
 
 - **Saved Modules**
-  Any modules [saved for reuse](../saved-content.md) will appear in the **Saved Modules group**, this includes [global modules](#global-saved-module) as well.
+  Any modules [saved for reuse](../reusable-content/index.md) will appear in the **Saved Modules group**, this includes [global modules](#global-saved-module) as well.
 
 ## Add Modules
 

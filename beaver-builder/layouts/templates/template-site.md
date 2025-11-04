@@ -15,9 +15,9 @@ A Template Site is only possible with WordPress Multisite installations and Beav
 
 ## Usage
 
-A Template Site is a sub-site in your WordPress Multisite network that acts as a hub or library for your prebuilt templates. All [templates](index.md), [saved rows](../saved-content.md), [columns](../saved-content.md), and [modules](../saved-content.md) added to the Template Site become available to all sub-sites in the network.
+A Template Site is a sub-site in your WordPress Multisite network that acts as a hub or library for your prebuilt templates. All [templates](index.md) and [reusable content](layouts/reusable-content/index.md) added to the Template Site become available to all sub-sites in the network.
 
-Additionally, you can categorize [templates](saved-templates.md#categorize-saved-templates), [saved rows, columns, and modules](../saved-content.md) if you have more than one template grouping and access the categories from the Content Panel.
+Additionally, you can categorize [templates](saved-templates.md#categorize-saved-templates), and [reusable content](layouts/reusable-content/index.md) if you have more than one template grouping and access the categories from the Content Panel.
 
 :::tip
 
