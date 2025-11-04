@@ -40,7 +40,7 @@ image with borders and a Call to Action module.
 
 ![](/img/how-to-tips-row-module-index-3.jpg)
 
-See the [this article](layouts/saved-content.md) for more information about how to save rows and modules.
+See the [Reusable Content](layouts/reusable-content/index.md) article for more information about how to save rows and modules.
 
 :::tip
 Global rows or modules are ok but not necessary. The shortcode will
@@ -57,8 +57,7 @@ Here's the template for constructing the shortcode:
 [fl_builder_insert_layout slug="INSERT_YOUR_SLUG_HERE"]
 ```
 
-See the [this article](shortcode/find-id-slug.md) for how to find the page slug for the saved row or
-module you want to use.
+See the [Shortcode](shortcode/find-id-slug.md) article for how to find the page slug for the saved row or module you want to use.
 
 ## 3. Insert the shortcode
 

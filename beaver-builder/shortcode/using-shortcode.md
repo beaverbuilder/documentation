@@ -12,7 +12,7 @@ The Beaver Builder shortcode makes it really easy to add saved content to your l
 
 ## Prerequisite
 
-If you plan to use a row, column, module, or template in your shortcode, it must be saved first so it has its own [`ID` and slug](find-id-slug.md). See the [Saved Content](layouts/saved-content.md) article about saving rows, columns, and modules or the article about saving [templates](layouts/templates/saved-templates.md).
+If you plan to use a row, column, module, or template in your shortcode, it must be saved first so it has its own [`ID` and slug](find-id-slug.md). See the [Reusable Content](layouts/reusable-content/index.md) article about saving rows, columns, and modules or the article about saving [templates](layouts/templates/saved-templates.md).
 
 ## 1. Copy a shortcode with one click
 
