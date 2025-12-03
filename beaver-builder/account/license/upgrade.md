@@ -11,9 +11,13 @@ For example, if you buy a license on January 1 and upgrade on July 1, you will b
 
 :::warning Legacy License Upgrades
 
-When customers who are eligible for a renewal discount on their legacy plan choose to upgrade to one of our new plans, they should be aware that this discount eligibility will be lost.
+When customers who are eligible for a renewal discount on their legacy plan choose to upgrade to one of our new plans, they should keep the following in mind:
 
-Our new plans have a different pricing structure that doesn't include renewal discounts. After upgrading, any renewal discounts that were previously available under the legacy plan cannot be carried over to the new plan. We encourage customers to take this into consideration when evaluating whether to upgrade, since the pricing structures between legacy and new plans are different.
+- Renewal discounts associated with your legacy license will not carry over to the new plan.
+- Some new license plans include site usage limits.
+- Switching from your legacy license is permanent and cannot be reversed.
+  
+We recommend reviewing the new license options and their features on our pricing page before making your decision.
 
 :::
 

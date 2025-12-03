@@ -25,9 +25,7 @@ The Flex display option offers the following settings:
   - **Column** - The flexible items are displayed vertically, as a column.
   - **Row Reverse** - Same as row, but in reverse order.
   - **Column Reverse** - Same as column, but in reverse order.
-
-  <!-- ![](/img/beaver-builder/modules--box--container--2.png) -->
-
+ 
 - **Align**
   The Align setting supports the following options:
 
@@ -56,6 +54,13 @@ The Flex display option offers the following settings:
 ### Grid
 
 The Grid option allows you to organize items within a box in a grid layout, utilizing CSS Grid. CSS Grid is tailored for two-dimensional layouts, providing precise control over rows and columns, facilitating more elaborate designs.
+
+:::tip
+
+The Grid icon <i className="fa-solid fa-border-all" />
+ provides an easy way to toggle a visual grid guidelines overlay when working with CSS Grid layouts. This gives you a more intuitive way to align and structure content as you build, making it perfect for designers who prefer a visual approach to grid based layouts. It helps you quickly spot spacing issues, understand how elements relate to one another, and fine tune your design with greater accuracy. This feature is especially helpful for newer users, since it removes the guesswork and makes the grid building process more clear and approachable.
+
+:::
 
 The Grid display option offers the following settings:
 
