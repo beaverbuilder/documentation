@@ -538,36 +538,9 @@ from = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/
 to = "https://docs.wpbeaverbuilder.com/beaver-themer/troubleshooting/full-width-layout-types"
 status = 301
 force = true
-
-# HelpScout Beacon Redirects
 [[redirects]]
-from = "https://kb.wpbeaverbuilder.com/article/783-which-beaver-builder-packages-include-beaver-themer"
-to = "https://docs.wpbeaverbuilder.com/beaver-themer/introduction/faq#which-licenses-include-beaver-themer"
-status = 301
-force = true
-[[redirects]]
-from = "https://kb.wpbeaverbuilder.com/article/781-can-i-try-beaver-builder-before-i-buy-it"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq#do-you-offer-a-trial-version"
-status = 301
-force = true
-[[redirects]]
-from = "https://kb.wpbeaverbuilder.com/article/782-can-i-upgrade-my-subscription-after-signing-up"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/account/license/upgrade"
-status = 301
-force = true
-[[redirects]]
-from = "https://kb.wpbeaverbuilder.com/article/780-difference-between-free-and-premium-versions"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq#difference-between-lite--premium"
-status = 301
-force = true
-[[redirects]]
-from = "https://kb.wpbeaverbuilder.com/article/779-do-you-offer-a-trial-version"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq#do-you-offer-a-trial-version"
-status = 301
-force = true
-[[redirects]]
-from = "https://kb.wpbeaverbuilder.com/article/784-how-many-sites-can-i-use-beaver-builder-on"
-to = "https://docs.wpbeaverbuilder.com/beaver-builder/introduction/faq#how-many-sites-can-i-use-beaver-builder-on"
+from = "https://docs.wpbeaverbuilder.com/beaver-themer/management-compatibility/beaver-themer-supported-themes/"
+to = "https://docs.wpbeaverbuilder.com/beaver-themer/getting-started/supported-themes/"
 status = 301
 force = true
 
