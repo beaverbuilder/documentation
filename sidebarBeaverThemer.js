@@ -130,6 +130,7 @@ module.exports = {
               items: [
                 "integrations/acf/field-types/button-group",
                 "integrations/acf/field-types/checkbox",
+                "integrations/acf/field-types/color-picker",
                 "integrations/acf/field-types/date-picker",
                 "integrations/acf/field-types/date-time-picker",
                 "integrations/acf/field-types/email",
