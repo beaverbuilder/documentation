@@ -2,10 +2,10 @@
 id: tools
 title: Tools Tab
 sidebar_label: Tools
-description: The Spacing section in the Advanced tab lets you change the default margin and padding for rows and columns. For modules, you can change the default margin values only.
+description: The Tools tab provides a set of helpful controls, including options for cache clearing, debug settings, prerelease updates, and uninstall data.
 ---
 
-The **Tools** tab in the Beaver Builder settings lets you control which post types can use Beaver Builder.
+The **Tools** tab provides a set of helpful controls, including clearing third party cache plugin caches, enabling debug mode, managing prerelease updates, sending usage data, and uninstalling Beaver Builder. These tools help you troubleshoot issues and maintain a smooth building experience.
 
 ## Access Tools tab
 

@@ -11,6 +11,7 @@ Each license type has its own set of features and limitations, such as the level
 We offer the following licenses for sale through our website:
 
 - Starter License
+- Plus License
 - Professional License
 - Unlimited License
 

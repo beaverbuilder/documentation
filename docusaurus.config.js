@@ -43,7 +43,7 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '🎉 25% Off Beaver Builder Products! Best Discount of the Year… <a style="color: #fba613; text-decoration: underline; font-weight: 600;" href="https://www.wpbeaverbuilder.com/pricing/" rel="noopener">Learn More</a>',
+        '🎉 New <a href="https://app.assistant.pro/community" target="_blank" rel="noopener">Beaver Builder template marketplace!</a> Get started for FREE at <a href="https://assistant.pro/" target="_blank" rel="noopener">Assistant.Pro</a>.',
       backgroundColor: "#1b7497",
       textColor: "#ffffff",
       isCloseable: true,

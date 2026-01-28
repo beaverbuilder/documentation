@@ -2,7 +2,7 @@
 id: index
 title: Settings Overview
 sidebar_label: Settings
-description: The Spacing section in the Advanced tab lets you change the default margin for rows, columns, modules and padding for rows and columns.
+description: This section provides an overview of the Beaver Builder settings available in the WordPress backend.
 slug: "/settings/"
 ---
 
