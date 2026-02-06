@@ -21,7 +21,7 @@ The **Themer Layouts** menu item only appears when you have the Beaver Themer in
 2. Navigate to **Beaver Builder**.
    You can choose from the following options:
 
-   - [Themer Layout](/beaver-themer/category/layout-types--modules) _(requires Beaver Themer)_
+   - [Themer Layout](/beaver-themer/layout-types-modules) _(requires Beaver Themer)_
    - [Templates](layouts/templates/saved-templates.md)
    - [Reusable Content](layouts/reusable-content/index.md)
    - Categories
