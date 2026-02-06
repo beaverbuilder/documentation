@@ -1,6 +1,6 @@
 ---
 id: faq
-title: Beaver Builder FAQ
+title: Beaver Themer FAQ
 sidebar_label: FAQ
 description: Frequently asked questions for the Beaver Themer add-on plugin.
 ---
@@ -53,7 +53,7 @@ pages.
 
 Beaver Themer requires the Beaver Builder plugin, but it doesn't require the
 Beaver Builder Theme, even though all three are designed to integrate well
-together. See the [list of themes that are fully supported by Beaver Themer](/beaver-themer/management-compatibility/beaver-themer-supported-themes).
+together. See the [list of themes that are fully supported by Beaver Themer](getting-started/supported-themes.md).
 
 ## Which Licenses include Beaver Themer?
 
@@ -69,7 +69,7 @@ Unfortunately, Beaver Themer is an add-on for the premium version of Beaver Buil
 
 Most themes support archive, singular, and 404 layout types out of the box. However, to support the Theme Builder header, footer, and part layouts, themes must be built a certain way.
 
-Currently, Beaver Themer pairs well with the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) and is supported by [several 3rd party themes listed here](/beaver-themer/management-compatibility/beaver-themer-supported-themes).
+Currently, Beaver Themer pairs well with the [Beaver Builder Theme](https://www.wpbeaverbuilder.com/wordpress-framework-theme/) and is supported by [several 3rd party themes listed here](getting-started/supported-themes.md).
 
 ## Does Beaver Themer require Page Builder?
 

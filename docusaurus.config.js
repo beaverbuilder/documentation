@@ -62,11 +62,17 @@ module.exports = {
           className: "header-home-icon",
           "aria-label": "Docs Home",
         },
+        // {
+        //   type: "docsVersionDropdown",
+        //   position: "left",
+        //   dropdownItemsAfter: [{ to: "/versions" }],
+        //   dropdownActiveClassDisabled: true,
+        // },
         {
-          type: "docsVersionDropdown",
+          label: "Beaver Builder",
+          type: "doc",
+          docId: "introduction/index",
           position: "left",
-          dropdownItemsAfter: [{ to: "/versions" }],
-          dropdownActiveClassDisabled: true,
         },
         {
           label: "Beaver Themer",
@@ -222,17 +228,17 @@ module.exports = {
           path: "beaver-builder",
           routeBasePath: "beaver-builder",
           sidebarPath: require.resolve("./sidebarBeaverBuilder.js"),
-          lastVersion: "2.9",
-          versions: {
-            current: {
-              label: "Beaver Builder 2.10",
-              path: "",
-            },
-            2.9: {
-              label: "Beaver Builder 2.9",
-              path: "2.9",
-            },
-          },
+          // lastVersion: "2.9",
+          // versions: {
+          //   current: {
+          //     label: "Beaver Builder 2.10",
+          //     path: "",
+          //   },
+          //   2.9: {
+          //     label: "Beaver Builder 2.9",
+          //     path: "2.9",
+          //   },
+          // },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
