@@ -26,59 +26,72 @@ Please note that free users can create one library. Existing free accounts will 
 
 ![Create library via Assistant plugin](/img/assistant/apps--apps-libraries--2.jpg)
 
-## Add Content to libraries
- 
-The **Libraries App** lets you can add content, media, colors and customizer (theme) settings to your libraries.
+## Add Items to Libraries
 
-### Add Posts, Pages or Templates
+Libraries let you save and reuse common assets across your sites, making it faster to build pages and keep everything consistent. You can add Content, Media, Colors, Code, and Settings to your libraries directly from the Assistant plugin.
 
-1. Open the **Libraries App**.
-2. Click the library you want to add content to.
-3. Click the **Plus** (+) icon.
-4. Enter the name of the piece of content you would like to add in the search field.
-5. Click the search result for the piece of content you would like to add.
+### Content
 
-<video controls>
-<source src="/video/assistant/libraries--add-assets--add-posts.mp4" type="video/mp4" />
-<source src="/video/assistant/libraries--add-assets--add-posts.webm" type="video/webm" />
-</video>
+Use the Content tab to select WordPress posts, pages, or custom post types and add them to your libraries.
+
+1.	Select the library you want to add items to.
+2.	Click the (+) icon in the top-right corner.
+3.	Open the Content tab and choose the content you want to add.
+
+You can add all items from a specific post type, or use search to find a particular page, post, or custom post type item and add it to the library.
+
+Once you’ve selected your content item(s), click Add, and the content will be added to your library.
+
+### Media
+
+Media libraries allow you to add images and videos directly to the WordPress Media Library.
+
+1. Select the library you want to add items to.
+3. Click Add New and choose Media.
+4. Upload new files or select existing images or videos.
+5. Review your selection.
+6. Click Save.
+
+All media items are stored in your WordPress Media Library and can be reused anywhere on your site.
 
 ### Add Colors
 
-1. Open the **Libraries App**.
-2. Navigate to the library you want to add color(s) to.
-3. Click the **Plus** (+) icon and select **Colors**.
-4. Select your color from the color picker or enter numeric values to select a color.
-5. Name your color (by default the name will be the color’s hex code).
+Colors let you save named color values to your libraries for consistent branding and design.
 
-![Add a Color to a library](/img/assistant/apps--apps-libraries--3.jpg)
+1. Select the library you want to add items to.
+2. Click the Plus (+) icon and select Colors.
+3. Select your color from the color picker or enter numeric values to select a color.
+4. Name your color (by default the name will be the color’s hex code).
 
-### Add Code Snippets
+### Code
 
-1. Open the **Libraries App**.
-2. Navigate to the library you want to add the code snippet to.
-3. Click the **Plus** (+) icon.
-4. Select **Code**.
-5. Type or paste your code snippet.
-6. Click **Add**.
+Code libraries are perfect for storing reusable snippets such as PHP, CSS, or other code.
 
-<div className="embed-responsive">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KiqAHVx7ZHY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-</div>
+1. Select the library you want to add items to.
+2. Click Add New and choose Code.
+3. Enter a name for your snippet.
+4. Paste your code into the editor.
+5. Select the file extension (for example, .php or .css).
+6. Add additional snippets if required.
+7. Click Save.
 
-<!-- ![Add a code snippets to a library](/img/assistant/apps--apps-libraries--4.jpg) -->
+Each snippet is stored with its name and extension for easy reference later.
 
-### Add Theme Settings
+### Settings
 
-This procedure saves your site’s customizer settings.
+Settings libraries let you save configuration options from WordPress and Beaver Builder for reuse or migration. You can store WordPress Customizer settings from your theme, Beaver Builder Admin Settings, Global Settings, Global Styles, and Global Colors.
 
-1. Open the **Libraries App**.
-2. Navigate to the library you want to add the theme settings to.
-3. Click the **Plus** (+) icon.
-4. Select **Settings**.
-5. Click **Add Settings**.
-
-![Add a Theme Settings to a library](/img/assistant/apps--apps-libraries--5.jpg)
+1. Select the library you want to add items to.
+2.	Click Add New and select Settings.
+3.	Choose the source of the settings:  
+    - WordPress Customizer _(Theme Settings)_
+    - All Beaver Builder Settings
+      - Beaver Builder Admin Settings
+      - Beaver Builder Global Settings
+      - Beaver Builder Global Styles
+      - Beaver Builder Global Colors
+5.	Select the specific settings you want to save.
+6.	Click Add Settings.
 
 ## Edit a Library
 
@@ -111,68 +124,85 @@ To delete a library from the **Libraries App**:
 
 ![Delete library from Assistant plugin](/img/assistant/apps--apps-libraries--6.jpg)
 
+## Import Library Content
 
-## Import Content
-
-You can import content and [creative asset](introduction/index.md#creative-assets) from a library to a website with the Assistant plugin.
-
-### Import Content
-
-First, in the Libraries app, navigate to the library that has the content you want to import and click on it.
-
-#### Import a single library item
-1. Navigate to **Content** section and select the piece of content you’d like to import to your site.
-2. Scroll down and click the **Import** action and select one of the following choices:
-    
-    * **Create New**  
-      Imports the library item and creates a new page or post in the WordPress Admin Dashboard.
-    
-    * **Replace current Page/Post**  
-      The library item is imported on the current page or post.
-
- :::caution
- This action replaces all content in the posts.
- :::
-    
- ![Add single WordPress content](/img/assistant/apps--apps-libraries--7.jpg)
-
-
-#### Bulk Import of library items
-1. In the library toolbar, click on the **Select** button to enable selection mode.
-2. Navigate to the **Content** section of the library and select the library items you'd like to import to your site.
-3. A blue section will then appear underneath the library toolbar. As you select items, it keeps track of the number of items you have selected.
-4. Once you've selected all library items, click the **Import** button.
-5. Wait for import to complete before navigating away from the page.
-
-### Import Images
-
-1. In the Libraries app, navigate to the **Images** section and select the image you’d like to import to your site.
-2. In the **Actions** section, click **Import**.  
-  The image will now be available in your WordPress Media Browser and Assistant Media app.
-
-![Add single images](/img/assistant/apps--apps-libraries--8.jpg)
-
-### Import Theme Settings
-
-1. Open the **Libraries** app.
-2. Navigate to the **Theme Settings** section and select the theme settings item you’d like to import to your site.
-3. In the **Actions** section, click either **Preview** to preview the settings, or **Apply to Theme** to replace your current settings.
+You can import your library into your website using two different methods, depending on whether you want to bring everything across at once or select specific items.
 
 :::warning
-The **Apply to Theme** setting overwrites any current theme settings, so be sure to back them up before using.
+When applying settings, such as WordPress Customizer settings from your theme or Beaver Builder settings, these will overwrite any existing theme or Beaver Builder settings. Be sure to back up your current settings before applying them.
 :::
 
-![Add Theme settings](/img/assistant/apps--apps-libraries--9.jpg)
+:::info
+When importing code snippets, only CSS and JavaScript can be imported directly into the Assistant Code app. If your library includes snippets written in other languages, such as HTML or PHP, you’ll need to manually add them to your page or post.
 
-### Import an entire library to a site
+1. Click the code snippet item in your library.
+2. Open the Code Editor tab.
+3. Copy the code snippet.
+4. Paste the code into your page or post where needed.
+:::
 
-You can import an entire Assistant Pro library to a website. Importing a library in one step imports all of the creative assets in your library except colors.
+### Bulk Import
 
-To import an entire library:
+The Bulk Import option lets you import multiple items at once. When you choose this method, you’ll be prompted to select which specific items you’d like to import.
 
-* In the **Libraries** app, select the library you’d like to import to your site.
-* Click the gear icon to open the library settings.
-* In the **Import Library** section, click the **Import Library** button.
+1.	Select the library you want to import.
+2.	Click the Cog icon in the top-right corner.
+3.	Under the Actions section, click Import Library.
+4.	Use the dropdown menu to choose which items you’d like to import in bulk.
+
+You can choose from the following options to bulk import specific items.
+
+- All Items, imports every item in the library to your website.
+- All Content, imports all content items in the library, including posts, pages, and custom post types. This also allows you to include:  
+  - Beaver Builder content
+  - Posts
+  - Pages
+- All Settings, imports all saved settings, including:  
+  - Beaver Builder settings
+  - Theme settings
+- Images, imports all images stored in the library.
+
+This method is ideal when you want to quickly restore or migrate an entire library, or large portions of it, in one step.
+
+### Select Multiple Items
+
+1. Click the **Select** button to open the Select toolbar.  
+2. Choose the library items you’d like to work with by clicking each item. You can select multiple items at once.  
+3. Once your items are selected, use the toolbar actions to either:  
+   - **Import** the selected items to your website, or  
+   - **Delete** the selected items from the library.  
+4. Confirm your action when prompted.
+
+This method is ideal when you need to import or remove several items at the same time, giving you full control over what gets added to your website or cleaned up from your library.
+
+### Import Individual Items
+
+You can import individual items from your library. To do this, follow the steps below.
+
+1. Click directly on the library item you want to import, such as a post, color, or code snippet.  
+2. Click the **Import Action** button.  
+3. Choose one of the following options:  
+   - **Create New**, imports the library item and creates a new page or post in the WordPress Admin Dashboard.  
+   - **Replace Current Page/Post**, imports the library item directly into the page or post you’re currently editing, replacing its existing content.  
+   
+    :::caution
+    This action replaces all content in the posts.
+    :::
+
+This lets you import that specific item immediately, without needing to enter **Select** mode. This approach is perfect for quickly importing a single item on demand.
+
+## Download Zip
+
+The Download Zip option lets you download an entire library as a single ZIP file. When selected, every item in the library is exported into its own individual file, making it easy to back up, share, or move your library between websites.
+
+Inside the ZIP file, items are organized by type:
+	
+- Colors added through the Colors tab are stored in a `colors.json` file.
+- WordPress content, such as posts and pages, is exported in `.xml` format.
+- Images are included as individual files, using their original file extensions.
+- Code snippets are saved using the file extension you selected when creating them, for example, CSS snippets use `.css` and PHP snippets use `.php`.
+
+This option is ideal for creating backups or transferring your entire library to another site while preserving each item in its original format.
 
 ## Update
 
