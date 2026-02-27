@@ -73,12 +73,10 @@ See the [Modules](../layouts/modules/index.md) section for a complete list of al
 
 ## What is Multisite Capable?
 
-Multisite capable refers to a feature of WordPress that allows you to install WordPress once and manage multiple sites under that one installation. This is also referred to as a network. You can read more about network/multisite setups in the [WordPress documentation](https://wordpress.org/support/article/create-a-network/).
+Multisite capable refers to a WordPress feature that allows you to install WordPress once and manage multiple websites from a single installation. This setup is known as a WordPress Multisite network. You can learn more about network and multisite configurations in the [WordPress documentation](https://wordpress.org/support/article/create-a-network/).
 
 :::info
-
-Please note, that in WordPress Multisite network installations, subsites are not considered separate sites and do not count towards your license site activation limit.
-
+Please note that WordPress Multisite network installations are supported only on our Professional and Unlimited license plans. The Starter and Plus license plans do not include support for WordPress Multisite.
 :::
 
 ## How many sites can I use Beaver Builder on?
