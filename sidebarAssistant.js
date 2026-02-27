@@ -8,23 +8,21 @@
 module.exports = {
   assistant: [
     {
-      type: 'category',
-      label: 'Introduction',
+      type: "category",
+      label: "Introduction",
       link: {
-        type: 'doc',
-        id: 'introduction/index',
+        type: "doc",
+        id: "introduction/index",
       },
-      items: [
-        "introduction/faq",
-      ],
+      items: ["introduction/faq"],
     },
     {
-      type: 'category',
-      label: 'Getting Started',
+      type: "category",
+      label: "Getting Started",
       link: {
-        type: 'generated-index',
-        title: 'Getting Started',
-        slug: '/getting-started/',
+        type: "generated-index",
+        title: "Getting Started",
+        slug: "/getting-started/",
       },
       items: [
         "getting-started/what-can-i-do",
@@ -34,24 +32,24 @@ module.exports = {
       ],
     },
     {
-      type: 'category',
-      label: 'Assistant Plugin',
+      type: "category",
+      label: "Assistant Plugin",
       link: {
-        type: 'generated-index',
-        title: 'Assistant Plugin',
-        slug: '/plugin/',
+        type: "generated-index",
+        title: "Assistant Plugin",
+        slug: "/plugin/",
       },
       items: [
         "plugin/launch-assistant",
         {
-          type: 'category',
-          label: 'Apps',
+          type: "category",
+          label: "Apps",
           link: {
-            type: 'generated-index',
-            title: 'Apps',
-            slug: '/plugin/apps/',
+            type: "generated-index",
+            title: "Apps",
+            slug: "/plugin/apps/",
           },
-           items: [
+          items: [
             "plugin/apps/home",
             "plugin/apps/code",
             "plugin/apps/comments",
@@ -68,20 +66,21 @@ module.exports = {
       ],
     },
     {
-      type: 'category',
-      label: 'Assistant Pro Cloud',
+      type: "category",
+      label: "Assistant Pro Cloud",
       link: {
-        type: 'generated-index',
-        title: 'Assistant Pro Cloud',
-        slug: '/cloud/',
+        type: "generated-index",
+        title: "Assistant Pro Cloud",
+        slug: "/cloud/",
       },
       items: [
+        "cloud/ui",
         {
-          type: 'category',
-          label: 'Account & Settings',
+          type: "category",
+          label: "Account & Settings",
           link: {
-            type: 'doc',
-            id: 'cloud/account-settings/index',
+            type: "doc",
+            id: "cloud/account-settings/index",
           },
           items: [
             "cloud/account-settings/profile-settings",
@@ -92,11 +91,11 @@ module.exports = {
           ],
         },
         {
-          type: 'category',
-          label: 'Libraries',
+          type: "category",
+          label: "Libraries",
           link: {
-            type: 'doc',
-            id: 'cloud/libraries/index',
+            type: "doc",
+            id: "cloud/libraries/index",
           },
           items: [
             "cloud/libraries/create-library",
@@ -107,13 +106,14 @@ module.exports = {
           ],
         },
         {
-          type: 'category',
-          label: 'Collections',
+          type: "category",
+          label: "Collections",
           link: {
-            type: 'generated-index',
-            title: 'Collections',
-            slug: '/cloud/collections/',
-            description: 'Overview of Library Collections and how to create collections, assign assets and sort by collection.'
+            type: "generated-index",
+            title: "Collections",
+            slug: "/cloud/collections/",
+            description:
+              "Overview of Library Collections and how to create collections, assign assets and sort by collection.",
           },
           items: [
             "cloud/collections/create-collection",
@@ -124,12 +124,12 @@ module.exports = {
         "cloud/teams",
         "cloud/community",
         {
-          type: 'category',
-          label: 'Integrations',
+          type: "category",
+          label: "Integrations",
           link: {
-            type: 'generated-index',
-            title: 'Integrations',
-            slug: '/cloud/integrations/',
+            type: "generated-index",
+            title: "Integrations",
+            slug: "/cloud/integrations/",
           },
           items: [
             "cloud/integrations/beaver-builder",
