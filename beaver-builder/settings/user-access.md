@@ -69,28 +69,21 @@ However, they can use the Photo module and use a URL to an image. For a list of 
 Default access for **Unrestricted Editing** is applied to the Administrator, Editor, Author, and Contributor user roles.
 :::
 
-### Global Rows, Columns and Modules Editing
+### Global and Component Editing
 
-By default, all user roles can save, edit and delete rows and modules globally -- in Beaver Builder layouts, and for saved templates, rows, columns, and modules, both in the Content panel and from the Beaver Builder menu in the WordPress admin panel.
+This setting determines which user roles can create, edit, and delete the main instances of [Global](/beaver-builder/layouts/reusable-content/globals) and [Component](/beaver-builder/layouts/reusable-content/components) items.
 
-To any role whose access to editing global rows and modules is restricted, the following restrictions apply:
+When a role is removed from this setting, the following restrictions apply:
 
-- If a global row or module appears in a layout, it displays a lock icon in the toolbar, as shown in the following screenshot.
+- **Global items** display a lock icon in the overlay toolbar and cannot be edited or deleted.
+- The main instances of **Components** cannot be opened or modified.
+- The **Global** and **Component** options are hidden from the **Save As** dialog, preventing users from creating new reusable items of either type.
+- Users with **Unrestricted Editing** access can still drag Global or Component items from the Content Panel into a layout, but those items remain locked.
 
-  ![Limited access to global rows, columns, and modules](/img/beaver-builder/settings--user-access--5.jpg)
-
-- The user can save standard rows, columns, and modules, but they cannot save them globally since the Global field is missing, as you can see in the following screenshot.
-
-  ![Global rows, columns, and modules restriction](/img/beaver-builder/settings--user-access--6.jpg)
-
-- Users with unrestricted editing access can drag a global row or module from the Content panel into the layout, but the global row or module will display the lock and can't be deleted. The only option would be to delete the column or row in which it appears.
-
-  :::info
-  Enabling a user role in this field depends on unrestricted frontend access for that user role. See the [User Access Hierarchy](#user-access-hierarchy) section below.
-  :::
+Component instance editing is not affected by this setting. Users without access can still edit the per-instance customizable settings, those marked with the blue socket icon, when a Component appears in their layout. Only access to the main instance of a Component, which controls which settings are fixed and which are editable, is restricted.
 
 :::tip
-Default access for **Global Rows, Columns and Modules Editing** is applied to the Administrator, Editor, Author, and Contributor user roles.
+Default access for **Global and Component Editing** is applied to the Administrator, Editor, Author, and Contributor user roles.
 :::
 
 ### Cloud Access
