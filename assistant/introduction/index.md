@@ -114,7 +114,7 @@ A way to sort creative assets within libraries similar to WordPress tags.
 
 ### Assistant Cloud Pro Account Types
 
-* **Free** - Libraries are all shared with the Assistant community.
+* **Free** - Includes access to one library. Libraries are shared with the Assistant community.
 * **Personal** - Libraries can be made private.
 * **Team** - Libraries and their permissions can be shared across a team of users.
 
