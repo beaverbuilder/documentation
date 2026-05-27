@@ -69,11 +69,15 @@ As you edit a post or page, Beaver Builder logs the changes you make. These chan
 
 See the [Undo & Redo](basics/undo-redo.md) article for more information.
 
-## Layout CSS & JavaScript
+## Layout Settings
 
-A quick way to add CSS and JavaScript that only applies to the page being edited. You can assign a custom ID or class on the Advanced tab of any row, column, or module, then use it in your CSS rule.
+:::info
+  Formerly Layout CSS & JavaScript
+:::
 
-See the [Layout CSS & JavaScript](user-interface/layout-css-js.md) article for more information.
+A quick way to manage settings for the current page or post you are editing in Beaver Builder. You can edit supported WordPress page settings, such as the title, slug, featured image, and more, and add CSS or JavaScript that only applies to the current layout.
+
+See the [Layout Settings](user-interface/layout-settings.md) article for more information.
 
 ## Global Settings
 
