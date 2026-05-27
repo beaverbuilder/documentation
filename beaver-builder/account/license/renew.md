@@ -16,16 +16,31 @@ You can view your subscription renewal date by logging into your Beaver Builder 
 
 ## Cancel Automatic Renewal
 
-If you cancel autorenewal, you will need to manually renew your subscription each year. You can cancel autorenewal at any time from your account page and follow these steps:
+If you cancel automatic renewal, you will need to manually renew your subscription each year unless you later resume auto renewal for an eligible subscription. You can cancel automatic renewal at any time from your account page by following these steps:
 
-1. Go to your [My Account](https://www.wpbeaverbuilder.com/my-account/) page and scroll to the **My Subscriptions** section.
+1. Go to your **My Account** page and scroll to the **My Subscriptions** section.
 2. Click the **Cancel Renewal** button next to the subscription you'd like to cancel.
-   If you don't see the **Cancel Renewal** button, it means you're not in the autorenewal program and you'll have to renew it manually each year.
+
+If you do not see the **Cancel Renewal** button, it means your subscription is not currently set to automatic renewal and you will need to renew it manually each year.
+
+## Resume Automatic Renewal
+
+If you previously cancelled automatic renewal, you may be able to turn it back on from the **My Subscriptions** section of your account.
+
+When a subscription is changed to manual renewal, the **Cancel Renewal** button changes to **Resume Auto Renewal** for eligible subscriptions.
+
+1. Go to your **My Account** page and scroll to the **My Subscriptions** section.
+2. Click **Resume Auto Renewal** next to the subscription you'd like to reactivate.
+
+If your subscription was paid by credit card through Stripe, Beaver Builder will check with Stripe to confirm that your saved payment details are still valid.
+
+- If your payment details are valid, automatic renewal will be resumed.
+- If your payment details are no longer valid, you'll be redirected to update your card information before automatic renewal can be turned back on.
+
+If your subscription was paid through PayPal, the **Resume Auto Renewal** button will not appear because PayPal subscriptions cannot be reactivated once automatic renewal has been cancelled.
 
 :::caution
-
-We cannot reinstate auto-renewal once you cancel it, but you can still renew your subscription manually.
-
+  Automatic renewal can only be resumed for eligible Stripe subscriptions with valid saved card details. PayPal subscriptions cannot be resumed after cancellation and must be renewed manually.
 :::
 
 If you do not renew your Beaver Builder license, see the [License Expiry](expiry.md) article for more information.
