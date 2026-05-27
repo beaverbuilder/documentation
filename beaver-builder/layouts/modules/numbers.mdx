@@ -1,0 +1,248 @@
+---
+title: Number Counter
+sidebar_label: Number Counter
+icon: "tally-5"
+description: "Use Number Counter to display an animated number, percentage, circle, or bar that counts up when it scrolls into view."
+---
+
+
+Use Number Counter to display an animated number, percentage, circle, or bar that counts up when it scrolls into view.
+
+## Usage
+
+Use Number Counter to render an animated number that counts from a start value to an end value when the module scrolls into view. The module supports three layouts: a plain number, a circular progress indicator, and a horizontal bar. Numbers can display as a percentage or as a standard number with optional prefix and suffix text, and the animation speed and delay are configurable.
+
+Use Number Counter on landing pages, About pages, statistics sections, and pricing or service pages where animated metrics reinforce a key figure. It fits any layout that needs a single, focused stat such as customer counts, completion rates, satisfaction scores, or fundraising progress.
+
+## Module Settings
+
+The Number Counter module settings control the layout, the counter values, the surrounding text, and the appearance of the number, circle, and bar styles.
+
+### General Tab
+
+The General tab sets the layout, counter values, surrounding text, and animation timing.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Only Numbers</small></summary>
+
+
+Selects the visual style used for the counter.
+
+- **Only Numbers:** Renders the animated number on its own with no progress indicator.
+- **Circle Counter:** Renders a circular SVG progress ring around the number.
+- **Bars Counter:** Renders a horizontal progress bar with the number positioned relative to it.
+
+</details>
+
+<details>
+<summary><strong>Number Position</strong> <small>Default: Inside Bar</small></summary>
+
+
+Controls where the number appears relative to the bar. This field is available when **Layout** is set to **Bars Counter**.
+
+- **Inside Bar:** Places the number inside the progress bar.
+- **Above Bar:** Places the number above the bar.
+- **Below Bar:** Places the number below the bar.
+- **Hidden:** Hides the number and shows only the bar.
+
+</details>
+
+<details>
+<summary><strong>Number Type</strong> <small>Default: Percent</small></summary>
+
+
+Selects how the counter value is interpreted and displayed.
+
+- **Percent:** Treats the value as a percentage and appends a `%` sign automatically.
+- **Standard:** Displays the value as a plain number and reveals the **Number Prefix** and **Number Suffix** fields.
+
+</details>
+
+<details>
+<summary><strong>Start Counter</strong> <small>Default: 0; Supports: Field Connections</small></summary>
+
+
+The starting value the counter animates from.
+</details>
+
+<details>
+<summary><strong>End Counter</strong> <small>Default: 100; Supports: Field Connections</small></summary>
+
+
+The final value the counter animates to.
+</details>
+
+<details>
+<summary><strong>Total Units</strong> <small>Default: 100; Supports: Field Connections</small></summary>
+
+
+The total number of units used to calculate progress for the **Circle Counter** and **Bars Counter** layouts. For example, if **End Counter** is set to 250 and **Total Units** is set to 500, the counter animates to 50 percent. **Total Units** should not be less than **Start Counter** or **End Counter**.
+</details>
+
+<details>
+<summary><strong>Text Before Number</strong> <small>Supports: Field Connections</small></summary>
+
+
+Optional text displayed above the number. Leave it empty for none.
+</details>
+
+<details>
+<summary><strong>Text After Number</strong> <small>Supports: Field Connections</small></summary>
+
+
+Optional text displayed after the number. Leave it empty for none.
+</details>
+
+<details>
+<summary><strong>Number Prefix</strong></summary>
+
+
+Text inserted directly before the number when **Number Type** is set to **Standard**. For example, use `US$ ` to render values such as `US$ 10`.
+</details>
+
+<details>
+<summary><strong>Number Suffix</strong></summary>
+
+
+Text inserted directly after the number when **Number Type** is set to **Standard**. For example, use `%` to render values such as `10%`.
+</details>
+
+<details>
+<summary><strong>Animation Speed</strong> <small>Default: 1</small></summary>
+
+
+The number of seconds the counter takes to complete its animation.
+</details>
+
+<details>
+<summary><strong>Animation Delay</strong> <small>Default: 1</small></summary>
+
+
+The number of seconds to wait before the counter animation starts after the module scrolls into view.
+</details>
+
+### Style Tab
+
+The Style tab controls the colors and typography of the surrounding text and the number, along with the appearance of the circle and bar layouts when they are selected.
+
+<details>
+<summary><strong>Text Color</strong></summary>
+
+
+The color applied to the **Text Before Number** and **Text After Number** content.
+</details>
+
+<details>
+<summary><strong>Text Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the **Text Before Number** and **Text After Number** content.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Number Color</strong></summary>
+
+
+The color applied to the animated number, including any prefix and suffix.
+</details>
+
+<details>
+<summary><strong>Number Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the animated number, including any prefix and suffix.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Circle Bar Styles</strong></summary>
+
+
+This group is available when **Layout** is set to **Circle Counter**.
+
+<details>
+<summary><strong>Circle Bar Styles</strong></summary>
+
+
+<details>
+<summary><strong>Circle Size</strong> <small>Default: 200</small></summary>
+
+
+The overall width and height of the circle, in pixels.
+</details>
+
+<details>
+<summary><strong>Circle Stroke Size</strong> <small>Default: 10</small></summary>
+
+
+The stroke thickness of the circle, in pixels.
+</details>
+
+<details>
+<summary><strong>Circle Foreground Color</strong> <small>Default: #f7951e</small></summary>
+
+
+The color of the active progress portion of the circle.
+</details>
+
+<details>
+<summary><strong>Circle Background Color</strong> <small>Default: #eaeaea</small></summary>
+
+
+The color of the unfilled track behind the circle.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Bar Styles</strong></summary>
+
+
+This group is available when **Layout** is set to **Bars Counter**.
+
+<details>
+<summary><strong>Bar Styles</strong></summary>
+
+
+<details>
+<summary><strong>Bar Foreground Color</strong> <small>Default: #f7951e</small></summary>
+
+
+The color of the active progress portion of the bar.
+</details>
+
+<details>
+<summary><strong>Bar Background Color</strong> <small>Default: #eaeaea</small></summary>
+
+
+The color of the unfilled track behind the bar.
+</details>
+
+<details>
+<summary><strong>Bar Height</strong> <small>Default: 42; Supports: Responsive</small></summary>
+
+
+The height of the bar, in pixels.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Number Counter module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

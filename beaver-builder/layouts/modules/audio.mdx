@@ -1,0 +1,194 @@
+---
+title: Audio
+sidebar_label: Audio
+icon: "music"
+description: "Use Audio to add a single audio player or playlist from the WordPress Media Library or a direct audio file URL."
+---
+
+
+Use Audio to add a single audio player or playlist from the WordPress Media Library or a direct audio file URL.
+
+## Usage
+
+Use Audio to render a WordPress audio player from either files in the WordPress Media Library or a direct URL to a single audio file. Depending on how the source is configured, the module outputs either one audio player with standard playback controls or a playlist player with optional track display settings.
+
+Use Audio for podcasts, music tracks, interviews, sermons, voice recordings, and other layouts where visitors need inline playback without custom code. The module renders WordPress's native `[audio]` and `[playlist]` shortcodes, so the Media Library option fits audio managed in WordPress, while the Link option works when you already host a single audio file elsewhere and have its direct file URL.
+
+## Module Settings
+
+The Audio module settings control where audio comes from and how a single player or playlist behaves on the front end.
+
+### General Tab
+
+The General tab sets the audio source and reveals playback settings based on whether the module is rendering one file or a playlist.
+
+<details>
+<summary><strong>Audio Type</strong></summary>
+
+
+Selects whether the module uses the WordPress Media Library or a direct audio file URL.
+
+- **Media Library:** Builds the player from audio files selected in the WordPress Media Library. Supports single-file playback and playlists when more than one file is selected.
+- **Link:** Builds the player from a direct URL to a single hosted audio file.
+
+<details>
+<summary><strong>Media Library</strong></summary>
+
+
+<details>
+<summary><strong>Audio</strong></summary>
+
+
+Selects one or more audio files from the WordPress Media Library. This custom field shows the current number of selected files and includes controls to **Select Audio**, **Edit Playlist**, or **Add Audio Files**. When one file is selected, the single-audio playback settings below apply. When more than one file is selected, playlist settings become available.
+
+<details>
+<summary><strong>Playlist</strong></summary>
+
+
+<details>
+<summary><strong>Style</strong> <small>Default: Light</small></summary>
+
+
+Sets the playlist appearance to a light or dark preset when more than one audio file is selected.
+</details>
+
+<details>
+<summary><strong>Show Playlist</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the playlist track list beneath the player when more than one audio file is selected.
+
+<details>
+<summary><strong>Show Track Numbers</strong></summary>
+
+
+<details>
+<summary><strong>Show Track Numbers (Show Playlist Only)</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides track numbers in the playlist when **Show Playlist** is set to **Yes**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Show Thumbnail</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides playlist thumbnail images when they are available for the selected audio files.
+</details>
+
+<details>
+<summary><strong>Show Artist Name</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides artist metadata in the playlist when it is available for the selected audio files.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Link</strong></summary>
+
+
+<details>
+<summary><strong>Link</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the direct URL to a single audio file when **Audio Type** is set to **Link**. The module passes this value directly to the WordPress audio shortcode to render the player.
+
+Because this field is used as the player source URL, use a direct file link such as `https://example.com/audio/episode-01.mp3` rather than a page URL or third-party embed page.
+</details>
+</details>
+
+<details>
+<summary><strong>Single Audio Playback</strong></summary>
+
+
+<details>
+<summary><strong>Auto Play (Single Audio Only)</strong> <small>Default: No</small></summary>
+
+
+Automatically starts playback when the module is rendering one audio file, whether that file comes from the Media Library or the **Link** option.
+</details>
+
+<details>
+<summary><strong>Loop (Single Audio Only)</strong> <small>Default: No</small></summary>
+
+
+Repeats the current audio file after it finishes when the module is rendering one audio file.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Audio module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>
+
+## Create a playlist
+
+To build a playlist in the Audio module, follow these steps:
+
+
+<details>
+<summary><strong>Step</strong></summary>
+
+
+Open the Audio module settings.
+</details>
+<details>
+<summary><strong>Step</strong></summary>
+
+
+Set **Audio Type** to **Media Library**.
+</details>
+<details>
+<summary><strong>Step</strong></summary>
+
+
+In the **Audio** field, click **Add Audio Files** or **Select Audio** to open the WordPress Media Library.
+</details>
+<details>
+<summary><strong>Step</strong></summary>
+
+
+Choose multiple audio files, then create or insert the playlist from the Media Library modal.
+</details>
+<details>
+<summary><strong>Step</strong></summary>
+
+
+Return to the module settings and adjust playlist options such as **Style**, **Show Playlist**, **Show Thumbnail**, and **Show Artist Name** as needed.
+</details>
+
+
+Once more than one file is selected, the module switches from single-audio playback to playlist mode and reveals the playlist display settings.
+
+
+<img
+src="/images/beaver-builder/modules--audio--2--light.webp"
+alt="Audio module playlist preview in light mode"
+style={{height: "auto", width: "100%"}}
+className="block dark:hidden rounded-lg shadow-lg"
+/>
+
+<img
+src="/images/beaver-builder/modules--audio--2--dark.webp"
+alt="Audio module playlist preview in dark mode"
+style={{height: "auto", width: "100%"}}
+className="hidden dark:block rounded-lg shadow-lg"
+/>
+
+
+## Supported audio formats
+
+The Audio module is built on the native WordPress audio and playlist shortcodes, which determine the file types it can accept. The module supports the following audio formats:
+
+- `.mp3`
+- `.m4a`
+- `.ogg`
+- `.wav`

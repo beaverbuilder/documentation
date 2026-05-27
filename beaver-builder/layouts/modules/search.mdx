@@ -1,0 +1,641 @@
+---
+title: Search
+sidebar_label: Search
+icon: "search"
+description: "Use Search to add a WordPress search form with configurable layout, optional inline AJAX results, and post type filtering."
+---
+
+
+Use Search to add a WordPress search form with configurable layout, optional inline AJAX results, and post type filtering.
+
+## Usage
+
+Use Search to add a WordPress search form to a layout with control over the input, button, and form layout. The module submits queries to the standard WordPress search and can either redirect visitors to the site search results page or render results inline below the form using AJAX. When AJAX results are enabled, the module renders each match with optional featured image, title link, and excerpt, and supports filtering the query by one or more post types.
+
+Use Search in site headers, hero sections, dedicated search pages, or any layout where visitors need to find content quickly. The Layout setting covers compact icon-only buttons, full-screen overlay search, expanding inputs, and stacked or inline arrangements, which makes the module suitable for both prominent search experiences and minimal utility placements.
+
+## Module Settings
+
+The Search module settings control the form layout, the appearance of the input and button, and how search results are returned to the visitor.
+
+### Layout Tab
+
+The Layout tab sets the form structure, input label, placeholder, and button options.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: All Inline</small></summary>
+
+
+Selects the structural arrangement of the input and the search button.
+
+- **Input Only:** Shows only the search input with no visible button.
+- **All Inline:** Places the label, input, and button on a single row.
+- **Button Only:** Shows only a search button that triggers an expanding input, a full-screen overlay, or a reveal action.
+- **All Stacked:** Stacks the label, input, and button vertically.
+
+<details>
+<summary><strong>Input Label</strong></summary>
+
+
+<details>
+<summary><strong>Input Label</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the label above or beside the input. This field appears when **Layout** is set to **All Inline** or **All Stacked**, or when **Layout** is **Button Only** with **Action** set to **Reveal**.
+</details>
+</details>
+
+<details>
+<summary><strong>Placeholder Text</strong></summary>
+
+
+<details>
+<summary><strong>Placeholder Text</strong> <small>Default: Search...</small></summary>
+
+
+The placeholder text displayed inside the search input.
+</details>
+</details>
+
+<details>
+<summary><strong>Button Text</strong></summary>
+
+
+<details>
+<summary><strong>Button Text</strong> <small>Default: Search</small></summary>
+
+
+The text displayed on the search button. This field appears when **Layout** is set to **All Inline**, **All Stacked**, or **Button Only**.
+</details>
+</details>
+
+<details>
+<summary><strong>Action</strong></summary>
+
+
+<details>
+<summary><strong>Action</strong> <small>Default: Expand on click</small></summary>
+
+
+Determines how the search input is presented when **Layout** is set to **Button Only**.
+
+- **Expand on click:** The input expands inline from the button when the button is clicked.
+- **Full Screen:** The input opens in a full-screen overlay with a close button.
+- **Reveal:** The button reveals an inline input alongside or below the button.
+
+<details>
+<summary><strong>Expand Position</strong></summary>
+
+
+<details>
+<summary><strong>Expand Position</strong> <small>Default: Left</small></summary>
+
+
+Sets the side the input expands toward when **Action** is set to **Expand on click**. Options are **Left** and **Right**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+The Button Icon section adds an optional icon to the search button and configures DuoTone colors and icon position.
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+<details>
+<summary><strong>Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Selects an icon displayed on the search button. The Icon Position field appears when an icon is selected.
+</details>
+
+<details>
+<summary><strong>DuoTone Primary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the primary color applied to the icon.
+</details>
+
+<details>
+<summary><strong>DuoTone Secondary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the secondary color applied to the icon.
+</details>
+
+<details>
+<summary><strong>Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected. Options are **Before Text** and **After Text**.
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the appearance of the form wrapper, the full-screen overlay, the label, the input, and the button.
+
+<details>
+<summary><strong>Form</strong></summary>
+
+
+The Form section controls the dimensions, alignment, padding, background, and border of the search form wrapper.
+
+<details>
+<summary><strong>Form</strong></summary>
+
+
+<details>
+<summary><strong>Width</strong> <small>Default: Full Width</small></summary>
+
+
+Sets the width of the form wrapper.
+
+- **Auto:** Sizes the wrapper to its content.
+- **Full Width:** Stretches the wrapper to the full width of its container.
+- **Custom:** Uses a fixed maximum width set in **Custom Width**.
+
+<details>
+<summary><strong>Custom Width</strong></summary>
+
+
+<details>
+<summary><strong>Custom Width</strong> <small>Default: 1100</small></summary>
+
+
+The maximum width of the search form container. This field appears when **Width** is set to **Custom**. Supports `px` and `%` units.
+</details>
+</details>
+
+<details>
+<summary><strong>Alignment</strong></summary>
+
+
+<details>
+<summary><strong>Alignment</strong> <small>Default: center; Supports: Responsive</small></summary>
+
+
+The horizontal alignment of the form within its container. This field appears when **Width** is set to **Auto** or **Custom**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Height</strong> <small>Default: 0; Supports: Responsive</small></summary>
+
+
+The minimum height of the form wrapper. Content expands the height automatically. Supports `px`, `vw`, and `vh` units.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Default: 10; Supports: Responsive</small></summary>
+
+
+The inner spacing of the form wrapper.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the form wrapper.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the form wrapper on hover.
+</details>
+
+<details>
+<summary><strong>Border</strong></summary>
+
+
+The border style, width, radius, and color of the form wrapper.
+</details>
+
+<details>
+<summary><strong>Border Hover</strong></summary>
+
+
+The border style used when the form wrapper is hovered or focused.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Fullscreen</strong></summary>
+
+
+This section is available when **Layout** is set to **Button Only** and **Action** is set to **Full Screen**.
+
+<details>
+<summary><strong>Fullscreen</strong></summary>
+
+
+<details>
+<summary><strong>Input Width</strong> <small>Default: 600</small></summary>
+
+
+The maximum width of the input field inside the full-screen overlay. Supports `px` and `%` units.
+</details>
+
+<details>
+<summary><strong>Overlay Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the full-screen overlay behind the input.
+</details>
+
+<details>
+<summary><strong>Close Button</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the close button used to dismiss the full-screen overlay.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Label</strong></summary>
+
+
+This section is available when **Input Label** is set to **Show**.
+
+<details>
+<summary><strong>Label</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+The inner spacing around the input label.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the input label.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the input label.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Input</strong></summary>
+
+
+The Input section controls the appearance of the search input field.
+
+<details>
+<summary><strong>Input</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Default: 12; Supports: Responsive</small></summary>
+
+
+The inner spacing of the search input.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the search input.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text and placeholder color of the search input.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text and placeholder color of the search input on hover and focus.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search input.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search input on hover and focus.
+</details>
+
+<details>
+<summary><strong>Border</strong></summary>
+
+
+The border style, width, radius, and color of the search input.
+</details>
+
+<details>
+<summary><strong>Border Hover</strong></summary>
+
+
+The border style used when the search input is hovered or focused.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button</strong></summary>
+
+
+The Button section controls the appearance of the search button. This section is available when **Layout** is set to **All Inline**, **All Stacked**, or **Button Only**.
+
+<details>
+<summary><strong>Button</strong></summary>
+
+
+<details>
+<summary><strong>Alignment</strong> <small>Default: center</small></summary>
+
+
+The horizontal alignment of the button within its wrapper. This field appears when **Width** is set to **Auto** or **Custom**.
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Default: Auto</small></summary>
+
+
+Sets the width of the search button.
+
+- **Auto:** Sizes the button to its content.
+- **Custom:** Uses a fixed width set in **Custom Width**.
+
+<details>
+<summary><strong>Custom Width</strong></summary>
+
+
+<details>
+<summary><strong>Custom Width</strong> <small>Default: 200</small></summary>
+
+
+The fixed width of the search button. This field appears when **Width** is set to **Custom**. Supports `px`, `vw`, and `%` units.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+The inner spacing of the search button.
+</details>
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the search button.
+</details>
+
+<details>
+<summary><strong>Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the search button on hover and focus.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the search button.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search button.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search button on hover and focus.
+</details>
+
+<details>
+<summary><strong>Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects a **Flat** or **Gradient** background for the search button.
+</details>
+
+<details>
+<summary><strong>Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, radius, and color of the search button.
+</details>
+
+<details>
+<summary><strong>Border Hover</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style used when the search button is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Icon Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color applied to the button icon. This section is available when an **Icon** is selected in the Layout tab.
+</details>
+
+<details>
+<summary><strong>Icon Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color applied to the button icon on hover and focus. This section is available when an **Icon** is selected in the Layout tab.
+</details>
+</details>
+</details>
+
+### Content Tab
+
+The Content tab determines how search results are returned and configures the inline AJAX result layout.
+
+<details>
+<summary><strong>Results</strong> <small>Default: Redirect to search page</small></summary>
+
+
+Selects how submitted searches are presented.
+
+- **Redirect to search page:** Submits the form to the WordPress search results page.
+- **Display results below via Ajax:** Loads matching posts inline below the form without a page reload.
+
+<details>
+<summary><strong>Post Type</strong></summary>
+
+
+<details>
+<summary><strong>Post Type</strong></summary>
+
+
+Narrows AJAX search results to one or more selected post types. This field appears when **Results** is set to **Display results below via Ajax**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Ajax Result</strong></summary>
+
+
+This section is available when **Results** is set to **Display results below via Ajax**.
+
+<details>
+<summary><strong>Ajax Result</strong></summary>
+
+
+<details>
+<summary><strong>Width</strong> <small>Default: Full Width</small></summary>
+
+
+Sets the width of the inline result container.
+
+- **Full Width:** Stretches the result container to the full width of its parent.
+- **Custom:** Uses a fixed maximum width set in **Custom Width**.
+
+<details>
+<summary><strong>Custom Width</strong></summary>
+
+
+<details>
+<summary><strong>Custom Width</strong> <small>Default: 1100</small></summary>
+
+
+The maximum width of the AJAX result container. This field appears when **Width** is set to **Custom**. Supports `px` and `%` units.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Featured Image</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the featured image for each result. When set to **Show**, the **Size**, **Crop**, and **Fallback Image** fields appear.
+
+<details>
+<summary><strong>Size</strong></summary>
+
+
+<details>
+<summary><strong>Size</strong> <small>Default: medium</small></summary>
+
+
+The registered WordPress image size used to render the featured image.
+</details>
+</details>
+
+<details>
+<summary><strong>Crop</strong></summary>
+
+
+<details>
+<summary><strong>Crop</strong> <small>Default: landscape</small></summary>
+
+
+Selects the crop applied to the featured image. Options are **None**, **Square**, and **Circle**.
+</details>
+</details>
+
+<details>
+<summary><strong>Fallback Image</strong></summary>
+
+
+<details>
+<summary><strong>Fallback Image</strong></summary>
+
+
+The image displayed when a result has no featured image set.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Content</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the post excerpt for each result.
+
+<details>
+<summary><strong>Content Length (Words)</strong></summary>
+
+
+<details>
+<summary><strong>Content Length (Words)</strong> <small>Default: 55</small></summary>
+
+
+The maximum number of words shown in each result excerpt. This field appears when **Content** is set to **Show**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>No Results Message</strong> <small>Default: Sorry, we couldn't find any posts. Please try a different search.</small></summary>
+
+
+The message displayed when an AJAX search returns no matching posts.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Search module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

@@ -1,0 +1,303 @@
+---
+title: Testimonials
+icon: "message-square-quote"
+description: "Use Testimonials to display an animated slider of customer quotes with configurable autoplay, transitions, and styling."
+---
+
+
+Use Testimonials to display an animated slider of customer quotes with configurable autoplay, transitions, and styling.
+
+## Usage
+
+Use Testimonials to display an animated slider of customer quotes that rotates automatically or on user interaction. The module renders each entry as a styled blockquote and uses bxSlider to handle the slide and fade transitions, autoplay, and navigation controls.
+
+Use Testimonials on home pages, landing pages, sales pages, and About pages where social proof needs to occupy a fixed area without taking up the full vertical space of multiple stacked quotes. The compact layout fits multi-column rows for grouped testimonials, and the wide layout suits single-column sections that need a prominent featured quote.
+
+## Module Settings
+
+The Testimonials module settings control the testimonial entries shown in the slider, the slider playback and transition behavior, and the layout, heading, text, and navigation styling.
+
+### Items Tab
+
+The Items tab is where you build and manage the list of testimonials displayed in the slider.
+
+<details>
+<summary><strong>Add Testimonials</strong></summary>
+
+
+Manages the list of testimonials in the slider. Click **Add Testimonial** to add a new testimonial to the slider, or click **Edit** on an existing testimonial to open its settings.
+
+Each row in the list also includes **Move**, **Duplicate**, and **Delete** action icons:
+
+-  **Move:** Drag and drop the testimonial row to change the order in which testimonials appear in the slider.
+-  **Duplicate:** Creates a copy of the testimonial, including its content, and adds it to the end of the list.
+-  **Delete:** Removes the testimonial from the slider.
+
+:::note
+
+The **Move** and **Delete** actions only appear once the slider contains more than one testimonial.
+:::
+
+Each testimonial has its own General tab, described in [Individual testimonial settings](#individual-testimonial-settings).
+
+:::note
+
+Deleting a testimonial cannot be undone after you click **Publish**.
+:::
+</details>
+
+### Slider Tab
+
+The Slider tab controls how testimonials advance, including playback, timing, and transition direction.
+
+<details>
+<summary><strong>Auto Play</strong> <small>Default: Yes</small></summary>
+
+
+Determines whether the slider advances automatically.
+
+- **No:** Keeps the slider on the current entry until the visitor uses the navigation.
+- **Yes:** Cycles through testimonials automatically using the configured **Delay**.
+
+</details>
+
+<details>
+<summary><strong>Show Play/Pause</strong> <small>Default: No</small></summary>
+
+
+Shows or hides a play and pause control for the slider.
+
+- **No:** Hides the play and pause control.
+- **Yes:** Displays a play and pause control that lets visitors stop and resume autoplay.
+
+</details>
+
+<details>
+<summary><strong>Delay</strong> <small>Default: 4</small></summary>
+
+
+The number of seconds each testimonial stays visible before the slider advances. The Delay value should be greater than the Transition Speed.
+</details>
+
+<details>
+<summary><strong>Transition</strong> <small>Default: Slide</small></summary>
+
+
+The animation used when moving between testimonials.
+
+- **Slide:** Slides the next testimonial in horizontally.
+- **Fade:** Crossfades between the current and next testimonial.
+
+</details>
+
+<details>
+<summary><strong>Transition Speed</strong> <small>Default: 0.5</small></summary>
+
+
+The number of seconds the transition animation runs. The Transition Speed value should be less than the Delay.
+</details>
+
+<details>
+<summary><strong>Transition Direction</strong> <small>Default: Right To Left</small></summary>
+
+
+The direction of the slide transition.
+
+- **Right To Left:** Brings the next testimonial in from the right.
+- **Left To Right:** Brings the next testimonial in from the left.
+
+</details>
+
+<details>
+<summary><strong>Loop</strong> <small>Default: Yes</small></summary>
+
+
+Sets whether the slider loops continuously after reaching the last testimonial.
+
+- **Yes:** Returns to the first testimonial after the last one.
+- **No:** Stops on the last testimonial.
+
+</details>
+
+### Style Tab
+
+The Style tab controls the layout and the appearance of the heading, text, and slider navigation.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Wide</small></summary>
+
+
+Selects the slider layout. Wide is for single-column rows, and compact is for multi-column rows.
+
+- **Wide:** Displays a single testimonial across the full width of the column and reveals the **Dots** group.
+- **Compact:** Displays a smaller testimonial layout suited to multi-column rows and reveals the **Heading** and **Arrows** groups.
+
+</details>
+
+<details>
+<summary><strong>Heading</strong></summary>
+
+
+This group is available when **Layout** is set to **Compact**.
+
+<details>
+<summary><strong>Heading</strong></summary>
+
+
+<details>
+<summary><strong>Heading</strong> <small>Default: Testimonials</small></summary>
+
+
+The heading text displayed above the compact testimonials slider.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The color of the heading text.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the heading text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Text</strong></summary>
+
+
+The Text section controls the appearance of the testimonial content.
+
+<details>
+<summary><strong>Text</strong></summary>
+
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The color of the testimonial text.
+</details>
+
+<details>
+<summary><strong>Text Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the testimonial text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Arrows</strong></summary>
+
+
+This group is available when **Layout** is set to **Compact**.
+
+<details>
+<summary><strong>Arrows</strong></summary>
+
+
+<details>
+<summary><strong>Show Arrows</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the previous and next navigation arrows.
+
+- **No:** Hides the navigation arrows.
+- **Yes:** Displays the navigation arrows and reveals **Arrow Color**.
+
+<details>
+<summary><strong>Arrow Color</strong></summary>
+
+
+<details>
+<summary><strong>Arrow Color</strong> <small>Default: #999999; Supports: Responsive, Field Connections</small></summary>
+
+
+The color of the navigation arrows. This field appears when **Show Arrows** is set to **Yes**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Dots</strong></summary>
+
+
+This group is available when **Layout** is set to **Wide**.
+
+<details>
+<summary><strong>Dots</strong></summary>
+
+
+<details>
+<summary><strong>Show Dots</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the pagination dots beneath the slider.
+
+- **No:** Hides the pagination dots.
+- **Yes:** Displays the pagination dots and reveals **Dot Color**.
+
+<details>
+<summary><strong>Dot Color</strong></summary>
+
+
+<details>
+<summary><strong>Dot Color</strong> <small>Default: #999999; Supports: Field Connections</small></summary>
+
+
+The color of the pagination dots. This field appears when **Show Dots** is set to **Yes**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Individual testimonial settings
+
+Each testimonial in the slider has its own settings, accessible by clicking **Edit** on any testimonial in the Items tab.
+
+#### General tab
+
+The General tab holds the testimonial's content.
+
+<details>
+<summary><strong>Testimonial</strong></summary>
+
+
+The testimonial content for the entry, edited in the WordPress Classic Editor WYSIWYG. Use it to add the quote text along with attribution, formatting, links, or basic HTML.
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Testimonials module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>
+
+:::note
+
+The Advanced tab is global, so it is not available for individual testimonial items in the Testimonials module. As a result, the ID setting applies to the parent node div, not to each testimonial.
+:::

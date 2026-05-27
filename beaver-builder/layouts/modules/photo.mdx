@@ -1,0 +1,234 @@
+---
+title: Photo
+sidebar_label: Photo
+icon: "image"
+description: "Use Photo to upload an image or display one from the Media Library with cropping, alignment, captions, and link options."
+---
+
+
+Use Photo to upload an image or display one from the Media Library with cropping, alignment, captions, and link options.
+
+## Usage
+
+Use Photo to display a single image from the WordPress Media Library or from an external URL. The module outputs a responsive image with optional crop presets, alignment controls, container fill behavior, and an optional caption shown on hover or below the image. It can also wrap the image in a link to a custom URL, a lightbox, the photo file, or a generated photo page.
+
+Use Photo for hero images, content figures, profile or team headshots, product shots, gallery thumbnails, and any layout that needs a single configurable image with consistent styling. It fits straightforward image placements where you want crop and alignment controls without building a custom HTML block.
+
+## Module Settings
+
+The Photo module settings control the image source, link behavior, caption display, and image styling.
+
+### General Tab
+
+The General tab sets the photo source, hover title, caption display, and link behavior.
+
+<details>
+<summary><strong>Photo Source</strong> <small>Default: Media Library</small></summary>
+
+
+Selects whether the image comes from the WordPress Media Library or an external URL.
+
+- **Media Library:** Picks an image from the WordPress Media Library.
+- **URL:** Loads an image from an external URL.
+
+<details>
+<summary><strong>Media Library Settings</strong></summary>
+
+
+<details>
+<summary><strong>Photo</strong> <small>Supports: Field Connections</small></summary>
+
+
+The image selected from the WordPress Media Library. This field appears when **Photo Source** is set to **Media Library**.
+</details>
+</details>
+
+<details>
+<summary><strong>URL Settings</strong></summary>
+
+
+<details>
+<summary><strong>Photo URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The external URL of the image to display. This field appears when **Photo Source** is set to **URL**.
+</details>
+
+<details>
+<summary><strong>Image title attribute</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text used for the image `title` attribute. When left blank, the module uses the image filename. This field appears when **Photo Source** is set to **URL**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Show title attribute on mouse hover</strong> <small>Default: No</small></summary>
+
+
+Controls whether the image `title` attribute is rendered so browsers display it as a tooltip on hover.
+
+- **No:** Omits the `title` attribute on the image.
+- **Yes:** Renders the `title` attribute so it appears as a hover tooltip.
+
+</details>
+
+<details>
+<summary><strong>Caption</strong></summary>
+
+
+The Caption section controls whether a caption is displayed and what text it uses.
+
+<details>
+<summary><strong>Caption Settings</strong></summary>
+
+
+<details>
+<summary><strong>Show Caption</strong> <small>Default: Never</small></summary>
+
+
+Selects when the caption appears.
+
+- **Never:** Hides the caption.
+- **On Hover:** Reveals the caption when the visitor hovers over the image.
+- **Below Photo:** Renders the caption beneath the image.
+
+<details>
+<summary><strong>Caption</strong></summary>
+
+
+<details>
+<summary><strong>Caption</strong> <small>Supports: Field Connections</small></summary>
+
+
+The caption text shown with the image. When left blank, the module falls back to the caption stored on the Media Library attachment. This field appears when **Show Caption** is set to **On Hover** or **Below Photo**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Link</strong></summary>
+
+
+The Link section controls whether the image is wrapped in a link and where that link points.
+
+<details>
+<summary><strong>Link Settings</strong></summary>
+
+
+<details>
+<summary><strong>Link Type</strong> <small>Default: None</small></summary>
+
+
+Selects how the image is linked when clicked.
+
+- **None:** Renders the image without a link.
+- **URL:** Wraps the image in a custom link.
+- **Lightbox:** Opens the image in a lightbox.
+- **Photo File:** Links directly to the original image file.
+- **Photo Page:** Links to the WordPress attachment page for the image.
+
+<details>
+<summary><strong>Link URL</strong></summary>
+
+
+<details>
+<summary><strong>Link URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination used when **Link Type** is set to **URL**.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Lightbox Photo Size</strong></summary>
+
+
+<details>
+<summary><strong>Lightbox Photo Size</strong> <small>Default: Large</small></summary>
+
+
+Selects which registered image size is loaded in the lightbox when **Link Type** is set to **Lightbox**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls cropping, sizing, alignment, border, caption typography, and container fill behavior.
+
+<details>
+<summary><strong>Crop</strong></summary>
+
+
+Applies a preset aspect ratio to the image. The module generates and caches a cropped copy of the source image.
+
+- **None:** Uses the original image without cropping.
+- **Landscape:** Crops to a wide landscape ratio.
+- **Panorama:** Crops to an ultra-wide panoramic ratio.
+- **Portrait:** Crops to a tall portrait ratio.
+- **Square:** Crops to a 1:1 square.
+- **Circle:** Crops to a 1:1 square and renders the image as a circle.
+
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the rendered width of the image using `px`, `vw`, or `%`.
+</details>
+
+<details>
+<summary><strong>Align</strong> <small>Default: Center; Supports: Responsive</small></summary>
+
+
+Sets the horizontal alignment of the image within its wrapper.
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+
+<details>
+<summary><strong>Caption Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the caption text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Fill Container</strong></summary>
+
+
+Controls how the image fits and positions itself when the wrapper has a fixed width and height. Uses CSS `object-fit` and `object-position` so the image can fill the container without distortion.
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Photo module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

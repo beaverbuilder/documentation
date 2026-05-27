@@ -1,0 +1,271 @@
+---
+title: WooCommerce
+sidebar_label: WooCommerce
+icon: "shopping-cart"
+description: "Use WooCommerce to display products, categories, and core WooCommerce pages from your store inside a Beaver Builder layout."
+---
+
+
+Use WooCommerce to display products, categories, and core WooCommerce pages from your store inside a Beaver Builder layout.
+
+:::info
+
+The WooCommerce module requires the WooCommerce plugin to be active.
+:::
+
+## Usage
+
+Use WooCommerce to embed products, product categories, and core WooCommerce pages into a Beaver Builder layout without writing shortcodes. The module renders a single product, a full product page, multiple products, an "Add to Cart" button, product categories, the cart, the checkout, the order tracking form, or the My Account page based on the selected layout.
+
+Use this module on storefront landing pages, custom shop layouts, promotional sections, or templates that need to surface specific products or category groupings. It is most useful when you want to mix WooCommerce output with other Beaver Builder content on the same page and control which products or categories appear without leaving the builder.
+
+:::note
+
+The module is a wrapper around WooCommerce's own shortcodes. Each layout option maps to a [WooCommerce shortcode](https://woocommerce.com/document/woocommerce-shortcodes/), so the rendered output and behavior are controlled by WooCommerce, not Beaver Builder.
+:::
+
+## Module Settings
+
+The WooCommerce module settings control which layout is rendered and which products or categories the layout pulls from your store.
+
+### General Tab
+
+The General tab selects the layout type and configures the source product, category, or product collection used for that layout.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Choose...</small></summary>
+
+
+Selects which WooCommerce output the module renders. The available source fields below change based on the selected layout.
+
+- **Single Product:** Renders a single product by ID.
+- **Product Page:** Renders the full WooCommerce product page for a single product by ID.
+- **Multiple Products:** Renders a grid of products built from the **Multiple Products** section.
+- **"Add to Cart" Button:** Renders the Add to Cart button for a single product by ID.
+- **Categories:** Renders product categories using the category settings below.
+- **Cart:** Renders the WooCommerce cart page.
+- **Checkout:** Renders the WooCommerce checkout page.
+- **Order Tracking:** Renders the WooCommerce order tracking form.
+- **My Account:** Renders the WooCommerce My Account page.
+
+<details>
+<summary><strong>Single Product</strong></summary>
+
+
+<details>
+<summary><strong>Product ID</strong></summary>
+
+
+The unique product ID used to render the single product. Find the ID in the WooCommerce **Products** area by hovering over a product row.
+</details>
+</details>
+
+<details>
+<summary><strong>Product Page</strong></summary>
+
+
+<details>
+<summary><strong>Product ID</strong></summary>
+
+
+The unique product ID used to render the full product page. Find the ID in the WooCommerce **Products** area by hovering over a product row.
+</details>
+</details>
+
+<details>
+<summary><strong>Multiple Products</strong></summary>
+
+
+<details>
+<summary><strong>Multiple Products</strong></summary>
+
+
+The Multiple Products section configures the query used when **Layout** is set to **Multiple Products**. See [Multiple Products section](#multiple-products-section) below.
+</details>
+</details>
+
+<details>
+<summary><strong>&amp;quot;Add to Cart&amp;quot; Button</strong></summary>
+
+
+<details>
+<summary><strong>Product ID</strong></summary>
+
+
+The unique product ID used to render the Add to Cart button. Find the ID in the WooCommerce **Products** area by hovering over a product row.
+</details>
+</details>
+
+<details>
+<summary><strong>Categories</strong></summary>
+
+
+<details>
+<summary><strong>Autoselect Parent</strong> <small>Default: No</small></summary>
+
+
+Controls whether the module automatically uses the current page's parent category as the source. When set to **No**, the **Parent Category ID** field becomes available so you can specify a parent category manually.
+
+- **Yes:** Uses the parent category of the current page.
+- **No:** Uses the **Parent Category ID** value below.
+
+<details>
+<summary><strong>Parent Category ID</strong></summary>
+
+
+<details>
+<summary><strong>Parent Category ID</strong> <small>Default: 0</small></summary>
+
+
+The unique parent category ID used when **Autoselect Parent** is set to **No**. Find the ID by hovering over a category in the WooCommerce **Products → Categories** area and reading the number in the URL.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Product Category IDs to include</strong></summary>
+
+
+A comma-separated list of product category IDs to include. Leave blank to include all product categories.
+</details>
+
+<details>
+<summary><strong>Sort Product Category By</strong> <small>Default: Name</small></summary>
+
+
+Sets the field used to sort the displayed categories.
+
+- **Name:** Sorts by category name.
+- **Category ID:** Sorts by the numeric category ID.
+- **Category Slug:** Sorts by the category slug.
+- **Menu Order:** Sorts by the menu order assigned to each category.
+
+</details>
+
+<details>
+<summary><strong>Product Category Sort Direction</strong> <small>Default: Ascending</small></summary>
+
+
+Sets the sort direction applied to the **Sort Product Category By** value.
+
+- **Ascending:** Sorts categories in ascending order.
+- **Descending:** Sorts categories in descending order.
+
+</details>
+
+<details>
+<summary><strong>Columns</strong> <small>Default: 4</small></summary>
+
+
+The number of columns used to lay out the category grid. Options are **1**, **2**, **3**, and **4**.
+</details>
+</details>
+</details>
+
+#### Multiple Products section
+
+The Multiple Products section appears when **Layout** is set to **Multiple Products** and configures how products are queried and displayed.
+
+<details>
+<summary><strong>Products Source</strong> <small>Default: Products IDs</small></summary>
+
+
+Selects how products are retrieved. The fields revealed below depend on the selected source.
+
+- **Products IDs:** Builds the grid from a comma-separated list of product IDs.
+- **Product Category:** Builds the grid from one or more product category slugs.
+- **Product Tags:** Builds the grid from one or more product tag slugs.
+- **Recent Products:** Lists the most recent products.
+- **Featured Products:** Lists products marked as featured.
+- **Sale Products:** Lists products currently on sale.
+- **Best Selling Products:** Lists best-selling products.
+- **Top Rated Products:** Lists products with the highest ratings.
+
+<details>
+<summary><strong>Products IDs</strong></summary>
+
+
+<details>
+<summary><strong>Product IDs</strong></summary>
+
+
+A comma-separated list of product IDs used to build the grid when **Products Source** is set to **Products IDs**. Find each ID in the WooCommerce **Products** area by hovering over a product row.
+</details>
+</details>
+
+<details>
+<summary><strong>Product Category</strong></summary>
+
+
+<details>
+<summary><strong>Category Slug</strong></summary>
+
+
+A comma-separated list of product category slugs used to build the grid when **Products Source** is set to **Product Category**. Find slugs in the WooCommerce **Products → Categories** area.
+</details>
+</details>
+
+<details>
+<summary><strong>Product Tags</strong></summary>
+
+
+<details>
+<summary><strong>Tags Slug</strong></summary>
+
+
+A comma-separated list of product tag slugs used to build the grid when **Products Source** is set to **Product Tags**. Find slugs in the WooCommerce **Products → Tags** area.
+</details>
+</details>
+
+<details>
+<summary><strong>Number of Products</strong></summary>
+
+
+<details>
+<summary><strong>Number of Products</strong> <small>Default: 12</small></summary>
+
+
+The maximum number of products to display. Available when **Products Source** is set to **Product Category**, **Product Tags**, **Recent Products**, **Featured Products**, **Sale Products**, **Best Selling Products**, or **Top Rated Products**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Columns</strong> <small>Default: 4</small></summary>
+
+
+The number of columns used to lay out the product grid. Options are **1**, **2**, **3**, **4**, **5**, and **6**.
+</details>
+
+<details>
+<summary><strong>Sort By</strong> <small>Default: Default</small></summary>
+
+
+Sets the field used to sort the products. Not available when **Products Source** is set to **Best Selling Products**.
+
+- **Default:** Uses the WooCommerce menu order.
+- **Popularity:** Sorts by popularity.
+- **Rating:** Sorts by average rating.
+- **Date:** Sorts by publish date.
+- **Price:** Sorts by price.
+- **Product ID:** Sorts by the numeric product ID.
+
+</details>
+
+<details>
+<summary><strong>Sort Direction</strong> <small>Default: Ascending</small></summary>
+
+
+Sets the sort direction applied to the **Sort By** value. Not available when **Products Source** is set to **Best Selling Products**.
+
+- **Ascending:** Sorts products in ascending order.
+- **Descending:** Sorts products in descending order.
+
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common WooCommerce module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

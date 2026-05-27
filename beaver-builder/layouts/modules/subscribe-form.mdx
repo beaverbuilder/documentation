@@ -1,0 +1,1844 @@
+---
+title: Subscribe Form
+sidebar_label: Subscribe Form
+icon: "mail-plus"
+description: "Use Subscribe Form to add a name and email opt-in form that sends new subscribers to a connected email marketing service."
+---
+
+
+Use Subscribe Form to add a name and email opt-in form that sends new subscribers to a connected email marketing service.
+
+## Usage
+
+Use Subscribe Form to add a lightweight opt-in form that captures a name and email address and sends the subscriber to a connected email marketing service. The module submits over AJAX, supports an optional terms and conditions checkbox, can be protected with Google reCAPTCHA, and either shows a confirmation message or redirects to a thank-you page after a successful signup.
+
+Use Subscribe Form on landing pages, sidebars, footers, and anywhere a list-building call to action fits. It works well for newsletter signups, lead magnets, and product launch waitlists where the goal is to add subscribers to an existing email service rather than collect detailed inquiries.
+
+## Module Settings
+
+The Subscribe Form module settings control the connected email marketing service, the form structure and fields, the success behavior, the appearance of labels, inputs, and the submit button, and optional reCAPTCHA protection.
+
+### General Tab
+
+The General tab connects the form to an email marketing service, configures the visible fields, and sets what happens after a successful signup.
+
+<details>
+<summary><strong>Service</strong> <small>Default: Choose a service...</small></summary>
+
+
+Selects the email marketing service that receives new subscribers. Choosing a service reveals the connection fields and post-connection settings for that provider. The available options are:
+
+- Email Address (sends submissions to a WordPress email address rather than a third-party service)
+- ActiveCampaign
+- AWeber
+- Brevo (formerly SendinBlue)
+- Campaign Monitor
+- Campayn
+- Constant Contact
+- Constant Contact (deprecated)
+- ConvertKit
+- Drip
+- Enormail
+- GetResponse
+- GoDaddy Email Marketing
+- Groundhogg
+- Hatchbuck
+- iContact
+- iContact Pro
+- Keap (formerly InfusionSoft)
+- Mad Mimi
+- MailChimp
+- MailerLite
+- Mailjet
+- MailPoet
+- Mailrelay
+- Mautic
+- Ontraport
+- Sendy
+
+See the [Services guide](#services-guide) below for the connection and post-connection settings for each service.
+</details>
+
+<details>
+<summary><strong>Structure</strong></summary>
+
+
+The Structure section controls the form layout, whether labels are visible, which fields appear, and whether the form requires terms acceptance before submission.
+
+<details>
+<summary><strong>Form Fields</strong></summary>
+
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Stacked</small></summary>
+
+
+Sets how form fields are arranged.
+
+- **Stacked:** Stacks the name field, email field, and submit button on separate lines. Field labels can be shown above each input.
+- **Inline:** Places the fields and submit button on a single line. Selecting **Inline** automatically hides field labels.
+
+</details>
+
+<details>
+<summary><strong>Field Labels</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the labels rendered above each input. This field is only available when **Layout** is set to **Stacked**. Setting **Field Labels** to **Show** reveals the **Labels** group in the Style tab.
+</details>
+
+<details>
+<summary><strong>Name Field</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the name input.
+
+<details>
+<summary><strong>Name Field Text</strong></summary>
+
+
+<details>
+<summary><strong>Name Field Text</strong> <small>Default: Name</small></summary>
+
+
+The text used for the name field label and placeholder. This field appears when **Name Field** is set to **Show**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Email Field Text</strong> <small>Default: Email Address</small></summary>
+
+
+The text used for the email field label and placeholder.
+</details>
+
+<details>
+<summary><strong>Terms and Conditions Checkbox</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides a required acceptance checkbox below the form fields.
+
+<details>
+<summary><strong>Checkbox Text</strong></summary>
+
+
+<details>
+<summary><strong>Checkbox Text</strong> <small>Default: I Accept the Terms and Conditions</small></summary>
+
+
+The text displayed next to the checkbox.
+</details>
+</details>
+
+<details>
+<summary><strong>Terms and Conditions</strong></summary>
+
+
+<details>
+<summary><strong>Terms and Conditions</strong> <small>Supports: Field Connections</small></summary>
+
+
+The Terms and Conditions custom text uses the WordPress Classic Editor WYSIWYG, which lets you format text, add links, and include basic HTML. This content is displayed above the checkbox.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Success</strong></summary>
+
+
+The Success section sets the notification subject line and configures the action that runs after a successful signup.
+
+<details>
+<summary><strong>Success Settings</strong></summary>
+
+
+<details>
+<summary><strong>Notification Subject</strong></summary>
+
+
+The subject line used for any notification email sent by the connected service. When left empty, the module falls back to **Subscribe Form Signup**.
+</details>
+
+<details>
+<summary><strong>Success Action</strong> <small>Default: Show Message</small></summary>
+
+
+Determines what happens after a successful signup.
+
+- **Show Message:** Replaces the form with a custom confirmation message.
+- **Redirect:** Sends the subscriber to another URL after they sign up.
+
+<details>
+<summary><strong>Success Message</strong></summary>
+
+
+<details>
+<summary><strong>Success Message</strong> <small>Default: Thanks for subscribing! Please check your email for further instructions.; Supports: Field Connections</small></summary>
+
+
+The confirmation message displayed after a successful signup when **Success Action** is set to **Show Message**. Uses the WordPress Classic Editor WYSIWYG.
+</details>
+</details>
+
+<details>
+<summary><strong>Success URL</strong></summary>
+
+
+<details>
+<summary><strong>Success URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination used after a successful signup when **Success Action** is set to **Redirect**.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the appearance of labels, inputs, and the submit button.
+
+<details>
+<summary><strong>Labels</strong></summary>
+
+
+This group is available when **Field Labels** is set to **Show** in the General tab.
+
+<details>
+<summary><strong>Labels</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+The inner spacing around each field label.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of form labels.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for form labels.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Inputs</strong></summary>
+
+
+The Inputs section controls the appearance of the name and email inputs.
+
+<details>
+<summary><strong>Inputs</strong></summary>
+
+
+<details>
+<summary><strong>Gap</strong></summary>
+
+
+The vertical spacing between each form field.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+The inner spacing of the name and email inputs.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the name and email inputs.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color used when the name and email inputs are hovered or focused.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the name and email inputs.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the name and email inputs.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when the name and email inputs are hovered or focused.
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+
+<details>
+<summary><strong>Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The border color used when the name and email inputs are hovered or focused.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button</strong></summary>
+
+
+The Button section controls the appearance of the submit button.
+
+<details>
+<summary><strong>Button settings</strong></summary>
+
+
+<details>
+<summary><strong>Text</strong> <small>Default: Subscribe!</small></summary>
+
+
+The label displayed on the submit button.
+</details>
+
+<details>
+<summary><strong>Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds an optional icon to the submit button.
+
+<details>
+<summary><strong>DuoTone Primary Color</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Primary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the primary color applied to the icon.
+</details>
+</details>
+
+<details>
+<summary><strong>DuoTone Secondary Color</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Secondary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the secondary color applied to the icon.
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Position</strong></summary>
+
+
+<details>
+<summary><strong>Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected.
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Visibility</strong></summary>
+
+
+<details>
+<summary><strong>Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Keeps the icon visible or fades it in on hover when an icon is selected.
+
+- **Always Visible:** Displays the icon at all times.
+- **Fade In On Hover:** Fades the icon in when the button is hovered.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+The inner spacing of the submit button.
+</details>
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the submit button.
+</details>
+
+<details>
+<summary><strong>Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the submit button on hover and focus.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the submit button text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The default background color of the submit button.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the submit button on hover and focus.
+</details>
+
+<details>
+<summary><strong>Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects a **Flat** or **Gradient** background for the submit button.
+
+- **Flat:** Renders a solid background color.
+- **Gradient:** Renders a gradient between the background color and a darker shade.
+
+</details>
+
+<details>
+<summary><strong>Background Animation</strong> <small>Default: Disabled</small></summary>
+
+
+Enables or disables the transition between the normal and hover background states.
+</details>
+
+<details>
+<summary><strong>Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, radius, and color of the submit button.
+</details>
+
+<details>
+<summary><strong>Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The border color of the submit button on hover and focus.
+</details>
+</details>
+</details>
+
+### Captcha Tab
+
+The Captcha tab configures Google reCAPTCHA for spam protection.
+
+:::note
+
+Set up your reCAPTCHA keys in the [Google Admin Console](https://www.google.com/recaptcha/admin). Each reCAPTCHA validation type requires its own unique site key and secret key pair.
+
+For more information, see the [reCAPTCHA v3 documentation](https://developers.google.com/recaptcha/docs/v3).
+:::
+
+<details>
+<summary><strong>reCAPTCHA Field</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the Google reCAPTCHA field. Enabling it requires valid site and secret keys.
+
+<details>
+<summary><strong>Validate Type</strong></summary>
+
+
+<details>
+<summary><strong>Validate Type</strong> <small>Default: {`&quot;I'm not a robot&quot; checkbox (V2)`}</small></summary>
+
+
+Selects the reCAPTCHA challenge mode.
+
+- **"I'm not a robot" checkbox (V2):** Shows the standard reCAPTCHA checkbox widget.
+- **Invisible (V2):** Validates submissions in the background using the v2 invisible flow.
+- **Invisible (V3):** Validates submissions in the background using v3 scoring.
+
+<details>
+<summary><strong>Action</strong></summary>
+
+
+<details>
+<summary><strong>Action</strong></summary>
+
+
+An optional action name passed to Google for v3 verification when **Validate Type** is set to **Invisible (V3)**. Use letters, numbers, and underscores only.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Site Key</strong></summary>
+
+
+<details>
+<summary><strong>Site Key</strong></summary>
+
+
+The public site key from the Google reCAPTCHA Admin Console.
+</details>
+</details>
+
+<details>
+<summary><strong>Secret Key</strong></summary>
+
+
+<details>
+<summary><strong>Secret Key</strong></summary>
+
+
+The private secret key from the Google reCAPTCHA Admin Console.
+</details>
+</details>
+
+<details>
+<summary><strong>Theme</strong></summary>
+
+
+<details>
+<summary><strong>Theme</strong> <small>Default: Light</small></summary>
+
+
+The color scheme used for visible reCAPTCHA widgets.
+
+- **Light:** Renders the widget on a light background.
+- **Dark:** Renders the widget on a dark background.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Subscribe Form module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>
+
+## Services guide
+
+Each service connects in the same way. After you choose a value in the **Service** field, the module displays an **Account Name** field, the credentials needed by the selected provider, and a **Connect** button:
+
+1. Enter an **Account Name** to identify the connection in your saved accounts list. The name can be anything you choose.
+2. Fill in the credentials shown for the selected service.
+3. Click **Connect** to save the account.
+4. Once connected, choose the saved account in the **Account** field and configure any remaining service-specific settings.
+
+The sections below list the connection and post-connection settings for each service. Email Address appears first because it is not a third-party integration. The remaining services are listed alphabetically.
+
+<details>
+<summary><strong>Email Address</strong></summary>
+
+
+Sends the subscriber's name and email to a WordPress email address rather than to a third-party email marketing service. There are no post-connection settings.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Email Address</strong></summary>
+
+
+The email address that receives the form submission.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>ActiveCampaign</strong></summary>
+
+
+Adds subscribers to an ActiveCampaign list or form, with optional tagging.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API URL</strong></summary>
+
+
+Your ActiveCampaign API URL, found in your ActiveCampaign account under **My Settings > Developer > API**.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your ActiveCampaign API key, found in your ActiveCampaign account under **My Settings > Developer > API**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved ActiveCampaign account used for this form.
+</details>
+
+<details>
+<summary><strong>Type</strong></summary>
+
+
+Whether to add the subscriber to a **List** or to a **Form**. Selecting a value reveals the matching selector below.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The ActiveCampaign list that receives the subscriber. Available when **Type** is set to **List**.
+</details>
+
+<details>
+<summary><strong>Form</strong></summary>
+
+
+The ActiveCampaign form to associate with the submission. Available when **Type** is set to **Form**.
+</details>
+
+<details>
+<summary><strong>Tags</strong></summary>
+
+
+One or more tags to apply to the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>AWeber</strong></summary>
+
+
+Adds subscribers to an AWeber list, with optional tagging. AWeber connects through OAuth: the connection field provides a link that opens AWeber's authorization page, where you generate the code to paste back into the field.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Authorization Code</strong></summary>
+
+
+The authorization code returned by AWeber after you authorize Beaver Builder to access your account. Use the **Register Now** link displayed with the field to begin the AWeber authorization flow, then paste the code into this field.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved AWeber account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The AWeber list that receives the subscriber.
+</details>
+
+<details>
+<summary><strong>Tags</strong></summary>
+
+
+A comma-separated list of tags to apply to the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Brevo (formerly SendinBlue)</strong></summary>
+
+
+Adds subscribers to a Brevo list. The service ID remains `sendinblue` for backwards compatibility.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Brevo API key, found in your Brevo account under **SMTP & API > API Keys**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Brevo account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Brevo list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Campaign Monitor</strong></summary>
+
+
+Adds subscribers to a Campaign Monitor list under a selected client.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Campaign Monitor API key, found in your Campaign Monitor account under **Account Settings > API Key**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Campaign Monitor account used for this form.
+</details>
+
+<details>
+<summary><strong>Client</strong></summary>
+
+
+The Campaign Monitor client that owns the target list.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The list under the selected client that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Campayn</strong></summary>
+
+
+Adds subscribers to a Campayn list.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Host</strong></summary>
+
+
+The host you chose when you signed up for your Campayn account, for example `demo.campayn.com`. Enter it without the leading `http://`.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Campayn API key, found in your Campayn account under **Settings > API Key**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Campayn account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Campayn list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Constant Contact</strong></summary>
+
+
+Adds subscribers to a Constant Contact list. Connection requires a developer application registered in the Constant Contact API portal so you can generate the OAuth tokens used by the form.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Client ID</strong></summary>
+
+
+The Client ID from your Constant Contact API application.
+</details>
+
+<details>
+<summary><strong>Client Secret</strong></summary>
+
+
+The Client Secret from your Constant Contact API application.
+</details>
+
+<details>
+<summary><strong>Access Token</strong></summary>
+
+
+The Access Token generated for your Constant Contact API application.
+</details>
+
+<details>
+<summary><strong>Refresh Token</strong></summary>
+
+
+The Refresh Token generated for your Constant Contact API application.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Constant Contact account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Constant Contact list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Constant Contact (deprecated)</strong></summary>
+
+
+Adds subscribers to a Constant Contact list using the legacy v2 API.
+
+:::warning
+
+This service is deprecated. Use the **Constant Contact** service for new forms.
+:::
+
+:::note
+
+You must already have registered a Developer Account with Constant Contact and obtained an API key and access token. Creating new v2 API Keys is no longer supported by Constant Contact. If you do not already have a v2 API key, please use the other Constant Contact option that supports the v3 API.
+:::
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Constant Contact v2 API key.
+</details>
+
+<details>
+<summary><strong>Access Token</strong></summary>
+
+
+Your Constant Contact v2 access token.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Constant Contact (v2) account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Constant Contact list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>ConvertKit</strong></summary>
+
+
+Adds subscribers to a ConvertKit form, with optional custom field mapping.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your ConvertKit API key, found in your ConvertKit account under **Account > Account Settings > API Key**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved ConvertKit account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The ConvertKit form that receives the subscriber.
+</details>
+
+<details>
+<summary><strong>Custom Fields</strong></summary>
+
+
+One or more ConvertKit custom fields to populate from the submission.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Drip</strong></summary>
+
+
+Adds subscribers to a Drip account, with optional tags, campaign enrollment, and workflow enrollment.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Token</strong></summary>
+
+
+Your Drip API token.
+</details>
+
+<details>
+<summary><strong>Account ID</strong></summary>
+
+
+Your Drip Account ID, found in your Drip account under **Settings > Site Setup**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Drip account used for this form.
+</details>
+
+<details>
+<summary><strong>Campaign</strong></summary>
+
+
+The Drip campaign to enroll the subscriber in.
+</details>
+
+<details>
+<summary><strong>Tags</strong></summary>
+
+
+A comma-separated list of tags to apply to the subscriber.
+</details>
+
+<details>
+<summary><strong>Workflow</strong></summary>
+
+
+The Drip workflow to enroll the subscriber in after they are added.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Enormail</strong></summary>
+
+
+Adds subscribers to an Enormail list.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Enormail API key, found in your Enormail account settings.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Enormail account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Enormail list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>GetResponse</strong></summary>
+
+
+Adds subscribers to a GetResponse list, with an optional autoresponder cycle day.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your GetResponse API key, found in your GetResponse account under **My Account > API & OAuth**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved GetResponse account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The GetResponse list that receives the subscriber.
+</details>
+
+<details>
+<summary><strong>Cycle Day</strong></summary>
+
+
+The autoresponder cycle day to assign to the subscriber. This should match the cycle day configured for the selected list's autoresponder.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>GoDaddy Email Marketing</strong></summary>
+
+
+Adds subscribers to a GoDaddy Email Marketing signup form.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Username</strong></summary>
+
+
+The username associated with your GoDaddy Email Marketing account.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+The API key from your GoDaddy Email Marketing account.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved GoDaddy Email Marketing account used for this form.
+</details>
+
+<details>
+<summary><strong>Form</strong></summary>
+
+
+The GoDaddy Email Marketing signup form that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Groundhogg</strong></summary>
+
+
+Adds subscribers to your Groundhogg installation and applies one or more tags. Groundhogg runs inside WordPress, so no API credentials are required, but the [Groundhogg plugin](https://wordpress.org/plugins/groundhogg/) must be installed and active. If the plugin is not active, the connection panel shows an installation notice instead of the connection fields.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Plugin requirement</strong></summary>
+
+
+No credentials are needed. Click **Connect** after the Groundhogg plugin is installed and active.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Groundhogg connection used for this form.
+</details>
+
+<details>
+<summary><strong>Apply Tag</strong></summary>
+
+
+One or more Groundhogg tags to apply to the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Hatchbuck</strong></summary>
+
+
+Adds subscribers to Hatchbuck and applies a tag.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Hatchbuck API key, found in your Hatchbuck account under **Account Settings > Web API**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Hatchbuck account used for this form.
+</details>
+
+<details>
+<summary><strong>Tag</strong></summary>
+
+
+The Hatchbuck tag to apply to the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>iContact</strong></summary>
+
+
+Adds subscribers to an iContact list.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Username</strong></summary>
+
+
+Your iContact username.
+</details>
+
+<details>
+<summary><strong>App ID</strong></summary>
+
+
+Your iContact app ID.
+</details>
+
+<details>
+<summary><strong>App Password</strong></summary>
+
+
+Your iContact app password.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved iContact account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The iContact list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>iContact Pro</strong></summary>
+
+
+Adds subscribers to an iContact Pro list. Pro accounts require additional company and profile identifiers.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Username</strong></summary>
+
+
+Your iContact Pro username.
+</details>
+
+<details>
+<summary><strong>App ID</strong></summary>
+
+
+Your iContact Pro app ID.
+</details>
+
+<details>
+<summary><strong>App Password</strong></summary>
+
+
+Your iContact Pro app password.
+</details>
+
+<details>
+<summary><strong>Company ID</strong></summary>
+
+
+Your iContact Pro company ID.
+</details>
+
+<details>
+<summary><strong>Profile ID</strong></summary>
+
+
+Your iContact Pro profile ID.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved iContact Pro account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The iContact Pro list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Keap (formerly InfusionSoft)</strong></summary>
+
+
+Adds subscribers to Keap and tags them. The service ID remains `infusionsoft` for backwards compatibility.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>App ID</strong></summary>
+
+
+Your Keap App ID. The App ID is the subdomain in your account URL. For example, if your account URL is `myaccount.infusionsoft.com`, the App ID is `myaccount`.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Keap API key, found in your Keap account under **Admin > Settings > Application > API > Encrypted Key**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Keap account used for this form.
+</details>
+
+<details>
+<summary><strong>Select Tag</strong></summary>
+
+
+The Keap tag to apply to the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Mad Mimi</strong></summary>
+
+
+Adds subscribers to a Mad Mimi list.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Email Address</strong></summary>
+
+
+The email address associated with your Mad Mimi account.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Mad Mimi API key, found in your Mad Mimi account under **Account > Settings & Billing > API**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Mad Mimi account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Mad Mimi list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>MailChimp</strong></summary>
+
+
+Adds subscribers to a MailChimp audience, with optional tags and interest groups.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your MailChimp API key, found in your MailChimp account under **Account > Extras > API Keys**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved MailChimp account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The MailChimp audience that receives the subscriber.
+</details>
+
+<details>
+<summary><strong>Tags</strong></summary>
+
+
+A comma-separated list of tags to apply to the subscriber.
+</details>
+
+<details>
+<summary><strong>Groups</strong></summary>
+
+
+One or more MailChimp interest groups to assign to the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>MailerLite</strong></summary>
+
+
+Adds subscribers to a MailerLite group.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your MailerLite API key, found in your MailerLite account under **Integrations > Developer API**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved MailerLite account used for this form.
+</details>
+
+<details>
+<summary><strong>Group</strong></summary>
+
+
+The MailerLite group that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Mailjet</strong></summary>
+
+
+Adds subscribers to a Mailjet contact list.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Mailjet API key, found in your Mailjet account under **Account Settings > Rest API > Master API Key & Sub API Key Management**.
+</details>
+
+<details>
+<summary><strong>Secret Key</strong></summary>
+
+
+Your Mailjet secret key, found alongside the API key in **Account Settings > Rest API > Master API Key & Sub API Key Management**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Mailjet account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Mailjet contact list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>MailPoet</strong></summary>
+
+
+Adds subscribers to a MailPoet list. MailPoet runs inside WordPress, so no API credentials are required, but the MailPoet plugin must be installed and active.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Plugin requirement</strong></summary>
+
+
+No credentials are needed. Click **Connect** after the MailPoet plugin is installed and active.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved MailPoet connection used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The MailPoet list that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Mailrelay</strong></summary>
+
+
+Adds subscribers to one or more Mailrelay groups.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Host</strong></summary>
+
+
+The host you chose when you signed up for your Mailrelay account, for example `demo.ip-zone.com`. Enter it without the leading `http://`.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Mailrelay API key, found in your Mailrelay account under **Menu > Settings > API access**.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Mailrelay account used for this form.
+</details>
+
+<details>
+<summary><strong>Group</strong></summary>
+
+
+One or more Mailrelay groups that receive the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Mautic</strong></summary>
+
+
+Adds subscribers to a Mautic segment by authenticating against your self-hosted Mautic installation.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Installation URL</strong></summary>
+
+
+The URL where your Mautic application is installed, for example `http://mautic.mywebsite.com`.
+</details>
+
+<details>
+<summary><strong>Mautic Username</strong></summary>
+
+
+A Mautic username with full system access. As a best practice, create a dedicated user for each external site.
+</details>
+
+<details>
+<summary><strong>Mautic Password</strong></summary>
+
+
+The password for the Mautic user. Use a long passphrase.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Mautic account used for this form.
+</details>
+
+<details>
+<summary><strong>List</strong></summary>
+
+
+The Mautic segment that receives the subscriber.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Ontraport</strong></summary>
+
+
+Adds subscribers to an Ontraport campaign.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>APP ID</strong></summary>
+
+
+Your Ontraport APP ID, found in your Ontraport account.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Ontraport API key, found in your Ontraport account.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Ontraport account used for this form.
+</details>
+
+<details>
+<summary><strong>Campaign</strong></summary>
+
+
+The Ontraport campaign that the subscriber is added to.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Sendy</strong></summary>
+
+
+Adds subscribers to a list in your self-hosted Sendy installation. Sendy is unusual in that the list ID is part of the connection rather than a post-connection setting, so each Sendy account corresponds to a single list.
+
+<details>
+<summary><strong>Connection settings</strong></summary>
+
+
+<details>
+<summary><strong>Installation URL</strong></summary>
+
+
+The URL where your Sendy application is installed, for example `http://mywebsite.com/sendy`.
+</details>
+
+<details>
+<summary><strong>API Key</strong></summary>
+
+
+Your Sendy API key, found in your Sendy application under **Settings**.
+</details>
+
+<details>
+<summary><strong>List ID</strong></summary>
+
+
+The ID of the Sendy list that receives the subscriber. The list ID is shown under **View all lists** in the **ID** column.
+</details>
+</details>
+
+<details>
+<summary><strong>Settings after connecting</strong></summary>
+
+
+<details>
+<summary><strong>Account</strong></summary>
+
+
+The saved Sendy account used for this form. Because the list is part of the connection, no additional fields appear after connecting.
+</details>
+</details>
+</details>

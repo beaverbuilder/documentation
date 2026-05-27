@@ -1,0 +1,42 @@
+---
+title: WordPress Patterns
+sidebar_label: WordPress Patterns
+icon: "wordpress"
+description: "Drag saved WordPress Patterns directly into Beaver Builder layouts and keep them in sync with the source content."
+---
+
+
+Drag saved WordPress Patterns directly into Beaver Builder layouts and keep them in sync with the source content.
+
+## Usage
+
+WordPress Patterns (formerly Reusable Blocks) are saved blocks created in the WordPress block editor. Beaver Builder reads every published `wp_block` post and surfaces each one as its own draggable item in the Content Panel, so existing patterns can be dropped into a row, column, or layout without leaving the builder.
+
+When the underlying pattern is edited in WordPress, every Beaver Builder layout that uses it reflects the change. This makes WordPress Patterns useful for content that needs to be authored once and reused, such as shared callouts, banners, footers, and marketing blocks.
+
+:::note
+
+Beaver Builder does not add a single "WordPress Pattern" module to the Content Panel. Instead, each saved pattern is registered individually under the **WordPress Patterns** subgroup using its post title.
+:::
+
+## Add a WordPress Pattern to a layout
+
+1. Launch Beaver Builder on your page or post.
+2. Open the **Content Panel** and select the **WordPress Patterns** subgroup.
+3. Drag the pattern you want to use into your layout.
+4. Click **Done** and save your changes.
+
+:::note
+
+The **WordPress Patterns** subgroup appears in the Content Panel only after at least one pattern has been created and saved in the WordPress block editor. If no patterns exist yet, the subgroup is not registered.
+:::
+
+## How patterns stay in sync
+
+Beaver Builder renders the selected pattern's saved block markup at the position where it is dropped, and re-reads the source `wp_block` post each time the layout renders. Editing the pattern in **Appearance > Editor > Patterns** (or **Pages > Patterns** depending on the WordPress version) updates every layout that references it, with no need to re-open the layout in Beaver Builder.
+
+Patterns are listed in the Content Panel ordered by menu order, then alphabetically by title. New or renamed patterns appear automatically the next time the builder is opened.
+
+## Manage patterns
+
+Patterns are managed in the WordPress block editor, not in Beaver Builder. To create, rename, or delete a pattern, use the standard WordPress workflow for the `wp_block` post type. Beaver Builder picks up the changes the next time the Content Panel is loaded.

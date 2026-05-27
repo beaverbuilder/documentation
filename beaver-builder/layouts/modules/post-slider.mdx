@@ -1,0 +1,647 @@
+---
+title: Posts Slider
+sidebar_label: Posts Slider
+icon: "gallery-horizontal-end"
+description: "Use Posts Slider to display a slider of WordPress posts with featured image, post info, and excerpt content."
+---
+
+
+Use Posts Slider to display a slider of WordPress posts with featured image, post info, and excerpt content.
+
+## Usage
+
+Use Posts Slider to render a slideshow of queried WordPress posts, pages, or custom post types in a single rotating panel. Each slide combines the post's featured image with optional post title, author, date, comment count, excerpt, and a Read More link, and the slideshow is driven by configurable height, autoplay, loop, transition, and timing controls.
+
+This module is most useful for blog feature areas, homepage hero sections, related-content blocks, and landing pages where a small set of posts should rotate automatically with strong visual emphasis. It works well anywhere a static post grid would feel too dense and a single highlighted post at a time better matches the page design.
+
+## Module Settings
+
+The Posts Slider module settings control the slider behavior, the layout of each slide, the visual styling of slide content, and the underlying post query.
+
+### Slider Tab
+
+The Slider tab controls the slider dimensions, autoplay, transitions, and the visible navigation controls.
+
+<details>
+<summary><strong>Height</strong> <small>Default: 400px</small></summary>
+
+
+The minimum height of the slider in pixels. Slide content can expand the height beyond this value.
+</details>
+
+<details>
+<summary><strong>Auto Play</strong> <small>Default: Yes</small></summary>
+
+
+Starts each slide rotating automatically on page load.
+</details>
+
+<details>
+<summary><strong>Loop</strong> <small>Default: No</small></summary>
+
+
+Returns the slider to the first slide after the last slide, so the rotation continues without stopping.
+</details>
+
+<details>
+<summary><strong>Delay</strong> <small>Default: 5</small></summary>
+
+
+The time in seconds each slide remains visible before advancing to the next slide.
+</details>
+
+<details>
+<summary><strong>Transition</strong> <small>Default: Slide</small></summary>
+
+
+The animation used when moving between slides.
+
+- **Fade:** Cross-fades between slides without moving them horizontally.
+- **Slide:** Slides each post horizontally into view.
+
+</details>
+
+<details>
+<summary><strong>Transition Speed</strong> <small>Default: 1</small></summary>
+
+
+The duration in seconds of the transition animation between slides.
+</details>
+
+<details>
+<summary><strong>Number of Posts</strong> <small>Default: 10</small></summary>
+
+
+The maximum number of posts loaded into the slider as slides.
+</details>
+
+<details>
+<summary><strong>Slider Controls</strong></summary>
+
+
+The Slider Controls section sets which navigation elements appear on top of the slider.
+
+<details>
+<summary><strong>Slider Controls</strong></summary>
+
+
+<details>
+<summary><strong>Show Dots</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the pagination dots used to jump between slides.
+</details>
+
+<details>
+<summary><strong>Show Arrows</strong> <small>Default: No</small></summary>
+
+
+Shows or hides the previous and next arrow controls. Selecting **Yes** also reveals the **Nav Arrows** group in the Style tab.
+</details>
+
+<details>
+<summary><strong>Show Play/Pause</strong> <small>Default: No</small></summary>
+
+
+Shows or hides a play and pause toggle for the slider rotation.
+</details>
+</details>
+</details>
+
+### Layout Tab
+
+The Layout tab controls how the featured image, post info, and post content appear on each slide.
+
+<details>
+<summary><strong>Featured Image</strong></summary>
+
+
+The Featured Image section controls whether and how the featured image is displayed on each slide.
+
+<details>
+<summary><strong>Featured Image</strong></summary>
+
+
+<details>
+<summary><strong>Show Featured Image?</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the featured image on each slide. Selecting **Hide** removes the related image fields from the layout.
+
+<details>
+<summary><strong>Image Settings</strong></summary>
+
+
+<details>
+<summary><strong>Image</strong> <small>Default: Background</small></summary>
+
+
+Selects how the featured image is rendered on the slide.
+
+- **Background:** Renders the featured image as the slide background, with the post content overlaid on top.
+- **Thumbnail:** Renders the featured image as an inline thumbnail next to the post content.
+
+</details>
+
+<details>
+<summary><strong>Size</strong> <small>Default: Large</small></summary>
+
+
+The registered image size used for the featured image.
+</details>
+
+<details>
+<summary><strong>Crop</strong> <small>Default: Landscape</small></summary>
+
+
+The crop applied to the thumbnail image when **Image** is set to **Thumbnail**.
+
+- **None:** Uses the original image without cropping.
+- **Landscape:** Crops the image to a wide horizontal aspect ratio.
+- **Panorama:** Crops the image to a very wide panoramic aspect ratio.
+- **Portrait:** Crops the image to a tall vertical aspect ratio.
+- **Square:** Crops the image to a 1:1 square.
+- **Circle:** Crops the image to a circle.
+
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+The Post Info section controls which metadata appears next to each post title.
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+<details>
+<summary><strong>Author</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post author on each slide.
+</details>
+
+<details>
+<summary><strong>Date</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post date on each slide.
+
+<details>
+<summary><strong>Date Format</strong></summary>
+
+
+<details>
+<summary><strong>Date Format</strong> <small>Default: Default</small></summary>
+
+
+The format used to display the post date when **Date** is set to **Show**.
+
+- **Default:** Uses the date format configured in the WordPress settings.
+- **M j, Y:** Short month name, day, and four-digit year, for example `Jan 1, 2025`.
+- **F j, Y:** Full month name, day, and four-digit year, for example `January 1, 2025`.
+- **m/d/Y:** Numeric month, day, and four-digit year separated by slashes.
+- **m-d-Y:** Numeric month, day, and four-digit year separated by hyphens.
+- **d M Y:** Day, short month name, and four-digit year.
+- **d F Y:** Day, full month name, and four-digit year.
+- **Y-m-d:** Four-digit year, numeric month, and day separated by hyphens.
+- **Y/m/d:** Four-digit year, numeric month, and day separated by slashes.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Comments</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post comment count on each slide.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Content</strong></summary>
+
+
+The Post Content section controls the post excerpt and the optional Read More link displayed on each slide.
+
+<details>
+<summary><strong>Post Content</strong></summary>
+
+
+<details>
+<summary><strong>Post Content</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post excerpt on each slide. Selecting **Show** also reveals the **Post Content** style group in the Style tab.
+
+<details>
+<summary><strong>Content Length</strong></summary>
+
+
+<details>
+<summary><strong>Content Length</strong></summary>
+
+
+The maximum number of words used for the excerpt when **Post Content** is set to **Show**. Leave empty to use the default WordPress excerpt length.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>More Link</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the Read More link below the excerpt. Selecting **Show** also reveals the **More Link** style group in the Style tab.
+
+<details>
+<summary><strong>More Link Text</strong></summary>
+
+
+<details>
+<summary><strong>More Link Text</strong> <small>Default: Read More</small></summary>
+
+
+The text displayed for the Read More link when **More Link** is set to **Show**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the appearance of the slide content area, post title, post info, post content, More Link, and the optional navigation arrows.
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+The Content section controls the position, sizing, and background of the text overlay on each slide.
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+<details>
+<summary><strong>Position</strong> <small>Default: Left</small></summary>
+
+
+The horizontal or vertical placement of the text content over the slide background. Available when **Image** is set to **Background**.
+
+- **Left:** Aligns the content to the left side of the slide.
+- **Right:** Aligns the content to the right side of the slide.
+- **Bottom:** Aligns the content to the bottom of the slide.
+
+</details>
+
+<details>
+<summary><strong>Position (Thumbnail Only)</strong> <small>Default: Left</small></summary>
+
+
+The placement of the text content next to the featured image when **Image** is set to **Thumbnail**.
+
+- **Left:** Places the content to the left of the thumbnail.
+- **Right:** Places the content to the right of the thumbnail.
+
+</details>
+
+<details>
+<summary><strong>Text Width</strong> <small>Default: 50%</small></summary>
+
+
+The width of the text content area as a percentage of the slide width. Available when **Position** is set to **Left** or **Right**.
+</details>
+
+<details>
+<summary><strong>Text Padding</strong> <small>Default: 50px</small></summary>
+
+
+The inner spacing around the text content area in pixels.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Default: #333333; Supports: Field Connections</small></summary>
+
+
+The color of the overlay placed behind the text content when the featured image is rendered as a background.
+</details>
+
+<details>
+<summary><strong>Background Gradient</strong> <small>Default: No</small></summary>
+
+
+Fades the background color overlay into a transparent edge in the direction set by **Position**, instead of filling a flat block.
+</details>
+
+<details>
+<summary><strong>Background Height</strong> <small>Default: 100%</small></summary>
+
+
+Controls how the background overlay sizes to the slide.
+
+- **Auto:** Sizes the overlay to fit the height of the text content.
+- **100%:** Stretches the overlay to fill the full height of the slide.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Title</strong></summary>
+
+
+The Post Title section controls the markup and appearance of each post title.
+
+<details>
+<summary><strong>Post Title</strong></summary>
+
+
+<details>
+<summary><strong>Title Tag</strong> <small>Default: h2</small></summary>
+
+
+The HTML tag used for each post title. Options are **h1**, **h2**, **h3**, **h4**, **h5**, and **h6**.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Default: #cccccc; Supports: Field Connections</small></summary>
+
+
+The text color of each post title.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The text color of each post title on hover.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for post titles.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+The Post Info section controls the appearance of the author, date, and comment count metadata.
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The text color of the post info metadata.
+</details>
+
+<details>
+<summary><strong>Link Color</strong> <small>Default: #cccccc; Supports: Field Connections</small></summary>
+
+
+The link color of the post info metadata.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The link color of the post info metadata on hover.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post info metadata.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Content</strong></summary>
+
+
+This group is available when **Post Content** is set to **Show** in the Layout tab.
+
+<details>
+<summary><strong>Post Content</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The text color of the post excerpt content.
+</details>
+
+<details>
+<summary><strong>Link Color</strong> <small>Default: #cccccc; Supports: Field Connections</small></summary>
+
+
+The color of inline links inside the post excerpt content.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The color of inline links inside the post excerpt content on hover.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post excerpt content.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>More Link</strong></summary>
+
+
+This group is available when **More Link** is set to **Show** in the Layout tab.
+
+<details>
+<summary><strong>More Link</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the Read More link.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the Read More link on hover.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the Read More link.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Nav Arrows</strong></summary>
+
+
+This group is available when **Show Arrows** is set to **Yes** in the Slider tab.
+
+<details>
+<summary><strong>Nav Arrows</strong></summary>
+
+
+<details>
+<summary><strong>Arrows Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the previous and next arrow controls.
+</details>
+
+<details>
+<summary><strong>Arrows Background Style</strong> <small>Default: Circle</small></summary>
+
+
+The shape of the background behind each arrow control.
+
+- **Circle:** Renders the arrow background as a circle.
+- **Square:** Renders the arrow background as a square.
+
+</details>
+
+<details>
+<summary><strong>Arrows Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The fill color of the previous and next arrow icons.
+</details>
+</details>
+</details>
+
+### Query Tab
+
+The Query tab configures the WordPress query used to load posts into the slider.
+
+<details>
+<summary><strong>Source</strong> <small>Default: Custom Query</small></summary>
+
+
+Selects how the slider gets its posts.
+
+- **Custom Query:** Build a custom WordPress query by specifying post type, sort order, and filters.
+- **Main Query:** Use the current page's main WordPress query, useful inside Beaver Themer archive layouts where the page context determines the query.
+
+<details>
+<summary><strong>Custom Query settings</strong></summary>
+
+
+<details>
+<summary><strong>Post Type</strong> <small>Default: Post</small></summary>
+
+
+Selects one or more post types to query. Supports posts, pages, and registered custom post types.
+</details>
+
+<details>
+<summary><strong>Ordering settings</strong></summary>
+
+Ordering settings control how queried posts or items are sorted, such as by date, title, menu order, or custom ordering options where available.
+
+</details>
+
+<details>
+<summary><strong>Offset</strong> <small>Default: 0</small></summary>
+
+
+Skips the specified number of posts at the start of the query results, useful when the most recent posts appear elsewhere on the page.
+</details>
+
+<details>
+<summary><strong>Exclude Current Post</strong> <small>Default: No</small></summary>
+
+
+Excludes the post currently being viewed from the query results. Useful for related-post sliders on single post templates.
+</details>
+
+<details>
+<summary><strong>Filtering settings</strong></summary>
+
+Filtering settings control which posts, terms, authors, or content types are included or excluded from the module output.
+
+</details>
+
+<details>
+<summary><strong>Authors</strong></summary>
+
+
+Filters the query to posts by specific authors entered by username.
+</details>
+
+<details>
+<summary><strong>Custom field filter settings</strong></summary>
+
+Custom field filters limit queried content by matching custom field keys, values, and comparison rules where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Posts Slider module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

@@ -1,0 +1,276 @@
+---
+title: Icon Group
+sidebar_label: Icon Group
+icon: "layout-grid"
+description: "Use Icon Group to display a row of linked icons with shared sizing, spacing, alignment, and per-icon color overrides."
+---
+
+
+Use Icon Group to display a row of linked icons with shared sizing, spacing, alignment, and per-icon color overrides.
+
+## Usage
+
+Use Icon Group to display a row of Font Awesome, Dashicons, or other registered icons that share a common size, spacing, and alignment. Each icon is configured as its own item with its own link, screen reader text, and optional color overrides, while the Style tab controls the size, spacing, alignment, and default colors applied to every icon in the group.
+
+Use Icon Group for social profile rows, contact link clusters, feature highlight strips, footer link icons, and any layout that needs several small linked glyphs displayed together. It fits cases where individual Icon modules would be repetitive and where the icons share consistent styling but may point to different destinations.
+
+:::note
+
+The Icon Group module is designed for multiple icons displayed together. If you only need a single icon, use the [Icon](/beaver-builder/layouts/modules/icon) module instead.
+:::
+
+## Module settings
+
+The Icon Group module settings control the icons in the group, the shared size, spacing, alignment, and color treatment used across the group, and the per-icon overrides for each entry.
+
+### Icons tab
+
+The Icons tab is where you build and manage the list of icons in the group.
+
+<details>
+<summary><strong>Add Icons</strong></summary>
+
+
+Manages the list of icons in the group. Click **Add Icon** to add a new icon to the group, or click **Edit** on an existing icon to open its settings.
+
+Each row in the list also includes **Move**, **Duplicate**, and **Delete** action icons:
+
+-  **Move:** Drag and drop the icon row to change the order in which icons appear in the group.
+-  **Duplicate:** Creates a copy of the icon, including all its General and Style tab settings, and adds it to the end of the list.
+-  **Delete:** Removes the icon from the group.
+
+:::note
+
+The **Move** and **Delete** actions only appear once the group contains more than one icon.
+:::
+
+Each icon has its own General tab and Style tab, described in [Individual icon settings](#individual-icon-settings).
+
+:::note
+
+Deleting an icon cannot be undone after you click **Publish**.
+:::
+</details>
+
+### Style tab
+
+The Style tab controls the size, spacing, alignment, and default colors applied to every icon in the group.
+
+:::note
+
+Global style settings apply to every icon by default. You can override the color settings on any individual icon's Style tab.
+:::
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+The Icon section sets the shared size, spacing, and alignment for all icons in the group.
+
+<details>
+<summary><strong>Icon settings</strong></summary>
+
+
+<details>
+<summary><strong>Size</strong> <small>Default: 30; Supports: Responsive</small></summary>
+
+
+The size of every icon in the group. Supports `px`, `em`, and `rem` units.
+</details>
+
+<details>
+<summary><strong>Spacing</strong> <small>Default: 10; Supports: Responsive</small></summary>
+
+
+The horizontal space between icons in the group. Supports `px`, `pt`, and `%` units.
+</details>
+
+<details>
+<summary><strong>Alignment</strong> <small>Default: Center; Supports: Responsive</small></summary>
+
+
+The horizontal alignment of the icon group within its wrapper. Options are **Left**, **Center**, and **Right**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Colors</strong></summary>
+
+
+The Icon Colors section sets the default colors used by every icon in the group. Per-icon overrides set on each entry in the Icons tab take precedence over these values.
+
+<details>
+<summary><strong>Icon Colors</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The default icon color applied to every icon in the group.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon color used on hover for every icon in the group.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The default background color applied behind every icon in the group.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used on hover behind every icon in the group.
+</details>
+
+<details>
+<summary><strong>Gradient</strong> <small>Default: No</small></summary>
+
+
+Applies a 3D gradient overlay to the icon backgrounds.
+
+- **No:** Renders the icons with flat background colors.
+- **Yes:** Adds a gradient overlay to the icon backgrounds for a 3D effect.
+
+</details>
+</details>
+</details>
+
+### Individual icon settings
+
+Each icon in the group has its own settings, accessible by clicking **Edit** on any icon in the Icons tab. Individual icon settings are divided into a General tab and a Style tab.
+
+#### General tab
+
+The General tab selects the icon, configures the link, and sets accessibility text for the entry.
+
+<details>
+<summary><strong>Icon</strong> <small>Default: dashicons-wordpress-alt; Supports: Field Connections</small></summary>
+
+
+The icon shown for this entry. Opens the icon picker to choose from any registered icon set, including Font Awesome and Dashicons.
+
+<details>
+<summary><strong>Extra Classes</strong></summary>
+
+
+<details>
+<summary><strong>Extra Classes</strong></summary>
+
+
+Additional CSS classes appended to the icon's `<i>` element. Use this to target the icon with custom styles or to apply utility classes from a framework. Enter class names separated by spaces, without the leading dot.
+
+:::tip
+
+When using a Font Awesome icon, add the built-in animation classes such as `fa-beat`, `fa-spin`, `fa-bounce`, `fa-fade`, `fa-flip`, or `fa-shake` to animate the icon without writing custom CSS. See the [Font Awesome animation reference](https://docs.fontawesome.com/web/style/animate/) for the full list of classes and modifiers.
+:::
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Link</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination the icon links to. Supports link attributes for opening in a new tab, adding `nofollow`, and forcing downloads.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Screen Reader Text</strong> <small>Supports: Field Connections</small></summary>
+
+
+Use this to add text that acts as a label for screen readers when the icon's meaning or link destination is not already conveyed by visible text on the page.
+
+Set it for each icon-only link, such as a social profile glyph or a contact icon, so assistive technologies announce where the link goes. Leave it blank when the icon is purely decorative and the surrounding text already explains the meaning, since adding redundant text causes screen readers to announce the same idea twice.
+
+:::note
+
+Beaver Builder always renders each icon's `<i>` element with `aria-hidden="true"`, so the glyph itself is skipped by assistive technologies. The Screen Reader Text value is rendered as a `<span class="sr-only">` immediately after the icon. The `sr-only` class hides the text visually using CSS (typically by clipping it to a 1px region) while keeping it in the accessibility tree, so screen readers still read it aloud.
+:::
+</details>
+
+#### Style tab
+
+The Style tab controls the color overrides for this icon. Leave any field blank to inherit the matching value from the group's Style tab.
+
+<details>
+<summary><strong>Item Icon Colors</strong></summary>
+
+
+The Item Icon Colors section overrides the group-level colors for this icon entry only.
+
+<details>
+<summary><strong>Item Icon Colors</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Primary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the primary color applied to this icon.
+</details>
+
+<details>
+<summary><strong>DuoTone Secondary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the secondary color applied to this icon.
+</details>
+
+<details>
+<summary><strong>Item Icon Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Overrides the group **Color** for this icon only. Leave empty to inherit the group color from the Style tab.
+</details>
+
+<details>
+<summary><strong>Item Icon Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Overrides the group **Hover Color** for this icon only. Leave empty to inherit the group hover color from the Style tab.
+</details>
+
+<details>
+<summary><strong>Item Icon Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Overrides the group **Background Color** for this icon only. Leave empty to inherit the group background color from the Style tab.
+</details>
+
+<details>
+<summary><strong>Item Icon Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Overrides the group **Background Hover Color** for this icon only. Leave empty to inherit the group background hover color from the Style tab.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Icon Group module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>
+
+:::note
+
+The Advanced tab is global, so it is not available for individual icon items in the Icon Group module. As a result, the ID setting applies to the parent node div, not to each icon.
+:::

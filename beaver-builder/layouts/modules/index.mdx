@@ -1,0 +1,189 @@
+---
+title: Module Overview
+sidebar_label: Overview
+icon: "file-text"
+description: "Use modules to add, organize, and customize content in your Beaver Builder layouts."
+---
+
+
+Use modules to add, organize, and customize content in your Beaver Builder layouts.
+
+## What Are Modules?
+
+Modules are the individual elements used to add content to your layouts. Each module is built for a specific purpose, such as adding text, images, videos, buttons, galleries, forms, or advanced features like sliders, tabs, and accordions.
+
+Modules are flexible and reusable. You can add multiple instances of the same module, configure each one differently, and rearrange them at any time. This makes it easy to experiment with layouts, adapt content for different pages, and refine your design as your site evolves.
+
+## Module Types
+
+There are three types of modules available:
+
+- **Content Modules:** Standard modules that add content to a layout, such as Heading or Photo modules.
+- **Container Modules:** Modules that act as containers, do not require rows or columns for structure, and provide specific layout controls. Examples include Box and Loop container modules.
+- **Block Modules:** Modules available in the WordPress Block Editor.
+
+## Access Modules
+
+Access modules through the **Content Panel** by clicking the **Modules tab**. From there, use the Modules dropdown to browse modules by category and subgroup.
+
+The available module subgroups include:
+
+
+<details>
+<summary><strong>Standard Modules</strong></summary>
+
+
+All modules included with Beaver Builder appear in the Standard Modules group. If you disable modules in Beaver Builder settings, they will no longer appear in this group.
+</details>
+
+<details>
+<summary><strong>ACF Blocks</strong></summary>
+
+
+If the Advanced Custom Fields (ACF) plugin is installed, any ACF blocks you create will appear in the ACF Blocks group.
+</details>
+
+<details>
+<summary><strong>WordPress Patterns (Reusable Blocks)</strong></summary>
+
+
+Any WordPress Patterns (Reusable Blocks) you create will appear in the WordPress Patterns group.
+</details>
+
+<details>
+<summary><strong>Themer Modules</strong></summary>
+
+
+The Themer Modules subgroup lists all Beaver Themer modules available when using the builder on a Beaver Themer layout.
+</details>
+
+<details>
+<summary><strong>WordPress Widgets</strong></summary>
+
+
+Most WordPress widgets, including third-party widgets, can be added to Beaver Builder layouts. Some third-party widgets may require custom code to function properly. See the [WordPress Widgets](/beaver-builder/layouts/modules/widgets) article for more information.
+</details>
+
+<details>
+<summary><strong>Saved Modules</strong></summary>
+
+
+Any modules saved for reuse appear in the Saved Modules group, including global modules.
+</details>
+
+
+## Add a Module
+
+After opening the Modules tab, you can place modules directly into your layout and then customize them as needed.
+
+1. Click the Plus icon **(+)** to open the **Content Panel**.
+2. Click the **Modules tab** to access all modules.
+3. Drag and drop the module you want to use into your layout.
+
+:::tip
+
+If you drag a module into an empty area of the layout, Beaver Builder automatically creates a new row with a single column and places the module inside it.
+:::
+
+## Delete Modules
+
+1. Hover over the module you want to delete.
+2. In the module overlay actions, click the **Close** icon.
+3. Confirm that you want to remove the module.
+
+## Move Modules
+
+Modules can be moved between columns or used to create a new column.
+
+1. Hover over the module you want to move.
+2. In the module overlay actions, click and hold the **Move** icon.
+3. Drag the module to its new position in the layout.
+
+## Configuring Modules
+
+Each module includes a structured settings panel that controls its content, layout behaviour, and visual presentation. Although the available options vary by module type, the panel layout remains consistent across modules. Any changes you make are rendered immediately on the page, providing real-time visual feedback and allowing for more precise layout adjustments.
+
+In addition to the standard module settings, you may notice that some settings include icons next to the setting name. These icons indicate that the setting supports one or more additional setting controls. These controls are not available for every setting, as they depend on the field type and on how that particular setting has been configured. Refer to the legend table below for more information about each setting control.
+
+| Setting Control | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+|  Responsive      | Adjust settings separately for different devices, such as desktop, tablet, and mobile. |
+|  Link Values     | Allows one value to be applied to all related sides or dimensions, such as top, right, bottom, and left. |
+|  Field Connection| Can pull in dynamic data from another source, such as WordPress data or an ACF field. |
+
+## Styling Modules
+
+By default, modules inherit styling from your active theme, providing a consistent baseline across your site. You can customize individual modules using the built-in styling controls available directly in the module settings panel.
+
+For styling not covered by the module settings, you can apply custom CSS. Modules can be targeted using their CSS classes or unique node identifiers, allowing styles to be applied globally across all instances of a module or locally to a specific module.
+
+By combining built-in styling options with custom CSS, you can handle both routine design adjustments and more advanced visual customizations.
+
+
+<details>
+<summary><strong>Module HTML Markup</strong></summary>
+
+
+Each module outputs its own HTML structure. While markup differs by module type, class naming follows consistent conventions.
+
+Example output from the **HTML module**:
+
+```html
+<div class="fl-module fl-module-html fl-html fl-node-unique-id">
+  <!-- Custom HTML added in the HTML module editor appears here. -->
+</div>
+```
+</details>
+<details>
+<summary><strong>Module CSS Classes and IDs</strong></summary>
+
+
+Every module outputs CSS classes that let you style or target it with CSS or JavaScript. Each module output includes:
+
+
+<details>
+<summary><strong>Shared base class</strong></summary>
+
+
+Each Beaver Builder module includes `fl-module`. This class marks the element as a module and provides a consistent selector for global CSS or JavaScript.
+</details>
+
+<details>
+<summary><strong>Module-type classes</strong></summary>
+
+
+Modules also include one or more module-type classes, such as `fl-module-html`. These classes describe the module type and remain the same across all instances of that module.
+</details>
+
+<details>
+<summary><strong>Unique node class</strong></summary>
+
+
+Every module instance receives a unique class in the format `fl-node-<unique-id>`, such as `fl-node-ol97v1bcsjw5`. The `unique-id` is generated automatically and is different for each module instance, which allows precise targeting of a single module.
+
+This example uses a unique node class to style only one Beaver Builder module instance.
+
+```css
+    .fl-node-ol97v1bcsjw5 {
+      font-size: 36px;
+    }
+
+    @media (max-width: 768px) {
+      .fl-node-ol97v1bcsjw5 {
+        font-size: 24px;
+      }
+    }
+```
+</details>
+
+
+:::tip
+
+These classes allow you to style modules globally or target individual instances.
+:::
+</details>
+
+
+## Included Modules
+
+Beaver Builder includes over 40 built-in modules that let you add content, media, layouts, and interactive elements to your pages.

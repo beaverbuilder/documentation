@@ -1,0 +1,395 @@
+---
+title: Slideshow
+sidebar_label: Slideshow
+icon: "images"
+description: "Use Slideshow to display multiple photos in a full-featured slideshow with transitions, navigation controls, and optional thumbnails."
+---
+
+
+Use Slideshow to display multiple photos in a full-featured slideshow with transitions, navigation controls, and optional thumbnails.
+
+## Usage
+
+Use Slideshow to display multiple photos in a slideshow view sourced from the WordPress Media Library or a SmugMug RSS feed. The module supports a range of transitions, automatic playback with adjustable speed, optional Ken Burns motion, and a configurable control bar with navigation arrows, play, fullscreen, photo count, captions, thumbnails, and social sharing buttons.
+
+Use Slideshow on photography pages, portfolios, event recaps, hero sections, and any layout that needs an interactive multi-photo viewer with built-in navigation. It fits projects that need a richer presentation than a static gallery without adding a separate slider plugin.
+
+## Module Settings
+
+The Slideshow module settings control where photos come from, how they display, how playback behaves, and which navigation and control bar elements appear.
+
+### General Tab
+
+The General tab sets the photo source, display sizing, and click behavior for slides.
+
+<details>
+<summary><strong>Source</strong> <small>Default: Media Library</small></summary>
+
+
+Selects where the slideshow pulls images from.
+
+- **Media Library:** Uses photos selected from the WordPress Media Library.
+- **SmugMug:** Uses photos from a SmugMug gallery RSS feed URL.
+
+<details>
+<summary><strong>Media Library Settings</strong></summary>
+
+
+<details>
+<summary><strong>Photos</strong> <small>Supports: Field Connections</small></summary>
+
+
+The photos shown in the slideshow when **Source** is set to **Media Library**. Selects multiple images from the WordPress Media Library.
+</details>
+</details>
+
+<details>
+<summary><strong>SmugMug Settings</strong></summary>
+
+
+<details>
+<summary><strong>Feed URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The SmugMug gallery RSS feed URL used when **Source** is set to **SmugMug**. The RSS feed URL is available through the get a link function in the SmugMug gallery.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Display</strong></summary>
+
+
+The Display section controls slideshow sizing, color scheme, image cropping, and right-click protection.
+
+<details>
+<summary><strong>Display Settings</strong></summary>
+
+
+<details>
+<summary><strong>Height</strong> <small>Default: 500; Supports: Responsive</small></summary>
+
+
+The height of the slideshow in pixels.
+</details>
+
+<details>
+<summary><strong>Skin Color</strong> <small>Default: Light</small></summary>
+
+
+Sets the color scheme used for control buttons and overlays.
+
+- **Light:** Pairs with lighter themes and images by displaying buttons in a darker color scheme.
+- **Dark:** Pairs with darker themes and images by displaying buttons in a lighter color scheme.
+
+</details>
+
+<details>
+<summary><strong>Crop</strong> <small>Default: No</small></summary>
+
+
+Controls how images fit the slideshow area.
+
+- **No:** Fits images to the specified height and keeps the width proportional.
+- **Yes:** Fills the full content area at the specified height and crops the left and right edges to fit.
+
+</details>
+
+<details>
+<summary><strong>Disable Right-Click</strong> <small>Default: Yes</small></summary>
+
+
+Blocks the browser right-click menu on slideshow images to discourage casual image saving.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Click Action</strong></summary>
+
+
+The Click Action section configures what happens when a visitor clicks a slide.
+
+<details>
+<summary><strong>Click Action Settings</strong></summary>
+
+
+<details>
+<summary><strong>Type</strong> <small>Default: None</small></summary>
+
+
+Selects whether clicking a slide does nothing or follows a link.
+
+- **None:** Clicks on the slide perform no action.
+- **Link:** Clicks on the slide follow the URL set in **Link URL**.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+</details>
+</details>
+
+### Playback Tab
+
+The Playback tab controls auto-play behavior, transition style, and timing.
+
+<details>
+<summary><strong>Auto Play</strong> <small>Default: Yes</small></summary>
+
+
+Starts the slideshow automatically on page load. Set to **No** to require visitor interaction before slides advance.
+</details>
+
+<details>
+<summary><strong>Speed</strong> <small>Default: 3</small></summary>
+
+
+The number of seconds each slide stays visible before transitioning to the next slide.
+</details>
+
+<details>
+<summary><strong>Transition</strong> <small>Default: Fade</small></summary>
+
+
+Selects the animation used between slides.
+
+- **None:** Switches slides instantly with no animation.
+- **Fade:** Cross-fades between slides.
+- **Ken Burns:** Applies a slow pan-and-zoom motion to each slide.
+- **Slide Horizontal:** Slides photos in from the side.
+- **Slide Vertical:** Slides photos in from the top or bottom.
+- **Blinds:** Reveals the next slide using a vertical blinds effect.
+- **Bars:** Reveals the next slide with sequential bars.
+- **Random Bars:** Reveals the next slide with bars in a random order.
+- **Boxes:** Reveals the next slide with sequential boxes.
+- **Random Boxes:** Reveals the next slide with boxes in a random order.
+- **Boxes Grow:** Reveals the next slide with growing boxes.
+
+</details>
+
+<details>
+<summary><strong>Transition Speed</strong> <small>Default: 1</small></summary>
+
+
+The duration of the transition animation in seconds.
+</details>
+
+<details>
+<summary><strong>Randomize Photos</strong> <small>Default: No</small></summary>
+
+
+Shuffles the photo order on each page load when set to **Yes**.
+</details>
+
+### Controls Tab
+
+The Controls tab configures the navigation arrows that overlay slides and the control bar shown beneath or over the slideshow.
+
+<details>
+<summary><strong>Navigation Arrows</strong> <small>Default: Yes</small></summary>
+
+
+Shows large navigation arrows that overlay the slideshow images so visitors can move freely between slides. These are separate from the smaller arrows in the control bar.
+</details>
+
+<details>
+<summary><strong>Control Bar</strong></summary>
+
+
+The Control Bar section sets the navigation type and the position of the control bar.
+
+<details>
+<summary><strong>Control Bar Settings</strong></summary>
+
+
+<details>
+<summary><strong>Nav Type</strong> <small>Default: None</small></summary>
+
+
+Selects the style of navigation displayed in the control bar.
+
+- **None:** Hides the control bar.
+- **Buttons:** Shows a control bar with configurable buttons such as arrows, play, fullscreen, photo count, thumbs, caption, and social sharing.
+- **Thumbs:** Shows a control bar with thumbnail navigation for jumping directly to specific slides.
+
+<details>
+<summary><strong>Nav Position</strong></summary>
+
+
+<details>
+<summary><strong>Nav Position</strong> <small>Default: Bottom</small></summary>
+
+
+Places the control bar at the **Bottom** or **Top** of the slideshow when **Nav Type** is set to **Buttons** or **Thumbs**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Control Bar Buttons</strong></summary>
+
+
+This section is available when **Nav Type** is set to **Buttons** or **Thumbs**, and controls which buttons appear in the control bar.
+
+<details>
+<summary><strong>Control Bar Buttons</strong></summary>
+
+
+<details>
+<summary><strong>Navigation Arrows</strong> <small>Default: Yes</small></summary>
+
+
+Shows previous and next arrow buttons in the control bar.
+</details>
+
+<details>
+<summary><strong>Play Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a play and pause toggle button in the control bar.
+</details>
+
+<details>
+<summary><strong>Fullscreen Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a button that expands the slideshow to fullscreen.
+</details>
+
+<details>
+<summary><strong>Photo Count</strong> <small>Default: Yes</small></summary>
+
+
+Shows the current slide number and total photo count in the control bar.
+</details>
+
+<details>
+<summary><strong>Thumbs Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a button that toggles a thumbnail strip when **Nav Type** is set to **Buttons**.
+</details>
+
+<details>
+<summary><strong>Caption Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a button that toggles caption visibility for slides that have captions.
+</details>
+
+<details>
+<summary><strong>Social Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a button that opens social sharing options for the current slide.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Control Bar Overlay</strong></summary>
+
+
+This section is available when **Nav Type** is set to **Buttons** or **Thumbs**, and controls whether the control bar overlays the slides and how it auto-hides.
+
+<details>
+<summary><strong>Control Bar Overlay</strong></summary>
+
+
+<details>
+<summary><strong>Overlay Enabled</strong> <small>Default: No</small></summary>
+
+
+Displays the control bar in an overlay at the bottom or top of the slides instead of below or above them.
+
+<details>
+<summary><strong>Overlay Hide</strong></summary>
+
+
+<details>
+<summary><strong>Overlay Hide</strong> <small>Default: No</small></summary>
+
+
+Hides the control bar overlay after the delay specified in **Overlay Hide Delay** when set to **Yes**. The overlay reappears on mouseover.
+</details>
+</details>
+
+<details>
+<summary><strong>Overlay Hide Delay</strong></summary>
+
+
+<details>
+<summary><strong>Overlay Hide Delay</strong> <small>Default: 3</small></summary>
+
+
+The number of seconds before the control bar overlay hides when **Overlay Hide** is set to **Yes**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Thumbs</strong></summary>
+
+
+This section is available when **Nav Type** is set to **Buttons** or **Thumbs**, and sets the size of slideshow thumbnails.
+
+<details>
+<summary><strong>Thumbs</strong></summary>
+
+
+<details>
+<summary><strong>Thumbs Size</strong> <small>Default: 50</small></summary>
+
+
+The size of the thumbnail images in pixels.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Social</strong></summary>
+
+
+This section is available when **Nav Type** is set to **Buttons** or **Thumbs**, and controls which social sharing buttons appear when the social button is opened.
+
+<details>
+<summary><strong>Social</strong></summary>
+
+
+<details>
+<summary><strong>Facebook Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a Facebook share button in the social sharing menu.
+</details>
+
+<details>
+<summary><strong>Twitter Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a Twitter share button in the social sharing menu.
+</details>
+
+<details>
+<summary><strong>Pinterest Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows a Pinterest share button in the social sharing menu.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Slideshow module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

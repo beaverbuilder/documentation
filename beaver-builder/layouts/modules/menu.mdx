@@ -1,0 +1,857 @@
+---
+title: Menu
+sidebar_label: Menu
+icon: "menu"
+description: "Use Menu to render a WordPress navigation menu with horizontal, vertical, accordion, or expanded layouts and a configurable responsive toggle."
+---
+
+
+Use Menu to render a WordPress navigation menu with horizontal, vertical, accordion, or expanded layouts and a configurable responsive toggle.
+
+## Usage
+
+Use Menu to render a WordPress menu created under **Appearance > Menus** as a fully styled navigation. The module supports horizontal, vertical, accordion, and expanded layouts, optional submenu indicators, an inline logo for centered horizontal menus, an optional search field, and an optional WooCommerce cart item. It also handles responsive behavior with a hamburger, labeled hamburger, text button, or always-expanded toggle, and supports inline, below-row, overlay, and flyout reveal styles.
+
+Use Menu in headers, footers, sidebars, and saved templates that need a configurable site navigation without a separate menu plugin. It fits theme builder header layouts, mobile-first navigation patterns, and pages that combine navigation with search or cart entry points.
+
+## Module Settings
+
+The Menu module settings control which WordPress menu is rendered, its layout and submenu behavior, optional centered logo, search and WooCommerce additions, the responsive toggle, and the appearance of links, dropdowns, and the responsive UI.
+
+### General Tab
+
+The General tab selects the source menu, the desktop layout, submenu icons, and the responsive toggle behavior, and configures the optional inline logo and search additions.
+
+<details>
+<summary><strong>Menu</strong></summary>
+
+
+Selects a WordPress menu created in the admin under **Appearance > Menus**. When no menus exist, the field shows a link to add one.
+</details>
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Horizontal</small></summary>
+
+
+Sets the desktop layout used to render the menu.
+
+- **Horizontal:** Lays the menu out in a single row with hover-revealed dropdowns.
+- **Vertical:** Stacks menu items in a column with hover-revealed dropdowns.
+- **Accordion:** Stacks menu items in a column with click-revealed dropdowns suitable for sidebars and mobile patterns.
+- **Expanded:** Renders all submenu items inline beneath their parent without a hover or click toggle.
+
+<details>
+<summary><strong>Horizontal Settings</strong></summary>
+
+
+<details>
+<summary><strong>Submenu Icon</strong> <small>Default: None</small></summary>
+
+
+Selects the indicator displayed next to items that have a submenu when **Layout** is set to **Horizontal** or **Vertical**.
+
+- **Arrows:** Shows a directional arrow next to items with a submenu.
+- **Plus sign:** Shows a plus sign next to items with a submenu.
+- **None:** Hides the submenu indicator.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Accordion Settings</strong></summary>
+
+
+<details>
+<summary><strong>Submenu Icon click</strong> <small>Default: Arrows</small></summary>
+
+
+Selects the indicator displayed next to items that have a submenu when **Layout** is set to **Accordion**.
+
+- **Arrows:** Shows a directional arrow that rotates when the submenu is expanded.
+- **Plus sign:** Shows a plus sign that toggles when the submenu is expanded.
+
+</details>
+
+<details>
+<summary><strong>Collapse Inactive</strong> <small>Default: Yes</small></summary>
+
+
+Controls whether multiple accordion items can stay open at the same time. **Yes** keeps only one item open at a time. **No** allows multiple items to be open at the same time.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Menu Name</strong> <small>Default: Menu</small></summary>
+
+
+Used as the menu `aria` attribute for accessibility and as the label shown by the responsive menu toggle.
+</details>
+
+<details>
+<summary><strong>Centered + Inline Logo</strong></summary>
+
+
+The Centered + Inline Logo section adds a logo image positioned inline with the top-level menu items. This section is available when **Layout** is set to **Horizontal**.
+
+<details>
+<summary><strong>Centered + Inline Logo</strong></summary>
+
+
+<details>
+<summary><strong>Logo Image</strong></summary>
+
+
+The image rendered inline within the top-level menu items.
+</details>
+
+<details>
+<summary><strong>Inline Logo Position</strong> <small>Default: Left</small></summary>
+
+
+Places the inline logo on the left or right side of odd menu items.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Search</strong></summary>
+
+
+The Search section adds a search trigger to the menu. This section is available when **Layout** is set to **Horizontal** or **Vertical**.
+
+<details>
+<summary><strong>Search</strong></summary>
+
+
+<details>
+<summary><strong>Menu</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the search item appended to the menu.
+
+<details>
+<summary><strong>Label</strong></summary>
+
+
+<details>
+<summary><strong>Label</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the text label rendered next to the search icon when **Menu** is set to **Show**.
+</details>
+</details>
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+<details>
+<summary><strong>Icon</strong> <small>Default: fas fa-search; Supports: Field Connections</small></summary>
+
+
+The icon displayed for the search trigger when **Menu** is set to **Show**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Responsive</strong></summary>
+
+
+The Responsive section configures the toggle used to reveal the menu on smaller screens.
+
+<details>
+<summary><strong>Responsive</strong></summary>
+
+
+<details>
+<summary><strong>Responsive Toggle</strong> <small>Default: Hamburger Icon</small></summary>
+
+
+Selects the control rendered when the responsive breakpoint is met.
+
+- **Hamburger Icon:** Renders an icon-only toggle button.
+- **Hamburger Icon + Label:** Renders the hamburger icon next to the **Menu Name** label.
+- **Menu Button:** Renders a text-only toggle button using the **Menu Name** label.
+- **None:** Skips the toggle and keeps the menu visible at all sizes.
+
+<details>
+<summary><strong>Responsive Style</strong></summary>
+
+
+<details>
+<summary><strong>Responsive Style</strong> <small>Default: Inline</small></summary>
+
+
+Selects how the revealed responsive menu is positioned. This field appears when **Responsive Toggle** is not set to **None**.
+
+- **Inline:** Renders the revealed menu inline with the toggle.
+- **Below Row:** Renders the revealed menu below the parent row.
+- **Overlay:** Renders the revealed menu as a full-width overlay.
+- **Flyout Overlay:** Slides the menu in over the page from the side.
+- **Flyout Push:** Slides the menu in from the side and pushes the page content.
+- **Flyout Push with Opacity:** Slides the menu in from the side, pushes the page content, and fades the page.
+
+<details>
+<summary><strong>Flyout Position</strong></summary>
+
+
+<details>
+<summary><strong>Flyout Position</strong> <small>Default: Left</small></summary>
+
+
+Sets the side that flyout menus enter from. This field appears when **Responsive Style** is set to a flyout option.
+</details>
+</details>
+
+<details>
+<summary><strong>Flyout Width</strong></summary>
+
+
+<details>
+<summary><strong>Flyout Width</strong> <small>Default: 250</small></summary>
+
+
+The width of the flyout panel in pixels. This field appears when **Responsive Style** is set to a flyout option.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Responsive Breakpoint</strong></summary>
+
+
+<details>
+<summary><strong>Responsive Breakpoint</strong> <small>Default: Small Devices Only</small></summary>
+
+
+The viewport size at which the responsive toggle takes over from the desktop layout. This field appears when **Responsive Toggle** is not set to **None**.
+
+- **Always:** Uses the responsive toggle at every screen size.
+- **Large, Medium & Small Devices Only:** Switches to the toggle below the large breakpoint.
+- **Medium & Small Devices Only:** Switches to the toggle below the medium breakpoint.
+- **Small Devices Only:** Switches to the toggle below the responsive breakpoint.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Stacked Layout</strong></summary>
+
+
+<details>
+<summary><strong>Stacked Layout</strong> <small>Default: Yes</small></summary>
+
+
+Stacks menu items vertically when **Responsive Toggle** is set to **None**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Sub-menu Item Icon</strong> <small>Default: None</small></summary>
+
+
+Selects the icon used next to submenu items in the responsive menu.
+
+- **None:** Hides the submenu item icon.
+- **Arrow:** Shows an arrow next to submenu items.
+
+</details>
+</details>
+</details>
+
+### WooCommerce Tab
+
+The WooCommerce tab adds a cart entry to the menu and configures how the cart count and total are displayed.
+
+<details>
+<summary><strong>Menu Cart</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides a WooCommerce cart item appended to the menu. The cart item only renders when WooCommerce is active.
+
+<details>
+<summary><strong>Cart Icon</strong></summary>
+
+
+<details>
+<summary><strong>Cart Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon displayed next to the cart content when **Menu Cart** is set to **Show**.
+</details>
+</details>
+
+<details>
+<summary><strong>Show on Checkout</strong></summary>
+
+
+<details>
+<summary><strong>Show on Checkout</strong> <small>Default: No</small></summary>
+
+
+Controls whether the cart item remains visible on the WooCommerce cart and checkout pages when **Menu Cart** is set to **Show**.
+</details>
+</details>
+
+<details>
+<summary><strong>Display Type</strong></summary>
+
+
+<details>
+<summary><strong>Display Type</strong> <small>Default: Items Count</small></summary>
+
+
+Selects what is rendered inside the cart link when **Menu Cart** is set to **Show**.
+
+- **Items Count:** Shows the number of items currently in the cart.
+- **Total Amount:** Shows the cart subtotal.
+- **Items Count and Total Amount:** Shows both the item count and the cart subtotal.
+
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the appearance of the menu container, links, separators, dropdowns, the responsive dropdowns, the responsive toggle, the search field, and the WooCommerce menu cart.
+
+<details>
+<summary><strong>Menu</strong></summary>
+
+
+The Menu section controls alignment and background color of the menu container.
+
+<details>
+<summary><strong>Menu</strong></summary>
+
+
+<details>
+<summary><strong>Menu Alignment</strong> <small>Supports: Responsive</small></summary>
+
+
+The horizontal alignment of menu items within the menu container.
+</details>
+
+<details>
+<summary><strong>Menu Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the desktop menu container.
+</details>
+
+<details>
+<summary><strong>Menu Background Color (Mobile)</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used for the menu container at the responsive breakpoint.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Links</strong></summary>
+
+
+The Links section controls the appearance of top-level menu links.
+
+<details>
+<summary><strong>Links</strong></summary>
+
+
+<details>
+<summary><strong>Link Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of top-level menu links.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color used when a top-level link is hovered or matches the current page.
+</details>
+
+<details>
+<summary><strong>Link Hover Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when a top-level link is hovered or matches the current page.
+</details>
+
+<details>
+<summary><strong>Link Padding</strong> <small>Default: 14; Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing applied to each top-level link.
+</details>
+
+<details>
+<summary><strong>Link Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for top-level menu links.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Separators</strong></summary>
+
+
+The Separators section adds dividing lines between menu items.
+
+<details>
+<summary><strong>Separators</strong></summary>
+
+
+<details>
+<summary><strong>Show Separators</strong> <small>Default: No</small></summary>
+
+
+Shows or hides separator lines between menu items.
+
+<details>
+<summary><strong>Separator Color</strong></summary>
+
+
+<details>
+<summary><strong>Separator Color</strong> <small>Default: #000000; Supports: Field Connections</small></summary>
+
+
+The color of the separator lines drawn between menu items when **Show Separators** is set to **Yes**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Dropdowns</strong></summary>
+
+
+The Dropdowns section controls the appearance of submenu panels and submenu links on desktop.
+
+<details>
+<summary><strong>Dropdowns</strong></summary>
+
+
+<details>
+<summary><strong>Link Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of submenu links.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color used when a submenu link is hovered or matches the current page.
+</details>
+
+<details>
+<summary><strong>Link Hover Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when a submenu link is hovered or matches the current page.
+</details>
+
+<details>
+<summary><strong>Dropdown Background Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The background color of the submenu panel.
+</details>
+
+<details>
+<summary><strong>Dropdown Shadow</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides a drop shadow on submenu panels.
+</details>
+
+<details>
+<summary><strong>Dropdown Padding</strong> <small>Default: 0; Supports: Link Values</small></summary>
+
+
+The inner spacing of the submenu panel.
+</details>
+
+<details>
+<summary><strong>Dropdown Link Padding</strong> <small>Supports: Link Values</small></summary>
+
+
+The inner spacing applied to each submenu link.
+</details>
+
+<details>
+<summary><strong>Dropdown Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, radius, and color of the submenu panel.
+</details>
+
+<details>
+<summary><strong>Dropdown Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The border color used when the submenu panel or its links are hovered.
+</details>
+
+<details>
+<summary><strong>Dropdown Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for submenu links.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Responsive Dropdowns</strong></summary>
+
+
+The Responsive Dropdowns section overrides submenu colors when the responsive toggle is active.
+
+<details>
+<summary><strong>Responsive Dropdowns</strong></summary>
+
+
+<details>
+<summary><strong>Link Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of submenu links inside the responsive menu.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color used when a submenu link inside the responsive menu is hovered or matches the current page.
+</details>
+
+<details>
+<summary><strong>Link Hover Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when a submenu link inside the responsive menu is hovered or matches the current page.
+</details>
+
+<details>
+<summary><strong>Dropdown Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of submenu panels inside the responsive menu.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Responsive Toggle</strong></summary>
+
+
+The Responsive Toggle section controls the appearance of the hamburger or text toggle button. This section is available when **Responsive Toggle** in the General tab is not set to **None**.
+
+<details>
+<summary><strong>Responsive Toggle</strong></summary>
+
+
+<details>
+<summary><strong>Size</strong> <small>Default: 16</small></summary>
+
+
+The font size of the toggle button, which scales the hamburger icon and label text.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the toggle button.
+</details>
+
+<details>
+<summary><strong>Hover Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when the toggle button is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon and text color of the toggle button.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon and text color used when the toggle button is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Default: 14; Supports: Link Values</small></summary>
+
+
+The inner spacing of the toggle button.
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Search Menu</strong></summary>
+
+
+The Search Menu section controls the appearance of the search trigger and reveal form. This section is available when **Menu** in the Search section is set to **Show**.
+
+<details>
+<summary><strong>Search Menu</strong></summary>
+
+
+<details>
+<summary><strong>Icon Size</strong> <small>Default: 16; Supports: Responsive</small></summary>
+
+
+The font size of the search icon.
+</details>
+
+<details>
+<summary><strong>Icon Color</strong> <small>Default: #808080; Supports: Field Connections</small></summary>
+
+
+The color of the search icon.
+</details>
+
+<details>
+<summary><strong>Icon Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the search icon when hovered or focused.
+</details>
+
+<details>
+<summary><strong>Form Width</strong> <small>Default: 400</small></summary>
+
+
+The width of the revealed search form input.
+</details>
+
+<details>
+<summary><strong>Form Padding</strong> <small>Default: 10; Supports: Responsive</small></summary>
+
+
+The inner spacing around the search form input.
+</details>
+
+<details>
+<summary><strong>Form Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search form wrapper.
+</details>
+
+<details>
+<summary><strong>Form Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search form wrapper when hovered or focused.
+</details>
+
+<details>
+<summary><strong>Form Border</strong></summary>
+
+
+The border style, width, radius, and color of the search form wrapper.
+</details>
+
+<details>
+<summary><strong>Form Border Hover</strong></summary>
+
+
+The border style used when the search form wrapper is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Label Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+The inner spacing around the search label. This field appears when **Label** in the Search section is set to **Show**.
+</details>
+
+<details>
+<summary><strong>Label Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the search label text. This field appears when **Label** in the Search section is set to **Show**.
+</details>
+
+<details>
+<summary><strong>Label Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the search label. This field appears when **Label** in the Search section is set to **Show**.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Input Padding</strong> <small>Default: 12; Supports: Responsive</small></summary>
+
+
+The inner spacing of the search input.
+</details>
+
+<details>
+<summary><strong>Input Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for text typed into the search input.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Input Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text and placeholder color of the search input.
+</details>
+
+<details>
+<summary><strong>Input Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text and placeholder color used when the search input is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Input Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search input.
+</details>
+
+<details>
+<summary><strong>Input Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the search input when hovered or focused.
+</details>
+
+<details>
+<summary><strong>Input Border</strong></summary>
+
+
+The border style, width, radius, and color of the search input.
+</details>
+
+<details>
+<summary><strong>Input Border Hover</strong></summary>
+
+
+The border style used when the search input is hovered or focused.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>WooCommerce Menu Cart</strong></summary>
+
+
+The WooCommerce Menu Cart section controls the appearance of the cart entry. This section is available when **Menu Cart** in the WooCommerce tab is set to **Show**.
+
+<details>
+<summary><strong>WooCommerce Menu Cart</strong></summary>
+
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the cart menu item.
+</details>
+
+<details>
+<summary><strong>Hover Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the cart menu item on hover and focus.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text and icon color of the cart menu item.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text and icon color of the cart menu item on hover and focus.
+</details>
+
+<details>
+<summary><strong>Typography</strong></summary>
+
+
+The font settings for the cart menu item text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Menu module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

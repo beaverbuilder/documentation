@@ -1,0 +1,302 @@
+---
+title: Button Group
+sidebar_label: Button Group
+icon: "stretch-horizontal"
+description: "Display multiple buttons together in a single module with shared global styles and per-button overrides for text, icons, click actions, and appearance."
+---
+
+
+Display multiple buttons together in a single module with shared global styles and per-button overrides for text, icons, click actions, and appearance.
+
+## Usage
+
+The Button Group module displays multiple buttons in a single layout element. It renders a group container with a shared style baseline — configure layout, typography, colors, backgrounds, and borders at the group level, then override appearance settings on each individual button as needed.
+
+Use the Button Group module for paired calls to action, navigation groups, or any situation where two or more buttons appear together and share a consistent visual style.
+
+:::note
+
+The Button Group module is designed for multiple buttons displayed together. If you only need a single button, use the [Button](/beaver-builder/layouts/modules/button) module instead.
+:::
+
+## Module settings
+
+The Button Group module settings control the button list, shared group styling, and per-button behavior.
+
+### Buttons tab
+
+The Buttons tab is where you build and manage the list of buttons in the group.
+
+<details>
+<summary><strong>Button Group Label</strong></summary>
+
+
+An optional accessibility label for the button group container. The value is added as an `aria-label` attribute on the rendered HTML element.
+
+For example, entering `Hero Buttons` outputs `aria-label="Hero Button Group"` in the HTML. Use this to improve screen reader context when the group's purpose is not clear from surrounding content.
+
+```html wrap
+  <div class="fl-module fl-module-button-group fl-button-group fl-button-group-buttons fl-button-group-layout-horizontal fl-button-group-width- fl-node-cqnvjm3i7xd4" role="group" aria-label="Hero Button Group" data-node="cqnvjm3i7xd4">
+```
+</details>
+
+<details>
+<summary><strong>Add Buttons</strong></summary>
+
+
+Manages the list of buttons in the group. Click **Add button** to add a new button to the group, or click **Edit** on an existing button to open its settings.
+
+Each row in the list also includes **Move**, **Duplicate**, and **Delete** action icons:
+
+-  **Move:** Drag and drop the button row to change the order in which buttons appear in the group.
+-  **Duplicate:** Creates a copy of the button, including all its General and Style tab settings, and adds it to the end of the list.
+-  **Delete:** Removes the button from the group.
+
+:::note
+
+The **Move** and **Delete** actions only appear once the group contains more than one button.
+:::
+
+Each button has its own General tab and Style tab, described in [Individual button settings](#individual-button-settings).
+
+:::note
+
+Deleting a button cannot be undone after you click **Publish**.
+:::
+</details>
+
+### Style tab
+
+The Style tab controls layout, spacing, alignment, and the shared visual appearance of all buttons in the group.
+
+:::note
+
+Global style settings apply to every button by default. You can override them on any individual button's Style tab.
+:::
+
+<details>
+<summary><strong>Layout</strong></summary>
+
+
+Controls the direction, width, alignment, and spacing of the button group.
+
+<details>
+<summary><strong>Layout settings</strong></summary>
+
+
+<details>
+<summary><strong>Layout</strong></summary>
+
+
+Controls the direction in which buttons are arranged.
+
+- **Horizontal:** Buttons are placed side by side. When screen width decreases, buttons wrap to a new line.
+- **Vertical:** Buttons are stacked. When text is too long to fit, it wraps within the button rather than pushing to a new line.
+
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Default: Default</small></summary>
+
+
+Controls the global width of buttons in the group.
+
+- **Default:** In a Vertical layout, each button stretches to fill the full width of the container. In a Horizontal layout, each button is sized based on its content.
+- **Custom:** Sets a uniform width for all buttons in the group, aligned within the container based on the Align setting.
+
+<details>
+<summary><strong>Custom Width</strong></summary>
+
+
+<details>
+<summary><strong>Custom Width (Custom Only)</strong> <small>Default: 200; Supports: Responsive</small></summary>
+
+
+Sets a fixed width for all buttons in `px`, `vw`, or `%` when **Width** is set to **Custom**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Align</strong> <small>Supports: Responsive</small></summary>
+
+
+Controls the alignment of the buttons within the button group container. Options are **Left**, **Center**, and **Right**.
+
+In a Horizontal layout, alignment positions the row of buttons within the container. In a Vertical layout, alignment controls the horizontal position of each button within the container. This field is hidden when Layout is set to **Vertical** and Width is set to **Default**.
+</details>
+
+<details>
+<summary><strong>Container Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+Adjusts the padding between the edge of the button group container and the buttons inside it.
+</details>
+
+<details>
+<summary><strong>Button Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+Adjusts the padding between the edge of each button and its content. This is a global default that can be overridden on each button's individual Style tab.
+</details>
+
+<details>
+<summary><strong>Button Spacing</strong> <small>Supports: Responsive</small></summary>
+
+
+Controls the horizontal or vertical space between buttons in the group.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Text</strong></summary>
+
+
+Sets the default text color and typography for all buttons in the group. Individual button Style tabs can override these settings.
+
+<details>
+<summary><strong>Text settings</strong></summary>
+
+
+<details>
+<summary><strong>Text Color</strong></summary>
+
+
+The button text color in the resting state.
+</details>
+
+<details>
+<summary><strong>Text Hover Color</strong></summary>
+
+
+The text color when the button is hovered. Defaults to the resting color if left blank.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for button text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Background</strong></summary>
+
+
+Sets the default background appearance for all buttons in the group. Individual button Style tabs can override these settings.
+
+<details>
+<summary><strong>Background settings</strong></summary>
+
+
+<details>
+<summary><strong>Background Color</strong></summary>
+
+
+The fill color in the resting state.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong></summary>
+
+
+The fill color when the button is hovered. Defaults to the resting color if left blank.
+</details>
+
+<details>
+<summary><strong>Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects the background rendering style.
+
+- **Flat:** Applies a solid fill.
+- **Auto Gradient:** Applies a lighter top and darker bottom gradient based on the background color.
+- **Advanced Gradient:** Replaces the background color with custom gradients. Selecting this option hides **Background Color** and **Background Hover Color** and reveals the **Background Gradient** and **Background Hover Gradient** fields.
+
+<details>
+<summary><strong>Background Gradient</strong></summary>
+
+
+<details>
+<summary><strong>Background Gradient (Advanced Gradient Only)</strong></summary>
+
+
+Configures the gradient colors, type, angle, and position when **Background Style** is set to **Advanced Gradient**.
+</details>
+
+<details>
+<summary><strong>Background Hover Gradient (Advanced Gradient Only)</strong></summary>
+
+
+Configures the hover gradient colors, type, angle, and position when **Background Style** is set to **Advanced Gradient**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Background Animation (Flat Only)</strong></summary>
+
+
+Available when **Background Style** is set to **Flat**. When enabled, applies a 0.2-second linear transition between the resting and hover background states.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Border</strong></summary>
+
+
+Sets the default border for all buttons in the group. Individual button Style tabs can override these settings.
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+
+<details>
+<summary><strong>Border Hover Color</strong></summary>
+
+
+The border color used when the button is hovered.
+</details>
+</details>
+</details>
+
+### Individual button settings
+
+Each button in the group has its own settings, accessible by clicking **Edit** on any button in the Buttons tab. Individual button settings are divided into a General tab and a Style tab.
+
+<details>
+<summary><strong>Button module settings</strong></summary>
+
+Each button uses the same core controls as the Button module, including text, link, icon, spacing, typography, background, and border settings.
+
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Button Group module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>
+
+:::note
+
+The Advanced tab is global, so it is not available for individual button items in the Button Group module. As a result, the ID setting applies to the parent node div, not to each button.
+:::

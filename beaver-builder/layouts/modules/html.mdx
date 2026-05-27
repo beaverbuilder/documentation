@@ -1,0 +1,213 @@
+---
+title: HTML Module
+sidebar_label: HTML
+icon: "code-xml"
+description: "Versatile module for inserting HTML, CSS, JavaScript code, and shortcodes directly into your page layouts"
+---
+
+
+Versatile module for inserting HTML, CSS, JavaScript code, and shortcodes directly into your page layouts
+
+## Usage
+
+Use the HTML module when you need to add custom markup or embed content that is not available through standard Beaver Builder modules. It includes a code editor for inserting raw HTML and supports embed code, inline stylesheets, custom scripts, and shortcodes.
+
+:::tip
+
+The HTML module is the recommended method for adding shortcodes to your Beaver Builder layouts and is preferred over the Text Editor module.
+:::
+
+
+<details>
+<summary><strong>Adding Custom HTML</strong></summary>
+
+
+Adding custom HTML is the primary purpose of the HTML module. It is useful when you need specific markup that isn’t available through Beaver Builder’s other modules, such as custom containers, specialized text formatting, or unique structural elements for your design.
+
+The example below shows how to add an HTML table to your Beaver Builder layout, a type of structural markup that isn’t available through other modules.
+
+```html expandable
+<table>
+  <thead>
+    <tr>
+      <th>Module</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML</td>
+      <td>Add custom markup and embeds</td>
+    </tr>
+    <tr>
+      <td>Text Editor</td>
+      <td>Add basic text content</td>
+    </tr>
+  </tbody>
+</table>
+```
+</details>
+<details>
+<summary><strong>Adding Custom CSS via style tags</strong></summary>
+
+
+Add custom CSS directly within the editor by wrapping it in `<style>` tags, as shown in the example below.
+
+:::warning
+
+This approach is not recommended and should be used sparingly, as it has several drawbacks. It can be helpful for prototyping or quickly testing CSS for custom HTML you’ve added. For long-term or site-wide styling, we recommend adding your custom CSS to your child theme’s style.css file or using the Custom CSS options available in Beaver Builder.
+:::
+
+```html \<style> tag example
+<style>
+  .custom-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 40px;
+    border-radius: 12px;
+  }
+</style>
+
+<div class="custom-container">
+  <h3>Lorem ex mollit sunt exercitation</h3>
+</div>
+```
+</details>
+<details>
+<summary><strong>Shortcodes</strong></summary>
+
+
+The HTML module is the recommended choice for adding shortcodes to your layouts. This includes Beaver Builder layout shortcodes, the BB Theme Year shortcode, Beaver Themer field connection shortcodes, and shortcodes from third-party plugins.
+
+The example below shows how combining HTML with multiple Beaver Themer field connections allows you to create unique layouts that aren’t possible with other modules.
+
+```html
+<h1 class="my-post-title">
+  <a href="[wpbb post:url]" class="my-post-title-link" title="[wpbb post:title]">
+    [wpbb post:title]
+  </a>
+</h1>
+```
+</details>
+<details>
+<summary><strong>Embeds</strong></summary>
+
+
+Use the HTML module to embed third-party content that isn’t available through standard modules, such as YouTube videos, Spotify playlists, Google Maps, or other embed code provided by external services.
+
+To do this, copy the embed code from the service and paste it into the HTML module.
+
+:::note
+
+Some services may require additional scripts, which may need to be added using the Custom Scripts option.
+:::
+</details>
+
+
+## Module Settings
+
+The HTML module includes a single option, the HTML Code Editor.
+
+### HTML Code Editor
+
+Use this editor to add your custom code. It supports HTML markup, CSS within `<style>` tags, JavaScript within `<script>` tags, inline styles and scripts, and shortcodes.
+
+<details>
+<summary><strong>Field connections</strong></summary>
+
+Field connections allow supported settings to pull dynamic values from WordPress data, custom fields, or other connected data sources.
+
+</details>
+
+The HTML Code Editor is based on the ACE Editor and supports the following features:
+
+
+<details>
+<summary><strong>Syntax Highlighting</strong></summary>
+
+
+The editor automatically color-codes your HTML, CSS, and JavaScript, making it easier to read and identify different parts of your code. Tags, attributes, strings, and other elements are displayed in different colors.
+</details>
+<details>
+<summary><strong>Code Completion</strong></summary>
+
+
+As you type, the editor may suggest code completions for HTML tags and attributes, speeding up your workflow.
+</details>
+<details>
+<summary><strong>Live Code Checker</strong></summary>
+
+
+The HTML editor includes built-in linting that checks your code for errors and potential issues in real time. As you type, the linter analyzes your code and provides immediate feedback.
+
+The linter helps catch common mistakes such as:
+- Unclosed HTML tags
+- Missing quotation marks
+- Invalid CSS properties or values
+- JavaScript syntax errors
+- Improper nesting of elements
+
+:::note
+
+We recommend ensuring your code is error-free before publishing, as invalid HTML, such as unclosed tags, can interfere with the Beaver Builder UI and prevent it from functioning correctly.
+
+If you add code to the HTML module and publish changes that result in being unable to open the Beaver Builder editor, or cause the builder to malfunction, open the editor in [Safe Mode](#MISSINGLINK) so you can fix or remove the code.
+:::
+</details>
+<details>
+<summary><strong>Line Numbers</strong></summary>
+
+
+Each line of code is numbered on the left side, making it easy to reference specific lines and navigate longer code blocks.
+</details>
+<details>
+<summary><strong>Auto-Indentation</strong></summary>
+
+
+The editor automatically indents your code to maintain proper formatting. When you press <kbd>Enter</kbd>, the new line is indented to match the context of your code.
+</details>
+<details>
+<summary><strong>Bracket Matching</strong></summary>
+
+
+When you click next to a bracket, parenthesis, or brace, the editor highlights the matching pair, helping you ensure your code is properly structured.
+</details>
+<details>
+<summary><strong>Multiple Cursors</strong></summary>
+
+
+Hold <kbd>Ctrl</kbd> (<kbd>Cmd</kbd> on Mac) and click to place multiple cursors, allowing you to edit multiple lines simultaneously.
+</details>
+<details>
+<summary><strong>Find and Replace</strong></summary>
+
+
+Press <kbd>Cmd</kbd> + <kbd>F</kbd> on Mac (<kbd>Ctrl</kbd> + <kbd>F</kbd> on Windows) to search for specific text within your code.
+
+Click the (+) plus icon to enable the Replace feature, and click the (–) minus icon to remove it.
+</details>
+
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common HTML module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>
+
+## Keyboard Shortcut
+
+The HTML editor supports numerous keyboard shortcuts for efficient coding:
+
+| Action                    | Mac Shortcut                 | Windows Shortcut              |
+|---------------------------|------------------------------|-------------------------------|
+|  Comment or uncomment line | <kbd>⌘ Cmd</kbd> + <kbd>/</kbd> | <kbd>Ctrl</kbd> + <kbd>/</kbd> |
+|  Delete current line | <kbd>⌘ Cmd</kbd> + <kbd>D</kbd> | <kbd>Ctrl</kbd> + <kbd>D</kbd> |
+|  Move line up or down | <kbd>⌥ Option</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> | <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> |
+|  Undo | <kbd>⌘ Cmd</kbd> + <kbd>Z</kbd> | <kbd>Ctrl</kbd> + <kbd>Z</kbd> |
+|  Redo | <kbd>⌘ Cmd</kbd> + <kbd>Y</kbd> | <kbd>Ctrl</kbd> + <kbd>Y</kbd> |
+
+## PHP Support
+
+The HTML module does not support adding or executing PHP code. Any PHP included in the module will be output as plain text and will not run on the server. This limitation exists because the HTML module is designed to handle client-side code only, such as HTML, CSS, JavaScript, and embed code.
+
+If you need to add PHP functionality, you should do so through your theme or child theme files, a custom plugin, or by writing your own shortcode. You can then insert that shortcode into the HTML module or another Beaver Builder module.

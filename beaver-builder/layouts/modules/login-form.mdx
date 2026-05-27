@@ -1,0 +1,731 @@
+---
+title: Login Form
+sidebar_label: Login Form
+icon: "log-in"
+description: "Use Login Form to add a front-end login and logout form with configurable fields, icons, and post-submit redirects."
+---
+
+
+Use Login Form to add a front-end login and logout form with configurable fields, icons, and post-submit redirects.
+
+## Usage
+
+Use Login Form to add an AJAX-powered login form to any layout. The module renders username and password inputs with optional icons, a Remember Me checkbox, and a forgotten password link, then signs the user in through `wp_signon()`. When the visitor is already authenticated, the module switches to a logout button that ends the session and follows the configured redirect.
+
+Use Login Form on membership pages, restricted-content gates, course portals, and custom account areas where the standard `wp-login.php` page does not match the site design. It fits inline header logins, dedicated sign-in pages, and any layout that needs a styled, themer-friendly alternative to the default WordPress login screen.
+
+## Module Settings
+
+The Login Form module settings control the form layout, input labels and icons, redirect behavior, and the appearance of the login and logout buttons.
+
+### General Tab
+
+The General tab sets the form structure, the username and password fields, and the icon styling shared by both inputs.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Stacked</small></summary>
+
+
+Sets how the username and password inputs are arranged.
+
+- **Stacked:** Stacks each input on its own row with optional labels, the Remember Me checkbox, and the forgotten password link.
+- **Inline:** Places the inputs and submit button on a single row. Labels are hidden in this layout, and the Remember Me and forgotten password options are not available.
+
+</details>
+
+<details>
+<summary><strong>Show Input Label</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the visible labels above the username and password inputs. This field is available when **Layout** is set to **Stacked**. Selecting **Yes** also reveals the **Labels** group in the Style tab.
+</details>
+
+<details>
+<summary><strong>Show Remember Login</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the Remember Me checkbox below the inputs. This field is available when **Layout** is set to **Stacked**.
+
+<details>
+<summary><strong>Remember Me Text</strong></summary>
+
+
+<details>
+<summary><strong>Remember Me Text</strong> <small>Default: Remember Me</small></summary>
+
+
+The label displayed next to the Remember Me checkbox when **Show Remember Login** is set to **Yes**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Show Forget Password Link</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides a link to the WordPress lost password screen. This field is available when **Layout** is set to **Stacked**.
+
+<details>
+<summary><strong>Forget Text Position</strong></summary>
+
+
+<details>
+<summary><strong>Forget Text Position</strong> <small>Default: Beside Remember Me</small></summary>
+
+
+Sets the placement of the forgotten password link when **Show Forget Password Link** is set to **Yes**.
+
+- **Beside Remember Me:** Displays the link inline next to the Remember Me checkbox.
+- **Below Login Button:** Displays the link on its own line below the login button.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Forgotten Password Text</strong></summary>
+
+
+<details>
+<summary><strong>Forgotten Password Text</strong> <small>Default: Forgotten Password</small></summary>
+
+
+The text used for the forgotten password link when **Show Forget Password Link** is set to **Yes**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Name Field</strong></summary>
+
+
+The Name Field section controls the username input label and its optional icon.
+
+<details>
+<summary><strong>Name Field</strong></summary>
+
+
+<details>
+<summary><strong>Name Field Text</strong> <small>Default: Username</small></summary>
+
+
+The text used for the username field label and placeholder.
+</details>
+
+<details>
+<summary><strong>Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds an optional icon inside the username field.
+
+<details>
+<summary><strong>Color</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color applied to the username field icon.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Password Field</strong></summary>
+
+
+The Password Field section controls the password input label and its optional icon.
+
+<details>
+<summary><strong>Password Field</strong></summary>
+
+
+<details>
+<summary><strong>Password Field Text</strong> <small>Default: Password</small></summary>
+
+
+The text used for the password field label and placeholder.
+</details>
+
+<details>
+<summary><strong>Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds an optional icon inside the password field.
+
+<details>
+<summary><strong>Color</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color applied to the password field icon.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+The Icon section controls placement and sizing for the username and password field icons. This section is available when an icon is selected for either field.
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+<details>
+<summary><strong>Icon Position</strong></summary>
+
+
+Places the icon before or after the input text.
+
+- **Before:** Aligns the icon to the start of the input.
+- **After:** Aligns the icon to the end of the input.
+
+</details>
+
+<details>
+<summary><strong>Size</strong> <small>Default: 16</small></summary>
+
+
+The size of the field icons. Accepts `px`, `em`, or `rem` values.
+</details>
+
+<details>
+<summary><strong>Top Spacing</strong></summary>
+
+
+The vertical offset of the icon inside the input. Use this to fine-tune alignment when the icon does not sit centered with the field text.
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the appearance of labels, inputs, and the shared button typography for the login and logout buttons.
+
+<details>
+<summary><strong>Labels</strong></summary>
+
+
+The Labels section is available when **Show Input Label** is set to **Yes** in the General tab.
+
+<details>
+<summary><strong>Labels</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing around each input label.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the input labels.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the input labels.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Inputs</strong></summary>
+
+
+The Inputs section controls the appearance of the username and password text inputs.
+
+<details>
+<summary><strong>Inputs</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing of the username and password inputs.
+</details>
+
+<details>
+<summary><strong>Color</strong></summary>
+
+
+The text and placeholder color of the inputs.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the input text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the inputs.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when the inputs are hovered or focused.
+</details>
+
+<details>
+<summary><strong>Border</strong></summary>
+
+
+The border style, width, radius, and color for the inputs.
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Border Hover</strong></summary>
+
+
+The border style used when the inputs are hovered or focused.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Buttons</strong></summary>
+
+
+The Buttons section controls the shared padding, text color, and typography applied to both the login and logout buttons.
+
+<details>
+<summary><strong>Buttons</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing of the login and logout buttons.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the login and logout buttons.
+</details>
+
+<details>
+<summary><strong>Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the login and logout buttons on hover and focus.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the login and logout button text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+### Login Button Tab
+
+The Login Button tab sets the submit button text, the post-login redirect, and the button-specific icon, layout, background, and border styling.
+
+<details>
+<summary><strong>Button Text</strong> <small>Default: Login</small></summary>
+
+
+The label displayed on the login submit button.
+</details>
+
+<details>
+<summary><strong>Redirect To</strong> <small>Default: URL</small></summary>
+
+
+Determines where the visitor is sent after a successful login.
+
+- **URL:** Redirects to the URL set in **Redirect URL**.
+- **Current URL:** Reloads the current page.
+- **Referrer URL:** Sends the visitor back to the page they came from.
+- **Show Message:** Replaces the form with a success message.
+
+<details>
+<summary><strong>Redirect URL</strong></summary>
+
+
+<details>
+<summary><strong>Redirect URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination URL used after login when **Redirect To** is set to **URL**.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Success Message</strong></summary>
+
+
+<details>
+<summary><strong>Success Message</strong> <small>Default: You are logged in successfully!; Supports: Field Connections</small></summary>
+
+
+The confirmation message displayed after login when **Redirect To** is set to **Show Message**. Uses the WordPress Classic Editor WYSIWYG.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+The Button Icon section adds an optional icon to the login button and controls its placement and visibility.
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon displayed alongside the login button text.
+</details>
+
+<details>
+<summary><strong>Button Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected.
+
+- **Before Text:** Displays the icon to the left of the button label.
+- **After Text:** Displays the icon to the right of the button label.
+
+</details>
+
+<details>
+<summary><strong>Button Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Controls when the button icon is shown.
+
+- **Always Visible:** Keeps the icon visible at all times.
+- **Fade In On Hover:** Hides the icon until the button is hovered.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Style</strong></summary>
+
+
+The Button Style section controls the width and alignment of the login button.
+
+<details>
+<summary><strong>Button Style</strong></summary>
+
+
+<details>
+<summary><strong>Button Width</strong> <small>Default: Full Width</small></summary>
+
+
+Sets the width of the login button.
+
+- **Auto:** Sizes the button to fit its content.
+- **Full Width:** Stretches the button to fill its container.
+
+<details>
+<summary><strong>Button Align</strong></summary>
+
+
+<details>
+<summary><strong>Button Align</strong> <small>Default: Left; Supports: Responsive</small></summary>
+
+
+The horizontal alignment of the login button when **Button Width** is set to **Auto**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Background</strong></summary>
+
+
+The Button Background section controls the default and hover background colors of the login button.
+
+<details>
+<summary><strong>Button Background</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the login button.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the login button on hover and focus.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Border</strong></summary>
+
+
+The Button Border section controls the border styling of the login button.
+
+<details>
+<summary><strong>Button Border</strong></summary>
+
+
+<details>
+<summary><strong>Button Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, radius, and color of the login button.
+</details>
+
+<details>
+<summary><strong>Button Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The border color of the login button on hover and focus.
+</details>
+</details>
+</details>
+
+### Logout Button Tab
+
+The Logout Button tab controls the button shown to authenticated visitors and the redirect that runs after logout.
+
+<details>
+<summary><strong>Show Logout Button</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the logout button for authenticated visitors. Selecting **Yes** reveals the button text, redirect URL, and the button icon, style, background, and border sections.
+
+<details>
+<summary><strong>Button Text</strong></summary>
+
+
+<details>
+<summary><strong>Button Text</strong> <small>Default: Logout</small></summary>
+
+
+The label displayed on the logout button.
+</details>
+</details>
+
+<details>
+<summary><strong>Redirect URL</strong></summary>
+
+
+<details>
+<summary><strong>Redirect URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination URL used after logout.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+The Button Icon section adds an optional icon to the logout button and controls its placement and visibility. This section is available when **Show Logout Button** is set to **Yes**.
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon displayed alongside the logout button text.
+</details>
+
+<details>
+<summary><strong>Button Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected.
+
+- **Before Text:** Displays the icon to the left of the button label.
+- **After Text:** Displays the icon to the right of the button label.
+
+</details>
+
+<details>
+<summary><strong>Button Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Controls when the button icon is shown.
+
+- **Always Visible:** Keeps the icon visible at all times.
+- **Fade In On Hover:** Hides the icon until the button is hovered.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Style</strong></summary>
+
+
+The Button Style section controls the width and alignment of the logout button. This section is available when **Show Logout Button** is set to **Yes**.
+
+<details>
+<summary><strong>Button Style</strong></summary>
+
+
+<details>
+<summary><strong>Button Width</strong> <small>Default: Full Width</small></summary>
+
+
+Sets the width of the logout button.
+
+- **Auto:** Sizes the button to fit its content.
+- **Full Width:** Stretches the button to fill its container.
+
+<details>
+<summary><strong>Button Align</strong></summary>
+
+
+<details>
+<summary><strong>Button Align</strong> <small>Default: Left; Supports: Responsive</small></summary>
+
+
+The horizontal alignment of the logout button when **Button Width** is set to **Auto**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Background</strong></summary>
+
+
+The Button Background section controls the default and hover background colors of the logout button. This section is available when **Show Logout Button** is set to **Yes**.
+
+<details>
+<summary><strong>Button Background</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the logout button.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the logout button on hover and focus.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Border</strong></summary>
+
+
+The Button Border section controls the border styling of the logout button. This section is available when **Show Logout Button** is set to **Yes**.
+
+<details>
+<summary><strong>Button Border</strong></summary>
+
+
+<details>
+<summary><strong>Button Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, radius, and color of the logout button.
+</details>
+
+<details>
+<summary><strong>Button Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The border color of the logout button on hover and focus.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Login Form module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>

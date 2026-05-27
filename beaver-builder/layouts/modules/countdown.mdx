@@ -1,0 +1,318 @@
+---
+title: Countdown
+sidebar_label: Countdown
+icon: "timer"
+description: "Use the Countdown module to display a live timer that counts down to a target date and time."
+---
+
+
+Use the Countdown module to display a live timer that counts down to a target date and time.
+
+## Usage
+
+The Countdown module outputs a live timer that ticks down to a specific date and time. Each time unit — days, hours, minutes, and seconds — displays as a labeled number block. Choosing the **Numbers + Circles** layout wraps each unit in an animated SVG circle that fills as the unit's time progresses.
+
+Use the Countdown module to build urgency for limited-time offers, event registrations, product launches, or sale deadlines. The optional redirect setting automatically sends visitors to a new URL once the countdown reaches zero, so the page responds to the event end without manual updates.
+
+## Module Settings
+
+The Countdown module settings control the target date and time, redirect behavior, and visual styling of the timer.
+
+### General tab
+
+The General tab sets the target date, time, time zone, and optional post-countdown redirect.
+
+<details>
+<summary><strong>Date</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the target date the countdown counts down to.
+</details>
+
+<details>
+<summary><strong>Time</strong></summary>
+
+
+The Time section sets the time of day and time zone for the countdown target.
+
+<details>
+<summary><strong>Time settings</strong></summary>
+
+
+<details>
+<summary><strong>Time</strong> <small>Default: 01:00; Supports: Field Connections</small></summary>
+
+
+Sets the time of day for the countdown target.
+</details>
+
+<details>
+<summary><strong>Time Zone</strong> <small>Default: UTC</small></summary>
+
+
+Sets the time zone used to interpret the target date and time.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Redirect</strong> <small>Default: Disabled</small></summary>
+
+
+Controls whether the page redirects after the countdown reaches zero.
+
+- **Disabled:** No redirect occurs after the countdown ends.
+- **Once After Countdown End:** Redirects the visitor once when the countdown reaches zero.
+- **Always After Countdown End:** Redirects on every visit after the countdown has ended.
+
+<details>
+<summary><strong>URL</strong></summary>
+
+
+<details>
+<summary><strong>URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination URL used when **Redirect** is set to **Once After Countdown End** or **Always After Countdown End**.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+</details>
+</details>
+
+### Style tab
+
+The Style tab controls the countdown layout, alignment, number and text appearance, and layout-specific visual options.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Numbers</small></summary>
+
+
+Selects whether the countdown displays numbers only or numbers with animated SVG circle progress indicators.
+
+- **Numbers:** Displays each time unit as a labeled number block.
+- **Numbers + Circles:** Wraps each time unit in an animated SVG circle that fills as the unit progresses.
+
+<details>
+<summary><strong>Numbers Settings</strong></summary>
+
+
+<details>
+<summary><strong>Backgrounds</strong></summary>
+
+
+The Backgrounds section controls the background color and corner rounding of each number block. Available when **Layout** is set to **Numbers**.
+
+<details>
+<summary><strong>Backgrounds</strong></summary>
+
+
+<details>
+<summary><strong>Number Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color applied behind each countdown number block.
+</details>
+
+<details>
+<summary><strong>Number Border Radius</strong> <small>Default: 0</small></summary>
+
+
+Sets the corner rounding of each number block in `px`.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Separator</strong></summary>
+
+
+The Separator section controls whether visual separators appear between time units. Available when **Layout** is set to **Numbers**.
+
+<details>
+<summary><strong>Separator settings</strong></summary>
+
+
+<details>
+<summary><strong>Show Time Separators</strong> <small>Default: No</small></summary>
+
+
+Shows or hides separators between countdown time units.
+
+<details>
+<summary><strong>Separator options</strong></summary>
+
+
+<details>
+<summary><strong>Separator Type</strong> <small>Default: Line</small></summary>
+
+
+Sets the style of the separator displayed between time units when **Show Time Separators** is set to **Yes**.
+
+- **Colon:** Displays a colon character between time units.
+- **Line:** Displays a vertical line between time units.
+
+<details>
+<summary><strong>Colon settings</strong></summary>
+
+
+<details>
+<summary><strong>Separator Size (Colon Only)</strong> <small>Default: 15</small></summary>
+
+
+Sets the font size of the colon separator in `px`. Available when **Separator Type** is set to **Colon**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Separator Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the separators between time units.
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Numbers + Circles Settings</strong></summary>
+
+
+<details>
+<summary><strong>Circle Styles</strong></summary>
+
+
+The Circle Styles section controls the appearance of the SVG circle indicators. Available when **Layout** is set to **Numbers + Circles**.
+
+<details>
+<summary><strong>Circle Styles</strong></summary>
+
+
+<details>
+<summary><strong>Circle Foreground Color</strong> <small>Default: f7951e; Supports: Field Connections</small></summary>
+
+
+Sets the stroke color of the animated foreground arc on each circle.
+</details>
+
+<details>
+<summary><strong>Circle Background Color</strong> <small>Default: eaeaea; Supports: Field Connections</small></summary>
+
+
+Sets the stroke color of the static background track on each circle.
+</details>
+
+<details>
+<summary><strong>Circle Size</strong> <small>Default: 200</small></summary>
+
+
+Sets the diameter of each circle indicator in `px`.
+</details>
+
+<details>
+<summary><strong>Circle Stroke Size</strong> <small>Default: 10</small></summary>
+
+
+Sets the stroke width of both the foreground arc and background track in `px`.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Alignment</strong> <small>Default: center; Supports: Responsive</small></summary>
+
+
+Sets the horizontal alignment of the countdown timer.
+</details>
+
+<details>
+<summary><strong>Numbers and Text</strong></summary>
+
+
+The Numbers and Text section controls the color, typography, and spacing of countdown numbers and time unit labels.
+
+<details>
+<summary><strong>Numbers and Text</strong></summary>
+
+
+<details>
+<summary><strong>Number Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the countdown numbers.
+</details>
+
+<details>
+<summary><strong>Number Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the countdown numbers.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the time unit labels beneath each number.
+</details>
+
+<details>
+<summary><strong>Text Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the time unit labels.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Horizontal Padding (Numbers Only)</strong> <small>Default: 10</small></summary>
+
+
+Sets the left and right padding inside each number block in `px`. Available when **Layout** is set to **Numbers**.
+</details>
+
+<details>
+<summary><strong>Vertical Padding (Numbers Only)</strong> <small>Default: 10</small></summary>
+
+
+Sets the top and bottom padding inside each number block in `px`. Available when **Layout** is set to **Numbers**.
+</details>
+
+<details>
+<summary><strong>Number Spacing</strong> <small>Default: 10</small></summary>
+
+
+Sets the horizontal margin between each countdown unit in `px`.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced tab</strong></summary>
+
+The Advanced tab contains common Countdown module's settings for spacing, visibility, animation, custom CSS, and other advanced module controls.
+
+</details>
