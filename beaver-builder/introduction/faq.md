@@ -15,6 +15,7 @@ Here are some of the differences between the Lite and Premium versions:
 
 - [Limited Modules in comparison to Premium](#what-modules-are-included-in-the-lite-version).
 - Incompatibility with Beaver Themer.
+- No access to [Global Styles](../user-interface/global-styles.md), which is available in Premium only.
 - Access to only a few pre-made Templates.
 - Inability to save modules/rows/columns for re-use or to save custom Templates.
 
@@ -30,7 +31,7 @@ between the free and premium versions.
 | Beaver Builder                  | ✅        | ✅      | ✅           | ✅        |
 | Beaver Themer                   | ❌        | ✅      | ✅           | ✅        |
 | BB Theme                        | ❌        | ❌      | ✅           | ✅        |
-| WordPress Multisite Network     | ❌        | ❌      | ✅           | ✅        |
+| [Multisite Capable](#what-is-multisite-capable)     | ✅        | ❌      | ✅           | ✅        |
 | Network-wide settings           | ❌        | ❌      | ❌           | ✅        |
 | White Labeling                  | ❌        | ❌      | ❌           | ✅        |
 | Advanced Courses                | ❌        | ❌      | ❌           | ✅        |
@@ -67,7 +68,6 @@ The lite (free) version of Beaver Builder contains the following subset of modul
 - [Text](../layouts/modules/text.md)
 - [Sidebar](../layouts/modules/sidebar.md)
 - [Video](../layouts/modules/video/video.md)
-- [Widget](../layouts/modules/widgets.md)
 
 See the [Modules](../layouts/modules/index.md) section for a complete list of all available modules in the premium versions of Beaver Builder.
 
