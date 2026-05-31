@@ -6,52 +6,36 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-Beaver Themer 1.5 includes the following new features and improvements.
-
-:::info
-Please note that Themer 1.5 requires Beaver Builder version 2.9+.
-:::
+Beaver Themer 1.6 includes the following new features and improvements.
 
 ## :rocket: New Features
 
 The following new features have been added:
 
-### The Loop Module
+### Popup Layout Type
 
-The Loop module is a powerful container module that allows you to easily display dynamic content on your website—no coding required. Select content from posts, pages, custom post types, taxonomies, or Advanced Custom Fields (ACF) repeater or relationship fields.
+The Popup layout type in Beaver Themer allows you to display content in a modal that appears above the page. Use it to create promotional dialogs, sign-up forms, announcements, cookie notices, slide-in panels, and flyouts, all without writing code.
 
-Then, use modules such as Heading, Text, and Photo to build your layout. Field Connections automatically pull in data from your selected content sources and dynamically display it, ensuring your layouts always reflect the latest information.
+Build your popup using the same rows, columns, modules, and Field Connections you already use in Beaver Builder. Then, use Themer location rules to control exactly where your popup appears, whether site-wide or only on specific posts, pages, archives, or post types.
 
-See the [Loop Module](/beaver-builder/layouts/modules/loop) article for more information.
+See the [Popup Layout Type](../layout-types-modules/popup.md) article for more information.
 
 ## :boom: Improvements
 
 The following improvements have been made:
 
-### Singular Layouts as Custom Templates
+### Editable Layout Types
 
-You can now save your Singular layouts as custom templates in the Beaver Themer UI and select them from the page, post, or custom post type edit screen. Previously this required custom code.
+You can now change a Themer layout's type after it's been created. Open any layout and pick a new type, from the Themer Layout Settings panel, without having to delete the layout and start over. The available location options update automatically to match the type you choose.
 
-See the [Singular Layouts](layout-types-modules/singular-layout-type/themer-singular-layout-type.md#singular-layouts-as-selectable-templates) article for more information.
+### ACF Icon Picker Field Support
 
-### Conditional Logic
+Field connections now support the Advanced Custom Fields Icon Picker field. Connect an Icon Picker field to an Icon module to output the selected icon dynamically from your post, author, user, or options data. Note that only icons chosen from the Dashicons tab are supported — icons selected from the Media Library or a URL won't display.
 
-We've added some quality of life improvements to Conditional Logic, including the ability to drag and drop rules from one section to another, duplicate a rule, and bulk select and edit or duplicate rules.
+See the [ACF Icon field](../integrations/acf/field-types/icon.md) article for more information.
 
-See the [Conditional Logic](conditional-logic/beaver-themer-conditional-logic.md#bulk-options) article for more information.
+### New `site:date` Shortcode
 
-### Search added to Preview As section
+We've added a `site:date` shortcode that outputs the current date. Use it on its own or set a custom format to control how the date appears, for example, `[wpbb site:date format='Y-m-d']`. 
 
-A search box now makes it easier to find the page/post or archive you'd like to preview when editing a Themer layout.
-
-### Format Date
-
-Added format parameter for [`post_custom_field`](field-connections/wordpress-data.md#post-custom-field) shortcode.
-
-### ACF
-
-Added [`repeater_index`](integrations/acf/field-types/repeater.md#repeater_index) support to ACF shortcodes.
-
-### The Events Calendar
-
-The organizers shortcode will now output all organizers if there are multiple selected.
+See the [Current Date](../field-connections/wordpress-data.md#current-date) section for more information.
