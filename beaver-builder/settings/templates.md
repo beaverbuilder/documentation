@@ -13,8 +13,6 @@ The **Templates** tab in the Beaver Builder settings lets you manage which templ
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Templates** tab.
 
-![Access Templates tab](/img/beaver-builder/settings--templates--1.jpg)
-
 ## Enable Templates
 
 Use this setting to enable or disable templates in the Beaver Builder user-interface.

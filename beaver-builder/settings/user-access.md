@@ -13,8 +13,6 @@ The **User Access** tab in the Beaver Builder settings lets you limit which Beav
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **User Access** tab.
 
-![Access User Access tab settings](/img/beaver-builder/settings--user-access--1.jpg)
-
 ## Frontend
 
 The **Frontend** section lets you limit access to the builder, unrestricted editing and global rows, columns and modules.
