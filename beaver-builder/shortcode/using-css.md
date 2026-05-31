@@ -4,21 +4,23 @@ title: Using Shortcodes in CSS
 sidebar_label: Using Shortcodes in CSS
 ---
 
-You can use shortcodes in Layout CSS & JavaScript settings, accessed from the Tools menu. Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
+Shortcode rendering in CSS and JavaScript is enabled by default. This allows shortcode values to be processed correctly and helps prevent shortcode markup from being flagged as an error. This feature can be used to replace a value in custom CSS or JavaScript within a Beaver Builder layout.
 
-## Enable
+## Enable/Disable
 
-1. Access your site's **WordPress Admin Dashboard**.
-2. Navigate to **Settings > Beaver Builder**.
-3. Then click the **Advanced** tab and toggle the **Render shortcodes in CSS/JS** option which prevents shortcode markup flagging as an error.
+You can manage this setting from your site’s WordPress Admin Dashboard:
+
+1. Access your site’s **WordPress Admin Dashboard**.
+2. Navigate to [Settings > Beaver Builder](../settings/index.md).
+3. Click the [Advanced tab](../settings/advanced.md).
+4. Locate the **Render shortcodes in CSS/JS** option.
 
 :::info
-You can also enable this feature using the `fl_enable_shortcode_css_js` filter in your child theme's _functions.php_ file:
+You can also control this feature using the `fl_enable_shortcode_css_js` filter in your child theme’s functions.php file:
 
-```php
-add_filter("fl_enable_shortcode_css_js", "__return_true");
+```php 
+add_filter("fl_enable_shortcode_css_js", "__return_true"); 
 ```
-
 :::
 
 ## Examples
