@@ -30,9 +30,9 @@ Custom Attributes is a new Advanced tab section that allows you to add HTML attr
 
 See the [Custom Attributes](../layouts/advanced-tab/custom-attributes.md) article for more information.
 
-### Page Settings
+### [Post Type] Settings tab
 
-Page Settings is a new tab in the Layout Settings (formerly Layout CSS & JavaScript) panel that provides a convenient way to modify your page, post, product, or custom post type data without leaving the builder. It lets you edit key WordPress fields for the item you are currently building, with changes saved directly to the WordPress post rather than to Beaver Builder layout data.
+[Post Type] Setting is a new tab in the Layout Settings (formerly Layout CSS & JavaScript) panel that provides a convenient way to modify your page, post, product, or custom post type data without leaving the builder. It lets you edit key WordPress fields for the item you are currently building, with changes saved directly to the WordPress post rather than to Beaver Builder layout data.
 
 The tab name changes to match the type of content you are editing. For example, it appears as Page Settings for pages, Post Settings for posts, Product Settings for WooCommerce products, and so on.
 

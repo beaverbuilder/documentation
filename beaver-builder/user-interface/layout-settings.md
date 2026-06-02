@@ -39,11 +39,13 @@ The code editor includes syntax highlighting and runs only on the current layout
   Custom JavaScript runs on the front end with the same privileges as your theme code. Only users who can edit unfiltered HTML can save changes here.
 </Warning>
 
-## Page Settings tab
+## [Post Type] Setting tab
 
-The Page Settings tab lets you edit core WordPress fields for the post you are currently building, such as title, slug, status, and featured image. Changes are written directly to the post in WordPress, not to Beaver Builder layout data.
+The [Post Type] Settings tab lets you edit core WordPress fields for the post you are currently building, such as title, slug, status, and featured image. Changes are written directly to the post in WordPress, not to Beaver Builder layout data.
 
-The tab title matches the post type you are editing. On a Page it appears as **Page Settings**, on a Post as **Post Settings**, on a WooCommerce product as **Product Settings**, and so on. If you are editing something that is not attached to a post, the tab does not appear.
+:::info
+  The tab title matches the post type you are editing. On a Page it appears as **Page Settings**, on a Post as **Post Settings**, on a WooCommerce product as **Product Settings**, and so on. If you are editing something that is not attached to a post, the tab does not appear.
+:::
 
 ### Available fields
 

@@ -90,3 +90,11 @@ The third card runs maintenance mode automatically inside a defined time window.
 Schedule times use your site's timezone, set under **Settings > General** in WordPress. The current timezone is displayed below the **End** field.
 
 :::
+
+## How maintenance mode is served
+
+When maintenance mode is active and the visitor does not have a bypass role, Beaver Builder intercepts the front-end request before the theme renders. The selected layout post is loaded into the main query, then the active theme's `page.php` (or `index.php` as a fallback) renders the layout in place.
+
+If **Protect search rankings** is on, the response is sent with HTTP status `503 Service Unavailable` and a `Retry-After` header. Search engines treat this as a temporary outage and preserve the site's existing index entries.
+
+The WordPress admin is never affected by maintenance mode. Logged-in users can always access `/wp-admin/` regardless of the maintenance settings.
