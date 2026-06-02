@@ -63,10 +63,11 @@ Third-party layout templates usually appear as a separate group on the Templates
 
 2. Select the **Templates tab** to access templates.
 
-3. Click the template you want to use into your layout.
-   If the page or post layout already has content, you'll get a choice of replacing the existing layout or appending the new layout.
-
-![](/img/beaver-builder/templates--index--3.jpg)
+3. Click the template you want to add to your layout. If the page or post already has content, you can choose how the template is inserted:   
+  
+    - Replace - Replaces the existing layout with the selected template.
+    - Prepend - Adds the selected template before the existing layout content.
+    - Append - Adds the selected template after the existing layout content.
 
 4. Configure the rows, columns, and modules how you like and save your changes.
 

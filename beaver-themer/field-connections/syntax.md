@@ -41,6 +41,30 @@ See the [Conditionals](conditionals.md) article for more information.
 
 The Field Connection shortcode syntax provides support for a range of parameters, enabling you to perform various actions, such as modifying the output, displaying content based on the field's returned value, or setting a default value.
 
+### Post ID
+
+The `post_id` parameter lets you specify which post a field connection pulls its data from. By default, every field connection retrieves its value from the current post, the page being viewed, or the current item when used inside a loop or posts module. Adding a `post_id` parameter overrides that behavior, telling the connection to pull from a specific post instead, regardless of the context it renders in.
+
+This parameter works with any field connection, since the post is swapped before the field's value is retrieved. It's useful for displaying a particular post's data, such as its title, featured image, and/or excerpt, on another page. For instance, you could use it to surface a related post or to highlight a featured post you want to draw attention to.
+
+:::info
+  The value is the numeric ID of the post you want to target. If you leave it off (or leave it blank), the connection falls back to the current page/post.
+:::
+
+The two examples below demonstrate how `post_id` can be applied to different field connections.
+
+* **Example: Post Title** Display the title of post ID 42, regardless of which page the shortcode appears on.  
+  
+  ```css
+  [wpbb post:post_title post_id='42']
+  ```
+
+* **Example: Featured Image** Combine `post_id` with a connection's own modifiers to output post 42's featured image at a specific size.
+  
+  ```css
+  [wpbb post:featured_image post_id='42' size='large' display='tag']
+  ```
+
 ### Modifiers
 
 The modifier parameter is available for field connections that have option support. These options grant you the ability to configure the field connection output according to your preferences. After configuring the options, they are incorporated into the shortcode syntax as modifier parameters. The value you selected for each individual option is then utilized as the corresponding value for the modifier parameter.

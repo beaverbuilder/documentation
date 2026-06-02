@@ -1,0 +1,677 @@
+---
+title: Posts Carousel
+sidebar_label: Posts Carousel
+icon: "gallery-horizontal"
+description: "Use Posts Carousel to display a sliding carousel of WordPress posts with configurable layout, content, and slider controls."
+---
+
+
+Use Posts Carousel to display a sliding carousel of WordPress posts with configurable layout, content, and slider controls.
+
+## Usage
+
+Use Posts Carousel to display queried WordPress posts in a horizontal sliding carousel built on bxSlider. The module renders each post as a slide that can include the featured image, post title, post info such as author and date, post content or excerpt, an optional more link, and an optional icon. Slider behavior, autoplay, transition direction, navigation arrows, dots, and play/pause controls are all configured per instance.
+
+Use Posts Carousel on home pages, blog landing pages, and template parts that need to surface multiple posts in a compact area. It fits featured-content sections, related-post strips, product or portfolio highlights driven by a custom post type, and any layout where a static grid takes up too much space.
+
+## Module Settings
+
+The Posts Carousel module settings control the slider behavior, the post query, the layout of each slide, and the styling of the carousel items, text, and navigation arrows.
+
+### Slider Tab
+
+The Slider tab configures the carousel layout, autoplay, transition behavior, and slider controls.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Grid</small></summary>
+
+
+Selects the visual layout used for each slide.
+
+- **Grid:** Renders each post as a card with the featured image, title, info, and content stacked. This layout exposes the **Content** section, **Post Content** style section, and **More Link** style section.
+- **Gallery:** Overlays the post title and info on top of the featured image with a hover transition. This layout exposes the **Icons** section and the **Post Hover Transition** field.
+
+</details>
+
+<details>
+<summary><strong>Auto Play</strong> <small>Default: Yes</small></summary>
+
+
+Starts the carousel automatically on page load. Options are **Yes** and **No**.
+</details>
+
+<details>
+<summary><strong>Loop</strong> <small>Default: No</small></summary>
+
+
+Continues the carousel from the first slide after the last slide. Options are **Yes** and **No**.
+</details>
+
+<details>
+<summary><strong>Delay</strong> <small>Default: 5</small></summary>
+
+
+The delay between slide transitions, in seconds.
+</details>
+
+<details>
+<summary><strong>Transition Direction</strong> <small>Default: Right To Left</small></summary>
+
+
+Sets the direction the carousel slides.
+
+- **Right To Left:** Advances slides toward the left.
+- **Left To Right:** Advances slides toward the right.
+
+</details>
+
+<details>
+<summary><strong>Transition Speed</strong> <small>Default: 1</small></summary>
+
+
+The duration of the transition animation between slides, in seconds.
+</details>
+
+<details>
+<summary><strong>Slider Controls</strong></summary>
+
+
+The Slider Controls section configures the navigation elements shown with the carousel.
+
+<details>
+<summary><strong>Slider Controls</strong></summary>
+
+
+<details>
+<summary><strong>Show Dots</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides the pagination dots beneath the carousel.
+</details>
+
+<details>
+<summary><strong>Show Arrows</strong> <small>Default: No</small></summary>
+
+
+Shows or hides the previous and next arrows on the sides of the carousel. Setting this to **Yes** reveals the **Nav Arrows** section in the Style tab.
+</details>
+
+<details>
+<summary><strong>Show Play/Pause</strong> <small>Default: No</small></summary>
+
+
+Shows or hides a play and pause control for the carousel.
+</details>
+</details>
+</details>
+
+### Layout Tab
+
+The Layout tab controls how many posts appear, how each slide is sized and spaced, and what content each slide includes.
+
+<details>
+<summary><strong>Posts</strong></summary>
+
+
+The Posts section controls the number of slides, slide sizing, and the per-slide hover transition used for the **Gallery** layout.
+
+<details>
+<summary><strong>Posts</strong></summary>
+
+
+<details>
+<summary><strong>Number of Posts</strong> <small>Default: 10</small></summary>
+
+
+The total number of posts to load into the carousel.
+</details>
+
+<details>
+<summary><strong>Number of Posts to Move</strong> <small>Default: 1</small></summary>
+
+
+The number of slides advanced on each transition.
+</details>
+
+<details>
+<summary><strong>Post Max Width</strong> <small>Default: 300</small></summary>
+
+
+The maximum width of each slide, in pixels.
+</details>
+
+<details>
+<summary><strong>Post Spacing</strong> <small>Default: 30</small></summary>
+
+
+The horizontal space between slides, in pixels.
+</details>
+
+<details>
+<summary><strong>Equalize Column Heights (Grid Only)</strong> <small>Default: No</small></summary>
+
+
+Forces all visible slides to share the same height. This field appears when **Layout** is set to **Grid**.
+</details>
+
+<details>
+<summary><strong>Post Hover Transition (Gallery Only)</strong> <small>Default: Fade</small></summary>
+
+
+The animation used when hovering each slide in the **Gallery** layout.
+
+- **Fade:** Fades the overlay in on hover.
+- **Slide Up:** Slides the overlay up into view.
+- **Slide Down:** Slides the overlay down into view.
+- **Scale Up:** Scales the overlay up into view.
+- **Scale Down:** Scales the overlay down into view.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Featured Image</strong></summary>
+
+
+The Featured Image section controls whether each slide displays the post's featured image and how the image is sized and cropped.
+
+<details>
+<summary><strong>Featured Image</strong></summary>
+
+
+<details>
+<summary><strong>Image</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the featured image on each slide. Setting this to **Show** reveals the **Size** and **Crop** fields.
+
+<details>
+<summary><strong>Image Settings</strong></summary>
+
+
+<details>
+<summary><strong>Size</strong> <small>Default: medium</small></summary>
+
+
+The registered WordPress image size used for the featured image.
+</details>
+
+<details>
+<summary><strong>Crop</strong> <small>Default: Landscape</small></summary>
+
+
+The crop ratio applied to the featured image.
+
+- **None:** Uses the original aspect ratio from the selected size.
+- **Landscape:** Crops to a wide landscape ratio.
+- **Panorama:** Crops to a wider panoramic ratio.
+- **Portrait:** Crops to a tall portrait ratio.
+- **Square:** Crops to a 1:1 square.
+- **Circle:** Crops to a 1:1 square and applies a circular mask.
+
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icons (Gallery Only)</strong></summary>
+
+
+The Icons section adds an optional icon to each slide. This section appears when **Layout** is set to **Gallery**.
+
+<details>
+<summary><strong>Icons</strong></summary>
+
+
+<details>
+<summary><strong>Use Icon for Posts</strong> <small>Default: No</small></summary>
+
+
+Shows or hides an icon on each slide. Setting this to **Yes** reveals the icon configuration fields.
+
+<details>
+<summary><strong>Icon Settings</strong></summary>
+
+
+<details>
+<summary><strong>Post Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon displayed on each slide.
+</details>
+
+<details>
+<summary><strong>Post Icon Position</strong> <small>Default: Above Text</small></summary>
+
+
+The position of the icon relative to the post text.
+
+- **Above Text:** Places the icon above the title and info.
+- **Below Text:** Places the icon below the title and info.
+
+</details>
+
+<details>
+<summary><strong>Post Icon Size</strong> <small>Default: 24</small></summary>
+
+
+The size of the icon, in pixels.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+The Post Info section controls the author and date metadata shown on each slide.
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+<details>
+<summary><strong>Author</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post author on each slide.
+</details>
+
+<details>
+<summary><strong>Date</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post date on each slide. Setting this to **Show** reveals the **Date Format** field.
+
+<details>
+<summary><strong>Date Format</strong></summary>
+
+
+<details>
+<summary><strong>Date Format</strong> <small>Default: Default</small></summary>
+
+
+The format used for the post date. **Default** uses the WordPress site date format. The remaining options are PHP date formats such as `M j, Y`, `F j, Y`, `m/d/Y`, `m-d-Y`, `d M Y`, `d F Y`, `Y-m-d`, and `Y/m/d`.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Content (Grid Only)</strong></summary>
+
+
+The Content section controls the post content and more link shown on each slide. This section appears when **Layout** is set to **Grid**.
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+<details>
+<summary><strong>Content</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the post excerpt on each slide. Setting this to **Show** reveals the **Content Length** field and the **Post Content** section in the Style tab.
+
+<details>
+<summary><strong>Content Length</strong></summary>
+
+
+<details>
+<summary><strong>Content Length</strong></summary>
+
+
+The maximum number of words shown in the excerpt. Leave empty to use the WordPress default excerpt length.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>More Link</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides a read-more link below the excerpt. Setting this to **Show** reveals the **More Link Text** field and the **More Link** section in the Style tab.
+
+<details>
+<summary><strong>More Link Text</strong></summary>
+
+
+<details>
+<summary><strong>More Link Text</strong> <small>Default: Read More</small></summary>
+
+
+The text displayed on the more link.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls colors and typography for the slide background, post title, post info, post content, more link, and navigation arrows.
+
+<details>
+<summary><strong>Carousel Item</strong></summary>
+
+
+The Carousel Item section sets the slide background and the icon colors used in the **Gallery** layout.
+
+<details>
+<summary><strong>Carousel Item</strong></summary>
+
+
+<details>
+<summary><strong>Background Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The color applied to the overlay behind the text on each slide.
+</details>
+
+<details>
+<summary><strong>Icon Color (Gallery Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the post icon. This field appears when **Layout** is set to **Gallery** and **Use Icon for Posts** is set to **Yes**.
+</details>
+
+<details>
+<summary><strong>DuoTone Icon Primary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the primary color applied to the icon.
+</details>
+
+<details>
+<summary><strong>DuoTone Icon Secondary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the secondary color applied to the icon.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Title</strong></summary>
+
+
+The Post Title section styles the post title text on each slide.
+
+<details>
+<summary><strong>Post Title</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the post title.
+</details>
+
+<details>
+<summary><strong>Hover Color (Grid Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the post title on hover and focus. This field appears when **Layout** is set to **Grid**.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post title.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+The Post Info section styles the author and date text on each slide.
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the post info text.
+</details>
+
+<details>
+<summary><strong>Link Color (Grid Only)</strong> <small>Default: #cccccc; Supports: Field Connections</small></summary>
+
+
+The color of links inside the post info, such as the author link. This field appears when **Layout** is set to **Grid**.
+</details>
+
+<details>
+<summary><strong>Link Hover Color (Grid Only)</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+The color of post info links on hover and focus. This field appears when **Layout** is set to **Grid**.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post info text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Content (Grid Only)</strong></summary>
+
+
+The Post Content section styles the excerpt text on each slide. This section appears when **Layout** is set to **Grid** and **Content** is set to **Show**.
+
+<details>
+<summary><strong>Post Content</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the post content text.
+</details>
+
+<details>
+<summary><strong>Link Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of links inside the post content.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of post content links on hover and focus.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post content text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>More Link (Grid Only)</strong></summary>
+
+
+The More Link section styles the read-more link on each slide. This section appears when **Layout** is set to **Grid** and **More Link** is set to **Show**.
+
+<details>
+<summary><strong>More Link</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the more link text.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the more link on hover and focus.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the more link text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Nav Arrows</strong></summary>
+
+
+The Nav Arrows section styles the previous and next arrow controls. This section appears when **Show Arrows** is set to **Yes** in the Slider tab.
+
+<details>
+<summary><strong>Nav Arrows</strong></summary>
+
+
+<details>
+<summary><strong>Arrows Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the arrow controls.
+</details>
+
+<details>
+<summary><strong>Arrows Background Style</strong> <small>Default: Circle</small></summary>
+
+
+The shape used behind each arrow.
+
+- **Circle:** Renders the arrow background as a circle.
+- **Square:** Renders the arrow background as a square.
+
+</details>
+
+<details>
+<summary><strong>Arrows Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the arrow icons.
+</details>
+</details>
+</details>
+
+### Query Tab
+
+The Query tab configures the data source used to populate the carousel.
+
+<details>
+<summary><strong>Source</strong> <small>Default: Custom Query</small></summary>
+
+
+Selects whether the carousel runs its own query or inherits the main page query.
+
+- **Custom Query:** Builds a query inside the module using the **Custom Query** and **Filter** sections below.
+- **Main Query:** Reuses the main WordPress query for the current page, such as an archive or search results page.
+
+</details>
+
+<details>
+<summary><strong>Custom Query</strong></summary>
+
+
+The Custom Query section configures the query used when **Source** is set to **Custom Query**.
+
+<details>
+<summary><strong>Custom Query</strong></summary>
+
+
+<details>
+<summary><strong>Post Type</strong> <small>Default: Post</small></summary>
+
+
+Selects one or more post types to query for the carousel.
+</details>
+
+<details>
+<summary><strong>Ordering settings</strong></summary>
+
+Ordering settings control how queried posts or items are sorted, such as by date, title, menu order, or custom ordering options where available.
+
+</details>
+
+<details>
+<summary><strong>Offset</strong> <small>Default: 0</small></summary>
+
+
+Skips the specified number of posts that match the query before returning results.
+</details>
+
+<details>
+<summary><strong>Exclude Current Post</strong> <small>Default: No</small></summary>
+
+
+Excludes the post being viewed from the carousel results. Useful in single templates that show related posts.
+</details>
+
+<details>
+<summary><strong>Filtering settings</strong></summary>
+
+Filtering settings control which posts, terms, authors, or content types are included or excluded from the module output.
+
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

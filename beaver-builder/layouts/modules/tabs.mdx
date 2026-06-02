@@ -1,0 +1,416 @@
+---
+title: Tabs
+sidebar_label: Tabs
+icon: "folder-closed"
+description: "Use Tabs to display a collection of tabbed content built from manual items or post-based content."
+---
+
+
+Use Tabs to display a collection of tabbed content built from manual items or post-based content.
+
+## Usage
+
+Use Tabs to display a collection of content panels that visitors switch between using a row of labels. Build tabs manually with custom content, or generate them dynamically from posts, pages, or custom post types. The module supports both horizontal and vertical layouts and provides a separate behavior for how tabs collapse on mobile.
+
+This module is useful for product details, feature comparisons, documentation sections, pricing breakdowns, and other layouts that group related content into compact, switchable panels.
+
+## Module Settings
+
+The Tabs module settings control where tab items come from, how labels and content render, and how the tabs look on the front end.
+
+### Items Tab
+
+The Items tab defines the tab source and the content shown inside each tab panel.
+
+<details>
+<summary><strong>Content Source</strong> <small>Default: Custom Content</small></summary>
+
+
+Selects whether tab items come from WordPress posts or manual entries created inside the module.
+
+- **Post:** Builds tab items from queried WordPress posts, pages, or custom post types.
+- **Custom Content:** Builds tab items from manual items added directly in the module.
+
+<details>
+<summary><strong>Post Settings</strong></summary>
+
+
+<details>
+<summary><strong>Post</strong></summary>
+
+
+The Post section configures the query used when **Content Source** is set to **Post**.
+
+<details>
+<summary><strong>Post Query</strong></summary>
+
+
+<details>
+<summary><strong>Post Type</strong> <small>Default: Post</small></summary>
+
+
+Selects one or more post types to query for tab items.
+</details>
+
+<details>
+<summary><strong>Posts Per Page</strong> <small>Default: 5</small></summary>
+
+
+Sets how many queried posts appear as tab items.
+</details>
+
+<details>
+<summary><strong>Ordering settings</strong></summary>
+
+Ordering settings control how queried posts or items are sorted, such as by date, title, menu order, or custom ordering options where available.
+
+</details>
+
+<details>
+<summary><strong>Filtering settings</strong></summary>
+
+Filtering settings control which posts, terms, authors, or content types are included or excluded from the module output.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Display Settings</strong></summary>
+
+
+<details>
+<summary><strong>Display</strong></summary>
+
+
+The Display section controls post output for tab content. This section is available when **Content Source** is set to **Post**.
+
+<details>
+<summary><strong>Display</strong></summary>
+
+
+<details>
+<summary><strong>Content Type (Post Only)</strong> <small>Default: Post Content</small></summary>
+
+
+Selects whether post-based items render full post content or post excerpts.
+
+- **Post Content:** Displays the full post content inside each tab panel.
+- **Post Excerpt:** Displays the post excerpt and reveals excerpt display settings.
+
+<details>
+<summary><strong>Excerpt Settings</strong></summary>
+
+
+<details>
+<summary><strong>Excerpt Length (Post Excerpt Only)</strong></summary>
+
+
+Sets the number of words shown in each post excerpt.
+</details>
+
+<details>
+<summary><strong>Excerpt More Text (Post Excerpt Only)</strong> <small>Default: ...</small></summary>
+
+
+Sets the text appended after each excerpt.
+</details>
+
+<details>
+<summary><strong>More Link (Post Excerpt Only)</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides a link below each post excerpt.
+
+- **Show:** Displays a link below the excerpt and reveals **More Link Text**.
+- **Hide:** Removes the excerpt link.
+
+<details>
+<summary><strong>More Link Text</strong></summary>
+
+
+<details>
+<summary><strong>More Link Text (Show Only)</strong> <small>Default: Read More</small></summary>
+
+
+Sets the label used for the post excerpt link when **More Link** is set to **Show**.
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Custom Content Settings</strong></summary>
+
+
+<details>
+<summary><strong>Custom Content</strong></summary>
+
+
+The Custom Content section manages manual tab items created inside the module.
+
+<details>
+<summary><strong>Tab Items</strong></summary>
+
+
+<details>
+<summary><strong>Item</strong></summary>
+
+
+Adds one or more tab items and stores the label and content settings for each item.
+
+<details>
+<summary><strong>Item Settings</strong></summary>
+
+
+<details>
+<summary><strong>Label</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the label text displayed for the tab.
+</details>
+
+<details>
+<summary><strong>Type</strong> <small>Default: Custom Content</small></summary>
+
+
+Selects whether the item uses custom editor content or a saved Beaver Builder asset.
+
+- **Saved Row:** Loads a saved row into the tab panel.
+- **Saved Column:** Loads a saved column into the tab panel.
+- **Saved Module:** Loads a saved module into the tab panel.
+- **Saved Template:** Loads a saved template into the tab panel.
+- **Custom Content:** Uses editor content added directly in the tab item.
+
+<details>
+<summary><strong>Select Row</strong></summary>
+
+
+<details>
+<summary><strong>Select Row (Saved Row Only)</strong></summary>
+
+
+Lists all saved rows you have created. Select one to use that saved row as the tab panel content when **Type** is set to **Saved Row**.
+</details>
+</details>
+
+<details>
+<summary><strong>Select Column</strong></summary>
+
+
+<details>
+<summary><strong>Select Column (Saved Column Only)</strong></summary>
+
+
+Lists all saved columns you have created. Select one to use that saved column as the tab panel content when **Type** is set to **Saved Column**.
+</details>
+</details>
+
+<details>
+<summary><strong>Select Modules</strong></summary>
+
+
+<details>
+<summary><strong>Select Modules (Saved Module Only)</strong></summary>
+
+
+Lists all saved modules you have created. Select one to use that saved module as the tab panel content when **Type** is set to **Saved Module**.
+</details>
+</details>
+
+<details>
+<summary><strong>Select Template</strong></summary>
+
+
+<details>
+<summary><strong>Select Template (Saved Template Only)</strong></summary>
+
+
+Lists all templates you have created. Select one to use that template as the tab panel content when **Type** is set to **Saved Template**.
+</details>
+</details>
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+<details>
+<summary><strong>Content (Custom Content Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds custom content using the WordPress Classic Editor when **Type** is set to **Custom Content**.
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls layout, colors, borders, label appearance, and content styling for the tabs.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Horizontal</small></summary>
+
+
+Sets the orientation of the tab labels in relation to the panels.
+
+- **Horizontal:** Places the labels in a row above the tab panels.
+- **Vertical:** Places the labels in a column to the side of the tab panels.
+
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of the active tab label and the tab panels.
+</details>
+
+<details>
+<summary><strong>Border Color</strong> <small>Default: e5e5e5; Supports: Field Connections</small></summary>
+
+
+Sets the border color used around tab labels and the tab panels.
+</details>
+
+<details>
+<summary><strong>Border Width</strong></summary>
+
+
+Sets the border width in `px` for tab labels and the tab panels.
+</details>
+
+<details>
+<summary><strong>Active Tab</strong> <small>Default: 1</small></summary>
+
+
+Sets which tab is open when the module loads. If the value exceeds the number of tabs, the first tab is used. Set to `0` or leave blank to load with no active tab.
+</details>
+
+<details>
+<summary><strong>Tab(s) Status on Mobile</strong> <small>Default: Keep Active Tab Open</small></summary>
+
+
+Controls how tabs behave when the module collapses to a stacked layout on mobile.
+
+- **Keep Active Tab Open:** Keeps the active tab open when the layout collapses on mobile.
+- **Close All Tabs:** Closes all tabs when the layout collapses on mobile.
+
+</details>
+
+<details>
+<summary><strong>Label</strong></summary>
+
+
+The Label section controls the appearance of tab labels.
+
+<details>
+<summary><strong>Label Settings</strong></summary>
+
+
+<details>
+<summary><strong>Inactive Label Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color of inactive tab labels.
+</details>
+
+<details>
+<summary><strong>Inactive Label Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of inactive tab labels.
+</details>
+
+<details>
+<summary><strong>Active Label Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color of the active tab label.
+</details>
+
+<details>
+<summary><strong>Active Label Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of the active tab label.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner spacing of tab labels.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for tab labels.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+The Content section controls the appearance of tab panels.
+
+<details>
+<summary><strong>Content Settings</strong></summary>
+
+
+<details>
+<summary><strong>Text Color (Custom Content Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color for custom content shown inside tab panels. This field appears when **Content Source** is set to **Custom Content**.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner spacing of tab panels.
+</details>
+
+<details>
+<summary><strong>Typography (Custom Content Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for custom content shown inside tab panels. This field appears when **Content Source** is set to **Custom Content**.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

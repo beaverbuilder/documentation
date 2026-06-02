@@ -19,8 +19,6 @@ Exports completed with versions prior to **2.8.1** are not compatible with Beave
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Import / Export Settings** tab.
 
-![Beaver Builder Advanced settings](/img/beaver-builder/settings--import-export--1.jpg)
-
 ## Export Settings
 
 When you click the **Export Settings** button, a file called _bb-global.txt_ will be downloaded containing all Beaver Builder global settings. The _bb-global.txt_ file can then be used to [import](#import-settings) those settings to another site using Beaver Builder.

@@ -1,0 +1,330 @@
+---
+title: Rich Text Editor Module
+sidebar_label: Rich Text Editor
+icon: "type"
+description: "Add and format rich text in your layouts using the WordPress Classic Editor."
+---
+
+
+Add and format rich text in your layouts using the WordPress Classic Editor.
+
+## Usage
+
+Use the Text Editor module to insert paragraphs, headings, lists, links, and other rich text content into your layout. It uses the classic WordPress visual editor, making it easy to format content without writing HTML.
+
+The module supports both visual and text (HTML) editing modes, allowing you to fine-tune markup when needed. Styling options let you control text color, alignment, typography, and spacing so your content stays consistent with the rest of your design.
+
+:::tip
+
+The Text module is best for content-focused editing. If you need advanced custom markup, scripts, or embedded code snippets, use the HTML module instead.
+:::
+
+## Module Settings
+
+The Text Editor module settings control the content and visual appearance of text in your layout.
+
+### General Tab
+
+The General tab contains the core content for the Text Editor module.
+
+<details>
+<summary><strong>Text Editor</strong> <small>Supports: Field Connections</small></summary>
+
+
+The Text Editor uses the WordPress Classic Editor, a WYSIWYG editor built on top of TinyMCE, with two editing modes.
+
+- **Visual:** The default WYSIWYG mode. Content is displayed roughly as it will appear on the front end, and formatting is applied through toolbar buttons.
+- **Text:** A raw HTML editing mode for writing or editing HTML directly. The toolbar in this mode offers simplified quick-tag buttons that insert HTML tags around selected text.
+
+</details>
+
+### Style Tab
+
+The Style tab controls the visual appearance of the text content.
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the text color.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the text content.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.
+
+## Using the Toolbar
+
+The toolbar provides formatting controls available in the Visual editing mode. To use them, highlight the text you want to format, then click the corresponding toolbar button.
+
+<details>
+<summary><strong>Rich text toolbar</strong></summary>
+
+The rich text toolbar provides formatting controls for text, links, lists, alignment, media, and other editor actions available in the text editor.
+
+</details>
+
+
+<details>
+<summary><strong>Paragraph Format Dropdown</strong></summary>
+
+
+A dropdown menu that lets you change the block-level format of the selected text. Options include:
+
+- **Paragraph**: Standard body text, wrapped in a `<p>` tag. This is the default.
+- **Heading 1**: The largest heading, `<h1>`. Typically reserved for the page or post title.
+- **Heading 2**: A major section heading, `<h2>`.
+- **Heading 3**: A subsection heading, `<h3>`.
+- **Heading 4**: A smaller subsection heading, `<h4>`.
+- **Heading 5**: A minor heading, `<h5>`.
+- **Heading 6**: The smallest heading, `<h6>`.
+- **Preformatted**: Monospaced, whitespace-preserving text wrapped in a `<pre>` tag. Useful for displaying code snippets or ASCII art.
+
+</details>
+<details>
+<summary><strong>Bold</strong></summary>
+
+
+Applies strong emphasis to the selected text. This wraps the content in a `<strong>` HTML tag, which renders the text in **bold**. Use this to highlight important words or phrases.
+</details>
+
+<details>
+<summary><strong>Italic</strong></summary>
+
+
+Applies emphasis to the selected text. This wraps the content in an `<em>` HTML tag, rendering the text in *italics*. Use this for titles, foreign words, or subtle emphasis.
+</details>
+
+<details>
+<summary><strong>Bulleted List (Unordered List)</strong></summary>
+
+
+Converts the selected lines into a bulleted, unordered list using the `<ul>` and `<li>` HTML tags. Each line becomes a separate list item preceded by a bullet point.
+</details>
+
+<details>
+<summary><strong>Numbered List (Ordered List)</strong></summary>
+
+
+Converts the selected lines into a numbered, ordered list using the `<ol>` and `<li>` HTML tags. Each line becomes a sequentially numbered list item.
+</details>
+
+<details>
+<summary><strong>Blockquote</strong></summary>
+
+
+Wraps the selected text in a `<blockquote>` HTML tag. This is used to visually set apart quoted content from the rest of the text, typically rendered as an indented block with a left border, depending on the theme.
+</details>
+
+<details>
+<summary><strong>Align Left</strong></summary>
+
+
+Aligns the selected block of text to the left margin. This is typically the default text alignment.
+</details>
+
+<details>
+<summary><strong>Align Center</strong></summary>
+
+
+Centers the selected block of text horizontally within the content area.
+</details>
+
+<details>
+<summary><strong>Align Right</strong></summary>
+
+
+Aligns the selected block of text to the right margin.
+</details>
+
+<details>
+<summary><strong>Insert/Edit Link</strong></summary>
+
+
+Opens a dialog to insert a hyperlink on the selected text, or to edit an existing link. You can specify:
+
+- **URL**: The destination web address.
+- **Link Text**: The clickable text that is displayed, defaults to the selected text.
+- **Open in New Tab**: A checkbox to set the link's `target` attribute to `_blank`.
+- **Search for existing content**: An expandable field that lets you search for and link to existing pages or posts on your site.
+
+</details>
+
+<details>
+<summary><strong>Remove Link (Unlink)</strong></summary>
+
+
+Removes the hyperlink from the selected linked text, leaving the text itself intact. The `<a>` tag is stripped while the inner text content is preserved.
+</details>
+
+<details>
+<summary><strong>Distraction-Free Writing Mode</strong></summary>
+
+
+An icon in the toolbar area (or accessible from the editor's top bar) that expands the editor to fill the entire browser window, hiding the WordPress admin sidebar, menus, and other interface elements. This provides a clean, focused writing environment. Press <kbd>Escape</kbd> or click the exit button to return to the normal view.
+</details>
+
+<details>
+<summary><strong>Toolbar Toggle (Kitchen Sink)</strong></summary>
+
+
+Toggles the visibility of the second row of toolbar buttons. When the editor first loads, only Row 1 is shown. Clicking this button expands the toolbar to reveal the additional formatting options described below.
+</details>
+
+<details>
+<summary><strong>Font Size</strong></summary>
+
+
+A dropdown menu in the second toolbar row that lets you adjust the size of the selected text. Options typically range from 8pt to 36pt (such as 8, 10, 12, 14, 18, 24, and 36). The selected size is applied using an inline font-size style. This is useful when you need specific text to appear larger or smaller than the surrounding content without changing its heading level.
+</details>
+
+<details>
+<summary><strong>Horizontal Line</strong></summary>
+
+
+Inserts a horizontal rule (`<hr>`) at the cursor position. This creates a thematic break or visual divider between sections of content.
+</details>
+
+<details>
+<summary><strong>Text Color</strong></summary>
+
+
+Opens a color picker that lets you change the color of the selected text. The editor provides a palette of preset colors as well as the option to enter a custom hex color value. The color is applied using an inline `style` attribute.
+</details>
+
+<details>
+<summary><strong>Paste as Text</strong></summary>
+
+
+Toggles "Paste as Text" mode on or off. When enabled, any content you paste into the editor is stripped of all formatting, bold, italic, colors, links, and more, and inserted as plain text. This is useful when copying content from external sources like Word, Google Docs, or web pages, where you want to avoid importing unwanted styles and markup.
+</details>
+
+<details>
+<summary><strong>Clear Formatting (Eraser)</strong></summary>
+
+
+Removes all inline formatting, bold, italic, underline, text color, font size, and so forth, from the selected text. Block-level formatting such as headings and lists is not affected. This is useful for cleaning up text that has accumulated excessive or inconsistent formatting.
+</details>
+
+<details>
+<summary><strong>Special Character</strong></summary>
+
+
+Opens a dialog containing a grid of special characters and symbols that are not readily available on a standard keyboard. Examples include em dashes, copyright symbols, currency signs, accented characters, arrows, and mathematical symbols. Clicking a character inserts it at the cursor position.
+</details>
+
+<details>
+<summary><strong>Decrease Indent (Outdent)</strong></summary>
+
+
+Reduces the indentation level of the selected block by one step. This is primarily used within nested lists to move a list item up one level, or to remove indentation from a paragraph.
+</details>
+
+<details>
+<summary><strong>Increase Indent</strong></summary>
+
+
+Increases the indentation level of the selected block by one step. Within lists, this nests the selected list item under the item above it. For paragraphs, it adds a visual indentation from the left margin.
+</details>
+
+<details>
+<summary><strong>Undo</strong></summary>
+
+
+Reverts the most recent change made in the editor. Each click steps back one action in the editing history.
+</details>
+
+<details>
+<summary><strong>Redo</strong></summary>
+
+
+Re-applies the most recently undone change. This is the opposite of Undo and only works after an Undo action has been performed.
+</details>
+
+
+## Additional Features
+
+Beyond the toolbar buttons, the Classic Editor includes several other features worth knowing.
+
+### Drag-and-drop
+
+The editor supports drag-and-drop for reordering content and for uploading media. You can drag an image file directly from your desktop into the editor area, and WordPress will automatically upload it and insert it into your content.
+
+### Visual and text tab switching
+
+You can freely switch between Visual and Text mode at any time. WordPress preserves your content when switching, though be aware that certain complex HTML structures may be slightly reformatted by the Visual editor's parser when toggling back and forth.
+
+:::tip
+
+To avoid these issues, it is best to choose one tab and stay with it for the duration of your editing session.
+:::
+
+### HTML and shortcode considerations
+
+The Text module supports standard content markup, but it is intended for editorial content first. For advanced custom HTML structures, inline stylesheets, JavaScript, shortcodes, or third-party embed scripts, use the HTML module instead for better control and maintainability.
+
+### Underline and justify
+
+The toolbar is missing Underline and Justify controls as WordPress removed them in version 4.7. Underline was removed since underlined text on the web is often mistaken for a hyperlink, which can create confusion and accessibility issues. Justify was removed as it was considered inconsistent across browsers and could reduce readability by creating uneven spacing between words.
+
+However, the [keyboard shortcuts](#keyboard-shortcuts) still remain, so you can still use them if you wish to underline text, which is generally not recommended, or justify your text.
+
+:::warning
+
+Underlining regular text is generally considered poor web writing practice because it can be mistaken for a link, so it should be avoided or used sparingly.
+:::
+
+:::tip
+
+If you prefer to restore the Underline and Justify toolbar controls, you can install the [Advanced Editor Tools plugin](https://wordpress.org/plugins/tinymce-advanced/). It adds additional editor features and brings the Underline and Justify buttons back to the toolbar.
+:::
+
+### Style tab vs text color toolbar
+
+Using the Text Color toolbar control will override any text color set in the Style tab for the selected text, as the toolbar applies the color as an inline style on a `<span>` element, and inline styles take precedence over CSS-based styling.
+
+## Keyboard Shortcuts
+
+The following table summarizes the most useful keyboard shortcuts available in the Classic Editor. On Mac, replace `Ctrl` with `Cmd` unless otherwise noted.
+
+| Action              | Windows / Linux         | Mac                     |
+| ------------------- | ----------------------- | ----------------------- |
+| Bold                | `Ctrl + B`              | `Cmd + B`               |
+| Italic              | `Ctrl + I`              | `Cmd + I`               |
+| Underline           | `Ctrl + U`              | `Cmd + U`               |
+| Insert Link         | `Ctrl + K`              | `Cmd + K`               |
+| Undo                | `Ctrl + Z`              | `Cmd + Z`               |
+| Redo                | `Ctrl + Y`              | `Cmd + Shift + Z`       |
+| Strikethrough       | `Alt + Shift + D`       | `Ctrl + Option + D`     |
+| Insert Read More    | `Alt + Shift + T`       | `Ctrl + Option + T`     |
+| Bulleted List       | `Alt + Shift + U`       | `Ctrl + Option + U`     |
+| Numbered List       | `Alt + Shift + O`       | `Ctrl + Option + O`     |
+| Blockquote          | `Alt + Shift + Q`       | `Ctrl + Option + Q`     |
+| Align Left          | `Alt + Shift + L`       | `Ctrl + Option + L`     |
+| Align Center        | `Alt + Shift + C`       | `Ctrl + Option + C`     |
+| Align Right         | `Alt + Shift + R`       | `Ctrl + Option + R`     |
+| Justify             | `Alt + Shift + J`       | `Ctrl + Option + J`     |
+| Heading 1           | `Alt + Shift + 1`       | `Ctrl + Option + 1`     |
+| Heading 2           | `Alt + Shift + 2`       | `Ctrl + Option + 2`     |
+| Heading 3           | `Alt + Shift + 3`       | `Ctrl + Option + 3`     |
+| Heading 4           | `Alt + Shift + 4`       | `Ctrl + Option + 4`     |
+| Heading 5           | `Alt + Shift + 5`       | `Ctrl + Option + 5`     |
+| Heading 6           | `Alt + Shift + 6`       | `Ctrl + Option + 6`     |
+| Keyboard Shortcuts  | `Alt + Shift + H`       | `Ctrl + Option + H`     |
+| Distraction-Free    | `Alt + Shift + W`       | `Ctrl + Option + W`     |

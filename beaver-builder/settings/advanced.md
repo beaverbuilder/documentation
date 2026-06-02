@@ -16,8 +16,6 @@ The Advanced tab within Beaver Builder's settings provides options to enable or 
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Advanced** tab.
 
-![Beaver Builder Advanced settings](/img/beaver-builder/settings--advanced--1.jpg)
-
 ## Builder UI
 
 The Builder UI section allows you to enable or disable Beaver Builder user interface features.
@@ -112,11 +110,11 @@ Outline Panel labels are not removed when the Node Labels option is disabled.
 
 ### Render shortcodes in CSS/JS
 
-When enabled, allows you to use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](user-interface/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
+Allows you to use shortcodes in **Layout CSS & JavaScript settings**, accessed from the [Tools menu](user-interface/tools-menu.md). Use this feature to replace a value in custom CSS or JS in a Beaver Builder layout.
 
 See the [Use shortcodes in CSS or JS](shortcode/using-css.md) article for more information.
 
-:x: Disabled by default.
+:white_check_mark: Enabled by default.
 
 ### ACF Blocks
 

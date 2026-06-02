@@ -13,8 +13,6 @@ Using the WordPress Import and Export Tools, you can export your Beaver Builder 
 
 You can choose to export individual templates, rows, columns, or modules, or the entire set altogether. This feature lets you create a group of templates on one WordPress install or staging area, and then effortlessly move them to other locations or bundle them for different purposes, such as migration, resale, or distribution.
 
-![Use WordPress Import & Export Tools](/img/beaver-builder/settings--import-export-content--1.jpg)
-
 ### Export Content
 
 To export custom templates, saved rows, columns, and modules.

@@ -1,0 +1,436 @@
+---
+title: List
+sidebar_label: List
+icon: "list"
+description: "Use List to output a structured list of items with optional icons, headings, and rich content using ordered, unordered, or generic list markup."
+---
+
+
+Use List to output a structured list of items with optional icons, headings, and rich content using ordered, unordered, or generic list markup.
+
+## Usage
+
+Use List to render a series of items as an unordered list, ordered list, or generic `div`-based list. Each advanced item can include an icon, a heading, and rich content, with control over icon placement, heading and content tags, and the markers used for ordered or unordered lists. A simpler basic mode accepts one entry per line for quick lists without per-item formatting.
+
+Use List for feature lists, step summaries, service breakdowns, key takeaways, and any layout that needs more structure than a plain WYSIWYG list. The module suits both content-heavy lists with headings and supporting copy as well as compact bullet or numbered lists styled inside Beaver Builder.
+
+## Module Settings
+
+The List module settings control how list items are sourced and rendered, the list and item markup, and the appearance of the list, icons, headings, content, and item separators.
+
+### General Tab
+
+The General tab sets the list layout, the items themselves, the list type and icons, and the HTML tags used for item headings and content.
+
+<details>
+<summary><strong>List Items</strong></summary>
+
+
+The List Items section controls how items are added and which markup wraps each item heading.
+
+<details>
+<summary><strong>List Items</strong></summary>
+
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Advanced</small></summary>
+
+
+Selects how list items are authored.
+
+- **Advanced:** Adds items through a repeater where each item supports an icon, heading, and rich content. Reveals **List Item** entries and the **List Item Heading Tag** field.
+- **Basic:** Accepts one item per line in a single text field. Reveals **Text For List**.
+
+</details>
+
+<details>
+<summary><strong>List Item</strong></summary>
+
+
+The repeater used when **Layout** is set to **Advanced**. Each entry opens its own settings form.
+
+<details>
+<summary><strong>List Item Icon</strong></summary>
+
+
+<details>
+<summary><strong>Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon shown for this item. Overrides the icon configured at the module level in **Display**.
+</details>
+</details>
+
+<details>
+<summary><strong>List Item Heading</strong></summary>
+
+
+<details>
+<summary><strong>Heading Text</strong></summary>
+
+
+The heading shown for this item. Leave empty to omit the heading. Supports a limited set of inline HTML tags.
+</details>
+</details>
+
+<details>
+<summary><strong>List Item Content</strong></summary>
+
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+The rich text content for this item, edited with the WordPress Classic Editor WYSIWYG.
+</details>
+</details>
+
+<details>
+<summary><strong>List Item Style</strong></summary>
+
+
+<details>
+<summary><strong>Heading Text Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Overrides the module-level heading color for this item.
+</details>
+
+<details>
+<summary><strong>Content Text Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Overrides the module-level content color for this item.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the background color of this item.
+</details>
+
+<details>
+<summary><strong>Icon Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Overrides the module-level list icon color for this item.
+</details>
+
+<details>
+<summary><strong>List Item Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Overrides the module-level **List Item Padding** for this item.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Text For List (Basic Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+A plain-text list used when **Layout** is set to **Basic**. Enter one item on each new line.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Display</strong></summary>
+
+
+The Display section controls the list markup, the icon shown next to items, and where that icon sits in each item.
+
+<details>
+<summary><strong>Display</strong></summary>
+
+
+<details>
+<summary><strong>List Type</strong> <small>Default: Generic List (div)</small></summary>
+
+
+The HTML markup used for the list. Each type has its own icon control.
+
+- **Generic List (div):** Renders the list as a `div` with role `list` and reveals the **List Icon** picker for choosing a custom icon.
+- **Unordered List (ul):** Renders a `<ul>` and reveals a marker selector with **Square**, **Circle**, and **Disc** options.
+- **Ordered List (ol):** Renders an `<ol>` and reveals a numbering selector with **Numeric**, **Numeric With Leading Zeros**, **Alphabetic (Upper)**, **Alphabetic (Lower)**, **Roman Numerals (Upper)**, **Roman Numerals (Lower)**, **Hebrew Numerals**, **Armenian Numerals (Lower)**, **Armenian Numerals (Upper)**, and **Greek Numerals (Lower)** markers.
+
+</details>
+
+<details>
+<summary><strong>List Icon (Unordered List Only)</strong> <small>Default: Disc</small></summary>
+
+
+The marker style applied to the unordered list. Appears when **List Type** is set to **Unordered List (ul)**.
+
+- **Square:** A solid square marker.
+- **Circle:** A hollow circle marker.
+- **Disc:** A solid disc marker.
+
+</details>
+
+<details>
+<summary><strong>List Icon (Ordered List Only)</strong> <small>Default: Numeric</small></summary>
+
+
+The numbering style applied to the ordered list. Appears when **List Type** is set to **Ordered List (ol)**.
+
+- **Numeric:** Standard decimal numbers, for example 1, 2, 3.
+- **Numeric With Leading Zeros:** Decimal numbers padded with leading zeros, for example 01, 02, 03.
+- **Alphabetic (Upper):** Uppercase letters, for example A, B, C.
+- **Alphabetic (Lower):** Lowercase letters, for example a, b, c.
+- **Roman Numerals (Upper):** Uppercase Roman numerals, for example I, II, III.
+- **Roman Numerals (Lower):** Lowercase Roman numerals, for example i, ii, iii.
+- **Hebrew Numerals:** Traditional Hebrew numbering.
+- **Armenian Numerals (Lower):** Lowercase Armenian numbering.
+- **Armenian Numerals (Upper):** Uppercase Armenian numbering.
+- **Greek Numerals (Lower):** Lowercase Greek numbering.
+
+</details>
+
+<details>
+<summary><strong>List Icon (Generic List Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon shown next to each item when **List Type** is set to **Generic List (div)**. Individual items can override this through their own **Icon** setting.
+</details>
+
+<details>
+<summary><strong>List Icon Placement</strong> <small>Default: Left of Content</small></summary>
+
+
+Controls where the list icon sits inside each item.
+
+- **Left of Heading:** Places the icon before the item heading.
+- **Left of Content:** Places the icon before the item content.
+- **Right of Heading:** Places the icon after the item heading.
+- **Right of Content:** Places the icon after the item content.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>List Item Tags</strong></summary>
+
+
+The List Item Tags section controls the HTML tags used for each item's heading and content wrappers.
+
+<details>
+<summary><strong>List Item Tags</strong></summary>
+
+
+<details>
+<summary><strong>List Item Heading Tag (Advanced Only)</strong> <small>Default: h3</small></summary>
+
+
+The wrapper tag used for each item heading. The heading appears above the text content. Available when **Layout** is set to **Advanced**.
+
+- **h1:** First-level heading tag.
+- **h2:** Second-level heading tag.
+- **h3:** Third-level heading tag.
+- **h4:** Fourth-level heading tag.
+- **h5:** Fifth-level heading tag.
+- **h6:** Sixth-level heading tag.
+- **span:** Inline `span` wrapper for non-semantic headings.
+- **div:** Block `div` wrapper for non-semantic headings.
+
+</details>
+
+<details>
+<summary><strong>List Item Content Tag</strong> <small>Default: div</small></summary>
+
+
+The wrapper tag used for each item's text content. Sits directly below the item heading.
+
+- **div:** Generic block wrapper.
+- **aside:** Semantic wrapper for tangentially related content.
+- **section:** Semantic wrapper for a self-contained section.
+
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the appearance of the list container, icons, headings, content, and item separators.
+
+<details>
+<summary><strong>List Background Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The background color applied to the list container.
+</details>
+
+<details>
+<summary><strong>List Padding</strong> <small>Default: 0; Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing of the list container.
+</details>
+
+<details>
+<summary><strong>List Item Padding</strong> <small>Default: 5; Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing applied to every list item. Individual items can override this in their own style settings.
+</details>
+
+<details>
+<summary><strong>Border Around List</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, color, and radius applied to the list container.
+</details>
+
+<details>
+<summary><strong>Icon Style</strong></summary>
+
+
+The Icon Style section controls the appearance of list icons.
+
+<details>
+<summary><strong>Icon Style</strong></summary>
+
+
+<details>
+<summary><strong>List Icon Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The color of the list icon.
+</details>
+
+<details>
+<summary><strong>Icon Size</strong> <small>Default: 10; Supports: Responsive</small></summary>
+
+
+The font size of the list icon, in pixels.
+</details>
+
+<details>
+<summary><strong>Icon Width</strong> <small>Supports: Responsive</small></summary>
+
+
+A fixed width for the icon container, in pixels. Useful for aligning headings or content across items.
+</details>
+
+<details>
+<summary><strong>Icon Padding</strong> <small>Default: 5; Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing applied around the list icon.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Heading Style (Advanced Only)</strong></summary>
+
+
+The Heading Style section controls the appearance of item headings. Available when **Layout** is set to **Advanced**.
+
+<details>
+<summary><strong>Heading Style</strong></summary>
+
+
+<details>
+<summary><strong>Heading Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The text color used for item headings.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for item headings.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Content Style</strong></summary>
+
+
+The Content Style section controls the appearance of item content.
+
+<details>
+<summary><strong>Content Style</strong></summary>
+
+
+<details>
+<summary><strong>Content Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The text color used for item content.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for item content.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Item Separator</strong></summary>
+
+
+The Item Separator section controls the line drawn between adjacent list items.
+
+<details>
+<summary><strong>Item Separator</strong></summary>
+
+
+<details>
+<summary><strong>Line Separator Style</strong> <small>Default: None (No Separator); Supports: Responsive</small></summary>
+
+
+The border style drawn between items.
+
+- **None (No Separator):** No line is drawn between items.
+- **Solid:** A continuous line.
+- **Dashed:** A dashed line.
+- **Dotted:** A dotted line.
+- **Double:** Two parallel lines.
+
+</details>
+
+<details>
+<summary><strong>Line Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The color of the separator line. Set this to a transparent color to use the separator as spacing only.
+</details>
+
+<details>
+<summary><strong>Separator Size</strong> <small>Default: 0; Supports: Responsive</small></summary>
+
+
+The thickness of the separator line, in pixels.
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

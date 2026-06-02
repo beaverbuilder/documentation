@@ -100,6 +100,7 @@ module.exports = {
             "layout-types-modules/part-layout-type/add-yoast-breadcrumbs-with-beaver-themer",
           ],
         },
+        "layout-types-modules/popup",
       ],
     },
     {
@@ -139,6 +140,7 @@ module.exports = {
                 "integrations/acf/field-types/gallery",
                 "integrations/acf/field-types/google-map",
                 "integrations/acf/field-types/group",
+                "integrations/acf/field-types/icon",
                 "integrations/acf/field-types/image",
                 "integrations/acf/field-types/number",
                 "integrations/acf/field-types/oembed",

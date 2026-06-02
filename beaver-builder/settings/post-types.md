@@ -13,8 +13,6 @@ The **Post Types** tab in the Beaver Builder settings lets you control which pos
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Post Types** tab.
 
-![](/img/beaver-builder/settings--post-types--1.jpg)
-
 ## Disable or Enable Post Types
 
 By default, the Beaver Builder editor is enabled for the **Pages** post type only, as shown in the screenshot above. If you check the **Posts** post type, you can use Beaver Builder to design the content area of single posts.

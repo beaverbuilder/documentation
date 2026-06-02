@@ -1,0 +1,287 @@
+---
+title: Loop Module
+sidebar_label: Loop
+icon: "repeat"
+description: "Use the Loop module to build fully custom post loops with complete design control over each item, using any Beaver Builder module as the template. Requires Beaver Themer."
+tag: Container
+---
+
+
+Use the Loop module to build fully custom post loops with complete design control over each item, using any Beaver Builder module as the template. Requires Beaver Themer.
+
+<img
+src="/images/beaver-builder/modules--loop--1.webp"
+alt="Loop Module"
+style={{ height: "auto", width: "100%" }}
+className="block rounded-lg shadow-lg"
+/>
+
+
+## Usage
+
+The Loop module builds fully custom post loops where you have complete control over the layout and design of each loop item. Unlike the [Posts](/beaver-builder/layouts/modules/post-grid) module which provides a fixed set of layout options, the Loop module is a container that accepts any Beaver Builder modules as children. Design the template for a single loop item using modules like Heading, Photo, Rich Text, and Box, then the Loop repeats that template for each item in the query. Field connections pull in dynamic data such as the post title, featured image, excerpt, and custom fields for each iteration.
+
+:::note
+
+The Loop module requires [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/). When adding the module, four pre-configured variations are available: **Blank**, **List**, **Columns**, and **Categories**. Each variation comes with a starter template of child modules and field connections that you can customize after inserting. A **Product Categories** variation is also available when WooCommerce is active.
+:::
+
+The Loop module is most useful in Beaver Themer archive and singular layouts, where the query is tied to the page context. Common applications include blog post grids, category directories, team member listings, product archives, and related posts sections on single post templates.
+
+## Module Settings
+
+The Loop module provides settings organized across three tabs for controlling grid layout, content queries, and pagination.
+
+### General tab
+
+The General tab controls how loop items are arranged in the grid.
+
+<details>
+<summary><strong>Item Sizing</strong> <small>Default: Columns</small></summary>
+
+
+Determines how the grid column widths are calculated.
+
+- **Columns:** Sets a fixed number of columns per row. The grid distributes items evenly across the specified column count.
+- **Item Size:** Sets minimum and maximum width values per item. The grid auto-fills as many items as can fit per row based on the size constraints.
+
+<details>
+<summary><strong>Columns settings</strong></summary>
+
+
+<details>
+<summary><strong>Number of Columns</strong> <small>Default: 3 (large), 2 (medium), 1 (small); Supports: Responsive</small></summary>
+
+
+Sets how many items appear per row when **Item Sizing** is set to **Columns**.
+</details>
+</details>
+
+<details>
+<summary><strong>Item Size settings</strong></summary>
+
+
+<details>
+<summary><strong>Minimum Width</strong> <small>Default: 100px; Supports: Responsive</small></summary>
+
+
+Sets the minimum width each loop item can be when **Item Sizing** is set to **Item Size**. Accepts `px` and `fr` units.
+</details>
+
+<details>
+<summary><strong>Maximum Width</strong> <small>Default: 300px; Supports: Responsive</small></summary>
+
+
+Sets the maximum width each loop item can be when **Item Sizing** is set to **Item Size**. Accepts `px` and `fr` units.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Gap</strong> <small>Default: 20px; Supports: Responsive</small></summary>
+
+
+Controls the row and column spacing between loop items. Row and column gaps can be set independently. Accepts `px`, `em`, `%`, `vw`, and `vh` units.
+</details>
+
+### Query tab
+
+The Query tab controls the data source that powers the loop.
+
+<details>
+<summary><strong>Source</strong> <small>Default: Custom Query</small></summary>
+
+
+Selects where the loop gets its data.
+
+- **Custom Query:** Build a custom WordPress query by specifying post type, filters, and sort order.
+- **Main Query:** Use the current page's main WordPress query. Ideal for archive templates in Beaver Themer where the query is determined by the page context, such as a category archive, author archive, or search results.
+- **Taxonomy Query:** Query taxonomy terms such as categories, tags, or custom taxonomies instead of posts. Use this to build category grids, tag listings, or custom taxonomy directories.
+
+<details>
+<summary><strong>Custom Query settings</strong></summary>
+
+
+<details>
+<summary><strong>Post Type</strong></summary>
+
+
+Selects which WordPress post type or types to query. Supports Posts, Pages, and any registered custom post types. Multiple post types can be selected.
+</details>
+
+<details>
+<summary><strong>Ordering settings</strong></summary>
+
+Ordering settings control how queried posts or items are sorted, such as by date, title, menu order, or custom ordering options where available.
+
+</details>
+
+<details>
+<summary><strong>Offset</strong> <small>Default: 0</small></summary>
+
+
+Skips a specified number of posts from the beginning of the query results. Useful for excluding the most recent posts when they are featured elsewhere on the page.
+</details>
+
+<details>
+<summary><strong>Exclude Current Post</strong> <small>Default: No</small></summary>
+
+
+When enabled, the post currently being viewed is excluded from the query results. Useful for related posts loops on single post templates.
+</details>
+
+<details>
+<summary><strong>Filtering settings</strong></summary>
+
+Filtering settings control which posts, terms, authors, or content types are included or excluded from the module output.
+
+</details>
+
+<details>
+<summary><strong>Authors</strong></summary>
+
+
+Filters the query to posts by specific authors entered by username. This field appears in the Filter section.
+</details>
+
+<details>
+<summary><strong>Custom field filter settings</strong></summary>
+
+Custom field filters limit queried content by matching custom field keys, values, and comparison rules where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Taxonomy Query settings</strong></summary>
+
+
+<details>
+<summary><strong>Taxonomy</strong> <small>Default: Category</small></summary>
+
+
+Selects which taxonomy to query. Options include all registered taxonomies such as Categories, Tags, and any custom taxonomies.
+</details>
+
+<details>
+<summary><strong>Select Terms to Display</strong> <small>Default: All Terms</small></summary>
+
+
+Filters which terms are included in the results.
+
+- **All Terms:** Display all terms in the taxonomy.
+- **Top Level Terms:** Display only parent terms with no parent of their own.
+- **Child Terms:** Display only child terms of a specified parent term.
+
+<details>
+<summary><strong>Child Terms settings</strong></summary>
+
+
+<details>
+<summary><strong>Parent Term</strong></summary>
+
+
+Selects which parent term's children to display when **Select Terms to Display** is set to **Child Terms**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Order</strong> <small>Default: Ascending</small></summary>
+
+
+Controls the sort direction of the taxonomy terms.
+
+- **Ascending:** A to Z or lowest to highest.
+- **Descending:** Z to A or highest to lowest.
+
+</details>
+
+<details>
+<summary><strong>Order By</strong> <small>Default: Name</small></summary>
+
+
+Determines which field is used to sort the terms.
+
+- **Name:** Sort alphabetically by term name.
+- **Term Count:** Sort by the number of posts assigned to each term.
+- **ID:** Sort by term ID.
+- **Meta Value (Alphabetical):** Sort by a term meta value alphabetically.
+- **Meta Value (Numeric):** Sort by a term meta value numerically.
+- **Parent:** Sort by parent term ID.
+
+<details>
+<summary><strong>Meta Value settings</strong></summary>
+
+
+<details>
+<summary><strong>Meta Key</strong></summary>
+
+
+The term meta key used to sort results when **Order By** is set to **Meta Value (Alphabetical)** or **Meta Value (Numeric)**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Hide Empty</strong> <small>Default: Yes</small></summary>
+
+
+When enabled, terms that have no posts assigned to them are hidden from the results.
+</details>
+</details>
+</details>
+
+### Pagination tab
+
+The Pagination tab controls how visitors navigate through multiple pages of loop results and what happens when no results are found.
+
+<details>
+<summary><strong>Pagination</strong> <small>Default: Numbers</small></summary>
+
+
+Controls how visitors navigate through pages of results.
+
+- **Numbers:** Standard numbered pagination links.
+- **Scroll:** Infinite scroll that loads more items as the visitor scrolls down.
+- **None:** No pagination; only the initial set of items is displayed.
+
+<details>
+<summary><strong>Numbers settings</strong></summary>
+
+
+<details>
+<summary><strong>Auto-scroll on Pagination</strong> <small>Default: Yes</small></summary>
+
+
+Automatically scrolls the page to the top of the loop module when the visitor clicks a pagination link.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Posts Per Page</strong> <small>Default: 10</small></summary>
+
+
+The number of items to display per page. When pagination is enabled, this controls how many items appear before the visitor must paginate.
+</details>
+
+<details>
+<summary><strong>No Results Message</strong> <small>Default: Sorry, we couldn't find any posts. Please try a different search.</small></summary>
+
+
+A custom message displayed when the query returns no results.
+</details>
+
+<details>
+<summary><strong>Show Search</strong> <small>Default: Show</small></summary>
+
+
+When no results are found, shows or hides a search form below the no results message.
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

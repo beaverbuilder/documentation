@@ -1,0 +1,773 @@
+---
+title: Callout
+sidebar_label: Callout
+icon: "phone-outgoing"
+description: "Combine a heading, descriptive text, an optional image or icon, and a call-to-action link or button into a single attention-grabbing block."
+---
+
+
+Combine a heading, descriptive text, an optional image or icon, and a call-to-action link or button into a single attention-grabbing block.
+
+## Usage
+
+The Callout module bundles a heading, descriptive text, an optional photo or icon, and a call-to-action link or button into one cohesive unit. It is purpose-built for drawing attention to key messages and driving visitors toward a specific next step without requiring you to assemble and align separate heading, text, image, and button modules.
+
+A common use case is displaying a row of feature callouts — each with an icon, a short heading, supporting text, and a link to a relevant page. Because all of those elements live inside a single module, they stay grouped and stack correctly at smaller screen sizes without any extra configuration.
+
+The link you set on the **Link** tab applies simultaneously to the heading, the photo or icon, and any button or link text. This makes it straightforward to create linked cards without wiring up multiple separate links.
+
+## Module Settings
+
+The Callout module is organized into four tabs — **General**, **Style**, **Image**, and **Link** — plus the standard **Advanced** tab.
+
+### General Tab
+
+The General tab contains the core content for the callout: the heading and the body text.
+
+<details>
+<summary><strong>Heading</strong> <small>Supports: Field Connections</small></summary>
+
+
+The main heading text displayed at the top of the callout. Supports inline editing directly on the canvas.
+</details>
+
+<details>
+<summary><strong>Heading Tag</strong> <small>Default: h3</small></summary>
+
+
+Sets the HTML element used for the heading. Options: `h1`, `h2`, `h3`, `h4`, `h5`, `h6`.
+
+Choose a tag that reflects the heading's position in the page content hierarchy. Use the **Heading Typography** settings on the Style tab to control visual appearance independently of the tag level.
+</details>
+
+<details>
+<summary><strong>Text</strong> <small>Supports: Field Connections</small></summary>
+
+
+The body text displayed below the heading. Uses a rich text editor that supports basic formatting including bold, italic, and inline links.
+</details>
+
+### Style Tab
+
+The Style tab controls the callout's background, border, layout alignment, padding, and the color and typography of both the heading and the body text.
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color for the entire callout container. Supports full alpha transparency.
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+
+<details>
+<summary><strong>Alignment</strong> <small>Default: Left; Supports: Responsive</small></summary>
+
+
+Controls the horizontal alignment of all elements within the callout — heading, text, image or icon, and button.
+
+- **Left:** Aligns all elements to the left edge.
+- **Center:** Centers all elements.
+- **Right:** Aligns all elements to the right edge.
+
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the spacing between the callout container's edge and its inner content.
+</details>
+
+<details>
+<summary><strong>Heading</strong></summary>
+
+
+Style settings for the callout heading.
+
+<details>
+<summary><strong>Heading style settings</strong></summary>
+
+
+<details>
+<summary><strong>Heading Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color of the heading, including the state when the heading is used as a link.
+</details>
+
+<details>
+<summary><strong>Heading Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+Font settings for the callout heading.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Text</strong></summary>
+
+
+Style settings for the body text and any text-type call-to-action link.
+
+<details>
+<summary><strong>Text style settings</strong></summary>
+
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the body text. Also applies to link text when **CTA Type** is set to **Link**.
+</details>
+
+<details>
+<summary><strong>Text Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+Font settings for the body text and link text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+### Image Tab
+
+The Image tab lets you add an optional visual element to the callout — either a photo from the media library or an icon from the icon picker.
+
+<details>
+<summary><strong>Image Type</strong> <small>Default: Photo</small></summary>
+
+
+Determines the type of visual element displayed in the callout.
+
+- **None:** No image or icon is shown.
+- **Photo:** Displays an image selected from the WordPress media library.
+- **Icon:** Displays an icon selected from the icon picker.
+
+<details>
+<summary><strong>Photo settings</strong></summary>
+
+
+<details>
+<summary><strong>Photo</strong></summary>
+
+
+Settings for selecting and positioning the photo.
+
+<details>
+<summary><strong>Photo source and position</strong></summary>
+
+
+<details>
+<summary><strong>Photo</strong> <small>Supports: Field Connections</small></summary>
+
+
+Select an image from the WordPress media library.
+</details>
+
+<details>
+<summary><strong>Position</strong> <small>Default: Above Heading</small></summary>
+
+
+Controls where the photo appears relative to the callout content.
+
+- **Above Heading:** Photo sits above the heading and text.
+- **Below Heading:** Photo appears between the heading and the body text.
+- **Left of Text and Heading:** Photo is placed to the left of both the heading and text as a column.
+- **Right of Text and Heading:** Photo is placed to the right of both the heading and text as a column.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Photo Style</strong></summary>
+
+
+Styling options for the photo's shape, size, alignment, and border.
+
+<details>
+<summary><strong>Photo style settings</strong></summary>
+
+
+<details>
+<summary><strong>Crop</strong></summary>
+
+
+Crops the photo into a predefined shape. Options: **None**, **Landscape**, **Panorama**, **Portrait**, **Square**, **Circle**.
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets a maximum width for the photo. Accepts values in `px`, `vw`, or `%`. When left blank, the image width is determined by the size selected in the **Photo** field.
+</details>
+
+<details>
+<summary><strong>Align</strong> <small>Supports: Responsive</small></summary>
+
+
+Aligns the photo within its column space. When the photo is positioned left or right, this aligns the photo within that column.
+
+- **Left:** Aligns the photo to the left.
+- **Center:** Centers the photo.
+- **Right:** Aligns the photo to the right.
+
+</details>
+
+<details>
+<summary><strong>Border</strong> <small>Supports: Responsive</small></summary>
+
+
+Applies a border to the photo element including radius, which rounds the photo corners or creates a circle effect when combined with a square crop.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icon settings</strong></summary>
+
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+Settings for selecting and positioning the icon.
+
+<details>
+<summary><strong>Icon source and position</strong></summary>
+
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+Select an icon using the icon picker.
+</details>
+
+<details>
+<summary><strong>Screen Reader Text</strong></summary>
+
+
+A text label read by screen readers but not displayed visually. Use this to provide an accessible description when the icon conveys meaning without accompanying visible text.
+</details>
+
+<details>
+<summary><strong>Position</strong> <small>Default: Left of Heading</small></summary>
+
+
+Controls where the icon appears relative to the callout content.
+
+- **Above Heading:** Icon sits above the heading.
+- **Below Heading:** Icon appears between the heading and body text.
+- **Left of Heading:** Icon is inline to the left of the heading text only; the body text and button flow below both.
+- **Right of Heading:** Icon is inline to the right of the heading text only.
+- **Left of Text and Heading:** Icon is placed to the left of both the heading and text as a side column.
+- **Right of Text and Heading:** Icon is placed to the right of both the heading and text as a side column.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Colors</strong></summary>
+
+
+Color settings for the icon and its optional background.
+
+<details>
+<summary><strong>Icon color settings</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Primary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the primary (foreground) color for DuoTone icon styles.
+</details>
+
+<details>
+<summary><strong>DuoTone Secondary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the secondary color for DuoTone icon styles.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the default icon color. When not specified, the theme's default accent color is used.
+</details>
+
+<details>
+<summary><strong>Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the icon color when a visitor hovers over the callout. When not specified, the default accent color is used.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds a circular background shape behind the icon. When no color is set, no background is shown.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color on hover. When not specified, the **Background Color** value is used.
+</details>
+
+<details>
+<summary><strong>Gradient</strong> <small>Default: No</small></summary>
+
+
+Applies a gradient effect to the icon background.
+
+- **No:** No gradient is applied.
+- **Yes:** Enables the gradient on the icon background.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Structure</strong></summary>
+
+
+Controls the size of the icon.
+
+<details>
+<summary><strong>Icon size settings</strong></summary>
+
+
+<details>
+<summary><strong>Size</strong> <small>Default: 30px; Supports: Responsive</small></summary>
+
+
+Sets the icon's font size. Accepts values in `px`, `em`, or `rem` units.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Link Tab
+
+The Link tab configures the module-level link and the call-to-action element displayed in the callout.
+
+<details>
+<summary><strong>Link</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the URL the callout links to. This link is applied to the heading, the photo or icon, and any call-to-action button or link text defined below.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Call to Action</strong></summary>
+
+
+Configures the call-to-action element shown below the body text.
+
+<details>
+<summary><strong>CTA settings</strong></summary>
+
+
+<details>
+<summary><strong>Type</strong> <small>Default: None</small></summary>
+
+
+Selects the style of call-to-action displayed.
+
+- **None:** No call-to-action is shown. Any link set in the **Link** section above still applies to the heading and image.
+- **Link:** Displays the CTA as styled hyperlink text.
+- **Button:** Displays the CTA as a styled button.
+
+<details>
+<summary><strong>Link CTA settings</strong></summary>
+
+
+<details>
+<summary><strong>Text</strong> <small>Default: Read More; Supports: Field Connections</small></summary>
+
+
+The label displayed on the link.
+</details>
+
+<details>
+<summary><strong>Link Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the default text color for the CTA link.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color when the CTA link is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Link Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+Font settings for the CTA link text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button CTA settings</strong></summary>
+
+
+<details>
+<summary><strong>Text</strong> <small>Default: Read More; Supports: Field Connections</small></summary>
+
+
+The label displayed on the button.
+</details>
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+Adds an optional icon to the button. Select an icon from the icon picker to display alongside the button text.
+
+<details>
+<summary><strong>Button icon settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Controls whether the icon appears before or after the button text.
+
+- **Before Text:** Icon is shown to the left of the label.
+- **After Text:** Icon is shown to the right of the label.
+
+</details>
+
+<details>
+<summary><strong>Button Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Controls when the icon is visible.
+
+- **Always Visible:** Icon is shown at all times.
+- **Fade In On Hover:** Icon is revealed only when the button is hovered.
+
+</details>
+
+<details>
+<summary><strong>DuoTone Primary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the primary color for DuoTone button icon styles.
+</details>
+
+<details>
+<summary><strong>DuoTone Secondary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the secondary color for DuoTone button icon styles.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Width</strong> <small>Default: Auto</small></summary>
+
+
+Sets whether the button sizes to its content or expands to fill the full container width.
+
+- **Auto:** Button width is determined by its content.
+- **Full Width:** Button stretches to fill the full width of the callout.
+
+<details>
+<summary><strong>Auto width settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Align</strong> <small>Supports: Responsive</small></summary>
+
+
+Aligns the button horizontally within the callout. Available when **Button Width** is set to **Auto**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets internal spacing around the button text and icon.
+</details>
+
+<details>
+<summary><strong>Button Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the default color of the button text.
+</details>
+
+<details>
+<summary><strong>Button Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color when the button is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Button Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+Font settings for the button label.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Button Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects the background rendering mode for the button.
+
+- **Flat:** Solid background color.
+- **Auto Gradient:** Automatically generates a gradient from the button background color.
+- **Advanced Gradient:** Uses gradient pickers for full gradient control.
+
+<details>
+<summary><strong>Flat background settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the button's background color.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color on hover.
+</details>
+
+<details>
+<summary><strong>Button Background Animation</strong> <small>Default: Disabled</small></summary>
+
+
+Animates the background color transition on hover.
+
+- **Disabled:** No animation.
+- **Enabled:** Background color animates on hover.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Auto gradient settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the button's background color used to generate the gradient.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color on hover used to generate the hover gradient.
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced gradient settings</strong></summary>
+
+
+<details>
+<summary><strong>Background Gradient</strong></summary>
+
+
+Configures the button background gradient.
+</details>
+
+<details>
+<summary><strong>Background Hover Gradient</strong></summary>
+
+
+Configures the button background hover gradient.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Border</strong></summary>
+
+
+Applies a border to the button.
+
+<details>
+<summary><strong>Button border settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Border</strong> <small>Supports: Responsive</small></summary>
+
+
+Configure the button border style, width, color, and radius.
+</details>
+
+<details>
+<summary><strong>Button Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the border color when the button is hovered or focused.
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.
+
+## CSS Customization
+
+Use custom CSS to style the Callout module beyond the available settings.
+
+:::tip
+
+The examples below target the `.fl-module-callout` parent class, which applies styles to all Callout modules on your site.
+
+To style a specific Callout module, assign it a custom class on the **Advanced** tab and replace `.fl-module-callout` with your custom class name.
+
+```css
+.my-custom-class .fl-callout-title {
+  color: #333333;
+}
+```
+:::
+
+
+<details>
+<summary><strong>Callout Heading</strong></summary>
+
+
+Style the callout heading text.
+
+```css
+.fl-module-callout .fl-callout-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+}
+```
+</details>
+
+<details>
+<summary><strong>Callout Body Text</strong></summary>
+
+
+Style the callout's body text content.
+
+```css
+.fl-module-callout .fl-callout-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555555;
+}
+```
+</details>
+
+<details>
+<summary><strong>Callout Photo</strong></summary>
+
+
+Add styles to the callout photo, such as a drop shadow or hover effect.
+
+```css
+/* Add a drop shadow to the photo */
+.fl-module-callout .fl-photo-img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Scale the photo on hover */
+.fl-module-callout .fl-callout-photo:hover .fl-photo-img {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+```
+</details>
+
+<details>
+<summary><strong>CTA Link Text</strong></summary>
+
+
+Style the call-to-action link text when **CTA Type** is set to **Link**.
+
+```css
+.fl-module-callout .fl-callout-cta-link {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.fl-module-callout .fl-callout-cta-link:hover {
+  text-decoration: none;
+}
+```
+</details>

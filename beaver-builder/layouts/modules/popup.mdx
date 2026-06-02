@@ -1,0 +1,419 @@
+---
+title: Popup
+sidebar_label: Popup
+icon: "picture-in-picture-2"
+description: "Use Popup to build dialogs, popovers, and flyouts that overlay page content with configurable triggers, scheduling, and dismiss behavior."
+---
+
+
+Use Popup to build dialogs, popovers, and flyouts that overlay page content with configurable triggers, scheduling, and dismiss behavior.
+
+## Usage
+
+The Popup module renders a container using the HTML Popover API, creating a dialog, popover, or flyout that appears over page content. You add any Beaver Builder content inside it — text, images, forms, or other modules — and control when it opens through automatic triggers such as a time delay, scroll depth, or exit intent, or by linking an anchor element or Invoker Command to its Popup ID.
+
+Use the Popup module to build newsletter opt-ins, promotional overlays, confirmation dialogs, video players, or side drawers that appear at the right moment in the visitor's session.
+
+:::note
+
+The Popup module relies on the HTML Popover API, which is supported in all current major browsers. Visitors using significantly outdated browser versions may not see the popup correctly.
+:::
+
+## Module Settings
+
+The Popup module settings control the popup ID, automatic trigger behavior, active dates, dismiss options, and visual appearance.
+
+### General Tab
+
+The General tab sets the popup ID, trigger conditions, scheduling dates, and how visitors dismiss the popup.
+
+<details>
+<summary><strong>Trigger</strong></summary>
+
+
+The Trigger section sets the popup ID and controls when the popup opens automatically.
+
+<details>
+<summary><strong>Trigger Settings</strong></summary>
+
+
+<details>
+<summary><strong>Popup ID</strong></summary>
+
+
+Sets a custom ID for the popup element. Use this ID to open the popup with an anchor link (for example, `#my-popup-id`) or with an Invoker Command. The ID must be unique and must not contain spaces. When left empty, a unique ID is generated automatically.
+
+:::note
+
+If you leave this field empty, Beaver Builder generates an ID automatically using the format `fl-popup-` followed by a unique string it assigns to each module instance, for example `fl-popup-3a8f21bc`. Because the generated ID is not predictable, set a custom ID whenever you need to open this popup from a button, link, or other element.
+:::
+</details>
+
+<details>
+<summary><strong>Show On</strong></summary>
+
+
+Selects when the popup appears automatically. Multiple options can be active at the same time. When no options are selected, the popup only opens when triggered directly via its ID.
+
+- **Delay:** Opens the popup after the set number of seconds. Setting the delay to `0` shows the popup as soon as the page loads.
+- **Scroll:** Opens the popup when the visitor has scrolled the set percentage of the page. Values of `0%` have no effect — the scroll trigger only activates for values above `0%`.
+- **Exit:** Opens the popup when the visitor moves their cursor toward the top of the browser window, which typically indicates they are about to switch tabs or navigate away. The exit trigger fires once per page load.
+
+When multiple triggers are selected, the popup opens as soon as any one condition is met. The remaining triggers do not fire after the popup has already been shown.
+
+<details>
+<summary><strong>Automatic Trigger Settings</strong></summary>
+
+
+<details>
+<summary><strong>Show Delay (Delay Only)</strong> <small>Default: 0</small></summary>
+
+
+Sets the number of seconds to wait before showing the popup. This field appears when **Show On** includes **Delay**.
+</details>
+
+<details>
+<summary><strong>Show on Percent Scrolled (Scroll Only)</strong> <small>Default: 0</small></summary>
+
+
+Sets the percentage of the page the visitor must scroll before the popup appears. This field appears when **Show On** includes **Scroll**.
+</details>
+
+<details>
+<summary><strong>Show Once</strong> <small>Default: Disabled</small></summary>
+
+
+Prevents the popup from appearing again after it has already been shown. This field appears when any automatic trigger is active.
+
+- **Per User:** Shows the popup once and sets a browser cookie to prevent it appearing again. The popup can reappear if the visitor clears their cookies or visits from a different browser or device.
+- **Per Session:** Shows the popup once per browser session using session storage. The session clears when the visitor closes the tab or browser window, so the popup may appear again on their next visit.
+- **Disabled:** Shows the popup every time the trigger condition is met, on every page load.
+
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Schedule</strong></summary>
+
+
+The Schedule section limits when the popup is active based on date.
+
+<details>
+<summary><strong>Schedule Settings</strong></summary>
+
+
+<details>
+<summary><strong>Show Start Date</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the date from which the popup begins displaying. Leave empty to show the popup immediately.
+</details>
+
+<details>
+<summary><strong>Show End Date</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the date after which the popup stops displaying. Leave empty to show the popup indefinitely.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Dismiss</strong></summary>
+
+
+The Dismiss section controls how visitors close the popup.
+
+<details>
+<summary><strong>Dismiss Settings</strong></summary>
+
+
+<details>
+<summary><strong>Close on ESC/Click Outside</strong> <small>Default: Disabled</small></summary>
+
+
+Enables or disables closing the popup by pressing the Escape key or clicking outside the popup container.
+
+- **Enabled:** Closes the popup when the visitor presses Escape or clicks outside the popup.
+- **Disabled:** Keeps the popup open unless the visitor uses the close button or another dismiss action.
+
+</details>
+
+<details>
+<summary><strong>Close Button</strong> <small>Default: Enabled</small></summary>
+
+
+Shows or hides the built-in close button inside the popup.
+
+- **Enabled:** Renders a close button inside the popup.
+- **Disabled:** Removes the close button from the popup.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Loop Options</strong></summary>
+
+
+The Loop Options section controls navigation between popup instances when the Popup is placed inside a Loop module.
+
+<details>
+<summary><strong>Loop Options Settings</strong></summary>
+
+
+<details>
+<summary><strong>Loop Navigation Arrows</strong> <small>Default: Enabled</small></summary>
+
+
+Shows or hides the previous and next navigation arrows that let visitors move between popup instances rendered by a Loop module. When enabled, the arrows can be styled in the **Loop Navigation Arrows** section on the Style tab.
+
+- **Enabled:** Renders the loop navigation arrows.
+- **Disabled:** Removes the loop navigation arrows.
+
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the popup's position, dimensions, background, border, close button appearance, and loop navigation arrows.
+
+<details>
+<summary><strong>Sizing &amp; Placement</strong></summary>
+
+
+The Sizing & Placement section sets where the popup appears on the screen and its dimensions.
+
+<details>
+<summary><strong>Sizing &amp; Placement Settings</strong></summary>
+
+
+<details>
+<summary><strong>Position</strong> <small>Default: Center</small></summary>
+
+
+Sets where the popup appears on the screen.
+
+- **Center:** Centers the popup on both axes.
+- **Center Left:** Centers the popup vertically on the left edge.
+- **Center Right:** Centers the popup vertically on the right edge.
+- **Top Left:** Places the popup in the top-left corner.
+- **Top Center:** Centers the popup horizontally at the top.
+- **Top Right:** Places the popup in the top-right corner.
+- **Bottom Left:** Places the popup in the bottom-left corner.
+- **Bottom Center:** Centers the popup horizontally at the bottom.
+- **Bottom Right:** Places the popup in the bottom-right corner.
+
+</details>
+
+<details>
+<summary><strong>Width &amp; Height</strong> <small>Default: 500px, 100%, &amp; 200px; Supports: Responsive</small></summary>
+
+
+Sets the width, max-width, min-height, height, max-height, and min-width of the popup container. Defaults to a width of 500px, a max-width of 100%, and a min-height of 200px.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner spacing of the popup container.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Appearance</strong></summary>
+
+
+The Appearance section controls the popup background, backdrop overlay, and border.
+
+<details>
+<summary><strong>Appearance Settings</strong></summary>
+
+
+<details>
+<summary><strong>Background settings</strong></summary>
+
+Background settings control background type, color, image, gradient, overlay, and related responsive background options where available.
+
+</details>
+
+<details>
+<summary><strong>Backdrop</strong> <small>Default: rgba(171, 183, 196, 0.3); Supports: Responsive</small></summary>
+
+
+Sets the background style of the overlay layer shown behind the popup.
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Close Button</strong></summary>
+
+
+The Close Button section controls the appearance of the built-in close button. These settings apply when **Close Button** is set to **Enabled** in the General tab.
+
+<details>
+<summary><strong>Close Button Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Type</strong> <small>Default: Icon</small></summary>
+
+
+Sets whether the close button displays an icon or a text label.
+
+- **Icon:** Renders the close button as an icon.
+- **Text:** Renders the close button as a text label.
+
+<details>
+<summary><strong>Icon Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the icon used for the close button when **Button Type** is set to **Icon**. When left empty, a default × icon is used.
+</details>
+</details>
+
+<details>
+<summary><strong>Text Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Text</strong> <small>Default: Close</small></summary>
+
+
+Sets the text label used for the close button when **Button Type** is set to **Text**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Attachment</strong> <small>Default: Popup; Supports: Responsive</small></summary>
+
+
+Controls whether the close button is positioned relative to the popup container or the browser window.
+
+- **Popup:** Positions the close button relative to the popup container.
+- **Window:** Positions the close button relative to the browser window, keeping it visible even when the popup is taller than the viewport.
+
+</details>
+
+<details>
+<summary><strong>Button Position</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the top, right, bottom, and left offset of the close button. Defaults to −45px from the top and right edges.
+</details>
+
+<details>
+<summary><strong>Button Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner spacing of the close button. Defaults to 5px on all sides.
+</details>
+
+<details>
+<summary><strong>Button Size</strong> <small>Default: 40; Supports: Responsive</small></summary>
+
+
+Sets the width and height of the close button icon, or the font size when **Button Type** is set to **Text**.
+</details>
+
+<details>
+<summary><strong>Button Color</strong> <small>Default: #333333; Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the icon fill color or text color of the close button.
+</details>
+
+<details>
+<summary><strong>Button Background</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the background color of the close button.
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Loop Navigation Arrows</strong></summary>
+
+
+The Loop Navigation Arrows section styles the previous and next navigation buttons rendered when a Popup is placed inside a Loop module. Each loop item gets its own popup instance. The navigation arrows let visitors move between those popups without closing and reopening each time.
+
+For example, you can build a grid of blog post cards where each card has a "Read more" button that opens the full post content in a popup. Once a popup is open, the previous and next arrows let visitors cycle through the other posts without closing the popup.
+
+:::tip
+
+When the popup is placed inside a loop, include the current post ID in the [Popup ID value](#param-popup-id), such as `my-popup-[wpbb post:id]`, so each popup instance stays unique.
+:::
+
+<details>
+<summary><strong>Loop Navigation Arrow Settings</strong></summary>
+
+
+<details>
+<summary><strong>Horizontal Offset</strong> <small>Default: 0; Supports: Responsive</small></summary>
+
+
+Sets the horizontal distance of the previous and next arrow buttons from the popup edges.
+</details>
+
+<details>
+<summary><strong>Button Size</strong> <small>Default: 42; Supports: Responsive</small></summary>
+
+
+Sets the width and height of each navigation arrow button.
+</details>
+
+<details>
+<summary><strong>Icon Color</strong> <small>Default: #333333; Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the icon color of the navigation arrow buttons.
+</details>
+
+<details>
+<summary><strong>Button Background</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the background color of the navigation arrow buttons.
+</details>
+
+<details>
+<summary><strong>Button Border</strong> <small>Supports: Responsive</small></summary>
+
+
+Configures the border style, width, radius, and color of the navigation arrow buttons.
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

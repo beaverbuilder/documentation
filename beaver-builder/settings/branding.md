@@ -27,8 +27,6 @@ Beaver Builder's [Welcome settings page](welcome.md) cannot be white labelled an
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Branding** tab.
 
-![Access the Beaver Builder setting's branding tab](/img/beaver-builder/settings--branding--1.jpg)
-
 ## Plugin Branding
 
 **Plugin Branding** lets you white label the **"Beaver Builder"** name that appears in the Beaver Builder user interface, WordPress Admin Dashboard, and WordPress admin bar. Additionally, you can replace the Beaver Builder logo that appears in the [Top Bar](user-interface/top-bar.md) with your own.

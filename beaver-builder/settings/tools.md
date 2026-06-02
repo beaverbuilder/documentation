@@ -13,8 +13,6 @@ The **Tools** tab provides a set of helpful controls, including clearing third p
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Tools** tab.
 
-![Access Tools tab settings](/img/beaver-builder/settings--tools--1.jpg)
-
 ## Cache
 
 A CSS and JavaScript file are dynamically generated and minified whenever you create a new layout. The files are stored in the _`wp-content/uploads/bb-plugin/cache`_ directory, where they are used to improve performance. The following actions result in the deletion and creation of these files automatically:
@@ -144,34 +142,6 @@ You can also use Beaver Builder debug mode to display your website's PHP configu
 ```markup
 https://my-website.com/?fldebug=a12340b6390778c2geg3f832aaf1ae31&info
 ```
-
-## Prerelease Updates
-
-Enabling prerelease updates applies to all Beaver Builder products that you have installed. If you want updates to apply to only one product, follow the instructions on the [Alpha & Beta releases](introduction/releases-versioning.md) article.
-
-:::warning
-There is no support provided for alpha or beta releases and it is strongly discouraged to use them in production environments. There is a high risk of bugs and features can be changed or removed based on testing and feedback.
-:::
-
-### Enable Beta updates
-
-1. Access your site's WordPress Admin Dashboard, go to **Settings > Tools**.
-2. On the **Tools** tab, scroll to the **Prerelease Updates** section.
-3. Select the checkbox **Enable Beta updates**.
-4. Click **Save Prerelease Settings**.
-
-### Enable Alpha updates
-
-We don't encourage this setting, so you will not see it until you have enabled beta prereleases in the previous section.
-
-1. Access your site's WordPress Admin Dashboard, go to **Settings > Tools**.
-
-2. On the **Tools** tab, scroll to the **Prerelease Updates** section.
-
-3. Select the checkbox **Enable Alpha updates**.
-   If you don't see this checkbox, enable Beta updates first and save.
-
-4. Click Save prerelease settings.
 
 ## Send Usage Data
 

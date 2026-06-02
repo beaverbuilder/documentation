@@ -6,39 +6,45 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-Beaver Builder 2.10 includes the following new features and improvements.
+Beaver Builder 2.11 includes the following new features and improvements.
 
 ## :rocket: New Features
 
 The following features have been added:
 
-### Beaver Builder Cloud
+### Popup Module
 
-Powered by Assistant Pro, Beaver Builder Cloud offers cloud storage and template sharing, making it easy to manage creative assets directly within Beaver Builder, without the need to install the Assistant plugin.
+Popup is a new module that allows you to create dialogs, popovers, and flyouts that appear over page content, making it ideal for newsletter opt-ins, promotions, confirmations, videos, and other content that should appear at the right moment.
 
-See the [Beaver Builder Cloud](../user-interface/cloud.md) article for more information.
+See the [Popup Module](../layouts/modules/popup.mdx) article for more information.
 
-### Components
+### Maintenance Mode
 
-A new Reusable Content type has been added called Components, which allow you to strike a balance between consistency and flexibility. Unlike templates, which are fully independent, or globals, which update universally, Components let you define which options stay fixed and which can be customized per instance.
+Maintenance Mode is a new settings tab that allows you to temporarily show visitors a selected Beaver Builder layout while you update, launch, or work on your site. You can choose which roles bypass maintenance mode, schedule it for a specific time window, and return a 503 Service Unavailable status to help preserve search rankings.
 
-See the [Components](../layouts/reusable-content/components.md) article for more information.
+See the [Maintenance Mode](../settings/maintenance.md) article for more information.
 
-### Star Rating Module
+### Custom Attributes
 
-Star Rating is a new module that allows you to easily display ratings, making it ideal for building testimonial sections and other content that benefits from visual feedback.
+Custom Attributes is a new Advanced tab section that allows you to add HTML attributes to any row, column, or module. You can add attributes to the wrapper element, or, for modules, target an inner element with a CSS selector. This gives you more control over markup for accessibility, tracking, styling, JavaScript integrations, and other custom use cases.
 
-See the [Star Rating Module](../layouts/modules/star-rating.md) article for more information.
+See the [Custom Attributes](../layouts/advanced-tab/custom-attributes.md) article for more information.
 
-### Pre-built Box Module Templates
+### [Post Type] Settings tab
 
-We’ve added over 60 pre-built layout templates powered by the Box module, including callouts, team member profiles, testimonials, hero sections, and more. You’ll also find Bento Grid layouts that showcase different ways to design grid-based sections with the Box module. These layouts not only give you ready-to-use designs but also serve as hands-on examples to help you learn and create your own Bento Grid layouts.
+[Post Type] Setting is a new tab in the Layout Settings (formerly Layout CSS & JavaScript) panel that provides a convenient way to modify your page, post, product, or custom post type data without leaving the builder. It lets you edit key WordPress fields for the item you are currently building, with changes saved directly to the WordPress post rather than to Beaver Builder layout data.
 
-### Version Control
+The tab name changes to match the type of content you are editing. For example, it appears as Page Settings for pages, Post Settings for posts, Product Settings for WooCommerce products, and so on.
 
-Version Control is now available, giving you the ability to quickly install any of the last 10 releases of Beaver Builder, Beaver Themer, or the Beaver Builder Theme (BB Theme) without manually downloading files. Designed primarily for troubleshooting and development, it lets you roll back or switch between recent releases directly from your settings panel, making it simple to test, troubleshoot, and manage versions.
+### WordPress Font Library Support
 
-See the [Version Control](../settings/version-control.md) article for more information.
+Beaver Builder now supports the WordPress Font Library, allowing fonts installed or uploaded through WordPress to be used in Beaver Builder typography settings. Once a font is added to the Font Library, it becomes available in modules that include typography settings.
+
+### `post_id` Parameter
+
+A new `post_id` parameter has been added to field connections, allowing you to pull content from a specific post instead of the current page, post, or loop item. This makes it possible to display data from another post anywhere in your layout, such as a featured post’s title, image, excerpt, or other connected field.
+
+See the [Post ID](/beaver-themer/field-connections/syntax#post-id) section for more information.
 
 ## :boom: Improvements
 
@@ -46,87 +52,26 @@ The following improvements have been made:
 
 ### Accessibility
 
-We’ve introduced a wide range of accessibility enhancements to improve usability and ensure compliance with modern standards. These updates focus on better keyboard navigation, proper use of ARIA attributes and roles, improved focus management, and more semantic HTML markup across modules. Any markup changes noted here have been implemented using the Deprecation API, ensuring they only affect new modules added to your layouts. The following list highlights the key accessibility improvements included in this release.
-
-<details><summary>Accessibility Enhancements & Improvements</summary>
-
-- **Accordion Module**  
-  Updated HTML tags for new modules, increased the focus ring size, and changed the key event listener from `keypress` to `keydown`. Ensured proper ARIA attributes are applied. Replaced the `.fl-menu-mobile-toggle` class with the generic `.fl-content-ui-button` class so these buttons are excluded from Global Styles button styling. Implemented support for closing tabs with the Escape key and ensured event handlers only target interactive buttons. All items now close when focus moves outside the accordion.  
-
-- **Content Slider Module**  
-  Improved accessibility by ensuring the focus ring is visible for links, adding support for reduced-motion preferences, preventing autoplay on focus in or out, and including ARIA labels and roles. Enhanced keyboard navigation with focus on slider dot navigation, updated HTML to use list and button tags, and made several other refinements.  
-
-- **Gallery Module**  
-  Deprecated `div` tags in favor of list tags and added ARIA roles for any remaining `div` elements.  
-
-- **Menu Module**  
-  Introduced multiple accessibility enhancements, including improved keyboard navigation, the use of appropriate ARIA attributes and roles, and adjustments to markup and sub-menu icon sizing.  
-
-- **Photo Module**  
-  Updated markup to use `figcaption` for captions, following accessibility best practices.  
-
-- **Posts Module**  
-  Improved accessibility by replacing the `div` container tag with an unordered list. Added a new option in the post container field.  
-
-- **Post Slider & Post Carousel**  
-  Enhanced accessibility by using list tags for slides, button tags for navigation and pagination, proper ARIA attributes, and ensuring visible focus on all controls.  
-
-- **All Posts Modules**  
-  Ensured redundant links are hidden from screen readers and excluded from keyboard navigation.  
-
-- **Tabs Module**  
-  Replaced links and `div` elements with button tags for interactive elements, using the module deprecation API so changes only affect new modules. Ensured proper ARIA attributes are applied.  
-
-- **Testimonials Module**  
-  Changed the HTML structure from `div` to `blockquote`, applied through the module deprecation API so it only affects new modules. Added support for the reduced-motion preference and introduced an option to display play/pause buttons.
-  
-- **Row Shapes**  
-  Added generic titles and descriptions to row shapes to improve accessibility.
-
-- **Modules Displaying Excerpts**  
-  Updated the default “Read More” text to provide clearer context, following accessibility recommendations.
-
-</details>
-
-### Modules
-
-The following improvements have been added for the modules listed below.
-
-- **Box Module**   
-  We’ve added a new global setting that applies row spacing to top-level boxes for Grid & Spacing. This setting is enabled by default on new sites, but remains disabled for sites updating from version 2.9 to 2.10 to maintain backward compatibility.
-
-- **Button Module**  
-  Added responsive support for more fields, including custom width, text color, background color, and border color.
-
-- **Menu Module**  
-  Introduced a new width option for the flyout menu.
+- Links that open in a new tab now include screen-reader text.
+- Global Styles adds outline styling controls for interactive elements.
+- Accordion module HTML structure improved through module deprecation for backward compatibility.
+- Accordion buttons now have unique accessible names.
+- Search module gets proper accessibility attributes.
+- Search module adds a new reveal layout.
+- Content Slider, Post Slider, and Post Carousel remove end navigation when looping is disabled and add aria-hidden where needed.
+- Number Counter wraps number prefix/suffix in spans through module deprecation for backward compatibility.
 
 ### User Interface (UI)
 
-The following improvements have been added for the Beaver Builder user interface.
-
-- **Content Panel**  
-  Reworked the pre-built rows and modules panels to show categories instead of a dropdown.
-
-- **Saved Tab**  
-  Added the ability to collapse the sections in the Saved panel.
-
-- **Nodes** _(rows, columns, & modules)_  
-  Added a "Save As" action to the settings dropdown on overlays. Added a "Type" select in the "Save As" form to include Template, Global, and Component.
-
-- **Outline Panel**  
-  Added [copy and paste options to the context menu](/beaver-builder/user-interface/outline-panel.md#context-menu-right-click) in the Outline Panel.
-
-### WordPress Admin
-
-- Updated the WP Admin list table to display **Global** or **Component** labels.  
-- Refined user access settings to allow editing of per-page component settings without granting access to the component itself.  
-- Added a new user access option to enable or [disable cloud access based on user role](/beaver-builder/settings/user-access.md#cloud-access).  
+- Overlays now show parent container overlays similar to rows when enough space is available.
+- Overlays now render in the body instead of layout markup to avoid styling conflicts with the coming 3.0 design panel.
+- Outline Panel adds Save As to the context menu.
+- Outline Panel adds direct export for Globals/Components from the context menu.
+- [Applying a Template](../layouts/templates/index.md#apply-a-template-to-a-page-or-post) to a page or post now supports Prepend.
+- The settings panel has been updated with a cleaner, more modern design to make it easier to navigate and use.
 
 ### Other Changes
 
-- **Performance**  
-  Improved the time it takes for settings to initially render when first opened.
-
-- **Subscribe Module**  
-  Added support for ConvertKit custom fields
+- Font Awesome 7 Support
+- Font Awesome Pro Style Support
+- Icon Field Connection Support

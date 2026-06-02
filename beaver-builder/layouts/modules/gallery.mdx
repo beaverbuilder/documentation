@@ -1,0 +1,139 @@
+---
+title: Gallery
+sidebar_label: Gallery
+icon: "images"
+description: "Use Gallery to display multiple photos in a collage or grid layout with optional captions, lightbox, and SmugMug support."
+---
+
+
+Use Gallery to display multiple photos in a collage or grid layout with optional captions, lightbox, and SmugMug support.
+
+## Usage
+
+Use Gallery to display multiple photos in a single module using either a Collage layout that arranges photos at varied widths or a Thumbs layout that renders uniform thumbnails. Photos can come from the WordPress media library or a SmugMug RSS feed, and each image can open in a built-in lightbox, link to its full-size source, or render without a click action. Captions read from the WordPress media manager or the SmugMug feed and can show on hover or below each photo.
+
+Use Gallery on portfolio pages, event recaps, product showcases, and any layout that needs to present a curated set of images without building a custom grid by hand. It fits straightforward image-collection workflows where photo selection, layout, and click behavior need to stay simple.
+
+## Module Settings
+
+The Gallery module settings control which photos appear, how the gallery is laid out, what happens when a photo is clicked, and the spacing and border applied to each image.
+
+### General Tab
+
+The General tab selects the layout, photo source, photos, captions, and click behavior.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Collage</small></summary>
+
+
+Sets how photos are arranged in the gallery.
+
+- **Collage:** Arranges photos at varied widths in a masonry-style layout and reveals the **Photo Size** field.
+- **Thumbs:** Renders photos as uniform thumbnails based on the WordPress thumbnail size.
+
+</details>
+
+<details>
+<summary><strong>Source</strong> <small>Default: Media Library</small></summary>
+
+
+Selects whether photos come from the WordPress media library or a SmugMug RSS feed.
+
+- **Media Library:** Pulls images from the WordPress media library and reveals the **Photos** field.
+- **SmugMug:** Pulls images from a SmugMug gallery RSS feed and reveals the **Feed URL** field. The RSS feed URL can be accessed by using the get a link function in your SmugMug gallery.
+
+<details>
+<summary><strong>Media Library Settings</strong></summary>
+
+
+<details>
+<summary><strong>Photos</strong> <small>Supports: Field Connections</small></summary>
+
+
+The set of photos selected from the WordPress media library. This field appears when **Source** is set to **Media Library**.
+</details>
+</details>
+
+<details>
+<summary><strong>SmugMug Settings</strong></summary>
+
+
+<details>
+<summary><strong>Feed URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The SmugMug gallery RSS feed URL used to load photos. This field appears when **Source** is set to **SmugMug**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Photo Size</strong> <small>Default: Medium</small></summary>
+
+
+Sets the rendered photo width used for the Collage layout. This field appears when **Layout** is set to **Collage**.
+
+- **Small:** Renders photos at approximately 200px wide.
+- **Medium:** Renders photos at approximately 300px wide.
+- **Large:** Renders photos at approximately 400px wide.
+
+</details>
+
+<details>
+<summary><strong>Show Captions</strong> <small>Default: Never</small></summary>
+
+
+Controls whether photo captions display and where they appear. Captions read from the caption field in the WordPress media manager, or directly from the SmugMug feed when SmugMug is the source.
+
+- **Never:** Hides photo captions.
+- **On Hover:** Shows the caption as an overlay when a photo is hovered.
+- **Below Photo:** Shows the caption beneath each photo.
+
+</details>
+
+<details>
+<summary><strong>Click Action</strong> <small>Default: Lightbox</small></summary>
+
+
+Selects what happens when a visitor clicks a photo.
+
+- **None:** Disables the click action so photos are not clickable.
+- **Lightbox:** Opens the photo in the built-in lightbox and reveals the **Lightbox Photo Size** field.
+- **Photo Link:** Links each photo to its full-size image URL.
+
+<details>
+<summary><strong>Lightbox Settings</strong></summary>
+
+
+<details>
+<summary><strong>Lightbox Photo Size</strong> <small>Default: Large</small></summary>
+
+
+Sets the WordPress image size used when a photo opens in the lightbox. This field appears when **Click Action** is set to **Lightbox**.
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the spacing between photos and the border applied to each photo.
+
+<details>
+<summary><strong>Photo Spacing</strong> <small>Default: 20</small></summary>
+
+
+The space, in pixels, between photos in the gallery.
+</details>
+
+<details>
+<summary><strong>Photo Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, color, and radius applied to each photo, plus an optional box shadow.
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

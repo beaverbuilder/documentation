@@ -1,0 +1,579 @@
+---
+title: Contact Form
+sidebar_label: Contact Form
+icon: "mail"
+description: "Use Contact Form to add a simple email form with configurable fields, spam protection, and post-submit actions."
+---
+
+
+Use Contact Form to add a simple email form with configurable fields, spam protection, and post-submit actions.
+
+## Usage
+
+Use Contact Form to add a simple AJAX-powered email form with optional name, subject, email, phone, and message fields. It sends submissions through WordPress `wp_mail()`, supports a required terms and conditions checkbox, and can protect submissions with Google reCAPTCHA. After a successful submission, it can show a confirmation message or redirect visitors to another URL.
+
+Use Contact Form on contact pages, landing pages, service pages, and other layouts that need a lightweight inquiry form without a separate form plugin. It fits straightforward single-step contact workflows where field requirements, submission handling, and styling stay simple.
+
+## Module Settings
+
+The Contact Form module settings control where submissions go, which fields appear, how the form looks, and how the form handles spam protection and successful submissions.
+
+### General Tab
+
+The General tab sets the recipient address, visible form fields, and post-submit behavior.
+
+<details>
+<summary><strong>Send To Email</strong> <small>Supports: Field Connections</small></summary>
+
+
+The email address that receives form submissions. When left empty, the module sends notifications to the WordPress admin email.
+</details>
+
+<details>
+<summary><strong>Fields</strong></summary>
+
+
+The Fields section controls which contact form fields appear, the text used for their labels and placeholders, how labels display, and whether the form requires terms acceptance before submission.
+
+<details>
+<summary><strong>Form Fields</strong></summary>
+
+
+<details>
+<summary><strong>Name Field</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the name input.
+
+<details>
+<summary><strong>Name Field Placeholder</strong></summary>
+
+
+<details>
+<summary><strong>Name Field Placeholder</strong> <small>Default: Your name</small></summary>
+
+
+The text used for the name field label, placeholder, or both, depending on **Show labels/placeholders**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Subject Field</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the subject input.
+
+<details>
+<summary><strong>Subject Field Placeholder</strong></summary>
+
+
+<details>
+<summary><strong>Subject Field Placeholder</strong> <small>Default: Subject</small></summary>
+
+
+The text used for the subject field label, placeholder, or both, depending on **Show labels/placeholders**. This field appears when **Subject Field** is set to **Show**.
+</details>
+</details>
+
+<details>
+<summary><strong>Email Subject</strong></summary>
+
+
+<details>
+<summary><strong>Email Subject</strong> <small>Default: Contact Form Submission; Supports: Field Connections</small></summary>
+
+
+The subject line used for notification emails when **Subject Field** is set to **Hide**. Supports shortcodes.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Email Field</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the email input.
+
+<details>
+<summary><strong>Email Field Placeholder</strong></summary>
+
+
+<details>
+<summary><strong>Email Field Placeholder</strong> <small>Default: Your email</small></summary>
+
+
+The text used for the email field label, placeholder, or both, depending on **Show labels/placeholders**. This field appears when **Email Field** is set to **Show**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Phone Field</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the phone input.
+
+<details>
+<summary><strong>Phone Field Placeholder</strong></summary>
+
+
+<details>
+<summary><strong>Phone Field Placeholder</strong> <small>Default: Your phone</small></summary>
+
+
+The text used for the phone field label, placeholder, or both, depending on **Show labels/placeholders**. This field appears when **Phone Field** is set to **Show**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Your Message Placeholder</strong> <small>Default: Your message</small></summary>
+
+
+The text used for the message field label, placeholder, or both, depending on **Show labels/placeholders**.
+</details>
+
+<details>
+<summary><strong>Show labels/placeholders</strong> <small>Default: Show Both</small></summary>
+
+
+Controls whether fields show placeholders only, labels only, or both. Selecting **Show Labels Only** or **Show Both** reveals the **Labels** group in the Style tab.
+</details>
+
+<details>
+<summary><strong>Terms and Conditions Checkbox</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides a required acceptance checkbox.
+
+<details>
+<summary><strong>Checkbox Text</strong></summary>
+
+
+<details>
+<summary><strong>Checkbox Text</strong> <small>Default: I Accept the Terms and Conditions</small></summary>
+
+
+The text displayed next to the checkbox.
+</details>
+</details>
+
+<details>
+<summary><strong>Terms and Conditions</strong></summary>
+
+
+<details>
+<summary><strong>Terms and Conditions</strong> <small>Supports: Field Connections</small></summary>
+
+
+The Terms and Conditions custom text uses the WordPress Classic Editor WYSIWYG, which lets you format text, add links, and include basic HTML. This content is displayed above the checkbox.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Success</strong></summary>
+
+
+The Success section configures the action that runs after a successful submission.
+
+<details>
+<summary><strong>Success Settings</strong></summary>
+
+
+<details>
+<summary><strong>Success Action</strong></summary>
+
+
+Determines whether submission shows the built-in confirmation text, displays a custom message, or redirects to another URL. Options are **None**, **Show Message**, and **Redirect**.
+
+<details>
+<summary><strong>Success Message</strong></summary>
+
+
+<details>
+<summary><strong>Success Message</strong> <small>Default: Thanks for your message! We'll be in touch soon.; Supports: Field Connections</small></summary>
+
+
+The confirmation message displayed after a successful submission when **Success Action** is set to **Show Message**.
+</details>
+</details>
+
+<details>
+<summary><strong>Success URL</strong></summary>
+
+
+<details>
+<summary><strong>Success URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination URL used after a successful submission when **Success Action** is set to **Redirect**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the appearance of labels, inputs, and the submit button.
+
+<details>
+<summary><strong>Labels</strong></summary>
+
+
+This group is available when **Show labels/placeholders** is set to **Show Labels Only** or **Show Both** in the General tab.
+
+<details>
+<summary><strong>Labels</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing around each text label.
+</details>
+
+<details>
+<summary><strong>Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of form labels.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for form labels.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Inputs</strong></summary>
+
+
+The Inputs section controls the appearance of text inputs and the message textarea.
+
+<details>
+<summary><strong>Inputs</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing of text inputs and the message textarea.
+</details>
+
+<details>
+<summary><strong>Color</strong></summary>
+
+
+The text and placeholder color of text inputs and the message textarea.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for text inputs and the message textarea.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of text inputs and the message textarea.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when text inputs and the message textarea are hovered.
+</details>
+
+<details>
+<summary><strong>Border</strong></summary>
+
+
+The border style, width, radius, and color for text inputs and the message textarea.
+</details>
+
+<details>
+<summary><strong>Border Hover</strong></summary>
+
+
+The border style used when text inputs and the message textarea are hovered or focused.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button</strong></summary>
+
+
+The Button section controls the appearance of the submit button.
+
+<details>
+<summary><strong>Button settings</strong></summary>
+
+
+<details>
+<summary><strong>Text</strong> <small>Default: Send</small></summary>
+
+
+The label displayed on the submit button.
+</details>
+
+<details>
+<summary><strong>Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds an optional icon to the submit button.
+
+<details>
+<summary><strong>DuoTone Primary Color</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Primary Color</strong> <small>Default: #5b5b5b; Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the primary color applied to the icon.
+</details>
+</details>
+
+<details>
+<summary><strong>DuoTone Secondary Color</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Secondary Color</strong> <small>Default: #757575; Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the secondary color applied to the icon.
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Position</strong></summary>
+
+
+<details>
+<summary><strong>Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected.
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Visibility</strong></summary>
+
+
+<details>
+<summary><strong>Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Keeps the icon visible or fades it in on hover when an icon is selected.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Default: Auto</small></summary>
+
+
+Sets the button width to **Auto** or **Full Width**.
+
+<details>
+<summary><strong>Align</strong></summary>
+
+
+<details>
+<summary><strong>Align</strong> <small>Default: Left; Supports: Responsive</small></summary>
+
+
+The horizontal alignment of the button within its wrapper when **Width** is set to **Auto**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing of the submit button.
+</details>
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the submit button.
+</details>
+
+<details>
+<summary><strong>Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text color of the submit button on hover and focus.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the submit button text.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The default background color of the submit button.
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color of the submit button on hover and focus.
+</details>
+
+<details>
+<summary><strong>Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects a **Flat** or **Gradient** background for the submit button.
+</details>
+
+<details>
+<summary><strong>Background Animation</strong> <small>Default: Disabled</small></summary>
+
+
+Enables or disables the transition between normal and hover background states.
+</details>
+
+<details>
+<summary><strong>Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, radius, and color of the submit button.
+</details>
+
+<details>
+<summary><strong>Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The border color of the submit button on hover and focus.
+</details>
+</details>
+</details>
+
+### Captcha Tab
+
+The Captcha tab configures Google reCAPTCHA for spam protection.
+
+:::note
+
+Set up your reCAPTCHA keys in the [Google Admin Console](https://www.google.com/recaptcha/admin). Each reCAPTCHA validation type requires its own unique site key and secret key pair.
+
+For more information, see the [reCAPTCHA v3 documentation](https://developers.google.com/recaptcha/docs/v3).
+:::
+
+<details>
+<summary><strong>reCAPTCHA Field</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the Google reCAPTCHA field. Enabling it requires valid site and secret keys.
+
+<details>
+<summary><strong>Validate Type</strong></summary>
+
+
+<details>
+<summary><strong>Validate Type</strong> <small>Default: I'm not a robot checkbox (V2)</small></summary>
+
+
+Selects the reCAPTCHA challenge mode: **"I'm not a robot" checkbox (V2)**, **Invisible (V2)**, and **Invisible (V3)**. Checkbox and invisible flows use different Google API key pairs.
+
+<details>
+<summary><strong>Action</strong></summary>
+
+
+<details>
+<summary><strong>Action</strong></summary>
+
+
+An optional action name passed to Google for v3 verification when **Validate Type** is set to **Invisible (V3)**. Use letters, numbers, and underscores only.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Site Key</strong></summary>
+
+
+<details>
+<summary><strong>Site Key</strong></summary>
+
+
+The public site key from the Google reCAPTCHA Admin Console.
+</details>
+</details>
+
+<details>
+<summary><strong>Secret Key</strong></summary>
+
+
+<details>
+<summary><strong>Secret Key</strong></summary>
+
+
+The private secret key from the Google reCAPTCHA Admin Console.
+</details>
+</details>
+
+<details>
+<summary><strong>Theme</strong></summary>
+
+
+<details>
+<summary><strong>Theme</strong> <small>Default: Light</small></summary>
+
+
+The color scheme used for visible reCAPTCHA widgets.
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.
+
+## Feature Guides
+
+### Set up reCAPTCHA
+
+Use this workflow when the form needs Google reCAPTCHA protection.
+
+1. Open the **Captcha** tab and set **reCAPTCHA Field** to **Show**.
+2. Choose **Validate Type** based on the submission flow: **"I'm not a robot" checkbox (V2)**, **Invisible (V2)**, or **Invisible (V3)**.
+3. Register the site in the Google reCAPTCHA Admin Console using the same validation type selected in the module.
+4. Use a different key pair for each validation type when the site uses both v2 and v3 forms.
+5. Paste the public key into **Site Key** and the private key into **Secret Key**.
+6. Set **Theme** to **Light** or **Dark** for visible widgets.
+7. If **Validate Type** is **Invisible (V3)**, add an **Action** value that matches the verification flow for that form.
+8. Publish the page and submit the form from the front end.
+9. If verification fails, recheck the selected validation type, hostname, and key pair.

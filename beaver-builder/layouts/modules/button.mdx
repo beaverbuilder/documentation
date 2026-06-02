@@ -1,0 +1,372 @@
+---
+title: Button
+sidebar_label: Button
+icon: "rectangle-horizontal"
+description: "Use Button to add a styled call to action that links to content, runs custom click behavior, or opens lightbox content."
+relatedModules: ["button", "callout", "cta"]
+---
+
+
+Use Button to add a styled call to action that links to content, runs custom click behavior, or opens lightbox content.
+
+## Usage
+
+Use Button to output a single call-to-action element with optional text and icon styling. Depending on **Click Action**, the module renders a standard link, a clickable button that runs custom JavaScript, or a lightbox trigger that opens inline HTML content or a video overlay.
+
+Use Button for primary page calls to action, download links, outbound links, popup videos, and small interactive triggers that need module-level styling control. It fits layouts where one button needs precise spacing, width, colors, gradients, and border styling without switching to a grouped button module.
+
+## Module Settings
+
+The Button module settings control button content, click behavior, lightbox content, and visual styling.
+
+### General Tab
+
+The General tab sets the button label, icon behavior, and click action.
+
+<details>
+<summary><strong>Text</strong> <small>Default: Click Here; Supports: Field Connections</small></summary>
+
+
+Sets the text displayed inside the button.
+</details>
+
+<details>
+<summary><strong>Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds an optional icon to the button.
+
+<details>
+<summary><strong>Icon Position</strong></summary>
+
+
+<details>
+<summary><strong>Icon Position (Icon Only)</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected.
+</details>
+</details>
+
+<details>
+<summary><strong>Icon Visibility</strong></summary>
+
+
+<details>
+<summary><strong>Icon Visibility (Icon Only)</strong> <small>Default: Always Visible</small></summary>
+
+
+Keeps the icon visible or fades it in on hover when an icon is selected.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Click Action</strong> <small>Default: Link</small></summary>
+
+
+Selects whether the button acts as a link, runs custom button code, opens lightbox content, or copies text to the clipboard.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+
+<details>
+<summary><strong>Button</strong></summary>
+
+
+<details>
+<summary><strong>Button Code (Button Only)</strong></summary>
+
+
+JavaScript executed when the button is clicked. The code runs on the front end, not inside the builder.
+
+```js
+      // Example: show an alert on click
+      alert('Button clicked');
+```
+
+:::tip
+
+WordPress loads jQuery in no-conflict mode. Use `jQuery` instead of `$` in this field to avoid JavaScript errors.
+:::
+</details>
+</details>
+
+<details>
+<summary><strong>Lightbox</strong></summary>
+
+
+<details>
+<summary><strong>Lightbox Content</strong></summary>
+
+
+This section is available when **Click Action** is set to **Lightbox** and controls what opens in the lightbox overlay.
+
+<details>
+<summary><strong>Lightbox Content settings</strong></summary>
+
+
+<details>
+<summary><strong>Content Type</strong> <small>Default: HTML</small></summary>
+
+
+Selects whether the lightbox displays inline HTML or a video.
+
+<details>
+<summary><strong>HTML Content</strong></summary>
+
+
+<details>
+<summary><strong>HTML Content (HTML Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds custom HTML rendered inside the lightbox when **Content Type** is set to **HTML**.
+</details>
+</details>
+
+<details>
+<summary><strong>Video Link</strong></summary>
+
+
+<details>
+<summary><strong>Video Link (Video Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the video URL opened in the lightbox when **Content Type** is set to **Video**.
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Copy Text</strong></summary>
+
+
+<details>
+<summary><strong>Text to Copy (Copy Text Only)</strong></summary>
+
+
+Sets the text copied to the visitor's clipboard when the button is clicked. Available when **Click Action** is set to **Copy Text**.
+</details>
+
+<details>
+<summary><strong>Copy Success Message (Copy Text Only)</strong> <small>Default: Copied!</small></summary>
+
+
+Sets the confirmation message shown after the text is copied. Available when **Click Action** is set to **Copy Text**.
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the button width, spacing, colors, gradients, and border styling.
+
+<details>
+<summary><strong>Width</strong> <small>Default: Auto</small></summary>
+
+
+Sets whether the button sizes to its content, fills the available width, or uses a custom width.
+
+<details>
+<summary><strong>Align</strong></summary>
+
+
+<details>
+<summary><strong>Align (Auto and Custom Only)</strong> <small>Default: Left; Supports: Responsive</small></summary>
+
+
+Sets the horizontal alignment of the button wrapper when **Width** is set to **Auto** or **Custom**.
+</details>
+</details>
+
+<details>
+<summary><strong>Custom Width</strong></summary>
+
+
+<details>
+<summary><strong>Custom Width (Custom Only)</strong> <small>Default: 200; Supports: Responsive</small></summary>
+
+
+Sets a fixed button width in `px`, `vw`, or `%` when **Width** is set to **Custom**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner spacing around the button text and icon.
+</details>
+
+<details>
+<summary><strong>Text</strong></summary>
+
+
+The Text section controls button label colors and typography.
+
+<details>
+<summary><strong>Text Settings</strong></summary>
+
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the text color for the button label and icon.
+</details>
+
+<details>
+<summary><strong>Text Hover Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the text color for the button label and icon on hover.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+Controls the typography of the button label.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+This section is available when the selected icon is a Font Awesome DuoTone icon.
+
+<details>
+<summary><strong>DuoTone Icon Colors</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Icon Primary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the primary color of the selected DuoTone icon.
+</details>
+
+<details>
+<summary><strong>DuoTone Icon Secondary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the secondary color of the selected DuoTone icon.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Background</strong></summary>
+
+
+The Background section controls the button fill style, color, gradients, and hover animation.
+
+<details>
+<summary><strong>Background settings</strong></summary>
+
+
+<details>
+<summary><strong>Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects **Flat**, **Auto Gradient**, or **Advanced Gradient** for the button background.
+
+<details>
+<summary><strong>Background Color</strong></summary>
+
+
+<details>
+<summary><strong>Background Color (Flat and Auto Gradient Only)</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the button background color when **Background Style** is **Flat** or **Auto Gradient**. Auto Gradient uses this color to build its base gradient and falls back to `#a3a3a3` when no color is set.
+</details>
+</details>
+
+<details>
+<summary><strong>Background Hover Color</strong></summary>
+
+
+<details>
+<summary><strong>Background Hover Color (Flat and Auto Gradient Only)</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the hover background color when **Background Style** is **Flat** or **Auto Gradient**. When left empty, the hover state falls back to **Background Color**.
+</details>
+</details>
+
+<details>
+<summary><strong>Background Animation</strong></summary>
+
+
+<details>
+<summary><strong>Background Animation (Flat Only)</strong> <small>Default: Disabled; Supports: Responsive</small></summary>
+
+
+Enables or disables the button background transition when **Background Style** is set to **Flat**.
+</details>
+</details>
+
+<details>
+<summary><strong>Background Gradient</strong></summary>
+
+
+<details>
+<summary><strong>Background Gradient (Advanced Gradient Only)</strong></summary>
+
+
+Configures the default gradient colors, type, angle, and position when **Background Style** is set to **Advanced Gradient**.
+</details>
+</details>
+
+<details>
+<summary><strong>Background Hover Gradient</strong></summary>
+
+
+<details>
+<summary><strong>Background Hover Gradient (Advanced Gradient Only)</strong></summary>
+
+
+Configures the hover gradient colors, type, angle, and position when **Background Style** is set to **Advanced Gradient**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+
+<details>
+<summary><strong>Border Hover Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+Sets the border color used on hover and focus.
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

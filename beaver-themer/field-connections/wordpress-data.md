@@ -188,6 +188,20 @@ Outputs a post's comment URL. Example: `https://my-website.com/hello-world/#resp
 
 The Post/Page field connections work for all public post types this includes custom post types.
 
+:::tip Targeting a specific post with `post_id`
+
+Every Post/Page field connection accepts an optional [`post_id`](syntax.md#post-id) parameter. By default, these connections pull their data from the current post, the page being viewed, or the current item when used inside a loop or posts module. Adding a `post_id` parameter overrides this, telling the connection to pull from a specific post instead, regardless of where the shortcode is placed.
+
+You can combine `post_id` with a connection's other parameters:
+
+```css
+[wpbb post:title post_id='42']
+[wpbb post:excerpt post_id='42' length='30']
+[wpbb post:featured_image post_id='42' size='large' display='tag']
+```
+
+:::
+
 ### Post Title
 
 Outputs the post's title.
@@ -196,6 +210,10 @@ Outputs the post's title.
 [wpbb post:title]
 ```
 
+- Options
+
+  - **Post ID** (`post_id=''`) - Outputs the title of a specific post by its numeric ID. Leave blank to use the current page/post.
+
 ### Post ID
 
 Outputs the post's ID.
@@ -203,6 +221,10 @@ Outputs the post's ID.
 ```markup
 [wpbb post:id]
 ```
+
+- Options
+
+  - **Post ID** (`post_id=''`) - Outputs the ID of a specific post by its numeric ID. Leave blank to use the current page/post.
 
 ### Post Excerpt
 
@@ -216,6 +238,7 @@ Outputs the post excerpt.
 
   - **Length** - Accepts a number (number of words). Default is 55.
   - **More** - Accepts text to appear after the excerpt
+  - **Post ID** (`post_id=''`) - Outputs the excerpt of a specific post by its numeric ID. Leave blank to use the current page/post.
 
 - Example
 
@@ -231,6 +254,10 @@ Outputs the post's content.
 [wpbb post:content]
 ```
 
+- Options
+
+  - **Post ID** (`post_id=''`) - Outputs the content of a specific post by its numeric ID. Leave blank to use the current page/post.
+
 ### Post Custom Field
 
 Outputs [WordPress custom fields](https://wordpress.org/support/article/custom-fields/) added to the page, post or custom post type.
@@ -242,6 +269,7 @@ Outputs [WordPress custom fields](https://wordpress.org/support/article/custom-f
 - Options
 
   - **Key** - Your custom field key/name
+  - **Post ID** (`post_id=''`) - Outputs the custom field value from a specific post by its numeric ID. Leave blank to use the current page/post.
 
 - Example
 
@@ -274,6 +302,7 @@ Outputs the post's Link.
 - Options
 
   - **Link Text** - Choice of Post Title or Custom.
+  - **Post ID** (`post_id=''`) - Outputs the link to a specific post by its numeric ID. Leave blank to use the current page/post.
 
 - Example
 
@@ -289,6 +318,10 @@ Outputs the post's URL. Example: `https://my-website.com/hello-world/`.
 [wpbb post:url]
 ```
 
+- Options
+
+  - **Post ID** (`post_id=''`) - Outputs the URL of a specific post by its numeric ID. Leave blank to use the current page/post.
+
 ### Post Slug
 
 Outputs the post's slug. Example: `hello-world`.
@@ -296,6 +329,10 @@ Outputs the post's slug. Example: `hello-world`.
 ```markup
 [wpbb post:slug]
 ```
+
+- Options
+
+  - **Post ID** (`post_id=''`) - Outputs the slug of a specific post by its numeric ID. Leave blank to use the current page/post.
 
 ### Post Type
 
@@ -308,6 +345,7 @@ Outputs the post types name, singular name, or slug. Example: `post`.
 **Options**
 
 - **Display** - Choices are Slug, Singular Same, Name, or No Posts Found.
+- **Post ID** (`post_id=''`) - Outputs the post type of a specific post by its numeric ID. Leave blank to use the current page/post.
 
 :::tip
 
@@ -328,6 +366,7 @@ See the [PHP date() document](https://secure.php.net/manual/en/function.date.php
 - Options
 
   - **Format** - Accepts date formats
+  - **Post ID** (`post_id=''`) - Outputs the publish date of a specific post by its numeric ID. Leave blank to use the current page/post.
 
 - Example
 
@@ -352,6 +391,7 @@ See the [PHP date() document](https://secure.php.net/manual/en/function.date.php
 - Options
 
   - **Format** - Accepts date formats.
+  - **Post ID** (`post_id=''`) - Outputs the modified date of a specific post by its numeric ID. Leave blank to use the current page/post.
 
 - Example
 
@@ -373,6 +413,7 @@ Outputs the post's [featured image](https://wordpress.org/support/article/settin
   - **Display** - Image Tag ([`<img>`](https://www.w3schools.com/tags/tag_img.asp)), URL, Title, Caption, Description or Alt.
   - **Align** - default, left, center, right.
   - **Linked** - Enable or disable the link on the featured image.
+  - **Post ID** (`post_id=''`) - Outputs the featured image of a specific post by its numeric ID. Leave blank to use the current page/post.
 
 - Example
 
@@ -391,6 +432,10 @@ This field connection only appears in modules that have a gallery field setting,
 ```markup
 [wpbb post:attached_images]
 ```
+
+- Options
+
+  - **Post ID** (`post_id=''`) - Outputs the images attached to a specific post by its numeric ID. Leave blank to use the current page/post.
 
 ### Post Terms List
 
@@ -427,6 +472,9 @@ The list layouts are not hierarchical. For example, if you have both parent and 
 - **Linked** (`linked=''`)
   Enable or disable the link to the taxonomy term.
 
+- **Post ID** (`post_id=''`)
+  Outputs the terms assigned to a specific post by its numeric ID. Leave blank to use the current page/post.
+
 **Example**
 
 ```markup
@@ -458,6 +506,22 @@ Outputs the site's URL.
 ```markup
 [wpbb site:url]
 ```
+
+### Current Date
+
+Outputs the current date. Useful for displaying a live date in your layouts. If no format is provided, the date defaults to a format like "May 31, 2026."
+
+```markup
+[wpbb site:date format='F j, Y']
+```
+
+- Example:
+
+  `Last updated: [wpbb site:date format='F j, Y']`
+
+  - Output:
+
+    > Last updated: May 31, 2026
 
 ### Current Year
 

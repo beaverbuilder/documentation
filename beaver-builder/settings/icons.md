@@ -13,8 +13,6 @@ The **Icons** tab in the Beaver Builder settings lets you enable, disable icon s
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Icons** tab.
 
-![Access Icons tab](/img/beaver-builder/settings--icons--1.jpg)
-
 ## Included Icon Sets
 
 Beaver Builder comes with icon sets from three sources enabled by default:

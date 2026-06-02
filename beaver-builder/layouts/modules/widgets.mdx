@@ -1,0 +1,130 @@
+---
+title: WordPress Widgets
+sidebar_label: Widgets
+icon: "wordpress"
+tag: "Deprecated"
+description: "Use WordPress widgets inside Beaver Builder layouts for plugin-specific features not covered by native modules."
+---
+
+
+Use WordPress widgets inside Beaver Builder layouts for plugin-specific features not covered by native modules.
+
+:::warning
+
+On newer installations, the WordPress Widgets module is disabled by default. You can enable it at any time in [Beaver Builder module settings](MISSINGLINK).
+:::
+
+## Usage
+
+Any registered WordPress widget is automatically available as a module in the Beaver Builder editor. You'll find them listed in the WordPress Widgets group of the content panel. Drag and drop any widget module into your Beaver Builder layout without the need for a widgetized area.
+
+## Access Widgets
+
+:::note
+
+WordPress replaced traditional widgets with blocks starting in WordPress 5.8. For the best experience, use native Beaver Builder modules or third-party modules instead of legacy widgets.
+:::
+
+
+<details>
+<summary><strong>Launch Builder</strong></summary>
+
+
+Launch Beaver Builder on your page or post.
+</details>
+<details>
+<summary><strong>Open the Content Panel</strong></summary>
+
+
+Click the + button in the top-right corner to open the Content Panel.
+</details>
+<details>
+<summary><strong>Go to the Modules tab</strong></summary>
+
+
+Select the Modules tab (if not already selected), then scroll down to the WordPress Widgets subgroup.
+</details>
+<details>
+<summary><strong>Drag and drop</strong></summary>
+
+
+Drag the desired widget module into your layout and configure its settings in the panel that appears.
+</details>
+
+
+## Widget Module Settings
+
+Each Widget module includes a General settings tab, along with the standard Advanced tab.
+
+### General Tab
+
+The General tab displays the native settings for the specific widget you’ve added. Each widget includes its own built-in configuration form, the options shown here will vary from widget to widget.
+
+:::tip
+
+Refer to the widget plugin’s documentation for details on how to configure the widget and for an explanation of each available setting.
+:::
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.
+
+## Available Widgets
+
+The available widgets depend on your theme and installed plugins. Common widgets include:
+
+- Recent Posts
+- Categories
+- Tag Cloud
+- Custom HTML
+- Navigation Menu
+- Search
+- Calendar
+- RSS
+
+## Excluded widgets
+
+Beaver Builder excludes several core WordPress widgets because they overlap with existing Beaver Builder modules or do not work reliably in the builder context. These widgets remain available in native theme sidebars and widgetized areas.
+
+
+<details>
+<summary><strong>Excluded core classes</strong></summary>
+
+
+The following widget classes are excluded by default:
+
+- Audio
+- Image
+- Video
+- Gallery
+- Text
+- Custom HTML
+
+</details>
+
+<details>
+<summary><strong>WPML-specific exclusion</strong></summary>
+
+
+When WPML is active, Beaver Builder also excludes the WPML language switcher because it must run inside a registered sidebar.
+</details>
+
+
+## Third-party widget compatibility
+
+Third-party widgets are built primarily for the WordPress admin widget screen and may not fully initialize in front-end builder rendering. The most common issue is scripts or styles that only load in admin contexts.
+
+If a third-party widget does not render correctly in the builder, enqueue its required assets on the front end while Beaver Builder is active:
+
+```php title="functions.php"
+add_action( 'wp_enqueue_scripts', function() {
+  if ( FLBuilderModel::is_builder_active() ) {
+    wp_enqueue_script( 'my-widget-script-handle' );
+    wp_enqueue_style( 'my-widget-style-handle' );
+  }
+} );
+```
+
+If you do not know which asset handles to enqueue, check the widget plugin's documentation or contact that plugin's developer.

@@ -13,8 +13,6 @@ The **Modules** tab in the Beaver Builder settings lets you control which module
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Modules** tab.
 
-![Access the Beaver Builder setting's modules tab](/img/beaver-builder/settings--modules--1.jpg)
-
 ## Disable or Enable modules
 
 By default, when you disable modules in **Settings > Beaver Builder > Modules**, they do not appear in the module list in the Beaver Builder editor, but any modules of that type already used in layouts are still displayed on web pages.
