@@ -16,7 +16,7 @@ The following features have been added:
 
 Popup is a new module that allows you to create dialogs, popovers, and flyouts that appear over page content, making it ideal for newsletter opt-ins, promotions, confirmations, videos, and other content that should appear at the right moment.
 
-See the [Popup Module](../layouts/modules/popup.md) article for more information.
+See the [Popup Module](../layouts/modules/popup.mdx) article for more information.
 
 ### Maintenance Mode
 
