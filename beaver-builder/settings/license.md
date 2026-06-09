@@ -7,6 +7,8 @@ description: The License tab in the Beaver Builder settings is where you enter y
 
 The **License** tab in the Beaver Builder settings is where you enter your premium license key to unlock updates. This tab also lists which products are included in your license.
 
+![License Settings](/img/beaver-builder/settings--license--1.jpg)
+
 ## Access License tab
 
 1. Access your site's WordPress Admin Dashboard.

@@ -7,6 +7,8 @@ description: The Icons tab in the Beaver Builder settings lets you enable, disab
 
 The **Icons** tab in the Beaver Builder settings lets you enable, disable icon sets and upload custom icon sets which can be used in Beaver Builder modules.
 
+![Icon Settings](/img/beaver-builder/settings--icons--1.jpg)
+
 ## Access Icons tab
 
 1. Access your site's WordPress Admin Dashboard.

@@ -7,6 +7,8 @@ description: The Branding tab in the Beaver Builder settings lets you white labe
 
 The **Branding** tab in the Beaver Builder settings lets you white label the Beaver Builder plugin and BB Theme with your own brand and logo.
 
+![Brandin Settings](/img/beaver-builder/settings--branding--1.jpg)
+
 <div className="embed-responsive">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OQP1ZO7PMYQ?rel=0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>

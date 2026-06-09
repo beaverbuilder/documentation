@@ -7,6 +7,8 @@ description: The Welcome tab offers quick access to resources for getting starte
 
 The Welcome tab offers quick access to resources for getting started with Beaver Builder. You can create a new page, see what’s new, and find links to support and community resources.
 
+![Welcome Settings](/img/beaver-builder/settings--welcome--1.jpg)
+
 ## Access the Welcome tab
 
 1. Access your site's WordPress Admin Dashboard.

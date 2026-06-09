@@ -7,6 +7,8 @@ description: The Spacing section in the Advanced tab lets you change the default
 
 The **Templates** tab in the Beaver Builder settings lets you manage which templates are available in the builder, choose from various enablement options, and, for Unlimited license holders, override core templates with your own.
 
+![Templates Settings](/img/beaver-builder/settings--templates--1.jpg)
+
 ## Access Templates tab
 
 1. Access your site's WordPress Admin Dashboard.

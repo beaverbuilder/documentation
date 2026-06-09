@@ -7,6 +7,8 @@ description: The Blocks tab in the Beaver Builder settings lets you control whic
 
 The Blocks tab in the Beaver Builder settings allows you to enable module blocks. Module blocks are Beaver Builder modules developed as WordPress blocks for use in the WordPress block editor. These blocks maintain all the features and settings found in their module counterparts.
 
+![Blockse Settings](/img/beaver-builder/settings--blocks--1.jpg)
+
 ## What Module Blocks are available?
 
 Beaver Builder module blocks are available for the following modules:

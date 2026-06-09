@@ -7,6 +7,8 @@ description: The User Access tab in the Beaver Builder settings lets you limit w
 
 The **User Access** tab in the Beaver Builder settings lets you limit which Beaver Builder features users can access.
 
+![User Access Settings](/img/beaver-builder/settings--user-access--1.jpg)
+
 ## Access User Access tab
 
 1. Access your site's WordPress Admin Dashboard.

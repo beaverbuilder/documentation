@@ -3,10 +3,11 @@ id: version-control
 title: Version Control Tab
 sidebar_label: Version Control
 description: The Version Control tab allows you to quickly install any of the last 10 releases of Beaver Builder, Beaver Themer, or the Beaver Builder Theme (BB Theme).
-
 ---
 
 The Version Control tab allows you to quickly install any of the last 10 releases of Beaver Builder, Beaver Themer, or the Beaver Builder Theme (BB Theme) without manually downloading files or using the WordPress plugin or theme installer.
+
+![Version Control Settings](/img/beaver-builder/settings--version--1.jpg)
 
 ## Enable Version Control
 

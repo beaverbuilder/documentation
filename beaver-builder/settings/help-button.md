@@ -7,6 +7,8 @@ description: The Help tab in the Beaver Builder settings lets you enable or disa
 
 The **Help** tab in the Beaver Builder settings lets you enable or disable the Help button in the [Tools Menu](user-interface/tools-menu.md), or you can fine-tune which help options are available and add links to your own help services.
 
+![Help Button Settings](/img/beaver-builder/settings--help--1.jpg)
+
 ## Access Help Button
 
 1. Access your site's WordPress Admin Dashboard.
