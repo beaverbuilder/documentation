@@ -7,6 +7,8 @@ description: The Post Types tab in the Beaver Builder settings lets you control 
 
 The **Post Types** tab in the Beaver Builder settings lets you control which post types can use Beaver Builder.
 
+![Post Type Settings](/img/beaver-builder/settings--post-types--1.jpg)
+
 ## Access Post Types tab
 
 1. Access your site's WordPress Admin Dashboard.

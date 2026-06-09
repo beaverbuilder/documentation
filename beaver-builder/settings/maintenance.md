@@ -7,6 +7,8 @@ description: The Maintenance Mode tab in the Beaver Builder settings lets you co
 
 The Maintenance Mode tab in the Beaver Builder settings lets you control when your site displays a temporary maintenance page to visitors.
 
+![Maintenance Mode Settings](/img/beaver-builder/settings--maintenance--1.jpg)
+
 ## Usage
 
 The Maintenance Mode page lets you put the front end of your site behind a single layout while you work on it. Visitors see the layout you choose, users with a bypass role see the normal site along with an admin bar indicator.

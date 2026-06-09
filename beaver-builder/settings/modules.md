@@ -7,6 +7,8 @@ description: The Modules tab in the Beaver Builder settings lets you control whi
 
 The **Modules** tab in the Beaver Builder settings lets you control which modules will display in the [Content Panel](user-interface/content-panel.md) in the Beaver Builder editor. If there are some modules you never use, or some modules you don't want your clients to use, you can disable specific modules or even disable all modules.
 
+![Module Settings](/img/beaver-builder/settings--modules--1.jpg)
+
 ## Access Modules tab
 
 1. Access your site's WordPress Admin Dashboard.

@@ -10,6 +10,8 @@ import TabItem from '@theme/TabItem';
 
 The Advanced tab within Beaver Builder's settings provides options to enable or disable settings that typically require custom coding to achieve specific outcomes.
 
+![Advanced Settings](/img/beaver-builder/settings--advanced--1.jpg)
+
 ## Access Advanced
 
 1. Access your site's WordPress Admin Dashboard.

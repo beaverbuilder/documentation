@@ -7,6 +7,8 @@ description: The Tools tab provides a set of helpful controls, including options
 
 The **Tools** tab provides a set of helpful controls, including clearing third party cache plugin caches, enabling debug mode, managing prerelease updates, sending usage data, and uninstalling Beaver Builder. These tools help you troubleshoot issues and maintain a smooth building experience.
 
+![Tools Settings](/img/beaver-builder/settings--tools--1.jpg)
+
 ## Access Tools tab
 
 1. Access your site's WordPress Admin Dashboard.

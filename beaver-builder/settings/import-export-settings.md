@@ -7,6 +7,9 @@ description: The Advanced tab in the Beaver Builder settings is where you can en
 
 The Import / Export tab in the Beaver Builder settings allow you to export, import, and reset Beaver Builder [global settings](user-interface/global-settings.md). By using this feature, you are able to easily configure Beaver Builder global settings for other websites you may be working on.
 
+![Import & Export Settings](/img/beaver-builder/settings--import--1.jpg)
+
+
 :::warning Warning
 
 Exports completed with versions prior to **2.8.1** are not compatible with Beaver Builder version 2.8.1 or later, due to a change in format of export data.

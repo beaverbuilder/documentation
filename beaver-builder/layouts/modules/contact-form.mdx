@@ -562,18 +562,63 @@ The Advanced tab includes all the standard settings for margins, visibility, ani
 
 See the [Advanced tab](../advanced-tab/index.md) section for more information.
 
-## Feature Guides
+## Add a Google reCAPTCHA
 
-### Set up reCAPTCHA
+Google reCAPTCHA blocks automated spam submissions on the Contact Form and [Subscribe Form](subscribe-form.mdx) modules. You configure it in the module's **Captcha** tab using a key pair from Google. Beaver Builder supports three validation types, so you can choose between a visible checkbox and background scoring.
 
-Use this workflow when the form needs Google reCAPTCHA protection.
+### Before you begin
 
-1. Open the **Captcha** tab and set **reCAPTCHA Field** to **Show**.
-2. Choose **Validate Type** based on the submission flow: **"I'm not a robot" checkbox (V2)**, **Invisible (V2)**, or **Invisible (V3)**.
-3. Register the site in the Google reCAPTCHA Admin Console using the same validation type selected in the module.
-4. Use a different key pair for each validation type when the site uses both v2 and v3 forms.
-5. Paste the public key into **Site Key** and the private key into **Secret Key**.
-6. Set **Theme** to **Light** or **Dark** for visible widgets.
-7. If **Validate Type** is **Invisible (V3)**, add an **Action** value that matches the verification flow for that form.
-8. Publish the page and submit the form from the front end.
-9. If verification fails, recheck the selected validation type, hostname, and key pair.
+You need a few things in place before you configure the module.
+
+- A published page that contains a Contact Form or Subscribe Form module.
+- A Google account with access to the [reCAPTCHA admin console](https://www.google.com/recaptcha/admin).
+- The domain name where the form runs, so you can register it with Google.
+
+:::info
+  Each validation type uses a different key pair. If you switch a form between the checkbox and an invisible type, register new keys in the admin console and update the module.
+:::
+
+### Choose a reCAPTCHA type
+
+Pick the validation type that fits how you want visitors to verify themselves. You select the matching type later in the module's **Validate Type** setting.
+
+- **"I'm not a robot" checkbox (v2):** Visitors check a box, and Google may show an image challenge. This is the most visible option and the only one where the **Theme** setting (light or dark) changes the widget's appearance.
+- **Invisible (v2):** No checkbox appears. Verification runs when the visitor submits the form, and Google shows a challenge only when a submission looks suspicious. A reCAPTCHA badge displays in the corner of the page.
+- **Invisible (v3):** Runs silently and returns a score instead of showing a challenge. Beaver Builder accepts submissions that score 0.5 or higher. This type supports an optional **Action** label and also displays a badge.
+
+:::info
+  Google requires the reCAPTCHA badge on invisible (v2 and v3) forms, or a text disclosure that links to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms).
+:::
+
+### Get your reCAPTCHA keys
+
+Register your site with Google to generate the site key and secret key.
+
+1. Sign in to the [Google reCAPTCHA admin console](https://www.google.com/recaptcha/admin).
+2. Add a label so you can identify the site later.
+3. Select the reCAPTCHA type that matches the validation type you chose: **reCAPTCHA v2 "I'm not a robot" Checkbox**, **reCAPTCHA v2 Invisible badge**, or **reCAPTCHA v3**.
+4. Add your domain. Omit `http://`, `https://`, and any path.
+5. Accept the terms and submit the form.
+6. Copy the **Site Key** and **Secret Key**. Keep the secret key private.
+
+### Add reCAPTCHA to your form
+
+Enter your keys in the module to turn on protection.
+
+1. Open the form module's settings and select the **Captcha** tab.
+2. Set **reCAPTCHA Field** to **Show**.
+3. Set **Validate Type** to the type you registered with Google.
+4. Paste your **Site Key** and **Secret Key**.
+5. For the checkbox type, set **Theme** to **Light** or **Dark**.
+6. For **Invisible (v3)**, optionally enter an **Action** label.
+7. Save the module and publish the page.
+
+### Test your form
+
+Confirm the protection works from the front end after publishing.
+
+1. Open the published page in a logged-out browser or private window.
+2. Complete the form and submit it.
+3. For the checkbox type, confirm the widget appears and must be checked before the form sends.
+4. For invisible types, confirm the badge appears and the form submits without a challenge under normal use.
+5. Verify the notification email arrives at the configured address.
