@@ -16,7 +16,7 @@ The Advanced tab within Beaver Builder's settings provides options to enable or 
 2. Navigate to **Settings > Beaver Builder**.
 3. Then click the **Advanced** tab.
 
-![Beaver Builder Advanced settings](/img/beaver-builder/settings--advanced--1.jpg)
+![Beaver Builder Advanced settings](/img/beaver-builder/2.10--settings--advanced.jpg)
 
 ## Builder UI
 
