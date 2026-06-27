@@ -56,7 +56,7 @@ The two examples below demonstrate how `post_id` can be applied to different fie
 * **Example: Post Title** Display the title of post ID 42, regardless of which page the shortcode appears on.  
   
   ```css
-  [wpbb post:post_title post_id='42']
+  [wpbb post:title post_id='42']
   ```
 
 * **Example: Featured Image** Combine `post_id` with a connection's own modifiers to output post 42's featured image at a specific size.
