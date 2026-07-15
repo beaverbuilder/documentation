@@ -56,7 +56,7 @@ minor update), 2.2 (a major update), or 3.0 (a new major milestone release).
 
 The development process for major updates to the Beaver Builder plugin and theme includes an alpha release, beta release, and the final stable release. If you are interested in trying out the new features for the next release and want to test and provide feedback, we encourage you to try out alpha and beta releases.
 
-If you like to live on the edge and want to try out dev builds on your test site, see the last section of this article. These builds are even rougher than alpha builds and are for purposes of giving users a chance to try out features and provide feedback while they're still in the development stage. They are
+If you like to live on the edge and want to try out dev builds on your test site, see the last section of this article. These builds are even rougher than alpha builds and are for purposes of giving users a chance to try out features and provide feedback while they're still in the development stage. They are expected to be buggy and need experienced handlers.
 
 :::warning warning
 
