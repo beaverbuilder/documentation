@@ -30,6 +30,12 @@ Custom Attributes is a new Advanced tab section that allows you to add HTML attr
 
 See the [Custom Attributes](../layouts/advanced-tab/custom-attributes.md) article for more information.
 
+### Snapshots
+
+A new Snapshots feature has been added to the Import / Export tab in the Beaver Builder settings, allowing you to save up to five snapshots of your current settings and restore any of them at any time.
+
+See the [Snapshots section](../settings/import-export-settings.md#snapshots) for more information.
+
 ### [Post Type] Settings tab
 
 [Post Type] Setting is a new tab in the Layout Settings (formerly Layout CSS & JavaScript) panel that provides a convenient way to modify your page, post, product, or custom post type data without leaving the builder. It lets you edit key WordPress fields for the item you are currently building, with changes saved directly to the WordPress post rather than to Beaver Builder layout data.
