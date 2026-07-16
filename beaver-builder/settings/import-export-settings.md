@@ -40,7 +40,7 @@ To import global settings:
 Additionally, you can upload the _bb-global.txt_ file directly to the WordPress media library by clicking on **Media > Add New** in the **WordPress admin dashboard**. It can be used to store the file for safekeeping and import it later.
 :::
 
-## Settings snapshots
+## Snapshots
 
 Snapshots save your current settings on the server so you can restore a working configuration at any time. You can store up to five snapshots. Saved snapshots appear in a list showing each snapshot's name and creation date, newest first, with Restore and Delete buttons.
 
