@@ -40,6 +40,51 @@ To import global settings:
 Additionally, you can upload the _bb-global.txt_ file directly to the WordPress media library by clicking on **Media > Add New** in the **WordPress admin dashboard**. It can be used to store the file for safekeeping and import it later.
 :::
 
+## Settings snapshots
+
+Snapshots save your current settings on the server so you can restore a working configuration at any time. You can store up to five snapshots. Saved snapshots appear in a list showing each snapshot's name and creation date, newest first, with Restore and Delete buttons.
+
+### Snapshot Name
+
+An optional name for the snapshot, up to 100 characters. When left empty, the snapshot is named with the current date and time.
+
+### Save Snapshot
+
+Saves a snapshot of all current settings. A snapshot always includes the same data as an All Settings export: admin settings, global settings, global styles, and global colors. If five snapshots already exist, the oldest snapshot is removed to make room after you confirm.
+
+### Restore
+
+Applies the snapshot's settings to the site, overwriting the current values. Before the restore runs, you can choose to save a backup snapshot of the current settings.
+
+### Delete
+
+Permanently removes the snapshot after a confirmation.
+
+:::info
+  Beaver Builder offers to create a backup snapshot automatically before importing settings, restoring a snapshot, or resetting settings. Automatic backups are named Pre-Import Backup, Pre-Restore Backup, or Pre-Reset Backup with the date and time. If five snapshots already exist, the oldest is removed to make room.
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Reset Settings
 
 You can revert any changes you have made to Beaver Builder's global settings using the Reset Settings button. For this action to be completed, **confirmation is required**.
