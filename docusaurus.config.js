@@ -43,7 +43,7 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '🎉 Beaver Builder AI is on the way. The alpha is officially live, explore the possibilities <a href="https://www.wpbeaverbuilder.com/beaver-builder-ai/" target="_blank" rel="noopener">here!</a>',
+        '🎉 Beaver Builder AI is on the way. The beta is officially live, explore the possibilities <a href="https://www.wpbeaverbuilder.com/beaver-builder-ai/" target="_blank" rel="noopener">here!</a>',
       backgroundColor: "#1b7497",
       textColor: "#ffffff",
       isCloseable: true,
