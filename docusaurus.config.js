@@ -43,7 +43,7 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '🎉 Beaver Builder AI is on the way. The beta is officially live, explore the possibilities <a href="https://www.wpbeaverbuilder.com/beaver-builder-ai/" target="_blank" rel="noopener">here!</a>',
+        '🎉 <a href="https://www.wpbeaverbuilder.com/beaver-builder-ai/" target="_blank" rel="noopener">Beaver Builder AI</a> is coming. Be the first to know.',
       backgroundColor: "#1b7497",
       textColor: "#ffffff",
       isCloseable: true,
@@ -97,6 +97,13 @@ module.exports = {
           position: "left",
         },
         {
+          label: "BB AI",
+          type: "doc",
+          docId: "introduction/index",
+          docsPluginId: "bb-ai",
+          position: "left",
+        },
+        {
           label: "Assistant",
           type: "doc",
           docId: "introduction/index",
@@ -128,6 +135,10 @@ module.exports = {
             {
               label: "BB Theme",
               to: "/bb-theme",
+            },
+            {
+              label: "BB AI",
+              to: "/bb-ai",
             },
             {
               label: "Assistant",
@@ -227,6 +238,15 @@ module.exports = {
         path: "bb-theme",
         routeBasePath: "bb-theme",
         sidebarPath: require.resolve("./sidebarBBTheme.js"),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'bb-ai',
+        path: 'bb-ai',
+        routeBasePath: 'bb-ai',
+        sidebarPath: require.resolve("./sidebarBBAI.js"),
       },
     ],
     [
