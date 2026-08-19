@@ -2,6 +2,7 @@
 title: Introduction to Beaver Builder AI
 sidebar_label: Introduction
 description: An AI-powered design plugin for WordPress that generates fully editable layouts in both Beaver Builder and the Block Editor.
+slug: /
 ---
 
 :::warning
