@@ -23,7 +23,6 @@ module.exports = {
         "getting-started/requirements",
         "getting-started/install",
         "getting-started/connect-ai-provider",
-        "getting-started/mcp-vs-chat",
       ],
     },
     {
