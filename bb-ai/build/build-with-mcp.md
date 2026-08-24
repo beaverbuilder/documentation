@@ -79,9 +79,13 @@ These prompts are starting points for the three most common ways to begin:
 
 ## Pointing an agent at part of a page
 
-Without a canvas to click, the agent works out what you mean by reading the page first.
+Without a canvas to click, the agent works out what you mean by reading the page first. Name the page by title or URL and describe the section in words, for example "the pricing table on the Plans page".
 
-Name the page by title or URL and describe the section in words, for example "the pricing table on the Plans page". The agent searches your pages, reads a lightweight outline of the layout, then reads only the nodes it needs. Edits are applied to those nodes, so the rest of the page is left alone. The more specific your description, the less the agent has to guess.
+The agent searches your pages, reads a lightweight outline of the layout, then reads only the nodes it needs. Edits are applied to those nodes, so the rest of the page is left alone. The more specific your description, the less the agent has to guess.
+
+:::tip
+Labeling your rows, columns, and modules in the builder gives the agent clearer landmarks to work with. A column labeled "Pricing table" or a module labeled "Hero CTA button" shows up in the layout outline the agent reads, so a request like "update the Hero CTA button" lands on the right node the first time.
+:::
 
 ## Working with images
 
