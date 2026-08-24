@@ -52,4 +52,4 @@ Code extending the plugin targets the same baseline as the plugin itself:
 - PHP 8.2 or later.
 - WordPress 6.7 or later.
 
-Beaver Builder AI is beta software, and internal APIs may change between releases. The most stable extension points are the [hooks](hooks.md), which include the form action registry and the capability filters. Extensions that target the PHP layer follow standard WordPress plugin development practices.
+The most stable extension points are the [hooks](hooks.md), which include the form action registry and the capability filters. Extensions that target the PHP layer follow standard WordPress plugin development practices.

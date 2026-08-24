@@ -11,10 +11,6 @@ Beaver Builder AI registers its REST API under the `fl-design-system/v1` namespa
 
 **Base URL:** `{your-site}/wp-json/fl-design-system/v1`
 
-:::note
-Beaver Builder AI is beta software, and the REST API may change between releases.
-:::
-
 ## Authentication and permissions
 
 All endpoints use standard WordPress REST authentication: cookie plus `wp_rest` nonce inside WordPress, or [application passwords](https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/) for external access. Endpoints fall into four permission tiers:
