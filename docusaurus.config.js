@@ -43,7 +43,7 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '🎉 <a href="https://www.wpbeaverbuilder.com/beaver-builder-ai/" target="_blank" rel="noopener">Beaver Builder AI</a> is coming. Be the first to know.',
+        '🎉 <a href="https://www.wpbeaverbuilder.com/beaver-builder-ai/" target="_blank" rel="noopener">Beaver Builder AI</a> is here. Turn a prompt into an editable WordPress layout.',
       backgroundColor: "#1b7497",
       textColor: "#ffffff",
       isCloseable: true,
