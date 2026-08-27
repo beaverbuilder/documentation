@@ -50,24 +50,25 @@ The video below offers a comprehensive comparison, and for more details, please 
 
 The lite (free) version of Beaver Builder contains the following subset of modules:
 
-- [ACF Blocks](../developer/acf-blocks.md)
-- [Audio](../layouts/modules/audio.md)
-- [Box](../layouts/modules/box/index.md)
-- [Button](../layouts/modules/button/button.md)
-- [Button-Group](../layouts/modules/button-group.md)
-- [Callout](../layouts/modules/callout-and-call-to-action.md)
-- [CTA](../layouts/modules/callout-and-call-to-action.md)
-- [Heading](../layouts/modules/heading.md)
-- [HTML](../layouts/modules/html.md)
-- [Icon](../layouts/modules/icon-and-icon-group.md)
-- [Menu](../layouts/modules/menu/menu.md)
-- [North-Commerce](../layouts/modules/north-commerce.md)
-- [Numbers](../layouts/modules/number-counter.md)
-- [Photo](../layouts/modules/photo/photo.md)
-- [WordPress Patterns](../layouts/modules/wordpress-patterns.md) _(Reusable-Blocks)_
-- [Text](../layouts/modules/text.md)
-- [Sidebar](../layouts/modules/sidebar.md)
-- [Video](../layouts/modules/video/video.md)
+- [ACF Blocks](../developer/acf-blocks.mdx)
+- [Audio](../layouts/modules/audio.mdx)
+- [Box](../layouts/modules/box/index.mdx)
+- [Button](../layouts/modules/button/button.mdx)
+- [Button-Group](../layouts/modules/button-group.mdx)
+- [Callout](../layouts/modules/callout-and-call-to-action.mdx)
+- [CTA](../layouts/modules/callout-and-call-to-action.mdx)
+- [Heading](../layouts/modules/heading.mdx)
+- [HTML](../layouts/modules/html.mdx)
+- [Icon](../layouts/modules/icon.mdx)
+- [Menu](../layouts/modules/menu/menu.mdx)
+- [Numbers](../layouts/modules/number-counter.mdx)
+- [Photo](../layouts/modules/photo/photo.mdx)
+- [Text](../layouts/modules/text.mdx)
+- [Sidebar](../layouts/modules/sidebar.mdx)
+- [Star Rating](../layouts/modules/star-rating.mdx)
+- [Video](../layouts/modules/video/video.mdx)
+- [WordPress Patterns](../layouts/modules/wordpress-patterns.mdx) _(Reusable-Blocks)_
+- [WordPress Widgets](../layouts/modules/widgets.mdx) _(Disabled by default)_
 
 See the [Modules](../layouts/modules/index.md) section for a complete list of all available modules in the premium versions of Beaver Builder.
 
