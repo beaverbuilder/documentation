@@ -10,7 +10,8 @@ Review the WordPress, PHP, editor, and AI provider requirements for Beaver Build
 
 Before installing Beaver Builder AI, make sure you have the following:
 
-- A WordPress site running **WordPress 6.7** or later. Connecting an AI agent over MCP requires **WordPress 6.9** or later, as described in [MCP](#mcp).
+- A WordPress site running **WordPress 6.7** or later.
+- Connecting an AI agent over MCP requires **WordPress 6.9** or later, as described in [MCP](#mcp).
 - **PHP 8.2** or later.
 - Beaver Builder for the page builder integration, or the WordPress block editor on its own.
 

@@ -20,7 +20,7 @@ CSS and JavaScript are the only sections found in the Advanced tab that are enab
 
 The CSS section can be found in the [Advanced tab](index.md) and is available for all nodes (rows, columns, and modules). By using the CSS section, you can add custom CSS that will only be applied to that specific node.
 
-For example, suppose you have a [Text module](layouts/modules/text.md) with a node id class name of `fl-node-1d43q3gf56s` and you add custom CSS to style the `<p>` tags with a specific color or font size. The following CSS rule will only affect paragraph (`<p>`) tags for that Text module.
+For example, suppose you have a [Text module](layouts/modules/text.mdx) with a node id class name of `fl-node-1d43q3gf56s` and you add custom CSS to style the `<p>` tags with a specific color or font size. The following CSS rule will only affect paragraph (`<p>`) tags for that Text module.
 
 ```css
 p {

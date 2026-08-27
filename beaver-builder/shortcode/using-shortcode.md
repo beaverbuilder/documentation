@@ -47,9 +47,9 @@ You can insert Beaver Builder shortcodes into a Beaver Builder module or the Wor
 
 In a Beaver Builder module, insert the shortcode into any text or text editor field. Here are some examples of text fields in Beaver Builder modules:
 
-- [HTML module](layouts/modules/html.md)
-- [Text editor module](layouts/modules/text.md)
-- Text editor area in any module, such as the [Icon](layouts/modules/icon-and-icon-group.md), [Tabs](layouts/modules/tabs/index.md), or [Accordion](layouts/modules/accordion/index.md) modules.
+- [HTML module](layouts/modules/html.mdx)
+- [Text editor module](layouts/modules/rich-text.mdx)
+- Text editor area in any module, such as the [Icon](layouts/modules/icon.mdx), [Tabs](layouts/modules/tabs.mdx), or [Accordion](layouts/modules/accordion.mdx) modules.
 
 ### WordPress Editor & Widgets
 
