@@ -36,15 +36,17 @@ Go to **Beaver Builder > Design Systems** in the WordPress admin. (If Beaver Bui
 
 ## Creating a design system
 
-There is no blank "new design system" form and no **Add New** button. A design system is created for you in one of these ways.
+There is no blank "new design system" form and no Add New button. Instead, Beaver Builder AI builds a design system for you automatically the first time you ask it to build a page. As it works, the assistant creates a design system based on your request, assigns it to the current page, and generates the page you asked for.
+
+You can also ask the assistant to create a new design system.
 
 ### With the AI assistant
 
 1. Create a new page and launch Beaver Builder on it.
-2. Click **AI Chat** in the Beaver Builder toolbar.
-3. Ask the assistant to create a new design system, and say clearly that it should not use the current or default one. For example:
-
-   > Create a brand-new design system for a modern architecture studio. Do not use the current default design system. Use warm neutral colors, strong editorial typography, generous spacing, and minimal rounded corners. Generate a style-guide page so I can review the design.
+2. Click AI Chat in the Beaver Builder toolbar.
+3. Ask the assistant to create a new design system, and say clearly that it should not use the current or default one. For example:  
+  
+  > Create a brand-new design system for a modern architecture studio. Do not use the current default design system. Use warm neutral colors, strong editorial typography, generous spacing, and minimal rounded corners. Generate a style-guide page so I can review the design.
 
 4. Answer any questions about the brand, audience, colors, typography, or creative direction, then confirm the proposed direction.
 
