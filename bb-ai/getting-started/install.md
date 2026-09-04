@@ -34,4 +34,4 @@ After activating Beaver Builder AI, two new areas become available in the WordPr
 - **Design Systems** – Appears under the **Beaver Builder** menu. If Beaver Builder is not active, Design Systems appears as its own top-level menu.
 - **Beaver Builder AI settings** – Appears under **Settings > Beaver Builder AI**.
 
-The Beaver Builder AI settings page opens on the **Welcome** tab, where you can find video walkthroughs, the product roadmap, and answers to common questions.
+The Beaver Builder AI settings page opens on the **Welcome** tab. Its **Getting Started** section holds four short video walkthroughs (a product overview, the built-in chat, MCP connections, and design kits), alongside the product roadmap and answers to common questions.

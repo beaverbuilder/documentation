@@ -48,6 +48,7 @@ These are the ideas the rest of the documentation builds on.
 - **[Design systems](../design-foundations/design-systems.md)** — Tokens, shared styles, fonts, and creative guidance that keep every page consistent, and give the AI its context.
 - **[Design tokens](../design-foundations/design-tokens.md)** — Named CSS custom properties for colors, fonts, spacing, and more that the AI reads and applies consistently.
 - **[Design kits](../design-foundations/design-kits.md)** — Start from a bundled starter kit or import a kit built by an AI coding agent.
+- **[Custom module](../build/custom-module.md)** — Build sections from your own HTML, CSS, and JavaScript in Beaver Builder, and save them as reusable Components.
 - **[Forms](../build/forms.md)** — AI-generated forms with email, webhook, redirect, and custom submission actions, plus built-in spam protection.
 - **[Settings](../configuration/settings.md)** — Connect your AI providers, license, and Unsplash, choose the active model, and control chat access.
 - **[Modules and blocks](../developer/modules-and-blocks.md)** — Portable sections built from templates, scoped CSS, optional JavaScript, and auto-generated settings forms.
