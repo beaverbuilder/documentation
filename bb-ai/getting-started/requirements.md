@@ -13,7 +13,8 @@ Before installing Beaver Builder AI, make sure you have the following:
 - A WordPress site running **WordPress 6.7** or later.
 - Connecting an AI agent over MCP requires **WordPress 6.9** or later, as described in [MCP](#mcp).
 - **PHP 8.2** or later.
-- Beaver Builder for the page builder integration, or the WordPress block editor on its own.
+- **Beaver Builder 2.11** or later for the page builder integration, or the WordPress block editor on its own.
+- A user role with the `unfiltered_html` capability, as described in [User permissions](#user-permissions).
 
 ## AI Provider
 
@@ -33,12 +34,30 @@ Before entering an API key, set a monthly spending limit in the provider's billi
 
 Beaver Builder AI works with either of the following editors:
 
-- **Beaver Builder** – Use the AI chat from the Beaver Builder toolbar to generate pages and content in the page builder.
+- **Beaver Builder** version **2.11** or later – Use the AI chat from the Beaver Builder toolbar to generate pages and content in the page builder.
 - **WordPress block editor** – Use Beaver Builder AI from its sidebar panel without installing Beaver Builder.
 
 :::info
 Beaver Builder is only required for the page builder integration. You can use Beaver Builder AI with the WordPress block editor on its own.
 :::
+
+## User permissions
+
+The chat and generation features go to users who can create design system content, which by default means users with the WordPress `unfiltered_html` capability. On a typical single-site install that covers administrators and editors; on a multisite network, only super admins have it by default.
+
+:::warning
+If your `wp-config.php` contains `define( 'DISALLOW_UNFILTERED_HTML', true );`, WordPress removes the `unfiltered_html` capability from every user, including administrators. Beaver Builder AI's chat and generation features are then unavailable to everyone, regardless of role.
+:::
+
+To restore chat access for administrators without removing the constant, add the [`fl_ds_user_can_create_content` filter](../developer/hooks.md#fl_ds_user_can_create_content-filter) to a small plugin or your theme's `functions.php`:
+
+```php
+add_filter( 'fl_ds_user_can_create_content', function( $can ) {
+	return $can || current_user_can( 'manage_options' );
+} );
+```
+
+This bypass restores the built-in chat and generation features only. It does not work for MCP, so while `DISALLOW_UNFILTERED_HTML` is defined, an AI agent connected over [MCP](#mcp) cannot work on the site.
 
 ## MCP
 

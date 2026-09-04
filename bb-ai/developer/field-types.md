@@ -9,7 +9,7 @@ Reference for the built-in field types that power block settings forms in Beaver
 
 Every design system block presents a settings form whose fields use the types on this page. The form comes from one of two places:
 
-- **Derived from the template**, which is the default. Each Mustache placeholder becomes a field, and its type is inferred from the surrounding HTML: text inside a heading, an image from an `<img>` src, a link from an `<a href>`, a repeater from a repeat block. See [Writing the template](../build/modules-and-blocks.md#writing-the-template) for how the markup steers the inference.
+- **Derived from the template**, which is the default. Each Mustache placeholder becomes a field, and its type is inferred from the surrounding HTML: text inside a heading, an image from an `<img>` src, a link from an `<a href>`, a repeater from a repeat block. See [Writing the template](modules-and-blocks.md#writing-the-template) for how the markup steers the inference.
 - **A stored definition.** AI-generated blocks can carry an explicit form definition as a JSON tree, which takes precedence over inference when present. Users with code access can view it in the block's Code tab under the Config pane.
 
 Either way, each field maps to a Mustache variable in the block's template. Top-level fields are referenced as `{{settings.key}}`; fields inside a repeater are referenced by bare key within the repeater section. The JSON example below shows the stored definition shape:
@@ -164,7 +164,7 @@ Numeric rating backed by a visual indicator such as stars or pips. Supports the 
 
 Type `string`, default `''`.
 
-Internal field for choosing a repeater item's variation class. The plugin generates this field automatically when repeater items carry different CSS classes; it is not written by hand. See [Modules and blocks](../build/modules-and-blocks.md#variations) for how variations work.
+Internal field for choosing a repeater item's variation class. The plugin generates this field automatically when repeater items carry different CSS classes; it is not written by hand. See [Modules and blocks](modules-and-blocks.md#variations) for how variations work.
 
 ## Media fields
 
@@ -258,6 +258,8 @@ A container. Groups fields under a collapsible section heading. Sections use a `
 ### `repeater`
 
 A container. Lets editors add, remove, and reorder multiple instances of a set of fields. Each instance maps to an array item in the template data, iterated with a Mustache section.
+
+In Beaver Builder, a top-level repeater can also be bound to a dynamic data source — the page's main query or a custom post query — instead of manual items. See [Dynamic data in repeaters](../build/custom-module.md#dynamic-data-in-repeaters).
 
 | Configuration option | Type | Default | Description |
 |---|---|---|---|
