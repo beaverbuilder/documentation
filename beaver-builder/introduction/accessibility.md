@@ -65,7 +65,7 @@ conformance level for each:
 
 The [WAI-ARIA standard](https://www.w3.org/TR/wai-aria/#aria-label) is a set of specifications on how to use "aria labels" to provide semantic information about widgets, structures, and behaviors to assistive devices. Beaver Builder adds default ARIA labels and some modules have an aria setting that lets you assign your own ARIA label.
 
-Here's an example of HTML output from a [Menu module](/beaver-builder/layouts/modules/menu/menu.md), which has the custom ARIA label set to "primary menu":
+Here's an example of HTML output from a [Menu module](/beaver-builder/layouts/modules/menu/menu.mdx), which has the custom ARIA label set to "primary menu":
 
 ```html
 <nav aria-label="primary menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" class="focus">
