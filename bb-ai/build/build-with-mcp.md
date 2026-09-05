@@ -38,7 +38,7 @@ An agent works through a fixed set of tools, and those tools reach the whole sit
 - **Generate a style guide**. Produce a page that showcases a design system's colors, typography, and components.
 - **Edit existing pages**. Read a layout outline, rewrite content and code, change settings, add, move, and remove nodes in a batch, and update page CSS and JavaScript.
 - **Manage design systems**. Create a design system, update its tokens, shared CSS, JavaScript, and fonts, edit its creative guidance, and assign it to a page.
-- **Create Builder templates**. Save static, global, and component templates for reuse.
+- **Create Builder templates**. Save static, global, and component templates for reuse; see [Saving a Custom module as a Component](custom-module.md#saving-a-custom-module-as-a-component) for how components behave.
 - **Create Themer layouts**. Build a Themer layout and set the location rules that decide where it applies, when Beaver Themer is active.
 - **Bind dynamic field connections**. Connect post and site data to a layout, when Beaver Themer is active.
 - **Work across several pages at once**. One request can touch a set of pages, their design system, and a Themer layout.

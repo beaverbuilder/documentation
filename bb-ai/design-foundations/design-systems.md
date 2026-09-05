@@ -112,6 +112,10 @@ The default design system is the one applied when you start designing a page tha
 
 Only one system is the default at a time, and the first design system created on a site becomes the default automatically. Pages with a design system already assigned always keep their assigned system. To change the default, use **Make default** on the [Design Systems page](../configuration/design-systems.md#more-actions).
 
+:::note
+By default the default design system loads only on the pages that use it. Developers can load it site-wide, so it also styles posts, archives, and theme templates, with the [`fl_design_system_load_default_site_wide` filter](../developer/hooks.md#fl_design_system_load_default_site_wide-filter).
+:::
+
 ## Downloading a design system as a kit
 
 Export a design system as a design kit zip file to use it as the starting point for AI coding agents such as Claude Code or Cursor.
@@ -122,4 +126,4 @@ The kit contains the token set, shared CSS and JavaScript, creative guidance, an
 
 Deleting a design system removes its tokens, shared assets, fonts, and guidance, and cannot be undone.
 
-A design system can only be deleted while nothing uses it, so reassign or delete its pages, posts, and templates first. Delete from the [Design Systems page](../configuration/design-systems.md#more-actions).
+A design system can only be deleted while nothing uses it, so reassign or delete its pages, posts, and templates first. The Design Systems page's Used By list has a [Move to Trash action](../configuration/design-systems.md#item-actions) for clearing out content you no longer need. Delete from the [Design Systems page](../configuration/design-systems.md#more-actions).

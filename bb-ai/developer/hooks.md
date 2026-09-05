@@ -21,6 +21,23 @@ add_action( 'fl_design_system_booted', function ( $plugin, $settings, $chat_stor
 }, 10, 3 );
 ```
 
+### `fl_design_system_load_default_site_wide` (filter)
+
+Loads the default design system site-wide. By default the site's default design system only applies to pages as you build them, so the rest of the site — posts, archives, and theme templates with no design system of their own — keeps the theme's styling. Return `true` to load the default design system everywhere no other design system resolves.
+
+```php
+add_filter( 'fl_design_system_load_default_site_wide', '__return_true' );
+```
+
+The filter receives the current value, which defaults to `false`, and fills in only where nothing else resolves:
+
+- Pages with an assigned design system keep it, and a page explicitly set to no design system stays that way.
+- A Beaver Themer layout that carries its own design system still wins on the content it covers.
+- Already-built Beaver Builder pages are stamped with their design system at first save, so changing the site default later restyles the theme and unsaved pages while leaving built pages on the system they were built with.
+- With no site default set, the filter has no effect.
+
+Turning this on is meant to restyle the theme: the default design system's tokens, base CSS, and fonts load on every front-end request, including its unscoped `html`-level rules. Check the whole site, not just Beaver Builder pages, after enabling it.
+
 ## Form hooks
 
 These hooks extend what happens when a form is submitted.
@@ -90,9 +107,9 @@ These filters control who can use the plugin's content creation and AI features.
 
 ### `fl_ds_user_can_create_content` (filter)
 
-The central access gate for creating and editing raw design system content: block templates, CSS, and JavaScript. By default it returns `current_user_can( 'unfiltered_html' )`, which covers administrators and, on single-site installs, editors.
+The central access gate for creating and editing raw design system content: block templates, CSS, and JavaScript. By default it returns `current_user_can( 'unfiltered_html' )`, which covers administrators and, on single-site installs, editors. Note that defining `DISALLOW_UNFILTERED_HTML` in `wp-config.php` strips that capability from every user, so on such a site this filter is the only way to grant access to the chat and editors — and it does not extend to MCP, which stays unavailable while the constant is defined. See [User permissions](../getting-started/requirements.md#user-permissions).
 
-This filter applies everywhere raw content is written or shown: the chat in both editors, the block code editors, REST write routes, MCP abilities, kit imports, and the admin page's visibility.
+This filter applies everywhere raw content is written or shown: the chat in both editors, the block code editors, REST write routes, kit imports, and the admin page's visibility. MCP is the exception: it also requires the real `unfiltered_html` capability, so granting access through this filter alone does not enable an MCP connection.
 
 ```php
 add_filter( 'fl_ds_user_can_create_content', function ( bool $can ) {

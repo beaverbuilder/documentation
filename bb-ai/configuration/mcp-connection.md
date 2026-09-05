@@ -65,6 +65,8 @@ To authorize:
 
 To revoke access, click **Deauthorize**. Only administrators can authorize or deauthorize the site.
 
+If authorization fails, the page reports the specific reason, such as a missing license or the authorization service not responding in time, with a **Try Again** button. A timeout is usually temporary, so trying again is the right first move.
+
 ### Connect manually
 
 This method works for local development sites, staging environments, and any site without a public HTTPS URL. It authenticates with a WordPress application password through a small Node.js bridge that runs on the computer where your agent is installed.
@@ -121,6 +123,8 @@ After cloud authorization, add the MCP endpoint URL wherever your agent accepts 
 
 Different AI applications name MCP connections differently. Some call them servers, others call them connectors or apps, as ChatGPT does. If your agent is not listed above, look for an MCP or server configuration section in its settings and add the endpoint URL there.
 
+Each connected site announces itself to the agent under its own site title, so when you connect more than one site the agent can tell them apart and keeps its work pointed at the right one.
+
 For the manual method, the setup prompt configures the agent for you.
 
 ## Getting Started
@@ -130,6 +134,18 @@ This section covers what you need to know to start working with your site throug
 ## Frequently asked questions
 
 This section answers the questions that come up most often when connecting an AI agent to your site.
+
+## Troubleshooting
+
+Some hosting platforms run firewalls that block the incoming connection from an AI agent's service, even after your site is authorized. When that happens, the connection has to be opened on the host's side.
+
+### Claude can't connect on WP Engine hosting
+
+On WP Engine, authorization in the WordPress admin succeeds and the page shows **Authorized**, but Claude then fails to connect when it tries to use the MCP endpoint. WP Engine's platform firewall currently blocks the incoming connection from Anthropic, and only WP Engine can open it.
+
+Contact WP Engine support and ask them to apply an exception for Anthropic's published IP range, `160.79.104.0/21`, across the installs on your account.
+
+The exception is applied per install, so a new install where you want to use Beaver Builder AI needs another support request. Name every install you want covered in your first ticket to save the extra round trip.
 
 ## Available tools
 

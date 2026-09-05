@@ -39,9 +39,19 @@ If you already know which pictures you want, give them to the assistant and let 
 Click the **+** button in the chat panel and choose one of two options:
 
 - **Media Library** picks images you have already uploaded to WordPress.
-- **Upload Image(s)** adds new ones from your computer.
+- **Upload Image(s)** adds new ones from your computer and saves them to your media library.
 
-Your images appear as small thumbnails above the message box. Now describe what to do with them, for example "build a gallery section using these four photos". You can say where each one should go, or let the assistant decide.
+Your images appear as small thumbnails above the message box. Now describe what to do with them, for example "build a gallery section using these four photos". You can say where each one should go, or let the assistant decide. The assistant looks at the photos themselves, not just their file names, so it can design around their colors and content.
+
+### Placed on the page, or used as reference
+
+An image you attach can serve two purposes: a picture to put on the page, or a design to look at. The chat works out which you meant from your message, and tells you before anything is sent.
+
+When you press send, each thumbnail gets a badge showing whether that image **will be added to the page** or is **used as a design reference, not added to the page**. When every image is clearly meant for the page, the message sends without interruption. If any image came out as a reference, the send pauses with a notice so you can choose:
+
+- **Send as is** to keep the split the chat proposed.
+- **Add them to the page instead** to place every attached image.
+- **Cancel** to change your message first.
 
 ### Showing the assistant a design to copy
 

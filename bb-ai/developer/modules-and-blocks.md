@@ -56,7 +56,7 @@ The section appears on the page as it streams in, and every value you would want
 
 To build without the AI, use the **Custom** module in the **Basic** group of Beaver Builder's content panel. It begins with a small working template whose HTML, CSS, and JavaScript you edit directly.
 
-See [Custom module](custom-module.md).
+See [Custom module](../build/custom-module.md).
 
 In the block editor there is no equivalent. Design system sections do not appear in the block inserter, so they are created through the AI chat.
 
@@ -72,7 +72,9 @@ The module settings panel opens with a **Content** tab holding the generated set
 - **Design** styles any element in the module visually, with full CSS property controls including interaction states and your site's responsive breakpoints. Edits are written into the module's own CSS as classes, so anything you do visually stays visible and editable as code.
 - **Code** has panes for the module's HTML template, CSS, and JavaScript.
 
-Code access means the ability to create design system content combined with Beaver Builder's unrestricted editing access. Editors without it can still fill in the Content tab. See [Custom module](custom-module.md#who-sees-the-design-and-code-tabs).
+Code access means the ability to create design system content combined with Beaver Builder's unrestricted editing access. Editors without it can still fill in the Content tab. See [Custom module](../build/custom-module.md#who-sees-the-design-and-code-tabs).
+
+A module can also be saved as a reusable Beaver Builder Component, whose instances stay linked to it with per-instance editable fields. See [Saving a Custom module as a Component](../build/custom-module.md#saving-a-custom-module-as-a-component).
 
 </TabItem>
 <TabItem value="block-editor" label="Block editor">

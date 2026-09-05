@@ -23,6 +23,10 @@ Chat is on in Beaver Builder by default. Chat in the block editor is on by defau
 
 Where the toggle is on, the chat goes to users who can create design system content, which by default means users with the `unfiltered_html` capability, typically administrators and editors. Inside Beaver Builder those users also need Beaver Builder's own **Unrestricted Editing** permission on the [User Access tab](/beaver-builder/settings/user-access).
 
+:::note
+A site with `define( 'DISALLOW_UNFILTERED_HTML', true );` in `wp-config.php` has no users with `unfiltered_html` at all, so the chat is unavailable to everyone there, including administrators. See [User permissions](../getting-started/requirements.md#user-permissions).
+:::
+
 ## What the assistant can do
 
 The assistant works through a set of tools that read and change your site, always in the context of the current page and its design system.
@@ -64,11 +68,11 @@ Selection locks while the assistant is working, so nothing changes underneath a 
 
 Show the assistant what you want instead of describing it.
 
-- Click the **+** button to pick images from the **Media Library** or **Upload Image(s)** from your computer. The media library row needs a media library on the current surface, and the upload row needs the `upload_files` capability.
+- Click the **+** button to pick images from the **Media Library** or **Upload Image(s)** from your computer, which also saves them to the media library. The media library row needs a media library on the current surface, and the upload row needs the `upload_files` capability.
 - Paste or drag and drop images directly into the chat. JPEG, PNG, GIF, and WebP are supported.
 - Attach a screenshot of a design to have the AI build it.
 
-Images you pick from the media library are placed in the generated content as-is; screenshots and reference images guide the design.
+An image you attach through the **+** button is either placed on the page or used as a design reference, and the chat works out which you meant from your message. When you send, a badge on each thumbnail shows whether it will be added to the page or used as a reference only, and if any image landed on the reference side the send pauses so you can **Send as is**, choose **Add them to the page instead**, or **Cancel**. Pasted and dropped images always guide the design and are never placed on the page. See [Images](images.md#placed-on-the-page-or-used-as-reference).
 
 ## How changes are applied
 

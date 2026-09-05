@@ -74,7 +74,7 @@ The kit contains the token set, the shared CSS and JavaScript, the creative guid
 An ellipsis menu holding the two destructive or site-wide actions.
 
 - **Make default** sets this design system as the site default, the one applied to a page that does not have a system assigned yet. A confirmation dialog explains that existing pages are not affected. The item is disabled for the current default, with an "Already the default" tooltip.
-- **Delete** removes the design system, including its tokens, shared assets, fonts, and guidance. The item is disabled while any page, post, or template uses the system, with a "Design system in use" tooltip. Reassign or delete that content first. Deleting cannot be undone.
+- **Delete** removes the design system, including its tokens, shared assets, fonts, and guidance. The item is disabled while any page, post, or template uses the system, with a "Design system in use" tooltip. Reassign that content first, or trash it from the [Used By list](#item-actions). Deleting cannot be undone.
 
 :::warning
 Deleting a design system is permanent. Download a kit first if you want a copy of the tokens, styles, and guidance.
@@ -142,6 +142,7 @@ Both views offer the same actions per item, as icon buttons with tooltips.
 - **Duplicate** clones the post and opens the copy for editing straight away.
 - **View** opens the live page. This appears in list view only, and only for content with a public URL, so Beaver Builder templates do not have it.
 - **Preview** opens the preview lightbox. This appears in grid view only.
+- **Move to Trash** moves the item to the WordPress trash after a confirmation, and you can restore it from the trash as usual. This appears in list view only, and only for items your role is allowed to trash; on sites with the trash disabled the action does not appear at all. Trashed content no longer counts as using the design system, so trashing is the quickest way to clear the last few items before deleting a design system.
 
 ### The preview lightbox
 
