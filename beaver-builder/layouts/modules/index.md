@@ -27,9 +27,9 @@ There are three types of modules available:
 
 - **Content Modules:** These are standard modules that add content to the layout, such as Heading or Photo modules.
 
-- **Container Modules:** These modules act as containers, do not require rows or columns for structure, and offer specific layout controls. Examples include [Box](box/index.md) and [Loop](loop/index.md) modules.
+- **Container Modules:** These modules act as containers, do not require rows or columns for structure, and offer specific layout controls. Examples include [Box](box.mdx) and [Loop](loop.mdx) modules.
 
-- **Block Modules:** These modules are available in the [WordPress Block editor](module-blocks.md).
+- **Block Modules:** These modules are available in the WordPress Block editor.
 
 ### Inherit Styling
 
@@ -79,7 +79,7 @@ The following are the different module subgroups available.
 - **WordPress Widgets**
   Most WordPress widgets, including third-party ones, can be integrated into your Beaver Builder layout. Third-party widgets, however, may require custom code to work properly.
 
-  See the [WordPress Widgets](widgets.md) article for more information.
+  See the [WordPress Widgets](widgets.mdx) article for more information.
 
 - **Saved Modules**
   Any modules [saved for reuse](../reusable-content/index.md) will appear in the **Saved Modules group**, this includes [global modules](#global-saved-module) as well.

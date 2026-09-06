@@ -26,7 +26,7 @@ Smooth scrolling is intended to work for links that target nodes on the same pag
 
 ## Add the unique `ID` to a link
 
-You can add the unique `ID` to a a link option in a node, link in text within a [Text](layouts/modules/text.md) or [HTML](../layouts/modules/html.md) modules or WordPress menu item.
+You can add the unique `ID` to a a link option in a node, link in text within a [Text](../layouts/modules/rich-text.mdx) or [HTML](../layouts/modules/html.mdx) modules or WordPress menu item.
 
 ### Node
 
@@ -38,11 +38,11 @@ You can add the unique `ID` to a a link option in a node, link in text within a 
 
 ### Link within Text
 
-If the link is created within the [Text](layouts/modules/text.md) or [HTML](layouts/modules/html.md) modules rather than an module with a **Link** option, set up the link the same way, with `#my-unique-id`, as shown in this screenshot.
+If the link is created within the [../Text](layouts/modules/rich-text.mdx) or [HTML](../layouts/modules/html.mdx) modules rather than an module with a **Link** option, set up the link the same way, with `#my-unique-id`, as shown in this screenshot.
 
 ![](/img/beaver-builder/basics--smooth-scrolling--3.jpg)
 
-If you are using the [HTML module](layouts/modules/html.md), create your link using HTML like the example below.
+If you are using the [HTML module](../layouts/modules/html.mdx), create your link using HTML like the example below.
 
 ```markup
 <a href="#my-unique-id">My link text</a>

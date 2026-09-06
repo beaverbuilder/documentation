@@ -42,7 +42,7 @@ While Beaver Builder can't be used to edit entire WooCommerce individual product
 
 Upon installing WooCommerce and launching Beaver Builder, the WooCommerce module becomes accessible. This module offers various options for displaying WooCommerce content in your layout. It's worth noting that this module utilizes WooCommerce's built-in shortcodes, providing a quicker alternative compared to using WooCommerce shortcodes in an HTML module.
 
-See the [WooCommerce module](/layouts/modules/woocommerce.md) article for more information.
+See the [WooCommerce module](/layouts/modules/woocommerce.mdx) article for more information.
 
 ## WooCommerce Shortcodes
 

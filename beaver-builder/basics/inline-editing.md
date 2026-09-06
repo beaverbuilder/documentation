@@ -51,7 +51,7 @@ For Text editor fields (fields that use the WordPress classic editor/TinyMCE edi
 
 ### Headings
 
-For basic text fields, such as the **Heading** field in a [Heading module](layouts/modules/heading.md) the following formatting actions are available.
+For basic text fields, such as the **Heading** field in a [Heading module](layouts/modules/heading.mdx) the following formatting actions are available.
 
 ![Text editor toolbar actions](/img/beaver-builder/basics--inline-editing--3.jpg)
 
@@ -69,14 +69,14 @@ Inline editing allows you to see how your content will look while you type and i
 Any module that contains a text field or text editor area can be edited
 inline. Here are some examples:
 
-- [Button module](layouts/modules/button/button.md)
+- [Button module](layouts/modules/button/button.mdx)
   You can edit the text in the button.
 
-- [Callout module](layouts/modules/callout-and-call-to-action.md)
+- [Callout module](layouts/modules/callout.mdx)
   You can edit the heading, the text area, and the call-to-action text if you've
   selected text rather than a button..
 
-- [Number counter module](layouts/modules/number-counter.md)
+- [Number counter module](layouts/modules/number-counter.mdx)
   You can edit both the text and the number inline.
 
 ## Disable inline editing

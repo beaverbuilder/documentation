@@ -5,12 +5,7 @@ sidebar_label: Generated WordPress archives versus Beaver Builder layouts
 ---
 
 Instead of or in addition to [generated index or archive
-pages](/beaver-builder/layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives.md), you can display posts on static Pages with the Beaver Builder Posts modules. The Posts modules give you a wide range of
-choices about which posts to display, how to order the display (for example,
-by date, author, or category), and what to include in each listing (for
-example, with or without the content excerpt). You can also display the list
-as a grid, a slider, or a carousel, with several variations. For details, see
-[the article on the Posts modules.](/beaver-builder/layouts/modules/posts/posts-posts-carousel-and-posts-slider-modules-examples.md)
+pages](/beaver-builder/layouts/post-layouts/basics-how-wordpress-handles-blog-posts-and-archives.md), you can display posts on static Pages with the Beaver Builder Posts modules. The Posts modules give you a wide range of choices about which posts to display, how to order the display (for example, by date, author, or category), and what to include in each listing (for example, with or without the content excerpt). You can also display the list as a grid, a slider, or a carousel, with several variations.
 
 The following screenshot shows a list of Beaver Builder and non-Beaver Builder
 posts in a Posts module with a Columns layout.

@@ -14,7 +14,7 @@ to [show if you prefer](user-interface/global-settings.md#default-page-heading).
 
 ## Benefits for hiding page title
 
-There are several advantages to adding your own page titles in Beaver Builder using the [Heading module](layouts/modules/heading.md). As an example, styling your theme's page title may require custom CSS, whereas you can use the included styling options with the Heading module.
+There are several advantages to adding your own page titles in Beaver Builder using the [Heading module](layouts/modules/heading.mdx). As an example, styling your theme's page title may require custom CSS, whereas you can use the included styling options with the Heading module.
 
 ## Show or hide the page title
 
