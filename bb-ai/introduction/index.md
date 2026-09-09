@@ -5,12 +5,6 @@ description: An AI-powered design plugin for WordPress that generates fully edit
 slug: /
 ---
 
-:::warning
-
-These docs are a work in progress. You may encounter errors, missing information, or content that changes frequently.
-
-:::
-
 An AI-powered design plugin for WordPress that generates fully editable layouts in both Beaver Builder and the Block Editor.
 
 ## What is Beaver Builder AI?
