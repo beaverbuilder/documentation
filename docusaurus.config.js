@@ -62,12 +62,12 @@ module.exports = {
           className: "header-home-icon",
           "aria-label": "Docs Home",
         },
-        {
-          type: "docsVersionDropdown",
-          position: "left",
-          dropdownItemsAfter: [{ to: "/versions" }],
-          dropdownActiveClassDisabled: true,
-        },
+        // {
+        //   type: "docsVersionDropdown",
+        //   position: "left",
+        //   dropdownItemsAfter: [{ to: "/versions" }],
+        //   dropdownActiveClassDisabled: true,
+        // },
         {
           label: "Beaver Builder",
           type: "doc",

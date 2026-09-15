@@ -198,7 +198,7 @@ Key rules from the format contract:
 - All visible text, images, and meaningful icons should carry `data-field` so they are editable after import.
 - Any group of two or more same-kind siblings is a repeater. Never use numbered keys like `item1_title`; use one key inside a repeater.
 - Fields must not nest inside other fields; use sibling elements.
-- Repeater items needing different visual treatments use a descriptive CSS class per item, which the importer turns into a variation selector. See [Modules and blocks](../build/modules-and-blocks.md#variations).
+- Repeater items needing different visual treatments use a descriptive CSS class per item, which the importer turns into a variation selector. See [Modules and blocks](modules-and-blocks.md#variations).
 
 ## `globals/header.html` and `globals/footer.html` (optional)
 
