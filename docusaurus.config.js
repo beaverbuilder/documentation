@@ -62,33 +62,33 @@ module.exports = {
           className: "header-home-icon",
           "aria-label": "Docs Home",
         },
+        // {
+        //   type: "docsVersionDropdown",
+        //   position: "left",
+        //   dropdownItemsAfter: [{ to: "/versions" }],
+        //   dropdownActiveClassDisabled: true,
+        // },
         {
-          type: "docsVersionDropdown",
+          label: "Beaver Builder",
+          type: "doc",
+          docId: "introduction/index",
           position: "left",
-          dropdownItemsAfter: [{ to: "/versions" }],
-          dropdownActiveClassDisabled: true,
         },
-        // {
-        //   label: "Beaver Builder",
-        //   type: "doc",
-        //   docId: "introduction/index",
-        //   position: "left",
-        // },
-        // {
-        //   label: "Beaver Themer",
-        //   type: "doc",
-        //   docId: "introduction/index",
-        //   docsPluginId: "beaver-themer",
-        //   position: "left",
-        // },
         {
-          type: "docsVersionDropdown",
+          label: "Beaver Themer",
+          type: "doc",
+          docId: "introduction/index",
           docsPluginId: "beaver-themer",
           position: "left",
-          label: "Beaver Themer Versions",
-          dropdownItemsAfter: [{ to: "/versions" }],
-          dropdownActiveClassDisabled: true,
         },
+        // {
+        //   type: "docsVersionDropdown",
+        //   docsPluginId: "beaver-themer",
+        //   position: "left",
+        //   label: "Beaver Themer Versions",
+        //   dropdownItemsAfter: [{ to: "/versions" }],
+        //   dropdownActiveClassDisabled: true,
+        // },
         {
           label: "BB Theme",
           type: "doc",
@@ -218,17 +218,17 @@ module.exports = {
         path: "beaver-themer",
         routeBasePath: "beaver-themer",
         sidebarPath: require.resolve("./sidebarBeaverThemer.js"),
-        lastVersion: "current",
-        versions: {
-          current: {
-            label: "Beaver Themer 1.6",
-            path: "",
-          },
-          1.5: {
-            label: "Beaver Themer 1.5",
-            path: "1.5",
-          },
-        },
+        // lastVersion: "current",
+        // versions: {
+        //   current: {
+        //     label: "Beaver Themer 1.6",
+        //     path: "",
+        //   },
+        //   1.5: {
+        //     label: "Beaver Themer 1.5",
+        //     path: "1.5",
+        //   },
+        // },
       },
     ],
     [
@@ -267,17 +267,17 @@ module.exports = {
           path: "beaver-builder",
           routeBasePath: "beaver-builder",
           sidebarPath: require.resolve("./sidebarBeaverBuilder.js"),
-          lastVersion: "2.10",
-          versions: {
-            current: {
-              label: "Beaver Builder 2.11",
-              path: "",
-            },
-            "2.10": {
-              label: "Beaver Builder 2.10",
-              path: "2.10",
-            },
-          },
+          // lastVersion: "2.10",
+          // versions: {
+          //   current: {
+          //     label: "Beaver Builder 2.11",
+          //     path: "",
+          //   },
+          //   "2.10": {
+          //     label: "Beaver Builder 2.10",
+          //     path: "2.10",
+          //   },
+          // },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

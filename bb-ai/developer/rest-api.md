@@ -150,7 +150,7 @@ DELETE /generate/{job_id} Cancel a job
 GET /providers            List configured providers and their models
 ```
 
-Generation is rate limited per user (30 requests per minute, 3 concurrent jobs) and subject to the per-user credit quota; see [AI assistant](../ai-assistant.md#credits-and-limits).
+Generation is rate limited per user (30 requests per minute, 3 concurrent jobs) and subject to the per-user credit quota.
 
 ## Usage
 

@@ -50,23 +50,23 @@ The video below offers a comprehensive comparison, and for more details, please 
 
 The lite (free) version of Beaver Builder contains the following subset of modules:
 
-- [ACF Blocks](../developer/acf-blocks.mdx)
+- [ACF Blocks](../layouts/modules/acf-block.mdx)
 - [Audio](../layouts/modules/audio.mdx)
-- [Box](../layouts/modules/box/index.mdx)
-- [Button](../layouts/modules/button/button.mdx)
+- [Box](../layouts/modules/box.mdx)
+- [Button](../layouts/modules/button.mdx)
 - [Button-Group](../layouts/modules/button-group.mdx)
-- [Callout](../layouts/modules/callout-and-call-to-action.mdx)
-- [CTA](../layouts/modules/callout-and-call-to-action.mdx)
+- [Callout](../layouts/modules/callout.mdx)
+- [CTA](../layouts/modules/cta.mdx)
 - [Heading](../layouts/modules/heading.mdx)
 - [HTML](../layouts/modules/html.mdx)
 - [Icon](../layouts/modules/icon.mdx)
-- [Menu](../layouts/modules/menu/menu.mdx)
-- [Numbers](../layouts/modules/number-counter.mdx)
-- [Photo](../layouts/modules/photo/photo.mdx)
-- [Text](../layouts/modules/text.mdx)
+- [Menu](../layouts/modules/menu.mdx)
+- [Numbers](../layouts/modules/numbers.mdx)
+- [Photo](../layouts/modules/photo.mdx)
+- [Text](../layouts/modules/rich-text.mdx)
 - [Sidebar](../layouts/modules/sidebar.mdx)
 - [Star Rating](../layouts/modules/star-rating.mdx)
-- [Video](../layouts/modules/video/video.mdx)
+- [Video](../layouts/modules/video.mdx)
 - [WordPress Patterns](../layouts/modules/wordpress-patterns.mdx) _(Reusable-Blocks)_
 - [WordPress Widgets](../layouts/modules/widgets.mdx) _(Disabled by default)_
 

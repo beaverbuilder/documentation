@@ -163,7 +163,7 @@ The CSS and JavaScript tabs allow you to apply custom CSS and JavaScript globall
 ![Global Settings](/img/beaver-builder/user-interface--global-settings--1.jpg)
 
 :::tip
-[Debug Mode](troubleshooting/debugging/enable-beaver-builder-debug-mode.md) lets you access any code you've added to the **Global Settings** and [Layout CSS & JavaScript](layout-css-js.md) options, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
+[Debug Mode](troubleshooting/debugging/enable-beaver-builder-debug-mode.md) lets you access any code you've added to the **Global Settings** and [Layout Settings](layout-settings.md) options, so you can troubleshoot whether your custom code is causing a conflict with Beaver Builder.
 :::
 
 ### CSS tab

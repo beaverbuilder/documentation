@@ -9,7 +9,7 @@ The Events Date & Time module display an event's date and time e.g. August 1st @
 
 ![](/img/beaver-themer/integrations--tec--event-date-time--1.jpg)
 
-The Event Date & Time module is based on the Beaver Builder [Text Editor module](/beaver-builder/layouts/modules/text). It uses an instance of the classic WordPress editor and automatically inserts the [`the_events_calendar_date_and_time`](../field-connections.md#event-date-and-time) field connection into the text area, as shown in the image below.
+The Event Date & Time module is based on the Beaver Builder [Text Editor module](/beaver-builder/layouts/modules/rich-text). It uses an instance of the classic WordPress editor and automatically inserts the [`the_events_calendar_date_and_time`](../field-connections.md#event-date-and-time) field connection into the text area, as shown in the image below.
 
 ![](/img/beaver-themer/integrations--tec--event-date-time--2.jpg)
 
