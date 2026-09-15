@@ -153,7 +153,7 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints                 |                       <kbd>R</kbd>                       |
 | Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints (Reverse Order) |            <kbd>⇧ Shift</kbd> + <kbd>R</kbd>             |
 | Open [Global Settings](global-settings.md)                                                               |           <kbd>⌘ command</kbd> + <kbd>U</kbd>            |
-| Open [Layout Settings](layout-css-js.md)                                                                 |           <kbd>⌘ command</kbd> + <kbd>Y</kbd>            |
+| Open [Layout Settings](layout-settings.md)                                                                 |           <kbd>⌘ command</kbd> + <kbd>Y</kbd>            |
 | Display Module Search                                                                                    |           <kbd>⌘ command</kbd> + <kbd>I</kbd>            |
 | Save Layout                                                                                              |           <kbd>⌘ command</kbd> + <kbd>S</kbd>            |
 | Publish changes without leaving builder                                                                  |           <kbd>⌘ command</kbd> + <kbd>P</kbd>            |
@@ -178,7 +178,7 @@ Keyboard shortcut are customizable and let you remove, modify, or register your 
 | Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints                 |                    <kbd>R</kbd>                     |
 | Enter [Responsive Editing Mode](layouts/responsive-design/editor.md) & Cycle Breakpoints (Reverse Order) |          <kbd>⇧ Shift</kbd> + <kbd>R</kbd>          |
 | Open [Global Settings](global-settings.md)                                                               |           <kbd>Ctrl</kbd> + <kbd>U</kbd>            |
-| Open [Layout Settings](layout-css-js.md)                                                                 |           <kbd>Ctrl</kbd> + <kbd>Y</kbd>            |
+| Open [Layout Settings](layout-settings.md)                                                                 |           <kbd>Ctrl</kbd> + <kbd>Y</kbd>            |
 | Display Module Search                                                                                    |           <kbd>Ctrl</kbd> + <kbd>I</kbd>            |
 | Save Layout                                                                                              |           <kbd>Ctrl</kbd> + <kbd>S</kbd>            |
 | Publish changes without leaving builder                                                                  |           <kbd>Ctrl</kbd> + <kbd>P</kbd>            |

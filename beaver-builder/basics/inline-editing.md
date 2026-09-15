@@ -69,14 +69,14 @@ Inline editing allows you to see how your content will look while you type and i
 Any module that contains a text field or text editor area can be edited
 inline. Here are some examples:
 
-- [Button module](layouts/modules/button/button.mdx)
+- [Button module](layouts/modules/button.mdx)
   You can edit the text in the button.
 
 - [Callout module](layouts/modules/callout.mdx)
   You can edit the heading, the text area, and the call-to-action text if you've
   selected text rather than a button..
 
-- [Number counter module](layouts/modules/number-counter.mdx)
+- [Number counter module](layouts/modules/numbers.mdx)
   You can edit both the text and the number inline.
 
 ## Disable inline editing
