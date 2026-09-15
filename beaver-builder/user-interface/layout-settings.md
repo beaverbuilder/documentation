@@ -23,7 +23,7 @@ The option is only visible to users who can delete others' posts or have unfilte
 
 The CSS tab adds custom CSS that applies only to the page or post you are editing. Use it for one-off styling that you do not want loaded site-wide.
 
-The code editor includes syntax highlighting and runs only on the current layout. Styles added here are stored with the post and load alongside the layout on the front end. For site-wide CSS, use [Global Settings](/beaver-builder/essentials/global-settings) instead.
+The code editor includes syntax highlighting and runs only on the current layout. Styles added here are stored with the post and load alongside the layout on the front end. For site-wide CSS, use [Global Settings](global-settings.md) instead.
 
 :::tip
   Debug Mode lets you view any code added through Global Settings or Layout Settings, which makes it easier to identify whether your custom code is causing a conflict with Beaver Builder.
@@ -33,7 +33,7 @@ The code editor includes syntax highlighting and runs only on the current layout
 
 The JavaScript tab adds custom JavaScript that applies only to the page or post you are editing. Use it for behaviour that needs to run on a single page rather than across the whole site.
 
-The code editor includes syntax highlighting and runs only on the current layout. Scripts added here are stored with the post and execute on the front end after the layout renders. For site-wide JavaScript, use [Global Settings](/beaver-builder/essentials/global-settings).
+The code editor includes syntax highlighting and runs only on the current layout. Scripts added here are stored with the post and execute on the front end after the layout renders. For site-wide JavaScript, use [Global Settings](global-settings.md).
 
 <Warning>
   Custom JavaScript runs on the front end with the same privileges as your theme code. Only users who can edit unfiltered HTML can save changes here.

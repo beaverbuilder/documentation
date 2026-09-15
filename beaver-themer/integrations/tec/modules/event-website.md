@@ -5,7 +5,7 @@ sidebar_label: "Singular: Event Website"
 description: The article covers the Event Website module which displays an event's website link.
 ---
 
-The Event Website module is based on the Beaver Builder [Text Editor module](/beaver-builder/layouts/modules/text). It uses an instance of the classic WordPress editor and displays the [event website](https://theeventscalendar.com/knowledgebase/k/creating-an-event/#Event_Website) if one is added to your event.
+The Event Website module is based on the Beaver Builder [Text Editor module](/beaver-builder/layouts/modules/rich-text). It uses an instance of the classic WordPress editor and displays the [event website](https://theeventscalendar.com/knowledgebase/k/creating-an-event/#Event_Website) if one is added to your event.
 
 It does this by automatically inserting the [`the_events_calendar_website_link`](../field-connections.md#event-website-link) field connection into the text area, as shown in the image below.
 

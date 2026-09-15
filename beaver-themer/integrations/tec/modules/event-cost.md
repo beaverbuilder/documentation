@@ -5,7 +5,7 @@ sidebar_label: "Singular: Event Cost"
 description: The article covers the Event Cost module which displays an event's cost.
 ---
 
-The Event Cost module is based on the Beaver Builder [Text Editor module](/beaver-builder/layouts/modules/text). It uses an instance of the classic WordPress editor and displays the [event cost](https://theeventscalendar.com/knowledgebase/k/creating-an-event/#Event_Cost) if one is added to your events. A value of "Free" is returned when "0" is entered as the event cost.
+The Event Cost module is based on the Beaver Builder [Text Editor module](/beaver-builder/layouts/modules/rich-text). It uses an instance of the classic WordPress editor and displays the [event cost](https://theeventscalendar.com/knowledgebase/k/creating-an-event/#Event_Cost) if one is added to your events. A value of "Free" is returned when "0" is entered as the event cost.
 
 It does this by automatically inserting the [`the_event_calendar_cost`](../field-connections.md#event-cost) field connection into the text area, as shown in the image below.
 
