@@ -50,7 +50,7 @@ The video below offers a comprehensive comparison, and for more details, please 
 
 The lite (free) version of Beaver Builder contains the following subset of modules:
 
-- [ACF Blocks](../layouts/modules/acf-blocks.mdx)
+- [ACF Blocks](../layouts/modules/acf-block.mdx)
 - [Audio](../layouts/modules/audio.mdx)
 - [Box](../layouts/modules/box.mdx)
 - [Button](../layouts/modules/button.mdx)
