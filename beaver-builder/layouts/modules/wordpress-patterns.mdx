@@ -31,6 +31,45 @@ Beaver Builder does not add a single "WordPress Pattern" module to the Content P
 The **WordPress Patterns** subgroup appears in the Content Panel only after at least one pattern has been created and saved in the WordPress block editor. If no patterns exist yet, the subgroup is not registered.
 :::
 
+## Settings
+
+A WordPress Pattern module has two settings on its **General** tab. The pattern is preselected when you drag it in, so most of the time you only need to open the settings to change how shortcodes inside the pattern are handled.
+
+**WordPress Pattern**
+
+Selects which saved pattern this module displays. The dropdown lists every published pattern by title. It is set automatically when you drag a pattern in from the Content Panel, and you can switch to a different pattern here without replacing the module.
+
+**Render Shortcodes** (default: *No (Recommended)*)
+
+Controls whether shortcodes inside this pattern's content are run when the layout renders.
+
+By default, Beaver Builder does not run shortcodes found inside a WordPress Pattern. Patterns can include third-party blocks whose output is not fully trusted, so any shortcode tags in that output are neutralized and printed as plain text instead of executed.
+
+Choose **Yes** only when you know this specific pattern needs to run a shortcode and you trust everything it renders. The setting applies to this one module instance. Other WordPress Pattern modules on the site keep the default behavior.
+
+:::note
+
+The **Render Shortcodes** setting requires Beaver Builder 2.11.1 or later.
+:::
+
+### When to turn on Render Shortcodes
+
+The main case is a WooCommerce block checkout that falls back to the classic checkout shortcode.
+
+WooCommerce's block-based checkout has sub-flows, such as order-pay and order-received pages, that render through the classic `[woocommerce_checkout]` shortcode rather than through blocks. If your checkout page is built from a WordPress Pattern that contains the checkout block, those sub-flows produce a shortcode in the pattern's output. With the default setting that shortcode is neutralized and the customer sees the raw shortcode text instead of the checkout form.
+
+To fix this, open the settings for the pattern module on your checkout page and set **Render Shortcodes** to **Yes**. Leave every other pattern module at the default.
+
+:::warning
+
+Turning on **Render Shortcodes** runs every shortcode the pattern outputs, including any added by third-party blocks inside it. Only enable it for patterns whose content you control and trust.
+:::
+
+
+
+
+
+
 ## How patterns stay in sync
 
 Beaver Builder renders the selected pattern's saved block markup at the position where it is dropped, and re-reads the source `wp_block` post each time the layout renders. Editing the pattern in **Appearance > Editor > Patterns** (or **Pages > Patterns** depending on the WordPress version) updates every layout that references it, with no need to re-open the layout in Beaver Builder.
