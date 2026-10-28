@@ -69,7 +69,7 @@ This is a great way to style specific taxonomy terms differently than others.
 In this example, we're using the `equals` expression to check whether the event's end date is the same day as the start date. If the statement is `true`, only the start date displays. If the statement is `false` meaning the start date and end date do not match, both the start date and end date display.
 
 ```markup
-[wpbb-if post:the_events_calendar_start_date exp='equals' value='[wpbb post:the_events_calendar_end_date']']
+[wpbb-if post:the_events_calendar_start_date exp='equals' value='[wpbb post:the_events_calendar_end_date]']
 
   <p><strong>Date:</strong> [wpbb post:the_events_calendar_start_date format='']</p>
 
