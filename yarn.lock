@@ -5019,9 +5019,9 @@ jest-worker@^27.4.5, jest-worker@^27.5.1:
     supports-color "^8.0.0"
 
 joi@^17.6.0:
-  version "17.13.7"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-17.13.7.tgz#92e212c50dbbbcb1a1592424f84083eb265cc778"
-  integrity sha512-MF80Dm5Y2veNy8QWVx9Bj3ui4mo7+VPSPsR1M+oaHXV0Gx6zGX9a2F+OZG3Blby9tOlzU9Rs5FUimlEhbKtfnQ==
+  version "17.13.9"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-17.13.9.tgz#d763ef4b1e992a5e39fb36f2018671e489ca53e8"
+  integrity sha512-llFCT2rVtfwgBCaIqxtjim+iHqrgss4ONiGSYiiGH9jnjWq90ppSRffqmqKvwpa8W+YfILyQV6XyGcegXX2T4g==
   dependencies:
     "@hapi/hoek" "^9.3.0"
     "@hapi/topo" "^5.1.0"
@@ -6877,9 +6877,9 @@ sort-css-media-queries@2.0.4:
   resolved "https://registry.npmjs.org/sort-css-media-queries/-/sort-css-media-queries-2.0.4.tgz"
 
 source-map-js@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
-  integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.2.tgz#79fb88d97535a21cb27162cb05d211b67acea4ab"
+  integrity sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==
 
 source-map-support@~0.5.20:
   version "0.5.21"
