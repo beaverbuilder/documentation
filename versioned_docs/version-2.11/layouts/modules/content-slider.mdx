@@ -1,0 +1,780 @@
+---
+title: Content Slider
+sidebar_label: Content Slider
+icon: "gallery-horizontal"
+description: "Use Content Slider to display multiple slides with background images, video, or color, combined with optional headings, text, and call-to-action buttons."
+---
+
+
+Use Content Slider to display multiple slides with background images, video, or color, combined with optional headings, text, and call-to-action buttons.
+
+## Usage
+
+Use Content Slider to build a multi-slide presentation where each slide displays a background image, video, or solid color, combined with a heading, body text, and an optional call-to-action link or button. Slides cycle automatically on a configurable delay or respond to user navigation through arrows or dot controls.
+
+This module works well for hero sections, promotional banners, featured content rotators, and any layout where a sequence of visually distinct messages shares a single fixed space on the page.
+
+## Module Settings
+
+The Content Slider module settings control what each slide displays, how the slider cycles between slides, and the global dimensions and colors applied across all slides.
+
+### Slides Tab
+
+The Slides tab manages individual slides and their content, background, style, link, and mobile settings.
+
+<details>
+<summary><strong>Slides</strong></summary>
+
+
+The Slides section manages each slide displayed by the module.
+
+<details>
+<summary><strong>Slide Settings</strong></summary>
+
+
+<details>
+<summary><strong>Slide</strong></summary>
+
+
+Adds one or more slides to the module. Each slide has its own General, Style, Link, and Mobile settings.
+
+<details>
+<summary><strong>General tab</strong></summary>
+
+
+<details>
+<summary><strong>Slide Label</strong></summary>
+
+
+A label used to identify the slide in the Slides tab list. Not displayed on the front end.
+</details>
+
+<details>
+<summary><strong>Background</strong></summary>
+
+
+The Background section configures the visual background of the slide.
+
+<details>
+<summary><strong>Background Settings</strong></summary>
+
+
+<details>
+<summary><strong>Type</strong> <small>Default: Photo</small></summary>
+
+
+Selects the background type for the slide.
+
+- **Photo:** Uses an uploaded image as the slide background and reveals the Background Photo and Overlay Color fields.
+- **Video:** Uses embedded video code as the slide background. Content overlay settings are not available when this type is selected.
+- **Color:** Uses a solid or transparent fill as the slide background and reveals the Background Color field.
+- **None:** Renders the slide with no background.
+
+<details>
+<summary><strong>Photo Settings</strong></summary>
+
+
+<details>
+<summary><strong>Background Photo</strong></summary>
+
+
+Sets the background image for the slide.
+</details>
+
+<details>
+<summary><strong>Overlay Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds a color overlay on top of the background photo. Supports alpha transparency.
+</details>
+</details>
+
+<details>
+<summary><strong>Video Settings</strong></summary>
+
+
+<details>
+<summary><strong>Background Video Code</strong></summary>
+
+
+Paste the embed code for the video displayed as the slide background. Content overlay settings are not available when **Type** is set to **Video**.
+</details>
+</details>
+
+<details>
+<summary><strong>Color Settings</strong></summary>
+
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background fill color for the slide. Supports alpha transparency.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+The Content section configures the overlay content displayed over the slide background. Not available when **Background Type** is set to **Video**.
+
+<details>
+<summary><strong>Content Settings</strong></summary>
+
+
+<details>
+<summary><strong>Type (Content)</strong> <small>Default: None</small></summary>
+
+
+Selects the content layout displayed over the slide background.
+
+- **Text:** Displays a heading and body text over the background.
+- **Text & Photo:** Displays a heading, body text, and an uploaded photo.
+- **Text & Video:** Displays a heading, body text, and an embedded video.
+- **None:** Adds no content overlay to the slide.
+
+<details>
+<summary><strong>Text Content</strong></summary>
+
+
+<details>
+<summary><strong>Heading</strong></summary>
+
+
+Sets the heading text for the slide. Available when **Type** is set to **Text**, **Text & Photo**, or **Text & Video**.
+</details>
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+Sets the body text for the slide using the WordPress Classic Editor. Available when **Type** is set to **Text**, **Text & Photo**, or **Text & Video**.
+</details>
+</details>
+
+<details>
+<summary><strong>Photo (Text &amp; Photo Only)</strong></summary>
+
+
+<details>
+<summary><strong>Photo</strong></summary>
+
+
+Sets the foreground photo displayed alongside the slide text when **Type** is set to **Text & Photo**.
+</details>
+</details>
+
+<details>
+<summary><strong>Video (Text &amp; Video Only)</strong></summary>
+
+
+<details>
+<summary><strong>Video Embed Code</strong></summary>
+
+
+Paste the embed code for the foreground video displayed alongside the slide text when **Type** is set to **Text & Video**.
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Style tab</strong></summary>
+
+
+<details>
+<summary><strong>Position</strong> <small>Default: Left</small></summary>
+
+
+Sets the horizontal alignment of the content overlay within the slide.
+
+- **Left:** Aligns the content area to the left side of the slide.
+- **Center:** Centers the content area within the slide.
+- **Right:** Aligns the content area to the right side of the slide.
+
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Default: 50</small></summary>
+
+
+Sets the percentage width of the content area within the slide.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the overlay behind the slide text content. Applies to the content area independently of the slide background.
+</details>
+
+<details>
+<summary><strong>Background Height</strong> <small>Default: Auto</small></summary>
+
+
+Controls whether the text background overlay matches the content height or stretches to the full slide height.
+
+- **Auto:** The overlay fits the height of the text content.
+- **100%:** The overlay extends the full height of the slide.
+
+</details>
+
+<details>
+<summary><strong>Margins</strong> <small>Supports: Link Values</small></summary>
+
+
+Sets the outer margins around the slide content area.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Link Values</small></summary>
+
+
+Sets the inner padding within the slide content area.
+</details>
+
+<details>
+<summary><strong>Heading Tag</strong> <small>Default: h2</small></summary>
+
+
+Sets the HTML element used for the slide heading.
+
+- **h1** through **h6:** Renders the heading with the selected HTML heading tag.
+
+</details>
+
+<details>
+<summary><strong>Color (Heading)</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+Sets the color of the slide heading text.
+</details>
+
+<details>
+<summary><strong>Typography (Heading)</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the slide heading.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Color (Text)</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+Sets the color of the slide body text.
+</details>
+
+<details>
+<summary><strong>Typography (Text)</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the slide body text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Link tab</strong></summary>
+
+
+<details>
+<summary><strong>Link</strong></summary>
+
+
+Sets the link applied to the entire slide. When a call-to-action type is selected, this link is also used for the CTA text or button.
+
+This field also includes Link Attributes for opening the link in a new tab, adding `nofollow`, and forcing downloads.
+
+<details>
+<summary><strong>Link Attributes</strong></summary>
+
+
+<details>
+<summary><strong>Open in New Tab</strong></summary>
+
+
+Opens the link in a new browser tab or window instead of the current page. Helpful for external links or downloads, so visitors do not lose their place on the site.
+
+Uses `target="_blank"` in the link code.
+</details>
+
+<details>
+<summary><strong>No Follow</strong></summary>
+
+
+Tells search engines not to pass ranking authority through the link. Commonly used for sponsored links, affiliate links, or links that should not affect search rankings.
+
+Uses `rel="nofollow"` in the link code.
+</details>
+
+<details>
+<summary><strong>Force Download</strong></summary>
+
+
+Prompts the browser to download the linked file instead of opening it. Useful for PDFs, ZIP files, and other downloadable files.
+
+If supported by the browser and file type, the link uses the `download` attribute.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Type (CTA)</strong> <small>Default: None</small></summary>
+
+
+Selects the call-to-action element displayed on the slide.
+
+- **None:** No call-to-action element is shown.
+- **Link:** Displays the CTA as a text link using the slide link.
+- **Button:** Displays the CTA as a styled button and reveals button styling settings.
+
+<details>
+<summary><strong>CTA Text</strong></summary>
+
+
+<details>
+<summary><strong>Text</strong></summary>
+
+
+Sets the label for the call-to-action link or button. Available when **Type** is set to **Link** or **Button**.
+</details>
+</details>
+
+<details>
+<summary><strong>Button Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets an icon displayed on the CTA button. When an icon is selected, reveals the icon position and visibility settings.
+
+<details>
+<summary><strong>Button Icon Settings</strong></summary>
+
+
+<details>
+<summary><strong>DuoTone Primary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the primary color for DuoTone Font Awesome icons on the button.
+</details>
+
+<details>
+<summary><strong>DuoTone Secondary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the secondary color for DuoTone Font Awesome icons on the button.
+</details>
+
+<details>
+<summary><strong>Button Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Sets whether the icon appears before or after the button label.
+
+- **Before Text:** Displays the icon to the left of the button label.
+- **After Text:** Displays the icon to the right of the button label.
+
+</details>
+
+<details>
+<summary><strong>Button Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Controls when the button icon is visible.
+
+- **Always Visible:** Displays the icon at all times.
+- **Fade In On Hover:** Shows the icon only when the button is hovered.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner padding of the CTA button.
+</details>
+
+<details>
+<summary><strong>Button Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the button label color.
+</details>
+
+<details>
+<summary><strong>Button Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the button label color on hover and focus.
+</details>
+
+<details>
+<summary><strong>Button Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the CTA button label.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Button Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects the background fill method for the CTA button.
+
+- **Flat:** Uses a solid background color and reveals the background animation setting.
+- **Auto Gradient:** Generates an automatic gradient from the background color.
+- **Advanced Gradient:** Uses a custom gradient builder for the button background and hover state. Hides the solid color fields.
+
+<details>
+<summary><strong>Flat Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the solid background color of the CTA button.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the button background color on hover and focus.
+</details>
+
+<details>
+<summary><strong>Button Background Animation</strong> <small>Default: Disabled</small></summary>
+
+
+Animates the background color transition on hover when set to **Enabled**.
+
+- **Enabled:** Applies a CSS transition to the background color on hover.
+- **Disabled:** Changes the background color immediately on hover without animation.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Auto Gradient Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the base color used to generate the automatic gradient.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the hover color used to generate the automatic gradient on hover.
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced Gradient Settings</strong></summary>
+
+
+<details>
+<summary><strong>Background Gradient</strong></summary>
+
+
+Defines the custom gradient applied to the CTA button background.
+</details>
+
+<details>
+<summary><strong>Background Hover Gradient</strong></summary>
+
+
+Defines the custom gradient applied to the CTA button background on hover.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Border</strong> <small>Supports: Responsive</small></summary>
+
+
+Configures the border style, width, color, radius, and shadow for the CTA button.
+</details>
+
+<details>
+<summary><strong>Button Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the button border color on hover and focus.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Mobile tab</strong></summary>
+
+
+<details>
+<summary><strong>Type (Mobile Photo)</strong> <small>Default: Use Main Photo</small></summary>
+
+
+Selects the photo shown on mobile devices.
+
+- **Use Main Photo:** Displays the same background photo used on desktop.
+- **Choose Another Photo:** Reveals the Photo field to select a different image for mobile.
+- **No Photo:** Removes the background photo on mobile devices.
+
+<details>
+<summary><strong>Mobile Photo</strong></summary>
+
+
+<details>
+<summary><strong>Photo (Choose Another Photo Only)</strong></summary>
+
+
+Sets an alternative background photo displayed on mobile devices when **Type** is set to **Choose Another Photo**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Content Background Color</strong> <small>Default: #333333; Supports: Field Connections</small></summary>
+
+
+Sets the background color of the content area on mobile devices.
+</details>
+
+<details>
+<summary><strong>Title Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+Sets the slide heading color on mobile devices.
+</details>
+
+<details>
+<summary><strong>Text Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+Sets the slide body text color on mobile devices.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Slider Tab
+
+The Slider tab controls automatic playback, slide order, transition style, and navigation controls.
+
+<details>
+<summary><strong>Auto Play</strong> <small>Default: Yes</small></summary>
+
+
+Enables or disables automatic slide cycling.
+
+- **Yes:** Slides advance automatically and reveals the **Show Play/Pause** setting.
+- **No:** Slides only advance through user interaction.
+
+<details>
+<summary><strong>Play/Pause Settings</strong></summary>
+
+
+<details>
+<summary><strong>Show Play/Pause</strong> <small>Default: No</small></summary>
+
+
+Shows or hides a play/pause control on the slider when **Auto Play** is enabled.
+
+- **Yes:** Displays a play/pause button on the slider.
+- **No:** Hides the play/pause button.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Shuffle</strong> <small>Default: No</small></summary>
+
+
+Randomizes the slide order on each page load.
+
+- **Yes:** Plays slides in a random order.
+- **No:** Plays slides in the order they are defined.
+
+</details>
+
+<details>
+<summary><strong>Pause On Hover</strong> <small>Default: Yes</small></summary>
+
+
+Pauses automatic slide cycling when the cursor is over the slider.
+
+- **Yes:** Pauses the slider while the cursor is over it.
+- **No:** Continues cycling regardless of cursor position.
+
+</details>
+
+<details>
+<summary><strong>Loop</strong> <small>Default: Yes</small></summary>
+
+
+Controls whether the slider returns to the first slide after the last.
+
+- **Yes:** Cycles continuously from the last slide back to the first.
+- **No:** Stops at the last slide.
+
+</details>
+
+<details>
+<summary><strong>Delay</strong> <small>Default: 5</small></summary>
+
+
+Sets how long each slide remains visible before advancing, in seconds. The delay should be greater than the transition speed.
+</details>
+
+<details>
+<summary><strong>Transition</strong> <small>Default: Slide</small></summary>
+
+
+Sets the animation used when moving between slides.
+
+- **Slide:** Moves horizontally from one slide to the next.
+- **Fade:** Fades between slides.
+
+</details>
+
+<details>
+<summary><strong>Transition Speed</strong> <small>Default: 0.5</small></summary>
+
+
+Sets the duration of the slide transition animation, in seconds. The transition speed should be less than the delay.
+</details>
+
+<details>
+<summary><strong>Show Arrows</strong> <small>Default: No</small></summary>
+
+
+Shows or hides previous and next navigation arrows on the slider. Enabling arrows also reveals the Arrows section in the Style tab.
+
+- **Yes:** Displays navigation arrows and reveals arrow style settings in the Style tab.
+- **No:** Hides navigation arrows.
+
+</details>
+
+<details>
+<summary><strong>Show Dots</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides dot navigation indicators below the slider.
+
+- **Yes:** Displays a dot indicator for each slide.
+- **No:** Hides the dot indicators.
+
+</details>
+
+### Style Tab
+
+The Style tab controls the slider dimensions, global text and overlay colors shared across all slides, and arrow navigation appearance.
+
+<details>
+<summary><strong>Height</strong> <small>Default: 400</small></summary>
+
+
+Sets the minimum height of the slider in pixels. Slide content expands the height automatically when it exceeds this value.
+</details>
+
+<details>
+<summary><strong>Max Content Width</strong> <small>Default: 1100</small></summary>
+
+
+Sets the maximum width of the content area within each slide in pixels.
+</details>
+
+<details>
+<summary><strong>Text Color</strong> <small>Default: #ffffff; Supports: Field Connections</small></summary>
+
+
+Sets a text color shared across all slides. Individual slides also set their own text color defaults.
+</details>
+
+<details>
+<summary><strong>Text Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets a background color applied to the overlay behind text content across all slides. Supports alpha transparency.
+</details>
+
+<details>
+<summary><strong>Arrows</strong></summary>
+
+
+The Arrows section controls the appearance of slider navigation arrows. This section is available when **Show Arrows** is set to **Yes** in the Slider tab.
+
+<details>
+<summary><strong>Arrow Settings</strong></summary>
+
+
+<details>
+<summary><strong>Arrows Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of the arrow navigation buttons. Supports alpha transparency.
+</details>
+
+<details>
+<summary><strong>Arrows Background Style</strong> <small>Default: Circle</small></summary>
+
+
+Sets the shape of the arrow navigation button background.
+
+- **Circle:** Renders the arrow background as a circle.
+- **Square:** Renders the arrow background as a square.
+
+</details>
+
+<details>
+<summary><strong>Arrows Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the arrow icons.
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

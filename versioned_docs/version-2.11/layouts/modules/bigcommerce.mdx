@@ -1,0 +1,98 @@
+---
+title: BigCommerce Products
+sidebar_label: BigCommerce
+icon: "shopping-cart"
+description: "Use BigCommerce Products to display a filtered BigCommerce product gallery with optional pagination."
+---
+
+
+Use BigCommerce Products to display a filtered BigCommerce product gallery with optional pagination.
+
+:::note
+
+This module is available only when the [BigCommerce for WordPress](https://wordpress.org/plugins/bigcommerce/) plugin is installed and active.
+:::
+
+## Usage
+
+Use BigCommerce Products to render the BigCommerce product gallery inside a Beaver Builder layout. The module outputs the `[bigcommerce_product]` shortcode and can limit the gallery to featured products, on-sale products, or recently imported products, while optionally splitting results across multiple pages.
+
+Use BigCommerce Products on store landing pages, sale pages, featured product sections, and other layouts where you want BigCommerce catalog content inside Beaver Builder without building shortcode attributes by hand. It works well for quickly surfacing a focused slice of your catalog in a visual layout.
+
+## Module Settings
+
+The BigCommerce Products module settings control which products appear in the gallery and whether the results are paginated.
+
+### Content Tab
+
+The Content tab controls pagination and the product filters applied to the gallery output.
+
+<details>
+<summary><strong>Pagination</strong></summary>
+
+
+The Pagination section controls whether the gallery is split into multiple pages and how many products each page shows.
+
+<details>
+<summary><strong>Pagination Settings</strong></summary>
+
+
+<details>
+<summary><strong>Use Pagination</strong> <small>Default: No</small></summary>
+
+
+Splits the product gallery across multiple pages.
+
+<details>
+<summary><strong>Products per page</strong></summary>
+
+
+<details>
+<summary><strong>Products per page</strong> <small>Default: 8</small></summary>
+
+
+Sets how many products appear on each page when **Use Pagination** is set to **Yes**. The field supports values from 0 to 100.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Filters</strong></summary>
+
+
+The Filters section narrows which BigCommerce products appear in the gallery.
+
+<details>
+<summary><strong>Filter Settings</strong></summary>
+
+
+<details>
+<summary><strong>Show only featured products?</strong> <small>Default: No</small></summary>
+
+
+Limits the gallery to products marked as featured in BigCommerce.
+</details>
+
+<details>
+<summary><strong>Show only on-sale products?</strong> <small>Default: No</small></summary>
+
+
+Limits the gallery to products that are currently on sale.
+</details>
+
+<details>
+<summary><strong>Show only recent products?</strong> <small>Default: No</small></summary>
+
+
+Limits the gallery to recently imported products. On the front end, the shortcode treats recent products as items imported within the last two days unless that window is changed with the `bigcommerce/query/recent_days` filter.
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.
