@@ -14,7 +14,10 @@ module.exports = {
         type: "doc",
         id: "introduction/index",
       },
-      items: ["introduction/faq"],
+      items: [
+        "introduction/about-release",
+        "introduction/faq"
+      ],
     },
     {
       type: "category",

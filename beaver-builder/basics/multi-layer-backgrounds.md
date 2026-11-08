@@ -8,97 +8,111 @@ Multi-Layer Backgrounds enables you to add multiple backgrounds to an individual
 
 ![Multiple backgrounds](/img/beaver-builder/basics--multiple-backgrounds--1.jpg)
 
-## Background Types
+## Usage
 
-You can choose from three background types: Color, Photo, and Gradient. Other background types, such as video, are not available because videos cannot be added as a background using CSS.
+Use the Multiple Backgrounds field to stack more than one background on a single row, column, Box module, or Popup module. Each layer is a color, a gradient, or a photo, and Beaver Builder combines the layers into one CSS `background` value. A common use is a semi-transparent color layer over a photo, or a gradient fading into a solid color, without wrapping the content in extra elements.
 
-:::info
+Layers render as plain CSS, so background types that need JavaScript or markup, such as video, slideshow, and parallax, are not available as layers. In rows, those remain separate options under the **Advanced** group of the background **Type** setting.
 
-Please note that Field Connections and Global Colors are not currently supported.
+With Beaver Themer active, color and photo layers can be connected to [field connections](/beaver-themer/field-connections), so a single Themer layout shows each post's own featured image or custom field color as a background layer.
 
-:::
+## Availability
+
+The field appears under a different name depending on where you open it.
+
+- **Rows and columns:** In the **Style** tab, open the **Background** section and set **Type** to **Multiple Backgrounds**. The **Background Layers** field appears below it.
+- **Box module:** In the **Appearance** section, set **Background Type** to **Advanced**. The **Children** section has the same control for the background applied to each child module.
+- **Popup module:** In the **Appearance** section, the **Background** and **Backdrop** fields are always layer fields.
+
+The field is responsive, so each breakpoint can hold its own set of layers.
+
+## Add and manage layers
+
+The field starts empty and shows **Click + to add layers**. Each layer you add is listed as a row with a thumbnail and a title.
+
+1. **Add a layer.** Click the **+** button above the layer list and choose **Color**, **Gradient**, or **Photo**. New layers are added at the top of the list.
+2. **Configure the layer.** Click the layer's title to open its picker. Color layers open the color picker, while gradient and photo layers open a dialog with their own controls.
+3. **Repeat and save.** Add as many layers as you need in any combination, then click **Save**. The builder previews each change as you make it.
+
+### Layer order
+
+Layers render in list order. The first layer in the list is on top and the last layer is at the bottom, so an opaque layer hides everything below it.
+
+For example, a solid color layer above a photo layer hides the photo completely. To show the photo through the color, lower the color's alpha value in the [color picker](/beaver-builder/essentials/color-picker), or move the photo layer above the color.
+
+### Reorder, duplicate, and delete layers
+
+Drag a layer up or down the list to change its position. Hover over a layer to reveal its actions on the right-hand side of the row.
+
+- **Duplicate** copies the layer, including its current settings, directly below the original.
+- **Delete** removes the layer. Deleting a connected layer also removes its field connection.
+
+## Layer types
+
+Each layer type has its own picker and writes a different part of the final CSS.
 
 ### Color
 
-The Color background type applies a solid color to the entire row, column, or Box module. You can use the color picker to quickly adjust the color. The background color is then applied using CSS.
-
-See the [Color Picker](color-picker.md) article for more infomration.
+A color layer fills the whole element with a solid color. Click the layer to open the [color picker](/beaver-builder/essentials/color-picker), where you can set the color and its alpha value. Choosing a global or theme color from the picker's **Presets** tab stores the color as a CSS variable, so the layer follows that global color when it changes.
 
 ### Gradient
 
-The Gradient background type applies a CSS gradient effect to the entire row, column, or Box module. You can add multiple gradient colors to create unique gradient combinations.
+A gradient layer applies a CSS gradient. Click the layer to open the gradient dialog, which shows a live preview, a gradient bar with color stops, and the controls below.
 
-<details><summary>Adding Gradient Colors</summary>
+#### Type
 
-When you open the gradient color picker, it includes two preset color stop items by default, giving you a basic gradient to work with. To change a color in the gradient:
+Default: **Linear**
 
-1. Click on one of the color stop items in the gradient range control (the bar showing the gradient).
-2. The color swtch will update to show the color of the selected color stop.
-3. Click the color swatch to open the color picker.
-4. Choose your preferred color from the picker. Once selected, the gradient updates automatically.
-5. Repeat these steps to change the other color in the gradient.
+Selects the gradient shape. **Linear** fades along a straight line, **Radial** fades outward from the center, and **Conic** sweeps around the center.
 
-</details>
+#### Angle
 
-<details><summary>Adding More Colors</summary>
+Default: **0**
 
-You can add more color stops to the gradient:
+For linear gradients only. Sets the direction of the gradient in degrees, from 0 to 360.
 
-1. Click anywhere on the gradient range control where there isn’t already a color stop item.
-2. A new color stop item will appear at that spot.
-3. Click the new color stop item, then the color swatch, and use the color picker to choose a color for it.
+#### Color Space
 
-</details>
+Default: **OKLCH**
 
-<details><summary>Adjusting the Gradient</summary>
+Sets the color space the browser uses to blend between stops. Options are **sRGB**, **Linear sRGB**, **OKLAB**, and **OKLCH**. The OKLAB and OKLCH spaces avoid the muddy mid-tones that can appear when blending very different colors in sRGB.
 
-You can drag the color stop items left or right to adjust the position of each color in the gradient.
+#### Distribute color spots
 
-</details>
+Spaces every color stop evenly across the gradient bar. Use it after adding several stops to get a balanced starting point, then fine-tune individual positions.
 
-<details><summary>Delete a Gradient Item</summary>
+#### Color stops
 
-If you want to remove a color from the gradient:
+The gradient bar holds the stops that define the gradient. A new gradient starts with two stops.
 
-1. Click the gradient color swatch item you want to delete.
-2. Click the **Trash** button to the right-hand side of the color swatch.
+<details>
+<summary>Working with color stops</summary>
 
-</details>
+Click a stop to select it. The color picker, a position field, and a **Delete** button appear below the bar for the selected stop.
 
-<details><summary>Distribute Gradient Items</summary>
-
-If your gradient has multiple color stops, you can easily distribute them evenly across the gradient. Simply click the Distribute button, and all color stops will be spaced out evenly.
-
-This feature is especially helpful when working with several color stops and aiming for a balanced look. After distributing, you can still fine-tune the colors and positions to achieve your desired gradient effect.
+- **Add a stop:** Click an empty spot on the gradient bar to add a stop at that position. Click the swatch at either end of the bar to add a stop at the start or end.
+- **Change a stop's color:** Select the stop and choose a color in the picker. Global colors from the **Presets** tab are supported here too.
+- **Move a stop:** Drag the stop along the bar, or type a value from 0 to 100 in the position field.
+- **Delete a stop:** Select the stop and click the **Delete** button, double-click the stop, or press Backspace while it is selected. A gradient keeps at least two stops.
 
 </details>
 
 ### Photo
 
-The Photo background type applies an image to the entire row, column, or Box module. You can choose images from the WordPress media library, a URL, or an SVG using SVG code.
+A photo layer places an image on the element. Click the layer to open the photo dialog, choose where the image comes from, then set how it repeats, sits, and scales.
 
-The Photo background type offers the following options:
+#### Source
 
-<details><summary>WordPress Media Library</summary>
+Three buttons at the top of the dialog switch the image source.
 
-- **Select Image** - The Select Image button allows you to choose an image from the WordPress media library.
-- **WordPress Image Size** - Choose the WordPress media image size to use. You can choose from the default thumbnail, medium, large, or full size and any custom image size you have added.
-- **Replace** - Allows you to select a different image from the WordPress Media Library to replace the current background image.
-- **Remove** - Remove the image from the background.
+<details>
+<summary>Source options</summary>
 
-</details>
+- **Media Library:** Click **Select Image** to choose an image from the WordPress Media Library. Once an image is set, you can pick a different registered image size, click **Replace** to choose another image, or click **Remove** to clear it.
+- **URL:** Paste the direct URL of an image. A [field connection shortcode](/beaver-themer/field-connections/shortcode-syntax) also works here when Beaver Themer is active, although connecting the layer is the simpler option for post data.
+- **SVG:** Paste inline SVG markup. Beaver Builder encodes it as a data URL and uses it as the background image. Simple SVG code works best, for example:
 
-<details><summary>URL</summary>
-
-- **URL** - Enter or paste the URL of the image you want to use into the URL field.
-
-</details>
-
-<details><summary>SVG</summary>
-
-- **SVG Code** - Enter or paste the SVG code into the SVG Code field for the SVG you want to use. For best results, use simple SVG code, such as:
-
-  ```html
+  ```html title="Simple SVG background"
   <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
     <circle cx="50" cy="50" r="40" fill="blue" />
   </svg>
@@ -106,43 +120,51 @@ The Photo background type offers the following options:
 
 </details>
 
-<details><summary>Background Properties</summary>
+#### Repeat
 
-The background properties for repeat, position, size and clip to are available for all Photo options (WordPress Media Library, URL, and SVG).
+Default: **Repeat**
 
-- **Repeat** - Choose whether to repeat the image or not.
-- **Position** - Choose the position of the image.
-- **Size** - Choose the size of the image, either default, cover, or contain.
-- **Clip To** - Choose whether to clip the image to the background or not.
+Controls how the image tiles inside the element. Choose **No Repeat** for a single image, **Repeat** to tile in both directions, **Repeat Horizontal** or **Repeat Vertical** to tile along one axis, or **Space** and **Round** to tile without clipping the image.
 
-</details>
+#### Position
 
-## Using Multiple Backgrounds
+Anchors the image within the element, from **Top Left** through **Center** to **Bottom Right**. When no position is chosen the image uses the browser default, which is the top left corner.
 
-You can add as many background types as you like in any order and combination. To add multiple backgrounds to a row, column, or box module:
+#### Size
 
-1. Open a row, column, or Box module for editing.
-2. Navigate to the **Background** section and choose the **Multiple Backgrounds** option.
-3. Click the **+** icon to add a background type and select the one you want to add (color, photo, or gradient).
-4. Configure the background settings.
-5. Click the **+** icon again to add another background type.
-6. Repeat steps 3 and 4 for each background type you want to add.
-7. Click **Save** to save your changes.
+Default: **Default Size**
 
-### Background Layer Order
+Controls how the image scales. **Default Size** uses the image's own dimensions, **Cover** scales it to fill the element and crops any overflow, and **Contain** scales it so the whole image stays visible.
 
-The order in which background types are displayed on the page is determined by the order in which you add them to the Multi-layer Backgrounds option. The first background type added appears on top of the background, and the last background type added appears on the bottom.
+#### Clip To
 
-For example, if you add a color type first and a photo second, the photo background will appear behind the color background and isn't visible. In order to see the photo behind the color background, you must reduce the [background color alpha value](color-picker.md).
+Limits how far the layer extends. **Border** paints under the border, **Padding** stops at the inside edge of the border, and **Content** paints only behind the content area.
 
-### Reorder Background Types
+## Connect a layer to a field connection
 
-You can change the order of the background types any way you like. To reorder the background types, click and drag them up or down the list to the desired positions.
+With Beaver Themer active, color and photo layers can take their value from a [field connection](/beaver-themer/field-connections) instead of a fixed color or image. Gradient layers cannot be connected, and global colors are chosen through the color picker rather than the connections menu.
 
-### Duplicating Background Types
+:::note
 
-To duplicate a background type, click the **Duplicate** <i className="fa-regular fa-copy" /> icon to the right of the background type you want to duplicate.
+Layer connections require Beaver Themer. Without it, the connect button does not appear on layers, and existing connected layers render their fallback color or image.
 
-### Remove Background Types
+:::
 
-You can also remove a background type by clicking the **Trash** <i className="fa-solid fa-trash-can" /> icon to the right of the background type you want to remove.
+1. **Open the connections menu.** Hover over a color or photo layer and click the **+** icon that appears beside **Duplicate** and **Delete**. The menu lists only data sources that match the layer type: photo sources for photo layers and color sources for color layers.
+2. **Choose the data source.** Hover over the data source and click **Connect**. Photo layers can connect to sources such as **Post Featured Image**, **Author Picture URL**, **User Picture URL**, and image fields from integrations such as Advanced Custom Fields and WooCommerce. Color layers connect to color fields from integrations such as Advanced Custom Fields.
+3. **Configure the connection.** If the source has settings, a dialog opens. For example, **Post Featured Image** asks for the image size and a default image. Click **Save** in the dialog to complete the connection. Cancelling abandons it, and the layer keeps its previous value.
+
+### Work with a connected layer
+
+A connected layer shows a database icon and the data source's name in place of its color or image title. The thumbnail previews the value the connection currently returns for the page being edited.
+
+- **Edit the connection settings:** For a color layer, click the layer's row. For a photo layer, click the layer to open the photo dialog, then click **Edit**. The row only responds when the data source has settings to change.
+- **Keep the photo controls:** On a connected photo layer, the source buttons are replaced by a summary of the connection, but **Repeat**, **Position**, **Size**, and **Clip To** stay editable.
+- **Disconnect the layer:** Hover over the layer and click the unlink icon that replaces the **+** icon. The layer returns to its own color or image.
+- **Change the data source:** Disconnect the layer first, then connect it to the new source.
+
+### How do connected layers render?
+
+A connected layer keeps the color or image you picked as its fallback. On the front end, Beaver Builder writes the connected value into the element's own inline style, so every instance gets its own value. Duplicated rows, Loop module items, and repeater rows each show their own post's image or color, and connections made at a single breakpoint apply only at that breakpoint.
+
+When Beaver Themer is deactivated, or a connection returns no usable value for the current page, the layer falls back to the color or image you picked. Photo connections accept image URLs, and color connections accept hex, `rgb()`, `rgba()`, `hsl()`, and `hsla()` values.

@@ -1,83 +1,58 @@
 ---
-id: about-release
-title: About this Release
-sidebar_label: About this Release
-toc_min_heading_level: 2
-toc_max_heading_level: 2
+title: "About this Release"
+description: "Beaver Builder 2.12 includes the following new features and improvements."
 ---
 
-Beaver Builder 2.11 includes the following new features and improvements.
+Beaver Builder 2.12 includes the following new features and improvements.
 
-## :rocket: New Features
+## 🚀 New Features
 
 The following features have been added:
 
-### Popup Module
+### Filter Module
 
-Popup is a new module that allows you to create dialogs, popovers, and flyouts that appear over page content, making it ideal for newsletter opt-ins, promotions, confirmations, videos, and other content that should appear at the right moment.
+Filter is a new module in the Actions category that filters, searches, and sorts an existing Posts or Loop module on the same page. It supports taxonomy filters displayed as buttons or a dropdown, a search field with Search As You Type, and sort controls. Results update with AJAX, URLs are shareable, and the browser back button is supported. If AJAX is unavailable, the module falls back to a normal page reload.
 
-See the [Popup Module](../layouts/modules/popup.mdx) article for more information.
+Custom modules can also opt in to let the Filter module filter their repeater items.
 
-### Maintenance Mode
+See the [Filter Module](/beaver-builder/layouts/modules/filter) article for more information.
 
-Maintenance Mode is a new settings tab that allows you to temporarily show visitors a selected Beaver Builder layout while you update, launch, or work on your site. You can choose which roles bypass maintenance mode, schedule it for a specific time window, and return a 503 Service Unavailable status to help preserve search rankings.
+### Design and Code Tabs
 
-See the [Maintenance Mode](../settings/maintenance.md) article for more information.
+Any row, column, or module can now be styled from new Design and Code tabs in its settings panel, giving you a consistent place to adjust styling and add custom code regardless of the node type.
 
-### Custom Attributes
+### Icon Picker
 
-Custom Attributes is a new Advanced tab section that allows you to add HTML attributes to any row, column, or module. You can add attributes to the wrapper element, or, for modules, target an inner element with a CSS selector. This gives you more control over markup for accessibility, tracking, styling, JavaScript integrations, and other custom use cases.
+The icon picker has been rebuilt as a React UI with a category sidebar, icon name labels, a grid/list toggle, and search. Font Awesome has been updated to 7.3.1, with the Sharp and Sharp Duotone families added.
 
-See the [Custom Attributes](../layouts/advanced-tab/custom-attributes.md) article for more information.
+### Design System Core
 
-### Snapshots
+Beaver Builder now ships the Design System Core extension, so custom modules and design system styling render without the Beaver Builder AI plugin installed. The Design System Core extension is not bundled in the Lite build.
 
-A new Snapshots feature has been added to the Import / Export tab in the Beaver Builder settings, allowing you to save up to five snapshots of your current settings and restore any of them at any time.
+### Themer Connections for Multiple Backgrounds
 
-See the [Snapshots section](../settings/import-export-settings.md#snapshots) for more information.
+Color and image layers in the Multiple Backgrounds field can now be connected to Themer properties, such as the featured image or an ACF image or color, on rows, columns, Box, and Popup backgrounds.
 
-### [Post Type] Settings tab
+See the [Field Connections](/beaver-themer/field-connections) section for more information.
 
-[Post Type] Setting is a new tab in the Layout Settings (formerly Layout CSS & JavaScript) panel that provides a convenient way to modify your page, post, product, or custom post type data without leaving the builder. It lets you edit key WordPress fields for the item you are currently building, with changes saved directly to the WordPress post rather than to Beaver Builder layout data.
-
-The tab name changes to match the type of content you are editing. For example, it appears as Page Settings for pages, Post Settings for posts, Product Settings for WooCommerce products, and so on.
-
-### WordPress Font Library Support
-
-Beaver Builder now supports the WordPress Font Library, allowing fonts installed or uploaded through WordPress to be used in Beaver Builder typography settings. Once a font is added to the Font Library, it becomes available in modules that include typography settings.
-
-### `post_id` Parameter
-
-A new `post_id` parameter has been added to field connections, allowing you to pull content from a specific post instead of the current page, post, or loop item. This makes it possible to display data from another post anywhere in your layout, such as a featured post’s title, image, excerpt, or other connected field.
-
-See the [Post ID](/beaver-themer/field-connections/syntax#post-id) section for more information.
-
-## :boom: Improvements
+## 💥 Improvements
 
 The following improvements have been made:
 
-### Accessibility
+### Builder
 
-- Links that open in a new tab now include screen-reader text.
-- Global Styles adds outline styling controls for interactive elements.
-- Accordion module HTML structure improved through module deprecation for backward compatibility.
-- Accordion buttons now have unique accessible names.
-- Search module gets proper accessibility attributes.
-- Search module adds a new reveal layout.
-- Content Slider, Post Slider, and Post Carousel remove end navigation when looping is disabled and add aria-hidden where needed.
-- Number Counter wraps number prefix/suffix in spans through module deprecation for backward compatibility.
+- A new Global Settings option lets you choose whether a module dropped on an empty area of the layout is wrapped in a Row or a Box.
+- When a node has a custom label, the settings header, canvas overlays, and Outline Panel now show only that label instead of the module name alongside it.
+- The Builder Tour now adapts when Beaver Builder AI is active and adds steps for the Cloud, Assistant, and Query Monitor icons when those integrations are enabled.
 
-### User Interface (UI)
+### Components
 
-- Overlays now show parent container overlays similar to rows when enough space is available.
-- Overlays now render in the body instead of layout markup to avoid styling conflicts with the coming 3.0 design panel.
-- Outline Panel adds Save As to the context menu.
-- Outline Panel adds direct export for Globals/Components from the context menu.
-- [Applying a Template](../layouts/templates/index.md#apply-a-template-to-a-page-or-post) to a page or post now supports Prepend.
-- The settings panel has been updated with a cleaner, more modern design to make it easier to navigate and use.
+- Copy and Paste Settings is available again for component instances in the Outline Panel and the wrench menu. Pasting only works between instances of the same component.
 
-### Other Changes
+### Settings
 
-- Font Awesome 7 Support
-- Font Awesome Pro Style Support
-- Icon Field Connection Support
+- The core settings page chrome now matches the Design Systems settings page.
+
+### Performance
+
+- Publishing a global row, column, or module no longer runs a full-site scan on sites with large layout data, making publishing much faster on large sites.

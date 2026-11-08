@@ -132,6 +132,7 @@ module.exports = {
       },
       items: [
         "basics/typography",
+        "basics/icon-picker",
         "basics/multi-layer-backgrounds",
         "basics/color-picker",
         "basics/border",
@@ -225,6 +226,7 @@ module.exports = {
             "layouts/modules/content-slider",
             "layouts/modules/countdown",
             "layouts/modules/cta",
+            "layouts/modules/filter",
             "layouts/modules/gallery",
             "layouts/modules/heading",
             "layouts/modules/html",
@@ -260,6 +262,8 @@ module.exports = {
             "layouts/modules/wordpress-patterns",
           ],
         },
+        "layouts/code",
+        "layouts/design",
         {
           type: "category",
           label: "The Advanced Tab",
