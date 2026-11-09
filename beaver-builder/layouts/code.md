@@ -6,6 +6,12 @@ icon: "list-chevrons-up-down"
 
 Edit a row, column, or module’s CSS and JavaScript in a full-height code editor with live CSS preview on the canvas. The Custom Module also includes an HTML editor.
 
+:::info
+
+The Code tab is enabled by default only on new installations. If you upgraded to Beaver Builder 2.12 from an earlier version, go to **Settings → Advanced** and turn on **Enable Design and Code Tabs**.
+
+:::
+
 ## Usage
 
 The Code tab gives a row, column, or module a full-height code editor with syntax highlighting, line numbers, and live CSS preview on the canvas. Which panes it shows depends on what you open:

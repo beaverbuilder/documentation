@@ -21,9 +21,13 @@ See the [Filter Module](/beaver-builder/layouts/modules/filter) article for more
 
 Any row, column, or module can now be styled from new Design and Code tabs in its settings panel, giving you a consistent place to adjust styling and add custom code regardless of the node type.
 
+See the [Design Tab](../layouts/design) and [Code Tab](../layouts/code) articles for more information.
+
 ### Icon Picker
 
-The icon picker has been rebuilt as a React UI with a category sidebar, icon name labels, a grid/list toggle, and search. Font Awesome has been updated to 7.3.1, with the Sharp and Sharp Duotone families added.
+The icon picker has been rebuilt from the ground up with a category sidebar, icon name labels, a grid/list toggle, and search. Font Awesome has been updated to 7.3.1, with the Sharp and Sharp Duotone families added.
+
+See the [Icon Picker](../basics/icon-picker) article for more information.
 
 ### Design System Core
 
@@ -33,7 +37,7 @@ Beaver Builder now ships the Design System Core extension, so custom modules and
 
 Color and image layers in the Multiple Backgrounds field can now be connected to Themer properties, such as the featured image or an ACF image or color, on rows, columns, Box, and Popup backgrounds.
 
-See the [Field Connections](/beaver-themer/field-connections) section for more information.
+See the [Connect layer items to field connections](../basics/multi-layer-backgrounds.md#connect-a-layer-to-a-field-connection) section for more information.
 
 ## 💥 Improvements
 

@@ -8,6 +8,8 @@ import TabItem from '@theme/TabItem';
 
 Style any element in a row, column, or module visually with the Design tab, writing plain CSS into the node's own code settings.
 
+The Design tab is enabled by default only on new installations. If you upgraded to Beaver Builder 2.12 from an earlier version, go to **Settings → Advanced** and turn on **Enable Design and Code Tabs**.
+
 ## Usage
 
 The Design tab adds visual CSS styling to the settings of rows, columns, and modules, including third-party modules. Open a node's settings, click the paintbrush icon tab, and click any element inside that node on the canvas to style it: colors, typography, spacing, layout, effects, or any CSS property, with changes previewed live as you work.
