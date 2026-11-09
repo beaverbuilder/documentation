@@ -1,14 +1,28 @@
 ---
 title: Filter
 sidebar_label: Filter
-description: "Use the Filter module to let visitors filter, search, and sort the posts shown by a Posts, or Loop module on the same page."
+description: "Use the Filter module to let visitors filter, search, and sort the posts shown by a Posts or Loop module on the same page."
 ---
 
-Use the Filter module to let visitors filter, search, and sort the posts shown by a Post Grid, or Loop module on the same page.
+Use the Filter module to let visitors filter, search, and sort the posts shown by a Posts or Loop module on the same page.
 
 ## Usage
 
-Use Filter to add a filter bar that controls another module on the same page. The bar can include category or tag filters shown as buttons or dropdowns, a search field, a sort dropdown, a submit button, and a clear link. When a visitor changes a filter, the results update right away and the page address changes too, so visitors can share or bookmark the filtered view.
+Use Filter to add a filter bar that controls another module on the same page. The bar can include category or tag filters shown as buttons or dropdowns, a search field, a sort dropdown, a submit button, and a clear link. By default, changes are applied when the visitor clicks the submit button. Taxonomy buttons apply their term as soon as they are clicked, and the search field refreshes results while the visitor types when **Search As You Type** is on. Set **Submit** to **Auto on Change** to apply every change immediately. Each time results are filtered, the page address changes too, so visitors can share or bookmark the filtered view.
+
+### Supported Targets
+
+The Filter module can control these modules:
+
+- **Posts:** Filters the module's post query. Posts Slider and Posts Carousel are not supported.
+- **Loop:** Filters the module's post query. Requires [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/).
+- **Custom modules with a repeater:** Third-party and custom modules can opt in to have their repeater items filtered. For these targets the **Taxonomies** setting is ignored and the **Sort** control is not available.
+
+The target must be in the same layout as the Filter module. A Filter module placed in a Beaver Themer header or footer layout cannot reach a module in the page content, because **Auto-detect** and the **Target Module** list only include modules in the filter's own layout.
+
+### Pagination
+
+When the target module paginates its results, its pagination links load the requested page over AJAX, without reloading the page. Changing any filter value returns the results to page 1.
 
 ## Module Settings
 
@@ -27,7 +41,7 @@ The Target section connects the filter bar to the module it controls.
 
 **Target Module** · Default: `Auto-detect`
 
-Selects the Posts, or Loop module this filter controls. The dropdown lists every compatible module on the current page, labeled with the module name and its Advanced tab **Label**, its **ID**, or a fragment of its node ID. With **Auto-detect**, the filter controls the first compatible module on the page.
+Selects the Posts, Loop, or compatible custom module this filter controls. The dropdown lists every compatible module in the current layout, labeled with the module name and its Advanced tab **Label**, its **ID**, or a fragment of its node ID. With **Auto-detect**, the filter controls the first compatible module in the layout. Modules in other layouts, such as a Themer header or footer, are not listed. See [Supported Targets](#supported-targets) for the modules that can be filtered.
 
 **Scroll to Results** · Default: `Yes`
 
@@ -51,7 +65,7 @@ Shows or hides the taxonomy controls. When set to **Show**, the Taxonomies, Disp
 
 **Taxonomies** · Default: `Category`
 
-Selects one or more public taxonomies to offer as filters. Each taxonomy renders as its own labeled control using the taxonomy's singular name, for example **Category** or **Tag**.
+Selects one or more public taxonomies to offer as filters. Each taxonomy renders as its own labeled control using the taxonomy's singular name, for example **Category** or **Tag**. This setting is ignored when the target is a custom module that provides its own filters for its repeater items.
 
 </details>
 
@@ -151,14 +165,16 @@ Sets how filtered results are loaded.
 
 **URL Prefix**
 
-A short word, such as `shop`, prepended to this module's URL parameters. Only needed when a page has more than one Filter module, so their parameters stay separate. With no prefix, the parameters are the taxonomy slug, `search`, and `sort`. With a prefix of `shop`, they become `shop_category`, `shop_search`, and `shop_sort`.
+A short word, such as `shop`, prepended to this module's URL parameters. Only needed when a page has more than one Filter module, so their parameters stay separate. When the field is empty, the module uses the prefix `flf`, so the parameters are `flf_category`, `flf_search`, and `flf_sort`. With a prefix of `shop`, they become `shop_category`, `shop_search`, and `shop_sort`. A prefix is always applied because a bare taxonomy parameter such as `category` would send visitors to the WordPress term archive instead of the filtered page.
 
 **Submit** · Default: `Button Click`
 
 Sets when taxonomy and sort changes are applied.
 
-- **Button Click:** Changes apply when the visitor clicks the submit button. The Button Text field appears.
-- **Auto on Change:** Changes apply as soon as a taxonomy or sort value changes. The search field follows its own **Search As You Type** setting.
+- **Button Click:** Dropdown and sort changes apply when the visitor clicks the submit button. Taxonomy buttons still apply their term as soon as they are clicked. The Button Text field appears.
+- **Auto on Change:** Changes apply as soon as a taxonomy or sort value changes.
+
+With either setting, the search field follows its own **Search As You Type** setting.
 
 The submit button is omitted when it has nothing to submit: with **Display As** set to **Buttons** and no search or sort shown, each taxonomy button already applies its term on click.
 
@@ -305,3 +321,16 @@ The font settings for the submit button and the taxonomy buttons.
 The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
 
 See the [Advanced tab](../advanced-tab/index.md) section for more information.
+
+## Developer Notes
+
+Use the `fl_builder_filter_target_slugs` filter to add a module to the list of module types the Filter module can target. The filter receives an array of module slugs, which defaults to `post-grid` and `loop`, and must return the modified array. Modules added this way appear in the **Target Module** dropdown and are picked up by **Auto-detect**.
+
+```php
+add_filter( 'fl_builder_filter_target_slugs', function( $slugs ) {
+	$slugs[] = 'my-custom-module';
+	return $slugs;
+} );
+```
+
+Adding a slug is not enough on its own. A module is only filtered if it builds its post query with `FLBuilderLoop::query()`, or if it declares its own facets with a `get_filter_facets()` method and filters its own repeater items from the active values.
