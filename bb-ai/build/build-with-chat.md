@@ -34,14 +34,21 @@ The assistant works through a set of tools that read and change your site, alway
 - **Generate pages**. Compose a complete multi-section page from a description, streamed onto the canvas section by section.
 - **Generate blocks**. Create individual sections such as heroes, feature grids, testimonials, or pricing tables. Every value you would want to edit becomes a settings field automatically.
 - **Generate forms**. Forms are blocks too. Ask for a contact or signup form and configure its submission actions afterward; see [Forms](forms.md).
+- **Build from your real content**. Ask for a section of your latest posts, your categories, your authors, or your latest comments, and the assistant builds it from your site's data rather than made-up examples. Ask for posts from one category, by one author, or a particular set of posts and it shows only those.
+- **Add a single element**. Ask for one card, one button, or one list item inside an existing column and the assistant adds just that element, rather than building a whole section around it.
+- **Generate images**. With a Google Gemini API key connected, generate on-brand images for any image field or for a whole page; see [Images](images.md#generating-images-with-ai).
 - **Generate a style guide**. Produce a page that showcases the design system's colors, typography, and components.
 - **Edit the current page**. Read the layout, rewrite block content and code, change block settings, move and remove blocks, and edit page-level CSS and JavaScript. Native Beaver Builder modules and core WordPress blocks can be edited too, though only through an allow-listed set of their text fields.
 - **Manage the design system**. Read and update tokens, base CSS, reset CSS, shared JavaScript, fonts, and the creative guidance the AI maintains about your design.
 - **Set up a design system**. Choose which design system a page uses, or infer a new one by analyzing your existing site or theme styles so generated content matches what you already have.
 
-Stock photography is handled for you rather than requested. The assistant sources images for a generated page on its own; see [Images in your layouts](images.md).
+Stock photography is handled for you rather than requested. The assistant sources images for a generated page on its own, or generates them when image fill is turned on; see [Images in your layouts](images.md).
 
 The chat works on the page you have open, so it cannot create a page, reach another page, or build Themer layouts and Builder templates. Those need an agent connected over MCP; see [Build with MCP](build-with-mcp.md).
+
+:::note
+If you ask for live filtering or searching of a list of posts, the assistant does not build a form for it, since a generated form cannot filter your posts. It points you to Beaver Builder's [Posts](/beaver-builder/layouts/modules/post-grid) and [Filter](/beaver-builder/layouts/modules/filter) modules instead, which do that natively.
+:::
 
 ## Writing effective prompts
 
@@ -60,7 +67,7 @@ The AI already knows how to write HTML and CSS. Tell it what you want to achieve
 
 Clicking the canvas while the chat is open sets what your next request is about.
 
-In Beaver Builder you can select any node: a row, a column, or a module, whether it came from the AI or not. In the block editor you can select any block. A chip for what you picked appears above the input and the placeholder names it, so "Ask about this row..." or "Ask about this hero..." tells you the request will land there. From then on "make this darker" or "add a third column" applies to the right part of the page without describing it.
+In Beaver Builder you can select any node: a row, a column, or a module, whether it came from the AI or not. In the block editor you can select any block, including sections nested inside a Group or another container block, and the assistant can edit, move, and add sections inside those containers. A chip for what you picked appears above the input and the placeholder names it, so "Ask about this row..." or "Ask about this hero..." tells you the request will land there. From then on "make this darker" or "add a third column" applies to the right part of the page without describing it.
 
 Selection locks while the assistant is working, so nothing changes underneath a request in flight. Clicking a global node tells you the change has to be made on its master template instead.
 
@@ -87,8 +94,10 @@ Actions with wider impact pause for your confirmation with **Accept** and **Reje
 
 While the assistant is working, the send button becomes a stop control, and generation shows a live progress checklist on the tool card.
 
+In the block editor on WordPress 7.0 and later, CSS the assistant adds to a core block is saved in WordPress's own Custom CSS field for that block, so it stays visible and editable in the block's settings as well as in the chat.
+
 ## Conversation history
 
 Each page has its own conversation per user, stored on the server, so you can close the editor and pick up where you left off. To start fresh, click the trash icon in the chat panel and confirm; clearing deletes the conversation and cannot be undone.
 
-An information button in the panel opens a summary of the conversation's model: its name, provider, maximum output length, cost rates, and the tokens the chat has spent so far. The model and provider are chosen in [Settings](../configuration/settings.md#active-ai-provider), but a conversation locks to the model it started with on its first turn. Changing the setting later steers new conversations only, and the way to move an existing one is to clear it. If a locked model stops being available, the conversation reports that and asks you to start a new one.
+An information button in the panel opens a summary of the conversation's model: its name, provider, maximum output length, cost rates, the tokens the chat has spent so far, and, when image generation is in use, how many images the conversation has generated and what they cost. The model and provider are chosen in [Settings](../configuration/settings.md#active-ai-provider), but a conversation locks to the model it started with on its first turn. Changing the setting later steers new conversations only, and the way to move an existing one is to clear it. If a locked model stops being available, the conversation reports that and asks you to start a new one.

@@ -1,10 +1,10 @@
 ---
 title: Build with MCP
 sidebar_label: Build with MCP
-description: Connect an AI agent over MCP to build and edit pages, native Beaver Builder layouts, design systems, and Themer layouts from your own AI app.
+description: Connect an AI agent over MCP to build and edit pages, native Beaver Builder layouts, design systems, Themer layouts, and everyday WordPress content from your own AI app.
 ---
 
-Connect an AI agent over MCP to build and edit pages, native Beaver Builder layouts, design systems, and Themer layouts from your own AI app.
+Connect an AI agent over MCP to build and edit pages, native Beaver Builder layouts, design systems, Themer layouts, and everyday WordPress content from your own AI app.
 
 ## Connecting an agent
 
@@ -41,6 +41,10 @@ An agent works through a fixed set of tools, and those tools reach the whole sit
 - **Create Builder templates**. Save static, global, and component templates for reuse; see [Saving a Custom module as a Component](custom-module.md#saving-a-custom-module-as-a-component) for how components behave.
 - **Create Themer layouts**. Build a Themer layout and set the location rules that decide where it applies, when Beaver Themer is active.
 - **Bind dynamic field connections**. Connect post and site data to a layout, when Beaver Themer is active.
+- **Connect repeaters to your posts**. Bind a Custom module's repeater to your real posts, so a "latest articles" section lists what you have published rather than placeholder items.
+- **Manage WordPress content**. Create and edit posts, pages, and custom fields, organize categories and tags, edit menus, and work with the media library, with no page builder involved.
+- **Change what Posts and Loop modules show**. Read and change the query settings of a Posts or Loop module, so changing which posts a grid lists is a settings change rather than a rebuild.
+- **Run code on your site**. Optional PHP and WP-CLI tools, off by default, let an administrator's agent run code on the site; see [PHP and WP-CLI](../configuration/mcp-connection.md#php-and-wp-cli).
 - **Work across several pages at once**. One request can touch a set of pages, their design system, and a Themer layout.
 
 Which tools an agent sees depends on your site. Most of the content tools and the module and hybrid specs need Beaver Builder 2.11 or later, and the Themer tools and field connections need Beaver Themer to be active. The complete list is in [Available tools](../configuration/mcp-connection.md#available-tools).
@@ -52,7 +56,7 @@ A few things depend on being inside the editor, so they belong to the chat rathe
 - No live canvas. You review the result after the agent finishes rather than watching it build.
 - No canvas selection. You describe the page and section you mean instead of clicking it.
 - No screenshot or reference image as the source for a page, and no `.html` file upload.
-- No browsing or searching your media library.
+- No stock photo search and no image generation. Images come from your media library or by URL.
 - No inferring a design system from your existing site or theme styles.
 
 ## Writing effective prompts
@@ -68,6 +72,8 @@ Effective prompts cover:
 - **Layout**: "Three columns on desktop, stacked on mobile"
 - **Style**: "Use the primary color and heading font from the active design system"
 - **Format**: "Build it with native Beaver Builder modules"
+
+Whether a native page is built from rows and columns or from boxes is decided by the **Layout Structure** setting on the [Settings](../configuration/settings.md#layout-structure) tab rather than by the agent, so every page it builds uses the same structure. See [Rows and columns or boxes](native-modules.md#rows-and-columns-or-boxes).
 
 These prompts are starting points for the three most common ways to begin:
 
@@ -89,11 +95,11 @@ Labeling your rows, columns, and modules in the builder gives the agent clearer 
 
 ## Working with images
 
-An agent cannot see your media library, so images come in by URL.
+An agent can browse your media library through the WordPress site tools and place images that are already uploaded, or bring in new ones by URL.
 
 Give the agent a direct image URL and it downloads the file into your media library, then uses it in the layout. Only `http` and `https` URLs are accepted, private and internal hosts are blocked, and SVG files are refused. Asking for the same URL twice reuses the existing attachment instead of creating a duplicate, and the connected user needs the `upload_files` capability.
 
-To use an image that is already in your media library, open the page in the editor afterward and swap the image on the canvas, or use the built-in chat, which can insert from the library directly.
+If the agent writes a broken or made-up image URL into a page, the plugin replaces it with a real stock photo, the same as it does for pages built in the chat, so a page never arrives with empty image boxes. Image generation and Unsplash search belong to the built-in chat; see [Images](images.md#adding-images-with-an-mcp-connection).
 
 ## How changes are applied
 
@@ -105,6 +111,16 @@ Nothing an agent does reaches your visitors without a deliberate step, and the p
 - **Outside edits are detected.** Every edit is tracked with a content hash, so if you change a page outside the AI, the agent must get your confirmation before continuing. If the live page changes while a staged draft exists, publishing is blocked until you review the differences.
 
 Approval prompts come from your agent rather than from the plugin. There are no Accept and Reject buttons as there are in the chat, so how much an agent confirms before acting depends on the agent and the permissions you have given it. Token and asset updates affect every page using that design system, which is worth keeping in mind when you approve one.
+
+## What the plugin corrects
+
+A page an agent builds passes through the same checks as a page built in the chat, so a few common mistakes are fixed before the page lands.
+
+- **Spacing** written as fixed values is corrected to your design system's spacing scale.
+- **Text and button colors** that would be unreadable against their background are corrected.
+- **Broken or made-up image URLs** are replaced with a real stock photo.
+- **A page built without a design system** gets your site's default design system, unless a Beaver Themer layout provides one.
+- **Blocks removed during an import** are reported back to the agent, so it knows what did not make it onto the page and can rebuild it another way.
 
 ## Conversation history
 

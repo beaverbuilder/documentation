@@ -10,12 +10,12 @@ Beaver Builder AI is a coding assistant that acts as the logged-in WordPress use
 
 ## Where your data goes
 
-The AI runs through your own site and connects directly to your chosen AI provider using your own API key. Your prompts, content, and images are sent to that provider (Anthropic, OpenAI, or OpenRouter) to generate your design. They are not routed through, collected by, stored by, or used to train any Beaver Builder service.
+The AI runs through your own site and connects directly to your chosen AI provider using your own API key. Your prompts, content, and images are sent to that provider (Anthropic, OpenAI, OpenRouter, Google Gemini, or a Custom Endpoint server you run) to generate your design. Image generation sends the image description to Google Gemini. They are not routed through, collected by, stored by, or used to train any Beaver Builder service.
 
 - AI requests go from your server directly to the provider, using your own API key.
 - The only data Beaver Builder servers receive is license and update information (license key, domain, and plugin version), sent over HTTPS.
 - The plugin contains no analytics, telemetry, or tracking.
-- Anthropic's and OpenAI's commercial APIs do not train on your inputs by default. OpenRouter's handling depends on the model provider it routes to; review its data policy if that matters for your content.
+- Anthropic's and OpenAI's commercial APIs do not train on your inputs by default. OpenRouter's handling depends on the model provider it routes to, and Google's depends on the Gemini API tier you use; review each provider's data policy if that matters for your content. A Custom Endpoint server you run yourself sends nothing to a third party.
 
 :::note
 Content does go to your AI provider; that is how the AI works. It does not go to Beaver Builder. For details on Anthropic's data handling, see the [Anthropic Privacy Center](https://privacy.anthropic.com/).
@@ -54,6 +54,10 @@ Connecting your site to the Beaver Builder AI cloud service for MCP is optional 
 - Disconnecting removes the connection data entirely.
 
 For setup details, see [MCP connection](configuration/mcp-connection.md).
+
+### PHP and WP-CLI tools
+
+Two optional MCP tools let a connected agent run PHP code and WP-CLI commands on the site. They are off by default, are enabled with a constant in `wp-config.php` rather than from the admin, and are limited to administrators. Code run through them executes with that administrator's permissions, so keep them off unless you need them. See [PHP and WP-CLI](configuration/mcp-connection.md#php-and-wp-cli).
 
 ## Forms built by the AI
 

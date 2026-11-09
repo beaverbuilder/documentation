@@ -122,6 +122,8 @@ Export a design system as a design kit zip file to use it as the starting point 
 
 The kit contains the token set, shared CSS and JavaScript, creative guidance, and the kit format specification files an agent needs to build pages against your design. Use **Download Kit** on the [Design Systems page](../configuration/design-systems.md#download-kit). See [Design kits](design-kits.md) for the workflow and [Design kit format](../developer/design-kit-format.md) for the file specification.
 
+To move design systems between WordPress sites rather than hand them to an agent, use WordPress's exporter at **Tools > Export**. It lists your design systems so you can export only the ones you select, and the resulting file imports through **Tools > Import** on the other site. See [Export & Import Content](/beaver-builder/settings/export-import).
+
 ## Deleting a design system
 
 Deleting a design system removes its tokens, shared assets, fonts, and guidance, and cannot be undone.
