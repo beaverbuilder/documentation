@@ -8,15 +8,15 @@ import TabItem from '@theme/TabItem';
 
 Style any element in a row, column, or module visually with the Design tab, writing plain CSS into the node's own code settings.
 
-The Design tab is enabled by default only on new installations. If you upgraded to Beaver Builder 2.12 from an earlier version, go to **Settings → Advanced** and turn on **Enable Design and Code Tabs**.
+The Design tab is enabled by default only on new installations. If you upgraded to Beaver Builder 2.12 from an earlier version, go to **Settings → Advanced** and turn on **Enable Design and Code Tabs**. Turning the setting on also turns on **Enable Code Settings** if it was off, and clears the cached CSS and JavaScript files for every page so the tabs' styles render. The Design and Code tabs are not available in Beaver Builder Lite.
 
 ## Usage
 
 The Design tab adds visual CSS styling to the settings of rows, columns, and modules, including third-party modules. Open a node's settings, click the paintbrush icon tab, and click any element inside that node on the canvas to style it: colors, typography, spacing, layout, effects, or any CSS property, with changes previewed live as you work.
 
-Everything you do in the Design tab is written as plain CSS into that row, column, or module's own CSS code setting, the same field you can edit by hand on the [Code tab](/beaver-builder/essentials/code-tab) or through custom CSS. Nothing is hidden in separate settings, so you can start visually and continue in code, or the other way around.
+Everything you do in the Design tab is written as plain CSS into that row, column, or module's own CSS code setting, the same field you can edit by hand on the [Code tab](/beaver-builder/layouts/code) or through custom CSS. Nothing is hidden in separate settings, so you can start visually and continue in code, or the other way around.
 
-The Design and Code tabs appear for users who can edit Beaver Builder's CSS and JavaScript code settings. Other users do not see the tabs.
+On rows, columns, and modules, the Design and Code tabs appear only while **Enable Code Settings** is on and only for users who can edit Beaver Builder's CSS and JavaScript code settings. Turning **Enable Code Settings** off removes both tabs, not just the Code tab. Other users do not see the tabs. The [Custom module](/bb-ai/build/custom-module#who-sees-the-design-and-code-tabs) follows a different rule: its tabs are shown to roles with unrestricted editing access in Beaver Builder's user access settings, regardless of either setting.
 
 ## Open the Design tab
 
@@ -69,7 +69,7 @@ Four typography controls laid out as two rows, family with weight, then size wit
 <summary>Typography</summary>
 
 - **Family** (`font-family`): Sets the font stack. Type any font name, or pick from the menu of generic families such as `serif`, `sans-serif`, and `monospace`, and platform families such as `system-ui` and `ui-monospace`.
-- **Weight** (`font-weight`): Sets the weight, either as a keyword such as `normal` or `bold`, or as a numeric value from `100` to `900`.
+- **Weight** (`font-weight`): Sets the weight, either as a keyword such as `normal` or `bold`, or as a numeric value from `1` to `1000`.
 - **Size** (`font-size`): Sets the font size in any length unit. Drag the leading icon to scrub the value, which steps by 1 in `px` and by 0.1 in `em` and `rem`.
 - **Line** (`line-height`): Sets the line height as a unitless multiplier or a length. Unitless and `em` values scrub between 0 and 10 in steps of 0.1.
 
@@ -77,14 +77,14 @@ Four typography controls laid out as two rows, family with weight, then size wit
 
 #### Edges
 
-Spacing and border controls, each one a shorthand row that opens to reveal its individual sides or corners.
+Spacing, border, and radius controls. Padding, margin, and radius are shorthand rows that open to reveal their individual sides or corners, while border is a fixed set of fields.
 
 <details>
 <summary>Edges</summary>
 
 - **Padding** (`padding`): Sets space inside the element's border. The shorthand row accepts up to four values, such as `10px 20px 30px 40px`, and expands to separate top, bottom, left, and right fields. Padding cannot go below zero.
 - **Margin** (`margin`): Sets space outside the element's border, with the same shorthand and per-side fields as padding. Margin accepts negative values so an element can pull toward its neighbor, and accepts the `auto` keyword for centering.
-- **Border** (`border`): Sets the border shorthand as free text, such as `1px solid #333`. A toggle reveals four per-edge width fields for top, bottom, left, and right. Setting the first edge width on an element with no border seeds `0px solid currentColor` so the edge renders.
+- **Border** (`border`): Builds the border from a **Color** field, a **Style** picker, and four edge-width fields for top, bottom, left, and right, all always visible. Setting any field on an element with no border seeds `1px solid currentColor` so the edge renders at once, and you then adjust the parts you need. The control's **⋯** menu offers **Clear border** to remove the whole declaration.
 - **Radius** (`border-radius`): Rounds the element's corners. The shorthand row accepts up to four values and the elliptical `/` form, such as `10px 20px / 5px 10px`, and expands to a field per corner. Radius cannot go below zero.
 
 </details>
@@ -253,7 +253,7 @@ Rows keep the order you add them in, and each one becomes a single declaration i
 Each property row has controls beyond typing a value:
 
 - The caret menu on a value field lists the units and keywords valid for that property, and you can drag a numeric value to scrub it.
-- The **⋯** menu on each property offers **Design Tokens**, an **Open Documentation** link to that property's MDN reference, and **Clear Value**.
+- The **⋯** menu on each property offers an **Open Documentation** link to that property's MDN reference and **Clear Value**. A **Tokens** item appears above them only when the page's design system has tokens of a type that matches the property.
 
 If the page uses a Beaver Builder AI design system, its tokens appear in the menus filtered by type, so color fields offer color tokens and spacing fields offer space tokens. Choosing a token writes a CSS `var()` reference and shows it as a token chip, so the element restyles automatically when the token changes.
 

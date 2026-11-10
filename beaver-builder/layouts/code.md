@@ -8,7 +8,7 @@ Edit a row, column, or module’s CSS and JavaScript in a full-height code edito
 
 :::info
 
-The Code tab is enabled by default only on new installations. If you upgraded to Beaver Builder 2.12 from an earlier version, go to **Settings → Advanced** and turn on **Enable Design and Code Tabs**.
+The Code tab is enabled by default only on new installations. If you upgraded to Beaver Builder 2.12 from an earlier version, go to **Settings → Advanced** and turn on **Enable Design and Code Tabs**. Turning the setting on also turns on **Enable Code Settings** if it was off, and clears the cached CSS and JavaScript files for every page. The Design and Code tabs are not available in Beaver Builder Lite.
 
 :::
 
@@ -17,7 +17,7 @@ The Code tab is enabled by default only on new installations. If you upgraded to
 The Code tab gives a row, column, or module a full-height code editor with syntax highlighting, line numbers, and live CSS preview on the canvas. Which panes it shows depends on what you open:
 
 - Rows, columns, and Beaver Builder's own modules, including third-party modules, get **CSS** and **JS**. These edit the same per-node CSS and JavaScript that Beaver Builder's Code Settings add to the Advanced tab; with the Code tab enabled, those Advanced tab sections move here.
-- The [Custom module](/beaver-builder/layouts/modules/custom-module), which is also the module type behind AI-generated [design system blocks](/ai/developer/modules-and-blocks), gets **HTML** as well, ahead of the other two, because its markup belongs to the module rather than to Beaver Builder.
+- The [Custom module](/bb-ai/build/custom-module), which is also the module type behind AI-generated [design system blocks](/bb-ai/developer/modules-and-blocks), gets **HTML** as well, ahead of the other two, because its markup belongs to the module rather than to Beaver Builder.
 
 ## Access the Code tab
 
@@ -62,26 +62,32 @@ The **CSS** pane holds the node's custom CSS. On a row, column, or Beaver Builde
 
 Beaver Builder wraps the whole block in the node's selector when the page renders, so do not write the node's `.fl-node-` class yourself, and give every rule a selector.
 
-CSS is compiled with Sass support, so SCSS syntax such as variables, nesting, and mixins works here. Keep in mind that a node whose CSS uses Sass can only be edited on the Code tab; the [Design tab](/beaver-builder/layouts/design-tab) shows a read-only notice for it.
+CSS is compiled with Sass support, so SCSS syntax such as variables, nesting, and mixins works here. Keep in mind that a node whose CSS uses Sass can only be edited on the Code tab; the [Design tab](/beaver-builder/layouts/design) shows a read-only notice for it.
 
-On the Custom module, the CSS pane styles the markup in the HTML pane instead, so you write class selectors that match your own template rather than `&`. Those selectors are scoped to the module instance when the page renders; see [How the scoped CSS works](/beaver-builder/layouts/modules/custom-module#how-the-scoped-css-works).
+On the Custom module, the CSS pane styles the markup in the HTML pane instead, so you write class selectors that match your own template rather than `&`. Those selectors are scoped to the module instance when the page renders; see [Writing CSS](/bb-ai/developer/modules-and-blocks#writing-css).
 
 CSS edits preview live on the canvas as you type. Saving the settings keeps them; canceling discards them, like any other setting.
 
 ## JavaScript
 
-The **JS** pane holds the node's custom JavaScript, output with the layout on the front end. JavaScript does not preview live in the builder; save the settings and view the page to test behavior.
+The **JS** pane holds the node's custom JavaScript, output with the layout on the front end. On rows, columns, and Beaver Builder modules, JavaScript does not preview live in the builder; save the settings and view the page to test behavior.
 
-On the Custom module, this pane holds the module's own JavaScript, stored with the module. It is not scoped the way the CSS is, so query inside the module's root element rather than the whole document; see [Writing JavaScript](/ai/developer/modules-and-blocks#writing-javascript).
+On the Custom module, this pane holds the module's own JavaScript, stored with the module. Edits re-render the module on the canvas, so the script runs again as you work. It is not scoped the way the CSS is, so query inside the module's root element rather than the whole document; see [Writing JavaScript](/bb-ai/developer/modules-and-blocks#writing-javascript).
+
+:::note
+
+JavaScript can only be saved by users with the WordPress `unfiltered_html` capability. For any other user, the JS pane's changes are stripped when the settings are saved and the previously stored value is kept.
+
+:::
 
 ## Relationship to Code Settings
 
 On rows, columns, and Beaver Builder's own modules, the Code tab is a new editing surface for existing data, not a new kind of code:
 
 - The CSS and JS panes read and write the same values as the **CSS** and **JavaScript** sections that Code Settings add to the Advanced tab. Anything already saved there appears in the Code tab, and nothing changes on the front end when you enable or disable the tabs.
-- Turning **Enable Code Settings** off in Advanced settings removes the code fields everywhere, including the Code tab.
+- Turning **Enable Code Settings** off in Advanced settings removes the code fields everywhere, and removes both the Code tab and the Design tab, since the Design tab writes into the same CSS field.
 
-A Custom module is the exception. Its HTML, CSS, and JavaScript are stored with the module itself rather than in Beaver Builder's code settings, so neither **Enable Code Settings** nor **Enable Design and Code Tabs** affects its Code tab.
+A Custom module is the exception. Its HTML, CSS, and JavaScript are stored with the module itself rather than in Beaver Builder's code settings, so neither **Enable Code Settings** nor **Enable Design and Code Tabs** affects its Code tab. Access follows a different rule too: the Custom module's Design and Code tabs are shown to roles with [unrestricted editing](/beaver-builder/settings/user-access#unrestricted-editing) access, rather than to users who can edit code settings. See [Who sees the Design and Code tabs](/bb-ai/build/custom-module#who-sees-the-design-and-code-tabs).
 
 :::note
 
