@@ -15,7 +15,7 @@ If you're a developer and have created a custom module, there are several ways t
 Icons used for Beaver Builder modules are stored in _wpcontent/bb-plugin/img/svg_ , and you are welcome to use any of those icons for your own module.
 
 To use an existing icon, modify the `construct` method shown in the chapter on
-[adding a module](/beaver-builder/developer/custom-modules/02-add-a-module-to-your-plugin.md) in the custom module developer guilde. Add an `icon` key and reference any icon file in that directory. (You don't need a
+[adding a module](/beaver-builder/developer/module-development/02-add-a-module-to-your-plugin.md) in the custom module developer guilde. Add an `icon` key and reference any icon file in that directory. (You don't need a
 path.) For example:
 
 ```php

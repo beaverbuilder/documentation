@@ -17,7 +17,7 @@ In Beaver Builder, modules are building blocks that contain content and can be a
 
 :::tip
 
-You can [override modules](/beaver-builder/developer/custom-modules/18-override-modules.md) to add custom functionality, as well as create custom modules using our API. For more information, refer to the [Custom Module API](/beaver-builder/developer/custom-modules/index.md) developer article.
+You can [override modules](/beaver-builder/developer/module-development/18-override-modules.md) to add custom functionality, as well as create custom modules using our API. For more information, refer to the [Custom Module API](/beaver-builder/developer/module-development/index.md) developer article.
 
 :::
 

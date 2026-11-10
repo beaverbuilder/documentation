@@ -10,7 +10,7 @@ Creating a container module is very similar to creating a regular module, with a
 
 ### Excluding Wrappers
 
-While this isn't necessary for container modules, it's often desired. By default, the builder will include legacy wrapper divs on modules. To exclude those, you need to set [`'include_wrapper' => false`](custom-modules/08-module-property-reference.md#include_wrapper-boolean) in the module config and render the module attributes on the top-level element in the `frontend.php` file.
+While this isn't necessary for container modules, it's often desired. By default, the builder will include legacy wrapper divs on modules. To exclude those, you need to set [`'include_wrapper' => false`](module-development/08-module-property-reference.md#include_wrapper-boolean) in the module config and render the module attributes on the top-level element in the `frontend.php` file.
 
 ```php
 <?php

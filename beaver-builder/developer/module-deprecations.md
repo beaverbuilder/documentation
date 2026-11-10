@@ -20,7 +20,7 @@ For those building modules as blocks, this is already the case. Only the setting
 
 ### Filtering Settings Instead of Deprecation
 
-In some cases, you won't need to deprecate anything. Instead, you can filter the module's settings to make backward-compatible changes before it is saved or rendered. Our [Settings Compatibility documentation](custom-modules/helpers/#settings-compatibility-helper) has more info if that is a better approach for what you are trying to do.
+In some cases, you won't need to deprecate anything. Instead, you can filter the module's settings to make backward-compatible changes before it is saved or rendered. Our [Settings Compatibility documentation](module-development/helpers/#settings-compatibility-helper) has more info if that is a better approach for what you are trying to do.
 
 ### Module Deprecation Examples
 
