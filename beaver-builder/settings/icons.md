@@ -30,6 +30,11 @@ The Font Awesome 5 icon set is separated into styles which you can enable or dis
 - Font Awesome Light (Pro only)
 - Font Awesome DuoTone (Pro only)
 - Font Awesome Brands
+- Font Awesome Thin (Pro only, requires the official Font Awesome plugin)
+- Font Awesome Sharp (Pro only, requires the official Font Awesome plugin)
+- Font Awesome Sharp Duotone (Pro only, requires the official Font Awesome plugin)
+
+Enabling Sharp or Sharp Duotone adds a set for each weight, such as Font Awesome Sharp Solid and Font Awesome Sharp Duotone Light, to the icon picker.
 
 :::info
 
