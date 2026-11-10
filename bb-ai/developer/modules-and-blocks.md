@@ -81,6 +81,8 @@ A module can also be saved as a reusable Beaver Builder Component, whose instanc
 
 The settings form appears in the right sidebar under the **Block** tab. Editing the underlying HTML, CSS, and JavaScript is done in Beaver Builder or through the AI chat.
 
+A page with design system blocks can be opened in Beaver Builder, where each block becomes an editable Custom module with the full Content, Design, and Code tabs. On WordPress 7.0 and later, CSS the chat adds to core blocks is saved in WordPress's own Custom CSS field for the block.
+
 </TabItem>
 </Tabs>
 

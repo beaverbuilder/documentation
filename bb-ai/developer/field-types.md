@@ -259,7 +259,7 @@ A container. Groups fields under a collapsible section heading. Sections use a `
 
 A container. Lets editors add, remove, and reorder multiple instances of a set of fields. Each instance maps to an array item in the template data, iterated with a Mustache section.
 
-In Beaver Builder, a top-level repeater can also be bound to a dynamic data source — the page's main query or a custom post query — instead of manual items. See [Dynamic data in repeaters](../build/custom-module.md#dynamic-data-in-repeaters).
+In Beaver Builder, a top-level repeater can also be bound to a dynamic data source instead of manual items: the page's main query, a custom post query with filtering and pagination, taxonomy terms, users, comments, or rows entered by hand. See [Dynamic data in repeaters](../build/custom-module.md#dynamic-data-in-repeaters).
 
 | Configuration option | Type | Default | Description |
 |---|---|---|---|

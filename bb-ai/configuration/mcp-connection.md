@@ -22,7 +22,7 @@ Your site's MCP server exposes only the tools listed in [Available tools](#avail
 
 ## What MCP enables
 
-Once connected, an AI agent can work on your site directly: create and edit pages, build native Beaver Builder layouts, and create and manage design systems. You describe what you want in the agent's chat, and the agent does the work on your site, without you copying content between tools.
+Once connected, an AI agent can work on your site directly: create and edit pages, build native Beaver Builder layouts, create and manage design systems, and handle everyday WordPress site work such as posts, categories, menus, and the media library. You describe what you want in the agent's chat, and the agent does the work on your site, without you copying content between tools.
 
 Some examples of what a connected agent can do:
 
@@ -30,6 +30,7 @@ Some examples of what a connected agent can do:
 - Create a design system and apply it across pages.
 - Update one section of an existing page while leaving the rest untouched.
 - Create Beaver Themer layouts and set where they apply.
+- Draft a blog post, file it under the right categories and tags, and add it to a menu.
 
 A connected agent runs on its own AI model and billing, for example your Claude or Cursor subscription. The API keys in your site's [Settings](settings.md) are used only by the built-in chat.
 
@@ -45,7 +46,13 @@ Both methods check the same three things, and the tab shows a warning with a fix
 - Permalinks set to a structure that does not include `index.php`, such as Post name. Other structures break the REST URL that agents use to reach your site.
 - WordPress 6.9 or later, which the MCP Adapter requires.
 
+Site Requirements also checks that your site can reach the Beaver Builder AI service and the license server, and that the Beaver Builder AI service can reach your site. A host firewall that blocks either direction shows up here before you try to authorize.
+
 When all checks pass, the tab collapses them into a single confirmation with a **Show details** link.
+
+:::note
+The MCP Adapter requirement is reported on the MCP Connection tab only. Earlier releases showed an "MCP Adapter plugin required" notice on every admin screen; that notice has been removed.
+:::
 
 ### Connect via Beaver Builder AI
 
@@ -139,6 +146,14 @@ This section answers the questions that come up most often when connecting an AI
 
 Some hosting platforms run firewalls that block the incoming connection from an AI agent's service, even after your site is authorized. When that happens, the connection has to be opened on the host's side.
 
+### Testing the connection
+
+Open **Having trouble connecting** on the MCP Connection tab and click **Test connection**. The panel checks each Beaver Builder host your site needs to reach, reports whether each one answered and how long it took, and gives you a copyable report listing the hosts to allow. Send that report to your hosting support when a check fails, since it names exactly what their firewall needs to let through.
+
+### A credential is blocked or stripped by your host
+
+Some hosts and server configurations strip the authorization header from incoming requests, or block requests that carry one, so your agent's credential never reaches WordPress. When that happens the MCP Connection tab reports it and shows advice for your host, including WP Engine and nginx, with the change that lets the credential through.
+
 ### Claude can't connect on WP Engine hosting
 
 On WP Engine, authorization in the WordPress admin succeeds and the page shows **Authorized**, but Claude then fails to connect when it tries to use the MCP endpoint. WP Engine's platform firewall currently blocks the incoming connection from Anthropic, and only WP Engine can open it.
@@ -149,7 +164,7 @@ The exception is applied per install, so a new install where you want to use Bea
 
 ## Available tools
 
-These tools are automatically available to any AI agent connected to your site. The agent can only act on your site through them, and the MCP Connection tab lists most of them in the same groups used below.
+These tools are automatically available to any AI agent connected to your site. The agent can only act on your site through them, and the MCP Connection tab lists every tool your agent can use, grouped by **Beaver Builder** and **WordPress site**.
 
 Which tools an agent sees depends on what else is active on your site:
 
@@ -247,3 +262,26 @@ Tools for creating Beaver Themer layouts and controlling where they apply. They 
 | Create Themer Layout | Creates a Themer layout and returns its `post_id`. |
 | Set Themer Location Rules | Replaces the location rules on an existing Themer layout. |
 | List Themer Layouts | Lists existing Themer layouts and their location rules. |
+
+### WordPress site
+
+Tools for everyday WordPress site work outside the page builder. The MCP Connection tab lists them under **WordPress site**, and they let a connected agent manage:
+
+- **Posts and pages**, including their content, status, and custom fields.
+- **Categories and tags**, and other taxonomy terms.
+- **Menus** and their items.
+- **The media library**, including listing and placing images that are already uploaded.
+
+Agents can also read and change the query settings of Posts and Loop modules on a page, so a request like "show the five most recent case studies in the grid on the Work page" changes the module's query rather than rebuilding the section.
+
+As with every other tool, the agent acts as the WordPress user whose credentials the connection uses and is bound by that user's permissions.
+
+### PHP and WP-CLI
+
+Two optional tools let a connected agent run PHP code and WP-CLI commands on your site. They are off by default and are not listed on the MCP Connection tab until they are turned on.
+
+Turning them on takes a constant in `wp-config.php`, and once on they are available to administrators only. Treat them as you would shell access to the server: they let the agent do anything the administrator account can do, so turn them on only for a site and agent you trust, and turn them off again when the work is done.
+
+:::warning
+Code run through these tools executes on your live site with administrator permissions. Keep them off on production sites unless you need them, and review what the agent proposes to run before it runs it.
+:::

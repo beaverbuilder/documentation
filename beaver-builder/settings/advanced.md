@@ -70,6 +70,16 @@ See the Per-Node CSS & JS section in the [Custom Code](basics/custom-code.md) ar
 
 :white_check_mark: Enabled by default.
 
+Turning this setting off also removes the Design and Code tabs from row, column, and module settings.
+
+### Enable Design and Code Tabs
+
+Adds the [Design](layouts/design.md) and [Code](layouts/code.md) tabs to row, column, and module settings. **Enable Code Settings** must also be on for the tabs to appear. Turning this setting on turns on **Enable Code Settings** if it was off, and clears the cached CSS and JavaScript files for every page.
+
+This setting is not available in Beaver Builder Lite.
+
+:white_check_mark: Enabled by default on new installations. Sites upgraded from an earlier version keep the tabs off until you turn this setting on.
+
 ### Limit WP revisions for layouts
 
 By default, does not limit the amount of revisions.

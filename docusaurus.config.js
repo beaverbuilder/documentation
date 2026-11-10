@@ -62,18 +62,18 @@ module.exports = {
           className: "header-home-icon",
           "aria-label": "Docs Home",
         },
-        // {
-        //   type: "docsVersionDropdown",
-        //   position: "left",
-        //   dropdownItemsAfter: [{ to: "/versions" }],
-        //   dropdownActiveClassDisabled: true,
-        // },
         {
-          label: "Beaver Builder",
-          type: "doc",
-          docId: "introduction/index",
+          type: "docsVersionDropdown",
           position: "left",
+          dropdownItemsAfter: [{ to: "/versions" }],
+          dropdownActiveClassDisabled: true,
         },
+        // {
+        //   label: "Beaver Builder",
+        //   type: "doc",
+        //   docId: "introduction/index",
+        //   position: "left",
+        // },
         {
           label: "Beaver Themer",
           type: "doc",
@@ -97,12 +97,20 @@ module.exports = {
           position: "left",
         },
         {
-          label: "BB AI",
-          type: "doc",
-          docId: "introduction/index",
+          type: "docsVersionDropdown",
           docsPluginId: "bb-ai",
           position: "left",
+          label: "BB AI Versions",
+          dropdownItemsAfter: [{ to: "/versions" }],
+          dropdownActiveClassDisabled: true,
         },
+        // {
+        //   label: "BB AI",
+        //   type: "doc",
+        //   docId: "introduction/index",
+        //   docsPluginId: "bb-ai",
+        //   position: "left",
+        // },
         {
           label: "Assistant",
           type: "doc",
@@ -247,6 +255,17 @@ module.exports = {
         path: 'bb-ai',
         routeBasePath: 'bb-ai',
         sidebarPath: require.resolve("./sidebarBBAI.js"),
+        lastVersion: "1.0",
+        versions: {
+          current: {
+            label: "BB AI 1.1",
+            path: "",
+          },
+          "1.0": {
+            label: "BB AI 1.0",
+            path: "1.0",
+          },
+        },
       },
     ],
     [
@@ -267,17 +286,17 @@ module.exports = {
           path: "beaver-builder",
           routeBasePath: "beaver-builder",
           sidebarPath: require.resolve("./sidebarBeaverBuilder.js"),
-          // lastVersion: "2.10",
-          // versions: {
-          //   current: {
-          //     label: "Beaver Builder 2.11",
-          //     path: "",
-          //   },
-          //   "2.10": {
-          //     label: "Beaver Builder 2.10",
-          //     path: "2.10",
-          //   },
-          // },
+          lastVersion: "2.11",
+          versions: {
+            current: {
+              label: "Beaver Builder 2.12",
+              path: "",
+            },
+            "2.11": {
+              label: "Beaver Builder 2.11",
+              path: "2.11",
+            },
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

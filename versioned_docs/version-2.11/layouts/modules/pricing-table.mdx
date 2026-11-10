@@ -1,0 +1,1035 @@
+---
+title: Pricing Table
+sidebar_label: Pricing Table
+icon: "table-properties"
+description: "Use Pricing Table to build side-by-side pricing boxes with feature lists, ribbons, dual billing, and call-to-action buttons."
+---
+
+
+Use Pricing Table to build side-by-side pricing boxes with feature lists, ribbons, dual billing, and call-to-action buttons.
+
+## Usage
+
+Use Pricing Table to compare plans, packages, or tiers in a row of pricing boxes. Each box supports a title, ribbon, price with duration, feature list with optional icons and tooltips, and a call-to-action button. The module renders an embedded Button module per box and supports an optional dual billing toggle so visitors can switch between two billing options, such as monthly and yearly.
+
+Use Pricing Table on sales pages, product pages, signup flows, and landing pages where prospects need a quick comparison of plans and a clear path to convert. It fits SaaS pricing, membership tiers, service packages, and donation levels where each option needs its own feature list and CTA.
+
+## Module Settings
+
+The Pricing Table module settings control the pricing boxes and their content, the icons and tooltips used in feature lists, and the shared styling for borders, feature lists, the dual billing toggle, and billing terms.
+
+### Pricing Boxes Tab
+
+The Pricing Boxes tab manages the individual pricing boxes shown in the table, the dual billing toggle, and the default icons used across feature lists.
+
+<details>
+<summary><strong>Pricing Box</strong></summary>
+
+
+The Pricing Box repeater adds, removes, and reorders the columns shown in the pricing table. Each entry opens its own settings form with **General**, **Button**, and **Style** tabs.
+
+<details>
+<summary><strong>General Tab</strong></summary>
+
+
+<details>
+<summary><strong>Title</strong></summary>
+
+
+The heading shown at the top of the pricing box.
+</details>
+
+<details>
+<summary><strong>Ribbon</strong></summary>
+
+
+The Ribbon section adds a labeled banner to the pricing box, often used to mark a featured or recommended plan.
+
+<details>
+<summary><strong>Ribbon Settings</strong></summary>
+
+
+<details>
+<summary><strong>Show Ribbon</strong> <small>Default: No</small></summary>
+
+
+Shows or hides the ribbon on this pricing box. Selecting **Yes** reveals the ribbon text and position fields and the **Ribbon Style** section in the Style tab.
+</details>
+
+<details>
+<summary><strong>Ribbon Text</strong> <small>Supports: Field Connections</small></summary>
+
+
+The text displayed inside the ribbon. Nothing displays if left empty.
+</details>
+
+<details>
+<summary><strong>Ribbon Position</strong> <small>Default: Top</small></summary>
+
+
+Sets where the ribbon attaches to the pricing box.
+
+- **Top:** Places a full-width ribbon above the pricing box.
+- **Top Right:** Places a diagonal ribbon in the top right corner of the box.
+- **Top Left:** Places a diagonal ribbon in the top left corner of the box.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Price Box</strong></summary>
+
+
+The Price Box section sets the price values displayed in the box.
+
+<details>
+<summary><strong>Price Box Settings</strong></summary>
+
+
+<details>
+<summary><strong>Price</strong> <small>Default: $ 0.00</small></summary>
+
+
+The primary price displayed in the box. When **Enable Dual Billing?** is set to **No**, this is the only price shown.
+</details>
+
+<details>
+<summary><strong>Duration</strong></summary>
+
+
+The text shown next to the price, such as `per Year`. Used when **Enable Dual Billing?** is set to **No**.
+</details>
+
+<details>
+<summary><strong>Price Option 2</strong> <small>Default: $ 0.00</small></summary>
+
+
+The price shown for the second billing option. Displayed when **Enable Dual Billing?** is set to **Yes** and the visitor toggles to the second option.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Features</strong></summary>
+
+
+The Features section manages the feature list shown inside the pricing box.
+
+<details>
+<summary><strong>Price Features</strong></summary>
+
+
+<details>
+<summary><strong>Price Features</strong></summary>
+
+
+A repeater of feature rows for this pricing box. Each row accepts a description, an optional icon that overrides the default feature icon, and optional tooltip text shown when the visitor activates the tooltip icon.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Tab</strong></summary>
+
+
+<details>
+<summary><strong>Button Text</strong> <small>Default: Get Started</small></summary>
+
+
+The label displayed on the call-to-action button.
+</details>
+
+<details>
+<summary><strong>Button URL</strong> <small>Supports: Field Connections</small></summary>
+
+
+The destination link used when the button is clicked.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Separate Billing Option URLs</strong> <small>Default: No</small></summary>
+
+
+Controls whether the button uses a single URL for both billing options or a separate URL for each. Set to **Yes** to reveal **Button URL (Option 2)**, which is used when the visitor toggles to the second billing option.
+
+<details>
+<summary><strong>Button URL (Option 2)</strong></summary>
+
+
+<details>
+<summary><strong>Button URL (Option 2)</strong> <small>Supports: Field Connections</small></summary>
+
+
+The link used for the second billing option when **Separate Billing Option URLs** is set to **Yes**.
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Icon</strong></summary>
+
+
+The Button Icon section adds and styles an optional icon on the button.
+
+<details>
+<summary><strong>Button Icon Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Selects an icon from the icon picker, or removes the current icon.
+</details>
+
+<details>
+<summary><strong>Button Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected.
+</details>
+
+<details>
+<summary><strong>Button Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Keeps the icon visible or fades it in on hover when an icon is selected.
+
+- **Always Visible:** The icon is shown at all times.
+- **Fade In On Hover:** The icon fades in when the button is hovered.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Style</strong></summary>
+
+
+The Button Style section controls the size, alignment, and inner spacing of the button.
+
+<details>
+<summary><strong>Button Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Width</strong> <small>Default: Full Width</small></summary>
+
+
+Sets the button width.
+
+- **Auto:** The button width fits its text and padding. Reveals **Button Align**.
+- **Full Width:** The button stretches to fill the column.
+
+<details>
+<summary><strong>Button Align</strong></summary>
+
+
+<details>
+<summary><strong>Button Align</strong> <small>Default: Center; Supports: Responsive</small></summary>
+
+
+The horizontal alignment of the button when **Button Width** is set to **Auto**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Padding</strong> <small>Supports: Responsive</small></summary>
+
+
+The inner spacing of the button.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Text</strong></summary>
+
+
+The Button Text section controls the color and typography of the button label.
+
+<details>
+<summary><strong>Button Text Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Text Color</strong> <small>Default: ffffff; Supports: Field Connections</small></summary>
+
+
+The color of the button label.
+</details>
+
+<details>
+<summary><strong>Button Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The color of the button label on hover and focus.
+</details>
+
+<details>
+<summary><strong>Button Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the button label.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Background</strong></summary>
+
+
+The Button Background section controls the background color, fill style, and hover transition of the button.
+
+<details>
+<summary><strong>Button Background Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The default background color of the button.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The background color used when the button is hovered or focused.
+</details>
+
+<details>
+<summary><strong>Button Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects between a solid or gradient button background.
+
+- **Flat:** Uses the **Button Background Color** as a solid fill.
+- **Gradient:** Renders a gradient based on the configured background colors.
+
+</details>
+
+<details>
+<summary><strong>Button Background Animation</strong> <small>Default: Disabled</small></summary>
+
+
+Enables or disables the transition between the normal and hover background states.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Border</strong></summary>
+
+
+The Button Border section controls the border around the button.
+
+<details>
+<summary><strong>Button Border Settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, radius, and color applied to the button.
+</details>
+
+<details>
+<summary><strong>Button Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+The border color used when the button is hovered or focused.
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Style Tab</strong></summary>
+
+
+<details>
+<summary><strong>General Style</strong></summary>
+
+
+The General Style section controls the box colors, accent colors, and top margin for this pricing box.
+
+<details>
+<summary><strong>General Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Box Border</strong> <small>Default: F2F2F2; Supports: Field Connections</small></summary>
+
+
+The color used for the border around this pricing box.
+</details>
+
+<details>
+<summary><strong>Box Color</strong> <small>Default: ffffff; Supports: Field Connections</small></summary>
+
+
+The background color of the pricing box body.
+</details>
+
+<details>
+<summary><strong>Accent Color</strong> <small>Default: 66686b; Supports: Field Connections</small></summary>
+
+
+The accent color used for the highlighted area, such as the price or title region depending on the **Highlight** setting.
+</details>
+
+<details>
+<summary><strong>Accent Text Color</strong> <small>Default: ffffff; Supports: Field Connections</small></summary>
+
+
+The text color used inside the highlighted area.
+</details>
+
+<details>
+<summary><strong>Box Top Margin</strong> <small>Default: 0; Supports: Responsive</small></summary>
+
+
+The top margin applied to this pricing box, useful for offsetting a featured column.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Title Style</strong></summary>
+
+
+The Title Style section controls the appearance of the pricing box title.
+
+<details>
+<summary><strong>Title Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Title Color</strong> <small>Default: 333333</small></summary>
+
+
+The color of the pricing box title.
+</details>
+
+<details>
+<summary><strong>Title Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the pricing box title.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Price Style</strong></summary>
+
+
+The Price Style section controls the appearance of the price value.
+
+<details>
+<summary><strong>Price Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Price Color</strong></summary>
+
+
+The color of the price text.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the price text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Ribbon Style</strong></summary>
+
+
+This section is available when **Show Ribbon** is set to **Yes** in the General tab.
+
+<details>
+<summary><strong>Ribbon Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Ribbon Text Color</strong> <small>Default: FFFFFF; Supports: Field Connections</small></summary>
+
+
+The text color used inside the ribbon.
+</details>
+
+<details>
+<summary><strong>Ribbon Background Color</strong> <small>Default: F8463F; Supports: Field Connections</small></summary>
+
+
+The background color of the ribbon.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the ribbon text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Ribbon Height</strong> <small>Default: 30</small></summary>
+
+
+The height of the ribbon, in pixels.
+</details>
+
+<details>
+<summary><strong>Ribbon Top Margin</strong> <small>Default: -15</small></summary>
+
+
+The top margin applied to the ribbon when **Ribbon Position** is set to **Top**, in pixels.
+</details>
+
+<details>
+<summary><strong>Top Ribbon Padding</strong> <small>Default: 0</small></summary>
+
+
+The inner spacing of the ribbon when **Ribbon Position** is set to **Top**.
+</details>
+
+<details>
+<summary><strong>Top Ribbon Border</strong></summary>
+
+
+The border style, width, radius, and color applied to the ribbon when **Ribbon Position** is set to **Top**.
+</details>
+
+<details>
+<summary><strong>Ribbon Side Offset</strong> <small>Default: 40</small></summary>
+
+
+The horizontal offset of the ribbon, in pixels, when **Ribbon Position** is set to **Top Right** or **Top Left**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Feature List Style</strong></summary>
+
+
+The Feature List Style section overrides the shared feature list colors for this pricing box.
+
+<details>
+<summary><strong>Feature List Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Feature Icon Color</strong></summary>
+
+
+The color applied to the feature icons in this box. Overrides the shared **Feature Icon Color** in the Style tab.
+</details>
+
+<details>
+<summary><strong>Feature Text Color</strong></summary>
+
+
+The color applied to the feature text in this box. Overrides the shared **Feature Text Color** in the Style tab.
+</details>
+
+<details>
+<summary><strong>Tooltip Icon Color</strong></summary>
+
+
+The color applied to the tooltip icon in this box. Overrides the shared **Tooltip Icon Color** in the Style tab.
+</details>
+
+<details>
+<summary><strong>Tooltip Text Color</strong></summary>
+
+
+The text color used inside tooltips in this box. Overrides the shared tooltip text color set in the Style tab.
+</details>
+
+<details>
+<summary><strong>Tooltip Background Color</strong></summary>
+
+
+The background color used for tooltips in this box. Overrides the shared tooltip background color set in the Style tab.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>General</strong></summary>
+
+
+The General section controls the dual billing toggle and the labels used for each billing option.
+
+<details>
+<summary><strong>General Settings</strong></summary>
+
+
+<details>
+<summary><strong>Enable Dual Billing?</strong> <small>Default: No</small></summary>
+
+
+Adds a toggle that lets visitors switch between two billing options, such as monthly and yearly. Selecting **Yes** reveals the billing option labels, billing term fields, the **Toggle Price Button** style section, and the **Billing Term Style** section.
+</details>
+
+<details>
+<summary><strong>Billing Option 1</strong> <small>Default: Monthly</small></summary>
+
+
+The label shown next to the first billing toggle option.
+</details>
+
+<details>
+<summary><strong>Billing Option 2</strong> <small>Default: Yearly</small></summary>
+
+
+The label shown next to the second billing toggle option.
+</details>
+
+<details>
+<summary><strong>Billing Term (Option 1)</strong></summary>
+
+
+The text shown next to the first price when dual billing is enabled, such as `per month`. Leave empty to hide.
+</details>
+
+<details>
+<summary><strong>Billing Term (Option 2)</strong></summary>
+
+
+The text shown next to the second price when dual billing is enabled, such as `per year`. Leave empty to hide.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icons</strong></summary>
+
+
+The Icons section sets the default icons used across all pricing boxes for feature list items and tooltips. Individual feature rows can override the feature icon.
+
+<details>
+<summary><strong>Icons Settings</strong></summary>
+
+
+<details>
+<summary><strong>Default Feature Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+The icon shown next to each feature when no icon is set on the feature row. Individual feature rows can override this.
+</details>
+
+<details>
+<summary><strong>Feature Tooltip Icon</strong> <small>Default: fas fa-question-circle; Supports: Field Connections</small></summary>
+
+
+The icon used to trigger feature tooltips. Defaults to the question mark icon when not specified.
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the shared appearance of the pricing table, including the highlight area, column heights, borders, feature list styling, the dual billing toggle button, and billing term text.
+
+<details>
+<summary><strong>General Style</strong></summary>
+
+
+The General Style section controls the highlighted area, column height behavior, and outer spacing of the pricing table.
+
+<details>
+<summary><strong>General Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Highlight</strong> <small>Default: Price</small></summary>
+
+
+Selects which region of each pricing box is rendered with the **Accent Color** background.
+
+- **Price:** Highlights the price region of each box.
+- **Title:** Highlights the title region of each box.
+- **None:** Disables the accent highlight.
+
+</details>
+
+<details>
+<summary><strong>Column Height</strong></summary>
+
+
+Controls how box heights align across the pricing table.
+
+- **Equalize:** Sets all columns to the same height as the tallest column.
+- **Auto:** Lets each column size to its own content. Reveals **Features Min Height**.
+
+<details>
+<summary><strong>Features Min Height</strong></summary>
+
+
+<details>
+<summary><strong>Features Min Height</strong> <small>Default: 0</small></summary>
+
+
+The minimum height applied to the feature list area, in pixels. Use this to normalize box heights when columns have different numbers of features.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced Spacing</strong> <small>Default: 12; Supports: Responsive</small></summary>
+
+
+The horizontal spacing between pricing boxes, in pixels.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Border</strong></summary>
+
+
+The Border section controls how borders are drawn around each pricing box.
+
+<details>
+<summary><strong>Border Settings</strong></summary>
+
+
+<details>
+<summary><strong>Border Type</strong> <small>Default: Legacy</small></summary>
+
+
+Selects which border system the module uses.
+
+- **Standard:** Uses a single border control with style, width, radius, and color. Reveals **Standard Border**.
+- **Legacy:** Uses the original preset-based border. Reveals **Border Style** and **Border Size**.
+
+<details>
+<summary><strong>Standard Border Settings</strong></summary>
+
+
+<details>
+<summary><strong>Standard Border</strong></summary>
+
+
+The border style, width, radius, and color applied to each pricing box when **Border Type** is set to **Standard**.
+</details>
+</details>
+
+<details>
+<summary><strong>Legacy Border Settings</strong></summary>
+
+
+<details>
+<summary><strong>Border Style</strong> <small>Default: Rounded</small></summary>
+
+
+Selects between rounded or straight corners when **Border Type** is set to **Legacy**.
+
+- **Rounded:** Applies rounded corners to each pricing box.
+- **Straight:** Uses square corners on each pricing box.
+
+</details>
+
+<details>
+<summary><strong>Border Size</strong> <small>Default: Wide</small></summary>
+
+
+Sets the visual weight of the legacy border preset.
+
+- **Large:** A wide border around each pricing box.
+- **Medium:** A balanced border weight.
+- **Small:** A thin border around each pricing box.
+
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Feature List Style</strong></summary>
+
+
+The Feature List Style section controls the shared appearance of feature lists, separator lines, and tooltips across all pricing boxes.
+
+<details>
+<summary><strong>Feature List Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Show List Separator</strong> <small>Default: Yes</small></summary>
+
+
+Shows or hides a horizontal separator line between feature rows. Selecting **Yes** reveals **Separator Line Color**.
+
+<details>
+<summary><strong>Separator Line Color</strong></summary>
+
+
+<details>
+<summary><strong>Separator Line Color</strong> <small>Default: rgba(0,0,0,0.15)</small></summary>
+
+
+The color of the line drawn between feature rows.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Feature Icon Size</strong> <small>Supports: Responsive</small></summary>
+
+
+The size of each feature icon, in pixels.
+</details>
+
+<details>
+<summary><strong>Feature Icon Color</strong> <small>Default: 808080</small></summary>
+
+
+The color applied to feature icons across all pricing boxes.
+</details>
+
+<details>
+<summary><strong>Feature Text Color</strong> <small>Default: 808080</small></summary>
+
+
+The color applied to feature text across all pricing boxes.
+</details>
+
+<details>
+<summary><strong>Feature List Text Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for feature list text.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Tooltip Style</strong> <small>Default: Dark</small></summary>
+
+
+Selects the visual style used by feature tooltips.
+
+- **Dark:** Uses a dark tooltip background with light text. Reveals **Tooltip Text Color** and **Tooltip Background Color** for the dark variant.
+- **Light:** Uses a light tooltip background with dark text. Reveals **Tooltip Text Color** and **Tooltip Background Color** for the light variant.
+- **Legacy:** Uses the original tooltip styling. Reveals **Tooltip Text Color** and **Tooltip Background Color** for the legacy variant.
+
+</details>
+
+<details>
+<summary><strong>Tooltip Trigger</strong> <small>Default: Click</small></summary>
+
+
+Determines how a tooltip opens.
+
+- **Click:** Opens the tooltip when the visitor clicks the tooltip icon.
+- **Hover:** Opens the tooltip when the visitor hovers the tooltip icon.
+
+</details>
+
+<details>
+<summary><strong>Tooltip Icon Size</strong> <small>Supports: Responsive</small></summary>
+
+
+The size of each tooltip icon, in pixels.
+</details>
+
+<details>
+<summary><strong>Tooltip Icon Color</strong> <small>Default: 808080</small></summary>
+
+
+The color of the tooltip icon shown next to feature text.
+</details>
+
+<details>
+<summary><strong>Tooltip Text Color</strong> <small>Default: 333333</small></summary>
+
+
+The text color used inside legacy tooltips. Applies when **Tooltip Style** is set to **Legacy**.
+</details>
+
+<details>
+<summary><strong>Tooltip Background Color</strong></summary>
+
+
+The background color used inside legacy tooltips. Applies when **Tooltip Style** is set to **Legacy**.
+</details>
+
+<details>
+<summary><strong>Tooltip Text Color (Dark Only)</strong> <small>Default: ffffff</small></summary>
+
+
+The text color used inside dark tooltips. Applies when **Tooltip Style** is set to **Dark**.
+</details>
+
+<details>
+<summary><strong>Tooltip Background Color (Dark Only)</strong> <small>Default: 1f2937</small></summary>
+
+
+The background color used inside dark tooltips. Applies when **Tooltip Style** is set to **Dark**.
+</details>
+
+<details>
+<summary><strong>Tooltip Text Color (Light Only)</strong> <small>Default: 111111</small></summary>
+
+
+The text color used inside light tooltips. Applies when **Tooltip Style** is set to **Light**.
+</details>
+
+<details>
+<summary><strong>Tooltip Background Color (Light Only)</strong> <small>Default: ffffff</small></summary>
+
+
+The background color used inside light tooltips. Applies when **Tooltip Style** is set to **Light**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Toggle Price Button</strong></summary>
+
+
+This section is available when **Enable Dual Billing?** is set to **Yes** in the Pricing Boxes tab.
+
+<details>
+<summary><strong>Toggle Price Button Settings</strong></summary>
+
+
+<details>
+<summary><strong>first_option Price Button Color</strong> <small>Default: #d5d5d5; Supports: Field Connections</small></summary>
+
+
+The background color of the toggle slider when the first billing option is active.
+</details>
+
+<details>
+<summary><strong>second_option Price Button Color</strong> <small>Default: #919293; Supports: Field Connections</small></summary>
+
+
+The background color of the toggle slider when the second billing option is active.
+</details>
+
+<details>
+<summary><strong>Toggle Price Label Color</strong> <small>Default: 333333</small></summary>
+
+
+The color of the labels shown on either side of the toggle.
+</details>
+
+<details>
+<summary><strong>Toggle Price Button Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the toggle labels.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Billing Term Style</strong></summary>
+
+
+This section is available when **Enable Dual Billing?** is set to **Yes** in the Pricing Boxes tab.
+
+<details>
+<summary><strong>Billing Term Style Settings</strong></summary>
+
+
+<details>
+<summary><strong>Price Term Color</strong></summary>
+
+
+The color applied to the billing term text shown next to each price.
+</details>
+
+<details>
+<summary><strong>Price Term Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the billing term text shown next to each price.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

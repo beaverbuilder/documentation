@@ -26,6 +26,10 @@ No. An MCP-connected agent runs on its own model and billing, for example your C
 
 Cloud authorization requires a publicly accessible HTTPS site, so it does not work on `localhost` or `.test` domains. Use the **Connect Manually** method for local development.
 
+## My site is authorized but the agent still cannot connect. What now?
+
+Open **Having trouble connecting** on the MCP Connection tab and click **Test connection**. It checks each Beaver Builder host your site needs to reach and gives you a copyable report of the hosts to allow, which you can send to your hosting support. If the tab reports that your host blocks or strips the agent's credential, it shows advice for that host. See [Troubleshooting](../configuration/mcp-connection.md#troubleshooting).
+
 ## What is the MCP Adapter plugin?
 
 The [MCP Adapter](https://github.com/WordPress/mcp-adapter/releases) is a separate WordPress plugin that bridges MCP-compatible AI agents and the WordPress REST API. It is maintained by the WordPress project and required for both connection methods. Install it like any other WordPress plugin.
@@ -36,7 +40,15 @@ No. When you use the AI, your site connects directly to your chosen AI provider 
 
 ## Who pays for the AI usage?
 
-You do, through your own provider API keys. Usage bills to your Anthropic, OpenAI, or OpenRouter account, and your keys are stored encrypted in your site's database. Beaver Builder does not meter or resell AI usage.
+You do, through your own provider API keys. Usage bills to your Anthropic, OpenAI, OpenRouter, or Google account, and your keys are stored encrypted in your site's database. Beaver Builder does not meter or resell AI usage. A Custom Endpoint pointed at a server you run, such as Ollama, has no per-request cost beyond the server itself.
+
+## Can the AI generate images?
+
+Yes, with a Google Gemini API key connected on the Settings tab. Generation runs through Gemini whichever provider you chat with, so you can keep Claude or GPT for chat and still generate images. A **Generate with AI** option appears on image fields and in the canvas image toolbar, and an **Image fill during page generation** setting has the assistant generate the images for a whole page. See [Images](../build/images.md#generating-images-with-ai).
+
+## Can a connected agent run code on my site?
+
+Only if you turn that on. The PHP and WP-CLI tools are off by default, are enabled with a constant in `wp-config.php`, and are available to administrators only. Everything else an agent does goes through tools that act within the connected user's WordPress permissions. See [PHP and WP-CLI](../configuration/mcp-connection.md#php-and-wp-cli).
 
 ## Can the AI add harmful code to my site?
 

@@ -1,10 +1,10 @@
 ---
 title: Connect an AI provider
 sidebar_label: Connect an AI provider
-description: "Connect Anthropic, OpenAI, or OpenRouter and choose the model Beaver Builder AI should use."
+description: "Connect Anthropic, OpenAI, OpenRouter, or Google Gemini and choose the model Beaver Builder AI should use."
 ---
 
-Connect Anthropic, OpenAI, or OpenRouter and choose the model Beaver Builder AI should use.
+Connect Anthropic, OpenAI, OpenRouter, or Google Gemini and choose the model Beaver Builder AI should use.
 
 ## Before you begin
 
@@ -15,6 +15,9 @@ You can get an API key from any of the following providers:
 - [Anthropic](https://console.anthropic.com/) for Claude models.
 - [OpenAI](https://platform.openai.com/) for GPT models.
 - [OpenRouter](https://openrouter.ai/) for models from multiple vendors, including Anthropic, OpenAI, and Google, with a single key.
+- [Google Gemini](https://aistudio.google.com/) for Gemini models. A Gemini key also enables [image generation](../build/images.md#generating-images-with-ai), whichever chat provider you use.
+
+You can also connect an OpenAI compatible server you run yourself, such as Ollama or LM Studio, through the experimental [Custom Endpoint](../configuration/settings.md#custom-endpoint) provider.
 
 AI usage is billed directly to your provider account, not through Beaver Builder.
 
@@ -28,7 +31,7 @@ Before entering an API key, set a monthly spending limit in the provider's billi
 
 2. Select the **Settings** tab. This tab is available to administrators only.
 
-3. Under **AI Providers**, paste your API key into the field for Anthropic, OpenAI, or OpenRouter.
+3. Under **AI Providers**, paste your API key into the field for Anthropic, OpenAI, OpenRouter, or Google Gemini. For a Custom Endpoint, enter the server's URL instead, and an API key if it requires one.
 
    Beaver Builder AI validates the key when you paste it or click away from the field. A green **Connected** badge appears when the connection is successful. If validation fails, the error message from the provider appears below the field.
 

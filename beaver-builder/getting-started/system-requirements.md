@@ -8,7 +8,7 @@ This article covers the recommended system requirements for installing and using
 
 ## WordPress
 
-- Beaver Builder is compatible with WordPress version 6.8 or higher.
+- Beaver Builder is compatible with WordPress version 6.9 or higher.
 - The WordPress REST API must be enabled: Beaver Builder relies on the REST API for key features. You can verify it’s active by visiting `/wp-json/` on your site (e.g., `https://yourwebsite.com/wp-json/`).
 
 We recommend a [WP memory limit](https://wordpress.org/support/article/editing-wp-config-php/#increasing-memory-allocated-to-php) of at least 128 MB, with 256 MB or more preferred for optimal performance.
@@ -31,12 +31,6 @@ Setting `script-src` to `none` in your Content Security Policy (CSP) will break 
 ## PHP
 
 Beaver Builder follows the WordPress requirements for PHP version. See the [Wordpress Requirements page](https://wordpress.org/support/article/requirements/) for current recommendations.
-
-:::info
-
-PHP 8 is supported for all Beaver Builder products with some warnings, which are fixed in Beaver Builder 2.5, Beaver Builder Theme 1.7.9, and Beaver Themer 1.4.
-
-:::
 
 ## jQuery
 

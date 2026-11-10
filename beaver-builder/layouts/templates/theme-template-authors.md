@@ -146,7 +146,7 @@ The ability to create, save, edit and export templates is currently only availab
 
 If you build templates for the Lite version, keep in mind that not all of the premium modules are available there. If users use a template with a module that is not supported in their version of Beaver Builder, the module will not be rendered.
 
-For this reason, we recommend third-party Template authors create custom modules for their themes and templates if they need something that isn’t available in the lite version. See [the custom module guide](/developer/custom-modules/index.md).
+For this reason, we recommend third-party Template authors create custom modules for their themes and templates if they need something that isn’t available in the lite version. See [the custom module guide](/developer/module-development/index.md).
 
 ### Global content
 

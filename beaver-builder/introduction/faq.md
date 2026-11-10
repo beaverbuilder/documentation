@@ -182,7 +182,7 @@ If the old site had pages created using the standard WordPress text editor, the 
 
 ## Can I create my own modules for Beaver Builder?
 
-Yes! See our [custom module developer guide](../developer/custom-modules/index.md) article to get started. The guide contains a example plugin with a custom module that you can download.
+Yes! See our [custom module developer guide](../developer/module-development/index.md) article to get started. The guide contains a example plugin with a custom module that you can download.
 
 ## Does Beaver Builder work with Posts and Custom Post Types?
 

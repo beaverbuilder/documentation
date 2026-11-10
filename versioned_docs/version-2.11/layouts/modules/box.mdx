@@ -1,0 +1,671 @@
+---
+title: Box Module
+sidebar_label: Box
+icon: "box"
+description: "A flexible container to arrange content using Flexbox, CSS Grid, or layered positioning with full control over spacing, backgrounds, and sizing."
+---
+
+
+A flexible container to arrange content using Flexbox, CSS Grid, or layered positioning with full control over spacing, backgrounds, and sizing.
+
+## Requirements
+
+The Box module depends on JavaScript code available in **WordPress 5.2** or later. If you are using an earlier version, the Box module will not appear in the Beaver Builder user interface (UI).
+
+## Usage
+
+The Box module is a container that holds other modules. It arranges its children using Flexbox, CSS Grid, or layered positioning, giving precise control over alignment, spacing, and sizing across any number of elements.
+
+Use the Box module when you need spatial control over a group of modules — positioning text beside an image with Flex, building a structured grid of feature cards with Grid, or overlaying a headline on a background photo with Layers. Because Boxes nest inside other Boxes, complex multi-level layouts stay organized through a single consistent building block.
+
+## Box Module Aliases
+
+The Box module includes preconfigured aliases for common layouts. They are a useful starting point, especially if you are new to CSS Grid or Flexbox, and can also help you learn by showing how each layout is configured.
+
+- **Flex Columns:** Uses flexbox to arrange three boxes horizontally within the parent container.
+- **3×2 Grid:** Creates a layout with three rows and two columns using grid boxes inside the parent container.
+- **4×2 Grid:** Creates a layout with four rows and two columns using grid boxes inside the parent container.
+- **Split Header:** Uses a three-column grid layout to create a distinct header structure.
+- **Photo Grid:** Creates a 4×3 grid layout that incorporates Photo modules within the parent container.
+
+## Module Settings
+
+The Box module settings are organized into two tabs: Container controls the Box itself, and Children controls the defaults applied to all modules placed inside it.
+
+### Container tab
+
+The Container tab controls the Box's layout mode, spacing, visual appearance, sizing, and link behavior.
+
+<details>
+<summary><strong>Display</strong></summary>
+
+
+Selects how child elements are arranged inside the Box.
+
+- **Flex:** Arranges children along a single axis using CSS Flexbox. Ideal for one-dimensional layouts where items need to flow, wrap, grow, or shrink relative to one another.
+- **Grid:** Arranges children in a two-dimensional layout using CSS Grid. Ideal for structured layouts where precise control over both rows and columns is needed.
+- **Layers:** Stacks children on top of one another using CSS Grid. All children occupy the same grid cell by default, creating layered or overlay effects.
+
+<details>
+<summary><strong>Flex settings</strong></summary>
+
+
+<details>
+<summary><strong>Direction</strong> <small>Default: Row; Supports: Responsive</small></summary>
+
+
+Controls the main axis along which child elements are arranged. Changing the direction also affects how the **Align** setting maps to horizontal and vertical axes.
+
+- **Row:** Items are placed side by side horizontally, left to right.
+- **Column:** Items are stacked vertically, top to bottom.
+- **Reversed Row:** Items are placed horizontally in reverse order, right to left.
+- **Reversed Column:** Items are stacked vertically in reverse order, bottom to top.
+
+</details>
+
+<details>
+<summary><strong>Wrap</strong> <small>Default: Normal; Supports: Responsive</small></summary>
+
+
+Controls whether child elements stay on a single line or wrap onto additional lines when there is not enough space.
+
+- **Normal:** Items do not wrap and remain on a single line. Items may overflow the container if they exceed its width.
+- **None:** Explicitly sets `flex-wrap: nowrap`. Functionally similar to Normal but makes the no-wrap intent explicit in CSS.
+- **Wrap:** Items wrap onto additional lines when they no longer fit, flowing from top to bottom.
+- **Reversed:** Items wrap onto additional lines, but new lines are added above previous ones rather than below.
+
+</details>
+
+<details>
+<summary><strong>Gap</strong> <small>Default: 10px; Supports: Responsive</small></summary>
+
+
+Sets the space between child elements. This single value applies uniformly in all directions. Gap creates space only between items — it does not add space on the outer edges of the container. Use **Padding** to add space around the inside of the container boundary.
+</details>
+
+<details>
+<summary><strong>Align</strong> <small>Default: Stretch; Supports: Responsive</small></summary>
+
+
+Controls the alignment of child elements along the vertical and horizontal axes. Two rows of icon buttons are shown — the top row controls the vertical axis and the bottom row controls the horizontal axis.
+
+The behavior of each axis depends on **Direction**. When Direction is Row or Reversed Row, the horizontal axis is the main axis (`justify-content`) and the vertical axis is the cross axis (`align-items`). When Direction is Column or Reversed Column, the axes are swapped.
+
+- **Stretch:** Items stretch to fill the full container size along that axis.
+- **Start:** Items are packed toward the start of the axis.
+- **Center:** Items are centered along the axis.
+- **End:** Items are packed toward the end of the axis.
+- **Space Evenly:** Spacing between any two adjacent items and between items and the container edges is equal.
+- **Space Between:** Items are evenly distributed. The first item is flush with the start edge and the last item is flush with the end edge.
+- **Space Around:** Items are distributed with equal space on both sides of each item.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Grid settings</strong></summary>
+
+
+<details>
+<summary><strong>Grid</strong> <small>Supports: Responsive</small></summary>
+
+
+Defines the column and row track structure of the grid. Each track is the space between two grid lines where content is placed. Add tracks using the **+** button, reorder them by dragging the handle, or duplicate and remove them from the ellipsis menu.
+
+:::tip
+
+The **Grid overlay** icon appears in the settings panel next to the Grid label. Clicking it toggles a visual grid guideline overlay on the canvas, making it easier to see column and row boundaries while building.
+:::
+
+Each track supports the following types:
+
+- **Multiple Tracks:** Repeats a track a specified number of times using the CSS `repeat()` function. For example, setting columns to `3` creates `repeat(3, 1fr)` — three equal-width columns.
+- **Freeform:** Accepts any valid CSS track size directly, such as `200px`, `minmax(100px, 1fr)`, or `repeat(4, auto)`.
+- **Auto:** Track size is determined by its content. Equivalent to the CSS `auto` keyword.
+- **1fr:** Adds a single fractional unit. The `fr` unit divides remaining available space proportionally. Multiple `1fr` tracks share space equally; a `2fr` track receives twice as much space as a `1fr` track.
+
+**Auto Columns** and **Auto Rows** define the size of implicitly created tracks when more items are placed in the grid than explicitly defined tracks can accommodate.
+</details>
+
+<details>
+<summary><strong>Flow Direction</strong> <small>Default: Row; Supports: Responsive</small></summary>
+
+
+Controls how grid items are automatically placed when their position is not explicitly defined. Maps to the CSS `grid-auto-flow` property.
+
+- **Row:** Items fill each row in turn, adding new rows as needed. Items flow left to right, then wrap to the next row.
+- **Column:** Items fill each column in turn, adding new columns as needed. Items flow top to bottom, then wrap to the next column.
+
+</details>
+
+<details>
+<summary><strong>Gap</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the space between rows and columns in the grid independently. Gap applies only between grid tracks and does not add space around the outer edges of the grid. Use **Padding** to add outer spacing.
+
+- **Row:** Space between horizontal rows. Default is `10px`.
+- **Column:** Space between vertical columns. Default is `10px`.
+
+</details>
+
+<details>
+<summary><strong>Align</strong> <small>Default: Stretch; Supports: Responsive</small></summary>
+
+
+Controls the alignment of child elements within the grid container along both axes. Two rows of icon buttons are shown — the top row controls the vertical axis (`align-items`) and the bottom row controls the horizontal axis (`justify-items`).
+
+Unlike Flex, Grid alignment operates independently of a direction setting — vertical always means the block axis and horizontal always means the inline axis.
+
+- **Stretch:** Items stretch to fill the full size of their grid cell.
+- **Start:** Items align to the start edge of their grid cell.
+- **Center:** Items center within their grid cell.
+- **End:** Items align to the end edge of their grid cell.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Layers settings</strong></summary>
+
+
+<details>
+<summary><strong>Align</strong> <small>Default: Stretch; Supports: Responsive</small></summary>
+
+
+Controls the alignment of child elements within the layered container. Two rows of icon buttons are shown — the top row controls the vertical axis and the bottom row controls the horizontal axis. Both axes default to **Stretch** when switching to Layers so all children fill the container.
+
+- **Stretch:** Items fill the full size of the container. Use this when all layers should occupy the same space.
+- **Start:** Items align to the top (vertical) or left (horizontal) edge of the container.
+- **Center:** Items center within the container along that axis.
+- **End:** Items align to the bottom (vertical) or right (horizontal) edge of the container.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Spacing</strong></summary>
+
+
+Controls the internal spacing of the Box container.
+
+<details>
+<summary><strong>Spacing settings</strong></summary>
+
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Internal spacing between the Box edges and its children.
+</details>
+
+<details>
+<summary><strong>Gap (Flex and Grid Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+Space between child elements. This field appears when **Display** is set to **Flex** or **Grid**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Appearance</strong></summary>
+
+
+Visual styling for the Box container.
+
+<details>
+<summary><strong>Appearance settings</strong></summary>
+
+
+<details>
+<summary><strong>Background settings</strong></summary>
+
+Background settings control background type, color, image, gradient, overlay, and related responsive background options where available.
+
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+
+</details>
+</details>
+
+<details>
+<summary><strong>Sizing &amp; Placement</strong></summary>
+
+
+Controls the Box's own dimensions and position within its parent.
+
+<details>
+<summary><strong>Sizing &amp; Placement settings</strong></summary>
+
+
+<details>
+<summary><strong>Aspect Ratio</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets a fixed width-to-height ratio for the Box. Options are grouped into Basics (Auto, Square), Wide (5:4, 3:2, Video 16:9, Ultra-wide Video 21:9), and Tall (4:5, 2:3, Poster 3:4, Portrait Video 9:16).
+</details>
+
+<details>
+<summary><strong>Flex (Flex Parent Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets how the Box grows, shrinks, and sizes itself when its parent container is set to Flex.
+
+<details>
+<summary><strong>Flex settings</strong></summary>
+
+
+<details>
+<summary><strong>Grow</strong> <small>Supports: Responsive</small></summary>
+
+
+A non-negative number that determines how much extra space the Box takes up relative to its siblings. A value of `0` prevents growth beyond the natural size.
+</details>
+
+<details>
+<summary><strong>Shrink</strong> <small>Default: 1; Supports: Responsive</small></summary>
+
+
+A non-negative number that determines how much the Box shrinks relative to its siblings when there is not enough space. A value of `0` prevents shrinking.
+</details>
+
+<details>
+<summary><strong>Basis</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the initial size of the Box before available space is distributed. Leave empty to use the Box's natural size (`auto`).
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Grid Column (Grid Parent Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the grid column the Box occupies when its parent container is set to Grid.
+</details>
+
+<details>
+<summary><strong>Grid Row (Grid Parent Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the grid row the Box occupies when its parent container is set to Grid.
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the width of the Box. Accepts auto, a custom value, or a percentage.
+</details>
+
+<details>
+<summary><strong>Min Width</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the minimum width of the Box. The Box will not shrink below this value.
+</details>
+
+<details>
+<summary><strong>Max Width</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the maximum width of the Box. The Box will not grow beyond this value.
+</details>
+
+<details>
+<summary><strong>Height</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the height of the Box.
+</details>
+
+<details>
+<summary><strong>Min Height</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the minimum height of the Box.
+</details>
+
+<details>
+<summary><strong>Max Height</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the maximum height of the Box.
+</details>
+
+<details>
+<summary><strong>Alignment</strong> <small>Supports: Responsive</small></summary>
+
+
+Aligns the Box within its parent container using inline margins. Options are **Left**, **Center**, and **Right**.
+</details>
+
+<details>
+<summary><strong>Order</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the display order of the Box when it is placed in a Flex or Grid parent. Lower values appear earlier.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Link</strong></summary>
+
+
+Makes the entire Box container clickable. When set, clicking anywhere on the Box navigates to the specified URL.
+
+:::warning
+
+When the Link option is enabled, any links inside modules placed within the Box will no longer work because HTML links cannot be nested.
+:::
+
+<details>
+<summary><strong>Link settings</strong></summary>
+
+Link settings control the URL, link target, nofollow behavior, download behavior, and other link attributes where available.
+
+</details>
+</details>
+
+### Children tab
+
+The Children tab sets the default layout, spacing, and appearance values applied to all modules placed directly inside the Box.
+
+<details>
+<summary><strong>Flexbox (Flex Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets default Flexbox child properties applied to all direct children when **Display** is set to **Flex**. Individual children can override these values using their own **Sizing & Placement** settings.
+
+<details>
+<summary><strong>Flexbox child settings</strong></summary>
+
+
+<details>
+<summary><strong>Grow</strong> <small>Supports: Responsive</small></summary>
+
+
+A non-negative number that determines how much of the available extra space a child takes up relative to other children. A value of `0` prevents growth beyond the natural size. A value of `1` allows proportional growth.
+</details>
+
+<details>
+<summary><strong>Shrink</strong> <small>Default: 1; Supports: Responsive</small></summary>
+
+
+A non-negative number that determines how much a child shrinks relative to other children when there is not enough space. A value of `0` prevents shrinking. A value of `1` allows proportional shrinking.
+</details>
+
+<details>
+<summary><strong>Basis</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the initial size of a child element before available space is distributed. Accepts a numeric value with units: `px`, `%`, `em`, `rem`, `vw`. Leave empty to use the child's natural size (`auto`).
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Grid (Grid Only)</strong></summary>
+
+
+Sets default grid placement values applied to all direct children when **Display** is set to **Grid**. Individual children can override these values using their own **Sizing & Placement** settings.
+
+<details>
+<summary><strong>Grid child settings</strong></summary>
+
+
+<details>
+<summary><strong>Grid Column</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the default column position for children. When both **Start** and **End** are set, **Span** is ignored. These values generate the CSS `grid-column` shorthand.
+
+<details>
+<summary><strong>Grid column settings</strong></summary>
+
+
+<details>
+<summary><strong>Start</strong> <small>Supports: Responsive</small></summary>
+
+
+The grid column line where children begin. Leave empty for automatic placement.
+</details>
+
+<details>
+<summary><strong>Span</strong> <small>Supports: Responsive</small></summary>
+
+
+The number of column tracks children span. Minimum value is `1`.
+</details>
+
+<details>
+<summary><strong>End</strong> <small>Supports: Responsive</small></summary>
+
+
+The grid column line where children end. Leave empty for automatic placement.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Grid Row</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the default row position for children. When both **Start** and **End** are set, **Span** is ignored. These values generate the CSS `grid-row` shorthand.
+
+<details>
+<summary><strong>Grid row settings</strong></summary>
+
+
+<details>
+<summary><strong>Start</strong> <small>Supports: Responsive</small></summary>
+
+
+The grid row line where children begin. Leave empty for automatic placement.
+</details>
+
+<details>
+<summary><strong>Span</strong> <small>Supports: Responsive</small></summary>
+
+
+The number of row tracks children span. Minimum value is `1`.
+</details>
+
+<details>
+<summary><strong>End</strong> <small>Supports: Responsive</small></summary>
+
+
+The grid row line where children end. Leave empty for automatic placement.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Layers (Layers Only)</strong></summary>
+
+
+Sets default grid placement values applied to all direct children when **Display** is set to **Layers**. Defaults to full coverage — each child spans the entire width and height of the container. Individual children can override these values using their own **Sizing & Placement** settings.
+
+<details>
+<summary><strong>Layers child settings</strong></summary>
+
+
+<details>
+<summary><strong>Grid Column</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the default column position for children. Defaults to `start: 1, end: -1`, spanning each child across the full width of the container.
+
+<details>
+<summary><strong>Grid column settings</strong></summary>
+
+
+<details>
+<summary><strong>Start</strong> <small>Default: 1; Supports: Responsive</small></summary>
+
+
+The grid column line where children begin.
+</details>
+
+<details>
+<summary><strong>Span</strong> <small>Supports: Responsive</small></summary>
+
+
+The number of column tracks children span. Leave empty when using Start and End together.
+</details>
+
+<details>
+<summary><strong>End</strong> <small>Default: -1; Supports: Responsive</small></summary>
+
+
+The grid column line where children end. Defaults to `-1` (the last line), ensuring full-width coverage.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Grid Row</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the default row position for children. Defaults to `start: 1, end: -1`, spanning each child across the full height of the container.
+
+<details>
+<summary><strong>Grid row settings</strong></summary>
+
+
+<details>
+<summary><strong>Start</strong> <small>Default: 1; Supports: Responsive</small></summary>
+
+
+The grid row line where children begin.
+</details>
+
+<details>
+<summary><strong>Span</strong> <small>Supports: Responsive</small></summary>
+
+
+The number of row tracks children span. Leave empty when using Start and End together.
+</details>
+
+<details>
+<summary><strong>End</strong> <small>Default: -1; Supports: Responsive</small></summary>
+
+
+The grid row line where children end. Defaults to `-1` (the last line), ensuring full-height coverage.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Default internal padding applied to each child module within the Box.
+</details>
+
+<details>
+<summary><strong>Sizing</strong> <small>Supports: Responsive</small></summary>
+
+
+Default sizing values applied to all direct child modules. Individual children can override these values using their own Sizing & Placement settings.
+
+<details>
+<summary><strong>Sizing settings</strong></summary>
+
+
+<details>
+<summary><strong>Width &amp; Height</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets default width, minimum width, maximum width, height, minimum height, and maximum height constraints for child modules.
+</details>
+
+<details>
+<summary><strong>Aspect Ratio</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets a default width-to-height ratio for child modules. Options are grouped into Basics (Auto, Square), Wide (5:4, 3:2, Video 16:9, Ultra-wide Video 21:9), and Tall (4:5, 2:3, Poster 3:4, Portrait Video 9:16).
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Appearance</strong> <small>Supports: Responsive</small></summary>
+
+
+Default visual styling for child modules.
+
+<details>
+<summary><strong>Child appearance settings</strong></summary>
+
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The default text color for child modules.
+</details>
+
+<details>
+<summary><strong>Background Type</strong></summary>
+
+
+Sets the default background type for child modules.
+
+- **Color:** Applies a solid background color.
+- **Advanced:** Opens the multi-layer background interface for gradients, images, and video.
+
+<details>
+<summary><strong>Color</strong></summary>
+
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Responsive, Field Connections</small></summary>
+
+
+The solid background color applied to child modules when **Background Type** is set to **Color**.
+</details>
+</details>
+
+<details>
+<summary><strong>Advanced</strong></summary>
+
+
+<details>
+<summary><strong>Background settings</strong></summary>
+
+Background settings control background type, color, image, gradient, overlay, and related responsive background options where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

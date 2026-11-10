@@ -23,8 +23,11 @@ The built-in AI chat and generation features require an API key from at least on
 - [Anthropic](https://console.anthropic.com/)
 - [OpenAI](https://platform.openai.com/)
 - [OpenRouter](https://openrouter.ai/)
+- [Google Gemini](https://aistudio.google.com/)
 
-You only need to connect one provider to get started. After connecting it, you can select the provider and model that the assistant should use.
+You only need to connect one provider to get started. After connecting it, you can select the provider and model that the assistant should use. An experimental Custom Endpoint provider can also connect an OpenAI compatible server such as Ollama or LM Studio; see [Settings](../configuration/settings.md#custom-endpoint).
+
+[Image generation](../build/images.md#generating-images-with-ai) requires a Google Gemini API key, whichever provider handles your chat.
 
 :::warning
 Before entering an API key, set a monthly spending limit in the provider's billing dashboard. Beaver Builder AI does not cap usage on your behalf.

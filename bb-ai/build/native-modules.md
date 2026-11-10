@@ -22,6 +22,15 @@ An agent connected over MCP builds with Beaver Builder's own rows, columns, and 
 - Ask for a generated section and the agent writes a Custom module for it.
 - Say nothing either way and the agent decides section by section, based on what each section needs.
 
+## Rows and columns or boxes
+
+A native page can be structured in one of two ways, and the **Layout Structure** setting decides which.
+
+- **Rows and columns** is Beaver Builder's classic structure. Each section is a row, split into columns that hold the modules.
+- **Boxes** uses the Box module as the container, nesting boxes to lay out a section with flexbox and grid.
+
+Set your preference under **Layout Structure** on the [Settings](../configuration/settings.md#layout-structure) tab. The agent then uses that structure for every page it builds, instead of choosing per section, so pages across a site stay consistent and your team only has to learn one way of editing them.
+
 ## Native modules vs generated Custom modules
 
 Neither option is better in every situation, so it helps to know what each one is good at.

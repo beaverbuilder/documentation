@@ -1,0 +1,728 @@
+---
+title: Accordion
+sidebar_label: Accordion
+icon: "list-chevrons-up-down"
+description: "Use Accordion to present expandable content sections in a compact layout with manual items or post-based content."
+---
+
+
+Use Accordion to present expandable content sections in a compact layout with manual items or post-based content.
+
+## Usage
+
+Use Accordion to display content in expandable and collapsible sections. Build items manually with custom content, or generate them dynamically from posts, pages, or custom post types.
+
+This module is especially useful for FAQs, product details, onboarding steps, support answers, and any content that benefits from clear structure and progressive disclosure.
+
+## Module Settings
+
+The Accordion module settings control where accordion items come from, how item labels and content behave, and how the accordion looks on the front end.
+
+### Items Tab
+
+The Items tab defines the item source, item content, and expand or collapse behavior.
+
+<details>
+<summary><strong>Content Source</strong> <small>Default: Custom Content</small></summary>
+
+
+Selects whether accordion items come from WordPress posts or manual entries created inside the module.
+
+- **Post:** Builds accordion items from queried WordPress posts, pages, or custom post types.
+- **Custom Content:** Builds accordion items from manual items added directly in the module.
+
+<details>
+<summary><strong>Post Settings</strong></summary>
+
+
+<details>
+<summary><strong>Post</strong></summary>
+
+
+The Post section configures the query used when **Content Source** is set to **Post**.
+
+<details>
+<summary><strong>Post Query</strong></summary>
+
+
+<details>
+<summary><strong>Post Type</strong> <small>Default: Post</small></summary>
+
+
+Selects one or more post types to query for accordion items.
+</details>
+
+<details>
+<summary><strong>Posts Per Page</strong> <small>Default: 5</small></summary>
+
+
+Sets how many queried posts appear as accordion items.
+</details>
+
+<details>
+<summary><strong>Ordering settings</strong></summary>
+
+Ordering settings control how queried posts or items are sorted, such as by date, title, menu order, or custom ordering options where available.
+
+</details>
+
+<details>
+<summary><strong>Filtering settings</strong></summary>
+
+Filtering settings control which posts, terms, authors, or content types are included or excluded from the module output.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Custom Content Settings</strong></summary>
+
+
+<details>
+<summary><strong>Custom Content</strong></summary>
+
+
+The Custom Content section manages manual accordion items created inside the module.
+
+<details>
+<summary><strong>Accordion Items</strong></summary>
+
+
+<details>
+<summary><strong>Item</strong></summary>
+
+
+Adds one or more accordion items and stores the label and content settings for each item.
+
+<details>
+<summary><strong>Item Settings</strong></summary>
+
+
+<details>
+<summary><strong>Label</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the heading text displayed for the accordion item.
+</details>
+
+<details>
+<summary><strong>Type</strong> <small>Default: Custom Content</small></summary>
+
+
+Selects whether the item uses custom editor content or a saved Beaver Builder asset.
+
+- **Saved Row:** Loads a saved row into the accordion item.
+- **Saved Column:** Loads a saved column into the accordion item.
+- **Saved Module:** Loads a saved module into the accordion item.
+- **Saved Template:** Loads a saved template into the accordion item.
+- **Custom Content:** Uses editor content added directly in the accordion item.
+
+<details>
+<summary><strong>Select Row</strong></summary>
+
+
+<details>
+<summary><strong>Select Row (Saved Row Only)</strong></summary>
+
+
+When you choose Saved Row as the Type, the Select Saved Row setting becomes available and lists all saved row items you have created. Select one to use that saved row as the accordion item’s content.
+</details>
+</details>
+
+<details>
+<summary><strong>Select Column</strong></summary>
+
+
+<details>
+<summary><strong>Select Column (Saved Column Only)</strong></summary>
+
+
+When you choose Saved Column as the Type, the Select Saved Column setting becomes available and lists all saved column items you have created. Select one to use that saved column as the accordion item’s content.
+</details>
+</details>
+
+<details>
+<summary><strong>Select Modules</strong></summary>
+
+
+<details>
+<summary><strong>Select Modules (Saved Module Only)</strong></summary>
+
+
+When you choose Saved Module as the Type, the Select Saved Module setting becomes available and lists all saved module items you have created. Select one to use that saved module as the accordion item’s content.
+</details>
+</details>
+
+<details>
+<summary><strong>Select Template</strong></summary>
+
+
+<details>
+<summary><strong>Select Template (Saved Template Only)</strong></summary>
+
+
+When you choose Template as the Type, the Select Template setting becomes available and lists all templates you have created. Select one to use that template as the accordion item’s content.
+</details>
+</details>
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+<details>
+<summary><strong>Content (Custom Content Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Add your own custom content using the WordPress Classic Editor when **Type** is set to **Custom Content**.
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Display</strong></summary>
+
+
+The Display section controls label markup, post output, and expand or collapse behavior.
+
+<details>
+<summary><strong>Display Settings</strong></summary>
+
+
+<details>
+<summary><strong>Label Tag</strong> <small>Default: h2</small></summary>
+
+
+Sets the HTML tag used for each accordion label.
+
+- **a:** Renders the label with an anchor element that keeps heading semantics.
+- **h1:** Renders the label with an `<h1>` heading.
+- **h2:** Renders the label with an `<h2>` heading.
+- **h3:** Renders the label with an `<h3>` heading.
+- **h4:** Renders the label with an `<h4>` heading.
+- **h5:** Renders the label with an `<h5>` heading.
+- **h6:** Renders the label with an `<h6>` heading.
+- **div:** Renders the label with a `<div>` element.
+- **span:** Renders the label with a `<span>` element.
+
+</details>
+
+<details>
+<summary><strong>Content Type (Post Only)</strong> <small>Default: Post Content</small></summary>
+
+
+Selects whether post-based items render full post content or post excerpts. This field appears when **Content Source** is set to **Post**.
+
+- **Post Content:** Displays the full post content inside each accordion item.
+- **Post Excerpt:** Displays the post excerpt and reveals excerpt display settings.
+
+<details>
+<summary><strong>Excerpt Settings</strong></summary>
+
+
+<details>
+<summary><strong>Excerpt Length (Post Excerpt Only)</strong></summary>
+
+
+Sets the number of words shown in each post excerpt.
+</details>
+
+<details>
+<summary><strong>Excerpt More Text (Post Excerpt Only)</strong> <small>Default: ...</small></summary>
+
+
+Sets the text appended after each excerpt.
+</details>
+
+<details>
+<summary><strong>More Link (Post Excerpt Only)</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides a link below each post excerpt.
+
+- **Show:** Displays a link below the excerpt and reveals **More Link Text**.
+- **Hide:** Removes the excerpt link.
+
+<details>
+<summary><strong>More Link Text</strong></summary>
+
+
+<details>
+<summary><strong>More Link Text (Show Only)</strong> <small>Default: Read More</small></summary>
+
+
+Sets the label used for the post excerpt link when **More Link** is set to **Show**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Expand on Tab</strong> <small>Default: No</small></summary>
+
+
+Expands an accordion item when its button receives keyboard focus through tab navigation.
+
+- **Yes:** Opens an accordion item when keyboard users tab to its label.
+- **No:** Keeps tab focus from expanding accordion items automatically.
+
+</details>
+
+<details>
+<summary><strong>Collapse Inactive</strong> <small>Default: Yes</small></summary>
+
+
+Keeps only one item open at a time or allows multiple items to remain open.
+
+- **Yes:** Keeps only one accordion item open at a time.
+- **No:** Allows multiple accordion items to stay open at the same time.
+
+</details>
+
+<details>
+<summary><strong>Expand First Item</strong> <small>Default: No</small></summary>
+
+
+Expands the first accordion item when the module loads.
+
+- **Yes:** Opens the first accordion item by default when the module loads.
+- **No:** Leaves all accordion items collapsed on load.
+
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the size, spacing, colors, icons, and content styling used by the accordion.
+
+<details>
+<summary><strong>Item Size</strong> <small>Default: Small</small></summary>
+
+
+Sets the preset size used for accordion labels.
+
+- **Small:** Keeps the accordion labels compact. Inherits the font size from the theme or parent element.
+- **Medium:** Uses a balanced label size for most layouts. Sets the label font size to 20px.
+- **Large:** Gives the accordion labels more visual emphasis. Sets the label font size to 26px.
+
+</details>
+
+<details>
+<summary><strong>Item Spacing</strong> <small>Default: 10; Supports: Responsive</small></summary>
+
+
+Sets the spacing between accordion items.
+</details>
+
+<details>
+<summary><strong>Item Border</strong> <small>Supports: Responsive</small></summary>
+
+
+Configures the border style, width, radius, and color for each accordion item.
+
+:::tip
+
+The Responsive Toggle lets you set different border values for desktop, tablet, and mobile. The **Width** and **Radius** controls also support Link Values so you can keep all sides or corners in sync.
+:::
+
+<details>
+<summary><strong>General</strong></summary>
+
+
+<details>
+<summary><strong>Style</strong> <small>Default: Default</small></summary>
+
+
+Selects the line style used for the border.
+
+<details>
+<summary><strong>Available options</strong></summary>
+
+
+- Default
+- None
+- Solid
+- Dashed
+- Dotted
+- Double
+
+</details>
+
+**Default** uses the module or theme's built-in border styling when one is available. Choose **None** to remove the visible border without clearing any saved width, color, or radius values.
+</details>
+
+<details>
+<summary><strong>Color</strong></summary>
+
+
+Sets the border color using the color picker. This field also supports alpha transparency.
+</details>
+
+<details>
+<summary><strong>Width</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the border width for the top, right, bottom, and left sides using `px`.
+
+Click into any width field to open a slider, or type a value directly for more precise control.
+</details>
+</details>
+<details>
+<summary><strong>Radius &amp; Shadow</strong></summary>
+
+
+<details>
+<summary><strong>Radius</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Rounds the corners by setting the top-left, top-right, bottom-right, and bottom-left radius in `px`.
+
+Larger matching values create softer corners, and very high values can produce pill or circular shapes when the element dimensions allow it.
+</details>
+<details>
+<summary><strong>Box Shadow</strong></summary>
+
+
+Adds a shadow around the element to create depth and separation from surrounding content.
+
+<details>
+<summary><strong>Box Shadow settings</strong></summary>
+
+
+<details>
+<summary><strong>Color</strong></summary>
+
+
+Sets the shadow color and opacity.
+</details>
+
+<details>
+<summary><strong>X</strong></summary>
+
+
+Sets the horizontal shadow offset. Positive values move the shadow to the right, and negative values move it to the left.
+</details>
+
+<details>
+<summary><strong>Y</strong></summary>
+
+
+Sets the vertical shadow offset. Positive values move the shadow downward, and negative values move it upward.
+</details>
+
+<details>
+<summary><strong>Blur</strong></summary>
+
+
+Softens the shadow edge. Higher values create a blurrier, more diffuse shadow.
+</details>
+
+<details>
+<summary><strong>Spread</strong></summary>
+
+
+Expands or contracts the overall size of the shadow. Positive values make the shadow larger, and negative values pull it inward.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Label</strong></summary>
+
+
+The Label section controls the appearance of accordion headings.
+
+<details>
+<summary><strong>Label Settings</strong></summary>
+
+
+<details>
+<summary><strong>Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the label text color and icon color.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of the label row.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner spacing of the label row.
+</details>
+
+<details>
+<summary><strong>Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for accordion labels.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icon</strong></summary>
+
+
+The Icon section controls icon placement and icon states for accordion labels.
+
+<details>
+<summary><strong>Icon Settings</strong></summary>
+
+
+<details>
+<summary><strong>Icon Position</strong> <small>Default: Right</small></summary>
+
+
+Places the icon on the left or right side of the label.
+
+- **Left:** Places the icon before the label text.
+- **Right:** Places the icon after the label text.
+
+</details>
+
+<details>
+<summary><strong>Icon</strong> <small>Default: fas fa-plus; Supports: Field Connections</small></summary>
+
+
+Sets the icon shown when an item is collapsed.
+</details>
+
+<details>
+<summary><strong>Active Icon</strong> <small>Default: fas fa-minus; Supports: Field Connections</small></summary>
+
+
+Sets the icon shown when an item is expanded.
+</details>
+
+<details>
+<summary><strong>DuoTone Icon Primary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the primary icon color for Font Awesome DuoTone icons. This field applies when the selected icon uses the DuoTone style.
+</details>
+
+<details>
+<summary><strong>DuoTone Icon Secondary Color (DuoTone Icons Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the secondary icon color for Font Awesome DuoTone icons. This field applies when the selected icon uses the DuoTone style.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Content</strong></summary>
+
+
+The Content section controls the appearance of accordion panels.
+
+<details>
+<summary><strong>Content Settings</strong></summary>
+
+
+<details>
+<summary><strong>Text Color (Custom Content Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color for custom content shown inside accordion panels. This field appears when **Content Source** is set to **Custom Content**.
+</details>
+
+<details>
+<summary><strong>Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of the accordion content panel.
+</details>
+
+<details>
+<summary><strong>Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+Sets the inner spacing of the accordion content panel.
+</details>
+
+<details>
+<summary><strong>Typography (Custom Content Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for custom content shown inside accordion panels. This field appears when **Content Source** is set to **Custom Content**.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.
+
+## Link to a Specific Item
+
+Learn how to create a link that navigates to a specific accordion item.
+
+### Adding an `ID`
+
+To begin, first assign an `ID` to the Accordion module, which can be accomplished by following the instructions below:
+
+1. Open the Accordion module settings and click the [Advanced tab](../advanced-tab/index.md).
+
+2. Scroll to the `ID` setting, and set a unique `ID` name for the module.  
+  See the [Advanced tab](../advanced-tab/html-element.md#id) article for more information about `ID` selectors.
+
+3. Save changes.
+
+### Index Values
+
+Every item in the Accordion module is given a unique index value that starts at `0`. The index value of the initial Accordion item is `0`, the second item is assigned an index value of `1`, the third item has an index value of `2`, and so on. By using these index values in an HTML link, you can generate a link to a specific Accordion item and set it as the active item.
+
+The below HTML code example demonstrates how the index values are allocated to each Accordion item. In this instance, the Accordion module has been given a unique ID name of `my-accordion` and consists of three Accordion items.
+
+```html
+<div id="my-accordion" class="fl-module fl-module-accordion">
+  <div class="fl-module-content fl-node-content">
+    <div class="fl-accordion">
+      <div id="my-accordion-0" class="fl-accordion-item"></div>
+      <div id="my-accordion-1" class="fl-accordion-item"></div>
+      <div id="my-accordion-2" class="fl-accordion-item"></div>
+    </div>
+  </div>
+</div>
+```
+
+### Link Structure
+
+The link structure will differ based on whether the Accordion module is on the same page as your link. To create the link, you can use either the Button or HTML modules in your layout.
+
+#### Same Page
+
+When the link is on the same page as the Accordion module, you can use a hash character (`#`) followed by an `ID` name and the item's index value separated by a hyphen. For instance, using our example `ID` name of `my-accordion`, the link would be structured as follows:
+
+```html title='Button module link option'
+#my-accordion-1
+```
+
+```html title='HTML module link'
+<a href="#my-accordion-1">My Accordion link</a>
+```
+
+#### Different Page
+
+To create a link to the Accordion module from a different page on your website, use the complete URL of the target page along with the hash symbol (`#`) followed by the `ID` and index value. For instance, if you want to add the link to your homepage, and the Accordion module is located on a page named Sample Page, the link should appear like this:
+
+```html title='Button module link option'
+https://my-website.com/sample-page#my-accordion-1
+```
+
+```html title='HTML module link'
+<a href="https://my-website.com/sample-page#my-accordion-1">My Accordion link</a>
+```
+
+## CSS Customization
+
+Use this section to learn how custom CSS can extend the Accordion module’s styling beyond the options available in the module settings. The examples below show different ways to customize the appearance of accordion items, labels, icons, and other elements.
+
+:::tip
+The examples below use the Accordion module's `fl-module-accordion` parent class, which, depending on where you add your CSS, will style all Accordion modules used on your website. However, if you wish to customize a specific Accordion module, you should add a custom class name to the module and replace `fl-module-accordion` with the new custom class name.
+
+```css
+.my-custom-class .fl-accordion-item-active {
+  background-color: #f4f4f4;
+}
+```
+
+:::
+
+### Active Accordion Item
+
+The following CSS examples demonstrate how to modify the appearance of the active accordion item. Doing so can increase the visibility in comparison to the inactive items:
+
+#### Background Color
+
+```css
+.fl-module-accordion .fl-accordion-item-active {
+  background-color: #f4f4f4;
+}
+```
+
+#### Label Color
+
+```css
+.fl-module-accordion .fl-accordion-item-active .fl-accordion-button-label {
+  color: #ff0000;
+}
+```
+
+#### Accordion Content Color
+
+```css
+.fl-module-accordion .fl-accordion-item-active .fl-accordion-content {
+  background-color: #f4f4f4;
+  color: #000000;
+}
+```
+
+### Replace Expand/Collapse Icons with Images
+
+You can use the CSS provided below to replace the icons of the collapsed and expanded states in the Accordion module with images of your choice.
+
+```css
+.fl-module-accordion .fl-accordion-button {
+  width: 100%;
+  position: relative;
+}
+
+/* Hide Accordion Icons */
+.fl-module-accordion .fl-accordion-button .fl-accordion-button-icon {
+  display: none;
+}
+
+/* Collapsed Image */
+.fl-module-accordion .fl-accordion-button-label:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(IMAGE URL);
+  background-size: cover;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Expanded Image (Active Accordion) */
+.fl-module-accordion .fl-accordion-item-active .fl-accordion-button-label:after {
+  background-image: url(IMAGE URL);
+}
+```

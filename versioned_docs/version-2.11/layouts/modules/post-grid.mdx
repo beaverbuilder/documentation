@@ -1,0 +1,1000 @@
+---
+title: Posts
+sidebar_label: Posts
+icon: "layout-grid"
+description: "Use Posts to display a queried list of WordPress posts in columns, masonry, gallery, or list layouts with full control over content, style, and pagination."
+---
+
+
+Use Posts to display a queried list of WordPress posts in columns, masonry, gallery, or list layouts with full control over content, style, and pagination.
+
+## Usage
+
+Use Posts to render queried WordPress content as a grid, masonry layout, image gallery, or vertical list. The module wires WordPress query controls to a configurable layout, exposes the featured image, post info, terms, and excerpt or full content per post, and supports paginated, infinite scroll, or load-more navigation.
+
+Use Posts on blog index pages, archive replacements, related-content sections, taxonomy landing pages, portfolio galleries, and singular templates that surface secondary content. It fits any layout that needs a flexible loop driven by post type, taxonomy, author, or custom field criteria.
+
+## Module Settings
+
+The Posts module settings control the loop layout, the featured image and post meta that appear, the visual styling of cards and text, the underlying query, and the pagination behavior at the bottom of the list.
+
+### Layout Tab
+
+The Layout tab selects the overall layout style and configures the post container, featured image, post info, terms, and content for each item.
+
+<details>
+<summary><strong>Layout</strong> <small>Default: Masonry</small></summary>
+
+
+Sets the overall layout used to render the loop. Each option exposes its own dedicated styling and posts settings.
+
+- **Columns:** Renders posts in equal-width, fixed-column rows.
+- **Masonry:** Renders posts in a flexible grid with variable item heights.
+- **Gallery:** Renders only featured images with a hover overlay.
+- **List:** Renders posts in a single vertical stack with optional left or right images.
+
+</details>
+
+<details>
+<summary><strong>Posts</strong></summary>
+
+
+The Posts section controls the per-item dimensions, spacing, container element, and title heading tag. Available when **Layout** is **Columns**, **Masonry**, or **List**.
+
+<details>
+<summary><strong>Posts settings</strong></summary>
+
+
+<details>
+<summary><strong>Equal Heights (Columns Only)</strong> <small>Default: No; Supports: Responsive</small></summary>
+
+
+Forces every post in the same row to share the tallest item's height. Available when **Layout** is **Columns**.
+</details>
+
+<details>
+<summary><strong>Post Width (Masonry Only)</strong> <small>Default: 300</small></summary>
+
+
+Sets the target column width in pixels for each post tile. Available when **Layout** is **Masonry**.
+</details>
+
+<details>
+<summary><strong>Columns (Columns Only)</strong> <small>Default: 3; Supports: Responsive</small></summary>
+
+
+Sets the number of columns rendered per row. Available when **Layout** is **Columns**. Default values per breakpoint are 3 (default), 3 (large), 2 (medium), and 1 (responsive).
+</details>
+
+<details>
+<summary><strong>Post Spacing (Columns and Masonry Only)</strong> <small>Default: 60</small></summary>
+
+
+Sets the gap in pixels between posts. Available when **Layout** is **Columns** or **Masonry**.
+</details>
+
+<details>
+<summary><strong>Post Spacing (List Only)</strong> <small>Default: 40</small></summary>
+
+
+Sets the bottom margin in pixels between posts. Available when **Layout** is **List**.
+</details>
+
+<details>
+<summary><strong>Post Padding (Columns and Masonry Only)</strong> <small>Default: 20</small></summary>
+
+
+Sets the inner padding in pixels around each post's text content. Available when **Layout** is **Columns** or **Masonry**.
+</details>
+
+<details>
+<summary><strong>Post Padding (List Only)</strong> <small>Default: 0</small></summary>
+
+
+Sets the inner padding in pixels for each post in a List layout. Available when **Layout** is **List**.
+</details>
+
+<details>
+<summary><strong>Posts Element</strong> <small>Default: &lt;li&gt;(unwrapped in divs)</small></summary>
+
+
+Selects the HTML5 element used for each post item to improve accessibility and machine readability.
+
+- **\<div\>:** Renders each post inside a generic `div` element.
+- **\<article\>:** Renders each post inside an `article` element, the most semantically appropriate option for blog content.
+- **\<li\>(wrapped in divs):** Renders each post as an `li` element wrapped inside container `div` elements.
+- **\<li\>(unwrapped in divs):** Renders each post as an `li` element without the additional wrapping `div` elements.
+
+<details>
+<summary><strong>Posts Element Class for UL</strong></summary>
+
+
+<details>
+<summary><strong>Posts Element Class for UL</strong></summary>
+
+
+Adds a custom CSS class to the parent `ul` element. This field appears when **Posts Element** is set to **\<li\>(unwrapped in divs)**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Posts Element Class</strong> <small>Supports: Field Connections</small></summary>
+
+
+Adds a custom CSS class to each post element.
+</details>
+
+<details>
+<summary><strong>Posts Title Tag</strong> <small>Default: &lt;h2&gt;</small></summary>
+
+
+Selects the heading tag used for each post title. Options are `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, and `<p>`.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Featured Image</strong></summary>
+
+
+The Featured Image section controls whether the featured image is rendered, where it sits relative to the post content, its size and dimensions, and the fallback used when a post has no thumbnail.
+
+<details>
+<summary><strong>Featured Image settings</strong></summary>
+
+
+<details>
+<summary><strong>Image</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the featured image for each post.
+</details>
+
+<details>
+<summary><strong>Image Position (Columns and Masonry Only)</strong> <small>Default: Above Title</small></summary>
+
+
+Places the image above the title or above the rest of the content for **Columns** and **Masonry** layouts.
+
+- **Above Title:** Renders the image above the post title.
+- **Above Content:** Renders the image above the content but below the title.
+
+</details>
+
+<details>
+<summary><strong>Image Position (List Only)</strong> <small>Default: Above Content</small></summary>
+
+
+Places the image relative to the post text in a **List** layout.
+
+- **Above Title:** Renders the image above the post title.
+- **Above Content:** Renders the image above the content but below the title.
+- **Left:** Floats the image to the left of the entire post.
+- **Left Content:** Floats the image to the left of the content only.
+- **Right:** Floats the image to the right of the entire post.
+- **Right Content:** Floats the image to the right of the content only.
+
+<details>
+<summary><strong>Image Width</strong></summary>
+
+
+<details>
+<summary><strong>Image Width (Beside Layout Only)</strong> <small>Default: 33</small></summary>
+
+
+Sets the percentage of the post width that the image occupies. Appears when **Image Position** is **Left**, **Left Content**, **Right**, or **Right Content**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Image Size</strong> <small>Default: medium</small></summary>
+
+
+Selects the registered WordPress image size used to render the featured image.
+</details>
+
+<details>
+<summary><strong>Equal Height Image</strong> <small>Default: Disabled</small></summary>
+
+
+Normalizes featured image dimensions across posts.
+
+- **Disabled:** Uses the natural dimensions of each image.
+- **Fixed Height:** Forces every image to the height set in **Image Height**.
+- **Aspect Ratio:** Forces every image to a CSS aspect ratio set in **Aspect Ratio**.
+
+<details>
+<summary><strong>Image Height</strong></summary>
+
+
+<details>
+<summary><strong>Image Height (Fixed Height Only)</strong> <small>Default: 200; Supports: Responsive</small></summary>
+
+
+Sets a fixed image height in pixels when **Equal Height Image** is **Fixed Height**.
+</details>
+</details>
+
+<details>
+<summary><strong>Aspect Ratio</strong></summary>
+
+
+<details>
+<summary><strong>Aspect Ratio (Aspect Ratio Only)</strong> <small>Supports: Responsive</small></summary>
+
+
+Sets the CSS aspect ratio in `width/height` notation, for example `16/9`. Used when **Equal Height Image** is **Aspect Ratio**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Image Spacing (Columns and Masonry Only)</strong> <small>Default: 0</small></summary>
+
+
+Sets the spacing in pixels between the featured image and the post text. Available when **Layout** is **Columns** or **Masonry**.
+</details>
+
+<details>
+<summary><strong>Image Spacing (List Only)</strong> <small>Default: 0</small></summary>
+
+
+Sets the spacing in pixels between the featured image and the post text. Available when **Layout** is **List**.
+</details>
+
+<details>
+<summary><strong>Fallback Image</strong></summary>
+
+
+Selects an image used when a post has no featured image. Leave empty to skip the image entirely for those posts.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Info</strong></summary>
+
+
+The Post Info section controls which post meta fields appear with each item. Available when **Layout** is **Columns**, **Masonry**, or **List**.
+
+<details>
+<summary><strong>Post Info settings</strong></summary>
+
+
+<details>
+<summary><strong>Author</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post author. Available when **Layout** is **Columns**, **Masonry**, or **List**.
+
+<details>
+<summary><strong>Enable Author Link</strong></summary>
+
+
+<details>
+<summary><strong>Enable Author Link</strong> <small>Default: Yes</small></summary>
+
+
+Wraps the author name in a link to the author archive when **Author** is **Show**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Date</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post date.
+
+<details>
+<summary><strong>Date Format</strong></summary>
+
+
+<details>
+<summary><strong>Date Format</strong> <small>Default: Default</small></summary>
+
+
+Selects the format used to render the post date when **Date** is **Show**. **Default** uses the WordPress general date format. Other options are formatted samples such as `M j, Y`, `F j, Y`, `m/d/Y`, `m-d-Y`, `d M Y`, `d F Y`, `Y-m-d`, and `Y/m/d`.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Comments (List Only)</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the comment count next to each post. Available when **Layout** is **List**.
+</details>
+
+<details>
+<summary><strong>Comments (Columns and Masonry Only)</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the comment count next to each post. Available when **Layout** is **Columns** or **Masonry**.
+</details>
+
+<details>
+<summary><strong>Separator</strong> <small>Default:  | </small></summary>
+
+
+The character or string rendered between the visible post info items.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Terms</strong></summary>
+
+
+The Post Terms section controls the rendering of taxonomy terms attached to each post. Available when **Layout** is **Columns**, **Masonry**, or **List**.
+
+<details>
+<summary><strong>Post Terms settings</strong></summary>
+
+
+<details>
+<summary><strong>Terms</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides the list of hierarchical taxonomy terms assigned to each post.
+
+<details>
+<summary><strong>Terms Label</strong></summary>
+
+
+<details>
+<summary><strong>Terms Label</strong> <small>Default: Posted in </small></summary>
+
+
+The label rendered before the list of terms when **Terms** is **Show**.
+</details>
+</details>
+
+<details>
+<summary><strong>Terms Separator</strong></summary>
+
+
+<details>
+<summary><strong>Terms Separator</strong> <small>Default: , </small></summary>
+
+
+The character or string rendered between individual terms when **Terms** is **Show**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Post Content</strong></summary>
+
+
+The Post Content section controls the rendered post body and the optional read-more link. Available when **Layout** is **Columns**, **Masonry**, or **List**.
+
+<details>
+<summary><strong>Post Content settings</strong></summary>
+
+
+<details>
+<summary><strong>Content</strong> <small>Default: Show</small></summary>
+
+
+Shows or hides the post content area for each item.
+</details>
+
+<details>
+<summary><strong>Content Type (List Only)</strong> <small>Default: Excerpt</small></summary>
+
+
+Selects whether the post body renders as a trimmed excerpt or the full post content. Available when **Layout** is **List**.
+
+- **Excerpt:** Renders the WordPress excerpt, optionally trimmed to a fixed word count.
+- **Full Text:** Renders the complete post content.
+
+<details>
+<summary><strong>Content Length</strong></summary>
+
+
+<details>
+<summary><strong>Content Length (Excerpt Only)</strong></summary>
+
+
+Sets the maximum number of words rendered in the excerpt when **Content Type** is **Excerpt**. Leave empty to use the default WordPress excerpt length.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>More Link</strong> <small>Default: Hide</small></summary>
+
+
+Shows or hides an inline read-more link at the end of each post.
+
+<details>
+<summary><strong>More Link Text</strong></summary>
+
+
+<details>
+<summary><strong>More Link Text</strong> <small>Default: Read More</small></summary>
+
+
+The text used for the inline read-more link when **More Link** is **Show**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+### Style Tab
+
+The Style tab controls the visual appearance of post cards, text, gallery overlays, and the gallery hover icon.
+
+<details>
+<summary><strong>Posts</strong></summary>
+
+
+The Posts section controls per-card styling. Available when **Layout** is **Columns**, **Masonry**, or **List**.
+
+<details>
+<summary><strong>Posts settings</strong></summary>
+
+
+<details>
+<summary><strong>Post Alignment</strong></summary>
+
+
+Sets the horizontal text alignment used inside each post.
+</details>
+
+<details>
+<summary><strong>Post Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of each post container.
+</details>
+
+<details>
+<summary><strong>Border settings</strong></summary>
+
+Border settings control border style, width, color, radius, and related responsive border controls where available.
+
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Text</strong></summary>
+
+
+The Text section controls the typography and color of the title, post info, content, and inline links. Available when **Layout** is **Columns**, **Masonry**, or **List**.
+
+<details>
+<summary><strong>Text settings</strong></summary>
+
+
+<details>
+<summary><strong>Title Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the post title link.
+</details>
+
+<details>
+<summary><strong>Title Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post title.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Post Info Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of post info text such as the author, date, and comment count.
+</details>
+
+<details>
+<summary><strong>Post Info Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post info row.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Content Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of the post content text.
+</details>
+
+<details>
+<summary><strong>Content Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the post content.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+
+<details>
+<summary><strong>Link Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of inline links inside the post content.
+</details>
+
+<details>
+<summary><strong>Link Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the color of inline links inside the post content on hover.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Hover Transition (Gallery Only)</strong> <small>Default: Fade</small></summary>
+
+
+Sets the transition used when the gallery overlay appears on hover. Available when **Layout** is **Gallery**.
+
+- **Fade:** Cross-fades the overlay over the image.
+- **Slide Up:** Slides the overlay in from the bottom.
+- **Slide Down:** Slides the overlay in from the top.
+- **Scale Up:** Scales the overlay in from a smaller size.
+- **Scale Down:** Scales the overlay in from a larger size.
+
+</details>
+
+<details>
+<summary><strong>Overlay Colors (Gallery Only)</strong></summary>
+
+
+The Overlay Colors section styles the text and background of the hover overlay rendered on top of each gallery image. Available when **Layout** is **Gallery**.
+
+<details>
+<summary><strong>Overlay Colors settings</strong></summary>
+
+
+<details>
+<summary><strong>Overlay Text Color</strong> <small>Default: ffffff; Supports: Field Connections</small></summary>
+
+
+Sets the color of the post title displayed inside the overlay.
+</details>
+
+<details>
+<summary><strong>Overlay Background Color</strong> <small>Default: 333333; Supports: Field Connections</small></summary>
+
+
+Sets the background color of the overlay panel rendered behind the title text.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Icons (Gallery Only)</strong></summary>
+
+
+The Icons section adds an optional decorative icon to each gallery item. Available when **Layout** is **Gallery**.
+
+<details>
+<summary><strong>Icons settings</strong></summary>
+
+
+<details>
+<summary><strong>Use Icon for Posts</strong> <small>Default: No</small></summary>
+
+
+Enables a per-post icon rendered inside the gallery overlay.
+
+<details>
+<summary><strong>Post Icon</strong></summary>
+
+
+<details>
+<summary><strong>Post Icon (Use Icon for Posts Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Selects the icon used for each gallery item when **Use Icon for Posts** is **Yes**.
+</details>
+</details>
+
+<details>
+<summary><strong>Post Icon Position</strong></summary>
+
+
+<details>
+<summary><strong>Post Icon Position (Use Icon for Posts Only)</strong> <small>Default: Above Text</small></summary>
+
+
+Places the icon above or below the gallery title text when **Use Icon for Posts** is **Yes**. Options are **Above Text** and **Below Text**.
+</details>
+</details>
+
+<details>
+<summary><strong>Post Icon Color</strong></summary>
+
+
+<details>
+<summary><strong>Post Icon Color (Use Icon for Posts Only)</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the icon color when **Use Icon for Posts** is **Yes**.
+</details>
+</details>
+
+<details>
+<summary><strong>Post Icon Size</strong></summary>
+
+
+<details>
+<summary><strong>Post Icon Size (Use Icon for Posts Only)</strong> <small>Default: 24</small></summary>
+
+
+Sets the icon size in pixels when **Use Icon for Posts** is **Yes**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>DuoTone Icon Primary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the primary color applied to the icon.
+</details>
+
+<details>
+<summary><strong>DuoTone Icon Secondary Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+For Font Awesome DuoTone icons only: the secondary color applied to the icon.
+</details>
+</details>
+</details>
+
+### Query Tab
+
+The Query tab configures the source of the loop, the post type, sorting, dynamic and custom field filters, and how many posts are returned.
+
+<details>
+<summary><strong>Source</strong> <small>Default: Custom Query</small></summary>
+
+
+Selects whether the module renders its own custom query or inherits the current page's main WordPress query.
+
+- **Custom Query:** Builds a query using the post type, ordering, dynamic filters, and custom field filters configured in this tab.
+- **Main Query:** Uses the current page's main query, for example the archive query on a category page or the search query on a search results page.
+
+</details>
+
+<details>
+<summary><strong>Custom Query</strong></summary>
+
+
+The Custom Query section configures the post type, sorting, offset, and self-exclusion behavior used when **Source** is **Custom Query**.
+
+<details>
+<summary><strong>Custom Query settings</strong></summary>
+
+
+<details>
+<summary><strong>Post Type</strong> <small>Default: Post</small></summary>
+
+
+Selects one or more registered post types used in the query.
+</details>
+
+<details>
+<summary><strong>Ordering settings</strong></summary>
+
+Ordering settings control how queried posts or items are sorted, such as by date, title, menu order, or custom ordering options where available.
+
+</details>
+
+<details>
+<summary><strong>Offset</strong> <small>Default: 0</small></summary>
+
+
+Skips this many matching posts from the start of the query before returning results.
+</details>
+
+<details>
+<summary><strong>Exclude Current Post</strong> <small>Default: No</small></summary>
+
+
+Excludes the post being viewed from the query when the module renders inside a singular template or Themer layout.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Filtering settings</strong></summary>
+
+Filtering settings control which posts, terms, authors, or content types are included or excluded from the module output.
+
+</details>
+
+<details>
+<summary><strong>Custom field filter settings</strong></summary>
+
+Custom field filters limit queried content by matching custom field keys, values, and comparison rules where available.
+
+</details>
+
+### Pagination Tab
+
+The Pagination tab controls how additional pages of results are displayed and includes the styling controls for the load-more button.
+
+<details>
+<summary><strong>Pagination Style</strong> <small>Default: Numbers</small></summary>
+
+
+Selects how additional posts are loaded after the first page.
+
+- **Numbers:** Renders standard numbered pagination links below the loop.
+- **Scroll:** Loads additional posts automatically as the visitor scrolls toward the end of the loop.
+- **Load More Button:** Renders a button below the loop that loads additional posts on click.
+- **None:** Hides pagination and displays only the first page of results.
+
+<details>
+<summary><strong>Auto-scroll on Pagination</strong></summary>
+
+
+<details>
+<summary><strong>Auto-scroll on Pagination (Numbers Only)</strong> <small>Default: Yes</small></summary>
+
+
+Scrolls the page to the top of the loop when a new page of results is loaded. Appears when **Pagination Style** is **Numbers**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Posts Per Page</strong> <small>Default: 10</small></summary>
+
+
+Sets the maximum number of posts returned per page of results.
+</details>
+
+<details>
+<summary><strong>No Results Message</strong> <small>Default: Sorry, we couldn't find any posts. Please try a different search.</small></summary>
+
+
+The message displayed when the query returns no posts.
+</details>
+
+<details>
+<summary><strong>Show Search</strong> <small>Default: Show</small></summary>
+
+
+Renders a WordPress search form below the no-results message when no posts are found.
+</details>
+
+<details>
+<summary><strong>Load More Button (Load More Button Only)</strong></summary>
+
+
+The Load More Button section configures the button text and the loading-state label used during AJAX requests. Available when **Pagination Style** is **Load More Button**.
+
+<details>
+<summary><strong>Load More Button settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Text</strong> <small>Default: Load More</small></summary>
+
+
+The label displayed on the load-more button.
+</details>
+
+<details>
+<summary><strong>Loading text</strong></summary>
+
+
+The label displayed on the button while the next page of posts is being fetched. Falls back to **Loading...** when left empty.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Icon (Load More Button Only)</strong></summary>
+
+
+The Button Icon section adds an optional icon to the load-more button. Available when **Pagination Style** is **Load More Button**.
+
+<details>
+<summary><strong>Button Icon settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon</strong> <small>Supports: Field Connections</small></summary>
+
+
+Selects the icon rendered next to the button text.
+
+<details>
+<summary><strong>Button Icon Position</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon Position</strong> <small>Default: Before Text</small></summary>
+
+
+Places the icon before or after the button text when an icon is selected. Options are **Before Text** and **After Text**.
+</details>
+</details>
+
+<details>
+<summary><strong>Button Icon Visibility</strong></summary>
+
+
+<details>
+<summary><strong>Button Icon Visibility</strong> <small>Default: Always Visible</small></summary>
+
+
+Keeps the icon visible or fades it in on hover when an icon is selected. Options are **Always Visible** and **Fade In On Hover**.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Style (Load More Button Only)</strong></summary>
+
+
+The Button Style section sets the size and inner spacing of the load-more button. Available when **Pagination Style** is **Load More Button**.
+
+<details>
+<summary><strong>Button Style settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Width</strong> <small>Default: Auto</small></summary>
+
+
+Sets the button width to **Auto** or **Full Width**.
+</details>
+
+<details>
+<summary><strong>Button Padding</strong> <small>Supports: Responsive, Link Values</small></summary>
+
+
+The inner spacing of the load-more button.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Text (Load More Button Only)</strong></summary>
+
+
+The Button Text section controls the typography and color of the load-more button label. Available when **Pagination Style** is **Load More Button**.
+
+<details>
+<summary><strong>Button Text settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Text Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color of the button label.
+</details>
+
+<details>
+<summary><strong>Button Text Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the text color of the button label on hover and focus.
+</details>
+
+<details>
+<summary><strong>Button Typography</strong> <small>Supports: Responsive</small></summary>
+
+
+The font settings for the button label.
+
+<details>
+<summary><strong>Typography settings</strong></summary>
+
+Typography settings control font family, size, weight, line height, letter spacing, text transform, and responsive text styling where available.
+
+</details>
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Background (Load More Button Only)</strong></summary>
+
+
+The Button Background section controls the background color, fill style, and hover transition of the load-more button. Available when **Pagination Style** is **Load More Button**.
+
+<details>
+<summary><strong>Button Background settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Background Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the default background color of the button.
+</details>
+
+<details>
+<summary><strong>Button Background Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the background color of the button on hover and focus.
+</details>
+
+<details>
+<summary><strong>Button Background Style</strong> <small>Default: Flat</small></summary>
+
+
+Selects a **Flat** or **Gradient** background style for the button.
+</details>
+
+<details>
+<summary><strong>Button Background Animation</strong> <small>Default: Disabled</small></summary>
+
+
+Enables or disables the transition between the normal and hover background colors. Options are **Disabled** and **Enabled**.
+</details>
+</details>
+</details>
+
+<details>
+<summary><strong>Button Border (Load More Button Only)</strong></summary>
+
+
+The Button Border section controls the border style and hover color of the load-more button. Available when **Pagination Style** is **Load More Button**.
+
+<details>
+<summary><strong>Button Border settings</strong></summary>
+
+
+<details>
+<summary><strong>Button Border</strong> <small>Supports: Responsive</small></summary>
+
+
+The border style, width, color, and radius for the load-more button.
+</details>
+
+<details>
+<summary><strong>Button Border Hover Color</strong> <small>Supports: Field Connections</small></summary>
+
+
+Sets the border color of the button on hover and focus.
+</details>
+</details>
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.

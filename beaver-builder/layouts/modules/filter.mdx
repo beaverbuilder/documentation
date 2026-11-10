@@ -1,0 +1,336 @@
+---
+title: Filter
+sidebar_label: Filter
+description: "Use the Filter module to let visitors filter, search, and sort the posts shown by a Posts or Loop module on the same page."
+---
+
+Use the Filter module to let visitors filter, search, and sort the posts shown by a Posts or Loop module on the same page.
+
+## Usage
+
+Use Filter to add a filter bar that controls another module on the same page. The bar can include category or tag filters shown as buttons or dropdowns, a search field, a sort dropdown, a submit button, and a clear link. By default, changes are applied when the visitor clicks the submit button. Taxonomy buttons apply their term as soon as they are clicked, and the search field refreshes results while the visitor types when **Search As You Type** is on. Set **Submit** to **Auto on Change** to apply every change immediately. Each time results are filtered, the page address changes too, so visitors can share or bookmark the filtered view.
+
+### Supported Targets
+
+The Filter module can control these modules:
+
+- **Posts:** Filters the module's post query. Posts Slider and Posts Carousel are not supported.
+- **Loop:** Filters the module's post query. Requires [Beaver Themer](https://www.wpbeaverbuilder.com/beaver-themer/).
+- **Custom modules with a repeater:** Third-party and custom modules can opt in to have their repeater items filtered. For these targets the **Taxonomies** setting is ignored and the **Sort** control is not available.
+
+The target must be in the same layout as the Filter module. A Filter module placed in a Beaver Themer header or footer layout cannot reach a module in the page content, because **Auto-detect** and the **Target Module** list only include modules in the filter's own layout.
+
+### Pagination
+
+When the target module paginates its results, its pagination links load the requested page over AJAX, without reloading the page. Changing any filter value returns the results to page 1.
+
+## Module Settings
+
+The Filter module settings control which module is filtered, which controls appear in the bar, how the form submits, and how the bar is laid out and styled.
+
+### General Tab
+
+The General tab sets the target module, the filter controls shown in the bar, and the submit behavior.
+
+#### Target
+
+The Target section connects the filter bar to the module it controls.
+
+<details>
+<summary>Target</summary>
+
+**Target Module** · Default: `Auto-detect`
+
+Selects the Posts, Loop, or compatible custom module this filter controls. The dropdown lists every compatible module in the current layout, labeled with the module name and its Advanced tab **Label**, its **ID**, or a fragment of its node ID. With **Auto-detect**, the filter controls the first compatible module in the layout. Modules in other layouts, such as a Themer header or footer, are not listed. See [Supported Targets](#supported-targets) for the modules that can be filtered.
+
+**Scroll to Results** · Default: `Yes`
+
+Scrolls the page to the target module after results are filtered. Also scrolls to the target when a visitor opens a shared URL that already contains filter values.
+
+</details>
+
+#### Filters
+
+The Filters section chooses which controls appear in the bar and the order they appear in.
+
+<details>
+<summary>Filters</summary>
+
+**Taxonomy Filter** · Default: `Show`
+
+Shows or hides the taxonomy controls. When set to **Show**, the Taxonomies, Display As, Show "All" Option, Hide Empty Terms, and Show Counts fields appear.
+
+<details>
+<summary>Taxonomies</summary>
+
+**Taxonomies** · Default: `Category`
+
+Selects one or more public taxonomies to offer as filters. Each taxonomy renders as its own labeled control using the taxonomy's singular name, for example **Category** or **Tag**. This setting is ignored when the target is a custom module that provides its own filters for its repeater items.
+
+</details>
+
+<details>
+<summary>Display As</summary>
+
+**Display As** · Default: `Buttons`
+
+Sets how each taxonomy's terms are presented.
+
+- **Buttons:** Renders each term as a button. Clicking a button applies that term immediately.
+- **Dropdown:** Renders each taxonomy as a select menu.
+
+</details>
+
+<details>
+<summary>Show "All" Option</summary>
+
+**Show "All" Option** · Default: `Yes`
+
+Adds an **All** choice to each taxonomy control for clearing that taxonomy. In the dropdown display the option reads **All** followed by the taxonomy's plural name, for example **All Categories**.
+
+</details>
+
+<details>
+<summary>Hide Empty Terms</summary>
+
+**Hide Empty Terms** · Default: `Yes`
+
+Omits terms that have no published posts. For hierarchical taxonomies, posts in child terms count toward the parent.
+
+</details>
+
+<details>
+<summary>Show Counts</summary>
+
+**Show Counts** · Default: `Yes`
+
+Appends the number of posts in each term to its label, for example **News (12)**.
+
+</details>
+
+**Search** · Default: `Hide`
+
+Shows or hides a keyword search field labeled **Search**. When set to **Show**, the Search Placeholder and Search As You Type fields appear.
+
+<details>
+<summary>Search Placeholder</summary>
+
+**Search Placeholder** · Default: `Search...`
+
+The placeholder text displayed inside the search field.
+
+</details>
+
+<details>
+<summary>Search As You Type</summary>
+
+**Search As You Type** · Default: `Yes`
+
+Refreshes the results while the visitor types, after a short pause, regardless of the **Submit** setting. Applies to AJAX filtering only. In Page Reload mode the search submits with the button or on Enter.
+
+</details>
+
+**Sort** · Default: `Hide`
+
+Shows or hides a **Sort by** dropdown. When set to **Show**, the Sort Options field appears. The dropdown always starts with a **Default** choice that keeps the target module's own ordering.
+
+<details>
+<summary>Sort Options</summary>
+
+**Sort Options** · Default: `Newest First, Oldest First, Title A-Z, Title Z-A`
+
+Selects which sort choices the dropdown offers. Available options are **Newest First**, **Oldest First**, **Title A-Z**, **Title Z-A**, **Recently Modified**, **Least Recently Modified**, **Most Comments**, **Fewest Comments**, **Menu Order**, **Menu Order (Reversed)**, and **Random**.
+
+</details>
+
+**Item Order** · Default: `Filters, Search, Sort, Button + Clear`
+
+Drag to reorder the groups in the bar. **Filters** holds all taxonomy controls, **Search** the search field, **Sort** the sort dropdown, and **Button + Clear** the submit button and the clear link. Hidden groups keep their place in the order but do not render.
+
+</details>
+
+#### Behavior
+
+The Behavior section controls how the form submits and how filter values appear in the URL.
+
+<details>
+<summary>Behavior</summary>
+
+**Filtering** · Default: `AJAX (no page reload)`
+
+Sets how filtered results are loaded.
+
+- **AJAX (no page reload):** Fetches the filtered page in the background, swaps the target module's results in place, and updates the browser URL and history so the filtered view can be shared. Falls back to a page reload automatically if AJAX is unavailable.
+- **Page Reload:** Submits the form as a standard page load with the filter values in the query string.
+
+**URL Prefix**
+
+A short word, such as `shop`, prepended to this module's URL parameters. Only needed when a page has more than one Filter module, so their parameters stay separate. When the field is empty, the module uses the prefix `flf`, so the parameters are `flf_category`, `flf_search`, and `flf_sort`. With a prefix of `shop`, they become `shop_category`, `shop_search`, and `shop_sort`. A prefix is always applied because a bare taxonomy parameter such as `category` would send visitors to the WordPress term archive instead of the filtered page.
+
+**Submit** · Default: `Button Click`
+
+Sets when taxonomy and sort changes are applied.
+
+- **Button Click:** Dropdown and sort changes apply when the visitor clicks the submit button. Taxonomy buttons still apply their term as soon as they are clicked. The Button Text field appears.
+- **Auto on Change:** Changes apply as soon as a taxonomy or sort value changes.
+
+With either setting, the search field follows its own **Search As You Type** setting.
+
+The submit button is omitted when it has nothing to submit: with **Display As** set to **Buttons** and no search or sort shown, each taxonomy button already applies its term on click.
+
+<details>
+<summary>Button Text</summary>
+
+**Button Text** · Default: `Filter`
+
+The text displayed on the submit button. This field appears when **Submit** is set to **Button Click**.
+
+</details>
+
+**Reset Link** · Default: `Show`
+
+Shows or hides a **Clear** link that removes every filter value and returns the target module to its unfiltered first page. The link is visible only while a filter is active. It is also omitted when the taxonomy buttons include an **All** option and no search or sort is shown, because the **All** button already clears the selection.
+
+</details>
+
+### Style Tab
+
+The Style tab controls the arrangement of the bar and the appearance of the controls and buttons.
+
+#### Layout
+
+The Layout section arranges the filter groups within the bar. The bar is a flex container, and these fields map directly to its flex properties.
+
+<details>
+<summary>Layout</summary>
+
+**Direction** · Default: `Row` · _Responsive_
+
+Places the groups side by side in a **Row** or stacks them in a **Column**. The default is **Row** on desktop and **Column** on phones. Smaller breakpoints can be left empty to inherit the larger one.
+
+**Align** · _Responsive_
+
+Controls the vertical alignment (top row of the control) and horizontal alignment (bottom row) of the groups in the bar. By default groups align to the bottom edge, so controls line up with the submit button when labels differ in height.
+
+**Wrap** · Default: `Default` · _Responsive_
+
+Sets whether groups wrap onto a new line when the bar runs out of room. **Default** and **Wrap** allow wrapping, and **None** keeps every group on one line.
+
+**Gap** · Default: `10px` · _Responsive_
+
+The space between groups in the bar. Supports `px`, `em`, and `%` units.
+
+**Labels** · Default: `Show` · _Responsive_
+
+Shows or hides the labels above each control. Hidden labels remain in the markup for screen readers.
+
+**Filters Width** · Default: `Default` · _Responsive_
+
+Sets the width of the taxonomy group when **Direction** is **Row**. In **Column** direction every group is full width.
+
+- **Default:** Uses the group's natural width.
+- **Auto:** Sizes the group to its content without growing.
+- **Fill:** Grows the group to take up the remaining space.
+- **Half:** Sets the group to half the bar width, minus half the gap.
+- **Full Row:** Gives the group its own full-width row.
+
+**Search Width** · Default: `Default` · _Responsive_
+
+Sets the width of the search group using the same options as **Filters Width**.
+
+**Sort Width** · Default: `Default` · _Responsive_
+
+Sets the width of the sort group using the same options as **Filters Width**.
+
+**Button + Clear Width** · Default: `Default` · _Responsive_
+
+Sets the width of the group holding the submit button and clear link using the same options as **Filters Width**.
+
+</details>
+
+#### Controls
+
+The Controls section styles the dropdowns, the search field, and their labels.
+
+<details>
+<summary>Controls</summary>
+
+**Padding** · Default: `8`
+
+The inner spacing of the dropdowns and the search field.
+
+**Border**
+
+The border style, width, radius, and color of the dropdowns and the search field.
+
+**Background Color**
+
+The background color of the dropdowns and the search field.
+
+**Text Color**
+
+The text color of the dropdowns and the search field.
+
+**Label Typography**
+
+The font settings for the labels above each control.
+
+<Typography />
+
+**Control Typography**
+
+The font settings for the dropdowns and the search field.
+
+<Typography />
+
+</details>
+
+#### Button
+
+The Button section styles the submit button and, when **Display As** is set to **Buttons**, the taxonomy term buttons.
+
+<details>
+<summary>Button</summary>
+
+**Padding** · Default: `8`
+
+The inner spacing of the submit button and the taxonomy buttons.
+
+**Background Color**
+
+The background color of the submit button and the taxonomy buttons.
+
+**Text Color**
+
+The text color of the submit button and the taxonomy buttons.
+
+**Border**
+
+The border style, width, radius, and color of the submit button and the taxonomy buttons.
+
+**Typography**
+
+The font settings for the submit button and the taxonomy buttons.
+
+<Typography />
+
+</details>
+
+## Advanced tab
+
+The Advanced tab includes all the standard settings for margins, visibility, animations, and advanced HTML configurations.
+
+See the [Advanced tab](../advanced-tab/index.md) section for more information.
+
+## Developer Notes
+
+Use the `fl_builder_filter_target_slugs` filter to add a module to the list of module types the Filter module can target. The filter receives an array of module slugs, which defaults to `post-grid` and `loop`, and must return the modified array. Modules added this way appear in the **Target Module** dropdown and are picked up by **Auto-detect**.
+
+```php
+add_filter( 'fl_builder_filter_target_slugs', function( $slugs ) {
+	$slugs[] = 'my-custom-module';
+	return $slugs;
+} );
+```
+
+Adding a slug is not enough on its own. A module is only filtered if it builds its post query with `FLBuilderLoop::query()`, or if it declares its own facets with a `get_filter_facets()` method and filters its own repeater items from the active values.
