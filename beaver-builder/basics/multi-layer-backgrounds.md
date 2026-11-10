@@ -4,7 +4,7 @@ title: Multi-Layer Backgrounds
 sidebar_label: Multi-Layer Backgrounds
 ---
 
-Multi-Layer Backgrounds enables you to add multiple backgrounds to an individual row, column, or Box module.
+Multi-Layer Backgrounds enables you to add multiple backgrounds to an individual row, column, Box module, or Popup module.
 
 ![Multiple backgrounds](/img/beaver-builder/basics--multiple-backgrounds--1.jpg)
 
@@ -21,7 +21,7 @@ With Beaver Themer active, color and photo layers can be connected to [field con
 The field appears under a different name depending on where you open it.
 
 - **Rows and columns:** In the **Style** tab, open the **Background** section and set **Type** to **Multiple Backgrounds**. The **Background Layers** field appears below it.
-- **Box module:** In the **Appearance** section, set **Background Type** to **Advanced**. The **Children** section has the same control for the background applied to each child module.
+- **Box module:** In the **Container** tab, open the **Appearance** section and set **Background Type** to **Advanced**. The **Background Layers** field appears below it. The **Children** tab has the same control in its **Appearance** section, labeled **Background**, for the background applied to each child module.
 - **Popup module:** In the **Appearance** section, the **Background** and **Backdrop** fields are always layer fields.
 
 The field is responsive, so each breakpoint can hold its own set of layers.
@@ -38,13 +38,13 @@ The field starts empty and shows **Click + to add layers**. Each layer you add i
 
 Layers render in list order. The first layer in the list is on top and the last layer is at the bottom, so an opaque layer hides everything below it.
 
-For example, a solid color layer above a photo layer hides the photo completely. To show the photo through the color, lower the color's alpha value in the [color picker](/beaver-builder/essentials/color-picker), or move the photo layer above the color.
+For example, a solid color layer above a photo layer hides the photo completely. To show the photo through the color, lower the color's alpha value in the [color picker](/beaver-builder/basics/color-picker), or move the photo layer above the color.
 
 ### Reorder, duplicate, and delete layers
 
 Drag a layer up or down the list to change its position. Hover over a layer to reveal its actions on the right-hand side of the row.
 
-- **Duplicate** copies the layer, including its current settings, directly below the original.
+- **Duplicate** copies the layer, including its current settings, directly below the original. A field connection is not copied, so the duplicate of a connected layer shows the original's fallback color or image.
 - **Delete** removes the layer. Deleting a connected layer also removes its field connection.
 
 ## Layer types
@@ -53,7 +53,7 @@ Each layer type has its own picker and writes a different part of the final CSS.
 
 ### Color
 
-A color layer fills the whole element with a solid color. Click the layer to open the [color picker](/beaver-builder/essentials/color-picker), where you can set the color and its alpha value. Choosing a global or theme color from the picker's **Presets** tab stores the color as a CSS variable, so the layer follows that global color when it changes.
+A color layer fills the whole element with a solid color. Click the layer to open the [color picker](/beaver-builder/basics/color-picker), where you can set the color and its alpha value. Choosing a global or theme color from the picker's **Presets** tab stores the color as a CSS variable, so the layer follows that global color when it changes.
 
 ### Gradient
 
@@ -93,7 +93,7 @@ Click a stop to select it. The color picker, a position field, and a **Delete** 
 - **Add a stop:** Click an empty spot on the gradient bar to add a stop at that position. Click the swatch at either end of the bar to add a stop at the start or end.
 - **Change a stop's color:** Select the stop and choose a color in the picker. Global colors from the **Presets** tab are supported here too.
 - **Move a stop:** Drag the stop along the bar, or type a value from 0 to 100 in the position field.
-- **Delete a stop:** Select the stop and click the **Delete** button, double-click the stop, or press Backspace while it is selected. A gradient keeps at least two stops.
+- **Delete a stop:** Select the stop and click the **Delete** button, double-click the stop, or press Backspace while it is selected. Double-click and Backspace leave at least two stops in place. The **Delete** button has no such limit, so keep at least two stops for a valid gradient.
 
 </details>
 
@@ -109,7 +109,7 @@ Three buttons at the top of the dialog switch the image source.
 <summary>Source options</summary>
 
 - **Media Library:** Click **Select Image** to choose an image from the WordPress Media Library. Once an image is set, you can pick a different registered image size, click **Replace** to choose another image, or click **Remove** to clear it.
-- **URL:** Paste the direct URL of an image. A [field connection shortcode](/beaver-themer/field-connections/shortcode-syntax) also works here when Beaver Themer is active, although connecting the layer is the simpler option for post data.
+- **URL:** Paste the direct URL of an image. A [field connection shortcode](/beaver-themer/field-connections/syntax) also works here when Beaver Themer is active, although connecting the layer is the simpler option for post data.
 - **SVG:** Paste inline SVG markup. Beaver Builder encodes it as a data URL and uses it as the background image. Simple SVG code works best, for example:
 
   ```html title="Simple SVG background"
@@ -165,6 +165,6 @@ A connected layer shows a database icon and the data source's name in place of i
 
 ### How do connected layers render?
 
-A connected layer keeps the color or image you picked as its fallback. On the front end, Beaver Builder writes the connected value into the element's own inline style, so every instance gets its own value. Duplicated rows, Loop module items, and repeater rows each show their own post's image or color, and connections made at a single breakpoint apply only at that breakpoint.
+A connected layer keeps the color or image you picked as its fallback. On the front end, Beaver Builder writes the connected value into the element's own inline style, so every instance gets its own value. Duplicated rows and Loop module items each show their own post's image or color, and connections made at a single breakpoint apply only at that breakpoint.
 
 When Beaver Themer is deactivated, or a connection returns no usable value for the current page, the layer falls back to the color or image you picked. Photo connections accept image URLs, and color connections accept hex, `rgb()`, `rgba()`, `hsl()`, and `hsla()` values.
