@@ -57,6 +57,15 @@ Choose between **Fixed** or **Full-width** as the default setting for all rows. 
 
 Choose between **Fixed** or **Full-width** which will be the default for all rows. You can override this on a per row basis via the row settings.
 
+### Default Top-Level Container
+
+Sets the container that wraps a module when you drop it directly onto the layout, outside of any row.
+
+- **Row:** Wraps the module in a new row with a single column.
+- **Box:** Wraps the module in a [Box](/beaver-builder/layouts/modules/box) module. No column is added, so column-level settings such as width, responsive visibility, background, and padding do not apply.
+
+The default value is **Row**.
+
 ## Column Spacing
 
 ### Margin/Padding
