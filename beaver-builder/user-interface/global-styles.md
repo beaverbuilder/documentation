@@ -141,3 +141,9 @@ You also have the option to include your Global Color CSS Variable within the Be
 See the [Color Picker](basics/color-picker.md#css-variable-preset) article for more information.
 
 :::
+
+## Developer Reference
+
+Global colors are not the only settings available as CSS Variables. The text, heading, link, and button settings in the [Elements tab](#elements-tab) also generate CSS Variables, and as of Beaver Builder 2.12.1 all Global Styles variables are printed on every front-end page and in the block editor, so you can use them in your theme or custom CSS.
+
+See the [Global Styles CSS Variables](../developer/global-styles-css-variables.md) article for the full list of variable names.
