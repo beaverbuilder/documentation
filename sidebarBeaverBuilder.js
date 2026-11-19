@@ -500,6 +500,7 @@ module.exports = {
         "developer/module-blocks",
         "developer/container-modules",
         "developer/module-deprecations",
+        "developer/global-styles-css-variables",
         {
           type: "category",
           label: "How to's & Tips",
