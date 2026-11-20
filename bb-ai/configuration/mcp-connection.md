@@ -244,13 +244,16 @@ Tools for working with the individual rows, columns, and modules inside a layout
 
 ### Media
 
-One tool for getting images into your site. It is available to agents but is not shown in the tab's tool list.
+Tools for getting images into your site. They are available to agents but are not shown in the tab's tool list.
 
 | Tool | Description |
 | --- | --- |
 | Sideload Image | Sideloads a remote image URL into the media library. |
+| Generate Image | Generates an image with Nano Banana and saves it to the media library. |
 
-An agent cannot browse or search your media library, so it supplies an image by URL and this tool downloads it. Only `http` and `https` URLs are accepted, private and internal hosts are blocked, and SVG files are refused. Repeat calls with the same URL reuse the existing attachment instead of creating a duplicate. The connected user needs the `upload_files` capability.
+Generate Image creates a new image from a description. It needs a [Google Gemini API key](settings.md#google-gemini-api-key) and the `upload_files` capability, and each image is billed to your Google account.
+
+Sideload Image is for images that are not on your site yet: the agent supplies an image by URL and the tool downloads it into the media library. For images that are already uploaded, the agent can list, search, and place them with the media library tools under [WordPress site](#wordpress-site). Only `http` and `https` URLs are accepted, private and internal hosts are blocked, and SVG files are refused. Repeat calls with the same URL reuse the existing attachment instead of creating a duplicate. The connected user needs the `upload_files` capability.
 
 ### Themer
 
