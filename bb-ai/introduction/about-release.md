@@ -87,7 +87,7 @@ The following improvements have been made:
 
 - Set the position, size, repeat, and attachment of each background layer.
 - The color picker now includes your Beaver Builder saved, global, and theme colors.
-- Cmd+Click or Ctrl+Click to style several elements at once.
+- Shift+Click to style several elements at once.
 - The Design and Code tabs are on by default for new Beaver Builder installs. Existing sites keep their current setting.
 
 ### Block Editor

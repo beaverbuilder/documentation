@@ -95,7 +95,7 @@ A few controls are worth knowing about:
 
 - **Background layers**. A background is a stack of color, gradient, and image layers over a base color. Each layer has its own position, size, repeat, and attachment settings.
 - **Your site's colors**. The color picker includes your Beaver Builder saved, global, and theme colors, so a module can use the same colors as the rest of the site and follow them when they change.
-- **Styling several elements at once**. Cmd+Click on a Mac, or Ctrl+Click on Windows, adds an element to the selection. Every property you change then applies to all selected elements.
+- **Styling several elements at once**. Shift+Click adds an element to the selection. Every property you change then applies to all selected elements.
 
 The same Design tab is available on native rows, columns, and modules in Beaver Builder 2.12. See [Design tab](/beaver-builder/layouts/design) for the full reference of its controls.
 

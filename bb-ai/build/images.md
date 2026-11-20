@@ -111,7 +111,7 @@ An MCP connection lets an assistant outside WordPress, such as Claude, work on y
 
 ### How it works
 
-The outside assistant can browse your media library through the site's WordPress media tools, so it can find and place pictures you have already uploaded. It cannot generate images, and it has no access to the stock photo libraries the chat uses.
+The outside assistant can browse your media library through the site's WordPress media tools, so it can find and place pictures you have already uploaded. With a Google Gemini API key connected, it can also generate new images. It has no access to the stock photo libraries the chat uses.
 
 For a picture that is not on your site yet, it takes the web address of the image, saves that picture into your WordPress media library, and then places it on the page. Everything it adds this way becomes a normal media library item that you can reuse, rename, or delete later.
 
@@ -123,9 +123,17 @@ Give the assistant the address of the image along with where you want it.
 
 The assistant downloads it, saves it to your media library, and puts it on the page. To use a picture from your own computer, upload it to the WordPress media library first, then give the assistant its address.
 
+### Generating an image
+
+Once a [Gemini key is connected](#setting-it-up), you can ask the assistant for a new picture instead of supplying one.
+
+> Generate a wide hero image of a sunlit bakery counter for my home page.
+
+The assistant describes the picture to Gemini, saves the result to your media library, and places it on the page. Generation runs through Gemini whichever assistant you use, each image is billed to your Google account, and your WordPress account needs permission to upload files.
+
 ### What to expect
 
-A few rules apply to images added this way.
+A few rules apply to images added by address.
 
 - Only ordinary web addresses beginning with `http` or `https` work.
 - SVG files are refused, and so are addresses on private or internal networks.
@@ -134,7 +142,7 @@ A few rules apply to images added this way.
 - A broken or made-up image address in a page the assistant builds is replaced with a real stock photo, the same as in pages built by the chat, so you never get an empty image box.
 
 :::note
-The Unsplash connection and image generation are used by the chat only. An outside assistant can place pictures from your media library or from addresses it already knows, but it cannot search Unsplash or generate new images.
+The Unsplash connection is used by the chat only. An outside assistant can place pictures from your media library or from addresses it already knows, and can generate new ones with a Gemini key connected, but it cannot search Unsplash.
 :::
 
 ## Describing your images for screen readers
