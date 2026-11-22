@@ -42,17 +42,28 @@ To set up a connection, go to **Settings > Beaver Builder AI** in the WordPress 
 
 Both methods check the same three things, and the tab shows a warning with a fix for anything that needs attention:
 
-- The [MCP Adapter plugin](https://github.com/WordPress/mcp-adapter/releases) installed and active. Installing without activating is a common miss.
+- The [MCP Adapter plugin](https://github.com/WordPress/mcp-adapter/releases) installed and active. Installing without activating is a common miss. See [When another plugin includes the MCP Adapter](#when-another-plugin-includes-the-mcp-adapter) if a different plugin on your site ships its own copy.
 - Permalinks set to a structure that does not include `index.php`, such as Post name. Other structures break the REST URL that agents use to reach your site.
 - WordPress 6.9 or later, which the MCP Adapter requires.
 
-Site Requirements also checks that your site can reach the Beaver Builder AI service and the license server, and that the Beaver Builder AI service can reach your site. A host firewall that blocks either direction shows up here before you try to authorize.
+Site Requirements also checks that your site can reach the Beaver Builder AI service and the license server, and that your site's own connection endpoint answers over its public REST URL. A host firewall that blocks either direction shows up here before you try to authorize.
+
+The endpoint check also catches a plugin that blocks the REST API for visitors who are not logged in, which security, membership, and coming soon plugins often do. The check cannot tell which plugin is responsible, so it quotes the error message that plugin returned. Use that message to identify the plugin, then allow REST API access in its settings.
 
 When all checks pass, the tab collapses them into a single confirmation with a **Show details** link.
 
 :::note
 The MCP Adapter requirement is reported on the MCP Connection tab only. Earlier releases showed an "MCP Adapter plugin required" notice on every admin screen; that notice has been removed.
 :::
+
+#### When another plugin includes the MCP Adapter
+
+Some plugins include their own copy of the MCP Adapter and only start it when their own MCP feature is turned on. A copy that is present but not started does not give your site an MCP endpoint, so the MCP Adapter check stays unmet until one is running. Earlier releases reported the adapter as running in this case.
+
+When this happens, the check names the plugin that includes the adapter and gives you two ways to fix it:
+
+- Turn on the MCP feature in that plugin.
+- Install and activate the standalone MCP Adapter plugin.
 
 ### Connect via Beaver Builder AI
 
@@ -124,11 +135,12 @@ Copy it from your own settings page, since it contains details specific to your 
 After cloud authorization, add the MCP endpoint URL wherever your agent accepts MCP servers:
 
 - **Claude Desktop and claude.ai**: go to **Settings > Connectors > Add custom connector** and paste the endpoint URL.
+- **ChatGPT**: on chatgpt.com, go to **Plugins > Add > Add custom MCP server**, choose **Create as a plugin**, paste the endpoint URL, and sign in when ChatGPT asks. Use the web version. The Mac app's **Add MCP server** option makes a local entry that normal chat does not use. The same steps are on the MCP Connection tab under **Setting up in ChatGPT**.
 - **Claude Code**: run `claude mcp add` with the endpoint URL, or add it to your MCP configuration file.
 - **Cursor**: open **Settings > MCP** and add a new server with the endpoint URL.
 - **Windsurf**: open the MCP configuration panel and add the endpoint URL as a new server.
 
-Different AI applications name MCP connections differently. Some call them servers, others call them connectors or apps, as ChatGPT does. If your agent is not listed above, look for an MCP or server configuration section in its settings and add the endpoint URL there.
+Different AI applications name MCP connections differently. Some call them servers, and others call them connectors, apps, or plugins. If your agent is not listed above, look for an MCP or server configuration section in its settings and add the endpoint URL there.
 
 Each connected site announces itself to the agent under its own site title, so when you connect more than one site the agent can tell them apart and keeps its work pointed at the right one.
 
@@ -197,6 +209,17 @@ Tools for creating and managing design systems, the shared colors, typography, a
 | Update Design Tokens | Updates token values on a design system (affects all pages). |
 | Update Design System Assets | Updates shared CSS, JS, and fonts on a design system (affects all pages). |
 | Assign Design System | Attaches an existing design system to an existing page. |
+
+### Global Styles
+
+Tools for reading and changing [Beaver Builder Global Styles](/beaver-builder/user-interface/global-styles), the site-wide defaults for text, headings, links, buttons, and the global color palette.
+
+| Tool | Description |
+| --- | --- |
+| Get Global Styles | Returns the site's Global Styles settings and global color palette. |
+| Update Global Styles | Updates Global Styles settings and the global color palette (affects all pages). |
+
+These tools change Global Styles only. They do not change a design system or the settings of individual modules, either of which can take precedence on the pages it applies to. See [Design system vs Global Styles](../design-foundations/design-systems.md#design-system-vs-global-styles) for how the two relate. A Global Styles field that is set by a field connection cannot be changed through these tools, and they are unavailable on Beaver Builder Lite, which has no Global Styles.
 
 ### Specs
 
@@ -288,3 +311,9 @@ Turning them on takes a constant in `wp-config.php`, and once on they are availa
 :::warning
 Code run through these tools executes on your live site with administrator permissions. Keep them off on production sites unless you need them, and review what the agent proposes to run before it runs it.
 :::
+
+#### Logging
+
+Every call to the PHP and WP-CLI tools is logged, including calls that are refused or fail. Each entry records the time, the WordPress user, which tool was called, and the outcome. The code or command itself is not stored, only a hash of it.
+
+The log is saved in your site's database as the `fl_ds_site_abilities_code_log` option and keeps the 200 most recent entries. There is no screen for it in the WordPress admin. Treat it as a record of activity rather than a tamper-proof audit trail, since code run through these tools has the access needed to change or delete it.

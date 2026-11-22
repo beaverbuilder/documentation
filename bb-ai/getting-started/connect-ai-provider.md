@@ -31,7 +31,7 @@ Before entering an API key, set a monthly spending limit in the provider's billi
 
 2. Select the **Settings** tab. This tab is available to administrators only.
 
-3. Under **AI Providers**, paste your API key into the field for Anthropic, OpenAI, OpenRouter, or Google Gemini. For a Custom Endpoint, enter the server's URL instead, and an API key if it requires one.
+3. Under **AI Providers**, paste your API key into the field for Anthropic, OpenAI, OpenRouter, or Google Gemini. For a Custom Endpoint, enter the server's base URL, the model name, and an API key instead.
 
    Beaver Builder AI validates the key when you paste it or click away from the field. A green **Connected** badge appears when the connection is successful. If validation fails, the error message from the provider appears below the field.
 

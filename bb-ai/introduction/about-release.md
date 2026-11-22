@@ -24,13 +24,13 @@ Google Gemini is now available as a chat provider, with its own API key on the S
 
 ### Custom Endpoint Provider
 
-A new experimental Custom Endpoint provider allows you to connect OpenAI compatible servers such as Ollama and LM Studio.
+A new experimental Custom Endpoint provider allows you to connect OpenAI compatible servers such as Ollama, LM Studio, vLLM, and DeepSeek. Enter the server's base URL, a model name, and an API key.
 
 ### WordPress Site Tools for AI Clients
 
-Connected AI clients can now handle everyday WordPress site work, including managing posts, pages, custom fields, categories and tags, menus, and the media library. AI clients can also read and change the query settings of Posts and Loop modules.
+Connected AI clients can now handle everyday WordPress site work, including managing posts, pages, custom fields, categories and tags, menus, and the media library. AI clients can also read and change the query settings of Posts and Loop modules, and read and update your Beaver Builder Global Styles.
 
-Optional PHP and WP-CLI tools let AI clients run code on your site. These are off by default and, once turned on in `wp-config.php`, are available to administrators only.
+Optional PHP and WP-CLI tools let AI clients run code on your site. These are off by default and, once turned on in `wp-config.php`, are available to administrators only. Every call to them is logged.
 
 The MCP Connection tab now lists every tool your AI client can use, grouped by Beaver Builder and WordPress site.
 
@@ -40,11 +40,11 @@ Text, link, and image fields in a custom module can now connect to the current p
 
 New ACF connections are available for fields, links, and images, with suggestions for your ACF field names. Featured Image, Site Logo, Avatar, Date, and Custom Field connections have settings for image size, date format, and meta key, and Custom Field connections suggest your site's registered meta keys.
 
-Repeaters can now list taxonomy terms, users, comments, or rows you enter yourself, and a repeater connected to your content shows nothing instead of sample rows when there are no results.
+Repeaters can now list taxonomy terms, users, comments, or rows you enter yourself. Repeaters that list users can show a profile field, such as first name or last name, and a repeater connected to your content shows nothing instead of sample rows when there are no results.
 
 ### Custom Query Filtering and Pagination
 
-Custom Query repeaters can now include or exclude specific posts, terms, and authors, sort by the order you picked them, and add multiple post types, Offset, Exclude Current Post, and sorting by a meta key. Custom Query repeaters can also paginate, and archive layouts get page links.
+Custom Query repeaters can now include or exclude specific posts, terms, and authors, sort by the order you picked them, and add multiple post types, Offset, Exclude Current Post, and sorting by a meta key. A Custom Query can also match the categories and tags of the current post, for "more from this category" lists. Custom Query repeaters can also paginate, and archive layouts get page links.
 
 ### Components in Custom Modules
 
@@ -54,7 +54,7 @@ Components placed in a custom module have their own toolbar with the component's
 
 ### Connection Diagnostics
 
-A new Test connection panel under Having trouble connecting checks each Beaver Builder host your site needs to reach, reports how long each took, and gives you a copyable report listing the hosts to allow. Site Requirements also checks that your site, the Beaver Builder AI service, and the license server can be reached.
+A new Test connection panel under Having trouble connecting checks each Beaver Builder host your site needs to reach, reports how long each took, and gives you a copyable report listing the hosts to allow. Site Requirements also checks that your site, the Beaver Builder AI service, and the license server can be reached, and reports when a plugin is blocking your site's REST API.
 
 A credential blocked or stripped by your host now comes back with advice for that host, WP Engine and nginx included.
 
@@ -76,6 +76,7 @@ The following improvements have been made:
 
 ### AI Clients
 
+- Adding your site to ChatGPT as a custom connector now works from start to finish.
 - AI clients can now connect a repeater to your real posts.
 - AI clients are now told which blocks an import removed from a page.
 - Spacing corrections on AI built pages now follow your design system's spacing scale instead of fixed values.
@@ -102,3 +103,4 @@ The following improvements have been made:
 - Tools → Export can now export only the design systems you select.
 - The Keystone Group home page now edits its repeating sections as lists.
 - Removed the "MCP Adapter plugin required" notice from every admin screen. The MCP Connection tab still shows whether the adapter is installed.
+- The MCP Connection tab no longer reports the MCP Adapter as running when another plugin includes it but has not started it.
