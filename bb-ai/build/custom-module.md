@@ -60,16 +60,20 @@ A repeater field can pull its items from your site's content instead of holding 
 
 Each top-level repeater in the Content tab has a header with two views, **Fields** and **Data Source**. The Fields view is the normal manual list of items. Switch to the Data Source view to bind the repeater to a source, then connect the repeater's fields to that source's properties:
 
-- **Custom Query** queries posts you configure. Choose one or more post types, the number of items, and the ordering, then narrow the results as far as you need. You can include or exclude specific posts, terms, and authors, add an **Offset** to skip the first few results, turn on **Exclude Current Post** so a related posts section never lists the page it is on, and sort by a meta key or by the order you picked the posts in.
+- **Custom Query** queries posts you configure. Choose one or more post types, the number of items, and the ordering, then narrow the results as far as you need. You can include or exclude specific posts, terms, and authors, match the current post's categories and tags, add an **Offset** to skip the first few results, turn on **Exclude Current Post** so a related posts section never lists the page it is on, and sort by a meta key or by the order you picked the posts in.
 - **Main Query** takes the page's own query and needs no configuration at all. On a blog, archive, or search results page, the repeater renders one item per post in that page's loop. On a single page or post it renders one item for that page itself, which is also what you see while editing. Main Query additionally offers the post Author as a connectable property.
 - **Terms** lists taxonomy terms, such as your categories or tags, one item per term.
-- **Users** lists your site's users, one item per user.
+- **Users** lists your site's users, one item per user. Alongside the name, bio, and avatar, the **Profile Field** property shows a field from each user's profile, such as first name or last name.
 - **Comments** lists comments, one item per comment.
 - **Rows** lists rows you enter yourself in the data source panel, which is a way to keep structured data on the module while still connecting fields to its columns.
 
 Choose **None** to clear the binding and return the repeater to its manual items.
 
 A repeater connected to your content shows nothing when the source has no results, rather than falling back to the sample rows from the Fields view, so an empty category does not render placeholder cards on the live site.
+
+To build a "more from this category" list, open a taxonomy filter on a Custom Query and choose **Match current post's terms** instead of picking terms yourself. The repeater then lists posts that share a category or tag with whichever post is being viewed. Pair it with **Exclude Current Post** so the post does not list itself.
+
+To show a profile field in a Users repeater, connect a field to **Profile Field** and enter the field's key, either `first_name` or `last_name`. Developers can allow other user meta keys with the `fl_ds_user_profile_field_keys` filter.
 
 Main Query is what makes a Custom module work as an archive layout: drop the module into a Beaver Themer archive layout or a blog page and it lists whatever that page is already querying, with no query settings to keep in sync. Data sources are configured on the module itself, not on [component instances](#saving-a-custom-module-as-a-component), and nested repeaters cannot be bound.
 
@@ -95,7 +99,7 @@ A few controls are worth knowing about:
 
 - **Background layers**. A background is a stack of color, gradient, and image layers over a base color. Each layer has its own position, size, repeat, and attachment settings.
 - **Your site's colors**. The color picker includes your Beaver Builder saved, global, and theme colors, so a module can use the same colors as the rest of the site and follow them when they change.
-- **Styling several elements at once**. Cmd+Click on a Mac, or Ctrl+Click on Windows, adds an element to the selection. Every property you change then applies to all selected elements.
+- **Styling several elements at once**. Shift+Click adds an element to the selection. Every property you change then applies to all selected elements.
 
 The same Design tab is available on native rows, columns, and modules in Beaver Builder 2.12. See [Design tab](/beaver-builder/layouts/design) for the full reference of its controls.
 

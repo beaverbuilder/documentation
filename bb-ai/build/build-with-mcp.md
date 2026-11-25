@@ -38,6 +38,7 @@ An agent works through a fixed set of tools, and those tools reach the whole sit
 - **Generate a style guide**. Produce a page that showcases a design system's colors, typography, and components.
 - **Edit existing pages**. Read a layout outline, rewrite content and code, change settings, add, move, and remove nodes in a batch, and update page CSS and JavaScript.
 - **Manage design systems**. Create a design system, update its tokens, shared CSS, JavaScript, and fonts, edit its creative guidance, and assign it to a page.
+- **Read and update Global Styles**. Change the site-wide text, heading, link, and button styles and the global color palette; see [Global Styles](../configuration/mcp-connection.md#global-styles).
 - **Create Builder templates**. Save static, global, and component templates for reuse; see [Saving a Custom module as a Component](custom-module.md#saving-a-custom-module-as-a-component) for how components behave.
 - **Create Themer layouts**. Build a Themer layout and set the location rules that decide where it applies, when Beaver Themer is active.
 - **Bind dynamic field connections**. Connect post and site data to a layout, when Beaver Themer is active.
@@ -56,7 +57,7 @@ A few things depend on being inside the editor, so they belong to the chat rathe
 - No live canvas. You review the result after the agent finishes rather than watching it build.
 - No canvas selection. You describe the page and section you mean instead of clicking it.
 - No screenshot or reference image as the source for a page, and no `.html` file upload.
-- No stock photo search and no image generation. Images come from your media library or by URL.
+- No stock photo search. Images come from your media library, by URL, or from image generation when a Google Gemini API key is connected.
 - No inferring a design system from your existing site or theme styles.
 
 ## Writing effective prompts
@@ -95,11 +96,13 @@ Labeling your rows, columns, and modules in the builder gives the agent clearer 
 
 ## Working with images
 
-An agent can browse your media library through the WordPress site tools and place images that are already uploaded, or bring in new ones by URL.
+An agent can browse your media library through the WordPress site tools and place images that are already uploaded, bring in new ones by URL, or generate them when a Google Gemini API key is connected.
 
 Give the agent a direct image URL and it downloads the file into your media library, then uses it in the layout. Only `http` and `https` URLs are accepted, private and internal hosts are blocked, and SVG files are refused. Asking for the same URL twice reuses the existing attachment instead of creating a duplicate, and the connected user needs the `upload_files` capability.
 
-If the agent writes a broken or made-up image URL into a page, the plugin replaces it with a real stock photo, the same as it does for pages built in the chat, so a page never arrives with empty image boxes. Image generation and Unsplash search belong to the built-in chat; see [Images](images.md#adding-images-with-an-mcp-connection).
+If the agent writes a broken or made-up image URL into a page, the plugin replaces it with a real stock photo, the same as it does for pages built in the chat, so a page never arrives with empty image boxes.
+
+With a Gemini key saved on the Settings tab, the agent can also generate an image from a description and save it to your media library. Each generated image is billed to your Google account. Unsplash search belongs to the built-in chat; see [Images](images.md#adding-images-with-an-mcp-connection).
 
 ## How changes are applied
 

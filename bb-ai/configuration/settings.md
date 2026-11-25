@@ -69,10 +69,18 @@ Get an API key at [aistudio.google.com](https://aistudio.google.com/).
 
 ### Custom Endpoint
 
-An experimental provider for OpenAI compatible servers, such as [Ollama](https://ollama.com/) and [LM Studio](https://lmstudio.ai/), including ones running on your own machine or network. Enter the server's URL, and an API key if the server requires one, then select the provider and one of its models under **Active AI provider**.
+An experimental provider for any server that speaks the OpenAI chat completions API, such as [Ollama](https://ollama.com/), [LM Studio](https://lmstudio.ai/), vLLM, DeepSeek, and Microsoft Foundry, including servers running on your own machine or network. The section is collapsed by default. Expand **Custom endpoint (experimental)** and fill in three fields:
+
+- **Base URL**. The server's address including `/v1`, such as `http://localhost:11434/v1` for Ollama. `/chat/completions` is added automatically, and only `http` and `https` addresses are accepted.
+- **Model name**. The name of the one model to use, typed exactly as the server expects it, such as `qwen3:32b`. It can be up to 40 characters.
+- **API Key**. The server's API key, stored encrypted like the other provider keys. If your server has no authentication, enter any value.
+
+Then select the provider under **Active AI provider**.
+
+The model you connect must support tool calling, which the assistant relies on to build and edit pages. Changing the model name moves new conversations to the new model. A page whose chat is already tied to the old name stops working until you clear that chat.
 
 :::note
-The Custom Endpoint provider is experimental. Results depend on the server and model you connect, and smaller local models may not follow the assistant's instructions as reliably as the hosted providers.
+The Custom Endpoint provider is experimental. Results depend on the server and model you connect, and smaller local models may not follow the assistant's instructions as reliably as the hosted providers. Beaver Builder support cannot help with setting up or troubleshooting third-party servers.
 :::
 
 ## Active AI provider
@@ -85,7 +93,7 @@ Select a provider, then pick a model from that provider's list:
 - **OpenAI** offers GPT models, including the GPT-5.6 family.
 - **OpenRouter** loads its model catalog from the OpenRouter API and refreshes it daily, giving access to models from many vendors.
 - **Google Gemini** offers Gemini models.
-- **Custom Endpoint** lists the models served by the OpenAI compatible server you connected.
+- **Custom Endpoint** offers the one model you entered under **Model name**.
 
 ## Image generation
 
